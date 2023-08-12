@@ -13,6 +13,7 @@
     <script src="assets/js/typeahead.bundle.js" ></script>
     <script src="assets/js/handlebars.min.js" ></script>
     <script src="assets/js/handsontable.full.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet" >
     <link href="assets/css/menu.css" rel="stylesheet" >
     <link href="assets/css/all.min.css" rel="stylesheet" >
@@ -103,12 +104,11 @@
     <script type="module">
         import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
         import {auth} from './modules/auth.js';
+        import {pa} from './modules/authParams.js';
         import {JSONPath} from './node_modules/jsonpath-plus/dist/index-browser-esm.js';        
 
 
-        let oidGitHub=300730, curwait=0, hot, a = new auth({
-                'navbar':d3.select('#navbarMain'),
-            }),
+        let oidGitHub=300730, curwait=0, hot, a = new auth(pa),
             perPage=100, repos=[], groups={'contributors':[],'langages':[]},refs={},
             configHeaders =[
                 {'lc':'dcterms:identifier','gh':'$.id','e':'','d':false},
@@ -133,11 +133,11 @@
 
         a.getUser(u=>{
             console.log(u);
-            /*
+            //
             perPage = 2;
             getAllRepo(u.loginGitHub,1,2);
-            */
-            getAllRepo(u.loginGitHub);
+            //
+            //getAllRepo(u.loginGitHub);
         });
 
 
@@ -429,17 +429,6 @@
 
         }
 
-        function getCellEditor(headers){
-            let editors = [];
-            headers.forEach(h=>{
-                switch (h) {
-                  default:
-                    editors.push({data:h, type: 'text'})                  
-                    break;
-                }
-              })
-            return editors;
-        }
         //merci à https://gist.github.com/jfreels/6814721
         var tabulate = function (data,columns) {
             var table = d3.select('#mainCont').append('table')
@@ -548,69 +537,6 @@
                 })
             , 10);
         }
-
-
-        //merci à https://medium.com/@danny.pule/export-json-to-csv-file-using-javascript-a0b7bc5b00d2
-        function convertToCSV(objArray) {
-            var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
-            var str = '';
-
-            for (var i = 0; i < array.length; i++) {
-                var line = '';
-                for (var index in array[i]) {
-                    if (line != '') line += ','
-
-                    line += array[i][index];
-                }
-
-                str += line + '\r\n';
-            }
-
-            return str;
-        }        
-
-
-    function exportCSVFile(headers, items, fileTitle) {
-        if (headers) {
-            items.unshift(headers);
-        }
-
-        // Convert Object to JSON
-        var jsonObject = JSON.stringify(items);
-
-        var csv = convertToCSV(jsonObject);
-
-        var exportedFilenmae = fileTitle + '.csv' || 'export.csv';
-
-        var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-        if (navigator.msSaveBlob) { // IE 10+
-            navigator.msSaveBlob(blob, exportedFilenmae);
-        } else {
-            var link = document.createElement("a");
-            if (link.download !== undefined) { // feature detection
-                // Browsers that support HTML5 download attribute
-                var url = URL.createObjectURL(blob);
-                link.setAttribute("href", url);
-                link.setAttribute("download", exportedFilenmae);
-                link.style.visibility = 'hidden';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            }
-        }
-    }
-
-    async function showLoader() {
-        curwait ++;
-        d3.select("#ws-loading").style("display", "inline-block")
-    }
-    function hideLoader() {
-        curwait --;
-        if(curwait<1){
-            d3.select("#ws-loading").style("display", "none");
-            curwait=0;
-        }       
-    }
 
     </script>
     

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omeka S : Statistiques d'utilisation de la base</title>
+    <script type="text/javascript" src="assets/js/d3.min.js"></script>
+    <script src="assets/js/bootstrap5.3.bundle.min.js" ></script>
+    <script src="assets/js/all.min.js" ></script>
+    <script src="assets/js/menuSunburst.js" ></script>
+    <script src="assets/js/jquery.min.js" ></script>
+    <script src="assets/js/typeahead.bundle.js" ></script>
+    <script src="assets/js/handlebars.min.js" ></script>
+    <script src="assets/js/handsontable.full.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet" >
+    <link href="assets/css/menu.css" rel="stylesheet" >
+    <link href="assets/css/all.min.css" rel="stylesheet" >
+    <link href="assets/css/handsontable.full.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet" >
+
+
+</head>
+<body> 
+    <body class="d-flex h-100 text-center text-white bg-dark">
+
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+            <header>
+                <div>
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-paragraphe-blanc.svg" alt="Logo" width="86"  class="d-inline-block align-text-top">
+                Omeka S Stats
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="navbarMain" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-file-export"></i>
+                        <span id="selectExport">Choisir un export</span>    
+                    </a>
+                    <ul id="ddExport" class="dropdown-menu">
+                    </ul>
+                </li>    
+            </ul>
+      </div>
+</div>
+      </nav>
+
+    </div>
+</header>
+
+
+      <main id='mainContent' class="px-3">
+
+        <div class="container-fluid text-center">
+            <div class="h-100" id="contentDetails">
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+        <p style="padding-top: 6px;">Design by <a href="https://samszo.univ-paris8.fr/"
+                class="text-white">Samuel
+                Szoniecky</a>
+            <a target="_blank" href="https://www.univ-paris8.fr/EA-349-Laboratoire-Paragraphe">
+                <img style="height: 40px;" src="assets/img/logo-paragraphe-blanc.svg"
+                    alt="Laboratoire Paragraphe" />
+            </a>
+            <a target="_blank" href="https://github.com/samszo/HDR">
+                <button type="button" class="btn btn-danger">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </button>
+            </a>
+            Template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+                href="https://twitter.com/mdo" class="text-white">@mdo</a>.
+        </p>
+    </footer>
+
+</div>
+
+    
+    <div id="loading-container">
+        <div class="loadingio-spinner-double-ring-4dols36ufwg" id="ws-loading">
+            <div class="ldio-6pd26u1x99x">
+            <div></div>
+            <div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+        </div></div>
+    </div>
+
+    <script type="module">
+        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+        import {auth} from './modules/auth.js';
+        import {pa} from './modules/authParams.js';
+        import {JSONPath} from './node_modules/jsonpath-plus/dist/index-browser-esm.js';        
+
+
+        let hot, a = new auth(pa);
+
+        a.getUser(u=>{
+            console.log(u);
+        });
+
+
+        setMenu('#ddExport',[
+            {'id':1,'name':'Toutes les données'},
+        ],'name',exportData);
+
+        getData('http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=SQL&action=statClassUsed');
+
+        function getData(url){
+            showLoader();
+            d3.json(url).then(data=>{
+                setTable(data);
+                hideLoader();
+            })            
+        }
+
+
+        function setMenu(s,data,lbl,fct){
+            d3.select(s).selectAll('li').data(data)
+            .join(
+                enter => enter.append('li')
+                    .append('a').attr('class',"dropdown-item")
+                    .html(d=>d[lbl])
+                    .on('click',fct),
+                update => update.select('a').html(d=>d[lbl]),
+                exit => exit.remove()
+            );
+        }
+
+        function exportData(e,d){
+            showLoader();
+            switch (d.id) {
+                case 1:
+                    const exportPlugin = hot.getPlugin('exportFile');
+                    exportPlugin.downloadFile('csv', {
+                        bom: false,
+                        columnDelimiter: ',',
+                        columnHeaders: true,
+                        exportHiddenColumns: true,
+                        exportHiddenRows: true,
+                        fileExtension: 'csv',
+                        filename: 'githubStats_'+a.loginGitHub+'[YYYY]-[MM]-[DD]',
+                        mimeType: 'text/csv',
+                        rowDelimiter: '\r\n',
+                        rowHeaders: true
+                    });                    
+                    break;            
+                default:
+                    break;
+            }
+            hideLoader();
+        }
+
+        function setTable(data){
+            let rectFooter = d3.select('footer').node().getBoundingClientRect(),
+                rectHeader = d3.select('header').node().getBoundingClientRect(),
+                headers = Object.keys(data[0]);
+
+            hot = new Handsontable(d3.select('#contentDetails').append('div').node(), {
+                className: 'htDark',
+                afterGetColHeader: function(col, TH){
+                    TH.className = 'darkTH'
+                },
+                colHeaders: true,
+                rowHeaders: true,
+                data:data,
+                colHeaders: headers,
+                height: rectFooter.top-rectFooter.height-rectHeader.bottom,
+                width: '100%',
+                licenseKey: 'non-commercial-and-evaluation',
+                customBorders: true,
+                dropdownMenu: true,
+                multiColumnSorting: true,
+                filters: true,
+                selectionMode:'single',
+                columns: getCellEditor(headers),
+                allowInsertColumn: false,
+                copyPaste: false,
+            });
+
+        }
+
+    </script>
+    
+</body>
+</html>
