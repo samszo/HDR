@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub : Statistiques utilisateur</title>
+    <script type="text/javascript" src="assets/js/d3.min.js"></script>
+    <script src="assets/js/bootstrap5.3.bundle.min.js" ></script>
+    <script src="assets/js/all.min.js" ></script>
+    <script src="assets/js/menuSunburst.js" ></script>
+    <script src="assets/js/jquery.min.js" ></script>
+    <script src="assets/js/typeahead.bundle.js" ></script>
+    <script src="assets/js/handlebars.min.js" ></script>
+    <script src="assets/js/handsontable.full.min.js"></script>
+    <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet" >
+    <link href="assets/css/menu.css" rel="stylesheet" >
+    <link href="assets/css/all.min.css" rel="stylesheet" >
+    <link href="assets/css/handsontable.full.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet" >
+
+
+</head>
+<body> 
+    <body class="d-flex h-100 text-center text-white bg-dark">
+
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+            <header>
+                <div>
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-paragraphe-blanc.svg" alt="Logo" width="86"  class="d-inline-block align-text-top">
+                GitHub Stats
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="navbarMain" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a id="btnImportAll" class="nav-link" href="#"><i class="fa-solid fa-download"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-file-export"></i>
+                        <span id="selectExport">Choisir un export</span>    
+                    </a>
+                    <ul id="ddExport" class="dropdown-menu">
+                    </ul>
+                </li>    
+            </ul>
+      </div>
+</div>
+      </nav>
+
+    </div>
+</header>
+
+
+      <main id='mainContent' class="px-3">
+
+        <div class="container-fluid text-center">
+            <div class="h-100" id="contentDetails">
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+        <p style="padding-top: 6px;">Design by <a href="https://samszo.univ-paris8.fr/"
+                class="text-white">Samuel
+                Szoniecky</a>
+            <a target="_blank" href="https://www.univ-paris8.fr/EA-349-Laboratoire-Paragraphe">
+                <img style="height: 40px;" src="assets/img/logo-paragraphe-blanc.svg"
+                    alt="Laboratoire Paragraphe" />
+            </a>
+            <a target="_blank" href="https://github.com/samszo/HDR">
+                <button type="button" class="btn btn-danger">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </button>
+            </a>
+            Template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+                href="https://twitter.com/mdo" class="text-white">@mdo</a>.
+        </p>
+    </footer>
+
+</div>
+
+    
+    <div id="loading-container">
+        <div class="loadingio-spinner-double-ring-4dols36ufwg" id="ws-loading">
+            <div class="ldio-6pd26u1x99x">
+            <div></div>
+            <div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+        </div></div>
+    </div>
+
+    <script type="module">
+        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+        import {auth} from './modules/auth.js';
+        import {JSONPath} from './node_modules/jsonpath-plus/dist/index-browser-esm.js';        
+
+
+        let oidGitHub=300730, curwait=0, hot, a = new auth({
+                'navbar':d3.select('#navbarMain'),
+            }),
+            perPage=100, repos=[], groups={'contributors':[],'langages':[]},refs={},
+            configHeaders =[
+                {'lc':'dcterms:identifier','gh':'$.id','e':'','d':false},
+                {'lc':'dcterms:title','gh':'$.name','e':'','d':false},
+                {'lc':'bibo:owner','gh':'$.owner.login','e':'','d':false},
+                {'lc':'schema:provider','e':' ^^resource','d':'GitHub'},
+                {'lc':'schema:startDate','gh':'$.created_at','e':'','d':false},
+                {'lc':'schema:endDate','gh':'$.updated_at','e':'','d':false},
+                {'lc':'forks_count','gh':'$.forks_count','e':'','d':false},
+                {'lc':'schema:serviceUrl','gh':'$.has_pages',e:' ^^uri','d':false},
+                {'lc':'bibo:contributorList','e':' ^^resource','d':true},
+                {'lc':'foaf:homepage','gh':'$.html_url','e':' ^^uri','d':false},
+                {'lc':'schema:programmingLanguage','gh':'$.language','e':' ^^resource','d':false},
+                {'lc':'schema:contentSize','e':'','d':'0'},
+                {'lc':'schema:size','gh':'$.size','e':'','d':false},
+                {'lc':'schema:upvoteCount','gh':'$.stargazers_count','e':'','d':false},
+                {'lc':'ma:hasContributedTo','e':'','d':'0'},
+                {'lc':'o:resource_class','e':'','d':'schema:Project'},
+                {'lc':'o:resource_template','e':'','d':'Projet'},
+            ];
+
+
+        a.getUser(u=>{
+            console.log(u);
+            /*
+            perPage = 2;
+            getAllRepo(u.loginGitHub,1,2);
+            */
+            getAllRepo(u.loginGitHub);
+        });
+
+
+        setMenu('#ddExport',[
+            {'id':1,'name':'Toutes les données'},
+            {'id':2,'name':'Les contributeurs'},
+            {'id':4,'name':'Les langages'},
+            {'id':3,'name':'Toutes les données pour import OMK'},
+        ],'name',exportData);
+
+        function setMenu(s,data,lbl,fct){
+            d3.select(s).selectAll('li').data(data)
+            .join(
+                enter => enter.append('li')
+                    .append('a').attr('class',"dropdown-item")
+                    .html(d=>d[lbl])
+                    .on('click',fct),
+                update => update.select('a').html(d=>d[lbl]),
+                exit => exit.remove()
+            );
+        }
+
+        function exportData(e,d){
+            showLoader();
+            switch (d.id) {
+                case 1:
+                    const exportPlugin = hot.getPlugin('exportFile');
+                    exportPlugin.downloadFile('csv', {
+                        bom: false,
+                        columnDelimiter: ',',
+                        columnHeaders: true,
+                        exportHiddenColumns: true,
+                        exportHiddenRows: true,
+                        fileExtension: 'csv',
+                        filename: 'githubStats_'+a.loginGitHub+'[YYYY]-[MM]-[DD]',
+                        mimeType: 'text/csv',
+                        rowDelimiter: '\r\n',
+                        rowHeaders: true
+                    });                    
+                    break;            
+                case 2:
+                    let mContrib = groups.contributors.map(c=>{
+                    return {
+                        'o:resource_class':'jdc:Actant',
+                        'dcterms:identifier':c.id,
+                        'foaf:account':c.login,
+                        'dcterms:title':'GitHub '+c.type+' : '+c.login,
+                        'schema:provider ^^resource':'GitHub',
+                        'foaf:accountServiceHomepage ^^uri':c.html_url,
+                        'Media url':c.avatar_url
+                        }
+                    });
+                    exportCSVFile(Object.keys(mContrib[0]),mContrib,'githubStats_'+a.loginGitHub+'_contributors');
+                break;            
+                case 4:
+                    let mLang = groups.langages.map(l=>{
+                    return {
+                        'o:resource_class':'skos:Concept',
+                        'skos:broader ^^resource':'72015|120165',
+                        'skos:prefLabel':l,
+                        'dcterms:title':l,
+                        }
+                    });
+                    exportCSVFile(Object.keys(mLang[0]),mLang,'githubStats_'+a.loginGitHub+'_langages');
+                break;            
+                case 3:
+                    let q, rs, nVals, nRow= {}, nData= [], gData = hot.getData(); 
+                    gData.forEach(d=>{
+                        //calcule les nouvelles valeurs
+                        nRow= {};
+                        configHeaders.forEach((ch,i)=>{
+                            if(ch.e==" ^^resource" && d[i]){
+                                //remplace les valeurs textes par les identifiant de resource omk
+                                switch (ch.lc) {
+                                    case 'schema:provider':
+                                        nRow[ch.lc+ch.e]=oidGitHub;    
+                                        break;
+                                    case 'bibo:contributorList':                                        
+                                        nVals = []
+                                        d[i].split('|').forEach(r=>{
+                                            if(!refs[r]){
+                                                    q = 'property[0][property]='
+                                                    +a.omk.getPropId('foaf:accountServiceHomepage')
+                                                    +'&property[0][type]=eq&property[0][text]=https://github.com/'+r;
+                                                rs = a.omk.searchItems(q);
+                                                if(rs){
+                                                    nVals.push(rs[0]['o:id']);
+                                                    refs[r]=rs[0]['o:id'];
+                                                }else{
+                                                    refs[r]=' ';
+                                                    console.log("pas d'identifiant dans omk : "+q);
+                                                }     
+                                            }else nVals.push(refs[r]);
+ 
+                                        });
+                                        nRow[ch.lc+ch.e]=nVals.join('|');    
+                                        break;
+                                    case 'schema:programmingLanguage':                                        
+                                        nVals = []
+                                        d[i].split('|').forEach(r=>{
+                                            if(!refs[r]){
+                                                    q = 'property[0][property]='+a.omk.getPropId('skos:altLabel')
+                                                    +'&property[0][type]=eq&property[0][text]='+r
+                                                    +'&property[1][property]='+a.omk.getPropId('skos:broader')
+                                                    +'&property[1][type]=res&property[1][text]=72015'
+                                                    +'&property[2][property]='+a.omk.getPropId('skos:broader')
+                                                    +'&property[2][type]=res&property[2][text]=120165';
+                                                rs = a.omk.searchItems(q);
+                                                if(rs.length){
+                                                    nVals.push(rs[0]['o:id']);
+                                                    refs[r]=rs[0]['o:id'];
+                                                }else{
+                                                    refs[r]=' ';
+                                                    console.log("pas d'identifiant dans omk : "+q);
+                                                }     
+                                            }else nVals.push(refs[r]);
+ 
+                                        });
+                                        nRow[ch.lc+ch.e]=nVals.join('|');    
+                                        break;
+                                }                                
+                            }else nRow[ch.lc+ch.e]=d[i];
+                        })
+                        nData.push(nRow);
+                    })
+                    exportCSVFile(Object.keys(nData[0]),nData,'githubStats_'+a.loginGitHub+'_toOmk');
+                break;            
+                default:
+                    break;
+            }
+            hideLoader();
+        }
+
+
+        async function fetchUserRepo(un,p=1) {
+            const prs = await a.octo.rest.repos.listForUser({
+                username:un,
+                page:p,
+                per_page: perPage,
+            });
+            return prs;
+        }
+        async function fetchRepoContributors(un,r,p=1) {
+
+            const ctbs = await a.octo.rest.repos.listContributors({
+                owner:un,
+                repo:r,
+                page:p,
+                per_page: perPage,
+            });
+            if(ctbs.data && ctbs.data.length){
+                ctbs.data.forEach(c=>{
+                    if(groups.contributors.filter(gc=>gc.id==c.id).length==0)groups.contributors.push(c);
+                })                        
+            }      
+            return ctbs;
+        }
+        async function fetchRepoPages(un,r,p=1) {
+
+            const pages = await a.octo.request('GET /repos/{owner}/{repo}/pages', {
+                owner:un,
+                repo: r
+            });
+
+            return pages;
+        }
+
+        async function fetchRepoLanguages(un,r,p=1) {
+
+            const langages = await a.octo.rest.repos.listLanguages({
+                owner:un,
+                repo: r
+            });
+            if(langages.data){
+                for (const l in langages.data) {
+                    if(groups.langages.filter(g=>g==l).length==0)groups.langages.push(l);
+                }
+            }      
+
+            return langages;
+        }
+
+        function getAllRepo(un,p=1,maxPage=100){
+            fetchUserRepo(un,p)
+                .then(prs => {
+                    if(prs.data.length){
+                        repos = repos.concat(prs.data);
+                        if(p<maxPage)getAllRepo(un,p+1,maxPage);
+                        else showRepos(un);
+                    }else{
+                        showRepos(un);
+                    }
+                })
+                .catch(err => console.error(err));
+        }
+        function getAllRepoInfos(fct,d,p=1,cb){
+            fct(d.o,d.r,p)
+                .then(infos => {
+                    if(!d[d.p])d[d.p]=[];
+                    if(infos.data && (infos.data.length || typeof infos.data === 'object')){
+                        d[d.p] = d[d.p].concat(infos.data);
+                        if(infos.data.length==perPage)getAllRepoInfos(fct,d,p+1,cb);
+                        else cb(d);
+                    }else{
+                        cb(d);
+                    }
+                })
+                .catch(err => console.error(err));
+        }
+
+        function showRepos(un){
+            repos.forEach(r=>{
+                if(!r.ctbs)r.ctbs=[];
+                //getAllContributors(un,r);
+            })            
+            let mRepos = repos.map(r=>{
+                let rs={};
+                configHeaders.forEach(ch=>{
+                    rs[ch.lc]=ch.d ? ch.d : JSONPath({path:ch.gh, json:r})[0];
+                })
+                return rs;
+                /*
+                return {
+                    'dcterms:identifier':r.id,
+                    'dcterms:title':r.name,
+                    'bibo:owner':r.owner.login,
+                    'schema:provider ^^resource':'GitHub',
+                    'schema:startDate':r.created_at,
+                    'schema:endDate':r.updated_at,
+                    'forks_count':r.forks_count,
+                    'schema:serviceUrl ^^uri':r.has_pages,
+                    'bibo:contributorList ^^resource':true,
+                    'foaf:homepage ^^uri':r.html_url,
+                    'schema:programmingLanguage ^^resource':r.language,
+                    'schema:contentSize':0,
+                    'schema:size':r.size,
+                    'schema:upvoteCount':r.stargazers_count,
+                    'ma:hasContributedTo':0,
+                    'o:resource_class':'schema:projet',
+                    'o:resource_template':'Projet'
+                    }
+                */
+                });
+            //tabulate(mRepos, Object.keys(mRepos[0]));
+            setTable(mRepos);
+            hideLoader();
+            console.log(repos);
+        }
+
+
+        function setTable(data){
+            let rectFooter = d3.select('footer').node().getBoundingClientRect(),
+                rectHeader = d3.select('header').node().getBoundingClientRect(),
+                headers = Object.keys(data[0]);
+
+            hot = new Handsontable(d3.select('#contentDetails').append('div').node(), {
+                className: 'htDark',
+                afterGetColHeader: function(col, TH){
+                    TH.className = 'darkTH'
+                },
+                colHeaders: true,
+                rowHeaders: true,
+                data:data,
+                colHeaders: headers,
+                height: rectFooter.top-rectFooter.height-rectHeader.bottom,
+                width: '100%',
+                licenseKey: 'non-commercial-and-evaluation',
+                customBorders: true,
+                dropdownMenu: true,
+                multiColumnSorting: true,
+                filters: true,
+                selectionMode:'single',
+                columns: getCellEditor(headers),
+                allowInsertColumn: false,
+                copyPaste: false,
+            });
+
+            data.forEach((d,i)=>{
+                headers.forEach((h,j)=>{
+                    getExtras({ p: h, v: d[h], 
+                                'id':'c_'+d['dcterms:identifier']+'_'+i,
+                                'ghid':d['dcterms:identifier'],
+                                'r':d['dcterms:title'],
+                                'o':d['bibo:owner'],
+                                'cell':{'r':i,'c':j}
+                            });
+                });
+            });
+
+        }
+
+        function getCellEditor(headers){
+            let editors = [];
+            headers.forEach(h=>{
+                switch (h) {
+                  default:
+                    editors.push({data:h, type: 'text'})                  
+                    break;
+                }
+              })
+            return editors;
+        }
+        //merci à https://gist.github.com/jfreels/6814721
+        var tabulate = function (data,columns) {
+            var table = d3.select('#mainCont').append('table')
+                var thead = table.append('thead')
+                var tbody = table.append('tbody')
+
+                thead.append('tr')
+                .selectAll('th')
+                    .data(columns)
+                    .enter()
+                .append('th')
+                    .attr('class',"text-danger")
+                    .text(function (d) { return d })
+
+                var rows = tbody.selectAll('tr')
+                    .data(data)
+                    .enter()
+                .append('tr')
+
+                var cells = rows.selectAll('td')
+                    .data(function(row) {
+                        return columns.map(function (column,i) {
+                            return { p: column, v: row[column], 
+                                'id':'c_'+row['dcterms:identifier']+'_'+i,
+                                'ghid':row['dcterms:identifier'],
+                                'r':row['dcterms:title'],
+                                'o':row['bibo:owner']
+                            }
+                    })
+                })
+                .enter()
+                .append('td')
+                .attr('id',d=>d.id)
+                .attr('class',"text-white")
+                .text(d=>d.v)
+                .each(getExtras)
+
+            return table;
+        }
+
+        function getExtras(d){
+            let cell = hot ? d.c : d3.select('#'+d.id);
+            switch (d.p) {
+                case 'bibo:contributorList':
+                    showExtras(cell, d, fetchRepoContributors, 'login');    
+                    break;            
+                case 'schema:serviceUrl':
+                    if(d.v)showExtras(cell, d, fetchRepoPages, 'html_url');
+                    else hot ? hot.setDataAtCell(d.cell.r, d.cell.c, '') : cell.html('');    
+                    break;
+                case 'schema:programmingLanguage':
+                    if(d.v)showExtras(cell, d, fetchRepoLanguages, 'html_url');
+                    break;           
+                default:
+                    break;
+            }
+        }
+
+        function showExtras(cell, d, fct, p){
+            let vals, pl=[], w = '<i class="fa-solid fa-water fa-shake"></i>';
+            hot ? hot.setDataAtCell(d.cell.r, d.cell.c, '?') : cell.html(w);
+            showLoader();
+            setTimeout(                    
+                getAllRepoInfos(fct,d,1,(data)=>{
+                    if(hot){
+                        hot.setDataAtCell(d.cell.r, d.cell.c, '');
+                        hot.scrollViewportTo(d.cell.r, d.cell.c);
+                    } else cell.html('');
+                    switch (d.p) {
+                        case 'schema:programmingLanguage':
+                            for (const property in data[d.p][0]) {
+                                pl.push({'l':property, 'size':data[d.p][0][property]});
+                            }
+                            vals = [
+                                pl.map(r=>r.size).join('|'),
+                                pl.map(r=>r.l).join('|')
+                            ]
+                            if(hot){
+                                hot.setDataAtCell(d.cell.r, d.cell.c, vals[1]);
+                                hot.setDataAtCell(d.cell.r, (d.cell.c+1), vals[0]);
+                            }else{
+                                d3.select('#c_'+d.ghid+'_11').html(vals[0]);
+                                cell.html(vals[1]);
+                            }
+                        break;
+                        case 'bibo:contributorList':
+                            vals=[
+                                data[d.p].map(r=>r[p]).join('|'),
+                                data[d.p].map(c=>c['contributions']).join('|')
+                            ];
+                            if(hot){
+                                hot.setDataAtCell(d.cell.r, d.cell.c, vals[0]);
+                                hot.setDataAtCell(d.cell.r,14, vals[1]);
+                            }else{
+                                d3.select('#c_'+d.ghid+'_14').html(vals[1]);
+                                cell.html(vals[0]);
+                            }
+                        break;
+                        default:
+                            vals = data[d.p].map(r=>r[p]).join('|');
+                            hot ? hot.setDataAtCell(d.cell.r, d.cell.c, vals)
+                            : cell.html(vals);
+                        break;
+                    }
+                    hideLoader();
+                })
+            , 10);
+        }
+
+
+        //merci à https://medium.com/@danny.pule/export-json-to-csv-file-using-javascript-a0b7bc5b00d2
+        function convertToCSV(objArray) {
+            var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
+            var str = '';
+
+            for (var i = 0; i < array.length; i++) {
+                var line = '';
+                for (var index in array[i]) {
+                    if (line != '') line += ','
+
+                    line += array[i][index];
+                }
+
+                str += line + '\r\n';
+            }
+
+            return str;
+        }        
+
+
+    function exportCSVFile(headers, items, fileTitle) {
+        if (headers) {
+            items.unshift(headers);
+        }
+
+        // Convert Object to JSON
+        var jsonObject = JSON.stringify(items);
+
+        var csv = convertToCSV(jsonObject);
+
+        var exportedFilenmae = fileTitle + '.csv' || 'export.csv';
+
+        var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        if (navigator.msSaveBlob) { // IE 10+
+            navigator.msSaveBlob(blob, exportedFilenmae);
+        } else {
+            var link = document.createElement("a");
+            if (link.download !== undefined) { // feature detection
+                // Browsers that support HTML5 download attribute
+                var url = URL.createObjectURL(blob);
+                link.setAttribute("href", url);
+                link.setAttribute("download", exportedFilenmae);
+                link.style.visibility = 'hidden';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        }
+    }
+
+    async function showLoader() {
+        curwait ++;
+        d3.select("#ws-loading").style("display", "inline-block")
+    }
+    function hideLoader() {
+        curwait --;
+        if(curwait<1){
+            d3.select("#ws-loading").style("display", "none");
+            curwait=0;
+        }       
+    }
+
+    </script>
+    
+</body>
+</html>
