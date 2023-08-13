@@ -4,4 +4,5 @@ export const pa = {
     apiOmk:'../omk/api',
     ident: 'lrLmPipjlVOHaoO5gDZEIHT9I3U3TZtZ',
     key:'yyaEBHRkIOlu0iQKYNrtmq9QzDM9pBFW',
+    keyGitHub:"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"        
 }

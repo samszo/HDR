@@ -13,6 +13,8 @@
     <script src="assets/js/typeahead.bundle.js" ></script>
     <script src="assets/js/handlebars.min.js" ></script>
     <script src="assets/js/handsontable.full.min.js"></script>
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
     <script src="assets/js/main.js"></script>
     <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet" >
     <link href="assets/css/menu.css" rel="stylesheet" >
@@ -62,7 +64,28 @@
       <main id='mainContent' class="px-3">
 
         <div class="container-fluid text-center">
-            <div class="h-100" id="contentDetails">
+            <div class="row">
+                <div class="col-6">
+                    <div class="h-100" id="contentDetails">
+                    </div>        
+                </div>
+                <div class="col-6 bg-light" id="contentChart">
+                    <div class="row">
+                        <h4 class="text-dark">Répartition des classes d'objet par nombre de valeur</h4>
+                        <div id="chart1">
+                        </div>        
+                    </div>        
+                    <div class="row">
+                        <h4 class="text-dark">Répartition des classes d'objet par nombre d'item</h4>
+                        <div id="chart2">
+                        </div>        
+                    </div>        
+                    <div class="row">
+                        <h4 class="text-dark">Répartition des classes d'objet par nombre de propriété</h4>
+                        <div id="chart3">
+                        </div>        
+                    </div>        
+                </div>
             </div>
         </div>
     </main>
@@ -99,44 +122,76 @@
     </div>
 
     <script type="module">
-        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-        import {auth} from './modules/auth.js';
-        import {pa} from './modules/authParams.js';
-        import {JSONPath} from './node_modules/jsonpath-plus/dist/index-browser-esm.js';        
+        import {modal} from './modules/modal.js';
 
-
-        let hot, a = new auth(pa);
-
-        a.getUser(u=>{
-            console.log(u);
-        });
-
+        let  m=new modal({'size':'modal-lg'}), hot,
+            rectFooter = d3.select('footer').node().getBoundingClientRect(),
+            rectHeader = d3.select('header').node().getBoundingClientRect();
 
         setMenu('#ddExport',[
             {'id':1,'name':'Toutes les données'},
         ],'name',exportData);
 
         getData('http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=SQL&action=statClassUsed');
-
+        
         function getData(url){
             showLoader();
-            d3.json(url).then(data=>{
+            d3.json(url, data=>{
                 setTable(data);
+                setGraph(data);
                 hideLoader();
             })            
         }
 
 
+        function setGraph(data){            
+            d3.select('#contentChart')
+                .style('height',rectFooter.top-rectFooter.height-rectHeader.bottom+'px')
+                .style('overflow','scroll');
+
+            let svg1 = dimple.newSvg("#chart1", 590, 400),
+                myChart1 = new dimple.chart(svg1, data);
+            myChart1.setBounds(20, 20, 460, 360)
+            myChart1.addMeasureAxis("p","nbVal");
+            let series1 = myChart1.addSeries("class label", dimple.plot.pie);
+            myChart1.addLegend(500, 20, 90, 300, "left");
+            myChart1.draw();
+            series1.addEventHandler("mouseover", function (e) {
+                console.log(e.seriesValue); 
+            });
+
+            let svg2 = dimple.newSvg("#chart2", 590, 400),
+                myChart2 = new dimple.chart(svg2, data);
+            myChart2.setBounds(20, 20, 460, 360)
+            myChart2.addMeasureAxis("p","nbItem");
+            myChart2.addSeries("class label", dimple.plot.pie);
+            myChart2.addLegend(500, 20, 90, 300, "left");
+            myChart2.draw();
+            let svg3 = dimple.newSvg("#chart3", 590, 400),
+                myChart3 = new dimple.chart(svg3, data);
+            myChart3.setBounds(20, 20, 460, 360)
+            myChart3.addMeasureAxis("p","nbProp");
+            myChart3.addSeries("class label", dimple.plot.pie);
+            myChart3.addLegend(500, 20, 90, 300, "left");
+            myChart3.draw();
+
+            d3.selectAll(".dimple-pie").on("click", function (e) {
+                let d = data.filter(f=>f['class label']==e.aggField[0])[0];
+                m.setBody('<h3 class="text-white bg-dark">Items de la classe : '+d['class label']+'</h3>'
+                +'<iframe class="fiche" src="../omk/s/fiches/item?resource_class_id='+d.id+'"/>');
+                m.setBoutons([{'name':"Close"}]);                
+                m.show();    
+                console.log(d);
+            });
+
+
+        }
+
         function setMenu(s,data,lbl,fct){
-            d3.select(s).selectAll('li').data(data)
-            .join(
-                enter => enter.append('li')
+            d3.select(s).selectAll('li').data(data).enter().append('li')
                     .append('a').attr('class',"dropdown-item")
                     .html(d=>d[lbl])
-                    .on('click',fct),
-                update => update.select('a').html(d=>d[lbl]),
-                exit => exit.remove()
-            );
+                    .on('click',fct);
         }
 
         function exportData(e,d){
@@ -164,9 +219,7 @@
         }
 
         function setTable(data){
-            let rectFooter = d3.select('footer').node().getBoundingClientRect(),
-                rectHeader = d3.select('header').node().getBoundingClientRect(),
-                headers = Object.keys(data[0]);
+            let headers = Object.keys(data[0]);
 
             hot = new Handsontable(d3.select('#contentDetails').append('div').node(), {
                 className: 'htDark',
