@@ -71,13 +71,18 @@
                 </div>
                 <div class="col-6 bg-light" id="contentChart">
                     <div class="row">
-                        <h4 class="text-dark">Répartition des classes d'objet par nombre de valeur</h4>
-                        <div id="chart1">
+                        <h4 class="text-dark">Répartition des objets par dimension existentielle</h4>
+                        <div id="chart4">
                         </div>        
                     </div>        
                     <div class="row">
                         <h4 class="text-dark">Répartition des classes d'objet par nombre d'item</h4>
                         <div id="chart2">
+                        </div>        
+                    </div>        
+                    <div class="row">
+                        <h4 class="text-dark">Répartition des classes d'objet par nombre de valeur</h4>
+                        <div id="chart1">
                         </div>        
                     </div>        
                     <div class="row">
@@ -137,12 +142,66 @@
         function getData(url){
             showLoader();
             d3.json(url, data=>{
+                data = setData(data);
                 setTable(data);
                 setGraph(data);
                 hideLoader();
             })            
         }
 
+        function setData(data){
+            //ajoute la dimension existentielle
+            let classToDim = {
+                'Article':[36,'physique'],
+                'Academic Article':[35,'physique'],
+                'Book':[40,'physique'],
+                'Book Section':[41,'physique'],
+                'Project':[1161,'physique'],
+                'Thesis':[88,'physique'],
+                'Webpage':[90,'physique'],
+                'Report':[82,'physique'],
+                'Document':[49,'physique'],
+                'Slideshow':[85,'physique'],
+                'Event':[25,'rapport'],
+                '':[,'physique'],
+                'ItemSet':[,'physique'],
+                'Media':[,'physique'],
+                'audio-visual document':[38,'physique'],
+                'Manuscript':[69,'physique'],
+                'Chapter':[665,'physique'],
+                'Parcours':[1402,'concept'],
+                'citation':[187,'physique'],
+                'Note':[73,'physique'],
+                'Person':[94,'actant'],
+                'Person':[1120,'actant'],
+                'Actant':[240,'actant'],
+                'Interactive Resource':[27,'physique'],
+                'Mention':[1400,'concept'],
+                'audio document':[37,'physique'],
+                'Annotation':[248,'rapport'],
+                'Concept':[137,'concept'],
+                'Département':[1397,'physique'],
+                'Organization':[1092,'actant'],
+                'Periodical':[76,'physique'],
+                'Élément constitutif':[1404,'concept'],
+                'Unité de Formation et de Recherche':[1399,'actant'],
+                'Ecole Doctorale':[1408,'actant'],
+                'Hospital':[885,'actant'],
+                'Laboratoire':[1409,'actant'],
+                'Library':[942,'actant'],
+                'School':[1239,'actant'],
+                'Université':[1398,'actant']
+            }
+            data.forEach(d=>{
+                if(!d['class label']){
+                    let cl= d.resource_type.split("\\")[2];
+                    d['class label'] = cl;
+                }
+                d.dimension = classToDim[d['class label']] ? classToDim[d['class label']][1] : 'physique';
+            })
+            return data;
+
+        }
 
         function setGraph(data){            
             d3.select('#contentChart')
@@ -167,6 +226,7 @@
             myChart2.addSeries("class label", dimple.plot.pie);
             myChart2.addLegend(500, 20, 90, 300, "left");
             myChart2.draw();
+
             let svg3 = dimple.newSvg("#chart3", 590, 400),
                 myChart3 = new dimple.chart(svg3, data);
             myChart3.setBounds(20, 20, 460, 360)
@@ -174,6 +234,24 @@
             myChart3.addSeries("class label", dimple.plot.pie);
             myChart3.addLegend(500, 20, 90, 300, "left");
             myChart3.draw();
+
+            let svg4 = dimple.newSvg("#chart4", 590, 400),
+                myChart4 = new dimple.chart(svg4, data);
+            myChart4.setBounds(60, 20, 460, 360)
+            myChart4.addCategoryAxis("x", "dimension");
+            myChart4.addMeasureAxis("y", "nbItem");
+            myChart4.addSeries("class label", dimple.plot.bar);
+            myChart4.addLegend(500, 20, 90, 300, "left");
+            myChart4.draw();
+
+            let svg5 = dimple.newSvg("#chart4", 590, 400),
+                myChart5 = new dimple.chart(svg5, data);
+            myChart5.setBounds(20, 20, 460, 360)
+            myChart5.addMeasureAxis("p","nbItem");
+            myChart5.addSeries("dimension", dimple.plot.pie);
+            myChart5.addLegend(500, 20, 90, 300, "left");
+            myChart5.draw();
+
 
             d3.selectAll(".dimple-pie").on("click", function (e) {
                 let d = data.filter(f=>f['class label']==e.aggField[0])[0];
@@ -194,7 +272,7 @@
                     .on('click',fct);
         }
 
-        function exportData(e,d){
+        function exportData(d){
             showLoader();
             switch (d.id) {
                 case 1:
@@ -206,7 +284,7 @@
                         exportHiddenColumns: true,
                         exportHiddenRows: true,
                         fileExtension: 'csv',
-                        filename: 'githubStats_'+a.loginGitHub+'[YYYY]-[MM]-[DD]',
+                        filename: 'omkStats_[YYYY]-[MM]-[DD]',
                         mimeType: 'text/csv',
                         rowDelimiter: '\r\n',
                         rowHeaders: true
