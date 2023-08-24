@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDC : Complexity</title>
+    <script type="text/javascript" src="assets/js/d3.min.js"></script>
+    <script src="assets/js/bootstrap5.3.bundle.min.js" ></script>
+    <script src="assets/js/all.min.js" ></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/handsontable.full.min.js"></script>
+    <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet" >
+    <link href="assets/css/menu.css" rel="stylesheet" >
+    <link href="assets/css/all.min.css" rel="stylesheet" >
+    <link href="assets/css/handsontable.full.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet" >
+
+
+</head>
+<body> 
+    <body class="d-flex h-100 text-center text-white bg-dark">
+
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+            <header>
+                <div>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark"
+                        data-bs-theme="dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/img/logo-paragraphe-blanc.svg" alt="Logo" width="86"
+                                    class="d-inline-block align-text-top">
+                                JDC Complexity
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul id="navbarMain" class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-file-export"></i>
+                                            <span id="selectExport">Choose an export</span>
+                                        </a>
+                                        <ul id="ddExport" class="dropdown-menu">
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex" >
+                                        <input id="iptQuery" class="form-control me-2" placeholder="Query" aria-label="Query">
+                                        <button id="btnQuery" class="btn btn-outline-success" >Search</button>
+                                    </li>                                
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+            </header>
+
+
+    <main id='mainContent' class="px-3">
+
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-4">
+                    <div class="row" id="contentInfos">
+                    </div>        
+                    <div class="row h-100" id="contentDetails">
+                    </div>        
+                </div>
+                <div class="col-8" id="contentChart">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+        <p style="padding-top: 6px;">Design by <a href="https://samszo.univ-paris8.fr/"
+                class="text-white">Samuel
+                Szoniecky</a>
+            <a target="_blank" href="https://www.univ-paris8.fr/EA-349-Laboratoire-Paragraphe">
+                <img style="height: 40px;" src="assets/img/logo-paragraphe-blanc.svg"
+                    alt="Laboratoire Paragraphe" />
+            </a>
+            <a target="_blank" href="https://github.com/samszo/HDR">
+                <button type="button" class="btn btn-danger">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </button>
+            </a>
+            Template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+                href="https://twitter.com/mdo" class="text-white">@mdo</a>.
+        </p>
+    </footer>
+
+</div>
+
+    
+    <div id="loading-container">
+        <div class="loadingio-spinner-double-ring-4dols36ufwg" id="ws-loading">
+            <div class="ldio-6pd26u1x99x">
+            <div></div>
+            <div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+        </div></div>
+    </div>
+
+    <script type="module">
+        import {modal} from './modules/modal.js';
+        import {jdcComplexePhysiques} from './modules/jdcComplexePhysiques.js';
+
+        let urlApiOmk = 'http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
+            m=new modal({'size':'modal-lg'}), hot,
+            rectFooter = d3.select('footer').node().getBoundingClientRect(),
+            rectHeader = d3.select('header').node().getBoundingClientRect();
+        /*
+        setMenu('#ddExport',[
+            {'id':1,'name':'Toutes les données'},
+        ],'name',exportData);
+        */
+
+        d3.select("#btnQuery").on('click',e=>{
+            let q = d3.select("#iptQuery").node().value; 
+            getData(urlApiOmk+q);
+        })
+
+        getData(urlApiOmk+'id=299743');
+        
+        function getData(url){
+            showLoader();
+            d3.json(url)
+                .then(data=>{
+                    console.log(data);
+                    let cont = d3.select('#contentChart');
+                    cont.select("svg").remove();
+                    let cp = new jdcComplexePhysiques({'data':data.Physique,'cont':cont});
+                    setTable(data.infos.resources)
+                    //d3.select("#contentInfos").html(JSON.stringify(data.infos.params))
+                    hideLoader();
+                })
+                .catch(error => {
+                    m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
+                    +error);
+                    m.setBoutons([{'name':"Close"}]);                
+                    m.show();    
+                    hideLoader();
+                    console.error('There was an error!', error);
+                });                
+        }
+
+
+        function setTable(data){
+            d3.select('#contentDetails').select('div').remove();
+            let headers = Object.keys(data[0]);
+
+            hot = new Handsontable(d3.select('#contentDetails').append('div').node(), {
+                className: 'htDark',
+                afterGetColHeader: function(col, TH){
+                    TH.className = 'darkTH'
+                },
+                colHeaders: true,
+                rowHeaders: true,
+                data:data,
+                colHeaders: headers,
+                height: rectFooter.top-rectFooter.height-rectHeader.bottom,
+                width: '100%',
+                licenseKey: 'non-commercial-and-evaluation',
+                customBorders: true,
+                dropdownMenu: true,
+                multiColumnSorting: true,
+                filters: true,
+                selectionMode:'single',
+                columns: getCellEditor(headers),
+                allowInsertColumn: false,
+                copyPaste: false,
+            });
+
+        }
+
+    </script>
+    
+</body>
+</html>
