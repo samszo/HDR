@@ -112,7 +112,7 @@
 
     <script type="module">
         import {modal} from './modules/modal.js';
-        import {jdcComplexePhysiques} from './modules/jdcComplexePhysiques.js';
+        import {jdcComplexe} from './modules/jdcComplexe.js';
 
         let urlApiOmk = 'http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
             m=new modal({'size':'modal-lg'}), hot,
@@ -138,7 +138,7 @@
                     console.log(data);
                     let cont = d3.select('#contentChart');
                     cont.select("svg").remove();
-                    let cp = new jdcComplexePhysiques({'data':data.Physique,'cont':cont});
+                    let cpx = new jdcComplexe({'data':data,'cont':cont});
                     setTable(data.infos.resources)
                     //d3.select("#contentInfos").html(JSON.stringify(data.infos.params))
                     hideLoader();
