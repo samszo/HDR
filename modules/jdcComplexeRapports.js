@@ -7,7 +7,7 @@ export class jdcComplexeRapports {
         this.svg = params.svg ? params.svg : false;
         this.nivMin = params.nivMin ? params.nivMin : false;
         this.nivMax = params.nivMax ? params.nivMax : false;
-        this.hexaBase = params.hexaBase ? params.hexaBase : false;
+        this.hexas = params.hexas ? params.hexas : false;
         // Specify the chart’s position.
         const svgX=params.x ? params.x : 0; 
         const svgY=params.y ? params.y : 0; 
@@ -21,7 +21,7 @@ export class jdcComplexeRapports {
         this.init = function () {
 
             console.log(me.data);
-            console.log(me.hexaBase);
+            console.log(me.hexas);
             setGraph();
         }
 
@@ -81,15 +81,17 @@ export class jdcComplexeRapports {
                 .attr('r', 10)
                 .style('fill', 'green');
             def.append('marker')
-                .attr('id', 'Arrow1Send')
-                .attr('refX', "0.0")
-                .attr('refY', "0.0")
+                .attr('id', 'ArrowSend')
+                .attr('viewBox', [0, 0, 20, 20])
+                .attr('refX', 10)
+                .attr('refY', 10)
+                .attr('markerWidth', 3)
+                .attr('markerHeight', 3)
                 .attr('orient', 'auto-start-reverse')
                 .append('path')
-                    .attr('d', "M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z ")
-                    .attr("fill","red")
-                    .attr('style',markerStyle)
-                    .attr("scale(0.2) rotate(180) translate(6,0)");
+                .attr('d', d3.line()( [[0, 0], [0, 20], [20, 10]]))
+                .attr('fill', 'red')                
+                .attr('style',markerStyle);
 
             const node = g
                 .selectAll('g.jdcRapport')
@@ -110,7 +112,7 @@ export class jdcComplexeRapports {
                 .style("fill", "none")
                 .attr("d", (d,i)=>draw(d,i))
                 .attr('marker-start', 'url(#DotS)')
-                .attr('marker-end', 'url(#Arrow1Send)')
+                .attr('marker-end', 'url(#ArrowSend)')
                 .attr('marker-mid', 'url(#SquareS)');
                                 
             node.append("title")
@@ -121,7 +123,9 @@ export class jdcComplexeRapports {
         function getDimNivPosi(id){
             if(!posisDimNiv[id]){
                 let g = d3.select('#'+id);
-                if(!g.size())console.log("ERROR getDimNivPosi "+id);
+                if(!g.size()){
+                    console.log("ERROR getDimNivPosi "+id);
+                }
                 posisDimNiv[id]=g.node().getBoundingClientRect();
             }
             return posisDimNiv[id];
@@ -160,23 +164,25 @@ export class jdcComplexeRapports {
                         sv.range([bb.y+bb.height-posiG.y,bb.y+bb.height-posiG.y]);                    
                         break;            
                     case 'Actant':
-                        //le long du centre de l'hexagone
-                        //TODO:positionner sur la ligne des cotés supérieur ou inférieur
-                        //suivant l'arrivée
-                        sh.range([bb.x, bb.width]);
-                        sv.range([bb.y+bb.height/2,bb.y+bb.height/2]);                    
+                        //le long du coté nord de l'hexagone du niveau
+                        sh.range([bb.x+me.hexas[ak[1]][1].x-posiG.x, bb.x+(me.hexas[ak[1]][1].x*3)-posiG.x]);
+                        sv.range([bb.y-posiG.y,bb.y-posiG.y]);                    
                         break;            
                     case 'Concept':
                         /*le long du 1/2 cercle nord
-                        //TODO:positionner sur la ligne des 1/2 cercle supérieur ou inférieur
-                        //suivant l'arrivée
-                        let pW = getPointsOnCircle(bb.x-posiG.x+bb.width/2,bb.y-posiG.y+bb.height/2,bb.height,0),
-                            pE = getPointsOnCircle(bb.x-posiG.x+bb.width/2,bb.y-posiG.y+bb.height/2,bb.height,180);
-                        sh.range([pW.x, pE.x]);
-                        sv.range([pW.y, pE.y]);
-                        */                    
+                        */
+                        let cx = bb.x-posiG.x+bb.width/2,
+                            cy = bb.y-posiG.y+bb.height/2,
+                            r = bb.height/2, 
+                            pc=keys.map((nb,i)=>{
+                                return getPointsOnCircle(cx,cy,r,180/keys.length*i+180);
+                            });
+                        sh = d3.scaleOrdinal(keys, pc.map(p=>p.x));
+                        sv = d3.scaleOrdinal(keys, pc.map(p=>p.y));    
+                        /*le long de l'équateur                    
                         sh.range([bb.x-posiG.x, bb.x-posiG.x+bb.width]);
                         sv.range([bb.y-posiG.y+bb.height/2, bb.y-posiG.y+bb.height/2]);
+                        */
                         break;            
                 }
                 scaleBands['s_'+k+'_h']=sh;    
@@ -185,7 +191,7 @@ export class jdcComplexeRapports {
             //calcule les échelles pour l'arrivée
             groupDimNivEnd.forEach((v,k,m) => {
                 ak=k.split('_');
-                bb = getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
+                bb = ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
                 keys = [];
                 me.data.details.forEach((r,i)=>{
                     if(r.o==ak[0] && r.no==ak[1])keys.push(i);
@@ -202,23 +208,26 @@ export class jdcComplexeRapports {
                     ;               
                 switch (ak[0]) {
                     case 'Physique':
-                        //le long du cotè bas du rectangle un peu en dessus
-                        sh.range([bb.x, bb.width]);
-                        sv.range([bb.y+bb.height+10,bb.y+bb.height+10]);                    
+                        //le long du cotè bas du rectangle
+                        sh.range([bb.x-posiG.x, bb.x-posiG.x+(ak[1]==0 ? bb.width/2 : bb.width)]);
+                        sv.range([bb.y+bb.height-posiG.y,bb.y+bb.height-posiG.y]);                    
                         break;            
                     case 'Actant':
-                        //le long du centre de l'hexagone un peu au dessus
-                        //TODO:positionner sur la ligne des cotés supérieur ou inférieur
-                        //suivant l'arrivée
-                        sh.range([bb.x, bb.width]);
-                        sv.range([10+bb.y+bb.height/2,10+bb.y+bb.height/2]);                    
+                        //le long du coté nord de l'hexagone du niveau
+                        sh.range([bb.x+me.hexas[ak[1]][1].x-posiG.x, bb.x+(me.hexas[ak[1]][1].x*3)-posiG.x]);
+                        sv.range([bb.y-posiG.y,bb.y-posiG.y]);                    
                         break;            
                     case 'Concept':
-                        //le long du centre du cercle un peu au dessus
-                        //TODO:positionner sur la ligne des 1/2 cercle supérieur ou inférieur
-                        //suivant l'arrivée
-                        sh.range([bb.x, bb.width]);
-                        sv.range([10+bb.y+bb.height/2,10+bb.y+bb.height/2]);                    
+                        /*le long du 1/2 cercle nord
+                        */
+                        let cx = bb.x-posiG.x+bb.width/2,
+                            cy = bb.y-posiG.y+bb.height/2,
+                            r = bb.height/2, 
+                            pc=keys.map((nb,i)=>{
+                                return getPointsOnCircle(cx,cy,r,180/keys.length*i+180);
+                            });
+                        sh = d3.scaleOrdinal(keys, pc.map(p=>p.x));
+                        sv = d3.scaleOrdinal(keys, pc.map(p=>p.y));    
                         break;            
                 }
                 scaleBands['e_'+k+'_h']=sh;    
@@ -244,17 +253,17 @@ export class jdcComplexeRapports {
                 switch (k) {
                     case 'Physique':
                         //le long du coté Nord de l'hexagone
-                        sh.range([bb.x+me.hexaBase[1].x-posiG.x, bb.x+(me.hexaBase[1].x*3)-posiG.x]);
+                        sh.range([bb.x+me.hexas[0][1].x-posiG.x, bb.x+(me.hexas[0][1].x*3)-posiG.x]);
                         sv.range([bb.y-posiG.y,bb.y-posiG.y]);                    
                         break;            
                     case 'Actant':
                         //le long du centre de l'hexagone
-                        sh.range([bb.x+me.hexaBase[0].x-posiG.x, bb.x+(me.hexaBase[0].x)-posiG.x]);
+                        sh.range([bb.x+me.hexas[0][0].x-posiG.x, bb.x+(me.hexas[0][0].x)-posiG.x]);
                         sv.range([bb.y-posiG.y+bb.height/2,bb.y-posiG.y+bb.height/2]);                    
                         break;            
                     case 'Concept':
                         //Le long du coté sud de l'hexagone
-                        sh.range([bb.x+me.hexaBase[1].x-posiG.x, bb.x+(me.hexaBase[1].x*3)-posiG.x]);
+                        sh.range([bb.x+me.hexas[0][1].x-posiG.x, bb.x+(me.hexas[0][1].x*3)-posiG.x]);
                         sv.range([bb.y+bb.height-posiG.y,bb.y+bb.height-posiG.y]);                    
                         break;            
                 }

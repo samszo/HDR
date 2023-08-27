@@ -11,7 +11,7 @@ export class jdcComplexeActants {
         this.aUrl = params.aUrl ? params.aUrl : false;
         this.nivMin = params.nivMin ? params.nivMin : false;
         this.nivMax = params.nivMax ? params.nivMax : false;
-        this.hexaBase;
+        this.hexas=[];
         // Specify the chart’s position.
         const svgX=params.x ? params.x : 0; 
         const svgY=params.y ? params.y : 0; 
@@ -82,17 +82,6 @@ export class jdcComplexeActants {
                 .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`)
                 ;//.on('click',clickDim);
             
-            /*
-            node.append("circle")
-                .attr("r", d => d.r)
-                .attr("id", d => 'conceptC_'+me.id+'_'+d.data.n)    
-                .attr("fill-opacity", 0.8)
-                .attr("stroke", "white")
-                .attr("fill", d => {
-                    d.color = color(d.data.n);
-                    return d.color;
-                });
-            */
             node.append('polygon')
                 .attr('points',d=>{
                     let r = d.depth==0 ? d.r+margeHexa : d.r, 
@@ -100,7 +89,7 @@ export class jdcComplexeActants {
                             new hexa.Point(r, r), new hexa.Point(0, 0)),
                         points=layout
                             .polygonCorners(new hexa.Hex(0,0,0));
-                    if(d.depth==0)me.hexaBase=points;
+                    me.hexas.push(points);
                     return points.map(p=>`${p.x},${p.y}`)
                         .join(" ");})
                 .attr('fill',d=>color(d.data.n))
@@ -115,7 +104,7 @@ export class jdcComplexeActants {
                             
             node.append("text")
                 .attr("clip-path", d => d.clipUid)
-                .attr("transform", d => d.children ? `translate(0,${d.r+10})` : '')
+                .attr("transform", d => d.children ? `translate(0,${d.r+5})` : '')
                 .selectAll("tspan")
                 .data((d,i) => i==0 ? ['n : '+d.data.n+', nb :'+d.data.nb+', c :'+d.data.c] :  ['n : '+d.data.n,'nb :'+d.data.nb,'c :'+d.data.c])
                 .join("tspan")

@@ -94,7 +94,7 @@ export class jdcComplexePhysiques {
             leaf.append("text")
                 .attr("clip-path", d => d.clipUid)
                 .selectAll("tspan")
-                .data(d => ['niveau : '+d.data.n,'nombre :'+d.data.nb,'complexité :'+d.data.c])
+                .data(d => ['n : '+d.data.n,'nb : '+d.data.nb,'c : '+d.data.c])
                 .join("tspan")
                 .attr("x", 3)
                 .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)

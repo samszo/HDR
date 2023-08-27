@@ -58,7 +58,7 @@ export class jdcComplexe {
                 'x':(width/2)-(gh/2),'y':gh*2.7}),
             cr = new jdcComplexeRapports({'data':me.data.Rapport,'svg':container,
                 'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
-                'width':width,'height':height, 'hexaBase':ca.hexaBase});
+                'width':width,'height':height, 'hexas':ca.hexas});
 
         }
 

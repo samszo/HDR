@@ -158,31 +158,34 @@
 
 
         function setTable(data){
-            d3.select('#contentDetails').select('div').remove();
             let headers = Object.keys(data[0]);
-
-            hot = new Handsontable(d3.select('#contentDetails').append('div').node(), {
-                className: 'htDark',
-                afterGetColHeader: function(col, TH){
-                    TH.className = 'darkTH'
-                },
-                colHeaders: true,
-                rowHeaders: true,
-                data:data,
-                colHeaders: headers,
-                height: rectFooter.top-rectFooter.height-rectHeader.bottom,
-                width: '100%',
-                licenseKey: 'non-commercial-and-evaluation',
-                customBorders: true,
-                dropdownMenu: true,
-                multiColumnSorting: true,
-                filters: true,
-                selectionMode:'single',
-                columns: getCellEditor(headers),
-                allowInsertColumn: false,
-                copyPaste: false,
-            });
-
+            if(hot){
+                hot.clear();
+                hot.updateData(data);
+                //hot.render()
+            }else{
+                hot = new Handsontable(d3.select('#contentDetails').append('div').node(), {
+                    className: 'htDark',
+                    afterGetColHeader: function(col, TH){
+                        TH.className = 'darkTH'
+                    },
+                    colHeaders: true,
+                    rowHeaders: true,
+                    data:data,
+                    colHeaders: headers,
+                    height: rectFooter.top-rectFooter.height-rectHeader.bottom,
+                    width: '100%',
+                    licenseKey: 'non-commercial-and-evaluation',
+                    customBorders: true,
+                    dropdownMenu: true,
+                    multiColumnSorting: true,
+                    filters: true,
+                    selectionMode:'single',
+                    columns: getCellEditor(headers),
+                    allowInsertColumn: false,
+                    copyPaste: false,
+                });
+            }
         }
 
     </script>
