@@ -1,6 +1,7 @@
 import {jdcComplexePhysiques} from '../modules/jdcComplexePhysiques.js';
 import {jdcComplexeConcepts} from '../modules/jdcComplexeConcepts.js';
 import {jdcComplexeActants} from '../modules/jdcComplexeActants.js';
+import {jdcComplexeRapports} from '../modules/jdcComplexeRapports.js';
 export class jdcComplexe {
     constructor(params) {
         var me = this;
@@ -36,22 +37,28 @@ export class jdcComplexe {
             );
 
             //ajoute les graphs par dimension            
-            let gh = 600,
+            let gh = height/4,
             //ajoute l'intériorité
             interior = container.append('circle')
-            .attr("r", width/2)
-            .attr("cx", width/2)
-            .attr("cy", gh*2.5)
-            .attr("stroke", "white")
-            .attr("fill", 'none'),        
-            cp = new jdcComplexePhysiques({'data':me.data.Physique,'cont':container,
+                .attr("r", gh*1.3)
+                .attr("cx", width/2)
+                .attr("cy", gh*2.7)
+                .attr("stroke", "white")
+                .attr("fill", 'none'),        
+            cp = new jdcComplexePhysiques({'data':me.data.Physique,'svg':container,
+                'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
                 'width':width,'height':gh}),
-            ca = new jdcComplexeActants({'data':me.data.Actant,'cont':container,
+            ca = new jdcComplexeActants({'data':me.data.Actant,'svg':container,
+                'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
                 'width':gh,'height':gh,
                 'x':(width/2)-(gh/2),'y':gh+(gh/3)}),
-            cc = new jdcComplexeConcepts({'data':me.data.Concept,'cont':container,
+            cc = new jdcComplexeConcepts({'data':me.data.Concept,'svg':container,
+                'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
                 'width':gh,'height':gh,
-                'x':(width/2)-(gh/2),'y':gh*2+(gh/3)});
+                'x':(width/2)-(gh/2),'y':gh*2.7}),
+            cr = new jdcComplexeRapports({'data':me.data.Rapport,'svg':container,
+                'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
+                'width':width,'height':height, 'hexaBase':ca.hexaBase});
 
         }
 

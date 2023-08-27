@@ -6,7 +6,12 @@ export class jdcComplexePhysiques {
         this.data = params.data ? params.data : false;
         this.idRoot = params.idRoot ? params.idRoot : false;
         this.cont = params.cont ? params.cont : d3.select('body');
-        this.aUrl = params.aUrl ? params.aUrl : false;
+        this.svg = params.svg ? params.svg : false;
+        this.nivMin = params.nivMin ? params.nivMin : false;
+        this.nivMax = params.nivMax ? params.nivMax : false;
+        // Specify the chart’s position.
+        const svgX=params.x ? params.x : 0; 
+        const svgY=params.y ? params.y : 0; 
         // Specify the chart’s dimensions.
         const width = params.width ? params.width : 1024;
         const height = params.height ? params.height : 600;
@@ -35,7 +40,9 @@ export class jdcComplexePhysiques {
 
             // Specify the color scale.
             const color = d3.scaleSequential()
-                .domain([0,me.data.totals.nivMax])
+                .domain([
+                    me.nivMin ? me.nivMin : 0,
+                    me.nivMax ? me.nivMax : me.data.totals.nivMax])
                 .interpolator(d3['interpolatePlasma']);
 
             // Compute the layout.
@@ -47,17 +54,20 @@ export class jdcComplexePhysiques {
             (me.data.root);
         
             // Create the SVG container.
-            svg = me.cont.append("svg")
+            svg = me.svg ? me.svg : me.cont.append("svg")
                 .attr("viewBox", [0, 0, width, height])
                 .attr("width", width)
                 .attr("height", height)
                 .attr("style", "max-width: 100%; height: auto;")
                 .style("font", "10px sans-serif");
-      
+            let g = svg.append('g').attr('id',me.id).attr('class','jdcPhysiqueG');
+            if(me.svg)g.attr("transform", `translate(${svgX},${svgY})`);
+          
             // Add a cell for each leaf of the hierarchy.
-            const leaf = svg.selectAll("g")
+            const leaf = g.selectAll("g")
                 .data(root)
                 .join("g")
+                .attr("id", d => "g_"+me.id+d.data.n)
                 .attr("transform", d => `translate(${(width-d.x1)},${d.y0})`);
 
             // Append a tooltip.
@@ -67,7 +77,7 @@ export class jdcComplexePhysiques {
 
             // Append a color rectangle. 
             leaf.append("rect")
-                .attr("id", d => (d.leafUid = "Rect"+me.id+d.data.n))
+                .attr("id", d => (d.leafUid = "rect_"+me.id+d.data.n))
                 .attr("fill", d => color(d.data.n))
                 .attr("fill-opacity", 0.8)
                 .attr("stroke", "white")
@@ -76,7 +86,7 @@ export class jdcComplexePhysiques {
 
             // Append a clipPath to ensure text does not overflow.
             leaf.append("clipPath")
-                .attr("id", d => (d.clipUid = "Clip"+me.id+d.data.n))
+                .attr("id", d => (d.clipUid = "clip_"+me.id+d.data.n))
                 .append("use")
                 .attr("xlink:href", d => '#'+d.leafUid);
 

@@ -1,10 +1,12 @@
 export class jdcComplexeConcepts {
     constructor(params) {
         var me = this;
-        this.id = params.id ? params.id : 'jdcCxCncpt';
+        this.id = params.id ? params.id : 'jdcCxCpt';
         this.data = params.data ? params.data : false;
         this.cont = params.cont ? params.cont : d3.select('body');
-        this.nivExt = params.nivExt ? params.nivExt : d3.select('body');
+        this.svg = params.svg ? params.svg : false;
+        this.nivMin = params.nivMin ? params.nivMin : false;
+        this.nivMax = params.nivMax ? params.nivMax : false;
         // Specify the chart’s position.
         const svgX=params.x ? params.x : 0; 
         const svgY=params.y ? params.y : 0; 
@@ -47,7 +49,7 @@ export class jdcComplexeConcepts {
                 (me.data.root);
                                                           
             // Create the SVG container.
-            svg = me.cont.append("svg")
+            svg = me.svg ? me.svg : me.cont.append("svg")
                 .attr("viewBox", [0, 0, width, height])
                 .attr("x", svgX)
                 .attr("y", svgY)
@@ -58,11 +60,10 @@ export class jdcComplexeConcepts {
 
             //simple circle packing
             let g = svg.append('g').attr('id',me.id).attr('class','jdcConceptG');
+            if(me.svg)g.attr("transform", `translate(${svgX},${svgY})`);
 
             g.style("font", "10px sans-serif")
-                .attr("text-anchor", "middle")
-                .attr("transform", `translate(${0},${0})`);
-                ;              
+                .attr("text-anchor", "middle");              
         
             const node = g
                 .selectAll('g.jdcConcept')
@@ -70,13 +71,13 @@ export class jdcComplexeConcepts {
                 .enter()
                 .append("g")
                 .attr('class','jdcConcept')
-                .attr('id',d=>'jdcDim_'+me.id+'_'+d.n)
+                .attr("id", d => "g_"+me.id+d.data.n)
                 .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`)
                 ;//.on('click',clickDim);
                             
                         
             node.append("circle")
-                .attr("r", d => d.r)
+                .attr("r", (d,i) => i==0 ? d.r+32 : d.r)
                 .attr("id", d => 'conceptC_'+me.id+'_'+d.data.n)    
                 .attr("fill-opacity", 0.8)
                 .attr("stroke", "white")
@@ -92,9 +93,9 @@ export class jdcComplexeConcepts {
                             
             node.append("text")
                 .attr("clip-path", d => d.clipUid)
-                .attr("transform", d => d.children ? `translate(0,${d.r-10})` : '')
+                .attr("transform", d => d.children ? `translate(0,${d.r+10})` : '')
                 .selectAll("tspan")
-                .data(d => ['niveau : '+d.data.n,'nombre :'+d.data.nb,'complexité :'+d.data.c])
+                .data((d,i) => i==0 ? ['n : '+d.data.n+', nb :'+d.data.nb+', c :'+d.data.c] : ['n : '+d.data.n,'nb :'+d.data.nb,'c :'+d.data.c])
                 .join("tspan")
                 .attr("fill", 'white')
                 .attr("stroke", 'none')

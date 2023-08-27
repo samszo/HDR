@@ -117,7 +117,8 @@
         let urlApiOmk = 'http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
             m=new modal({'size':'modal-lg'}), hot,
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
-            rectHeader = d3.select('header').node().getBoundingClientRect();
+            rectHeader = d3.select('header').node().getBoundingClientRect(),
+            rectChart = d3.select('#contentChart').node().getBoundingClientRect();
         /*
         setMenu('#ddExport',[
             {'id':1,'name':'Toutes les données'},
@@ -138,7 +139,9 @@
                     console.log(data);
                     let cont = d3.select('#contentChart');
                     cont.select("svg").remove();
-                    let cpx = new jdcComplexe({'data':data,'cont':cont});
+                    let cpx = new jdcComplexe({'data':data,'cont':cont
+                        ,'width':rectChart.width
+                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
                     setTable(data.infos.resources)
                     //d3.select("#contentInfos").html(JSON.stringify(data.infos.params))
                     hideLoader();
