@@ -138,22 +138,34 @@ export class jdcComplexeRapports {
             let groupDimNivStart =  d3.group(me.data.details, d => d.s+'_'+d.ns),
                 groupDimNivEnd =  d3.group(me.data.details, d => d.o+'_'+d.no),
                 groupDimMid =  d3.group(me.data.details, d => d.s),
-                gDims=[], ak, bb, keys;
+                gDims=[], ak, bb, keys={'start-end':[],'mid':[]};
+            //calcule les clefs
+            me.data.details.forEach((r,i)=>{
+                //les clefs sont les ressources de même niveau 
+                //pour avoir une place pour les start et les end 
+                if(!keys['start-end'][r.s])keys['start-end'][r.s]=[];
+                if(!keys['start-end'][r.s][r.ns])keys['start-end'][r.s][r.ns]=[];
+                keys['start-end'][r.s][r.ns].push(i);
+                if(!keys['start-end'][r.o])keys['start-end'][r.o]=[];
+                if(!keys['start-end'][r.o][r.no])keys['start-end'][r.o][r.no]=[];
+                keys['start-end'][r.o][r.no].push(i);
+                if(!keys['mid'][r.s])keys['mid'][r.s]=[];                
+                keys['mid'][r.s].push(i);
+            });
+
+
             //calcule les échelles pour le départ
             groupDimNivStart.forEach((v,k,m) => {
                 ak=k.split('_');
                 bb = ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
-                keys = [];
-                me.data.details.forEach((r,i)=>{
-                    if(r.s==ak[0] && r.ns==ak[1])keys.push(i);
-                });
-                let sh = d3.scaleBand()
-                    .domain(keys)
+                let scKeys = keys['start-end'][ak[0]][ak[1]],
+                    sh = d3.scaleBand()
+                    .domain(scKeys)
                     .paddingInner(0.2) // edit the inner padding value in [0,1]
                     .paddingOuter(0.2) // edit the outer padding value in [0,1]                
-                    ;               
-                let sv = d3.scaleBand()
-                    .domain(keys)
+                    ,               
+                    sv = d3.scaleBand()
+                    .domain(scKeys)
                     .paddingInner(0) // edit the inner padding value in [0,1]
                     .paddingOuter(0) // edit the outer padding value in [0,1]                
                     ;               
@@ -174,11 +186,11 @@ export class jdcComplexeRapports {
                         let cx = bb.x-posiG.x+bb.width/2,
                             cy = bb.y-posiG.y+bb.height/2,
                             r = bb.height/2, 
-                            pc=keys.map((nb,i)=>{
-                                return getPointsOnCircle(cx,cy,r,180/keys.length*i+180);
+                            pc=scKeys.map((nb,i)=>{
+                                return getPointsOnCircle(cx,cy,r,180/scKeys.length*i+180);
                             });
-                        sh = d3.scaleOrdinal(keys, pc.map(p=>p.x));
-                        sv = d3.scaleOrdinal(keys, pc.map(p=>p.y));    
+                        sh = d3.scaleOrdinal(scKeys, pc.map(p=>p.x));
+                        sv = d3.scaleOrdinal(scKeys, pc.map(p=>p.y));    
                         /*le long de l'équateur                    
                         sh.range([bb.x-posiG.x, bb.x-posiG.x+bb.width]);
                         sv.range([bb.y-posiG.y+bb.height/2, bb.y-posiG.y+bb.height/2]);
@@ -192,17 +204,14 @@ export class jdcComplexeRapports {
             groupDimNivEnd.forEach((v,k,m) => {
                 ak=k.split('_');
                 bb = ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
-                keys = [];
-                me.data.details.forEach((r,i)=>{
-                    if(r.o==ak[0] && r.no==ak[1])keys.push(i);
-                });
-                let sh = d3.scaleBand()
-                    .domain(keys)
+                let scKeys = keys['start-end'][ak[0]][ak[1]],
+                    sh = d3.scaleBand()
+                    .domain(scKeys)
                     .paddingInner(0.2) // edit the inner padding value in [0,1]
                     .paddingOuter(0.2) // edit the outer padding value in [0,1]                
-                    ;               
-                let sv = d3.scaleBand()
-                    .domain(keys)
+                    ,               
+                    sv = d3.scaleBand()
+                    .domain(scKeys)
                     .paddingInner(0) // edit the inner padding value in [0,1]
                     .paddingOuter(0) // edit the outer padding value in [0,1]                
                     ;               
@@ -223,11 +232,11 @@ export class jdcComplexeRapports {
                         let cx = bb.x-posiG.x+bb.width/2,
                             cy = bb.y-posiG.y+bb.height/2,
                             r = bb.height/2, 
-                            pc=keys.map((nb,i)=>{
-                                return getPointsOnCircle(cx,cy,r,180/keys.length*i+180);
+                            pc=scKeys.map((nb,i)=>{
+                                return getPointsOnCircle(cx,cy,r,180/scKeys.length*i+180);
                             });
-                        sh = d3.scaleOrdinal(keys, pc.map(p=>p.x));
-                        sv = d3.scaleOrdinal(keys, pc.map(p=>p.y));    
+                        sh = d3.scaleOrdinal(scKeys, pc.map(p=>p.x));
+                        sv = d3.scaleOrdinal(scKeys, pc.map(p=>p.y));    
                         break;            
                 }
                 scaleBands['e_'+k+'_h']=sh;    
@@ -236,17 +245,13 @@ export class jdcComplexeRapports {
             //calcule les échelles pour le milieu
             groupDimMid.forEach((v,k,m) => {
                 bb = getDimNivPosi("g_"+idsDim["Actant"]+"0");
-                keys = [];
-                me.data.details.forEach((r,i)=>{
-                    if(r.s==k)keys.push(i);
-                });
                 let sh = d3.scaleBand()
-                    .domain(keys)
+                    .domain(keys['mid'][k])
                     .paddingInner(0.2) // edit the inner padding value in [0,1]
                     .paddingOuter(0.2) // edit the outer padding value in [0,1]                
                     ;               
                 let sv = d3.scaleBand()
-                    .domain(keys)
+                    .domain(keys['mid'][k])
                     .paddingInner(0.2) // edit the inner padding value in [0,1]
                     .paddingOuter(0.2) // edit the outer padding value in [0,1]                
                     ;               

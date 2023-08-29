@@ -89,7 +89,7 @@ export class jdcComplexeActants {
                             new hexa.Point(r, r), new hexa.Point(0, 0)),
                         points=layout
                             .polygonCorners(new hexa.Hex(0,0,0));
-                    me.hexas.push(points);
+                    me.hexas[d.data.n]=points;
                     return points.map(p=>`${p.x},${p.y}`)
                         .join(" ");})
                 .attr('fill',d=>color(d.data.n))
