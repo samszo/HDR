@@ -133,6 +133,11 @@
             let q = d3.select("#iptQuery").node().value; 
             getData(urlApiOmk+q);
         })
+        d3.select("#btnUrl").on('click',e=>{
+            let u = d3.select("#iptUrl").node().value; 
+            getData(u);
+        })
+        
 
         getData(urlApiOmk+'id=299743');
         
@@ -141,6 +146,8 @@
             d3.json(url)
                 .then(data=>{
                     console.log(data);
+                    //vérifie si les data viennent d'un bulkexport
+                    if(!data.infos)data=data[0];
                     let cont = d3.select('#contentChart');
                     cont.select("svg").remove();
                     let cpx = new jdcComplexe({'data':data,'cont':cont
