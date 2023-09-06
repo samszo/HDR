@@ -29,11 +29,16 @@ export class jdcComplexeRapports {
         function setGraph(){
 
             // Specify the color scale.
+            const extNb = d3.extent(me.data.details.map(d=>d.nb));
+            /*
             const color = d3.scaleSequential()
-                .domain([
-                    me.nivMin ? me.nivMin : 0,
-                    me.nivMax ? me.nivMax : me.data.totals.nivMax])
-                .interpolator(d3['interpolatePlasma']);
+                .domain(extNb)
+                .interpolator(d3['interpolateReds']);
+            */
+            const color = d3.scaleLinear()
+                .domain(extNb)
+                .range(["green", "red"]),
+
                                                           
             // Create the SVG container.
             svg = me.svg ? me.svg : me.cont.append("svg")
@@ -61,13 +66,16 @@ export class jdcComplexeRapports {
             markerStyle="stroke:#000000;stroke-width:0pt;stroke-opacity:1;fill-opacity:1";
             def.append('marker')
                 .attr('id', 'SquareS')
-                .attr('refX', "0.0")
-                .attr('refY', "0.0")
-                .append('path')
-                    .attr('d', "M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z ")
+                .attr('viewBox', [0, 0, 20, 20])
+                .attr('refX', 10)
+                .attr('refY', 10)
+                .attr('markerWidth', 2)
+                .attr('markerHeight', 2)
+                .append('rect')
+                    .attr('width', 20)
+                    .attr('height', 20)
                     .attr('style',markerStyle)
-                    .attr("fill","yellow")
-                    .attr("transform","scale(0.2)");
+                    .attr("fill","white");
             def.append('marker')
                 .attr('id', 'DotS')
                 .attr('viewBox', [0, 0, 20, 20])
@@ -104,8 +112,8 @@ export class jdcComplexeRapports {
                             
                         
             node.append("path")
-                //.style("stroke", d => color(d.ns))
-                .style("stroke", "white")
+                .style("stroke", d => color(d.nb))
+                //.style("stroke", "white")
                 //.style("stroke-width", d => d.nb)
                 .style("stroke-width", 3)
                 .style("stroke-opacity",0.3)

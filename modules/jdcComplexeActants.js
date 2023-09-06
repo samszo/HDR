@@ -11,6 +11,7 @@ export class jdcComplexeActants {
         this.aUrl = params.aUrl ? params.aUrl : false;
         this.nivMin = params.nivMin ? params.nivMin : false;
         this.nivMax = params.nivMax ? params.nivMax : false;
+        this.color = params.color ? params.color : false;
         this.hexas=[];
         // Specify the chart’s position.
         const svgX=params.x ? params.x : 0; 
@@ -42,7 +43,7 @@ export class jdcComplexeActants {
         function setGraph(){
 
             // Specify the color scale.
-            const color = d3.scaleSequential()
+            const color = me.color ? me.color : d3.scaleSequential()
                 .domain([
                     me.nivMin ? me.nivMin : 0,
                     me.nivMax ? me.nivMax : me.data.totals.nivMax])

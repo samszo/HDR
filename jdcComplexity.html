@@ -74,7 +74,11 @@
                 <div class="col-4">
                     <div class="row" id="contentInfos">
                     </div>        
-                    <div class="row h-100" id="contentDetails">
+                    <h4>complexity details</h4>
+                    <div class="row" id="contentDetails">
+                    </div>        
+                    <h4>Resource list</h4>
+                    <div class="row" id="contentResources">
                     </div>        
                 </div>
                 <div class="col-8" id="contentChart">
@@ -119,7 +123,7 @@
         import {jdcComplexe} from './modules/jdcComplexe.js';
 
         let urlApiOmk = 'http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
-            m=new modal({'size':'modal-lg'}), hot,
+            m=new modal({'size':'modal-lg'}), hotRes, hotCpx,
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
             rectChart = d3.select('#contentChart').node().getBoundingClientRect();
@@ -153,8 +157,9 @@
                     let cpx = new jdcComplexe({'data':data,'cont':cont
                         ,'width':rectChart.width
                         ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
-                    setTable(data.infos.resources)
-                    //d3.select("#contentInfos").html(JSON.stringify(data.infos.params))
+                    setTable(data.infos.resources,d3.select('#contentResources'),hotRes)
+                    d3.select("#contentInfos").html(`<div>Complexity of : ${data.infos.params.id ? data.infos.params.id : data.infos.params.query}
+                         = ${data.totals.c} <br>Number of elements = ${data.totals.nb}<br> Levels = ${data.totals.nivMin} ->${data.totals.nivMax}</div>`)
                     hideLoader();
                 })
                 .catch(error => {
@@ -167,15 +172,18 @@
                 });                
         }
 
+        function setDataComplexityForTable(data){
+            let dataTable = [{}]
+        }
 
-        function setTable(data){
+        function setTable(data, cont, hot){
             let headers = Object.keys(data[0]);
             if(hot){
                 hot.clear();
                 hot.updateData(data);
                 //hot.render()
             }else{
-                hot = new Handsontable(d3.select('#contentDetails').append('div').node(), {
+                hot = new Handsontable(cont.append('div').node(), {
                     className: 'htDark',
                     afterGetColHeader: function(col, TH){
                         TH.className = 'darkTH'

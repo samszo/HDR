@@ -38,6 +38,9 @@ export class jdcComplexe {
 
             //ajoute les graphs par dimension            
             let gh = height/4,
+            color = d3.scaleLinear()
+                .domain([0,me.data.totals.nivMax])
+                .range(["#00045f", "#040ef1"]),
             //ajoute l'intériorité
             interior = container.append('circle')
                 .attr("r", gh*1.3)
@@ -47,14 +50,14 @@ export class jdcComplexe {
                 .attr("fill", 'none'),        
             cp = new jdcComplexePhysiques({'data':me.data.Physique,'svg':container,
                 'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
-                'width':width,'height':gh}),
+                'width':width,'height':gh,'color':color}),
             ca = new jdcComplexeActants({'data':me.data.Actant,'svg':container,
                 'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
-                'width':gh,'height':gh,
+                'width':gh,'height':gh,'color':color,
                 'x':(width/2)-(gh/2),'y':gh+(gh/3)}),
             cc = new jdcComplexeConcepts({'data':me.data.Concept,'svg':container,
                 'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,
-                'width':gh,'height':gh,
+                'width':gh,'height':gh,'color':color,
                 'x':(width/2)-(gh/2),'y':gh*2.7}),
             cr = new jdcComplexeRapports({'data':me.data.Rapport,'svg':container,
                 'nivMin':me.data.totals.nivMin, 'nivMax':me.data.totals.nivMax,

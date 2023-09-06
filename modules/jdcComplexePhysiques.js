@@ -9,6 +9,7 @@ export class jdcComplexePhysiques {
         this.svg = params.svg ? params.svg : false;
         this.nivMin = params.nivMin ? params.nivMin : false;
         this.nivMax = params.nivMax ? params.nivMax : false;
+        this.color = params.color ? params.color : false;
         // Specify the chart’s position.
         const svgX=params.x ? params.x : 0; 
         const svgY=params.y ? params.y : 0; 
@@ -39,7 +40,7 @@ export class jdcComplexePhysiques {
         function setGraph(){
 
             // Specify the color scale.
-            const color = d3.scaleSequential()
+            const color = me.color ? me.color : d3.scaleSequential()
                 .domain([
                     me.nivMin ? me.nivMin : 0,
                     me.nivMax ? me.nivMax : me.data.totals.nivMax])
