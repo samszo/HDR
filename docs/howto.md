@@ -32,3 +32,10 @@ Je recommence la conversion avec une option supplémentaire.
 
 Je recommence le nettoyage des guillemets et des citations.
 
+Les images sont correctement encodées et liées avec celles du répertoire `media/`. Des marques graphiques demeurent et il sera sans doute nécessaire de leur donner un identifiant pour permettre les références internes.
+
+On a maintenant un markdown complet à peu près correct. On pourra sans doute affiner sa préparation, mais il faut maintenant choisir la solution technique : Quarto, pandoc+scripts (Make, Bash, Python...), PageTypeToPrint ?
+
+Car chacune de ces solutions suggérera un découpage spécifique du fichier. Il est effectivement préférable de ne pas mettre toutes les sections dans un même panier. On pourra en effet associé des données à chaque section de manière à spécifier les traitements. 
+
+à suivre...
