@@ -72,14 +72,70 @@
         <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-4">
-                    <div class="row" id="contentInfos">
-                    </div>        
-                    <h4>complexity details</h4>
-                    <div class="row" id="contentDetails">
-                    </div>        
-                    <h4>Resource list</h4>
-                    <div class="row" id="contentResources">
-                    </div>        
+                    <div class="accordion" data-bs-theme="dark" id="accordionJDC">
+                        <div class="accordion-item text-white bg-dark">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Complexity of database
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionJDC">
+                                <div class="accordion-body">
+                                    <div id="contentTots"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item  text-white bg-dark">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Complexity of <strong>Detail</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionJDC">
+                                <div class="accordion-body">
+                                    <div id="contentInfos">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item text-white bg-dark">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Complexity details
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionJDC">
+                                <div class="accordion-body">
+                                    <div id="contentDetails">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item text-white bg-dark">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
+                                    Resource list
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionJDC">
+                                <div class="accordion-body">
+                                    <div id="contentResources">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-8" id="contentChart">
                 </div>
@@ -121,9 +177,13 @@
     <script type="module">
         import {modal} from './modules/modal.js';
         import {jdcComplexe} from './modules/jdcComplexe.js';
+        import {posiColor} from './modules/posiColor.js';
 
-        let urlApiOmk = 'http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
-            m=new modal({'size':'modal-lg'}), hotRes, hotCpx,
+        let urlApiOmk = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
+            urlComplexityTot = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDCsql&action=complexityTotal',
+            dataTots, dataDetails,
+            m=new modal({'size':'modal-lg'}), hotRes, hotCpx, 
+            rectAccordion = d3.select('#accordionJDC').node().getBoundingClientRect(),
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
             rectChart = d3.select('#contentChart').node().getBoundingClientRect();
@@ -142,24 +202,60 @@
             getData(u);
         })
         
+        const myCollapsible = document.getElementById('accordionJDC')
+        myCollapsible.addEventListener('shown.bs.collapse', event => {
+            if(event.target.id=="collapseThree"){
+                hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx);
+            }
+            if(event.target.id=="collapseFour"){
+                hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes);
+            }
+        })
+
+
+        getTots(urlComplexityTot);
 
         getData(urlApiOmk+'id=299743');
+
         
+        function getTots(url){
+            showLoader();
+            d3.json(url)
+                .then(data=>{
+                    dataTots = data;
+                    let pc = new posiColor({'data':dataTots,'cont':d3.select('#contentTots')
+                        ,'pVal':'maxCpx','pLib':'dim'
+                        ,'width':rectAccordion.width,'height':200});                    
+                    hideLoader();
+                })
+                .catch(error => {
+                    m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
+                    +error);
+                    m.setBoutons([{'name':"Close"}]);                
+                    m.show();    
+                    hideLoader();
+                    console.error('There was an error!', error);
+                });                            
+        }
+
+
         function getData(url){
             showLoader();
             d3.json(url)
                 .then(data=>{
                     console.log(data);
                     //vérifie si les data viennent d'un bulkexport
-                    if(!data.infos)data=data[0];
+                    if(!data.infos)dataDetails=data[0];
+                    else dataDetails=data;
                     let cont = d3.select('#contentChart');
                     cont.select("svg").remove();
-                    let cpx = new jdcComplexe({'data':data,'cont':cont
+                    let cpx = new jdcComplexe({'data':dataDetails,'cont':cont
                         ,'width':rectChart.width
                         ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
-                    setTable(data.infos.resources,d3.select('#contentResources'),hotRes)
-                    d3.select("#contentInfos").html(`<div>Complexity of : ${data.infos.params.id ? data.infos.params.id : data.infos.params.query}
-                         = ${data.totals.c} <br>Number of elements = ${data.totals.nb}<br> Levels = ${data.totals.nivMin} ->${data.totals.nivMax}</div>`)
+                    hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx);
+                    hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes);
+                    d3.select("#contentInfos").html(`<div>Complexity of : ${dataDetails.infos.query ? dataDetails.infos.query : dataDetails.infos.params.id}
+                         = ${dataDetails.totals.c} <br>Number of elements = ${dataDetails.totals.nb}<br> Levels = ${dataDetails.totals.nivMin} ->${dataDetails.totals.nivMax}</div>`)
                     hideLoader();
                 })
                 .catch(error => {
@@ -177,12 +273,13 @@
         }
 
         function setTable(data, cont, hot){
-            let headers = Object.keys(data[0]);
-            if(hot){
+            if(hot){                
                 hot.clear();
-                hot.updateData(data);
+                if(data)hot.updateData(data);
+                else hot.updateData([]);
                 //hot.render()
             }else{
+                let headers = Object.keys(data[0]);
                 hot = new Handsontable(cont.append('div').node(), {
                     className: 'htDark',
                     afterGetColHeader: function(col, TH){
@@ -192,7 +289,7 @@
                     rowHeaders: true,
                     data:data,
                     colHeaders: headers,
-                    height: rectFooter.top-rectFooter.height-rectHeader.bottom,
+                    height: (rectFooter.top-rectFooter.height-rectHeader.bottom)/2,
                     width: '100%',
                     licenseKey: 'non-commercial-and-evaluation',
                     customBorders: true,
@@ -205,6 +302,7 @@
                     copyPaste: false,
                 });
             }
+            return hot;
         }
 
     </script>
