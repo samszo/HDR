@@ -38,4 +38,11 @@ On a maintenant un markdown complet à peu près correct. On pourra sans doute a
 
 Car chacune de ces solutions suggérera un découpage spécifique du fichier. Il est effectivement préférable de ne pas mettre toutes les sections dans un même panier. On pourra en effet associé des données à chaque section de manière à spécifier les traitements. 
 
-à suivre...
+### Utilisation Quarto
+ - Installation de l'application et de l'extension VSCode
+ - Creation d'un projet Quarto Book dans /quarto
+ - Copie /docs/HDR.md -> /quarto/HDR.qmd
+ - tests :
+        - Génération d'une version HTML /quarto/HDR.html : OK
+        - Ajout d'une citation Zotero : OK
+        - Utilisation de l'éditeur graphique : OK
