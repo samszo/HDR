@@ -2,13 +2,22 @@ project:
   type: book
 
 book:
-  title: "quarto"
-  author: "Norah Jones"
+  title: "Jardin des connaissances : Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication"
+  author: "Samuel Szoniecky"
   date: "9/14/2023"
   chapters:
+    - garde.qmd
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - intro.qmd    
+    - summary.qmd  
+    - part: cartoConnaissances.qmd
+      chapters:
+        - principesCarto.qmd
+        - cartoEnvWeb.qmd
+        - spatiotempo.qmd
+    - part: positionnements.qmd
+      chapters:
+        - principesCarto.qmd
     - references.qmd
 
 bibliography: references.bib

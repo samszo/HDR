@@ -1,5 +1,13 @@
-# Introduction
+# Introduction générale {#sec-introductionGen .unnumbered}
 
-This is a book created from markdown and executable code.
+> « La vision magique du monde
+>
+> est celle d'un univers de puissances
 
-See @knuth84 for additional discussion of literate programming.
+> qui, virtuelles,
+
+> ne tendent qu'à devenir actuelles. »
+
+> (@thom1975 p. 362)
+
+« Cette existence d'une polarité perceptive joue un rôle prépondérant dans la ségrégation des unités perceptives \[...\]. Le sujet perçoit de manière à s'orienter par rapport au monde \[...\]. Percevoir c'est \[...\] organiser, maintenir ou inventer une organisation. Il ne suffit pas de dire que la perception consiste à saisir des touts organisés ; en fait, elle est l'acte qui organise des touts ; elle introduit l'organisation en reliant analogiquement les formes contenues dans le sujet aux signaux reçus : percevoir est retenir la plus grande quantité de signaux possible dans les formes les plus ancrées dans le sujet ; ce n'est pas seulement saisir des formes ou enregistrer des données multiples juxtaposées ou successives Percevoir consiste à élever l'information du système formé par le sujet et le champ dans lequel il s'oriente. \[...\] C'est en s'orientant dans (une) situation que le sujet peut ramener à l'unité les aspects de l'hétérogénéité qualitative et intensive, opérer la synthèse du divers homogène. (Simondon Gilbert (1989), L'individuation psychique et collective, Paris, Aubier., p. 89-90) » cité par (Quéré, 2020, paragr. 66)

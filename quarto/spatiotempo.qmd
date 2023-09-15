@@ -1,0 +1,3 @@
+### Représentations spatio-temporelles
+
+Les premières informations à prendre en compte dans la cartographie des connaissances sont le temps et l'espace qui constituent une base fondamental de la recherche en sciences humaines : l'histoire et la géographie. Ce sont les données communes à toutes les analyses en sciences humaines  : quand ? Où ?

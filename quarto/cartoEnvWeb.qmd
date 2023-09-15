@@ -1,0 +1,13 @@
+### Cartographier dans un environnement Web
+
+Un environnement Web se base avant tout sur une architecture Client / Serveur qui utilise le protocole HTTP pour organiser les échanges de données entre des machines et des utilisateurs via un navigateur (Balpe et al., 1996) cf. ci-dessous[^1].
+
+[^1]:
+    > cf. https://samszo.univ-paris8.fr/conf_errance/cours_systeme-information-programation-internet/slide.html?diapo=5
+
+![Illustration 2: Architecture Client / Serveur](media/1000000100000708000005788D09F0CE68E86891.png){width="8.269cm" height="6.253cm"}
+
+Nous ne ferons pas ici une analyse des technologiques de représentation des données (Andry et al., 2022; Fekete & Boy, 2015) préférant nous focaliser sur les outils et les méthodes que nous utilisons dans le cadre de ce travail pour cartographier nos connaissances. Nous ne détaillerons pas non plus tous les éléments qui composent notre environnement[^2] mais uniquement les plus pertinents pour comprendre les principes de cartographie que nous avons mis en place dans ce travail pour gérer les données du coté serveur et naviguer dans leurs représentations du coté client.
+
+[^2]:
+    > disponibles sur notre forge logicielle : <https://github.com/samszo>

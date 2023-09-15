@@ -1,5 +1,6 @@
 # Preface {.unnumbered}
 
 This is a Quarto book.
-
+See @sec-introductionGen for additional discussion.
+See [Chapter -@sec-introductionGen] for more details on visualizing model diagnostics.
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
