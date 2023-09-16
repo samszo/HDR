@@ -1,3 +1,7 @@
+---
+number-sections: true
+number-depth: 1
+---
 # Cartographie d'un milieu de connaissances
 
 > « tous les systèmes de modélisation se valent,

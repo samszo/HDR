@@ -1,6 +1,25 @@
-# Preface {.unnumbered}
+Université Vincennes -- Saint-Denis Paris 8
 
-This is a Quarto book.
-See @sec-introductionGen for additional discussion.
-See [Chapter -@sec-introductionGen] for more details on visualizing model diagnostics.
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+# Mémoire de synthèse en vue de l'Habilitation à diriger des recherches {.unnumbered}
+
+## Samuel Szoniecky {.unnumbered}
+
+# Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication {.unnumbered}
+
+# Modeling knowledge ecosystems for an ecological management of information and communication {.unnumbered}
+
+Sous le parrainage du professeur XXX
+
+Présenté le XXX devant un jury composé de :
+
+XXX, examinateur
+
+XXX, examinateur,
+
+XXX, examinateur,
+
+XXX, examinateur,
+
+XXX, examinateur,
+
+XXX, garant & rapporteur,
