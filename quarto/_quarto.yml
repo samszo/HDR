@@ -12,11 +12,7 @@ book:
     - part: cartoConnaissances.qmd
       chapters:
         - principesCarto.qmd
-        - cartoEnvWeb.qmd
-        - spatiotempo.qmd
-    - part: positionnements.qmd
-      chapters:
-        - principesCarto.qmd
+        - positionnements.qmd
     - references.qmd
 
 bibliography: references.bib

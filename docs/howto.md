@@ -46,3 +46,13 @@ Car chacune de ces solutions suggérera un découpage spécifique du fichier. Il
         - Génération d'une version HTML /quarto/HDR.html : OK
         - Ajout d'une citation Zotero : OK
         - Utilisation de l'éditeur graphique : OK
+
+### Structure d'un livre avec Quarto
+ - ATTENTION : The fundamental issue here is that quarto's crossref system is simply not expecting a crossref to a book part in PDF format.
+ https://github.com/quarto-dev/quarto-cli/issues/2571#issuecomment-1472631514
+        -> impossible de faire référence à des sections entre deux "chapters" d'une même part
+        ce que précise la doc ne marche pas : https://quarto.org/docs/books/book-crossrefs.html#creating-references
+   -> SOLUTION : Utiliser des liens hypertextes = [about](positionnements.qmd)
+   
+- ATTENTION : la numérotation des sections commence toujours en H1 même si première section en H2 
+   -> SOLUTION : gérer la cohérence des sections au niveau de chaque fichier

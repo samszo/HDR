@@ -1,4 +1,9 @@
-Université Vincennes -- Saint-Denis Paris 8
+---
+    toc: true
+    toc-depth: 4
+---
+
+Université Vincennes - Saint-Denis Paris 8
 
 # Mémoire de synthèse en vue de l'Habilitation à diriger des recherches {.unnumbered}
 

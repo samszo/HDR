@@ -1,6 +1,6 @@
 ---
-number-sections: true
-number-depth: 1
+    toc: true
+    toc-depth: 4
 ---
 # Cartographie d'un milieu de connaissances
 
@@ -40,3 +40,4 @@ Dans un quatrième chapitre, je présenterais les étapes de mon parcours intell
 -   d'outillage pour les humanités numériques.
 
 En explorant le milieu de connaissances que je vous propose, vous serez peut-être tenté d'y laisser vos propres traces. Si c'est le cas, vous pourrez le faire en utilisant l'outil « CartoAffect » que j'ai développé pour cartographier mon milieu de connaissances. Il suffit de vous rendre à cette page Web et/ou de télécharger l'application mobile. Une fois que vous vous serez identifié avec le compte qui vous a été fourni, vous pourrez participer à la cartographie d'un milieu de connaissances. Bonne exploration.
+
