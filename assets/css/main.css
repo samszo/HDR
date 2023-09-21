@@ -9,7 +9,8 @@
 }
 .txtData{
     fill: white;
-    font-size: x-large;    
+    font-size: large;
+    alignment-baseline:middle;    
 }
 .editJSON {
     overflow-x: scroll;

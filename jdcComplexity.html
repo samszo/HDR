@@ -180,13 +180,16 @@
         import {posiColor} from './modules/posiColor.js';
 
         let urlApiOmk = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
-            urlComplexityTot = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDCsql&action=complexityTotal',
+            //urlComplexityTot = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDCsql&action=complexityTotal',
+            urlComplexityTot = 'assets/data/complexityTotal.json',
             dataTots, dataDetails,
             m=new modal({'size':'modal-lg'}), hotRes, hotCpx, 
             rectAccordion = d3.select('#accordionJDC').node().getBoundingClientRect(),
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
-            rectChart = d3.select('#contentChart').node().getBoundingClientRect();
+            rectChart = d3.select('#contentChart').node().getBoundingClientRect(),
+            pc;
+
         /*
         setMenu('#ddExport',[
             {'id':1,'name':'Toutes les données'},
@@ -214,18 +217,23 @@
 
 
         getTots(urlComplexityTot);
-
-        getData(urlApiOmk+'id=299743');
-
         
         function getTots(url){
             showLoader();
             d3.json(url)
                 .then(data=>{
                     dataTots = data;
-                    let pc = new posiColor({'data':dataTots,'cont':d3.select('#contentTots')
+                    pc = new posiColor({'data':dataTots,'cont':d3.select('#contentTots')
                         ,'pVal':'maxCpx','pLib':'dim'
-                        ,'width':rectAccordion.width,'height':200});                    
+                        , 'interpolates':{
+                            'Existence':d3.interpolateViridis,
+                            'Physique':d3.interpolatePlasma,
+                            'Actant':d3.interpolatePlasma,
+                            'Concept':d3.interpolatePlasma,
+                            'Rapport':d3.interpolateYlOrRd
+                        }
+                        ,'width':rectAccordion.width,'height':400});   
+                    getData(urlApiOmk+'id=299743');                 
                     hideLoader();
                 })
                 .catch(error => {
@@ -250,6 +258,8 @@
                     let cont = d3.select('#contentChart');
                     cont.select("svg").remove();
                     let cpx = new jdcComplexe({'data':dataDetails,'cont':cont
+                        ,'colors':pc.colors
+                        ,'legend':pc
                         ,'width':rectChart.width
                         ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
                     hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx);

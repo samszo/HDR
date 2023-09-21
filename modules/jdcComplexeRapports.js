@@ -8,6 +8,7 @@ export class jdcComplexeRapports {
         this.nivMin = params.nivMin ? params.nivMin : false;
         this.nivMax = params.nivMax ? params.nivMax : false;
         this.hexas = params.hexas ? params.hexas : false;
+        this.color = params.color ? params.color : false;
         // Specify the chart’s position.
         const svgX=params.x ? params.x : 0; 
         const svgY=params.y ? params.y : 0; 
@@ -35,7 +36,7 @@ export class jdcComplexeRapports {
                 .domain(extNb)
                 .interpolator(d3['interpolateReds']);
             */
-            const color = d3.scaleLinear()
+            const color = me.color ? me.color : d3.scaleLinear()
                 .domain(extNb)
                 .range(["green", "red"]),
 
@@ -270,9 +271,9 @@ export class jdcComplexeRapports {
                         sv.range([bb.y-posiG.y,bb.y-posiG.y]);                    
                         break;            
                     case 'Actant':
-                        //le long du centre de l'hexagone
-                        sh.range([bb.x+me.hexas[0][0].x-posiG.x, bb.x+(me.hexas[0][0].x)-posiG.x]);
-                        sv.range([bb.y-posiG.y+bb.height/2,bb.y-posiG.y+bb.height/2]);                    
+                        //le long du coté sud de l'hexagone au dessus du titre
+                        sh.range([bb.x+me.hexas[0][1].x-posiG.x, bb.x+(me.hexas[0][1].x*3)-posiG.x]);
+                        sv.range([bb.y+bb.height-posiG.y-20,bb.y+bb.height-posiG.y-20]);                    
                         break;            
                     case 'Concept':
                         //Le long du coté sud de l'hexagone
