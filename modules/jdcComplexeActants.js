@@ -93,7 +93,7 @@ export class jdcComplexeActants {
                     me.hexas[d.data.n]=points;
                     return points.map(p=>`${p.x},${p.y}`)
                         .join(" ");})
-                .attr('fill',d=>color(d.data.n))
+                .attr('fill',d=>color(d.data.c))//affiche la couleur de la complexité
                 .style("stroke-width", (d,i) => i==0 ? 3 : 1)
                 .attr('stroke','white')                
 

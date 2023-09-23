@@ -113,9 +113,8 @@ export class jdcComplexeRapports {
                             
                         
             node.append("path")
-                .style("stroke", d => color(d.nb))
-                //.style("stroke", "white")
-                //.style("stroke-width", d => d.nb)
+                .style("stroke", d => color(d.c))//affiche la couleur de la complexité
+                //non car trop gros.style("stroke-width", d => d.nb)//la largeur du trait = nombre de rapport
                 .style("stroke-width", 3)
                 .style("stroke-opacity",0.3)
                 .style("fill", "none")

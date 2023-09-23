@@ -79,7 +79,7 @@ export class jdcComplexePhysiques {
             // Append a color rectangle. 
             leaf.append("rect")
                 .attr("id", d => (d.leafUid = "rect_"+me.id+d.data.n))
-                .attr("fill", d => color(d.data.n))
+                .attr("fill", d => color(d.data.c))//affiche la couleur de la complexité
                 .attr("fill-opacity", 0.8)
                 .attr("stroke", "white")
                 .attr("width", d => d.x1 - d.x0)

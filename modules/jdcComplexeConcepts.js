@@ -83,7 +83,7 @@ export class jdcComplexeConcepts {
                 .attr("fill-opacity", 0.8)
                 .attr("stroke", "white")
                 .attr("fill", d => {
-                    d.color = color(d.data.n);
+                    d.color = color(d.data.c);//affiche la couleur de la complexité
                     return d.color;
                 });
                         

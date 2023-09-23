@@ -6,10 +6,12 @@ export class posiColor {
         this.data = params.data ? params.data : false;
         this.pLib = params.pLib ? params.pLib : 'lib';
         this.pVal = params.pVal ? params.pVal : 'value';
+        this.pFreq = params.pFreq ? params.pFreq : 'nb';
         this.cont = params.cont ? params.cont : d3.select('body');
         this.svg = params.svg ? params.svg : false;
         this.color = params.color ? params.color : d3.interpolateViridis;
         this.interpolates = params.interpolates ? params.interpolates : false;
+        this.frequency = params.frequency ? params.frequency : false;
         this.colors = {};
         this.legendes={};
         // Specify the chart’s position.
@@ -20,7 +22,7 @@ export class posiColor {
         const height = params.height ? params.height : 600;
         const widthLibTxt = 100;
 
-        let svg, scLin, scLog, scX, scBandY, scColor;
+        let svg, scLin, scLog, scBandY, scColor, dataFreq;
 
         this.init = function () {
             console.log(me.data);            
@@ -30,16 +32,26 @@ export class posiColor {
 
         function setData(){
             //définition des échelles
-            let domX = d3.extent(me.data.map(d=>d[me.pVal])),
-                domY = me.data.map(d=>d[me.pLib]);		  
-            scLin = d3.scaleLinear().domain(domX).range([widthLibTxt, width-widthLibTxt]);
-            scLog = d3.scaleLog().base(2).domain(domX).range([widthLibTxt, width-widthLibTxt]);
+            let domY = me.data.map(d=>d[me.pLib]);		  
             scBandY = d3.scaleBand(domY, [0, height])
                 .paddingInner(0.2) // edit the inner padding value in [0,1]
                 //.paddingOuter(0.5) // edit the outer padding value in [0,1]
                 .align(0.5) // edit the align: 0 is aligned left, 0.5 centered, 1 aligned right.
                 ;
-            scX = scLin; 
+            if(me.frequency){
+                dataFreq = Array.from(d3.group(me.data, d => d[me.pLib])).map(d=>{
+                    let extX = d3.extent(d[1], d=>d[me.pVal]),
+                        extY = d3.extent(d[1], d=>d[me.pFreq]),
+                        o = {'vals':d[1],
+                        'extX':[1,extX[1]],
+                        'scX':d3.scaleLinear().domain(extX).range([widthLibTxt, width-widthLibTxt]),
+                        //'scX':d3.scaleThreshold([0, 100, 2000, 5000, 10000, 50000, 100000, 1000000, 3000000]),
+                        'scY':d3.scaleLinear().domain(extY).range([0, scBandY.bandwidth()])
+                        };
+                        o[me.pLib]=d[0];
+                    return o;
+                });
+            }
         }
 
         function setGraph(){
@@ -56,7 +68,7 @@ export class posiColor {
 
             //création des légendes de couleurs
             let g = svg.selectAll('.gData')
-                .data(me.data)
+                .data(me.frequency ? dataFreq : me.data)
                 .enter()
                 .append('g')
                 .attr('class', 'gData')
@@ -64,34 +76,35 @@ export class posiColor {
                 .attr('transform', d=>'translate(0, '+scBandY(d[me.pLib])+')')
                 .each((d,i)=>{
                     let c = me.interpolates ? me.interpolates[d[me.pLib]] : me.color; 
-                    //me.colors[d[me.pLib]] = d3.scaleSequential([0, d.maxCpx], c);  
-                    me.colors[d[me.pLib]] = d3.scaleSequentialLog([0, d.maxCpx], c);             
-                    me.legendes[d[me.pLib]] = Legend(d3.select("#gData_"+i), me.colors[d[me.pLib]], {
-                        title: d[me.pLib],
-                        width:width-10,
-                        height:scBandY.bandwidth()
-                      })
+                    //me.colors[d[me.pLib]] = d3.scaleSequential([0, d.maxCpx], c); 
+                    if(me.frequency){
+                        //me.colors[d[me.pLib]] = d3.scaleSequentialLog(d.scX.domain(), c);     
+                        //createBrushVal(d3.select("#gData_"+i), d);
+                        //me.colors[d[me.pLib]] = d3.scaleThreshold(d.scX.domain(), d3.schemeRdBu[9]);
+                        //me.colors[d[me.pLib]] = d3.scaleOrdinal(["<10", "10-100", "101-1K", ">1K <10K", ">10K <100K", ">100K <1M", "≥1M"], d3.schemeSpectral[7]);        
+                        //me.colors[d[me.pLib]] = d3.scaleSqrt([0, 1000, 10000, 3000000], ["blue", "white", "green", "red"]);
+                        me.colors[d[me.pLib]] = d3.scaleSequentialLog(d.extX, c);
+                        me.legendes[d[me.pLib]] = Legend(d3.select("#gData_"+i), me.colors[d[me.pLib]], {
+                            title: d[me.pLib],
+                            width:width-10,
+                            tickFormat: "~s",
+                            height:scBandY.bandwidth()
+                          })
+                    }else{
+                        me.colors[d[me.pLib]] = d3.scaleSequentialLog([0, d[me.pVal]], c);             
+                        me.legendes[d[me.pLib]] = Legend(d3.select("#gData_"+i), me.colors[d[me.pLib]], {
+                            title: d[me.pLib],
+                            width:width-10,
+                            height:scBandY.bandwidth()
+                          })
+                    }
                 });
-            /*
-            g.append('rect')
-                .attr('fill','green')
-                .attr('x',widthLibTxt)
-                .attr('height', scBandY.bandwidth())
-                .attr('width', d=>scX(d[me.pVal]));
-            g.append('text')
-                .attr('y',scBandY.bandwidth()/2)
-                .attr('class', 'txtData')
-                .text(d=>d[me.pLib]);
-            svg.append("g")
-                .attr('class', 'axisData')
-                .attr('transform','translate('+widthLibTxt+', 0)')
-                .call(d3.axisBottom(scX).ticks(5));
-            */
         }
         
         this.addPosiInLegend = function(lib,val){
+            //return;
             let leg = me.legendes[lib],
-            //ajoute le trait vertical
+            //ajoute le trait vertical            
             t = leg.g.append("path")
                 .attr("d", d3.line()([[leg.x(val), 10], [leg.x(val), scBandY.bandwidth()-30]]))
                 .attr("stroke", "white");
@@ -104,10 +117,105 @@ export class posiColor {
             leg.g.select('.title').text(lib+' : '+val);                
         }
 
+
+        function createBrushVal(gBand, dt){
+            let w = width, h = scBandY.bandwidth()
+            , area = (x, y) => d3.area()
+                .x(d => dt.scX(d[me.pVal]))
+                .y0(dt.scY(0.9))
+                .y1(d => dt.scY(d[me.pFreq]))
+            , xAxis = (g, x, height, title) => g
+                .attr("transform", `translate(0,${h})`)
+                .call(d3.axisBottom(dt.scX))
+                .call(g => g.selectAll(".title").data(['title']).join("text")
+                    .attr("class", "title")
+                    .attr("x", 0)
+                    .attr("y", 0)
+                    .attr("fill", "currentColor")
+                    .attr("text-anchor", "start")
+                    .text(title))            
+            , yAxis = (g, y, title) => g
+                .attr("transform", `translate(${0},0)`)
+                .call(d3.axisLeft(dt.scY).ticks(d3.min([4,dt.scY.domain()[1]])))
+                .call(g => g.selectAll(".title").data([title]).join("text")
+                    .attr("class", "title")
+                    .attr("x", 0)
+                    .attr("y", 10)
+                    .attr("fill", "currentColor")
+                    .attr("text-anchor", "middle")
+                    .text(title));
+    
+            const svg = gBand.append("svg")
+                .attr("viewBox", [0, 0, w, h])
+                .style("display", "block");
+            const brush = d3.brushX()
+                .extent([[0, 0.5], [w, h + 0.5]])
+                .on("brush", brushed)
+                .on("end", brushended);
+            /*la sélection par défaut correspond à une étendu de 100
+            let deb = valueExtent[1] > 100 ? valueExtent[1]/2-50 : valueExtent[0], 
+                fin = valueExtent[1] > 100 ? valueExtent[1]/2+50 : valueExtent[1];        
+            */
+            //la sélection par défaut correspond à un élément aléatoire
+            let deb = 100, fin = 101,          
+                defValSelect = {'v':[deb, fin],'x':[dt.scX(deb), dt.scX(fin)]};
+    
+            svg.append('defs').append("linearGradient")
+                .attr("id", "gradValue")
+                //.attr("gradientUnits", "userSpaceOnUse")
+                //.attr("x1", 0).attr("y1", 0)
+                //.attr("x2", 0).attr("y2", 1)
+            .selectAll("stop")
+                .data(dt.vals.map((d,i)=>{
+                    return {'offset':(i*100/dt.vals.length)+"%", 'color': me.colors[d[me.pLib]](d[me.pVal])}
+                }))
+            .enter().append("stop")
+                .attr("offset", d => d.offset)
+                .attr("stop-color", d=>d.color);
+    
+            svg.append("g")
+                .call(xAxis, dt.scX, h, me.pVal);
+            svg.append("g")
+                .call(yAxis, dt.scY, me.pFreq);
+            
+            svg.append("path")
+                .datum(dt.vals)
+                //.attr("fill", "url(#gradValue)")
+                .attr("fill", "white")
+                .attr("d", area(dt.scX, dt.scY));
+            
+            const gb = svg.append("g")
+                .call(brush)
+                //.call(brush.move, defValSelect.x)
+                ;
+            
+            function brushed({selection}) {
+                if (selection) {
+                    let s = selection.map(dt.scX.invert, dt.scX);
+                    container.selectAll('.gInitPlanOccupe').attr('visibility',h=>{
+                        if(!h.data)return 'visible';
+                        return h.data.value >= s[0] && h.data.value <= s[1] ? 'visible' : 'hidden'
+                    });
+                }
+            }
+            
+            function brushended({selection}) {
+                if (!selection) {
+                    gb.call(brush.move, defValSelect.x);
+                }else{
+                    let s = selection.map(dt.scX.invert, dt.scX);
+                    container.style("cursor", "wait");
+                    //addChildren(hierarchie,s);
+                    container.style("cursor", "default");
+                }
+            }
+    
+        }
+
         // Copyright 2021, Observable Inc.
         // Released under the ISC license.
         // https://observablehq.com/@d3/color-legend
-        function Legend(g, color, {
+        function Legend(gBand, color, {
             title,
             tickSize = 6,
             width = 320,
@@ -133,7 +241,7 @@ export class posiColor {
                 return canvas;
             }
 
-            const svg = g.append("svg")
+            const svg = gBand.append("svg")
                 .attr("width", width)
                 .attr("height", height)
                 .attr("viewBox", [0, 0, width, height])
