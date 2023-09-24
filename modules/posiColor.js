@@ -103,9 +103,12 @@ export class posiColor {
         
         this.addPosiInLegend = function(lib,val){
             //return;
-            let leg = me.legendes[lib],
+            let t, leg = me.legendes[lib];
+            //supprime les anciens traits
+            leg.g.selectAll('.posiInLegend').remove();
             //ajoute le trait vertical            
             t = leg.g.append("path")
+                .attr('class','posiInLegend')
                 .attr("d", d3.line()([[leg.x(val), 10], [leg.x(val), scBandY.bandwidth()-30]]))
                 .attr("stroke", "white");
             anime({

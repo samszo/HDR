@@ -76,32 +76,19 @@
                         <div class="accordion-item text-white bg-dark">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    id="complexityTitle" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     Complexity of database
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 data-bs-parent="#accordionJDC">
                                 <div class="accordion-body">
+                                    <div id="contentInfos">
+                                    </div>
                                     <div id="contentTots"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item  text-white bg-dark">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Complexity of <strong>Detail</strong>
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionJDC">
-                                <div class="accordion-body">
-                                    <div id="contentInfos">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="accordion-item text-white bg-dark">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -190,7 +177,7 @@
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
             rectChart = d3.select('#contentChart').node().getBoundingClientRect(),
-            pc;
+            pc, cpx;
 
         /*
         setMenu('#ddExport',[
@@ -261,15 +248,14 @@
                     else dataDetails=data;
                     let cont = d3.select('#contentChart');
                     cont.select("svg").remove();
-                    let cpx = new jdcComplexe({'data':dataDetails,'cont':cont
+                    cpx = new jdcComplexe({'data':dataDetails,'cont':cont
                         ,'colors':pc.colors
                         ,'legend':pc
                         ,'width':rectChart.width
                         ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
-                    hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx);
-                    hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes);
-                    d3.select("#contentInfos").html(`<div>Complexity of : ${dataDetails.infos.query ? dataDetails.infos.query : dataDetails.infos.params.id}
-                         = ${dataDetails.totals.c} <br>Number of elements = ${dataDetails.totals.nb}<br> Levels = ${dataDetails.totals.nivMin} ->${dataDetails.totals.nivMax}</div>`)
+                    hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx,false);
+                    hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes,true);
+                    setDetails();
                     hideLoader();
                 })
                 .catch(error => {
@@ -282,18 +268,58 @@
                 });                
         }
 
+        function setDetails(){
+            let r, urlAdmin, titre='Complexity of ';
+            if(dataDetails.infos.query){
+                titre+=' query : '+dataDetails.infos.query                
+            }else{
+                r = dataDetails.infos.resources.filter(d=>d.id==dataDetails.infos.params.id)[0];
+                titre+=': '+r.details["o:title"];
+                urlAdmin=r.details["@id"].replace('api','admin')
+                    .replace('items/','item/')
+                    .replace('item_sets/','item-set/')
+                    ;
+                d3.select("#contentInfos").html(
+                    `<H5><a target="_blanck" href="${urlAdmin}">${r.details["o:title"]}</a></H5>
+                    <H6>${Array.isArray(r.details["@type"]) ? r.details["@type"].join() : r.details["@type"]}</H6>
+                    `
+                );
+                                
+            }
+            d3.select("#complexityTitle").text(titre);
+        }
+
         function setDataComplexityForTable(data){
             let dataTable = [{}]
         }
 
-        function setTable(data, cont, hot){
+        function setTable(data, cont, hot, menu){
             if(hot){                
                 hot.clear();
                 if(data)hot.updateData(data);
                 else hot.updateData([]);
                 //hot.render()
             }else{
-                let headers = Object.keys(data[0]);
+                let headers = Object.keys(data[0]),
+                    menuContext = menu ? {
+                        callback(key, selection, clickEvent) {
+                          // Common callback for all options
+                          console.log(key, selection, clickEvent);
+                        },
+                        items: {
+                          complexity: { // Own custom option
+                            name() { // `name` can be a string or a function
+                              return `<button type="button" id="btnComplexityItem" class="btn btn-sm btn-danger">
+                                        <i class="fa-solid fa-calculator"></i>
+                                    </button>`;
+                            },
+                            callback(key, s, e) { // Callback for specific option
+                                let r = this.getDataAtRow(s[0].start.row);
+                                getData(urlApiOmk+'id='+r[1]);
+                            }
+                          }
+                        }
+                      } : menu;
                 hot = new Handsontable(cont.append('div').node(), {
                     className: 'htDark',
                     afterGetColHeader: function(col, TH){
@@ -314,6 +340,8 @@
                     columns: getCellEditor(headers),
                     allowInsertColumn: false,
                     copyPaste: false,
+                    contextMenu: menuContext,
+                    search: true,                        
                 });
             }
             return hot;
