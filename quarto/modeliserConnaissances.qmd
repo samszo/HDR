@@ -1,0 +1,47 @@
+---
+    toc: true
+    toc-depth: 4
+---
+
+# Modéliser les connaissances à la limite du pays fertile {#sec-part-modeliserConnaissances}
+
+::: {#exergue1 .exergue}
+« Science sans référence n'est que fiction. »\
+[@callon2013]
+:::
+
+## Introduction
+
+La modélisation des connaissances est au cœur du travail d'enseignant-chercheur dont l'objectif est de formaliser des connaissances pour les transmettre. Même si les chercheurs « combinent des pratiques individuelles et des pratiques collectives fondées sur un ensemble de normes et de valeurs partagées » (Thiault & Malingre, 2022, p. 22) la disparités de leurs pratiques scientifiques et informationnelles « fait que nous sommes face à un ensemble ne pouvant véritablement être saisi dans sa globalité. » (*Ibid.*). Face à cette multiplicité des pratiques associée à une masse de plus en plus grande de document produits, il est aujourd'hui impossible de pratiquer une analyse réflexive sur les productions scientifiques au-delà du cercle très restreint d'une communauté. L'objectif de cette partie est de poser les bases d'une pratique scientifique qui faciliterait l'émergence d'un point global sur un domaine scientifique et la réflexivité sur ce point de vue.
+
+Nous aborderons cette problématique tout d'abord dans sa dimension épistémologique en présentant un état de l'art sur les concepts qui nous semble aujourd'hui les plus opératoires pour analyser globalement un domaine scientifique. Puis, nous nous pencherons sur la mise en pratiques de ces concepts dans l'activité des enseignants-chercheurs pour y déceler les difficultés ergonomiques et comment les dépassés à l'aide de dispositifs numériques que nous présenterons dans une troisième partie.
+
+"Nous touchons ici, semble-t-il, à la source même de la subjectivité : la conscience ne naît que comme conscience de quelque chose, manifestation d'un projet du sujet à l'égard d'un objet." (Thom, 1975) p. 259
+
+"Au dessus du sujet, au-delà de l'objet immédiat, la science moderne se fonde sur le projet. Dans la pensée scientifique, la méditation de l'objet par le sujet prend toujours la forme du projet." (Bachelard, 2020) p.34
+
+"La seule façon pour ces sciences d'accéder à une méthode expérimentale authentique est de construire des objets de laboratoire virtuels, une ingénierie de l'artificiel permettant de tester les modèles. C'est ce que permet l'approche computationnelle." (Petitot, 1998) p. 4
+
+
+
+## Dispositifs de cartographie des connaissances
+
+### Modèle sémio-éthique
+
+#### Discerner, choisir, agir
+
+// ia **réseaux antagonistes génératifs**
+
+cf. <https://khayyam.developpez.com/articles/intelligence-artificielle/tensorflow-gan/>
+
+### Représentation de l'activité des chercheurs
+
+### Représentation des pulsations existentielles en 3D
+
+![](media/1000000100000D26000006D802ED365FE722E85E.png){width="17cm" height="8.848cm"}
+
+### La double hélice de la communication dans la spirale conique des pulsations exitentielles
+
+Wolton parle d'une double hélice de la communication (Wolton, D. (1997). *Penser la communication*. Paris: Flammarion.<https://www.cairn.info/revue-hermes-la-revue-2014-3-page-13.htm> ) nous pensons cette analogie en l'enrichissant d'un modèle graphique de pulsation exitentielle (Berque) qui se déploie dans la physicalité et dans l'intériorité suivant une double pulsation centrifuge et centripète et qui fonctionne comme un ressort dont l'élasticité dépend du conditionnement de nos couches mémorielles analogiques\...
+
+## A venir...

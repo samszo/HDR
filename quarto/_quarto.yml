@@ -13,6 +13,11 @@ book:
       chapters:
         - principesCarto.qmd
         - positionnements.qmd
+        - modeliserConnaissances.qmd
+    - part: modeliserConnaissances.qmd
+      chapters:
+        - etatArtEpistemo.qmd
+        - problemesErgo.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -20,8 +25,6 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    css: styles.css
   pdf:
     documentclass: scrreprt
-
-
-

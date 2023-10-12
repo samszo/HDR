@@ -1,0 +1,162 @@
+## Etat de l'art épistémologique {#sec-etatArtEpistemo}
+
+### Epistémologie générique
+
+« L'épistémologie générique transforme les points d'attention épistémologiques et les postures qu'ils induisent dans les lieux d'interdiscipline en un système de reconnaissance scientifique et philosophique, et un système d'accueil des sciences et des philosophies dans leurs hétérogénéités. Elle pose des fondamentaux et des méthodes pour fonder deux séries de procédures. Elle met à disposition de tous les corps de métiers qui produisent et utilisent les connaissances, des outils permettant d'accéder aux fondamentaux et de façonner des méthodes pertinentes pour réaliser ces partages. Nous verrons que ce partage a une forme donnée par la fiction, une impulsion donnée par le futur, des dynamiques spatiales et temporelles données par le virtuel. Ces opérateurs combinent un générique d'origines philosophique, éthique et scientifique et une connaissance sous la connaissance. Ils sont aussi manifestes invisibles de la science. » (Schmid & Mambrini-Doudet, 2019b)§ 2
+
+« Le générique demande un lieu scientifique qui ne nie pas les disciplines, en tienne compte, mais n'en dépende pas.
+
+Dans ce lieu scientifique :
+
+■ on accède aux caractéristiques du lieu commun aux disciplines,
+
+■ la reconnaissance mutuelle des contributions des disciplines est promue,
+
+■ les composantes des disciplines et leurs contrastes sont des dimensions du dispositif de partage des connaissances,
+
+■ la science se dégage également des flux de connaissances et des trajectoires des concepts. » (Schmid & Mambrini-Doudet, 2019b)§ 5
+
+Henri Poincaré décrit un espace inclus entre deux bornes, celle de l'esprit et celle de l'expérience. Entre ces deux bornes, les disciplines s'ordonnent horizontalement et de manière fixe, selon la place relative qu'elles laissent à l'esprit et à l'expérience. L'ordre est le suivant, en allant de l'esprit à l'expérience : arithmétique, algèbre, analyse, géométrie, mécanique, physique mathématique, physique expérimentale. L'ordre vertical est celui qui garantit la rigueur du passage entre les faits bruts et les généralisations, laissant la possibilité d'intermédiaires nombreux et variables suivant les disciplines (fait scientifique, conventions, lois, principes...). (Schmid & Mambrini-Doudet, 2019b)§ 21
+
+« L'intimité collective donne les conditions à la fois de l'échange collectif et de la prise en compte de l'hétérogène de façon forte, sans en faire une diversité indifférente. » (Schmid & Mambrini-Doudet, 2019b) § 21 // conversation créative = stimuler la rencontre
+
+« Chaque opérateur ouvre l'espace générique selon des modalités différentes. Si on se place du point de vue des disciplines :
+
+■ le futur introduit le générique par sa fonction de coupure,
+
+■ le virtuel multiplie les niveaux et assure la mobilité d'un niveau à l'autre ou d'une échelle à l'autre,
+
+■ la fiction ouvre par expansion des possibilités d'articulation. » (Schmid & Mambrini-Doudet, 2019b)§ 43
+
+### Ontologie -- Éthique
+
+Le modèle Spino-Deleuzien
+
+Le modèle de Ricoeur : lui aussi ternaire et mettant en relation modélisation de l'existence et expérience de connaissance.
+
+« Je suis parti sur une conception à trois étages du problème moral, à savoir, l'éthique, la morale et la sagesse pratique. » (Ricœur, 2017, § 4)
+
+« Le rapport médical parcourt non seulement les trois moments de l'éthique, mais les trois niveaux de l'expérience morale : le souhait de vivre bien, l'obligation morale, la décision sage et prudente. » (Ricœur, 2017, § 8)
+
+Il met aussi l'accent sur la dimension médicale (pharmakon) équivalente au problème de « fake-news » = une information malade. Mais attention au niveau de connaissance de la donation : retweet = choc, commentaire = rappor, analyse = essences
+
+« Donner-recevoir, lorsqu'on ne peut plus faire. Et défendre, jusqu'au bout, cette capacité d'échange dans le donner-recevoir. C'est un petit peu ce que vous disiez tout à l'heure : ce que vous recevez dans le regard de vos malades. C'est l'apprentissage de votre propre humanité. De ce point de vue-là, il faut aider le grand malade, le mourant, à être encore un donateur, pas simplement un recevant... » (Ricœur, 2017, § 34)
+
+Il propose une justice de la proportionnalité des rapports :
+
+« C'est une règle économique de base, la proportionnalité. Les Grecs étaient venus à cette idée par les proportions : A sur B = C sur D. Analogia, c'est la proportionnalité analogique. D'où l'idée de justice proportionnelle « analogique » : introduire un rapport analogique entre des inégaux. C'est vrai que l'arrivée à la mort, c'est l'arrivée à l'inégalité entre celui qui est et celui qui va ne plus être, rupture absolue de la présence mutuelle. » (Ricœur, 2017, § 44)
+
+### Action située
+
+dans une « action située » dont nous reprenons la définition suivante  :
+
+> « ce modèle a été développé pour répondre à certaines difficultés inhérentes à l'approche de l'action en termes de « plan », difficultés que l'on a tenté de résoudre :\
+> a) en réinscrivant l'action dans une totalité dynamique dont l'environnement lui-même fait partie ;\
+> b) en faisant du processus concret d'organisation d'un cours d'action en situation, et non plus de la représentation et de la délibération ex ante, et de l'esprit où elles se produisent, le lieu de la cognition ;\
+> c) en distribuant cette cognition sur le système fonctionnel agent/action/environnement;\
+> d) en réduisant la part du raisonnement, du calcul et de la délibération, bref de l'intellection, dans l'organisation de l'action, au profit de la perception directe ;\
+> e) en rendant compte du couplage perception/action à l'aide d'un schème qui ne traite plus les informations fournies par la perception comme des prémisses dans un raisonnement pratique ; et\
+> f) en faisant de la situation l'instance principale du contrôle de la conduite." (Quéré, 2020, § 3)
+
+### Méthode de conceptualisation relativisée
+
+### Cribles et analogies
+
+### Morphogénèse
+
+C'est la "dialectique" subtile entre dynamique interne et espace externe qui rend possible la modélisation mathématique des formes. Changement radical du statut de l'espace-temps, caractère spontanément morphogène des déploiements spatiotemporels d'instabilités de dynamiques locales interagissantes: voilà le saut qu'il fallait franchir pour accéder à une explication physicaliste des formes. (Petitot, 1998) p. 8
+
+voir cet article pour un historique de la questionnement
+
+### Diagrammes et cartographie
+
+« Un diagramme n'est pas une simple figure destinée à rendre visible, il n'est même pas essentiellement visuel : il relève davantage d'une « lecture » de relations rationnelles qu'il présente et à laquelle il invite l'esprit ; on n'accède à ces relations que par une modalité déterminée d'abstraction représentative. » (Chouchan, 2020)§ 43
+
+« Pour ce faire, nous tenterons de dégager le diagramme d' aujourd'hui, dans le sens où ce terme est employé par Gilles Deleuze, à savoir une représentation, une exposition « des rapports de force qui constituent le pouvoir ». » (Khatchatourov, 2017, p. 67)
+
+La modélisation des pulsations existentielles sous forme de diagramme onto-éthique montre les rapports des forces internes (dicerner-choisir-agir) mais aussi les rapports de forces externes entre deux diagrammes qui sont de l'ordre de l'opposition pour les physicalités, de l'hybridation pour les acteurs et de la symbiose pour les concepts...
+
+« Le diagramme doit donc être potentiellement producteur et reproducteur d'autre chose que ce qu'il représente et jouer ainsi le rôle d'une matrice générative. » <http://intelligibilite-numerique.numerev.com/numeros/n-3-2022/2629-ingenierie-semiotique-et-modelisation-diagrammatique-au-dela-du-modele-de-turing> (Ferri, 2020)
+
+« Nous proposons un autre principe de modélisation, complémentaire au principe de formalisation logique, que nous nommons principe de modélisation diagrammatique (Ferri, 2021a, p. 422). Il doit permettre d'exprimer le contenu non logique d'une connaissance phénoménologique, c'est-à-dire la structure qualitative sur laquelle s'appuie la faculté intuitive non logique, qui était déjà reconnue par Turing dans le §11 de sa thèse comme l'une des deux sources du raisonnement mathématique (Turing, 1939, p. 214-215). » (ibid
+
+« Le principe d'opérationnalisation est celui qui fait passer le diagramme du statut de modèle de résolution à celui d'outil de résolution, grâce à ses propriétés iconiques. » (ibid)
+
+« Dans cette première perspective, les diagrammes doivent être compris comme des modèles d'intelligibilité. Deuxièmement, l'expressivité des diagrammes rend possible leur isodynamisme opérationnel à des situations d'interactions et à des enchaînements d'opérations qui en font des guides permettant de lire des situations réelles à partir d'idéaux-types et d'y répondre pragmatiquement. Suivant cette seconde perspective, les diagrammes doivent être compris comme des idéaux-types d'actions à accomplir. » (ibid)
+
+### Analyse des données d'apprentissage
+
+#### Interprétation des traces
+
+« Ainsi, la restitution des traces d'activité à l'utilisateur est en mesure de renforcer sa ré exivité à partir des trois types de rétention que nous empruntons à B. Stiegler (2001) : en activant les supports de mémoire comme trace écrite (rétention tertiaire), en activant les souvenirs (rétention secondaire) en activant la conscience générale de l'individu (rétention primaire). » (Hulin, 2020, p. 107)
+
+(Rodighiero, 2021)
+
+#### biblioéconomie
+
+"Nous proposons cette simplification de l'équation dans un premier temps :
+
+C+∆C = C' C : exprime l'état des connaissances
+
+C' : un nouvel état de la connaissance par ∆C
+
+∆C : l'apport d'une connaissance extraite d'une information.
+
+Pour l'image nous pourrions penser que : C+∆CI = C'I
+
+∆CI : un nouvel état de connaissance amenée grâce à l'image ou un nouveau stock d'images compris dans une somme de livres.
+
+L'équation fondamentale pour la relation entre information image et connaissance image pourrait-être : C(S) +∆CI = C(S+∆CI)" p. 27
+
+Langlois, B., 2019. Culture de l'information, culture de l'image et culture par l'image dans l'enseignement secondaire (phdthesis). Université Paul Valéry - Montpellier III.
+
+"Le facteur d'impact *If* d'une revue scientifique mesure la fréquence avec laquelle, pendant une année donnée, l'article"moyen" d'une revue est cité dans les articles d'autres revues. C'est le rapport entre le nombre de citations reçues par une revue pendant une année et le nombre d'articles publiés pendant les deux années précédentes" p. 7
+
+Coadic, Y.-F.L., n.d. N(OMBRE) ou LUMIERE - usage des Xmètries en science de l'information et en science de la communication 12.
+
+Boutin, E., Liu, P., Goria, S., Dumas, P., David, A., 2008. Les SIC à partir du thésaurus Rameau. Représentation ou interprétation ? Presented at the 16ème Congrès de la SFSIC - Société française des sciences de l'information et de la communication, pp. 1--12.
+
+### Explorations analogiques
+
+"Les métaphores et le flou qu'elles introduisent, les notions ambivalentes et les ambiguïtés qu'elles suscitent ne sont pas à écarter mais à encourager au moins dans une certaine mesure \[Cartwright, 1983\]. Dans ces circonstances, il est possible de tester des prédictions empiriques dérivées d'énoncés théoriques ou de décider si une théorie rend mieux compte qu'une autre d'un ensemble d'observations." § 18 Callon 2013
+
+« Les compétences des chercheurs sont sensorielles et cognitives. Le scientifique doit être capable d'articuler des énoncés qui intègrent ses observations. Il est ainsi dépendant de ses cinq sens et particulièrement de la vue (l'observation est toujours mentionnée). Le scientifique doit être également capable d'imaginer des énoncés qui ne sont pas directement liés à l'observation et d'introduire entre eux des traductions. Des auteurs comme Holton et Hesse7 soulignent sa capacité à produire des métaphores et des analogies. » § 21
+
+« Le scientifique est prisonnier d'une double injonction : il doit imaginer, concevoir et produire sans relâche un nombre croissant d'énoncés qu'il doit soumettre simultanément à la critique impitoyable des collègues. » § 24
+
+« Chaque traduction nouvelle produit un écart par rapport aux traductions antérieures qu'elle menace. L'hypothèse du modèle de la traduction est simple : le monde est peuplé d'actants, qui ont été construits par les traductions antérieures et qui sont eux-mêmes engagés dans des traductions nouvelles qui accroissent les risques et les occasions de divergence. » § 120
+
+"Pour remplir un tel programme, une théorie des 'Gestalten' est nécessaire, et elle doit être assez souple pour rendre compte formellement des possibilités déductives du langage usuel. Elle devra donc simuler, fournir un modèle, de l'univers sémantique de nos langages. Nous voici reconduits au rêve de la Caractéristique Universelle de Leibniz (avec cette\
+restriction que le calcul sur les formes pourrait être une opération plus souple qu'un simple calcul algébrique\...). La théorie des catastrophes, dans la mesure où elle fournit une théorie de l'analogie, est sans doute un premier pas dans cette voie." (Thom, 1975)p. 373
+
+### Modélisation écosystémique
+
+#### Géométrisation des espaces sémiologiques
+
+« Dans ce contexte, la T.C. ouvre à une nouvelle stratégie complémentaire et authentiquement structurale, constituant la description en objectivité.Mais elle paye son frayage d'abord par une complexité mathématique qui devient vite redoutable, ensuite par une certaine difficulté à maîtriser les analogies qu'elle manipule et à éviter leur chute dans une herméneutique "géométrique" imaginaire. » (Petitot, s. d.)
+
+#### Limite du vivant : formes de vie et modes d'existences
+
+« Bien qu'ils ne connaissent ni la douleur, ni le rire, ils ont par leur mode ou leur style d'existence une forme de vie singulière qui structure le donné ou la matière des autres entités auxquels ils participent. De ce fait, en s'immisçant dans l'armature de ces entités, ils conditionnent leur forme d'espace, les enjoignant de se plier à une charpente qu'elles n'ont pas choisie. » § 1
+
+« *Il s'ensuit que les formes de vie sont des modèles dynamiques qui, selon les auteurs, se distinguent ou non des styles de vie marqués par leurs déterminations sociales statiques, capables de se réinventer à chaque instant. Par conséquent, les formes de vie ne peuvent -- pour Jacques Fontanille -- faire l'objet, par principe et par définition, d'aucune typologie générale, et, c'est ce qui les distingue de toutes les tentatives de classifications totalisantes, de nature sociologique, anthropologique ou idéologique » §* 3\*\*
+
+*« Ce que nous appelons forme de vie correspond à cette ontologie du style, elle nomme le mode dans lequel une singularité témoigne de soi dans l'être et où l'être s'exprime dans le corps singulier  » §* 3\*\*
+
+Jedrzejewski, F. (2020). Formes de vie des objets mathématiques. *Rue Descartes*, 97, 158-173. <https://doi.org/10.3917/rdes.097.0158>
+
+#### La chance du sens
+
+"En effet, dans une situation très indéterminée, il est très fréquent que le 'choix au hasard' soit la meilleure stratégie offerte à un joueur. Mais l'esprit répugne - on l'a vu plus haut - à prendre une décision complètement arbitraire, et il préférera toujours à cet arbitraire la soumission à un modèle, si faiblement motivé qu'il puisse apparaître." (Thom, 1975) p. 361
+
+#### Limite de l'approche
+
+"We can summarize the limitations facing DE with the following three points:
+
+• The inability to add an already existing system to the DE unless it is designed to work in its digital environment.
+
+• The lack of communication interface to allow for interactions between different DEs.
+
+• There is no methodology to organize the resources produced by different systems in the DE." p. 15
+
+Saleh, M., 2018. Digital ecosystem : towards a system of information systems (phdthesis). Université de Technologie de Compiègne.
