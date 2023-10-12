@@ -13,11 +13,23 @@ book:
       chapters:
         - principesCarto.qmd
         - positionnements.qmd
-        - modeliserConnaissances.qmd
+        - visees.qmd
+        - frayages.qmd
+        - resultats.qmd
     - part: modeliserConnaissances.qmd
       chapters:
         - etatArtEpistemo.qmd
         - problemesErgo.qmd
+    - part: technoIntello.qmd
+      chapters:
+        - etatArtTI.qmd
+        - realisations.qmd
+    - part: perspectives.qmd
+      chapters:
+        - analyserOntoEthique.qmd
+        - capterGout.qmd
+        - developper.qmd
+        - diffuser.qmd
     - references.qmd
 
 bibliography: references.bib

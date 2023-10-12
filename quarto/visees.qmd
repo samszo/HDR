@@ -1,0 +1,109 @@
+## Visées scientifiques : échelles d'exploration et axes directionnels {#sec-visees}
+
+Définition de l'objet de recherche
+
+Il est nécessaire de mettre fin à amincissement du monde et une représentation de la pensée en un réseau qui supprime la multiplicité des modes d'existences :
+
+« Tout se passe comme si la densité des modes d'existence, la pluralité des relations que nous pouvons entretenir avec les êtres qui forment nos milieux et qu'ils entretiennent entre eux, l'hétérogénéité de nos savoirs, cette « surabondance du réel » étaient la cible d'un leitmotiv : une seule logique pour l'hétérogénéité des savoirs, un seul mode d'existence pour la pluralité des êtres, un seul cosmos pour la diversité des mondes. Bref, cette peur d'être dupe a pour effet de réduire les savoirs, les êtres et le monde à une seule et unique couche d'existence. » (Debaise & Stengers, 2021) § 6
+
+ceci ayant pour conséquences selon F. Guattari, F., Les trois écologies, Galilée, Paris, 1989,... :
+
+« politique de la méfiance », réduisant les environnements à une simple ressource, usant de catégories scalables qui rendent équivalentes ou insignifiantes les manières d'habiter, de s'attacher, de valoriser.
+
+le « laminage des subjectivités » par un enfermement dans les catégories de l'individu et de ses fonctions psychologisantes
+
+la destruction des rapports collectifs par une mise en concurrence généralisée à tous les niveaux des individus entre eux.
+
+### Echelle locale : produire une expression matérielle cohérente {#sec-echelleLocale}
+
+Concevoir des outils sur des mobiles
+
+### Echelle globale : technologies intellectuelles collectives {#sec-echelleGlobale}
+
+Rendre interopérables les données produites
+
+### Echelle sociale : la communauté des enseignants chercheurs {#sec-echelleSociale}
+
+Pas uniquement à l'université : tout acteur est à la fois chercheur et enseignant = explorateur et conteur.
+
+Détailler l'importance de ce point de vue dans le cadre de l'enseignement où la notion de gestion de l'information n'est pas évidente\...
+
+### Echelle conceptuelle : théoriser la modélisation des connaissances {#sec-echelleConcetuelle}
+
+Fournir une alternative qualitative à la théorie de l'information de shannon
+
+### Axe internet des objets {#sec-axeIOT}
+
+Concevoir, développer et analyser les objets connectés dans un Internet omniprésent
+
+### Axe générativité générique {#sec-axeGeneratif}
+
+Les exemples de data visualisation ci dessus illustrent ce qui est en jeu
+
+Représentation paramétrique de données
+
+Traduction, transformation numérique ?
+
+Intelligibilité du modèle ?
+
+Choix entre spécificité, généricité et réutilisabilité ?
+
+cf. <https://levelup.gitconnected.com/how-to-make-your-code-reusable-891ea5db415c>
+
+### Axe plasticité absolue {#sec-axePlasticite}
+
+"Contrairement à l'élasticité, la plasticité n'a aucune promesse de retour. Les deux concepts suggèrent un point limite auquel le système se rompt. Cependant, le changement dans chacun est différent, car quelque chose d'élastique revient ou peut reprendre forme après son changement.
+
+Contrairement aux compréhensions du pouvoir, même aux formes subtiles de pouvoir disciplinaire, la plasticité à l'échelle de l'individu et de la polis représente la possibilité d'un changement sans sujétion, c'est-à-dire sans résistance. Plutôt que les relations de pouvoir qui font des sujets à l'image foucaldienne, on a la possibilité de concevoir ou de diriger des sujets qui n'ont aucun indice de ce qu'ils étaient avant, de sorte que quelque chose puisse résister." mail Jean Max
+
+https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGtwMVVsTKtkHmLcCDbcHMMTbbd
+
+### Axe design des connaissances {#sec-axeDesignConnaissances}
+
+Modélisation des connaissances et conception des outils pour la manipuler dans les environnements d'apprentissage humain
+
+Mise en situation d'une potentialité de connaissances
+
+Comment concevoir une ergonomie des interfaces cognitives ?
+
+Passage de l'individuel au collectif ?
+
+\- premier langage : enseignement de math et des stats
+
+Modèle sémiologique + anthropologique + onto éthique
+
+### Axe intelligences collectives {#sec-axeIntelCo}
+
+Interopérabilité et réflexivité d'une conversation créative
+
+=\> fournir les outils pour une quantification de l'information et la stimulation des communications
+
+### Axes formalisation du consensus {#sec-axeFormaConsensus}
+
+Méthodes et outils du web sémantique et du LOD : la puissance de la norme.
+
+Pour une éthique de la discussion par une formalisation des échanges ayant pour but l'éducation de l'esprit critique par la stimulation des trois pouvoirs de discerner, choisir, agir.
+
+Les deux textes ci-dessus ont été générés par deux IA à partir du titre de la séance du séminaire. Leur pertinence toute relative illustre les effets du pilotage par les données du métier de chercheur en SHS d'un point de vue éthique : stimuler "une formation de la volonté" à travers des règles pratiques d'échanges (Habermas 2013, p. 22).
+
+L'enjeu de l'éthique est d'exercer sa "volonté" en tant qu'individu ou qu'institution face à une situation de choix : "L'éthique classique, comme d'ailleurs les théories modernes, partent de la question qui s'impose à un individu ayant besoin d'orientation lorsque dans une certaine situation, il se trouve, indécis, devant une tâche à maîtriser pratiquement : comment dois-je me comporter, que dois-je faire ?" (ibid. p. 96). Contrairement à une volonté politique, la "volonté éthique" ne s'exerce pas sur les "physicalités" (Descola 2005) extérieures en cherchant par exemple à éliminer les biais inhérents à toutes informations nécessairement inadéquates, mais se pratique dans la dimension des idées, celle de "l'intériorité" (ibid.) individuelle ou collective :
+
+"Tout dans l'existence nous condamnait à n'avoir que des idées inadéquates : nous n'avions ni l'idée de nous même, ni l'idée des corps extérieurs, mais seulement des idées d'affections, indiquant l'effet d'un corps extérieur sur nous. Mais précisément, à partir de cet effet, nous pouvons former l'idée de ce qui est commun à un corps extérieur et au nôtre. Compte tenu des conditions de notre existence, c'est pour nous la seule voie capable de nous mener à une idée adéquate. La première idée adéquate que nous ayons, c'est la notion commune, l'idée de ce"quelque chose de commun"." (Deleuze 1968 p. 259)
+
+Pour parvenir à ce "commun", nous avons élaboré une multitude de "jeux de langages" (Wittgenstein 1987), de diagrammes (Guattari 1989), de dispositifs (Gardies 2012)\... dont ceux utilisés aujourd'hui par les chercheurs pour produire grâce au numérique une infinité de "physicalités", de documents, de données, de ressources. Ce développement exponentiel des physicalités renvoie les chercheurs à deux questions éthiques fondamentales :
+
+Comment exercer nos volontés éthiques dans cette noosphère pilotée exclusivement par des machines ? Peut-on concevoir des documents pilotés par des données (https://d3js.org/) dédiés à l'exercice de la volonté éthique ?
+
+#### Ethique \<\> morale
+
+Il est fondamental de distinguer l'éthique de la morale d'en une optique de formation à l'esprit critique car il est nécessaire de bien connaître la différence entre une démarche éthique qui consiste à connaître ce qu'on est et une démarche morale qui se focalise sur l'acceptabilité sociale de ses action. Dès lors lorsque Dewey & Tufs confondent moral et éthique en ne distinguant pas le « bon » et le « mauvais » du « bien » et du « mal » ils contribuent à déresponsabilisé l'individu dans son apprentissage de l'esprit critique :
+
+« L'éthique est la science qui traite de la conduite en tant que l'on peut dire de celle-ci qu'elle est bonne ou mauvaise, qu'elle engage un jugement en termes de bien ou de mal. » (Dewey & Tufts, 2021a, paragr. 1)§ 1
+
+Ce qui se confirme quand ils excluent le goût comme élément du processus de valorisation à l'inverse de Spinoza dans sa lettre à Pliyenberg qui au contraire met l'accent le goût comme moteur d'une manière d'être.
+
+« La différence entre le haut et le bas de cette échelle n'est pas une affaire de goût mais de choix consciemment poursuivi. » (Dewey & Tufts, 2021, § 13)
+
+Dewey & Tufts le reconnaissent quand ils insistent sur la nécessité de goûter la vie autrement que par les mécanismes logico-mathématiques :
+
+« Si l'économie domine la vie --- et si l'ordre économique s'appuie principalement sur le profit comme motif au lieu de faire droit à d'autres motifs comme l'excellence professionnelle, la maîtrise d'un métier, le souci d'une juste rémunération ---, nous courons le danger de voir cette partie de notre vie qui devrait être subordonnée à toutes les autres valeurs et à tous les autres intérêts devenir la finalité ultime de nos existences. Nos vies ne peuvent se réduire à des bilans comptables. Lorsque la richesse est notre objectif principal, pour ne pas dire le seul, tout ce qui fait le sel de la vie --- l'amour, la justice, la connaissance, la beauté --- risque de passer au second plan. \[...\] La vérité est que faire du profit et de la richesse le but ultime de l'existence revient à se méprendre gravement sur ce que doit être le sens d'une vie.» (Dewey & Tufts, 2021b, §. 39)

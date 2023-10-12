@@ -3,7 +3,7 @@
     toc-depth: 4
 ---
 
-# Cartographie d'un milieu de connaissances
+# Cartographie d'un milieu de connaissances {#sec-part-cartoConnaissances}
 
 ::: {#exergue1 .exergue}
 « tous les systèmes de modélisation se valent,\
@@ -22,19 +22,21 @@ Les espaces que nous décrivons sont des milieux, c'est à dire un tissu relatio
 
 Peut-on modéliser toutes ses expériences pour les rendre accessibles ? Sont-elles toutes modélisables ? Accessibles ? Même si les cartes utilisent des systèmes de coordonnées calculables et un vocabulaire formel abouti qui les rendent manipulables par des machines et donc potentiellement modélisables, il n'en reste pas moins que la cartographie procède d'une multitude de choix qui sélectionneront dans l'espace à modéliser ce qui sera effectivement dans la carte. Pour transmettre une expérience, il faut la réduire à un ensemble de signes et par la même la soumettre aux contraintes de ce qui les caractérisent : variabilité, associativité, équivocité (@deleuze1981). La transformation de l'expérience en signe est fondamentalement incomplète. L'exhaustivité n'est qu'un leurre. Toutefois, la carte possède une dimension diagrammatique qui donne au signe une potentialité d'action à la manière d'une partition musicale (@stransky2014). La carte guide vers une expérience sans décrire toutes les connaissances auxquelles l'expérimentation donnera accès. Avec une carte, je sais où trouver une rivière poissonneuse mais pas si je vais effectivement pêcher des poissons et lesquels.
 
-Nous vous invitons à vous laisser guider par les cartographies que nous présentons en espérant que la pêche aux connaissances sera fructueuse pour vous, elle l'est déjà pour moi. Les cartographies que nous vous proposons décrivent mes connaissances en rapport avec mon métier d'enseignant chercheur et les pratiques informationnelles qu'il génère (@thiault2022). Nous suivons un processus d'exploration qui commence par préciser les principes cartographiques @sec-principesCarto utilisés. Le second chapitre de cette partie présente l'état actuel de mes positions scientifiques dans les sciences de l'information et de la communication et plus globalement dans les sciences humaines @sec-positionnements. Nous verrons ensuite dans un troisième chapitre quelles sont mes visées scientifiques par rapport à quatre échelles d'exploration (locale, globale, sociale et conceptuelle) en suivant cinq axes de recherches :
+Nous vous invitons à vous laisser guider par les cartographies que nous présentons en espérant que la pêche aux connaissances sera fructueuse pour vous, elle l'est déjà pour moi. Les cartographies que nous vous proposons décrivent mes connaissances en rapport avec mon métier d'enseignant chercheur et les pratiques informationnelles qu'il génère (@thiault2022). Nous suivons un processus d'exploration qui commence par préciser les principes cartographiques @sec-principesCarto utilisés. Le second chapitre de cette partie présente l'état actuel de mes positions scientifiques dans les sciences de l'information et de la communication et plus globalement dans les sciences humaines @sec-positionnements. Nous verrons ensuite dans un troisième chapitre quelles sont mes visées scientifiques @sec-visees par rapport à quatre échelles d'exploration (locale @sec-echelleLocale, globale @sec-echelleGlobale, sociale @sec-echelleSociale et conceptuelle @sec-echelleConcetuelle) en suivant cinq axes de recherches :
 
--   comprendre l'internet des objets,
--   concevoir une générativité générique,
--   formaliser le consensus par une éthique de la discussion,
--   designer les connaissances,
--   développer l'intelligence collective.
+-   comprendre l'internet des objets @sec-axeIOT,
+-   concevoir une générativité générique @sec-axeGeneratif,
+-   formaliser le consensus par une éthique de la discussion @sec-axeFormaConsensus,
+-   designer les connaissances @sec-axeDesignConnaissances,
+-   développer l'intelligence collective @sec-axeIntelCo.
 
-Dans un quatrième chapitre, je présenterais les étapes de mon parcours intellectuel qui débute avec l'histoire de l'art puis s'ancre dans les sciences de l'information et de la communication pour développer un projet de jardinage des connaissances qui mène à une théorisation des écosystèmes de connaissances et finalement à la mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication. Le dernier chapitre de cette partie sera consacré à la présentation des résultats de ce parcours en matière :
+Dans un quatrième chapitre, je présenterais les étapes de mon parcours intellectuel @sec-frayages à travers mes frayages intellectuelles @citton2010 qui débutent avec l'histoire de l'art puis s'ancre dans les sciences de l'information et de la communication pour développer un projet de jardinage des connaissances qui mène à une théorisation des écosystèmes de connaissances et finalement à la mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication. Le dernier chapitre de cette partie sera consacré à la présentation des résultats @sec-resultats de ce parcours en matière :
 
--   de modélisation d'une ontologie-éthique,
--   de calcul de la complexité info-communicationnelle,
--   d'interaction avec des cartographies sémantiques
--   d'outillage pour les humanités numériques.
+-   d'utilisation de l'analogie écosystèmique @sec-analogieEcosysteme,
+-   de modélisation d'une ontologie-éthique @sec-modeleOntoEthique, 
+-   de calcul de la complexité info-communicationnelle @sec-complexiteExitentielle,
+-   de conception diagrammatique et de crible @sec-diagrammesCribles
+-   d'interaction avec des cartographies sémantiques @sec-cartoSemantique, 
+-   d'outillage pour les humanités numériques @sec-protosHN.
 
-En explorant le milieu de connaissances que je vous propose, vous serez peut-être tenté d'y laisser vos propres traces. Si c'est le cas, vous pourrez le faire en utilisant l'outil « CartoAffect » que j'ai développé pour cartographier mon milieu de connaissances. Il suffit de vous rendre à cette page Web et/ou de télécharger l'application mobile. Une fois que vous vous serez identifié avec le compte qui vous a été fourni, vous pourrez participer à la cartographie d'un milieu de connaissances. Bonne exploration.
+En explorant le milieu de connaissances que je vous propose, vous serez peut-être tenté d'y laisser vos propres traces. Si c'est le cas, vous pourrez le faire en utilisant un outil d'expression d'un point de vue comme « CartoAffect » que j'ai développé pour cartographier mon milieu de connaissances. Il suffit de vous rendre à cette page Web et/ou de télécharger l'application mobile. Une fois que vous vous serez identifié avec le compte qui vous a été fourni, vous pourrez participer à la cartographie d'un milieu de connaissances. Bonne exploration.

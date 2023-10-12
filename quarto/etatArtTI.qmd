@@ -1,0 +1,30 @@
+## Etat de l'art {#sec-etatArtTI}
+
+
+### Science de la communication des sciences
+
+« Financés par la commission européenne, plusieurs projets de « recherche appliquée » sur la communication scientifique ont été lancés récemment en Europe (Quest, Rethink, Tresca, Newsera, Parcos, Concise...). En France, des programmes innovants se développent, notamment en réponse à l'appel « Sciences avec et pour la société » de l'Union Européenne, tel le projet « Sciences avec et pour une société en transitions » (SUNSET) de l'université de Bordeaux. On trouve également un certain nombre de chercheuses et de chercheurs travaillant à identifier les ressorts de la confiance, de l'autorité et de l'argumentation scientifique à l'Institut Jean Nicod, laboratoire interdisciplinaire de renommée internationale adossé à l'École des hautes études en sciences sociales (EHESS) et à l'École Normale Supérieure. » (Vellozzo, 2022)
+
+Il conviendrait de mettre en avant des serious game ayant pour objection des discussions créatives entre les différents acteurs de la sociétés.
+
+### Biomimétisme
+
+Tout acte d'imitation repose sur un prélèvement : l'identification d'une caractéristique estimée pertinente dans un organisme ou un système vivant, perçu ou modélisé en vue de son intégration dans des objets ou dans des techniques du corps. Même si ces opérations isolent des fonctions biologiques pour les reproduire dans des objets, cette ponction s'effectue le plus souvent en prenant en compte le milieu au sein duquel vit un organisme.
+
+Provost, F., Kamili, L., Pitrou, P., 2020. Enquêter sur l'imitation du vivant. Techniques Culture n° 73, 208--221. <https://www.cairn.info/revue-techniques-et-culture-2020-1-page-208.htm>
+
+### Ingénierie des connaissances dans les milieux numériques
+
+En conclusion, il s'agit d'apprendre à lire ces mégadonnées selon de nouvelles pratiques à dégager : de même que Ben Schneidermann avait popularisé dans l'univers des interfaces numériques le slogan « global and zoom » (Bederman and Schneidermann, 2003), un axe d'étude des mégadonnées est de construire une composition lectoriale du global et du local : la singularité herméneutique abordée au sein de la globalité calculée et restituée dans des visualisations graphiques.
+
+Bachimont, B., 2017. Le numérique comme milieu : enjeux épistémologiques et phénoménologiques. : Principes pour une science des données. Interfaces numériques 4, 402--402. <https://doi.org/10.25965/interfaces-numeriques.386>
+
+### The Digital Methods Initiative
+
+https://wiki.digitalmethods.net/Dmi/DmiAbout
+
+## Problématiques
+
+### La programmation comme art trompeur
+
+Il y a déjà trente ans, Pierre Lévy écrivait un petit livre sur la programmation comme un des beaux arts

@@ -1,0 +1,122 @@
+## Réalisations {#sec-realisations}
+
+### Modélisation d'une pulsation existentielle
+
+#### Les principes du modèle
+
+#### Généricité du modèle
+
+Reprendre les différents exemple des principes élémentaire de la pensée de P. Lévy et les traduire sous frme de diagrammes
+
+##### Rebondir dans les couches de l'individuation : heterogenetic flow
+
+"While the dynamics of separation of the two planes are largely unknown and typical to each semiotic context, we will speculate on the possibility of a spectral differentiation of the planes, in which the eigenvectors of the assemblage will indicate the independent directions of subspaces E/C. This construction allows the emergence of the semiotic function from the dynamic evolution of the heterogenetic flow without the need of any stabilisation, as opposed to the classical case of structural morphodynamics." p. 3
+
+« To allow the construction of assemblages, two temporal scales or axes are present. The first is the axis of the actualisation of differential constraints. It is the axis of Kronos, which is common to mathematical physics. The second is the axis that Deleuze calls Aion, on which it takes the place the recombination of differential constraints in new assemblages. » p. 6
+
+Sarti, A., Citti, G., Piotrowski, D., 2019. Differential heterogenesis and the emergence of semiotic function. Semiotica.
+
+### Mise en pratique d'Omeka S
+
+Avant 2016, j'utilisais un modèle de base de données et une trousse à outils php développée spécifiquement pour les besoins de mes recherches (Szoniecky, 2017, p. 141). Cette architecture technique m'a permis de développé plusieurs projets d'humanité numérique que nous avons présenté plus haut ([1.4.4.2Projet de recherche en humanités numériques](#anchor-59) p. [50](#anchor-59)). La découverte de la plasticité d'Omeka S en terme de modélisation des espaces sémantiques et documentaires m'a fait abandonné mes solutions spécifiques pour utilisé des solutions plus génériques et surtout disposant d'une communauté de concepteur et de développeurs. Ce chapitre explique comment j'ai mis en pratique Omeka S pour réaliser mes projets d'humanités numériques.
+
+#### Création d'un corpus dans Omeka S
+
+\- Choix des vocabulaires
+
+\- Modélisation des ressources templates
+
+\- Définition des relations entre objets
+
+\- Importation des données
+
+#### Développement des modules
+
+Dans le cadre de ces projets , nous avons développé plusieurs modules pour ajouter des fonctionnalités supplémentaire à Omeka S et facilité de travail de cartographie :
+
+##### Importation des données de diigo
+
+##### Importation des données de zotero
+
+1.  Limite du plugin
+
+les actants (Callon 2013) ne sont pas pris en compte dans leur singularité mais uniquement comme des chaines de caractères.
+
+Les tags sont eux aussi uniquement considérés comme des chaines de caractères et ne sont pas différenciés par leur auteur qui est soit le propriétaire du zotero, soit un tag automatique (z:AutomaticTag).
+
+1.  Développements spécifiques
+
+importation par création ou mise à jour
+
+importation des actants comme des items .
+
+Importation des tags comme des concept skos et les rapports entre tags, ressource et auteur comme des annotations
+
+##### Nouvelle version du générateur de texte
+
+##### CartoAffect
+
+###### L'architecture des données
+
+###### Les modules JavaScript
+
+####### JDC Physiques
+
+####### JDC
+
+2019 -- 2022 : ARCANES
+
+Des arts trompeurs à la post-vérité : régimes d'authenticité en contexte numérique
+
+Subvention CRSH -- Savoir : 256 000 \$
+
+Le projet Arcanes comporte deux volets. Le premier volet explore les processus de production du sens, les filiations historiques et intermédiales ainsi que les dynamiques de médiation, tout comme les divers dispositifs et les processus d'éditorialisation dans le sillon des humanités et des cultures numériques.
+
+Le deuxième volet interroge les puissances du faux, les mécanismes du leurre ainsi que les stratégies d'illusion tels qu'ils se manifestent dans les arts -- que nous qualifions « d'arts trompeurs » -, la littérature,  les pratiques médiatiques et l'écosystème socionumérique actuel.
+
+https://crilcq.arcanes.ca/ 
+
+2018 -- 2021 : POLEMIKA
+
+Génération automatique d'arguments pour l'éducation à l'esprit critique
+
+Subvention Région Ile de France : 30 800 € 
+
+Subvention ArTec : 5 000 €
+
+Ce projet de recherche vise à expérimenter des processus innovants de formation à l'esprit critique. Le premier volet dont nous devrions obtenir le financer par les "Trophées de l'innovation en Ile de France" se centre sur le développement informatique d'un générateur automatique d'arguments sous forme de Web App, qui sert d'interface d'interaction avec les utilisateurs, et de moyen de collecte de données sur les émotions suscitées par la génération des contre-propositions.
+
+En articulation avec ce projet, l'objet du projet Polemik'Art financer par ArTec consiste à 1) concevoir des modalités d'interactions humaines et numériques avec des dispositifs de mise en scène du générateur d'arguments développé dans POLEMIKA, 2) étudier le rôle des émotions dans la réception de ces mises en scène de contre-propositions, 3) évaluer l'influence de la participation des publics sur l'évolution de leurs émotions. https://polemika.univ-paris8.fr/
+
+2010 -- 2013 : GEVU
+
+Outil d'intelligence collective pour le diagnostic de l'accessibilité des bâtiments et des voiries
+
+Contrat de recherche de l'université de Lille : 80 000 € 
+
+Ce travail de recherche interdisciplinaire inclut des approches de géographie, d'urbanisme, d'ergonomie, de science de l'information, de design d'information et de pédagogie. L'objectif commun consiste à développer, en partenariat avec un OPH, un outil d'intelligence collective pour le diagnostic de l'accessibilité des bâtiments et des voiries : GEVU. Les spécificités de cette application Web apportent des bénéfices certains aux acteurs du logement social notamment en terme de visualisation et d'analyse des territoires mais aussi concernant la communication entre les acteurs. Il nous a aussi permis de mettre en place des méthodes de modélisation des écosystèmes d'information et de confronter nos approches dans le cadre d'un atelier de conception coopérative, pour une conduite de projets en référence à l'homme..
+
+### Ateliers de littérature générative
+
+« Revaz (2009) définit ainsi les propriétés communes à tous les récits :
+
+-   Une représentation d'actions,
+-   Un déroulement chronologique,
+-   Un enchaînement causal,
+-   Une transformation (renversement) entre l'état initial et l'état final,
+-   Un développement inhabituel ou non prévisible de l'action. »
+-   https://intelligibilite-numerique.numerev.com/manifeste
+
+### Chaoticum Seminario
+
+<https://github.com/samszo/ChaoticumSeminario>
+
+### GitHub Extractor
+
+Développer spécifiquement pour ce travail d'HDR afin d'extraire les données d'un compte GitHub et les importer dans Omeka S, cet outil cumule les besoins de deux outils existant : githubUserMeta[^54] et githubScraper[^55].
+
+[^54]:
+    > https://tools.digitalmethods.net/beta/githubUserMeta/#
+
+[^55]:
+    > https://tools.digitalmethods.net/beta/github/

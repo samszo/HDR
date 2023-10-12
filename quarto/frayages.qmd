@@ -1,0 +1,81 @@
+## Frayages intellectuels : les étapes d'une pensée {#sec-frayages}
+
+### De l'histoire de l'art aux sciences de l'information et de la communication
+
+La chance de découvrir l'art de toute les époques et par là d'apprendre à voir par la pratique intensive des œuvres et leurs analyses complexes.
+
+La gravure un modèle de diffusion à grande échelle et une première approche de l'histoire du goût à travers une exploration quali-quanti des catalogues de ventes
+
+John Cage, la découverte du chaos et des processus de chance
+
+Premières rencontres intellectuelles à la Tourette : Michel Serres, Regis Debray, l'histoire culturelle, les frères dominicains, la bibliothèque : Foucault\...
+
+L'intuition d'une machine à stimuler les connaissances par une mise en situation cinestésique\...
+
+Les premiers outils informatiques avec hypercard : le générateur automatique de philosophie
+
+La rencontre avec Balpe et Imad et le travail sur les agents autonomes, l'influence de Descartes pour le voyage... premières expériences professionnelles
+
+### Evolution du projet de jardin des connaissances
+
+Reprendre texte du bouquin avec modification
+
+### Théorisation des écosystèmes de connaissances
+
+La démarche de thèse
+
+les articles successifs autour de la modélisation des écosystèmes
+
+comparaison des schémas depuis celui du jardin, puis du premier diagramme dans la thèse, celui des genres de connaissances, puis celui avec l'acteur en référence à Latour
+
+Calculer la complexité d'un point de vue
+
+### Mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication
+
+#### Cours et ateliers
+
+les expériences d'enseignement pour faire comprendre la notion complexe :
+
+\- exhaustivité VS problématiser
+
+\- la difficulté de choisir le statut de l'information
+
+\- le respect des contraintes graphiques
+
+\- a quoi ça sert ?
+
+#### Projet de recherche en humanités numériques
+
+\- les bulletins diplomatiques de la sciences
+
+\- biolographes
+
+\- les données sur la poésie
+
+\- Aliento
+
+\- L'internet des objets
+
+\- l'évaluation des activités politiques
+
+\- SMEL, Arcanes
+
+\- Polemika
+
+\- Lire Ensemble
+
+\- cartographie deleuze
+
+\- biolographes
+
+\- Application développée spécifiquement pour le travail d'HDR.
+
+\- Arcanes
+
+\- Pédagothèque Psy
+
+\- Lire ensemble
+
+\- Ontostats
+
+\- Litte Bot

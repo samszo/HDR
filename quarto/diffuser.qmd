@@ -1,0 +1,17 @@
+## Diffuser le modèle écosystèmique onto-éthique {#sec-diffuser}
+
+### Publier un recueil des diagrammes
+
+A faire dans HAL
+
+### Publier les codes sources de modélisations
+
+A faire dans HAL
+
+### Animer un séminaire de recherche sur la modélisation des connaissances en sciences humaines
+
+\- ouvert aux chercheurs voulant réaliser un corpus numériques
+
+\- modéliser des recherches en humanités numériques existantes
+
+\- les bonne pratiques et outils efficaces
