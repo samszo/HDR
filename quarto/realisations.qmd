@@ -16,7 +16,7 @@ Reprendre les différents exemple des principes élémentaire de la pensée de P
 
 Sarti, A., Citti, G., Piotrowski, D., 2019. Differential heterogenesis and the emergence of semiotic function. Semiotica.
 
-### Mise en pratique d'Omeka S
+### Mise en pratique d'Omeka S {#sec-pratiquesOmk}
 
 Avant 2016, j'utilisais un modèle de base de données et une trousse à outils php développée spécifiquement pour les besoins de mes recherches (Szoniecky, 2017, p. 141). Cette architecture technique m'a permis de développé plusieurs projets d'humanité numérique que nous avons présenté plus haut ([1.4.4.2Projet de recherche en humanités numériques](#anchor-59) p. [50](#anchor-59)). La découverte de la plasticité d'Omeka S en terme de modélisation des espaces sémantiques et documentaires m'a fait abandonné mes solutions spécifiques pour utilisé des solutions plus génériques et surtout disposant d'une communauté de concepteur et de développeurs. Ce chapitre explique comment j'ai mis en pratique Omeka S pour réaliser mes projets d'humanités numériques.
 

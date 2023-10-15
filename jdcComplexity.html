@@ -165,6 +165,7 @@
         import {modal} from './modules/modal.js';
         import {jdcComplexe} from './modules/jdcComplexe.js';
         import {posiColor} from './modules/posiColor.js';
+        import {jdcComplexeDatabase} from './modules/jdcComplexeDatabase.js';
 
         let urlApiOmk = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getComplexity&',
             //urlComplexityTot = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDCsql&action=complexityTotal',
@@ -177,7 +178,7 @@
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
             rectChart = d3.select('#contentChart').node().getBoundingClientRect(),
-            pc, cpx;
+            pc, cpx, cpxDB;
 
         /*
         setMenu('#ddExport',[
@@ -224,7 +225,16 @@
                             'Rapport':d3.interpolateYlOrRd
                         }
                         ,'width':rectAccordion.width,'height':400});   
-                    getData(urlApiOmk+'id=299743');                 
+                    //getData(urlApiOmk+'id=299743');                
+                    cpxDB = new jdcComplexeDatabase({
+                        //'data':dataTots.filter(d=>d.dim=='Existence')
+                        'data':dataTots
+                        ,'cont':d3.select('#contentChart')
+                        , 'pValX':'cpx','pLibX':'Complexité'
+                        , 'pValY':'nbCpx','pLibY':"nombre d'existence"
+                        , 'pc':pc
+                        ,'width':rectChart.width
+                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});                        
                     hideLoader();
                 })
                 .catch(error => {
