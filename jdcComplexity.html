@@ -172,7 +172,7 @@
             //urlComplexityFrequency = '../omk/s/cartoaffect/page/ajax?json=1&helper=JDCsql&action=complexityFrequency',
             urlComplexityFrequency = 'assets/data/complexityFrequency.json',
             urlComplexityTot = 'assets/data/complexityTotal.json',
-            dataTots, dataDetails,
+            dataTots, dataFreq, dataDetails,
             m=new modal({'size':'modal-lg'}), hotRes, hotCpx, 
             rectAccordion = d3.select('#accordionJDC').node().getBoundingClientRect(),
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
@@ -206,29 +206,27 @@
         })
 
 
-        //getTots(urlComplexityTot);
-        getTots(urlComplexityFrequency);
+        getTots();
                 
         function getTots(url){
             showLoader();
-            d3.json(url)
-                .then(data=>{
-                    dataTots = data;
-                    pc = new posiColor({'data':dataTots,'cont':d3.select('#contentTots')
-                        //,'pVal':'maxCpx','pLib':'dim', 'frequency':false
-                        , 'pVal':'cpx','pLib':'dim', 'pFreq':'nbCpx','frequency':true
-                        , 'interpolates':{
-                            'Existence':d3.interpolateViridis,
-                            'Physique':d3.interpolatePlasma,
-                            'Actant':d3.interpolatePlasma,
-                            'Concept':d3.interpolatePlasma,
-                            'Rapport':d3.interpolateYlOrRd
-                        }
-                        ,'width':rectAccordion.width,'height':400});   
+            Promise.all([d3.json(urlComplexityTot),d3.json(urlComplexityFrequency)]).then(function(responses) {
+                dataTots = responses[0], dataFreq=responses[1];
+                pc = new posiColor({'data':dataFreq,'cont':d3.select('#contentTots')
+                    //,'pVal':'maxCpx','pLib':'dim', 'frequency':false
+                    , 'pVal':'cpx','pLib':'dim', 'pFreq':'nbCpx','frequency':true
+                    , 'interpolates':{
+                        'Existence':d3.interpolateViridis,
+                        'Physique':d3.interpolatePlasma,
+                        'Actant':d3.interpolatePlasma,
+                        'Concept':d3.interpolatePlasma,
+                        'Rapport':d3.interpolateYlOrRd
+                    }
+                    ,'width':rectAccordion.width,'height':400});   
                     //getData(urlApiOmk+'id=299743');                
                     cpxDB = new jdcComplexeDatabase({
                         //'data':dataTots.filter(d=>d.dim=='Existence')
-                        'data':dataTots
+                        'data':dataFreq, 'tots':dataTots
                         ,'cont':d3.select('#contentChart')
                         , 'pValX':'cpx','pLibX':'Complexité'
                         , 'pValY':'nbCpx','pLibY':"nombre d'existence"
@@ -236,15 +234,14 @@
                         ,'width':rectChart.width
                         ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});                        
                     hideLoader();
-                })
-                .catch(error => {
-                    m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
-                    +error);
-                    m.setBoutons([{'name':"Close"}]);                
-                    m.show();    
-                    hideLoader();
-                    console.error('There was an error!', error);
-                });                            
+            }).catch(error => {
+                m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
+                +error);
+                m.setBoutons([{'name':"Close"}]);                
+                m.show();    
+                hideLoader();
+                console.error('There was an error!', error);
+            });                            
         }
 
 
