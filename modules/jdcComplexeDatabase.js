@@ -65,7 +65,7 @@ export class jdcComplexeDatabase {
                 .attr("style", "max-width: 100%; height: auto;")
                 .style("font", "10px sans-serif");                
             // Declare the chart dimensions and margins.
-            const marginTop = 20;
+            const marginTop = 100;
             const marginRight = 30;
             const marginBottom = 30;
             const marginLeft = 40;
@@ -245,12 +245,28 @@ export class jdcComplexeDatabase {
                     .attr("stroke-opacity", 0.1))
                 .call(g => g.append("text")
                     .attr("x", -marginLeft)
-                    .attr("y", 10)
+                    .attr("y", marginTop-10)
                     .attr("fill", "currentColor")
                     .attr("text-anchor", "start")
                     .text(me.pLibY));
                   
             //création des légendes de couleurs
+            let dims = "Existence, Physique, Actant, Concept, Rapport"
+                , scBandLegende = d3.scaleBand([0,dims.length], [marginLeft, width-marginRight])
+                .paddingInner(0.2) // edit the inner padding value in [0,1]
+                //.paddingOuter(0.5) // edit the outer padding value in [0,1]
+                .align(0.5) // edit the align: 0 is aligned left, 0.5 centered, 1 aligned right.
+                , 
+            legende = svg.append("g")
+                .attr("class", "cpxLegende");
+            legende.append('text')
+                .attr('transform',`translate(${scBandLegende(0)},0)`)
+                .text('Exitence');
+            legende.append('text')
+                .attr('transform',`translate(${scBandLegende(1)},0)`)
+                .text('Physique');
+
+
             //
             cacheDim("Physique");
             cacheDim("Actant");
