@@ -149,6 +149,15 @@ Par exemple, reprenons la modélisation de la Figure 4.2., Chromecast est consid
 
 Il est important de comprendre que le calcul de la complexité d'une existence ne prend pas en compte l'intégralité du réseau informationnel dont fait partie cette existence mais uniquement . Nous avons fait le choix pour simplifier lecalcule dea complexité d'une existence mais uniquement les informations
 
+
+Par exemple, la citation suivante possède une complexité de 231 dans notre écosystème de connaissance :
+
+> « le tout est d'une certaine façon inclus (engrammé) dans la partie qui est incluse dans le tout. L'organisation complexe du tout (holos) nécessité l'inscription (engramme) du tout (hologramme) en chacune de ses parties pourtant singulières ; ainsi, la complexité organisationnelle du tout nécessite la complexité organisationnelle des parties, laquelle nécessite récursivement la complexité organisationnelle du tout. » [@morin1992 p. 102]
+
+Cette complexité peut se représenter par le diagramme suivant :
+
+![Diagramme de complexité d'une citation](images/localhost_samszo_HDR_jdcComplexityCita.png){#fig-ComplexityCita fig-align="center"}
+
 #### Comparer des points de vue interprétatif
 
 les dimensions existentielle,
