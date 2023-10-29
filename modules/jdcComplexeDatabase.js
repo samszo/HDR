@@ -140,7 +140,8 @@ export class jdcComplexeDatabase {
                 .attr("opacity", 0.4)
                 .attr("stroke", "white")
                 .attr("stroke-opacity", strokeOpacity)
-                .attr("transform",d=> `translate(${x(d[me.pValX])},${y(d[me.pValY])})`);
+                .attr("transform",d=> `translate(${x(d[me.pValX])},${y(d[me.pValY])})`)
+                .on('click',showDetails);
             addSymbolExistence(gExis);
 
             // Add the x-axis.
@@ -220,6 +221,11 @@ export class jdcComplexeDatabase {
             showCacheSymbol(false,"Concept");
             showCacheSymbol(false,"Rapport");
             //
+        }
+
+        function showDetails(e,d){
+            console.log(d);
+            //m=new modal({'size':'modal-lg'})
         }
 
         function showCacheSymbol(e,dim){
