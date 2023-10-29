@@ -15,6 +15,7 @@ export class jdcComplexeDatabase {
         this.color = params.color ? params.color : d3.interpolateViridis;
         this.colors = {};
         this.legendes={};
+        this.urlDetails = params.urlDetails ? params.urlDetails : '../omk/s/cartoaffect/page/ajax?json=1&helper=JDCsql&action=complexityDetails';
         // Specify the chart’s position.
         const svgX=params.x ? params.x : 0; 
         const svgY=params.y ? params.y : 0; 
@@ -24,7 +25,7 @@ export class jdcComplexeDatabase {
         const marginTop = 100;
         const marginRight = 30;
         const marginBottom = 30;
-        const marginLeft = 40;
+        const marginLeft = 60;
                   
         let x, y, symboleSize = 3, strokeOpacity = 0.3, numberFormat = d3.format("~s")
             , pointsLine = [[0,-symboleSize*4],[0,-symboleSize],[0,symboleSize*2]]
@@ -141,6 +142,7 @@ export class jdcComplexeDatabase {
                 .attr("stroke", "white")
                 .attr("stroke-opacity", strokeOpacity)
                 .attr("transform",d=> `translate(${x(d[me.pValX])},${y(d[me.pValY])})`)
+                .attr('style','cursor:zoom-in')
                 .on('click',showDetails);
             addSymbolExistence(gExis);
 
@@ -177,7 +179,7 @@ export class jdcComplexeDatabase {
                 .attr("transform",d=>`translate(${marginLeft},20)`)
                 .text('Complexity of database : '+numberFormat(me.tots.cpx));
 
-            //création des légendes de couleurs
+            //création des légendes de dimensions
             let heightLeg=32, scBandLegende = d3.scaleBand()
                 .domain(dims)
                 .range([marginLeft, width-marginRight])
@@ -221,11 +223,54 @@ export class jdcComplexeDatabase {
             showCacheSymbol(false,"Concept");
             showCacheSymbol(false,"Rapport");
             //
+
+            //création des légendes de ressource type
+            let rscT = [];
+            dataMissing.forEach(d=>{
+                d.rt.split(',').forEach(rt=>{
+                    if(!rscT.includes(rt))rscT.push(rt);
+                });
+            });
+            let scBandLegendeRscT = d3.scaleBand()
+                .domain(rscT)
+                .range([marginLeft, width-marginRight])
+                .paddingInner(0.2) // edit the inner padding value in [0,1]
+                //.paddingOuter(0.5) // edit the outer padding value in [0,1]
+                .align(0.5) // edit the align: 0 is aligned left, 0.5 centered, 1 aligned right.
+                , 
+            legendeRscT = svg.append("g")
+                .attr("class", "cpxLegendeRscT")
+                .selectAll()
+                .data(rscT)
+                .join("g")
+                  .attr('id',d=>'leg'+d)
+                  .attr("stroke", "white")
+                  .attr("stroke-opacity", strokeOpacity)  
+                  .attr("transform",d=>`translate(${scBandLegendeRscT(d)},40)`)
+                  .on('click',showCacheRscT)
+                  .style("cursor","pointer");
+            legendeRscT.append("rect")
+                  .attr('id',d=>'legFond'+d.replace('/',''))        
+                  .attr("x",0)
+                  .attr("y",6)
+                  .attr("width",scBandLegendeRscT.bandwidth())
+                  .attr('height',heightLeg)
+                  .attr("fill","green")
+                  .attr("opacity", 0.2);
+            legendeRscRscT.append("text")
+                .attr("text-anchor","middle")
+                .attr("font-size","1em")
+                .attr("x",scBandLegendeRscT.bandwidth()/2)
+                .attr("fill","currentColor")
+                .text(d=>d);
+
         }
 
         function showDetails(e,d){
             console.log(d);
-            //m=new modal({'size':'modal-lg'})
+            d3.json(me.urlDetails+'&dim='+d.dim+'&cpx='+d.cpx).then(data=>{
+                console.log(data);
+            })
         }
 
         function showCacheSymbol(e,dim){
@@ -241,7 +286,10 @@ export class jdcComplexeDatabase {
 
         function addSymbolRapport(g,t){
             let s = t ? g.append('g').attr('transform',t):g;
-            s.attr('class','symbolRapport');
+            s.attr('class','symbolRapport')
+                .attr('style','cursor:zoom-in')
+                .on('click',showDetails);
+
             s.append("path")
                 .attr("d",d3.line()(pointsLine))
                 .attr("stroke", d => getColor(d,"currentColor"));
