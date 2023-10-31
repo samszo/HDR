@@ -22,7 +22,7 @@ export class jdcComplexeDatabase {
         // Specify the chart’s dimensions.
         const width = params.width ? params.width : 600;
         const height = params.height ? params.height : 600;
-        const marginTop = 100;
+        const marginTop = 140;
         const marginRight = 30;
         const marginBottom = 30;
         const marginLeft = 60;
@@ -32,7 +32,13 @@ export class jdcComplexeDatabase {
             , pointsExa = new hexa.Layout(hexa.Layout.flat,new hexa.Point(symboleSize*2, symboleSize*2), new hexa.Point(0, 0))
                 .polygonCorners(new hexa.Hex(0,0,0))
                 .map(p=>`${p.x},${p.y}`).join(" ")
-            , svg, dataMissing, dims = ["Existence", "Physique", "Actant", "Concept", "Rapport"];
+            , svg, dataMissing
+            , dims = [{'id':"Existence",'select':true}, 
+                    {'id':"Physique",'select':false}, 
+                    {'id':"Actant",'select':false}, 
+                    {'id':"Concept",'select':false}, 
+                    {'id':"Rapport",'select':false}]
+            , rscT = [];
 
         this.init = function () {
             console.log(me.data);            
@@ -44,7 +50,7 @@ export class jdcComplexeDatabase {
             dataMissing = [];
             me.data.sort((a, b) => a[me.pValX] - b[me.pValX]);
             me.data.forEach((d,i) => {
-                if(i<10000){
+                if(i<100000){
                     /*
                     if(i>1){
                         //ajoute les données manquantes
@@ -59,6 +65,7 @@ export class jdcComplexeDatabase {
                         }
                     }
                     */
+                    d.rt = d.rt.split(',');
                     if(d[me.pValX]>0)dataMissing.push(d);    
                 }
             })
@@ -181,7 +188,7 @@ export class jdcComplexeDatabase {
 
             //création des légendes de dimensions
             let heightLeg=32, scBandLegende = d3.scaleBand()
-                .domain(dims)
+                .domain(dims.map(d=>d.id))
                 .range([marginLeft, width-marginRight])
                 .paddingInner(0.2) // edit the inner padding value in [0,1]
                 //.paddingOuter(0.5) // edit the outer padding value in [0,1]
@@ -192,43 +199,42 @@ export class jdcComplexeDatabase {
                 .selectAll()
                 .data(dims)
                 .join("g")
-                  .attr('id',d=>'leg'+d)
+                  .attr('id',d=>'leg'+d.id)
                   .attr("stroke", "white")
                   .attr("stroke-opacity", strokeOpacity)  
-                  .attr("transform",d=>`translate(${scBandLegende(d)},40)`)
+                  .attr("transform",d=>`translate(${scBandLegende(d.id)},40)`)
                   .on('click',showCacheSymbol)
                   .style("cursor","pointer");
             legende.append("rect")
-                  .attr('id',d=>'legFond'+d)        
+                  .attr('id',d=>'legFond'+d.id)        
                   .attr("x",0)
                   .attr("y",6)
                   .attr("width",scBandLegende.bandwidth())
                   .attr('height',heightLeg)
-                  .attr("fill","green")
+                  .attr("fill",d=>d.select ? "green" : "#00ffff00")
                   .attr("opacity", 0.2);
             legende.append("text")
                 .attr("text-anchor","middle")
                 .attr("font-size","1em")
                 .attr("x",scBandLegende.bandwidth()/2)
                 .attr("fill","currentColor")
-                .text(d=>d);
+                .text(d=>d.id);
             addSymbolExistence(d3.select('#legExistence'),`translate(${scBandLegende.bandwidth()/2},24)`);
             addSymbolPhysique(d3.select('#legPhysique'),`translate(${(scBandLegende.bandwidth()/2)-(symboleSize*3/2)},${(heightLeg/2)-(symboleSize*3/2)})`);
             addSymbolActant(d3.select('#legActant'),`translate(${scBandLegende.bandwidth()/2},24)`);            
             addSymbolConcept(d3.select('#legConcept'),`translate(${scBandLegende.bandwidth()/2},24)`);            
             addSymbolRapport(d3.select('#legRapport'),`translate(${scBandLegende.bandwidth()/2},24)`);            
             //
-            showCacheSymbol(false,"Physique");
-            showCacheSymbol(false,"Actant");
-            showCacheSymbol(false,"Concept");
-            showCacheSymbol(false,"Rapport");
+            showCacheSymbol(false, false);
             //
 
             //création des légendes de ressource type
-            let rscT = [];
+            rscT = [];
             dataMissing.forEach(d=>{
-                d.rt.split(',').forEach(rt=>{
-                    if(!rscT.includes(rt))rscT.push(rt);
+                d.rt.forEach(rt=>{
+                    if(rscT.filter(r=>r.lib==rt).length==0){
+                        rscT.push({'id':rt.replace(/\\/g,''),'lib':rt,'select':true});
+                    }
                 });
             });
             let scBandLegendeRscT = d3.scaleBand()
@@ -243,26 +249,27 @@ export class jdcComplexeDatabase {
                 .selectAll()
                 .data(rscT)
                 .join("g")
-                  .attr('id',d=>'leg'+d)
+                  .attr('id',d=>'leg'+d.id)
                   .attr("stroke", "white")
                   .attr("stroke-opacity", strokeOpacity)  
-                  .attr("transform",d=>`translate(${scBandLegendeRscT(d)},40)`)
+                  .attr("transform",d=>`translate(${scBandLegendeRscT(d)},80)`)
                   .on('click',showCacheRscT)
                   .style("cursor","pointer");
             legendeRscT.append("rect")
-                  .attr('id',d=>'legFond'+d.replace('/',''))        
+                  .attr('id',d=>'legFond'+d.id)        
                   .attr("x",0)
                   .attr("y",6)
                   .attr("width",scBandLegendeRscT.bandwidth())
                   .attr('height',heightLeg)
                   .attr("fill","green")
                   .attr("opacity", 0.2);
-            legendeRscRscT.append("text")
+            legendeRscT.append("text")
                 .attr("text-anchor","middle")
                 .attr("font-size","1em")
                 .attr("x",scBandLegendeRscT.bandwidth()/2)
+                .attr('y',heightLeg-6)
                 .attr("fill","currentColor")
-                .text(d=>d);
+                .text(d=>d.lib);
 
         }
 
@@ -273,20 +280,38 @@ export class jdcComplexeDatabase {
             })
         }
 
-        function showCacheSymbol(e,dim){
-            let s = d3.select('#legFond'+dim);
+        function showCacheRscT(e,t){
+            let sltType = [], s = d3.select('#legFond'+t.id);
             if(s.attr('fill')=="green"){
-                d3.select('.cpx'+dim).attr('visibility','hidden');
-                s.attr('fill',"#00ffff00");//mey une couleur transparente pour que le clic fonctionne                    
+                s.attr('fill',"#00ffff00");//met une couleur transparente pour que le clic fonctionne
+                t.select=false;                        
             }else{
-                d3.select('.cpx'+dim).attr('visibility','visible');
                 s.attr('fill',"green");                    
-            } 
+                t.select=true;                        
+            }
+            let q = rscT.filter(t=>t.select).join(' .');
+            d3.select('.'+q).attr('visibility','visible');
+        }
+        function showCacheSymbol(e,d){
+            if(e){
+                let s = d3.select('#legFond'+d.id);
+                if(s.attr('fill')=="green"){
+                    d.select=false;
+                    s.attr('fill',"#00ffff00");//met une couleur transparente pour que le clic fonctionne                    
+                }else{                
+                    d.select=true;
+                    s.attr('fill',"green");                    
+                }    
+            }
+            dims.forEach(d=>{
+                if(d.select)d3.select('.cpx'+d.id).attr('visibility','visible');
+                else d3.select('.cpx'+d.id).attr('visibility',d=>'hidden');
+            }) 
         }
 
         function addSymbolRapport(g,t){
             let s = t ? g.append('g').attr('transform',t):g;
-            s.attr('class','symbolRapport')
+            s.attr('class',d => d.rt ?  'symbolRapport '+d.rt.map(t=>t.replace(/\\/g,'')).join(' ') : '')
                 .attr('style','cursor:zoom-in')
                 .on('click',showDetails);
 
@@ -304,7 +329,7 @@ export class jdcComplexeDatabase {
 
         function addSymbolConcept(g,t){
             let s = t ? g.append('g').attr('transform',t):g;
-            s.attr('class','symbolConcept');
+            s.attr('class',d => d.rt ? 'symbolConcept '+d.rt.map(t=>t.replace(/\\/g,'')).join(' ') : '');
             s.append('circle')
               .attr("cx", 0)
                 .attr("cy",0)
@@ -314,7 +339,7 @@ export class jdcComplexeDatabase {
 
         function addSymbolActant(g,t){
             let s = t ? g.append('g').attr('transform',t):g;
-            s.attr('class','symbolActant');
+            s.attr('class',d => d.rt ? 'symbolActant '+d.rt.map(t=>t.replace(/\\/g,'')).join(' ') : '');
             s.append('polygon')
                 .attr('points',pointsExa)
                 .attr("fill", d => getColor(d));
@@ -322,7 +347,7 @@ export class jdcComplexeDatabase {
 
         function addSymbolPhysique(g,t){
             let s = t ? g.append('g').attr('transform',t):g;
-            s.attr('class','symbolPhysique');
+            s.attr('class',d => d.rt ? 'symbolPhysique '+d.rt.map(t=>t.replace(/\\/g,'')).join(' ') : '');
             s.append("rect")
                 .attr("x", 0)
                 .attr("y", 0)
@@ -334,7 +359,7 @@ export class jdcComplexeDatabase {
 
         function addSymbolExistence(g,t){
             let s = t ? g.append('g').attr('transform',t):g;
-            s.attr('class','symbolExitence');
+            s.attr('class',d => d.rt ? 'symbolExitence '+d.rt.map(t=>t.replace(/\\/g,'')).join(' ') : '');
             s.append("rect")
                 .attr("x", -symboleSize*1.5)
                 .attr("y", -symboleSize*6)
