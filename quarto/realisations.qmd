@@ -54,13 +54,13 @@ Importation des tags comme des concept skos et les rapports entre tags, ressourc
 
 ##### Nouvelle version du générateur de texte
 
-##### CartoAffect
+##### CartoAffect {#sec-cartoAffect}
 
 ###### L'architecture des données
 
 ###### Les modules JavaScript
 
-####### JDC Physiques
+####### JDC Physiques {#sec-jdcPhysiques}
 
 ####### JDC
 

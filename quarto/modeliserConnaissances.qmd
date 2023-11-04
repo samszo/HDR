@@ -34,9 +34,9 @@ Nous aborderons cette problématique tout d'abord dans sa dimension épistémolo
 
 cf. <https://khayyam.developpez.com/articles/intelligence-artificielle/tensorflow-gan/>
 
-### Représentation de l'activité des chercheurs
+### Représentation de l'activité des chercheurs {#sec-datavizActiChercheur}
 
-### Représentation des pulsations existentielles en 3D
+### Représentation des pulsations existentielles en 3D {#sec-pulsaExi3D}
 
 ![](media/1000000100000D26000006D802ED365FE722E85E.png){width="17cm" height="8.848cm"}
 
