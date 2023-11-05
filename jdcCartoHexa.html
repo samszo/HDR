@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDC : CartoHexa</title>
+    <script type="text/javascript" src="assets/js/d3.min.js"></script>
+    <script src="assets/js/bootstrap5.3.bundle.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/handsontable.full.min.js"></script>
+    <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet">
+    <link href="assets/css/menu.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/handsontable.full.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+        <header>
+            <div>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark"
+                    data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/img/logo-paragraphe-blanc.svg" alt="Logo" width="86"
+                                class="d-inline-block align-text-top">
+                            JDC CartoHexa
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul id="navbarMain" class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="fa-solid fa-file-export"></i>
+                                        <span id="selectExport">Choose an export</span>
+                                    </a>
+                                    <ul id="ddExport" class="dropdown-menu">
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="fa-solid fa-file-export"></i>
+                                        <span id="selectCarto">Choose a cartography</span>
+                                    </a>
+                                    <ul id="ddCarto" class="dropdown-menu">
+                                    </ul>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <button id="btnNewCarto" type="button" class="btn btn-danger">
+                                        <i class="fa-solid fa-map-location-dot"></i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+
+        <main id='mainContent' class="px-3">
+
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="accordion" data-bs-theme="dark" id="accordionJDC">
+                            <div class="accordion-item text-white bg-dark">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Cartography details
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionJDC">
+                                    <div class="accordion-body">
+                                        <div id="contentDetails">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item text-white bg-dark">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Resource list
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionJDC">
+                                    <div class="accordion-body">
+                                        <div id="contentResources">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8" id="contentMap">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p style="padding-top: 6px;">Design by <a href="https://samszo.univ-paris8.fr/" class="text-white">Samuel
+                    Szoniecky</a>
+                <a target="_blank" href="https://www.univ-paris8.fr/EA-349-Laboratoire-Paragraphe">
+                    <img style="height: 40px;" src="assets/img/logo-paragraphe-blanc.svg"
+                        alt="Laboratoire Paragraphe" />
+                </a>
+                <a target="_blank" href="https://github.com/samszo/HDR">
+                    <button type="button" class="btn btn-danger">
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                    </button>
+                </a>
+                Template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+                    href="https://twitter.com/mdo" class="text-white">@mdo</a>.
+            </p>
+        </footer>
+
+    </div>
+
+
+    <div id="loading-container">
+        <div class="loadingio-spinner-double-ring-4dols36ufwg" id="ws-loading">
+            <div class="ldio-6pd26u1x99x">
+                <div></div>
+                <div></div>
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import {modal} from './modules/modal.js';
+        import {auth} from './modules/auth.js';
+        import {cartoHexa} from './modules/cartoHexa.js';        
+
+        let m=new modal({'size':'modal-lg'}), hotRes, 
+            accordion = document.getElementById('accordionJDC'),
+            rectAccordion = accordion.getBoundingClientRect(),
+            rectFooter = d3.select('footer').node().getBoundingClientRect(),
+            rectHeader = d3.select('header').node().getBoundingClientRect();
+        //dimensionne la carte
+        d3.select('#contentMap').style('height',rectFooter.top-rectFooter.height-rectHeader.bottom+"px");
+        let  rectChart = d3.select('#contentMap').node().getBoundingClientRect(),
+            a = new auth({'navbar':d3.select('#navbarMain'),
+                mail:'samuel.szoniecky@univ-paris8.fr',
+                apiOmk:'../omk/api/',
+                ident: 'z2pE1yx2ilEBX2Ajkai0Rz3ZLl5cwjKc',
+                key: 'tlz4NcL9IpOwNV7waiDzAIPW1JdME6IU',
+            });
+        //log l'utilisateur
+        a.getUser(u=>{
+            console.log(u);
+            let listCarto = a.omk.searchItems('resource_template_id='+a.omk.getRtId('CartoHexa'));
+            setMenu('#ddCarto', listCarto,'o:title',showCarto);
+            hideLoader();
+        });
+        //gestion des event de l'ihm
+        d3.select("#btnQuery").on('click',e=>{
+            let q = d3.select("#iptQuery").node().value; 
+            getData(urlApiOmk+q);
+        })
+
+        d3.select("#btnNewCarto").on('click',e=>{
+            showLoader();
+            a.omk.createRessource({
+                    "o:resource_template":"CartoHexa", 
+                    "o:resource_class":"jdc:CribleCarto", 
+                    "dcterms:title":"New CartoHexa", 
+                    "dcterms:description":'Write your description'
+                },
+                i=>{
+                    console.log(i);
+                    let  md =new modal({'size':'modal-lg'})
+                    md.setBody('<h3 class="text-white bg-dark">'+i['o:title']+'</h3>'
+                        +'<iframe class="fiche" src="../omk/admin/item/'+i['o:id']+'/edit"/>');
+                    md.setBoutons([{'name':"Close"}]);                
+                    md.show();    
+                    hideLoader();
+                });
+
+        })        
+        
+        accordion.addEventListener('shown.bs.collapse', event => {
+            if(event.target.id=="collapseThree"){
+                hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx);
+            }
+            if(event.target.id=="collapseFour"){
+                hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes);
+            }
+        })
+
+        //fonctions de l'ihm
+        function showCarto(e,d){
+            console.log(d);
+            let ch = new cartoHexa({'idCont':'contentMap'
+                ,'dataCarte':d,'omk':a.omk
+                ,'showLoader':showLoader,'hideLoader':hideLoader
+            });
+
+        }
+        //getDatas();
+                
+        function getDatas(url){
+            showLoader();
+            Promise.all([d3.json(urlComplexityTot),d3.json(urlComplexityFrequency)]).then(function(responses) {
+
+                dataTots = responses[0], dataFreq=responses[1];
+                pc = new posiColor({'data':dataFreq,'cont':d3.select('#contentTots')
+                    //,'pVal':'maxCpx','pLib':'dim', 'frequency':false
+                    , 'pVal':'cpx','pLib':'dim', 'pFreq':'nbCpx','frequency':true
+                    , 'interpolates':{
+                        'Existence':d3.interpolateViridis,
+                        'Physique':d3.interpolatePlasma,
+                        'Actant':d3.interpolatePlasma,
+                        'Concept':d3.interpolatePlasma,
+                        'Rapport':d3.interpolateYlOrRd
+                    }
+                    ,'width':rectAccordion.width,'height':400});   
+                    //getData(urlApiOmk+'id=299743');                
+                    cpxDB = new jdcComplexeDatabase({
+                        //'data':dataTots.filter(d=>d.dim=='Existence')
+                        'data':dataFreq, 'tots':dataTots
+                        ,'cont':d3.select('#contentMap')
+                        ,'pValX':'cpx','pLibX':'Complexité'
+                        ,'pValY':'nbCpx','pLibY':"nombre d'existence"
+                        ,'pc':pc
+                        ,'width':rectChart.width
+                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});                        
+                    hideLoader();
+            }).catch(error => {
+                m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
+                +error);
+                m.setBoutons([{'name':"Close"}]);                
+                m.show();    
+                hideLoader();
+                console.error('There was an error!', error);
+            });                            
+        }
+
+
+        function getData(url){
+            showLoader();
+            d3.json(url)
+                .then(data=>{
+                    console.log(data);
+                    //vérifie si les data viennent d'un bulkexport
+                    if(!data.infos)dataDetails=data[0];
+                    else dataDetails=data;
+                    let cont = d3.select('#contentMap');
+                    cont.select("svg").remove();
+                    cpx = new jdcComplexe({'data':dataDetails,'cont':cont
+                        ,'colors':pc.colors
+                        ,'legend':pc
+                        ,'width':rectChart.width
+                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
+                    hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx,false);
+                    hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes,true);
+                    setDetails();
+                    hideLoader();
+                })
+                .catch(error => {
+                    m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
+                    +error);
+                    m.setBoutons([{'name':"Close"}]);                
+                    m.show();    
+                    hideLoader();
+                    console.error('There was an error!', error);
+                });                
+        }
+
+        function setDetails(){
+            let r, urlAdmin, titre='Complexity of ';
+            if(dataDetails.infos.query){
+                titre+=' query : '+dataDetails.infos.query                
+            }else{
+                r = dataDetails.infos.resources.filter(d=>d.id==dataDetails.infos.params.id)[0];
+                titre+=': '+r.details["o:title"];
+                urlAdmin=r.details["@id"].replace('api','admin')
+                    .replace('items/','item/')
+                    .replace('item_sets/','item-set/')
+                    ;
+                d3.select("#contentInfos").html(
+                    `<H5><a target="_blanck" href="${urlAdmin}">${r.details["o:title"]}</a></H5>
+                    <H6>${Array.isArray(r.details["@type"]) ? r.details["@type"].join() : r.details["@type"]}</H6>
+                    `
+                );
+                                
+            }
+            d3.select("#complexityTitle").text(titre);
+        }
+
+        function setDataComplexityForTable(data){
+            let dataTable = [{}]
+        }
+
+        function setTable(data, cont, hot, menu){
+            if(hot){                
+                hot.clear();
+                if(data)hot.updateData(data);
+                else hot.updateData([]);
+                //hot.render()
+            }else{
+                let headers = Object.keys(data[0]),
+                    menuContext = menu ? {
+                        callback(key, selection, clickEvent) {
+                          // Common callback for all options
+                          console.log(key, selection, clickEvent);
+                        },
+                        items: {
+                          complexity: { // Own custom option
+                            name() { // `name` can be a string or a function
+                              return `<button type="button" id="btnComplexityItem" class="btn btn-sm btn-danger">
+                                        <i class="fa-solid fa-calculator"></i>
+                                    </button>`;
+                            },
+                            callback(key, s, e) { // Callback for specific option
+                                let r = this.getDataAtRow(s[0].start.row);
+                                getData(urlApiOmk+'id='+r[1]);
+                            }
+                          }
+                        }
+                      } : menu;
+                hot = new Handsontable(cont.append('div').node(), {
+                    className: 'htDark',
+                    afterGetColHeader: function(col, TH){
+                        TH.className = 'darkTH'
+                    },
+                    colHeaders: true,
+                    rowHeaders: true,
+                    data:data,
+                    colHeaders: headers,
+                    height: (rectFooter.top-rectFooter.height-rectHeader.bottom)/2,
+                    width: '100%',
+                    licenseKey: 'non-commercial-and-evaluation',
+                    customBorders: true,
+                    dropdownMenu: true,
+                    multiColumnSorting: true,
+                    filters: true,
+                    selectionMode:'single',
+                    columns: getCellEditor(headers),
+                    allowInsertColumn: false,
+                    copyPaste: false,
+                    contextMenu: menuContext,
+                    search: true,                        
+                });
+            }
+            return hot;
+        }
+
+    </script>
+
+</body>
+
+</html>

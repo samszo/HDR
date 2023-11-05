@@ -6,10 +6,11 @@ export class omk {
         this.ident = params.ident ? params.ident : false;
         this.mail = params.mail ? params.mail : false;
         this.api = params.api ? params.api : false;
-        this.vocabs = params.vocabs ? params.vocabs : ['dcterms','foaf','skos'];
+        this.vocabs = params.vocabs ? params.vocabs : ['dcterms','foaf','skos','jdc'];
         this.user = false;
         this.props = [];
         this.class = [];
+        this.rts
         let perPage = 1000, types={'items':'o:item','media':'o:media'};
                 
         this.init = function () {
@@ -18,8 +19,15 @@ export class omk {
                 me.getProps(v);
                 me.getClass(v);
             })
+            me.getRT();
         }
-
+        this.getRT = function (cb=false){
+            me.rts = syncRequest(me.api+'resource_templates?per_page=1000');
+            if(cb)cb(me.rts);
+        }
+        this.getRtId = function (label){
+            return me.rts.filter(rt=>rt['o:label']==label)[0]['o:id'];                        
+        }
         this.getProps = function (prefix, cb=false){
             let url = me.api+'properties?per_page=1000&vocabulary_prefix='+prefix,                
                 data = syncRequest(url);
@@ -163,6 +171,10 @@ export class omk {
                         break;
                     case 'o:resource_class':
                         p = me.class.filter(prp=>prp['o:term']==v)[0];                        
+                        fd[k]={'o:id':p['o:id']};            
+                        break;
+                    case 'o:resource_template':
+                        p = me.rts.filter(rt=>rt['o:label']==v)[0];                        
                         fd[k]={'o:id':p['o:id']};            
                         break;
                     case 'o:media':
