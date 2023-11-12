@@ -189,23 +189,9 @@
         })
 
         d3.select("#btnNewCarto").on('click',e=>{
-            showLoader();
-            a.omk.createRessource({
-                    "o:resource_template":"CartoHexa", 
-                    "o:resource_class":"jdc:CribleCarto", 
-                    "dcterms:title":"New CartoHexa", 
-                    "dcterms:description":'Write your description'
-                },
-                i=>{
-                    console.log(i);
-                    let  md =new modal({'size':'modal-lg'})
-                    md.setBody('<h3 class="text-white bg-dark">'+i['o:title']+'</h3>'
-                        +'<iframe class="fiche" src="../omk/admin/item/'+i['o:id']+'/edit"/>');
-                    md.setBoutons([{'name':"Close"}]);                
-                    md.show();    
-                    hideLoader();
-                });
-
+            let ch = new cartoHexa({'idCont':'contentMap','omk':a.omk
+                ,'showLoader':showLoader,'hideLoader':hideLoader
+            });
         })        
         
         accordion.addEventListener('shown.bs.collapse', event => {
@@ -224,7 +210,6 @@
                 ,'dataCarte':d,'omk':a.omk
                 ,'showLoader':showLoader,'hideLoader':hideLoader
             });
-
         }
         //getDatas();
                 

@@ -1,7 +1,8 @@
 //un grand merci à https://www.redblobgames.com/grids/hexagons/
-import * as points from '../modules/cartoPoints.js';
-import * as hl from '../modules/hex-lib.js';
-import * as ha from '../modules/hex-algorithms.js';
+import * as points from './cartoPoints.js';
+import * as hl from './hex-lib.js';
+import * as ha from './hex-algorithms.js';
+import {modal} from './modal.js';
 
 export class cartoHexa {
     constructor(params) {
@@ -36,8 +37,8 @@ export class cartoHexa {
         //relation entre la direction Geo et Hex Flat cf. Hex.directions in hex-lib.js
         //ATTENTION il n'y a pas de e ni de w
         , hexGeoDir = {'n':2,'ne':1,'se':0,'s':5,'sw':4,'nw':3}
-        //définition des points à modifier pour ledrag du bord
-        ;
+        , conceptVide
+        , urlDataCarte = me.omk ? me.omk.api.replace('api/','s/cartoaffect/page/ajax?json=1&helper=CartoHexa&action=getCarte&id=') : false; 
 
         this.init = function () {
 
@@ -46,17 +47,17 @@ export class cartoHexa {
             //initialisation
             this.cont.selectAll('div').remove();
             
-            //création du div pour la légende
+            //création du div pour la carto
             let rectCont = this.cont.node().getBoundingClientRect() 
             //création du div pour la carte
             , divCarto = this.cont.append('div').attr('id','divCarto'+me.id)
-                .style('height',rectCont.height+'px').style('width','70%').style('float','left')
+                .style('height',rectCont.height+'px').style('width','100%').style('float','left')
             ; 
-            //création du div pour la carto  
+            /*création du div pour la légende  
             legende = this.cont.append('div').attr('id','divLeg'+me.id)
                 .style('height',rectCont.height+'px').style('width','30%')
                 .style('background-color','white').style('float','left')
-
+            */
             //création du svg pour la carto
             rectCarto = divCarto.node().getBoundingClientRect(); 
             width = parseInt(rectCarto.width);
@@ -77,12 +78,87 @@ export class cartoHexa {
             if(me.urlData){
                 d3.json(me.urlData).then(function(data) {
                     me.data = data;
-                    initData();
+                    setData();
                 });            
             }else{
-                initData();
+                setData();
             } 
+            me.hideLoader();
+
         };
+
+    function setData() {
+        if(!me.dataCarte && me.omk){
+            //nouvelle carte
+            newCarte();
+        }else if(me.dataCarte && me.omk){
+            //chargement d'une carte omk
+            getDataCarte();
+        }else{
+            //chargeemnt de la carte par défaut
+            initData();
+        }
+    }
+
+    function getDataCarte(){
+        showLoader();
+        d3.json(urlDataCarte+me.dataCarte['o:id']).then(data=>{
+            me.data = data; 
+            initData();
+            hideLoader();
+        });
+    }
+
+    function newCarte(){
+        showLoader();
+        const start = new Date(Date.now());
+        const titre = " de "+me.omk.user["o:name"]+" le "+start.toISOString();
+        //création d'une nouvelle carte
+        me.omk.createRessource({
+            "o:resource_template":"CartoHexa", 
+            "o:resource_class":"jdc:CribleCarto", 
+            "dcterms:title":"CartoHexa"+titre, 
+            "dcterms:description":'Write your description'
+        },
+        carte=>{
+            console.log(carte);
+            me.dataCarte = carte; 
+            newCrible(false,false,c=>{
+                let  md =new modal({'size':'modal-lg'})
+                md.setBody('<h3 class="text-white bg-dark">'+carte['o:title']+'</h3>'
+                    +'<iframe class="fiche" src="../omk/admin/item/'+carte['o:id']+'/edit"/>');
+                md.setBoutons([{'name':"Close"}]);                
+                md.show();   
+                getDataCarte();                
+                hideLoader();    
+            })
+        });
+    }
+
+    function newCrible(hexa, r, fct){
+        if(!r && !conceptVide){
+            r = conceptVide=me.omk.searchItems("property[0][joiner]=and&property[0][property][]=1&property[0][type]=eq&property[0][text]=Vide"
+                +"&resource_class_id[]="+me.omk.getClassByName("Concept")['o:id'])[0];
+        }
+        if(!hexa)hexa={'q':0,'r':1,'s':-1};
+        //création d'un nouveau crible
+        me.omk.createRessource({
+            "o:resource_template":"Crible", 
+            "o:resource_class":"jdc:Crible", 
+            "dcterms:title":"Crible "+hexa.q+"_"+hexa.r+"_"+hexa.s+" pour "+me.dataCarte['o:title'], 
+            "dcterms:description":'Ecrire votre description',
+            "dcterms:type":{'rid':conceptVide['o:id']},
+            "jdc:hasCribleCarto":{'rid':me.dataCarte['o:id']},
+            "jdc:hexaQ":hexa.q,
+            "jdc:hexaR":hexa.r,
+            "jdc:hexaS":hexa.s
+        },
+        crible=>{
+            console.log(crible);
+            fct(crible);
+        });
+
+    }
         
     function initData() {
         hierarchie = d3.hierarchy(me.data);
@@ -103,7 +179,8 @@ export class cartoHexa {
         addTitle(hierarchie);
 
         //création de la légende
-        createLegende();
+        if(legende)createLegende();
+        else addChildren(hierarchie,valueExtent)
 
     }
 
@@ -415,6 +492,22 @@ export class cartoHexa {
         return c;        
     }
 
+
+    function getPosiHexa(r){
+        /*
+        ATTENTION l'identifiant pour être unique est lié à :
+        - la position dans la carte = profondeur + place dans la grille
+        - l'identifiant de la resource parente
+        */
+        let hexa=new hl.Hex(
+            parseInt(r.data["jdc:hexaQ"][0]["@value"]),
+            parseInt(r.data["jdc:hexaR"][0]["@value"]),
+            parseInt(r.data["jdc:hexaS"][0]["@value"])
+            );
+        return setHexaProp(hexa, r);
+    }
+
+
     function getNextHexa(r){
         /*
         ATTENTION l'identifiant pour être unique est lié à :
@@ -446,10 +539,10 @@ export class cartoHexa {
             e.r = r;
             e.color = getColor(r);
             e.id = idHexa.replace('_hexa_'+(r.depth-1),'_hexa_'+r.depth)+'_'+r.data['o:id'];
-            e.idEspace = me.id+'_espace_'+r.data['o:id'];
+            e.idEspace = me.id+'_espace_'+(r.data.concept ? r.data.concept['o:id'] : r.data['o:id']);
             e.idHexa = idHexa;
             e.depth = r.depth;
-            e.title = r.data['o:title'];
+            e.title = r.data.concept ? r.data.concept['o:title'] : r.data['o:title'];
             e.subShapeDetail = subShapeDetail;
             e.grille = makeGrille(e.subShapeDetail,e);
             e.layoutOut = r.layout ? r.layout : layoutBase;
@@ -510,7 +603,12 @@ export class cartoHexa {
     function addEspace(c,r){
         //si la ressource n'a pas d'hexa on en crée un 
         if(!r.hexas){
-            r.hexas = [getNextHexa(r)];
+            if(r.data && r.data["jdc:hexaQ"]
+                && r.data["jdc:hexaQ"][0]["@value"]
+                && r.data["jdc:hexaR"][0]["@value"]
+                && r.data["jdc:hexaS"][0]["@value"]){
+                r.hexas = [getPosiHexa(r)];
+            }else  r.hexas = [getNextHexa(r)];
         }
         //définition du conteneur
         let cont = c ? d3.select(d3.select(c).node().closest(".gHexa")):svgHexa;
