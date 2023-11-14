@@ -3,6 +3,7 @@ import * as points from './cartoPoints.js';
 import * as hl from './hex-lib.js';
 import * as ha from './hex-algorithms.js';
 import {modal} from './modal.js';
+
 export class cartoHexa {
     constructor(params) {
         var me = this;
@@ -37,12 +38,14 @@ export class cartoHexa {
         //ATTENTION il n'y a pas de e ni de w
         , hexGeoDir = {'n':2,'ne':1,'se':0,'s':5,'sw':4,'nw':3}
         , conceptVide
-        , m=new modal()
+        , m=new modal(), sgtConcept, mChangeConcept, newConcept
         , urlDataCarte = me.omk ? me.omk.api.replace('api/','s/cartoaffect/page/ajax?json=1&helper=CartoHexa&action=getCarte&id=') : false; 
 
         this.init = function () {
             
             me.showLoader();
+
+            initSuggest();
 
             //initialisation
             this.cont.selectAll('div').remove();
@@ -1428,22 +1431,77 @@ export class cartoHexa {
         }
 
     }
+    function initSuggest(){
+        let urlSuggest =  '../omk/api/items?resource_class_id='+me.omk.getClassByTerme('skos:Concept')['o:id']
+                +'&property[0][property]='+me.omk.getPropId('dcterms:title')
+                +'&property[0][type]=in&property[0][text]=%QUERY&sort_by=title';
+            sgtConcept = new Bloodhound({
+                datumTokenizer: Bloodhound.tokenizers.obj.whitespace('o:title'),
+                queryTokenizer: Bloodhound.tokenizers.whitespace,
+                identify: function(obj) { 
+                    return obj['o:id']; 
+                    },
+                remote: {
+                    url: urlSuggest,
+                    wildcard: '%QUERY'
+                }
+            });
+        var promise = sgtConcept.initialize();
+            promise
+                .done(function() { 
+                    console.log('ready to go!'); 
+                    sgtConcept.search('a', sync, async);
+
+                    function sync(datums) {
+                        console.log('datums from `local`, `prefetch`, and `#add`');
+                        console.log(datums);
+                    }
+
+                    function async(datums) {
+                        console.log('datums from `remote`');
+                        console.log(datums);
+                    }
+
+                })
+                .fail(function() { 
+                    console.log('err sgtConcept : something went wrong :('); 
+            });        
+    }
     function showChangeConcept(d){
-        let mChangeConcept = m.add('modalChangeConcept');                  
-        mChangeConcept.s.select('.modal-footer').selectAll('button').remove();
-        mChangeConcept.s.select('.modal-footer').selectAll('button').data([d]).enter().append('button')
-            .attr('type',"button")
-            .attr('class',"btn btn-primary").html('Change')
-            .on('click',changeConcept);
-        /*
-        let ac = new Autocomplete(mChangeConcept.s.select('#autocompleteInputUpdate').node(), 
-            {'data-server':me.omk.api+'items/?property[0][joiner]=and&property[0][property][]=1&property[0][type]=in&resource_class_id[]=137&sort_by=created&sort_order=desc&property[0][text]=aaa'}
-            );
-        */
+        newConcept="";
+        if(!mChangeConcept){
+            mChangeConcept = m.add('modalChangeConcept');                  
+            mChangeConcept.s.select('.modal-footer').selectAll('button').remove();
+            mChangeConcept.s.select('.modal-footer').selectAll('button').data([d]).enter().append('button')
+                .attr('type',"button")
+                .attr('class',"btn btn-danger").html('Change')
+                .on('click',changeConcept);
+            $('#choixConcept .typeahead').typeahead(null, {
+                name: 'omk-concept',
+                display: 'o:title',
+                source: sgtConcept,
+                templates: {
+                    empty: [
+                    '<div class="empty-message">',
+                        'Impossible de trouver un concept',
+                    '</div>'
+                    ].join('\n'),
+                    suggestion: Handlebars.compile('<div><strong>{{o:title}}</strong> – {{o:id}}</div>')
+                }  
+                });
+            $('#choixConcept .typeahead').bind('typeahead:select', function(ev, suggestion) {
+                newConcept = suggestion;
+            });    
+        }
         mChangeConcept.m.show();
     }
     function changeConcept(e,d){
-        console.log(d);
+        d["dcterms:type"][0]['value_resource_id']=newConcept['o:id'];
+        me.omk.updateRessource(d['o:id'],null
+            ,'items',d,'PATCH',rs=>{
+                d=rs;
+                mChangeConcept.m.close();
+            })        
     }
     function showOmkDetails(d){
         let  md =new modal({'size':'modal-lg'}),
@@ -1452,7 +1510,6 @@ export class cartoHexa {
             +'<iframe class="fiche" src="'+me.omk.getItemAdminLink(d)+'"/>');
         md.setBoutons([{'name':"Close"}]);                
         md.show();   
-
     }
 
     function showDetails(d){

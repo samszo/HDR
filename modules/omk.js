@@ -49,6 +49,11 @@ export class omk {
             return c[0];
         }
 
+        this.getClassByTerme = function (cl){
+            let c = me.class.filter(c=>c['o:term'].toLowerCase()==cl.toLowerCase());
+            return c[0];
+        }
+
         this.getRandomItemByClass = function (cl, cb=false){
             let url;
             try {

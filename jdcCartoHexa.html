@@ -11,6 +11,12 @@
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/handsontable.full.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/typeahead.bundle.js"></script>
+    <script src="assets/js/handlebars.min.js"></script>
+    
+    
+
     <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
     <link href="assets/css/all.min.css" rel="stylesheet">
@@ -170,10 +176,10 @@
         d3.select('#contentMap').style('height',rectFooter.top-rectFooter.height-rectHeader.bottom+"px");
         let  rectChart = d3.select('#contentMap').node().getBoundingClientRect(),
             a = new auth({'navbar':d3.select('#navbarMain'),
-                mail:'samuel.szoniecky@univ-paris8.fr',
+                mail:'cartohexa.api@jdc.com',
                 apiOmk:'../omk/api/',
-                ident: 'z2pE1yx2ilEBX2Ajkai0Rz3ZLl5cwjKc',
-                key: 'tlz4NcL9IpOwNV7waiDzAIPW1JdME6IU',
+                ident: 'XNGNTOV3uh8h5txjOpOOJj6QwCmyGiwo',
+                key: 'hsF9lAULcsNpai7DdZe78SIiNsp1ZTb6'
             });
         //log l'utilisateur
         a.getUser(u=>{
