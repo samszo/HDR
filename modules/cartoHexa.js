@@ -3,7 +3,6 @@ import * as points from './cartoPoints.js';
 import * as hl from './hex-lib.js';
 import * as ha from './hex-algorithms.js';
 import {modal} from './modal.js';
-
 export class cartoHexa {
     constructor(params) {
         var me = this;
@@ -38,10 +37,11 @@ export class cartoHexa {
         //ATTENTION il n'y a pas de e ni de w
         , hexGeoDir = {'n':2,'ne':1,'se':0,'s':5,'sw':4,'nw':3}
         , conceptVide
+        , m=new modal()
         , urlDataCarte = me.omk ? me.omk.api.replace('api/','s/cartoaffect/page/ajax?json=1&helper=CartoHexa&action=getCarte&id=') : false; 
 
         this.init = function () {
-
+            
             me.showLoader();
 
             //initialisation
@@ -124,11 +124,7 @@ export class cartoHexa {
             console.log(carte);
             me.dataCarte = carte; 
             newCrible(false,false,c=>{
-                let  md =new modal({'size':'modal-lg'})
-                md.setBody('<h3 class="text-white bg-dark">'+carte['o:title']+'</h3>'
-                    +'<iframe class="fiche" src="../omk/admin/item/'+carte['o:id']+'/edit"/>');
-                md.setBoutons([{'name':"Close"}]);                
-                md.show();   
+                showOmkDetails(carte)
                 getDataCarte();                
                 hideLoader();    
             })
@@ -149,9 +145,9 @@ export class cartoHexa {
             "dcterms:description":'Ecrire votre description',
             "dcterms:type":{'rid':conceptVide['o:id']},
             "jdc:hasCribleCarto":{'rid':me.dataCarte['o:id']},
-            "jdc:hexaQ":hexa.q,
-            "jdc:hexaR":hexa.r,
-            "jdc:hexaS":hexa.s
+            "jdc:hexaQ":hexa.q.toString(),
+            "jdc:hexaR":hexa.r.toString(),
+            "jdc:hexaS":hexa.s.toString()
         },
         crible=>{
             console.log(crible);
@@ -1401,6 +1397,7 @@ export class cartoHexa {
 
     function getDetails(e,d){
         if(!d.details){
+            //vérifie s'il faut calculer des détails
             if(me.urlDetails && d.r.data){
                 let h = d3.select(this);
                 h.style('cursor','wait');
@@ -1416,6 +1413,10 @@ export class cartoHexa {
                     showDetails(d);
                 });            
             }
+            //Vérifie s'il faut afficher le modal de changement de concept
+            if(me.omk && d.r.data['o:id']){
+                showChangeConcept(d.r.data);
+            }
         }else{
             if(d.showDetails){
                 hideDetails(d);
@@ -1427,6 +1428,33 @@ export class cartoHexa {
         }
 
     }
+    function showChangeConcept(d){
+        let mChangeConcept = m.add('modalChangeConcept');                  
+        mChangeConcept.s.select('.modal-footer').selectAll('button').remove();
+        mChangeConcept.s.select('.modal-footer').selectAll('button').data([d]).enter().append('button')
+            .attr('type',"button")
+            .attr('class',"btn btn-primary").html('Change')
+            .on('click',changeConcept);
+        /*
+        let ac = new Autocomplete(mChangeConcept.s.select('#autocompleteInputUpdate').node(), 
+            {'data-server':me.omk.api+'items/?property[0][joiner]=and&property[0][property][]=1&property[0][type]=in&resource_class_id[]=137&sort_by=created&sort_order=desc&property[0][text]=aaa'}
+            );
+        */
+        mChangeConcept.m.show();
+    }
+    function changeConcept(e,d){
+        console.log(d);
+    }
+    function showOmkDetails(d){
+        let  md =new modal({'size':'modal-lg'}),
+        url = me.omk.api.replace("/api/items","");
+        md.setBody('<h3 class="text-white bg-dark">'+d['o:title']+'</h3>'
+            +'<iframe class="fiche" src="'+me.omk.getItemAdminLink(d)+'"/>');
+        md.setBoutons([{'name':"Close"}]);                
+        md.show();   
+
+    }
+
     function showDetails(d){
         //d3.select('#'+d.id).select('polygon').attr('stroke','white').attr('stroke-width', d.depth)
         d.showDetails = true;

@@ -72,4 +72,23 @@ export class modal {
         this.init();
     }
 }
-
+//ajoute la modal pour changer le concept d'un crible
+export let modalChangeConcept = `
+    <div class="modal-dialog ">
+    <div class="modal-content">
+        <div class="modal-header text-bg-warning">
+        <h5 class="modal-title">Change le concept du crible</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">                            
+            <div class="input-group mb-3">
+                <label for="autocompleteInputUpdate" class="form-label">Ecrire un concept</label>
+                <input type="text" class="form-control autocomplete" name="autocompleteInputUpdate" id="autocompleteInputUpdate"
+                data-update-on-select="1" data-autoselect-first="0" data-ignore-enter="1" placeholder="Ecrire" />
+            </div>            
+        </div>                          
+        <div class="modal-footer">
+        </div>
+    </div>
+    </div>
+`;

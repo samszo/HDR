@@ -88,6 +88,10 @@ export class omk {
             return rs;
         }
 
+        this.getItemAdminLink = function(item){
+            return me.api.replace("/api/","/admin/item/")+item['o:id'];
+        }
+
         //merci à https://stackoverflow.com/questions/33780271/export-a-json-object-to-a-text-file/52297652#52297652
         this.saveJson=function(data){
             const filename = 'data.json';
