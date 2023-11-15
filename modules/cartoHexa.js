@@ -408,7 +408,7 @@ export class cartoHexa {
         let gHexa = svgHexa.selectAll('.gInit').data(allHexa)
         .join(
             enter => enter.append('g')
-                .attr('class','gInit')
+                .attr('class',g=>'gInit'+(g.idCpt ? ' cpt'+g.idCpt : ''))
                 .attr('id',(h,i)=>{
                     h.layout = layoutBase;
                     h.subShapeDetail = subShapeDetail;
@@ -429,6 +429,7 @@ export class cartoHexa {
                     h.id = me.id+'_hexa_'+h.depth+'_'+h.q+','+h.r+','+h.s;
                     return h.id;
                 })
+                .attr('class',g=>'gInit'+(g.idCpt ? ' cpt'+g.idCpt : ''))
                 .attr('transform',h=>hexCenter(h,layoutBase).transform)
             /*    ,
             exit => exit
@@ -446,9 +447,9 @@ export class cartoHexa {
     function addTitle(d){
 
         let gCenter = svg.select('#'+me.id+'_hexa_0_0_0_0')
-        .attr('class','gOccupe').append('g')
-            .attr('class','gTitre')
-            .attr('transform',hexCenter(new hl.Hex(0,0,0), layoutBase).transform);
+            .attr('class','gOccupe').append('g')
+                .attr('class','gTitre')
+                .attr('transform',hexCenter(new hl.Hex(0,0,0), layoutBase).transform);
         gCenter.append("text")
             .attr('id',h=>{
                 h.title = d.data['o:title'] ? d.data['o:title'] : defText;
@@ -458,10 +459,14 @@ export class cartoHexa {
             .attr('text-anchor','middle')
             .attr('alignment-baseline',"middle")
             .text(h=>h.title)
-            .attr('fill','white')
+            .attr('fill','white')            
             .attr("font-size", function(){
                 return (layoutBase.size.x / this.getComputedTextLength()) + 'em'
-            });
+            })            
+            .style('cursor', 'help')
+            .on(me.eventDetails,showOmkDetails)
+            .on("mouseenter", zoomHexa)
+            .on("mouseleave", dezoomHexa);
         takenHexa[me.id+'_hexa_0_0_0_0']=gCenter;
 
     }
@@ -540,6 +545,7 @@ export class cartoHexa {
             e.id = idHexa.replace('_hexa_'+(r.depth-1),'_hexa_'+r.depth)+'_'+r.data['o:id'];
             e.idEspace = me.id+'_espace_'+(r.data.concept ? r.data.concept['o:id'] : r.data['o:id']);
             e.idHexa = idHexa;
+            e.idCpt = r.data.concept ? r.data.concept['o:id'] : false;
             e.depth = r.depth;
             e.title = r.data.concept ? r.data.concept['o:title'] : r.data['o:title'];
             e.subShapeDetail = subShapeDetail;
@@ -656,7 +662,9 @@ export class cartoHexa {
                     h.id = h.idEspace+'_hexa_'+i;
                     return h.id
                 })
-                .attr('class','gHexa')
+                .attr('class',h=>{
+                    return 'gHexa'+(h.idCpt ? ' cpt'+h.idCpt : '');
+                })
                 .attr('transform',(h)=>{
                     return h.center.transform
                     })
@@ -665,7 +673,10 @@ export class cartoHexa {
                 .call(addHexaText);        
             },        
             update => {
-                update.attr('class','gHexa update');
+                update.attr('class',h=>{
+                    return 'gHexa update'+(h.idCpt ? ' cpt'+h.idCpt : '');
+                })
+;
             },
             exit => {
                 exit.remove();
@@ -692,7 +703,9 @@ export class cartoHexa {
         //construction de la forme spécifique
         switch (resourceClass) {
             case "jdc:Concept":
-                return addHexaConcept(e);                
+            case "skos:Concept":
+            case "Cartographie d'un crible":
+                    return addHexaConcept(e);                
                 break;        
             default:
                 return false;
@@ -767,7 +780,7 @@ export class cartoHexa {
             .attr('class','eHexaOut');
         //construction des grilles intérieurs
         let gHexaGrille = e.selectAll('.gInit').data(r=>r.grille).enter().append('g')
-            .attr('class','gInit')
+            .attr('class',g=>'gInit'+(g.r.idCpt ? ' cpt'+g.r.idCpt : ''))
             .attr('id',(g,i)=>{
                 g.center = hexCenter(g.hexa, g.r.layoutIn);
                 g.depth = g.r.depth+1;
@@ -1243,7 +1256,7 @@ export class cartoHexa {
     function updateEspaceHexaDragEnd(evt,h,nh) {
         let center = hexCenter(nh, h.layoutOut);
         //libère l'hexa de la grille
-        d3.select('#'+h.idHexa).attr('class','gInit')
+        d3.select('#'+h.idHexa).attr('class',g=>'gInit'+(g.idCpt ? ' cpt'+g.idCpt : ''))
         takenHexa[h.idHexa]=false;
         //modifie l'idHexa
         h.idHexa = h.idHexa.replace(h.hexa.toString().replaceAll(',','_'), nh.toString().replaceAll(',','_'));
@@ -1470,7 +1483,7 @@ export class cartoHexa {
     function showChangeConcept(d){
         newConcept="";
         if(!mChangeConcept){
-            mChangeConcept = m.add('modalChangeConcept');                  
+            mChangeConcept = m.add('modalChangeConcept');     
             mChangeConcept.s.select('.modal-footer').selectAll('button').remove();
             mChangeConcept.s.select('.modal-footer').selectAll('button').data([d]).enter().append('button')
                 .attr('type',"button")
@@ -1493,17 +1506,31 @@ export class cartoHexa {
                 newConcept = suggestion;
             });    
         }
+        mChangeConcept.s.select('#choixConceptTitre').text('Changer le concept : '+d.title)             
+
         mChangeConcept.m.show();
     }
     function changeConcept(e,d){
-        d["dcterms:type"][0]['value_resource_id']=newConcept['o:id'];
+        let oldCptId = d.concept['o:id'];
         me.omk.updateRessource(d['o:id'],null
             ,'items',d,'PATCH',rs=>{
-                d=rs;
-                mChangeConcept.m.close();
+                //mise à jour des données
+                d["dcterms:type"][0]['value_resource_id']=newConcept['o:id'];
+                d["dcterms:type"][0]['url']=d["dcterms:type"][0]['url'].replace(oldCptId,newConcept['o:id']);
+                d["dcterms:type"][0]['url']=d["dcterms:type"][0]['display_title']=newConcept['o:title'];
+                d["dcterms:type"][0]['url']=d["dcterms:type"][0]['@id'].replace(oldCptId,newConcept['o:id']);
+                d.r.data=rs;
+                d3.selectAll('.cpt'+oldCptId).attr('id',d=>{
+                    return d.idCpt;
+                })
+                d3.select('#eText_ch0_espace_'+oldCptId)
+                    .attr('id','#eText_ch0_espace_'+newConcept['o:id'])
+                    .text(newConcept['o:title']); 
+                mChangeConcept.m.hide();
             })        
     }
-    function showOmkDetails(d){
+    function showOmkDetails(e,d){
+        if(e)d=d.r.data;
         let  md =new modal({'size':'modal-lg'}),
         url = me.omk.api.replace("/api/items","");
         md.setBody('<h3 class="text-white bg-dark">'+d['o:title']+'</h3>'
@@ -1592,12 +1619,9 @@ export class cartoHexa {
         }
     }
 
-    function updateHexa(e,d){
-        console.log(d);
-    }
     function clickHexa(e,h){
         let d = h.hexa.distance({q:0,s:0,r:0});
-        if(h.hexa.toString() == '0,0,0') updateHexa(e,h);
+        if(h.hexa.toString() == '0,0,0') showOmkDetails(h.data);
         else if(d==1)addNewEspace(e,h);
     }
 
