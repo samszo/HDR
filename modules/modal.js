@@ -93,3 +93,27 @@ export let modalChangeConcept = `
     </div>
     </div>
 `;
+//ajoute la modal pour ajouter un crible
+export let modalAddCrible = `
+    <div class="modal-dialog ">
+    <div class="modal-content">
+        <div class="modal-header text-bg-danger">
+        <h5 id="choixCribleTitre" class="modal-title">Changer le concept :</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-bg-dark">                            
+            <div class="input-group mb-3">
+                <label for="choixCrible" class="form-label px-2">Choisir un concept : </label>
+                <div id="choixCrible" class="form-control">
+                    <input class="typeahead" type="text" placeholder="Saisir le nom du concept">
+                </div>                
+            </div>
+            <div class="input-group">
+                <label for="treeselect" class="form-label">Choisir la relation : </label>
+                <div id="treeselect"></div>                        
+            </div>                          
+        <div class="modal-footer text-bg-danger">
+        </div>
+    </div>
+    </div>
+`;

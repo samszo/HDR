@@ -3,6 +3,7 @@ import * as points from './cartoPoints.js';
 import * as hl from './hex-lib.js';
 import * as ha from './hex-algorithms.js';
 import {modal} from './modal.js';
+import { tree } from './tree.js'
 
 export class cartoHexa {
     constructor(params) {
@@ -27,7 +28,7 @@ export class cartoHexa {
         this.eventDetails = params.eventDetails ? params.eventDetails : 'click';
         this.eventDetailsCooccurrence = params.eventDetailsCooccurrence ? params.eventDetailsCooccurrence : 'click';
         this.cp = points;
-        let layoutBase, rectCarto, padding = 0, width, height, legende,
+        let layoutBase, padding = 0, width, height, legende,
         svg, rectBase, container, hierarchie, defText="vide", allHexa=[], takenHexa=[], color, defColor='#102040'
         , patience, defValSelect, valueExtent, resourceClass=false
         , onDrag=false, onZoom=false, onAdd=false, onRedim = false
@@ -35,10 +36,32 @@ export class cartoHexa {
         , p = d3.path(), svgHexa
         , rapportMin=1, rapportMax=1, rapportWidth
         //relation entre la direction Geo et Hex Flat cf. Hex.directions in hex-lib.js
-        //ATTENTION il n'y a pas de e ni de w
+        //ATTENTION il n'y a pas de e ni de w car orientation flat
         , hexGeoDir = {'n':2,'ne':1,'se':0,'s':5,'sw':4,'nw':3}
-        , conceptVide
-        , m=new modal(), sgtConcept, mChangeConcept, newConcept
+        , m=new modal(), mChangeConcept, mAddCrible, sgtConcept, sltConcept, conceptVide
+        , sltRelations, skosRelations = {'name':0,'term':'skos:semanticRelation', 'o:id':0,'children': [
+                {'name':0,'term':'skos:narrowerTransitive', 'o:id':0,'children': [
+                    {'name':0,'term':'skos:narrower', 'o:id':0,'children': [
+                        {'name':0,'term':'skos:narrowMatch', 'o:id':0,'children': []}        
+                    ]}    
+                ]},
+                {'name':0,'term':'skos:broaderTransitive', 'o:id':0,'children': [
+                    {'name':0,'term':'skos:broader', 'o:id':0,'children': [
+                        {'name':0,'term':'skos:broadMatch', 'o:id':0,'children': []}        
+                    ]}    
+                ]},
+                {'name':0,'term':'skos:related', 'o:id':0,'children': [
+                    {'name':0,'term':'skos:relatedMatch', 'o:id':0,'children': []}    
+                ]},
+                {'name':0,'term':'skos:mappingRelation', 'o:id':0,'children': [
+                    {'name':0,'term':'skos:closeMatch', 'o:id':0,'children': [
+                        {'name':0,'term':'skos:exactMatch', 'o:id':0,'children': []}        
+                    ]},
+                    {'name':0,'term':'skos:relatedMatch', 'o:id':0,'children': []},    
+                    {'name':0,'term':'skos:broadMatch', 'o:id':0,'children': []},    
+                    {'name':0,'term':'skos:narrowMatch', 'o:id':0,'children': []},    
+                ]},
+            ]}
         , urlDataCarte = me.omk ? me.omk.api.replace('api/','s/cartoaffect/page/ajax?json=1&helper=CartoHexa&action=getCarte&id=') : false; 
 
         this.init = function () {
@@ -46,23 +69,26 @@ export class cartoHexa {
             me.showLoader();
 
             initSuggest();
+            initSkosRelations();
 
             //initialisation
             this.cont.selectAll('div').remove();
+            this.cont.selectAll('h1').remove();
+            let rectCont = this.cont.node().getBoundingClientRect(), 
             
-            //création du div pour la carto
-            let rectCont = this.cont.node().getBoundingClientRect() 
+            //création du div pour le titre
+            divTitre = this.cont.append('h1').attr('id','divCartoHexaTitre'+me.id).text('Titre de la carte'),
+            rectTitre = divTitre.node().getBoundingClientRect(),
             //création du div pour la carte
-            , divCarto = this.cont.append('div').attr('id','divCarto'+me.id)
-                .style('height',rectCont.height+'px').style('width','100%').style('float','left')
-            ; 
+            divCarto = this.cont.append('div').attr('id','divCarto'+me.id)
+                .style('height',(rectCont.height-rectTitre.height)+'px').style('width','100%').style('float','left'),
+            rectCarto = divCarto.node().getBoundingClientRect(); 
             /*création du div pour la légende  
             legende = this.cont.append('div').attr('id','divLeg'+me.id)
                 .style('height',rectCont.height+'px').style('width','30%')
                 .style('background-color','white').style('float','left')
             */
             //création du svg pour la carto
-            rectCarto = divCarto.node().getBoundingClientRect(); 
             width = parseInt(rectCarto.width);
             height = parseInt(rectCarto.height);    
             svg = divCarto.append('svg')
@@ -127,7 +153,7 @@ export class cartoHexa {
             console.log(carte);
             me.dataCarte = carte; 
             newCrible(false,false,c=>{
-                showOmkDetails(carte)
+                showOmkDetails(null, carte)
                 getDataCarte();                
                 hideLoader();    
             })
@@ -139,19 +165,21 @@ export class cartoHexa {
             r = conceptVide=me.omk.searchItems("property[0][joiner]=and&property[0][property][]=1&property[0][type]=eq&property[0][text]=Vide"
                 +"&resource_class_id[]="+me.omk.getClassByName("Concept")['o:id'])[0];
         }
-        if(!hexa)hexa={'q':0,'r':1,'s':-1};
+        if(!hexa)hexa={'q':0,'r':0,'s':0};
         //création d'un nouveau crible
-        me.omk.createRessource({
+        let dataCrible = {
             "o:resource_template":"Crible", 
             "o:resource_class":"jdc:Crible", 
             "dcterms:title":"Crible "+hexa.q+"_"+hexa.r+"_"+hexa.s+" pour "+me.dataCarte['o:title'], 
             "dcterms:description":'Ecrire votre description',
-            "dcterms:type":{'rid':conceptVide['o:id']},
+            "dcterms:type":{'rid':r['o:id']},
             "jdc:hasCribleCarto":{'rid':me.dataCarte['o:id']},
             "jdc:hexaQ":hexa.q.toString(),
             "jdc:hexaR":hexa.r.toString(),
-            "jdc:hexaS":hexa.s.toString()
-        },
+            "jdc:hexaS":hexa.s.toString(),
+            "jdc:hasCrible":r.idCrible ? {'rid':r.idCrible} : false
+        };
+        me.omk.createRessource(dataCrible,
         crible=>{
             console.log(crible);
             fct(crible);
@@ -446,29 +474,9 @@ export class cartoHexa {
     //ajoute le titre de la carte
     function addTitle(d){
 
-        let gCenter = svg.select('#'+me.id+'_hexa_0_0_0_0')
-            .attr('class','gOccupe').append('g')
-                .attr('class','gTitre')
-                .attr('transform',hexCenter(new hl.Hex(0,0,0), layoutBase).transform);
-        gCenter.append("text")
-            .attr('id',h=>{
-                h.title = d.data['o:title'] ? d.data['o:title'] : defText;
-                h.r = d; 
-                return 'chText_'+h.id
-            })
-            .attr('text-anchor','middle')
-            .attr('alignment-baseline',"middle")
-            .text(h=>h.title)
-            .attr('fill','white')            
-            .attr("font-size", function(){
-                return (layoutBase.size.x / this.getComputedTextLength()) + 'em'
-            })            
+        d3.select('#divCartoHexaTitre'+me.id).text(d.data['o:title'] ? d.data['o:title'] : defText)
             .style('cursor', 'help')
-            .on(me.eventDetails,showOmkDetails)
-            .on("mouseenter", zoomHexa)
-            .on("mouseleave", dezoomHexa);
-        takenHexa[me.id+'_hexa_0_0_0_0']=gCenter;
-
+            .on(me.eventDetails,function(){showOmkDetails(null,d.data)});
     }
     //ajoute les enfants d'une resource
     function addChildren(p,s){
@@ -543,9 +551,11 @@ export class cartoHexa {
             e.r = r;
             e.color = getColor(r);
             e.id = idHexa.replace('_hexa_'+(r.depth-1),'_hexa_'+r.depth)+'_'+r.data['o:id'];
-            e.idEspace = me.id+'_espace_'+(r.data.concept ? r.data.concept['o:id'] : r.data['o:id']);
+            e.idEspace = me.id+'_espace_'+r.data['o:id']+(r.data.concept ? '_'+r.data.concept['o:id'] : '');
             e.idHexa = idHexa;
+            e.idCrible = r.data['o:id'];
             e.idCpt = r.data.concept ? r.data.concept['o:id'] : false;
+            e.idText = 'eText'+e.idEspace;
             e.depth = r.depth;
             e.title = r.data.concept ? r.data.concept['o:title'] : r.data['o:title'];
             e.subShapeDetail = subShapeDetail;
@@ -568,6 +578,20 @@ export class cartoHexa {
             return e;
         } return false;
     }
+    function updateHexaProp(d,newConcept){
+        let dt = d.idEspace ? d : d.r;  
+        dt.r.data["dcterms:type"][0]['value_resource_id']=newConcept['o:id'];
+        dt.r.data["dcterms:type"][0]['url']=dt.r.data["dcterms:type"][0]['url'].replace(dt.idCpt,newConcept['o:id']);
+        dt.r.data["dcterms:type"][0]['url']=dt.r.data["dcterms:type"][0]['display_title']=newConcept['o:title'];
+        dt.r.data["dcterms:type"][0]['url']=dt.r.data["dcterms:type"][0]['@id'].replace(dt.idCpt,newConcept['o:id']);
+        dt.concept=newConcept;
+        dt.idEspace = dt.idEspace.replace(dt.idCpt,newConcept['o:id']);
+        dt.idCpt = newConcept['o:id'];
+        dt.title = newConcept['o:title'];
+        dt.idText = 'eText'+dt.idEspace;
+        dt.grille = makeGrille(dt.subShapeDetail,dt);    
+    }
+
     function makeGrille(N,rs) {
         let results = [];
         for (let q = -N; q <= N; q++) {
@@ -582,25 +606,40 @@ export class cartoHexa {
     }
     
     function addNewEspace(e,h){
-        let r = {
-            "depth": 1,
-            "height": 0,
-            "data":{
-                "o:id": 'n'+Object.keys(takenHexa).length,
-                "o:title": defText,
-                "value": -1,
-                "children": []    
+        sltConcept = false;
+        showAddCrible(h, (ev,d)=>{
+            if(!sltConcept)return;
+            //construction des données du crible
+            let dataCrible = {
+                'o:id':sltConcept['o:id'],
+                'idCrible':h.r.idCrible,
+                'relations':[]                
             }
-        };
-        if(h.hexa){
-            r.layout = h.r.layoutIn;
-            r.id = h.id;
-            r.r = h.r;
-            r.hexas=[setHexaProp(h.hexa,r)];
-        }else{
-            r.hexas=[setHexaProp(h,r)];
-        }
-        addEspace(e.currentTarget,r);
+            mAddCrible.s.selectAll('.selectNode').each(d=>{
+                dataCrible.relations.push({'t':d.data.term,'v':{'rid':dataCrible.idCrible}});
+            })
+            newCrible(h.hexa, dataCrible, (crible)=>{
+                let r = {
+                    "depth": 1,
+                    "height": 0,
+                    "data":{
+                        "o:id": crible['o:id'],
+                        "o:title": crible['o:title'],
+                        "value": -1,
+                        "children": []    
+                    }
+                };
+                if(h.hexa){
+                    r.layout = h.r.layoutIn;
+                    r.id = h.id;
+                    r.r = h.r;
+                    r.hexas=[setHexaProp(h.hexa,r)];
+                }else{
+                    r.hexas=[setHexaProp(h,r)];
+                }    
+                addEspace(e.currentTarget,r);
+            })            
+        })
     }
 
     //pour une ressource ajoute un espace qui sera composé d'une collection d'hexa
@@ -675,8 +714,8 @@ export class cartoHexa {
             update => {
                 update.attr('class',h=>{
                     return 'gHexa update'+(h.idCpt ? ' cpt'+h.idCpt : '');
-                })
-;
+                });
+                update.select('text').attr('id',h=>h.r.idText).text(h=>h.title);        
             },
             exit => {
                 exit.remove();
@@ -687,16 +726,17 @@ export class cartoHexa {
     function addHexaText(e){
         //le centre est réserver à la description de l'espace
         e.append("text")
-            .attr('id',h=>'eText_'+h.r.id)
+            .attr('id',h=>h.idText)
             .attr('class','eText')
             .attr('text-anchor','middle')
             .attr('alignment-baseline',"middle")
             .text(h=>h.title)
             .attr("font-size", adaptLabelFontSize)
             .style('cursor', 'help')
-            .on(me.eventDetails ,getDetails)
-            .on("mouseenter", zoomHexa)
-            .on("mouseleave", dezoomHexa);        
+            .attr('transform','scale(10)')
+            .attr('fill','white')
+            .on("mouseenter", zoomHexa)            
+            .on(me.eventDetails ,getDetails);        
                 
     }
     function addHexaForme(e){
@@ -759,7 +799,9 @@ export class cartoHexa {
                     return svgBezierCircle(h);
                 })
                 .attr('stroke-linecap',"round")
-                .attr('stroke-width',h=>h.wBord);
+                .attr('stroke-width',h=>h.wBord)                
+                .on("mouseenter", dezoomHexa)
+                .on("mouseleave", zoomHexa);
             bord.call(d3.drag()
                 //.subject(s)
                 .on("start", redimEspaceStart)
@@ -798,6 +840,7 @@ export class cartoHexa {
                 g.cursor = getCursor(g.hexa);
                 return g.cursor;
             })
+            .on("mouseenter", dezoomHexa)
             .on('click',clickHexa);                
     }
     function getColor(r){
@@ -857,7 +900,7 @@ export class cartoHexa {
                 h.cursor = getCursor(h);
                 return h.cursor;
             })
-            .on("mouseenter", function(){onAdd=true;})
+            .on("mouseenter", dezoomHexa)
             .on("mouseleave", function(){onAdd=false;})
             .on('click',clickHexa);
         //ajoute le drag & drop sur l'hexa
@@ -896,6 +939,7 @@ export class cartoHexa {
             .text(h=>h.title)
             .attr("font-size", adaptLabelFontSize)
             .style('cursor', 'help')
+            .on("mouseenter", zoomHexa)
             .on(me.eventDetails ,getDetails)
             ;
 
@@ -1401,13 +1445,15 @@ export class cartoHexa {
     } 
 
     function zoomHexa(e,d){ 
-        onAdd=true;
-        d3.select(this).raise().attr('transform','scale(10)').attr('fill','white');
+        onAdd=false;
+        let idText = d.idText ? d.idText : d.r.idText;        
+        d3.select("#"+idText).raise().attr('transform','scale(10)').attr('fill','white');
         onZoom = true;
     }
     function dezoomHexa(e,d){
-        onAdd=false;
-        d3.select(this).attr('transform',"");
+        onAdd=true;
+        let idText = d.idText ? d.idText : d.r.idText;        
+        d3.select("#"+idText).attr('transform',"");
         onZoom = false;
     }
 
@@ -1444,8 +1490,16 @@ export class cartoHexa {
         }
 
     }
+    function initSkosRelations(r, pId=0){
+        if(!r)r=skosRelations;
+        let p = me.omk.getPropByTerm(r.term);
+        r.name = p['o:label'];
+        r['o:id'] = p['o:id'];
+        //if(pId)r.parentId = pId
+        r.children.forEach(rc => initSkosRelations(rc,p['o:id']));
+    }
     function initSuggest(){
-        let urlSuggest =  '../omk/api/items?resource_class_id='+me.omk.getClassByTerme('skos:Concept')['o:id']
+        let urlSuggest =  '../omk/api/items?resource_class_id='+me.omk.getClassByTerm('skos:Concept')['o:id']
                 +'&property[0][property]='+me.omk.getPropId('dcterms:title')
                 +'&property[0][type]=in&property[0][text]=%QUERY&sort_by=title';
             sgtConcept = new Bloodhound({
@@ -1481,51 +1535,93 @@ export class cartoHexa {
             });        
     }
     function showChangeConcept(d){
-        newConcept="";
         if(!mChangeConcept){
-            mChangeConcept = m.add('modalChangeConcept');     
-            mChangeConcept.s.select('.modal-footer').selectAll('button').remove();
-            mChangeConcept.s.select('.modal-footer').selectAll('button').data([d]).enter().append('button')
-                .attr('type',"button")
-                .attr('class',"btn btn-danger").html('Change')
-                .on('click',changeConcept);
-            $('#choixConcept .typeahead').typeahead(null, {
-                name: 'omk-concept',
-                display: 'o:title',
-                source: sgtConcept,
-                templates: {
-                    empty: [
-                    '<div class="empty-message">',
-                        'Impossible de trouver un concept',
-                    '</div>'
-                    ].join('\n'),
-                    suggestion: Handlebars.compile('<div><strong>{{o:title}}</strong> – {{o:id}}</div>')
-                }  
-                });
-            $('#choixConcept .typeahead').bind('typeahead:select', function(ev, suggestion) {
-                newConcept = suggestion;
-            });    
+            mChangeConcept = m.add('modalChangeConcept');
+            if(d3.select('.twitter-typeahead').empty()){
+                mChangeConcept.s.select('.modal-footer').selectAll('button').remove();
+                mChangeConcept.s.select('.modal-footer').selectAll('button').data([d]).enter().append('button')
+                    .attr('type',"button")
+                    .attr('class',"btn btn-danger").html('Change')
+                    .on('click',changeConcept);
+                $('#choixConcept .typeahead').typeahead(null, {
+                    name: 'omk-concept',
+                    display: 'o:title',
+                    source: sgtConcept,
+                    templates: {
+                        empty: [
+                        '<div class="empty-message">',
+                            'Impossible de trouver un concept',
+                        '</div>'
+                        ].join('\n'),
+                        suggestion: Handlebars.compile('<div><strong>{{o:title}}</strong> – {{o:id}}</div>')
+                    }  
+                    });
+                $('#choixConcept .typeahead').bind('typeahead:select', function(ev, suggestion) {
+                    sltConcept = suggestion;
+                });        
+            }     
         }
-        mChangeConcept.s.select('#choixConceptTitre').text('Changer le concept : '+d.title)             
-
+        mChangeConcept.s.select('#choixConceptTitre').text('Changer le concept : '+d.concept["o:title"])             
         mChangeConcept.m.show();
     }
+    function showAddCrible(d, fct){
+        if(!mAddCrible){
+            mAddCrible = m.add('modalAddCrible');
+            mAddCrible.s.select('#choixCribleTitre').text('Ajoute un crible');             
+            if(d3.select('.twitter-typeahead').empty()){
+                //akute l'autocompletion
+                mAddCrible.s.select('.modal-footer').selectAll('button').remove();
+                mAddCrible.s.select('.modal-footer').selectAll('button').data([d]).enter().append('button')
+                    .attr('type',"button")
+                    .attr('class',"btn btn-danger").html('Ajouter')
+                    .on('click',fct);
+                $('#choixCrible .typeahead').typeahead(null, {
+                    name: 'omk-concept',
+                    display: 'o:title',
+                    source: sgtConcept,
+                    templates: {
+                        empty: [
+                        '<div class="empty-message">',
+                            'Impossible de trouver un concept',
+                        '</div>'
+                        ].join('\n'),
+                        suggestion: Handlebars.compile('<div><strong>{{o:title}}</strong> – {{o:id}}</div>')
+                    }  
+                    });
+                $('#choixCrible .typeahead').bind('typeahead:select', function(ev, suggestion) {
+                    sltConcept = suggestion;
+                });
+                //affiche le modal pour calculer le viewbox du tree
+                mAddCrible.m.show();
+                //ajoute l'arbre des relations skos
+                const t = new tree({
+                    cont:mAddCrible.s.select('#treeselect'),
+                    data:skosRelations,
+                    //id: d => d['o:id'],
+                    label: d => d.name,
+                    title: (d, n) => `${n.ancestors().reverse().map(d => d.data.name).join(".")}`, // hover text
+                    width: 400, height:300                  
+                });    
+            }     
+        }else mAddCrible.m.show();
+    }
+
     function changeConcept(e,d){
+
         let oldCptId = d.concept['o:id'];
         me.omk.updateRessource(d['o:id'],null
             ,'items',d,'PATCH',rs=>{
                 //mise à jour des données
-                d["dcterms:type"][0]['value_resource_id']=newConcept['o:id'];
-                d["dcterms:type"][0]['url']=d["dcterms:type"][0]['url'].replace(oldCptId,newConcept['o:id']);
-                d["dcterms:type"][0]['url']=d["dcterms:type"][0]['display_title']=newConcept['o:title'];
-                d["dcterms:type"][0]['url']=d["dcterms:type"][0]['@id'].replace(oldCptId,newConcept['o:id']);
-                d.r.data=rs;
-                d3.selectAll('.cpt'+oldCptId).attr('id',d=>{
-                    return d.idCpt;
+                d3.selectAll('.cpt'+oldCptId).each(espace=>{
+                    p = d3.select(this);
+                    p.attr('id',this.id.replace(oldCptId,sltConcept['o:id']));
+                    p.attr('class',this.className.replace(oldCptId,sltConcept['o:id']));
+                    let idText = espace.idText ? espace.idText : espace.r.idText
+                    d3.select('#'+idText)
+                        .attr('id','#'+idText.replace(oldCptId,sltConcept['o:id']))
+                        .text(sltConcept['o:title']); 
+                    updateHexaProp(espace,sltConcept);
                 })
-                d3.select('#eText_ch0_espace_'+oldCptId)
-                    .attr('id','#eText_ch0_espace_'+newConcept['o:id'])
-                    .text(newConcept['o:title']); 
                 mChangeConcept.m.hide();
             })        
     }

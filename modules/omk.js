@@ -37,6 +37,9 @@ export class omk {
         this.getPropId = function (t){
             return me.props.filter(prp=>prp['o:term']==t)[0]['o:id'];                        
         }
+        this.getPropByTerm = function (t){
+            return me.props.filter(prp=>prp['o:term']==t)[0];                        
+        }
         this.getClass = function (prefix, cb=false){
             let url = me.api+'resource_classes?per_page=1000&vocabulary_prefix='+prefix,                
                 data = syncRequest(url);
@@ -49,7 +52,7 @@ export class omk {
             return c[0];
         }
 
-        this.getClassByTerme = function (cl){
+        this.getClassByTerm = function (cl){
             let c = me.class.filter(c=>c['o:term'].toLowerCase()==cl.toLowerCase());
             return c[0];
         }
