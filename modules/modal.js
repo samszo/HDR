@@ -95,7 +95,7 @@ export let modalChangeConcept = `
 `;
 //ajoute la modal pour ajouter un crible
 export let modalAddCrible = `
-    <div class="modal-dialog ">
+    <div class="modal-dialog modal-lg">
     <div class="modal-content">
         <div class="modal-header text-bg-danger">
         <h5 id="choixCribleTitre" class="modal-title">Changer le concept :</h5>
