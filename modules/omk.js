@@ -167,8 +167,19 @@ export class omk {
         }
 
         this.updateRessource = function (id, data, type='items', fd=null, m='PUT',cb=false){
-            let url = me.api+type+'/'+id+'?key_identity='+me.ident+'&key_credential='+me.key;
-            postData({'u':url,'m':m}, fd ? fd : me.formatData(data,types[type])).then((rs) => {
+            let oriData, newData, url = me.api+type+'/'+id+'?key_identity='+me.ident+'&key_credential='+me.key;
+            if(data){
+                //récupère les données originales
+                oriData = me.getItem(id), newData = me.formatData(data,types[type]);
+                //met à jour les données
+                for (const p in newData) {
+                    if(p!='@type'){
+                        if(oriData[p])oriData[p]=oriData[p].concat(newData[p]);
+                        else oriData[p]=newData[p];    
+                    }
+                }
+            }
+            postData({'u':url,'m':m}, fd ? fd : oriData).then((rs) => {
                 if(cb)cb(rs);
             });
 

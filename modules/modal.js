@@ -110,8 +110,8 @@ export let modalAddCrible = `
             </div>
             <div class="input-group">
                 <label for="treeselect" class="form-label">Choisir la relation : </label>
-                <div id="treeselect"></div>                        
             </div>                          
+            <div id="treeselect"></div>                        
         <div class="modal-footer text-bg-danger">
         </div>
     </div>

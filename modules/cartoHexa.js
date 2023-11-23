@@ -173,14 +173,24 @@ export class cartoHexa {
             "dcterms:title":"Crible "+hexa.q+"_"+hexa.r+"_"+hexa.s+" pour "+me.dataCarte['o:title'], 
             "dcterms:description":'Ecrire votre description',
             "dcterms:type":{'rid':r['o:id']},
-            "jdc:hasCribleCarto":{'rid':me.dataCarte['o:id']},
             "jdc:hexaQ":hexa.q.toString(),
             "jdc:hexaR":hexa.r.toString(),
             "jdc:hexaS":hexa.s.toString(),
-            "jdc:hasCrible":r.idCrible ? {'rid':r.idCrible} : false
         };
+        if(r.idCrible){
+            r.relations.forEach(rela=>{
+                dataCrible[rela.t]=rela.v;
+            })
+        }else dataCrible["jdc:hasCribleCarto"]={'rid':me.dataCarte['o:id']}
         me.omk.createRessource(dataCrible,
         crible=>{
+            if(r.idCrible){
+                //met à jour le crible parent
+                me.omk.updateRessource(r.idCrible,{"jdc:hasCrible":{'rid':crible['o:id']}}
+                ,'items',null,'PATCH',rs=>{
+                    console.log(rs);
+                })        
+            }
             console.log(crible);
             fct(crible);
         });
@@ -498,6 +508,8 @@ export class cartoHexa {
             d3.select('#'+c.id).raise();
             takenHexa[idO]=false;
         }else{
+            //récupération de l'espace parent
+            
             //création de l'espace
             addEspace(null,c);
         }
@@ -620,24 +632,25 @@ export class cartoHexa {
             })
             newCrible(h.hexa, dataCrible, (crible)=>{
                 let r = {
-                    "depth": 1,
                     "height": 0,
+                    "id":h.id,
                     "data":{
                         "o:id": crible['o:id'],
-                        "o:title": crible['o:title'],
+                        "o:title": sltConcept['o:title'],
                         "value": -1,
-                        "children": []    
+                        "children": [],
+                        "concept":sltConcept    
                     }
                 };
                 if(h.hexa){
+                    r.depth  = h.depth+1;
                     r.layout = h.r.layoutIn;
-                    r.id = h.id;
-                    r.r = h.r;
                     r.hexas=[setHexaProp(h.hexa,r)];
                 }else{
                     r.hexas=[setHexaProp(h,r)];
                 }    
                 addEspace(e.currentTarget,r);
+                mAddCrible.m.hide();
             })            
         })
     }
@@ -1609,6 +1622,7 @@ export class cartoHexa {
     function changeConcept(e,d){
 
         let oldCptId = d.concept['o:id'];
+        d["dcterms:type"][0].value_resource_id=sltConcept['o:id'];
         me.omk.updateRessource(d['o:id'],null
             ,'items',d,'PATCH',rs=>{
                 //mise à jour des données
@@ -1618,7 +1632,7 @@ export class cartoHexa {
                     p.attr('class',this.className.replace(oldCptId,sltConcept['o:id']));
                     let idText = espace.idText ? espace.idText : espace.r.idText
                     d3.select('#'+idText)
-                        .attr('id','#'+idText.replace(oldCptId,sltConcept['o:id']))
+                        .attr('id',idText.replace(oldCptId,sltConcept['o:id']))
                         .text(sltConcept['o:title']); 
                     updateHexaProp(espace,sltConcept);
                 })

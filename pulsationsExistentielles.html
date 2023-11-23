@@ -10,8 +10,6 @@
     <script src="assets/js/bootstrap5.3.bundle.min.js"></script>
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/scenario.js"></script>
-    <script src="assets/js/anime.min.js"></script>
     <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
     <link href="assets/css/all.min.css" rel="stylesheet">
@@ -42,6 +40,13 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul id="navbarMain" class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Scénarios
+                                    </a>
+                                    <ul class="dropdown-menu" id='lstScenarios'>
+                                    </ul>
+                                </li>                                
                                 <li class="d-flex">
                                     <button id="btnStart" class="btn btn-outline-success"><i
                                             class="fa-regular fa-circle-play"></i></button>
@@ -98,27 +103,50 @@
     </div>
 
     <script type="module">
+
+        import {scenario} from './modules/scenario.js';        
+
         let rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
             height=rectFooter.top-rectFooter.height-rectHeader.bottom,
-            width=rectFooter.width,
-            cont = d3.select("#mainContent");
+            width=rectFooter.width,svg,
+            cont = d3.select("#mainContent"),
+            scn = new scenario({});
 
-
+    //chargement des scenarios
+    d3.select('#lstScenarios').selectAll('li').data(scn.list).enter().append('li')
+        .append('a').attr('class',"dropdown-item").text(d=>d.nom)
+        .on('click',(e,d)=>{
+            d3.select('#btnStart').attr('class','btn btn-outline-danger');
+            d3.select('#btnStop').attr('class','btn btn-outline-success');            
+            //commence le scénario
+            scn.playScenario(svg, d.playScenario);        
+        })
+    //chargement du modèle à animer
     d3.svg("assets/img/pulsexistence.svg").then(xml=>{
         hideLoader();
         cont.node().appendChild(xml.documentElement);
-        let svg = d3.select("#svg1"),
-            scene = svg.select('#scene_1'),
+        svg = d3.select("#svg1");
+        let scene = svg.select('#scene_1'),
             bb = scene.node().getBBox();
         //affiche le graphique dans toute la div
         svg.attr("preserveAspectRatio","xMidYMid meet")		
             .attr('width',width).attr('height',height)
             .attr('viewBox',bb.x+" "+bb.y+" "+bb.width+" "+bb.height);            
-        //commence le scénario
-        playScenario(svg, 'MontreFluxAlea');        
-   });   
-    </script>
+       });
+    //gestion des événement de l'IHM
+    d3.select('#btnStop').on('click',function(){
+        d3.select('#btnStart').attr('class','btn btn-outline-success');
+        d3.select('#btnStop').attr('class','btn btn-outline-danger');            
+        svg.selectAll("*").interrupt();   
+    })    
+    d3.select('#btnStart').on('click',function(){
+        d3.select('#btnStart').attr('class','btn btn-outline-danger');
+        d3.select('#btnStop').attr('class','btn btn-outline-succces');            
+        svg.selectAll("*").interrupt();   
+    })    
+
+</script>
 
 </body>
 

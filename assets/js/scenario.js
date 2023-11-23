@@ -1,12 +1,17 @@
 let maxloop = 4, numloop = 0, extPathPoints, flux = [], 
-    dur = 100, durMin = 500, durMax = 30000;
+    dur = 100, durMin = 500, durMax = 30000,
+    scenarioDispo=[
+        {'nom':'Flux Alea','playScenario':'montreFluxAlea'},
+        {'nom':'Se tromper','playScenario':'seTromper'}
+    ];
+
 function playScenario(svg, nom){
     switch (nom) {
         case 'cache':
             svg.selectAll(".cache").style("opacity", 0);
             break;
 
-        case 'MontreFluxAlea':
+        case 'montreFluxAlea':
             //rotation de l'image
             let m=6, bbScene = d3.select("#scene_1").node().getBBox(),
                 pActant = {
@@ -61,7 +66,6 @@ function showFlux(){
     //ajoute les path de flux aléatoires
     let nb = d3.randomInt(1, 10)()
     for (let index = 0; index < nb; index++) {
-
         let paths = getAleaPath(extPathPoints),
             c = d3.interpolateInferno(Math.random());
         d3.select("#svg1").selectAll('.fluxPath').data(paths).enter()

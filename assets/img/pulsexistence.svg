@@ -7,7 +7,7 @@
    viewBox="0 0 210 296.99999"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="pulsexistence.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -31,14 +31,15 @@
      inkscape:zoom="0.82699502"
      inkscape:cx="395.40746"
      inkscape:cy="600.97097"
-     inkscape:window-width="1792"
-     inkscape:window-height="981"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showborder="false"
-     showguides="true">
+     showguides="true"
+     showgrid="false">
     <sodipodi:guide
        position="39.058593,176.73046"
        orientation="1,0"
@@ -171,25 +172,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="81.916168"
-       y="244.12242"
+       x="82.068619"
+       y="212.30188"
        id="text7"><tspan
          sodipodi:role="line"
          id="tspan7"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
-         x="81.916168"
-         y="244.12242">raisonner</tspan></text>
+         x="82.068619"
+         y="212.30188">raisonner</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="24.627893"
-       y="211.25027"
+       y="211.25543"
        id="text30"><tspan
          sodipodi:role="line"
          id="tspan30"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
          x="24.627893"
-         y="211.25027">agir</tspan></text>
+         y="211.25543">agir</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -213,7 +214,7 @@
        sodipodi:nodetypes="cc" />
     <g
        id="g35"
-       transform="translate(-0.06535338,8.9958336)">
+       transform="translate(-0.06535338,-20.74146)">
       <path
          sodipodi:type="spiral"
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none"
