@@ -48,12 +48,20 @@
                                     </ul>
                                 </li>                                
                                 <li class="d-flex">
+                                    <a id="slctScenario" class="navbar-brand" href="#"></a>
+                                </li>
+                                <li class="d-flex">
                                     <button id="btnStart" class="btn btn-outline-success"><i
                                             class="fa-regular fa-circle-play"></i></button>
                                 </li>
                                 <li class="d-flex ms-2">
                                     <button id="btnStop" class="btn btn-outline-success"><i
                                             class="fa-regular fa-circle-stop"></i></button>
+                                </li>
+                                <li class="d-flex">
+                                    <div class="progress" style="height: 12px;margin-top: 12px;margin-left: 12px;" role="progressbar" aria-label="Progression animation" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div id="progressAnimation" class="progress-bar bg-danger" style="width: 0%">0%</div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -104,47 +112,24 @@
 
     <script type="module">
 
-        import {scenario} from './modules/scenario.js';        
+        import {pulsationsExistentielles} from './modules/pulsationsExistentielles.js';        
 
         let rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
-            height=rectFooter.top-rectFooter.height-rectHeader.bottom,
-            width=rectFooter.width,svg,
-            cont = d3.select("#mainContent"),
-            scn = new scenario({});
+            pe = new pulsationsExistentielles({
+                'urlSvg':"assets/img/pulsexistence.svg",
+                'cont':d3.select("#mainContent"),
+                'height':rectFooter.top-rectFooter.height-rectHeader.bottom,
+                'width':rectFooter.width,
+                'lstScenarios':d3.select('#lstScenarios'),
+                'slctScenario':d3.select('#slctScenario'),
+                'btnStart':d3.select('#btnStart'),
+                'btnStop':d3.select('#btnStop'),
+                'hideLoader':hideLoader,
+                'showLoader':showLoader
+            });
 
-    //chargement des scenarios
-    d3.select('#lstScenarios').selectAll('li').data(scn.list).enter().append('li')
-        .append('a').attr('class',"dropdown-item").text(d=>d.nom)
-        .on('click',(e,d)=>{
-            d3.select('#btnStart').attr('class','btn btn-outline-danger');
-            d3.select('#btnStop').attr('class','btn btn-outline-success');            
-            //commence le scénario
-            scn.playScenario(svg, d.playScenario);        
-        })
-    //chargement du modèle à animer
-    d3.svg("assets/img/pulsexistence.svg").then(xml=>{
-        hideLoader();
-        cont.node().appendChild(xml.documentElement);
-        svg = d3.select("#svg1");
-        let scene = svg.select('#scene_1'),
-            bb = scene.node().getBBox();
-        //affiche le graphique dans toute la div
-        svg.attr("preserveAspectRatio","xMidYMid meet")		
-            .attr('width',width).attr('height',height)
-            .attr('viewBox',bb.x+" "+bb.y+" "+bb.width+" "+bb.height);            
-       });
-    //gestion des événement de l'IHM
-    d3.select('#btnStop').on('click',function(){
-        d3.select('#btnStart').attr('class','btn btn-outline-success');
-        d3.select('#btnStop').attr('class','btn btn-outline-danger');            
-        svg.selectAll("*").interrupt();   
-    })    
-    d3.select('#btnStart').on('click',function(){
-        d3.select('#btnStart').attr('class','btn btn-outline-danger');
-        d3.select('#btnStop').attr('class','btn btn-outline-succces');            
-        svg.selectAll("*").interrupt();   
-    })    
+
 
 </script>
 
