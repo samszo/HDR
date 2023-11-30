@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: ../docs
 
 book:
   title: "Jardin des connaissances : Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication"
