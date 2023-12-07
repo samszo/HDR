@@ -96,6 +96,13 @@ export class omk {
             return rs;
         }
 
+        this.getMedia = function (id, cb=false){
+            let url = me.api+'media/'+id,
+                rs = syncRequest(url);
+            if(cb)cb(rs);                    
+            return rs;
+        }        
+
         this.getItemAdminLink = function(item){
             return me.api.replace("/api/","/admin/item/")+item['o:id'];
         }

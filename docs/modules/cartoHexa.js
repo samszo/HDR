@@ -192,6 +192,7 @@ export class cartoHexa {
         }else dataCrible["jdc:hasCribleCarto"]={'rid':me.dataCarte['o:id']}
         me.omk.createRessource(dataCrible,
         crible=>{
+            /*
             if(r.idCrible){
                 //met à jour le crible parent
                 me.omk.updateRessource(r.idCrible,{"jdc:hasCrible":{'rid':crible['o:id']}}
@@ -199,6 +200,7 @@ export class cartoHexa {
                     console.log(rs);
                 })        
             }
+            */
             console.log(crible);
             fct(crible);
         });
@@ -717,8 +719,8 @@ export class cartoHexa {
         );
     }
     function addEspaceHexas(e){
-        e.selectAll(".gHexa").data(e=>{
-            return e.hexas
+        e.selectAll(".gHexa").data(d=>{
+            return d.hexas; 
         })
         .join(
             enter => {
@@ -1525,7 +1527,7 @@ export class cartoHexa {
         r.children.forEach(rc => initSkosRelations(rc,p['o:id']));
     }
     function initSuggest(){
-        let urlSuggest =  '../omk/api/items?resource_class_id='+me.omk.getClassByTerm('skos:Concept')['o:id']
+        let urlSuggest = me.omk.api+'items?resource_class_id='+me.omk.getClassByTerm('skos:Concept')['o:id']
                 +'&property[0][property]='+me.omk.getPropId('dcterms:title')
                 +'&property[0][type]=in&property[0][text]=%QUERY&sort_by=title';
             sgtConcept = new Bloodhound({
@@ -1573,6 +1575,7 @@ export class cartoHexa {
                     name: 'omk-concept',
                     display: 'o:title',
                     source: sgtConcept,
+                    limit:100,
                     templates: {
                         empty: [
                         '<div class="empty-message">',
@@ -1605,6 +1608,7 @@ export class cartoHexa {
                     name: 'omk-concept',
                     display: 'o:title',
                     source: sgtConcept,
+                    limit:100,
                     templates: {
                         empty: [
                         '<div class="empty-message">',

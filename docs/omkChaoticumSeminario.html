@@ -11,17 +11,15 @@
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/handsontable.full.min.js"></script>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/typeahead.bundle.js"></script>
-    <script src="assets/js/handlebars.min.js"></script>
+    <script src="assets/js/video.min.js"></script>
+    <script src="assets/js/d3.layout.cloud.js"></script>
     
-    
-
     <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
     <link href="assets/css/all.min.css" rel="stylesheet">
     <link href="assets/css/handsontable.full.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/video-js.min.css" rel="stylesheet">
 
 
 </head>
@@ -39,7 +37,7 @@
                         <a class="navbar-brand" href="#">
                             <img src="assets/img/logo-paragraphe-blanc.svg" alt="Logo" width="86"
                                 class="d-inline-block align-text-top">
-                            JDC CartoHexa
+                            OMK Chaoticum Seminario
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,22 +50,13 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         <i class="fa-solid fa-file-export"></i>
-                                        <span id="selectExport">Choose an export</span>
+                                        <span id="selectSeminar">Choose seminar</span>
                                     </a>
-                                    <ul id="ddExport" class="dropdown-menu">
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        <i class="fa-solid fa-file-export"></i>
-                                        <span id="selectCarto">Choose a cartography</span>
-                                    </a>
-                                    <ul id="ddCarto" class="dropdown-menu">
+                                    <ul id="ddSeminar" class="dropdown-menu">
                                     </ul>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <button id="btnNewCarto" type="button" class="btn btn-danger">
+                                    <button id="btnNewFragment" type="button" class="btn btn-danger">
                                         <i class="fa-solid fa-map-location-dot"></i>
                                     </button>
                                 </li>
@@ -91,7 +80,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Cartography details
+                                        Seminar details
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -102,19 +91,19 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="accordion-item text-white bg-dark">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        Resource list
+                                        Video list
                                     </button>
                                 </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse"
+                                <div id="collapseFour" class="accordion-collapse collapse" 
                                     data-bs-parent="#accordionJDC">
-                                    <div class="accordion-body">
-                                        <div id="contentResources">
+                                    <div class="accordion-body" style="height: 600px;overflow-y: scroll;">
+                                        <div id="contentResources" class="row g-4">
+
                                         </div>
                                     </div>
                                 </div>
@@ -165,39 +154,39 @@
     <script type="module">
         import {modal} from './modules/modal.js';
         import {auth} from './modules/auth.js';
-        import {cartoHexa} from './modules/cartoHexa.js';        
+        import {tagcloud} from './modules/tagcloud.js';
 
-        let m=new modal({'size':'modal-lg'}), hotRes, 
+        let m=new modal({'size':'modal-lg'}), 
+            tc, 
+            hotRes, 
             accordion = document.getElementById('accordionJDC'),
             rectAccordion = accordion.getBoundingClientRect(),
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
-            rectHeader = d3.select('header').node().getBoundingClientRect();
+            rectHeader = d3.select('header').node().getBoundingClientRect(),
+            rectMap = d3.select('#contentMap').node().getBoundingClientRect(),
+            hMap = rectFooter.top-rectFooter.height-rectHeader.bottom,
+            wMap = rectMap.width;
+
         //dimensionne la carte
-        d3.select('#contentMap').style('height',rectFooter.top-rectFooter.height-rectHeader.bottom+"px");
+        d3.select('#contentMap').style('height',hMap+"px");
         let  rectChart = d3.select('#contentMap').node().getBoundingClientRect(),
             a = new auth({'navbar':d3.select('#navbarMain'),
-                mail:'cartohexa.api@jdc.com',
-                apiOmk:'../../omk/api/',
-                ident: 'XNGNTOV3uh8h5txjOpOOJj6QwCmyGiwo',
-                key: 'hsF9lAULcsNpai7DdZe78SIiNsp1ZTb6'
+                mail:'samuel.szoniecky@univ-paris8.fr',
+                apiOmk:'../../../omk_arcanes_seminaires/api/',
+                ident: 'AiWSnmkY90MgNbOXNX0WnNlAKCcDTQIZ',
+                key: 'nmhCCFmn6bcLMZJhG2b7Ods15NjGwMmt'
             });
         //log l'utilisateur
         a.getUser(u=>{
             console.log(u);
-            let listCarto = a.omk.searchItems('resource_template_id='+a.omk.getRtId('CartoHexa'));
-            setMenu('#ddCarto', listCarto,'o:title',showCarto);
+            let listSeminar = a.omk.searchItems('resource_template_id='+a.omk.getRtId('Séminaire'));
+            listSeminar.slice(0, {'o:title':'All','o:id':0});
+            setMenu('#ddSeminar', listSeminar,'o:title',showSeminar);
             hideLoader();
         });
         //gestion des event de l'ihm
-        d3.select("#btnQuery").on('click',e=>{
-            let q = d3.select("#iptQuery").node().value; 
-            getData(urlApiOmk+q);
-        })
-
-        d3.select("#btnNewCarto").on('click',e=>{
-            let ch = new cartoHexa({'idCont':'contentMap','omk':a.omk
-                ,'showLoader':showLoader,'hideLoader':hideLoader
-            });
+        d3.select("#btnNewFragment").on('click',e=>{
+            console.log(e);
         })        
         
         accordion.addEventListener('shown.bs.collapse', event => {
@@ -210,106 +199,39 @@
         })
 
         //fonctions de l'ihm
-        function showCarto(e,d){
-            console.log(d);
-            let ch = new cartoHexa({'idCont':'contentMap'
-                ,'dataCarte':d,'omk':a.omk
-                ,'showLoader':showLoader,'hideLoader':hideLoader
-            });
-        }
-        //getDatas();
-                
-        function getDatas(url){
+        function showSeminar(e,d){
             showLoader();
-            Promise.all([d3.json(urlComplexityTot),d3.json(urlComplexityFrequency)]).then(function(responses) {
-
-                dataTots = responses[0], dataFreq=responses[1];
-                pc = new posiColor({'data':dataFreq,'cont':d3.select('#contentTots')
-                    //,'pVal':'maxCpx','pLib':'dim', 'frequency':false
-                    , 'pVal':'cpx','pLib':'dim', 'pFreq':'nbCpx','frequency':true
-                    , 'interpolates':{
-                        'Existence':d3.interpolateViridis,
-                        'Physique':d3.interpolatePlasma,
-                        'Actant':d3.interpolatePlasma,
-                        'Concept':d3.interpolatePlasma,
-                        'Rapport':d3.interpolateYlOrRd
-                    }
-                    ,'width':rectAccordion.width,'height':400});   
-                    //getData(urlApiOmk+'id=299743');                
-                    cpxDB = new jdcComplexeDatabase({
-                        //'data':dataTots.filter(d=>d.dim=='Existence')
-                        'data':dataFreq, 'tots':dataTots
-                        ,'cont':d3.select('#contentMap')
-                        ,'pValX':'cpx','pLibX':'Complexité'
-                        ,'pValY':'nbCpx','pLibY':"nombre d'existence"
-                        ,'pc':pc
-                        ,'width':rectChart.width
-                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});                        
-                    hideLoader();
-            }).catch(error => {
-                m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
-                +error);
-                m.setBoutons([{'name':"Close"}]);                
-                m.show();    
+            let url = a.omk.api.replace('api/','')+"s/edisem/page/ajax?json=1&helper=sql&action=statConcept";
+            d3.json(url).then(function(rs) {
+                console.log('data seminaire : OK');
+                tc=new tagcloud({
+                    'cont':d3.select('#contentMap'),'user':a.omk.user,'data':rs,
+                    'w':wMap, 'h':hMap, fct:{'clickTag':showVideo}
+                }), 
                 hideLoader();
-                console.error('There was an error!', error);
             });                            
         }
 
-
-        function getData(url){
-            showLoader();
-            d3.json(url)
-                .then(data=>{
-                    console.log(data);
-                    //vérifie si les data viennent d'un bulkexport
-                    if(!data.infos)dataDetails=data[0];
-                    else dataDetails=data;
-                    let cont = d3.select('#contentMap');
-                    cont.select("svg").remove();
-                    cpx = new jdcComplexe({'data':dataDetails,'cont':cont
-                        ,'colors':pc.colors
-                        ,'legend':pc
-                        ,'width':rectChart.width
-                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
-                    hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx,false);
-                    hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes,true);
-                    setDetails();
-                    hideLoader();
-                })
-                .catch(error => {
-                    m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
-                    +error);
-                    m.setBoutons([{'name':"Close"}]);                
-                    m.show();    
-                    hideLoader();
-                    console.error('There was an error!', error);
-                });                
-        }
-
-        function setDetails(){
-            let r, urlAdmin, titre='Complexity of ';
-            if(dataDetails.infos.query){
-                titre+=' query : '+dataDetails.infos.query                
-            }else{
-                r = dataDetails.infos.resources.filter(d=>d.id==dataDetails.infos.params.id)[0];
-                titre+=': '+r.details["o:title"];
-                urlAdmin=r.details["@id"].replace('api','admin')
-                    .replace('items/','item/')
-                    .replace('item_sets/','item-set/')
-                    ;
-                d3.select("#contentInfos").html(
-                    `<H5><a target="_blanck" href="${urlAdmin}">${r.details["o:title"]}</a></H5>
-                    <H6>${Array.isArray(r.details["@type"]) ? r.details["@type"].join() : r.details["@type"]}</H6>
-                    `
-                );
-                                
-            }
-            d3.select("#complexityTitle").text(titre);
-        }
-
-        function setDataComplexityForTable(data){
-            let dataTable = [{}]
+        function showVideo(d){
+            console.log(d);
+            //initialisation des contenus
+            let cont = d3.select("#contentResources");
+            cont.selectAll('div').remove();
+            //regroupe les valeurs par vidéo
+            let gVideos = Array.from(d3.group(d.vals,v=>v.idVideo));
+            //ajoute les références omk aux vidéos et à la translation
+            gVideos.forEach(v=>{
+                v.video = a.omk.getMedia(v[1][0].idVideo);
+                v.trans = a.omk.getItem(v[1][0].idR);
+            })
+            //création des vidéos
+            let cards = cont.selectAll('div').data(gVideos).enter().append('div').attr('class','col').append('div').attr('class','card');
+            cards.append('video').attr('src',v=>v.video["o:original_url"]).attr("class","card-img-top").attr("controls",true);
+            let cardBody = cards.append('div').attr("class","card-body");
+            cardBody.append('h5').attr("class","card-title").text(v=>v.video['o:title']);
+            cardBody.append('p').attr("class","card-text").text(v=>v.trans['dcterms:description']);
+            cardBody.append('div').attr("class","card-footer text-body-secondary")
+                .append("a").attr("href",v=>v.trans['@id']);
         }
 
         function setTable(data, cont, hot, menu){

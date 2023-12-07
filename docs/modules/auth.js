@@ -1,5 +1,5 @@
 import {omk} from '../modules/omk.js';
-import { Octokit, App } from "https://esm.sh/octokit";
+//import { Octokit, App } from "https://esm.sh/octokit";
 
 export class auth {
     constructor(params) {

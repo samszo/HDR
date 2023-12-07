@@ -111,7 +111,7 @@ Les données de cette environnement Omeka S ont été importées dans la base de
 Les données de l'écosystème de connaissance que nous avons développé pour ce travail représente une base de données SQL de 75 tables peuplées par plus de 2 000 000 de lignes. Le graphique ci-dessous présente la répartition des objets disponibles dans cet écosystème suivant leur classe[^principescarto-16] :
 
 [^principescarto-16]:
-    > Les données de ce graphique et d'autres statistiques sont disponibles ici : <http://localhost/samszo/HDR/omkStats.html>
+    > Les données de ce graphique et d'autres statistiques sont disponibles ici : \<omkStats.html\>
 
 ![Répartition des classes par nombre d'objet dans l'écosystème](media/100000010000023E0000017E87A6A293BEC71C5E.png){#fig-repartitionClass width="11.09cm" height="7.378cm"}
 
@@ -124,7 +124,7 @@ Le graphique montre que les deux tiers des objets dans l'écosystème sont des a
 
 Cette représentation suivant la classe des objets sous estime la complexité de l'écosystème puisqu'elle ne prend pas en compte le détails des valeurs (dimension physique) de chaque propriété (dimension concept) ni l'actant qui exprime les rapports entre propriétés et valeurs encore moins l'évolution de cette complexité au fur et à mesure que l'écosystème se transforme. Pour une meilleur compréhension de l'écosystème, nous considérons chaque donnée comme une existence particulière qui possède ça propre complexité qui s'ajoute à la complexité de l'ensemble. Cette complexité de l'objet est d'autant plus grande que la valeur d'une propriété est une ressource sous la forme d'une URI vers une page Web ou un lien vers une autre existence de l'écosystème est donc vers une nouvelle complexité qui elle aussi s'ajoute à la complexité globale. A partir des règles génériques pour calculer la complexité existentielle d'un écosystème (@sec-complexiteExitentielle), nous obtenons pour l'écosystème de connaissances de ce travail une complexité de 38.4589 Millions, ce qui est très important en comparaison de la complexité d'une citation d'ouvrage qui varie entre 60 et 3 000 mais ce qui est très peu par rapport à la complexité d'une bibliothèque, de wikipédia ou d'une IA générative comme ChatGPT (@sec-modeliserEcosystemeReference). Ce chiffre prend en compte l'ensemble des existences informationnelles qui peuplent notre base de connaissance pour ce travail d'HDR, il nous est utile pour comparer les connaissances potentielles de ces existences dont on peut représenter la répartition suivant leur niveau de complexité (abscisse) et le nombre d'existence pour chaque complexité (ordonné) :
 
-![Répartition de la complexité des existences dans l'écosystème](images/localhost_samszo_HDR_jdcComplexity.html.png){#fig-RepartitionComplexity fig-align="center"}
+![Répartition de la complexité des existences dans l'écosystème [voir en ligne](pulsationsExistentielles.html)](images/localhost_samszo_HDR_jdcComplexity.html.png){#fig-RepartitionComplexity fig-align="center"}
 
 Ce graphique montre que la complexité des existences est très diverse puisqu'elle s'établit entre 1 et presque 3 Millions, de même concernant le nombre d'existence ayant la même complexité qui oscille entre 1 et plus de 10 mille. Une analyse des répartitions suivant le type de ressource omeka (media, item, collection, annotation) montre que les ressources les moins complexes sont les médias avec une complexité inférieure à 12 et les plus complexes sont bien évidemment les collections car elles cumulent les complexités des ressources qui la compose.
 
@@ -202,7 +202,11 @@ Cette frise historique[^principescarto-26] montre l'évolution de mes activités
 [^principescarto-26]:
     > Visualisation conçue à partir du modules Omeka S timeline (https://gitlab.com/Daniel-KM/Omeka-S-module-Timeline) que nous avons adapté à nos besoins.
 
-Les connaissances sont toujours en rapport avec l'espace et le temps mais nous posons comme hypothèse qu'entre les connaissances des physicalités et celles des intériorités, entre l'étendu et la pensée, l'espace et le temps n'ont pas les même modes de perceptions et d'expressions. Nous suivons sur ce point les principes spinozistes d'une modélisation ontologique corrélée à une éthique en définissant trois dimensions de l'existence corrélées avec trois genres de connaissance[^principescarto-27] @sec-modeleOntoEthique. Examinons maintenant comment nous définissons de nouveaux principes cartographiques à partir de ces propositions.
+Les connaissances sont toujours en rapport avec l'espace et le temps mais nous posons comme hypothèse qu'entre les connaissances des physicalités et celles des intériorités, entre l'étendu et la pensée, l'espace et le temps n'ont pas les même modes de perceptions et d'expressions.
+
+> « La durée se dit en fonction des parties extensives et se mesure au temps pendant lequel ces parties appartiennent à l'essence. Mais l'essence en elle-même à une réalité ou une existence éternelle ; elle n'a pas de durée, ni de temps qui marque l'achèvement de cette durée. »[@deleuze1968, p. 291]
+
+Nous suivons sur ce point les principes spinozistes d'une modélisation ontologique corrélée à une éthique en définissant trois dimensions de l'existence corrélées avec trois genres de connaissance[^principescarto-27] @sec-modeleOntoEthique. Examinons maintenant comment nous définissons de nouveaux principes cartographiques à partir de ces propositions.
 
 [^principescarto-27]:
     > <https://spinoza.fr/les-genres-de-connaissance-extrait-du-cours-de-gilles-deleuze/>
@@ -279,7 +283,7 @@ A l'opposé des espaces matériels-physiques et de la connaissance des chocs, no
 
 Comment cartographier ces espaces de connaissances  ? Comment mesurer ces espaces ? Combien pèse une âme ?
 
-![La pesée des âmes dans le retable polyptyque du Jugement Dernier de Rogier van der Weyden aux Hospices de Beaune, 1443-1452, https://commons.wikimedia.org/w/index.php?curid=6028656](media/100000000000026C0000033BDE0C2A2E5F4A6C07.jpg){{#fig-peseeAme fig-align="center"}
+![La pesée des âmes dans le retable polyptyque du Jugement Dernier de Rogier van der Weyden aux Hospices de Beaune, 1443-1452, https://commons.wikimedia.org/w/index.php?curid=6028656](media/100000000000026C0000033BDE0C2A2E5F4A6C07.jpg){#fig-peseeAme fig-align="center"}
 
 La question du poids des âmes se pose depuis longtemps comme en témoigne l'iconographie de la pesée des âmes. La psychostasie, nom donné à cette activité de la pesée des âmes, touche historiquement les domaines de la théologie, de la philosophie et de l'éthique mais intéresse aussi les sciences de l'information et de la communication qui cherchent notamment des réponses sur la mesure, l'analyse et la critique de ces espaces informationnels immatériels qui ne sont pas mesurables de la même manière qu'une planche de bois ou qu'une récolte de fruit car ils ne sont pas soumis aux règles physiques de la matérialité tant qu'ils ne sont pas exprimées. Dès le passage de ces espaces intérieurs vers une forme d'expression quelle qu'elle soit (écrit, parole, clic sur un bouton...), ils se transforment en physicalités dont on pourra mesurer les paramètres physiques (hauteur, largeur, vitesse...). Ne peut-on mesurer ces intériorités qu'une fois exprimées par nos paroles, nos écrits, nos dessins, nos danses, nos activités corporelles... ?
 
@@ -330,9 +334,7 @@ Dans notre cas, l'application d'adhérence consiste à « conceptualiser » le
 
 ### Applications prétopologiques des concepts {#sec-applicationsPretopologique}
 
-Pour faciliter les manipulations de concepts nous mettons à disposition des cartographes un espace dynamique et interactif dans lequel ils pourront utiliser graphiquement les applications prétopologiques pour : créer un espace, le définir, créer des sous ensembles et le mettre en relation avec d'autres espaces suivant des applications prétopologiques spécifiques.
-
-Pour des raisons d'ergonomie graphique et algorithmique, les espaces conceptuels sont structurés par une grille hexagonale  :
+Pour faciliter les manipulations de concepts nous travaillons à un dispositif de cartographie qui présente un espace dynamique et interactif dans lequel les cartographes pourront utiliser graphiquement les applications prétopologiques pour : créer un espace, le définir, créer des sous ensembles et le mettre en relation avec d'autres espaces suivant des applications prétopologiques spécifiques. Pour faciliter le positionnement des concepts les uns par rapport aux autres en évitant le chevauchement des titres, nous avons fait le choix d'utiliser une grille hexagonale comme le propose [@rodighiero2021] pour réaliser la carte des affinités d'un laboratoire de recherche ou comme nous l'avons expérimenté pour paramétrer le filtrage des flux d'informations [@szoniecky2011]. Une grille hexagonale permet de représenter les relations d'un élément avec vingt-quatre autres sans aucun chevauchement, ce qui peut paraître faible lorsqu'on pense à l'infinité des relations possibles entre les concepts mais qui offre l'avantage de contraindre la cartographie sémantique dans un espace relativement simple et donc facilement compréhensible. De plus, la construction fractale des rapports entre ensembles et éléments rend infini la possibilité d'expression puisque le regroupement des élément dans un ensemble crée la possibilité de représenter vingt-quatre nouveaux éléments. Pour des raisons d'ergonomie graphique et algorithmique, les espaces conceptuels sont structurés par une grille hexagonale  :
 
 > « L'hexagone permet de "paver" l'espace en un agencement sans fin, qui, potentiellement, permet de dessiner des réseaux infinis. \[...\] Choisir une grille hexagonale réduit le bruit numérique et facilite la lecture. » [@rodighiero2021, p. 76]
 
@@ -343,11 +345,15 @@ Nous nous sommes inspiré des travaux d'Amit Patel[^principescarto-33] pour mett
     > Pour une proposition d'implémentation algorithmique : <https://www.redblobgames.com/grids/hexagons/implementation.html>
 
 [^principescarto-34]:
-    > Le code est accessible ici : <https://github.com/samszo/cartoHexa>
+    > Le code est accessible ici : <https://github.com/samszo/HDR/docs/jdcCartoHexa.html>
 
-La première applications d'adhérence que nous venons de présenter, consiste à « conceptualiser » un espace en lui donnant un titre. Il suffit de cliquer dans l'espace conceptuel pour choisir une position et faire apparaître un formulaire permettant de saisir le titre du concept. Il est important de pouvoir créer tous les concepts possibles à partir de n'importe qu'elle chaîne de caractères car une des difficultés bien connues dans l'usage des ontologies ou des vocabulaires formalisés est de trouver la « bonne » référence dans un ensemble souvent très vaste dont on ne connaît pas l'ensemble des références et surtout quand on ne trouve pas d'équivalent à ses propres habitudes linguistiques. C'est pourquoi, dans nos principes de cartographie des espaces conceptuels, l'expression des concepts est libre comme c'est le cas dans les folksonomies [@broudoux2012]. Toutefois, lors de la saisie du titre du concept, un processus d'auto-complétion du champ de saisie renvoie les concepts déjà enregistrée dans la base de données à partir de quelques lettres ; l'utilisateur est informé des concepts existants et peut donc choisir une référence que d'autres utilisateurs ont déjà utilisé ce qui permet de créer une interopérabilité formelle. Notons que cette interopérabilité ne présage pas d'un consensus sur le sens du concept, toutefois elle est grandement utile pour rassembler les différents acteurs qui l'utilise afin qu'il discute de leurs accords et divergences @sec-axeFormaConsensus.
+Une fois connecté à l'application de cartographie, la première action a effectuer est de charger une carte ou d'en crééer une. Lorsque l'on crée une carte, l'application propose une espace avec une grille hexagonale de rayon 2 avec positionné au centre de cette grille un concept "vide" qui lui aussi possède une grille hexagonal permettant ainsi e fractaliser la cartographie avec des grilles hexagonales incluant d'autres grille hexagonales etc. Notons que cette grille est créée par défaut avec un rayon de 2 mais qu'elle peut être étendue en déplaçant les bords de l'espace.
 
-L'application « conceptualiser » enregistre dans une base de données la position d'un concept défini par un actant ici et maintenant dans un espace conceptuel de référence en décomposant ces informations dans les propriétés suivantes :
+![Cartographie conceptuel dans un espace hexagonal](images/localhost_samszo_HDR_docs_jdcCartoHexa.html.png){#fig-cartoHexa fig-align="center"}
+
+Les utilisateurs peuvent ensuite utiliser les applications d'adhérence que nous venons de présenter, qui consiste par exemple à « conceptualiser » un espace en lui donnant un titre. Il suffit de cliquer dans l'espace conceptuel pour choisir une position et faire apparaître un formulaire permettant de saisir le titre du concept. Il est important de pouvoir créer tous les concepts possibles à partir de n'importe qu'elle chaîne de caractères car une des difficultés bien connues dans l'usage des ontologies ou des vocabulaires formalisés est de trouver la « bonne » référence dans un ensemble souvent très vaste dont on ne connaît pas l'ensemble des références et surtout quand on ne trouve pas d'équivalent à ses propres habitudes linguistiques. C'est pourquoi, dans nos principes de cartographie des espaces conceptuels, l'expression des concepts est libre comme c'est le cas dans les folksonomies [@broudoux2012]. Toutefois, lors de la saisie du titre du concept, un processus d'auto-complétion du champ de saisie renvoie les concepts déjà enregistrée dans la base de données à partir de quelques lettres ; l'utilisateur est informé des concepts existants et peut donc choisir une référence que d'autres utilisateurs ont déjà utilisé ce qui permet de créer une interopérabilité formelle. Notons que cette interopérabilité ne présage pas d'un consensus sur le sens du concept, toutefois elle est grandement utile pour rassembler les différents acteurs qui l'utilise afin qu'il discute de leurs accords et divergences @sec-axeFormaConsensus.
+
+L'application « conceptualiser » enregistre dans une base de données Omeka S la position d'un concept défini par un actant ici et maintenant dans un espace conceptuel de référence en décomposant ces informations dans les propriétés suivantes :
 
 \- identifiant de la position
 
@@ -363,7 +369,7 @@ L'application « conceptualiser » enregistre dans une base de données la pos
 
 \- lieu du choix de la position
 
-Décomposer l'actant, le concept et sa position a pour avantage de partager un concept commun avec d'autres utilisateurs tout en conservant le point de vue de l'actant sur ce concept. Ainsi, « aimer » et « haïr » peuvent être commun à plusieurs personnes mais la distance entre ces deux concepts peut varier suivant les individus, le temps, l'espace... Il y a donc une dé-corrélation entre le concept et ses usages. Le concept est virtuel, c'est une potentialité qui s'actualise dans une « action située » c'est à dire dans des usages ayant leurs propres spécificités (@actionSitue).
+Décomposer l'actant, le concept et sa position a pour avantage de partager un concept commun avec d'autres utilisateurs tout en conservant le point de vue de l'actant sur ce concept. Ainsi, « aimer » et « haïr » peuvent être commun à plusieurs personnes mais la distance entre ces deux concepts peut varier suivant les individus, le temps, l'espace... Il y a donc une dé-corrélation entre le concept et ses usages. Le concept est virtuel, c'est une potentialité qui s'actualise dans une « action située » c'est à dire dans des usages ayant leurs propres spécificités (@actionSitue). De plus, l'enregistrement situé des étapes de construction de la carte rend accessible le processus créatif de son auteur.
 
 Cette définition minimale de l'espace prétopologique peut être enrichie par d'autres applications qui enrichissent l'espace de nouvelles propriété comme celui qui est à l'œuvre avec IEML. Cette activité purement conceptuelle consiste à affiner la cartographie en définissant des rapports entre les concepts à la manière de ce qui se fait lorsqu'on développe une ontologie [@bachimont2007] en utilisant par exemple des propriétés de relation issu du vocabulaire SKOS [@isaac2011].
 
@@ -375,75 +381,48 @@ Dans notre cas, l'application « intérieur » va nous permettre de définir l
 > -- i(A) ⊆ A (P2)\
 > avec A^c^ le complémentaire de A soit E − A. » [@levorato2008, p. 40]
 
-Pour positionner les ellipses les unes par rapports aux autres de manière à faciliter leur lecture, nous avons faisons confiance aux utilisateurs.
-
-TODO :mettre diagramme
-
-Cette grille hexagonale de vingt-quatre
-
-Une deuxième fonction Les éléments conceptuels sont dès lors représenté par leur titre au centre d'une ellipse englobant et dont le rayon correspond à la valeur de la fonction « étendu » qui par défaut prend la valeur de 1.
-
-sodéfinies ultérieurement en utilisant le langage SKOS et en faisant référence à des ontologies ou des langages d'adressage comme IEML
-
-De plus, la visualisation des étapes de construction de la carte rend accessible la logique de son auteur que l'on peut suivre pour comprendre des logiques de construction de plus en plus complexe.
-
-plus simple de construction de la carte pour pour construire cart Si l'on en croit la définition de l'abstraction par Deleuze : « 
-
-Pour cartographier ces espaces intérieurs, nous proposons de les modéliser en utilisant
-
-Du mot vers le concept...
-
-De la carte vers la requête...
-
-Impossible de mesurer une qu'on ne peut pas mesurer
-
-"La durée se dit en fonction des parties extensives et se mesure au temps pendant lequel ces parties appartiennent à l'essence. Mais l'essence en elle-même à une réalité ou une existence éternelle ; elle n'a pas de durée, ni de temps qui marque l'achèvement de cette durée" (Deleuze, 1968, p. 291)
-
- : le souvenir de la rencontre, temps et l'espace. J'ai fait le choix de sélectionner plusieurs espaces temps qui ont été particulièrement important au cours de mon évolution intellectuelle :
-
-\- le département
-
-que nous avons opéré que que j'ai croisées et dont les discussions qui m'ont apporté :
-
--   une liste des ouvrages de ma bibliothèque
--   une liste des textes consultés
--   liste des musiques
--   liste des films
-
-La perte des mémoires au profit du flux...
-
-Définir les frontières :
-
-"La frontière est donc, en fait, doublement, une zone d'empiétement : par son caractère d'objet fractal et la relativisation de sa topologie propre à l'échelle de représentation choisie ; par les luttes qui la traversent et, parfois, en déplacent le tracé." § 15 Parrochia, D., 1993. Conclusion - Vers un réseau de réseaux ?, in: Philosophie des réseaux. Presses Universitaires de France, pp. 265--286.
-
-### L'actant comme générateur de rapports {#sec-espaceActant}
-
-Pour faciliter le positionnement des concepts les uns par rapport aux autres en évitant le chevauchement des titres, nous avons fait le choix d'utiliser une grille hexagonale comme le propose (Rodighiero, 2021, p. 76) pour réaliser la carte des affinités d'un laboratoire de recherche ou comme nous l'avons expérimenté pour paramétrer le filtrage des flux d'informations (Szoniecky, 2011). Une grille hexagonale permet de représenter les relations d'un élément avec vingt-quatre autres sans aucun chevauchement, ce qui peut paraître faible lorsqu'on pense à l'infinité des relations possibles entre les concepts mais qui offre l'avantage de contraindre la cartographie sémantique dans un espace relativement simple et donc facilement compréhensible. De plus, la construction fractale des rapports entre ensembles et éléments rend infini la possibilité d'expression puisque le regroupement des élément dans un ensemble crée la possibilité de représenter vingt-quatre nouveaux éléments.
-
-En d'autres termes, nous reprenons ici les principes que recommande le W3C avec le format « Open Annotation »[^principescarto-35] qui code de façon très simple les relations entre des ressources sémantiques afin de définir un point de vue particulier sur celles-ci. Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S développé par Daniel Berthereau[^principescarto-36].
+Pour utiliser cette application, il suffit de cliquer dans un des hexagones de la grille pour faire apparaitre un formulaire permettant de choisir un concept et les relations que ce concept entretient avec le concept dont il est un sous espace. Ces relations sont exprimées avec le vocabulaire des relations de SKOS[^principescarto-35] mais sans toutefois limiter les possibilités d'associations aux contraintes logiques. Par exemple, il est illogique que deux concepts possèdent à la fois une relation hiérarchique "plus spécifique" (skos:narrower) et une relation "plus générique" (skos:broader). Toutefois, il nous semble important de laisser la possibilité aux usagers d'exprimer ces relations illogiques afin de laisser une place aux incohérences et aux inventions poétiques.
 
 [^principescarto-35]:
-    > cf. <http://www.openannotation.org/>
+    > Pour une présentation des relations sémantiques dans SKOS : <https://www.w3.org/TR/skos-reference/#semantic-relations/>
+
+![Ajout d'un concept et de ses relations](images/localhost_samszo_HDR_docs_jdcCartoHexaAjoutCrible.html.png){#fig-cartoHexaAjoutConcept fig-align="center"}
+
+## L'actant comme générateur de rapports {#sec-espaceActant}
+Entre la dimension des physicalités organisée en hiérarchies et celle des concepts organisée en topologies, la dimension des actants organise l'espace des connaissances à la fois sous la forme de topos et de chora. Topos et chora sont deux manière complémentaires de définir l'espace soit sous la forme d'un identité par exemple "Université Paris 8", soit par ce que le lieu génére comme activité, par exemple dans le cas de Paris 8 : recherches et enseignements. 
+
+  Les actants sont topos car ils définissent des lieux par un nom et une position sur Terre, par exemple "Université Paris 8" et le nom d'un espace géographique dmodélise l'espace par des noms graphies dans le sens où elle défini l'organisation des lieux en ce qu'il 'qu'elle occupe et les relations  
+
+En d'autres termes, nous reprenons ici les principes que recommande le W3C avec le format « Open Annotation »[^principescarto-36] qui code de façon très simple les relations entre des ressources sémantiques afin de définir un point de vue particulier sur celles-ci. Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S développé par Daniel Berthereau[^principescarto-37].
 
 [^principescarto-36]:
+    > cf. <http://www.openannotation.org/>
+
+[^principescarto-37]:
     > Accessible ici : <https://gitlab.com/Daniel-KM/Omeka-S-module-Annotate>
 
-![Illustration 17: Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){width="8.042cm" height="5.129cm"}
+![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation fig-align="center"}
 
-### De l'illusion d'une exhaustivité : vers une cartographie des subjectivités {#sec-illusionExhaustivite}
+## De l'illusion d'une exhaustivité : vers une cartographie des subjectivités {#sec-illusionExhaustivite}
 
 Le choix de l'échelle : du global au local
 
 Le présent du point de vue
 
-### De la confiance dans les données : vers une cartographie des affects {#sec-confianceDonnees}
+Définir les frontières :
 
-Les hypothèses cartographiques que nous venons de poser, précise notre modèle de description et de représentation des connaissances à partir duquel nous produisons une foule de données qui, en référence aux principes basiques du RDF[^principescarto-37], sont composées d'un triplet sujet, objet et prédicat, par exemple : sujet=titre, objet=la vie devant soi, prédicat=est. Si on en croit les défenseurs du RDF et des technologies qui lui sont associé pour composer le Web Sémantique, cette formalisation de la connaissance en brique logiques élémentaires est sensée produire de la confiance comme en témoigne le fameux « Semantic Web Stack » :
+"La frontière est donc, en fait, doublement, une zone d'empiétement : par son caractère d'objet fractal et la relativisation de sa topologie propre à l'échelle de représentation choisie ; par les luttes qui la traversent et, parfois, en déplacent le tracé." § 15 Parrochia, D., 1993. Conclusion - Vers un réseau de réseaux ?, in: Philosophie des réseaux. Presses Universitaires de France, pp. 265--286.
 
-[^principescarto-37]:
+## De la confiance dans les données : vers une cartographie des affects {#sec-confianceDonnees}
+
+Les hypothèses cartographiques que nous venons de poser, précise notre modèle de description et de représentation des connaissances à partir duquel nous produisons une foule de données qui, en référence aux principes basiques du RDF[^principescarto-38], sont composées d'un triplet sujet, objet et prédicat, par exemple : sujet=titre, objet=la vie devant soi, prédicat=est. Si on en croit les défenseurs du RDF et des technologies qui lui sont associé pour composer le Web Sémantique, cette formalisation de la connaissance en brique logiques élémentaires est sensée produire de la confiance comme en témoigne le fameux « Semantic Web Stack » :
+
+[^principescarto-38]:
     > <https://www.w3.org/RDF/>
 
-![Illustration 18: Semantic Web Stack, Par W3C https://commons.wikimedia.org/wiki/File:Semantic_Web_Stack.png](media/1000000100000258000002762CF3B23905723B38.png){width="5.971cm" height="6.001cm"}Toutefois, il nous semble que la confiance est toute relative puisque celle-ci relève d'avantage d'un pari que d'un calcul logique :
+![Illustration 18: Semantic Web Stack, Par W3C https://commons.wikimedia.org/wiki/File:Semantic_Web_Stack.png](media/1000000100000258000002762CF3B23905723B38.png){width="5.971cm" height="6.001cm"}
+
+Toutefois, il nous semble que la confiance est toute relative puisque celle-ci relève d'avantage d'un pari que d'un calcul logique :
 
 > « La confiance se définit donc comme un pari sur les comportements attendus. Le pari réunit en effet les deux caractéristiques majeures de la confiance : la relation à l'action \[...\], et la relation à un futur qui n'est pas encore, mais qui est appréhendé sous la catégorie des comportements attendus. » (Hunyadi, 2020, p. 29)
 
