@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JDC : CartoHexa</title>
+    <title>OMK : Chaoticum Seminario</title>
     <script src="assets/js/d3.v7.min.js"></script>
     <script src="assets/js/bootstrap5.3.bundle.min.js"></script>
     <script src="assets/js/all.min.js"></script>
@@ -20,6 +20,7 @@
     <link href="assets/css/handsontable.full.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/video-js.min.css" rel="stylesheet">
+    <link href="assets/css/nouislider.min.css" rel="stylesheet">
 
 
 </head>
@@ -190,12 +191,14 @@
         })        
         
         accordion.addEventListener('shown.bs.collapse', event => {
+            /*
             if(event.target.id=="collapseThree"){
                 hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx);
             }
             if(event.target.id=="collapseFour"){
                 hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes);
             }
+            */
         })
 
         //fonctions de l'ihm
@@ -206,32 +209,51 @@
                 console.log('data seminaire : OK');
                 tc=new tagcloud({
                     'cont':d3.select('#contentMap'),'user':a.omk.user,'data':rs,
-                    'w':wMap, 'h':hMap, fct:{'clickTag':showVideo}
-                }), 
-                hideLoader();
+                    'w':wMap, 'h':hMap, 
+                    fct:{'clickTag':showVideos,'showLoader':showLoader,'hideLoader':hideLoader}
+                }) 
             });                            
         }
 
-        function showVideo(d){
+        function showVideos(d,slt){
             console.log(d);
+            //ouvre l'accordion
+            d3.select("#collapseFour").attr('class',"accordion-collapse collapse show");           
             //initialisation des contenus
             let cont = d3.select("#contentResources");
             cont.selectAll('div').remove();
             //regroupe les valeurs par vidéo
-            let gVideos = Array.from(d3.group(d.vals,v=>v.idVideo));
+            let vals = d3.merge(slt.data().map(s=>s.vals)),
+                gVideos = Array.from(d3.group(vals,v=>v.idVideo));
             //ajoute les références omk aux vidéos et à la translation
             gVideos.forEach(v=>{
                 v.video = a.omk.getMedia(v[1][0].idVideo);
                 v.trans = a.omk.getItem(v[1][0].idR);
             })
             //création des vidéos
-            let cards = cont.selectAll('div').data(gVideos).enter().append('div').attr('class','col').append('div').attr('class','card');
+            let cards = cont.selectAll('div').data(gVideos).enter().append('div').attr('class','col-12').append('div').attr('class','card');
             cards.append('video').attr('src',v=>v.video["o:original_url"]).attr("class","card-img-top").attr("controls",true);
             let cardBody = cards.append('div').attr("class","card-body");
             cardBody.append('h5').attr("class","card-title").text(v=>v.video['o:title']);
-            cardBody.append('p').attr("class","card-text").text(v=>v.trans['dcterms:description']);
+            cardBody.append('p').attr("class","card-text").selectAll('span').data(v=>getDataWords(v)).enter()
+                .append('span')
+                .attr('class','spanTag')
+                .style('color',d=>d.select?'red':'white')    
+                .style('font-size',d=>d.select?'large':'small')    
+                .text(d=>d.t)
+                .on('click',showTagTools);
             cardBody.append('div').attr("class","card-footer text-body-secondary")
                 .append("a").attr("href",v=>v.trans['@id']);
+        }
+
+        function showTagTools(e,d){
+            console.log(d);
+        }
+
+        function getDataWords(d){
+            return d.trans['o:title'].split(' ').map(t=>{
+                return {'data':d,'t':t,'select':t==d[1][0].titleCpt}
+            });
         }
 
         function setTable(data, cont, hot, menu){

@@ -50,9 +50,11 @@
         }
     }
 
-    async function showLoader() {
-        curwait ++;
-        d3.select("#ws-loading").style("display", "inline-block")
+    function showLoader() {        
+        d3.select("#ws-loading").style("display", "inline-block");
+        setTimeout(function(){
+            curwait ++;
+        }, 1000);
     }
     function hideLoader() {
         curwait --;

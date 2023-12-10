@@ -1,3 +1,11 @@
+.spanTag {
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor:pointer;
+}
+#tcSlider .noUi-connect {
+	background: #dc3545;
+}
 #logoMazePetit {
     height: 60px;
     width: 240px;
