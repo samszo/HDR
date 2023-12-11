@@ -388,10 +388,31 @@ Pour utiliser cette application, il suffit de cliquer dans un des hexagones de l
 
 ![Ajout d'un concept et de ses relations](images/localhost_samszo_HDR_docs_jdcCartoHexaAjoutCrible.html.png){#fig-cartoHexaAjoutConcept fig-align="center"}
 
-## L'actant comme générateur de rapports {#sec-espaceActant}
-Entre la dimension des physicalités organisée en hiérarchies et celle des concepts organisée en topologies, la dimension des actants organise l'espace des connaissances à la fois sous la forme de topos et de chora. Topos et chora sont deux manière complémentaires de définir l'espace soit sous la forme d'un identité par exemple "Université Paris 8", soit par ce que le lieu génére comme activité, par exemple dans le cas de Paris 8 : recherches et enseignements. 
+## L'actant comme identité génératrice de rapports {#sec-espaceActant}
 
-  Les actants sont topos car ils définissent des lieux par un nom et une position sur Terre, par exemple "Université Paris 8" et le nom d'un espace géographique dmodélise l'espace par des noms graphies dans le sens où elle défini l'organisation des lieux en ce qu'il 'qu'elle occupe et les relations  
+Entre la dimension des physicalités organisée en hiérarchies et celle des concepts organisée en topologies, la dimension des actants organise l'espace des connaissances à la fois sous la forme de topos et de chôra [@zamora2003; @derrida1997]. Topos et chôra sont deux manières complémentaires de définir l'espace soit pour le topos sous la forme d'une identité par exemple "Université Paris 8", soit pour la chôra en définissant ce que le lieu génère comme activités, par exemple dans le cas de Paris 8 : recherches et enseignements.
+
+> « la chôra \[...\] relèvent du monde sensible, non du monde intelligible. Inversement, la notion de topos, dans la mesure où elle concorde avec la logique de l'identité du sujet, relève moins de la sensibilité que de l'intelligibilité. » [@berque2009, p. 232].
+
+Il est curieux de voir que dans l'histoire, topos et chôra se sont développés à travers deux manières d'êtres au monde [@latour2012]. D'un coté une vision occidentale du topos dont les modernistes sont les héritiers et qui plonge ces racines chez Platon, Aristote et que l'on trouve aussi dans la Bible où la première activité de l'homme est de nommer les vivants pour définir leur identité :
+
+> « 2.19 : L'Éternel Dieu forma de la terre tous les animaux des champs et tous les oiseaux du ciel, et il les fit venir vers l'homme, pour voir comment il les appellerait, et afin que tout être vivant portât le nom que lui donnerait l'homme.
+>
+> 2.20 : Et l'homme donna des noms à tout le bétail, aux oiseaux du ciel et à tous les animaux des champs » [@jérusalem1993, p.19].
+
+![Adam nomme les animaux](images/Adam_naming_animals_-_Moni_Ayou_Nikolaou_(Meteora).jpg){#fig-adamNomme fig-align="center"}
+
+Le topos fonde « en Occident la logique du tiers exclu » [@berque2009, p. 145] et caractérise les approches Naturalistes dont l'ambition est de décrire le monde de manière universelle [@descola2005]. Du coté de l'Orient, la taoïsme apporte une approche différente comme en témoigne Lao Tseu six siècles avant notre ère dans les deux premiers paragraphes du Tao Te King où il insiste sur le caractère indicible du Tao :
+
+> « 
+> 1. Le tao exprimable n'est pas Le Tao.
+> 2. Le nom énonçable n'est pas Le Nom. » [@saintgirons2016].
+
+L'opposition entre ces deux approches trouvent aujourd'hui une actualité flagrante entre une IA symbolique qui fonctionne par nommage très précis des identités informationnelles sous la forme d'ontologies et une IA connexionniste qui privilégie l'émergence de modèle par des cycles récurrents d'apprentissages [@masure2023]. Entre identité et processus, les deux approches sont complémentaire notamment quand on cherche à modéliser les actants qui ne sont ni réductibles à leur identité ni à leurs activités. L'actant possède une identité qu'on défini basiquement par un nom et donc par une physicalité mais l'actant est aussi producteur d'activités et donc générateur de rapports entre des physicalités et des concepts (@sec-rapportsInstExis). Les actants sont topos de part les rapports qu'ils entretiennent avec les physicalités et chôra dans les processus internes d'émergence des connaissances intuitives.
+L'actant est donc le milieu de ces pulsations exitentielles que nous décrivions plus haut @fig-dynamiquesPulsationsExistentielles. Pour les représenter, nous avons fait le choix de l'hexagone dont la forme est entre le rectangle qui représente les physicalités et le cercle qui représente les concepts. De plus les six cotés offrent une possibilité de trois plage de connexion vers les haut et les physicalités et trois plages de connexion vers le bas et les concepts.
+
+
+## Les rapports comme instanciation des existences potentielles {#sec-rapportsInstExis}
 
 En d'autres termes, nous reprenons ici les principes que recommande le W3C avec le format « Open Annotation »[^principescarto-36] qui code de façon très simple les relations entre des ressources sémantiques afin de définir un point de vue particulier sur celles-ci. Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S développé par Daniel Berthereau[^principescarto-37].
 
@@ -401,7 +422,13 @@ En d'autres termes, nous reprenons ici les principes que recommande le W3C avec 
 [^principescarto-37]:
     > Accessible ici : <https://gitlab.com/Daniel-KM/Omeka-S-module-Annotate>
 
-![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation fig-align="center"}
+![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation alt="Web Annotation Data Model https://www.w3.org/TR/annotation-model/" fig-align="center"}
+
+Le choix de l'échelle : du global au local
+
+Le présent du point de vue
+
+Définir les frontières :
 
 ## De l'illusion d'une exhaustivité : vers une cartographie des subjectivités {#sec-illusionExhaustivite}
 
