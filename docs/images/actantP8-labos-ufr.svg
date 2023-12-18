@@ -4,8 +4,8 @@
    width="548.24866"
    height="489.62988"
    version="1.1"
-   sodipodi:docname="actants.svg"
-   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="actantP8-labos-ufr.svg"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,27 +21,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="29.234631"
-     inkscape:cx="235.7136"
-     inkscape:cy="349.70512"
-     inkscape:window-width="1728"
-     inkscape:window-height="966"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:zoom="0.98517433"
+     inkscape:cx="277.10832"
+     inkscape:cy="237.52142"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svgCartoHexach0" />
-  <g
-     class="gInit"
-     id="ch0_hexa_0_-1_-1_2"
-     transform="matrix(0.74247245,0,0,0.74247245,162.54456,128.97205)"
-     style="fill:none;stroke:#000000;stroke-opacity:1">
-    <polygon
-       points="-50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 50,-86.60254 "
-       fill="#102040"
-       stroke="#a8acaf"
-       id="polygon4"
-       style="fill:none;stroke:#000000;stroke-opacity:1" />
-  </g>
   <g
      class="gInit"
      id="ch0_hexa_0_-1_0_1"
@@ -52,18 +40,6 @@
        fill="#102040"
        stroke="#a8acaf"
        id="polygon5"
-       style="fill:none;stroke:#000000;stroke-opacity:1" />
-  </g>
-  <g
-     class="gInit"
-     id="ch0_hexa_0_0_-2_2"
-     transform="matrix(2.2251574,0,0,2.2245334,273.91543,193.76251)"
-     style="fill:none;stroke:#000000;stroke-opacity:1">
-    <polygon
-       points="100,0 50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 "
-       fill="#102040"
-       stroke="#a8acaf"
-       id="polygon8"
        style="fill:none;stroke:#000000;stroke-opacity:1" />
   </g>
   <g
@@ -91,7 +67,7 @@
   <g
      class="gInit"
      id="ch0_hexa_0_2_-2_0"
-     transform="matrix(2.2251574,0,0,2.2245334,273.91543,193.76251)"
+     transform="matrix(2.2251574,0,0,2.2245334,274.17134,194.60593)"
      style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1">
     <polygon
        points="-100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 50,-86.60254 -50,-86.60254 "
@@ -114,14 +90,18 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-family:Garamond;-inkscape-font-specification:Garamond;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
-     x="229.73573"
-     y="197.34431"
+     style="font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+     x="273.93301"
+     y="190.97638"
      id="text41"><tspan
        sodipodi:role="line"
        id="tspan41"
-       x="229.73573"
-       y="197.34431">Université  Paris 8</tspan></text>
+       x="273.93301"
+       y="190.97638">Université</tspan><tspan
+       sodipodi:role="line"
+       x="273.93301"
+       y="205.97638"
+       id="tspan1">Paris 8</tspan></text>
   <g
      id="g42"
      transform="translate(38.217701,-27.839771)">
@@ -402,7 +382,8 @@
          sodipodi:role="line"
          id="tspan42"
          x="223.94089"
-         y="353.59073">UFR</tspan></text>
+         y="353.59073"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans">UFR</tspan></text>
   </g>
   <g
      class="gOccupe"
@@ -416,15 +397,6 @@
        id="polygon42"
        style="fill:none;stroke:#000000;stroke-opacity:1" />
   </g>
-  <polygon
-     points="-100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 50,-86.60254 -50,-86.60254 "
-     fill="rgba(26, 199, 194, 0.1)"
-     stroke="#000000"
-     stroke-width="0.1"
-     class="eHexaOut"
-     id="polygon43"
-     style="fill:none;stroke:#000000;stroke-opacity:1"
-     transform="matrix(0.74247245,0,0,0.74247245,385.51753,257.98947)" />
   <g
      class="gInit cpt79697"
      id="g44"
@@ -449,19 +421,6 @@
        stroke="#ffffff"
        stroke-width="0.05"
        id="polygon45"
-       style="fill:none;stroke:#000000;stroke-opacity:1" />
-  </g>
-  <g
-     class="gInit cpt79697"
-     id="g46"
-     transform="matrix(0.74247245,0,0,0.74247245,340.96918,283.70947)"
-     style="fill:none;stroke:#000000;stroke-opacity:1">
-    <polygon
-       points="-20,-2.4492936e-15 -10,17.320508 10,17.320508 20,0 10,-17.320508 -10,-17.320508 "
-       fill="rgba(26, 199, 194, 0.1)"
-       stroke="#ffffff"
-       stroke-width="0.05"
-       id="polygon46"
        style="fill:none;stroke:#000000;stroke-opacity:1" />
   </g>
   <g
@@ -675,11 +634,30 @@
   <text
      xml:space="preserve"
      style="font-family:Garamond;-inkscape-font-specification:Garamond;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
-     x="365.76071"
-     y="261.86838"
+     x="369.21555"
+     y="262.29745"
      id="text62"><tspan
        sodipodi:role="line"
        id="tspan62"
-       x="365.76071"
-       y="261.86838">LABOS</tspan></text>
+       x="369.21555"
+       y="262.29745"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans">LABO</tspan></text>
+  <g
+     class="gInit cpt79697"
+     id="g113"
+     transform="matrix(0.02064443,0,0,0.02064443,339.04538,289.56771)"
+     style="fill:none;stroke:#00c800;stroke-width:1.61622;stroke-dasharray:none;stroke-opacity:0.5" />
+  <g
+     class="gInit cpt79697"
+     id="g231"
+     transform="matrix(0.74247245,0,0,0.74247245,340.96918,283.70947)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="10,17.320508 20,0 10,-17.320508 -10,-17.320508 -20,-2.4492936e-15 -10,17.320508 "
+       fill="rgba(26, 199, 194, 0.1)"
+       stroke="#ffffff"
+       stroke-width="0.05"
+       id="polygon231"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
 </svg>

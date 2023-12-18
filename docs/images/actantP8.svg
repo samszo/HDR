@@ -4,8 +4,8 @@
    width="217.29065"
    height="188.66211"
    version="1.1"
-   sodipodi:docname="actants.svg"
-   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="actantP8.svg"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,12 +22,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.1697224"
-     inkscape:cx="381.28704"
-     inkscape:cy="328.71047"
-     inkscape:window-width="1728"
-     inkscape:window-height="966"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:cx="381.28705"
+     inkscape:cy="328.28302"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svgCartoHexach0" />
   <ellipse
@@ -54,12 +54,16 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-family:Garamond;-inkscape-font-specification:Garamond;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
-     x="64.049988"
-     y="68.7435"
+     style="font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+     x="108.24728"
+     y="61.885094"
      id="text39-5"><tspan
        sodipodi:role="line"
        id="tspan39-9"
-       x="64.049988"
-       y="68.7435">Université  Paris 8</tspan></text>
+       x="108.24728"
+       y="61.885094">Université</tspan><tspan
+       sodipodi:role="line"
+       x="108.24728"
+       y="76.885094"
+       id="tspan1">Paris 8</tspan></text>
 </svg>

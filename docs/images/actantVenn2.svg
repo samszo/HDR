@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="4.4853228"
      inkscape:cx="105.23211"
-     inkscape:cy="62.871729"
+     inkscape:cy="62.87173"
      inkscape:window-width="1850"
      inkscape:window-height="1016"
      inkscape:window-x="70"
@@ -758,38 +758,5 @@
            style="fill:none;stroke:#854200;stroke-width:1.61622;stroke-dasharray:none;stroke-opacity:0.752941" />
       </g>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
-       x="99.703026"
-       y="172.63878"
-       id="text1"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
-         x="99.703026"
-         y="172.63878">V</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
-       x="131.72603"
-       y="172.50876"
-       id="text1-5"><tspan
-         sodipodi:role="line"
-         id="tspan1-7"
-         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
-         x="131.72603"
-         y="172.50876">R</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
-       x="115.74405"
-       y="170.36626"
-       id="text2"><tspan
-         sodipodi:role="line"
-         id="tspan2"
-         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
-         x="115.74405"
-         y="170.36626">V ∩ R</tspan></text>
   </g>
 </svg>
