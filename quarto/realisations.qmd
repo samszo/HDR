@@ -34,7 +34,7 @@ Avant 2016, j'utilisais un modèle de base de données et une trousse à outils 
 
 Dans le cadre de ces projets , nous avons développé plusieurs modules pour ajouter des fonctionnalités supplémentaire à Omeka S et facilité de travail de cartographie :
 
-##### Importation des données de diigo
+##### Importation des données de diigo {#sec-importDiigo}
 
 ##### Importation des données de zotero
 
@@ -107,7 +107,7 @@ Ce travail de recherche interdisciplinaire inclut des approches de géographie, 
 -   Un développement inhabituel ou non prévisible de l'action. »
 -   https://intelligibilite-numerique.numerev.com/manifeste
 
-### Chaoticum Seminario
+### Chaoticum Seminario {#sec-chaoticumSeminario}
 
 <https://github.com/samszo/ChaoticumSeminario>
 

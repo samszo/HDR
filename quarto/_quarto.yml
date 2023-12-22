@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 book:
-  title: "Jardin des connaissances : Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication"
+  title: "Habilitation à Diriger des Recherches : Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication"
   author: "Samuel Szoniecky"
   date: "9/14/2023"
   chapters:

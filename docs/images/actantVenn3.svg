@@ -839,5 +839,82 @@
          style="fill:none;stroke:#523541;stroke-width:1.61622;stroke-dasharray:none;stroke-opacity:0.490196"
          transform="matrix(0.06369015,0.11081146,-0.11081146,0.06369015,110.26017,177.59041)" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
+       x="87.346306"
+       y="94.344978"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="87.346306"
+         y="94.344978">V ∩ R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
+       x="97.377609"
+       y="111.37267"
+       id="text2-5"><tspan
+         sodipodi:role="line"
+         id="tspan2-3"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="97.377609"
+         y="111.37267">B ∩ R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
+       x="77.816872"
+       y="111.37267"
+       id="text2-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan2-3-8"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="77.816872"
+         y="111.37267">V ∩ R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
+       x="71.423119"
+       y="94.429832"
+       id="text2-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan2-3-3"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="71.423119"
+         y="94.429832">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
+       x="103.40516"
+       y="94.347092"
+       id="text2-5-0"><tspan
+         sodipodi:role="line"
+         id="tspan2-3-4"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="103.40516"
+         y="94.347092">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
+       x="87.384659"
+       y="121.93507"
+       id="text2-5-9"><tspan
+         sodipodi:role="line"
+         id="tspan2-3-7"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="87.913818"
+         y="121.93507">B </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#c70000;fill-opacity:0.3;stroke:#ff6405;stroke-width:0.529167;stroke-opacity:0.2"
+       x="87.339958"
+       y="100.20116"
+       id="text2-5-30"><tspan
+         sodipodi:role="line"
+         style="font-size:4.23333px;line-height:1.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="87.339958"
+         y="100.20116"
+         id="tspan7">V∩R∩B</tspan></text>
   </g>
 </svg>

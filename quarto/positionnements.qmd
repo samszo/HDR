@@ -1,121 +1,123 @@
-## Positionnements {#sec-positionnements}
+# Positionnements {#sec-positionnements}
 
-Où suis-je ?  Quels sont les textes fondateurs, les cadres épistémologiques, les influences et leurs ramifications qui constituent aujourd'hui mon milieu de connaissances et dans lesquels évoluent ma pensée  ?
+Où suis-je ?  Quels sont les textes fondateurs, les cadres épistémologiques, les influences et leurs ramifications qui constituent aujourd'hui mon milieu de connaissances et dans lesquels évoluent ma pensée ?
 
-Pour répondre à ces questions nous explorerons les connaissances qui m'ont influencées et le paysage scientifique qu'elles m'ont amené à découvrir. Ce chapitre présente mon point de vue sur ce paysage, c'est à-dire d'où je le regarde et avec quel niveau de précisions, il donne une représentation de ce que je discerne dans la noosphère (Morin, 1981) (Chardin & Tardivel, 1997) et comment j'y agis. Ce milieu de connaissances est composé par les documents que j'ai consultés au fil des années mais aussi par les personnes avec lesquelles les échanges intellectuels m'ont ouvert à de nouveaux espaces de connaissances. Le troisième élément qui compose cette environnement est constitué par les concepts qui ont émergé de mes expériences. Le quatrième élément est l'ensemble des rapports que je compose avec les documents, les personnes et les concepts.
+Pour répondre à ces questions nous explorerons les auteurs qui m'ont influencés, les paysages scientifiques que j'ai parcourus et qui m'ont amené à découvrir et cultiver mon écosystème de connaissances. Ce chapitre présente mon point de vue sur cet écosystème, c'est à-dire d'où je le regarde, avec quel niveau de précisions et pour en dire quoi. Nous donnerons une représentation de ce que je discerne dans la noosphère [@chardin1997; @morin1981] et comment j'y agis. Ce milieu de connaissances est composé par les documents que j'ai consultés au fil des années mais aussi par les personnes avec lesquelles les échanges intellectuels m'ont ouvert à de nouveaux espaces de connaissances. Le troisième élément qui compose cette environnement est constitué par les concepts qui ont émergé de mes expériences. Le quatrième élément est l'ensemble des rapports que je compose avec les documents, les personnes et les concepts.
 
-De l'histoire de l'art aux sciences de l'information et de la communication mon parcours intellectuel m'a donné tout d'abord la chance de découvrir l'art et d'apprendre à voir par la pratique intensive des œuvres et leurs analyses complexes. Plus particulièrement, lors de mes recherches en maîtrise sur la gravure au XVIIIe siècle j'ai analysé à travers une exploration des catalogues de ventes, comment un des premiers réseau de diffusion à grande échelle des images contribuait à l'histoire du goût. Puis mon travail de DEA sur l'influence de John Cage m'a fait découvrir quatre notions fondamentales des théories du chaos  : les catastrophes (Thom, 1975), les objets fractals de Mandelbrot, les attracteurs étranges selon Ruelle et les structures dissipatives selon Prigogine (Gleick, 1999). Surtout, j'ai compris les rapports intimes entre ces notions et les sciences humaines à travers mes lectures simultanées de (Foucault, 1969), (Deleuze, 1988), (Guattari, 1992) et (Morin, 1981, 1985, 1992, 1995, 2001). De cette période date mes premières rencontres intellectuelles d'importances au centre Thomas More du couvent de la Tourette (Cavalin, 2017) où j'ai eu la chance de discuter avec Michel Serres, Regis Debray, Michel Pastoureau, Pascal Ory et les frères dominicains\... C'est à cette période aussi que je mène mes premières expériences de générations hypertextuelles avec le logiciel Hypercard[^1] et que je découvre comment le chaos informatique est utile aux sciences humaines en ayant l'intuition d'une machine à stimuler les connaissances par une mise en situation synesthésique\...
+[^positionnements-1]De l'histoire de l'art aux sciences de l'information et de la communication mon parcours intellectuel m'a donné tout d'abord la chance de découvrir l'art et d'apprendre à voir par la pratique intensive des œuvres et leurs analyses complexes. Plus particulièrement, lors de mes recherches en [maîtrise sur la gravure au XVIIIe siècle](http://localhost/samszo/omk/s/fiches/item/299343) j'ai analysé à travers une exploration des catalogues de ventes, comment un des premiers réseau de diffusion à grande échelle des images contribuait à l'histoire du goût. Puis mon travail de [DEA](http://localhost/samszo/omk/s/fiches/item/299342) sur l'influence de John Cage m'a fait découvrir quatre notions fondamentales des théories du chaos  : les catastrophes [@thom1975], les objets fractals de Mandelbrot, les attracteurs étranges selon Ruelle et les structures dissipatives selon Prigogine [@gleick1999]. Surtout, j'ai compris les rapports intimes entre ces notions et les sciences humaines à travers mes lectures simultanées de [@foucault1990; @deleuze1988; @guattari1992] et comment ces phénomènes relèvent de la complexité [@morin1981; @morin1985; @morin1992; @morin1995; @morin2001; @morin2006]. De cette période date mes premières rencontres intellectuelles d'importances au centre Thomas More du couvent de la Tourette [@cavalin2017] où j'ai eu la chance de discuter avec Michel Serres, Regis Debray, Michel Pastoureau, Pascal Ory et les frères dominicains... C'est à cette période aussi que je mène mes premières expériences de générations hypertextuelles avec le logiciel Hypercard[^positionnements-2] et que je découvre comment le chaos informatique est utile aux sciences humaines en ayant l'intuition d'une machine à stimuler les connaissances par une mise en situation synesthésique...
 
-[^1]:
+[^positionnements-1]: Ce chapitre reprend les éléments historiques déjà présenté dans ma thèse [@szoniecky2012]
+
+[^positionnements-2]:
     > https://fr.wikipedia.org/wiki/HyperCard
 
-![Illustration 19: Application Hypercard pour la génération automatique de textes philosophiques](media/1000000100000263000001CB6B57709BAD5234C1.png){width="10.345cm" height="7.772cm"}
+![Application Hypercard pour la génération automatique de textes philosophiques](media/1000000100000263000001CB6B57709BAD5234C1.png){#fig-appliHypercard fig-align="center"}
 
-Curieux d'explorer plus précisément cette intuition, je me lance dans une thèse grâce à ma rencontre avec Jean-Pierre Balpe et Imad Saleh qui m'encouragent à travailler sur la conception d'agents autonomes pour générer des hypertextes adaptatifs. Trop autonome, je ne réalise pas à l'époque l'importance de travailler collectivement dans un laboratoire de recherche, je parts en voyage et mène mes recherches de manière solitaire jusqu'à ce que dix ans plus tard je retrouve Jean-Pierre et Imad. Fort de nouvelles expériences comme consultant spécialiste en système d'information et en développement Web, je reviens à l'université pour cette fois participer activement à la vie du laboratoire Paragraphe, tout d'abord comme conférencier puis chargé de cours et professeur contractuel. L'opportunité d'un contrat doctoral me permet de mener à bien une thèse sous la direction d'Imad Saleh et de m'inscrire pleinement dans une carrière universitaire que je mène comme Maître de conférence en science de l'information et de la communication depuis 2013.
+Curieux d'explorer plus précisément cette intuition, je me lance dans une thèse grâce à ma rencontre avec Jean-Pierre Balpe et Imad Saleh qui m'encouragent à travailler sur la conception d'agents autonomes pour générer des hypertextes adaptatifs. Trop autonome, je ne réalise pas à l'époque l'importance de travailler collectivement dans un laboratoire de recherche, je parts en voyage et mène mes recherches de manière solitaire jusqu'à ce que dix ans plus tard je retrouve Jean-Pierre et Imad. Fort de nouvelles expériences comme consultant spécialiste en système d'information et en développement Web (cf. [Carrière privée](http://localhost/samszo/omk/s/fiches/item/300719)), je reviens à l'université pour cette fois participer activement à la vie du laboratoire Paragraphe, tout d'abord comme conférencier puis chargé de cours et professeur contractuel. L'opportunité d'un contrat doctoral me permet de mener à bien une thèse sous la direction d'Imad Saleh et de m'inscrire pleinement dans une [carrière universitaire](http://localhost/samszo/omk/s/fiches/item/300716) que je mène comme Maître de conférence en science de l'information et de la communication depuis 2013.
 
-L'atmosphère très fertile au sein de Paragraphe et les relations intenses que ce laboratoire entretient avec la communauté des sciences de l'information et de la communication, a stimulé l'engagement de mes recherches dans de multiples collaborations en France et à l'étranger. Celles-ci m'ont permis de découvrir des milieux et des pratiques très diverses, par exemple : avec des institutions prestigieuses comme la Bibliothèque Nationale de France, les Archives Nationales ou l'INA, avec des programmes de recherche ANR comme Biolographes ou Aliento, avec des projets de recherches internationaux comme Arcanes, avec des groupes de recherches comme GENIC ou MANEP, avec des enjeux sociétaux importants comme celui de l'accessibilité, de l'écologie ou de l'éthique.
+L'atmosphère très fertile au sein de Paragraphe et les relations intenses que ce laboratoire entretient avec la communauté des sciences de l'information et de la communication, a stimulé l'engagement de mes recherches dans de multiples collaborations en France et à l'étranger @fig-collabMondeSamszo. Celles-ci m'ont permis de découvrir des milieux et des pratiques très diverses, par exemple en collaborant avec des institutions prestigieuses comme la Bibliothèque Nationale de France, les Archives Nationales ou l'INA, avec des programmes de recherche ANR comme Biolographes ou Aliento, avec des projets de recherches internationaux comme Arcanes, avec des groupes de recherches comme GENIC ou MANEP, avec des enjeux sociétaux importants comme celui de l'accessibilité, de l'écologie ou de l'éthique.
 
-La participation dès l'origine à trois Projets d'Investissement d'Avenir (PIA) que sont le laboratoire d'excellence H2H, l'IDEFI CréaTIC et l'EUR ArTec, m'a donné la chance de découvrir des projets importants tout à la fois en terme de gouvernance de la recherche que de possibilité d'expérimentation. De même, mon implication dans les instances de l'université Paris 8 en tant que membre du Conseil Documentaire du SCD, du conseil pédagogique de l'UFR STN et de la commission de spécialistes en science de l'information et de la communication, me donne une bonne connaissance des rouages nécessaires et des difficultés qu'il faut surmonter pour que les activités de recherche et la vie des institutions se développent.
+La participation dès l'origine à trois Projets d'Investissement d'Avenir (PIA) que sont le laboratoire d'excellence H2H, l'IDEFI CréaTIC et l'EUR ArTec, m'a donné la chance de découvrir des projets importants tout à la fois en terme de gouvernance de la recherche que de possibilité d'expérimentation. De même, mon implication dans les instances de l'Université Paris 8 en tant que membre du Conseil Documentaire du SCD, du conseil pédagogique de l'UFR STN et de la commission de spécialistes en Science de l'Information et de la Communication, me donne une bonne connaissance des rouages nécessaires et des difficultés qu'il faut surmonter pour que les activités de recherche et la vie des institutions se développent.
 
 Grâce à ces activités, j'ai eu la chance de dialoguer avec de très nombreux chercheurs dont la liste complète serait trop longue à faire figurer ici mais que je remercie vivement pour ces conversations où l'échange de points de vue parfois très différents donnent à la recherche un goût à la fois subtile, surprenant et aventureux.
 
-Dans cette partie nous détaillerons ce parcours intellectuel en utilisant les principes de cartographie des connaissances que nous avons présenté plus avant  @sec-principesCarto. Nous montrerons quelles sont nos positions dans le domaine des sciences humaines et plus spécifiquement en science de l'information et de la communication.ques mais dans un premier temps nous exposerons les processus de veille que nous avons mis en place pour cultiver notre écosystème de connaissances.
+Dans cette partie nous détaillerons ce parcours intellectuel en utilisant les principes de cartographie des connaissances que nous avons présenté plus avant @sec-principesCarto. Nous montrerons quelles sont nos positions dans le domaine des sciences humaines et plus spécifiquement en science de l'information et de la communication. Mais dans un premier temps, nous exposerons les processus de veille que nous avons mis en place pour cultiver notre écosystème de connaissances.
 
-### Processus de veille {#sec-processusVeille}
+## Processus de veille {#sec-processusVeille}
 
-Depuis une quinzaine d'années, nous menons un veille active pour à la fois trouver, filtrer, organiser et diffuser les informations pertinentes pour nos travaux de recherche et d'enseignement. Au fil du temps, nous avons mis en place un processus spécifique pour effectuer cette tâche le plus efficacement possible. Ce processus reste très basique et ne correspond pas à une veille professionnelle (Andro et al., 2022) qui prendrait beaucoup plus de temps que les quelques heures que nous consacrons par semaine à ce travail.
+Depuis une quinzaine d'années, nous menons un veille active pour à la fois trouver, filtrer, organiser et diffuser les informations pertinentes pour nos travaux de recherche et d'enseignement. Au fil du temps, nous avons mis en place un processus spécifique pour effectuer cette tâche le plus efficacement possible. Ce processus s'inspire des pratiques professionnelles [@andro2022] que nous adaptons pour consacrer à ce travail une matinée par semaine.
 
-#### Sélectionner des sources
+### Sélectionner des sources {#sec-selectSources}
 
 La première étape de notre processus de veille consiste à sélectionner des sources d'informations qui nous semble pertinentes pour explorer un domaine de connaissances. Pour ce faire, nous utilisons principalement deux types de sources : des e-mails et des flux RSS.
 
-Nous utilisons les e-mails pour recevoir périodiquement des informations soit en nous abonnant à des newsletters[^37] et des forums[^38], soit en utilisant le services d'alertes proposé par Google, Google Scholar et HAL[^39]. Pour les alertes, nous en avons paramétré une cinquantaine portant soit sur des noms de chercheur soit sur des concepts. La veille sur les noms de chercheur permet de connaître les nouvelles publications de cette personne mais aussi comment il est cité par d'autres chercheurs. Les alertes sur les concepts donne une bonne idée de l'activité informationnelle dans un domaine. Nous utilisons aussi le service de CAIRN pour recevoir automatiquement les nouvelles parutions des revues scientifiques qui nous intéresse.
+Nous utilisons les e-mails pour recevoir périodiquement des informations soit en nous abonnant à des newsletters[^positionnements-3] et des forums[^positionnements-4], soit en utilisant le services d'alertes proposé par Google, Google Scholar et HAL[^positionnements-5]. Pour les alertes, nous en avons paramétré une cinquantaine portant soit sur des noms de chercheur soit sur des concepts. La veille sur les noms de chercheur permet de connaître les nouvelles publications de cette personne mais aussi comment il est cité par d'autres chercheurs. Les alertes sur les concepts donne une bonne idée de l'activité informationnelle dans un domaine. Nous utilisons aussi le service de CAIRN pour recevoir automatiquement les nouvelles parutions des revues scientifiques qui nous intéresse.
 
-[^37]:
+[^positionnements-3]:
     > Liste des newsletters : https://bit.ly/3KhDwY9
 
-[^38]:
+[^positionnements-4]:
     > Liste des forums : https://bit.ly/44KPfGX
 
-[^39]:
+[^positionnements-5]:
     > Liste des alertes : https://bit.ly/3KgkSjz
 
-Pour consulter les flux RSS[^40] que nous avons sélectionnés, nous utilisons l'agrégateur de flux Netvibes[^41] qui permet une lecture rapide des flux à partir du titre des articles. Notons que la durée de vie d'un flux RSS est relativement limité puisque sur le 180 flux que nous avions sélectionnés plus de la moitiés ne sont plus opérationnels. Par exemple, le site d'Amazon ne met plus à disposition de flux RSS pour suivre les parutions d'ouvrage dans un domaine spécifique.
+Pour consulter les flux RSS[^positionnements-6] que nous avons sélectionnés, nous utilisons l'agrégateur de flux Netvibes[^positionnements-7] qui permet une lecture rapide des flux à partir du titre des articles. Notons que la durée de vie d'un flux RSS est relativement limité puisque sur le 180 flux que nous avions sélectionnés plus de la moitiés ne sont plus opérationnels. Par exemple, le site d'Amazon ne met plus à disposition de flux RSS pour suivre les parutions d'ouvrage dans un domaine spécifique.
 
-[^40]:
+[^positionnements-6]:
     > Liste des flux RSS : https://bit.ly/3Yd9Z7V
 
-[^41]:
+[^positionnements-7]:
     > https://www.netvibes.com/
 
-#### Filtrer les informations
+### Filtrer les informations {#sec-filtrerInfos}
 
 La deuxième étape de notre processus de veille consiste à filtrer les informations que les sources transmettent. Comme nous recevons beaucoup d'information des sources, le filtrage doit être rapide. Pour ce faire, nous utilisons un navigateur Web pour à la fois consulter les informations fournies par les sources et accéder aux détails de celles-ci. Le premier filtre se fait par une lecture des titres et parfois du résumé afin de déterminer si l'information est pertinente ou pas. Si elle l'est, nous activons le lien hypertexte pour ouvrir dans un nouvel onglet les détails. Quand nous avons fini la lecture de la source, nous consultons les onglets ouverts pour confirmer le filtrage et le cas échéant annoter cette nouvelle référence.
 
-#### Annoter les références
+### Annoter les références {#sec-annoterReference}
 
-L'étape d'annotation des références est très importante car elle consiste à enregistrer les information pour enrichir notre base de connaissances. Pour effectuer cette troisième étape du processus, nous utilisons deux outils complémentaires. Pour ce qui concerne les données bibliographiques non numérisées, nous avons fait le choix de Zotero pour enregistrer les références de la données et les annoter avec une liste de mots clefs et des citations du document dans des notes. Notons que Zotero ajoute automatiquement des mots clefs lorsque ceux-ci sont précisés dans les métadonnées du document. Concernant les données du Web, nous utilisons l'outil d'annotation Diigo[^42] pour non seulement enregistrer l'URL d'un document Web mais aussi le décrire avec des mots clefs, surligner une partie du document avec différentes pour l'extraire et la commenter, faire des copies d'écran pour conserver une partie de la page visualisée.
+L'étape d'annotation des références est très importante car elle consiste à enregistrer les information pour enrichir notre base de connaissances. Pour effectuer cette troisième étape du processus, nous utilisons deux outils complémentaires. Pour ce qui concerne les données bibliographiques non numérisées, nous avons fait le choix de Zotero pour enregistrer les références de la données et les annoter avec une liste de mots clefs et des citations du document dans des notes. Notons que Zotero ajoute automatiquement des mots clefs lorsque ceux-ci sont précisés dans les métadonnées du document. Concernant les données du Web, nous utilisons l'outil d'annotation Diigo[^positionnements-8] pour non seulement enregistrer l'URL d'un document Web mais aussi le décrire avec des mots clefs, surligner une partie du document avec différentes pour l'extraire et la commenter, faire des copies d'écran pour conserver une partie de la page visualisée.
 
-[^42]:
+[^positionnements-8]:
     > https://www.diigo.com/index
 
 En terme d'indexation, cette étape d'annotation enregistre les rapports entre des informations physiques concernant les références d'un document et de ses parties, des informations conceptuelles à travers les mots clefs utilisés, des informations sur l'actant qui fait l'annotation à un moment donnée.
 
-#### Utiliser les annotations
+### Utiliser les annotations {#sec-utiliserAnnotations}
 
-L'usage le plus fréquent que nous faisons des annotations consiste à référencer nos écrits scientifiques en utilisant des URLs ou des données bibliographiques en les intégrants directement dans le texte avec le connecteur Zotero[^43], comme c'est le cas dans ce travail. Les références enregistrées dans notre base de connaissances se retrouvent facilement en faisant une recherche par mot clef ou en plein texte. Les résultats de ces recherches donnent une liste de documents dont les annotations font office de résumé. En visualisant les mots clefs utilisés et les parties sélectionnées, il n'est plus nécessaire de consulter l'intégralité du document. Par exemple, voici la page d'annotation d'un article dans Diigo :
+L'usage le plus fréquent que nous faisons des annotations consiste à référencer nos écrits scientifiques en utilisant des URLs ou des données bibliographiques en les intégrants directement dans le texte avec le connecteur Zotero[^positionnements-9], comme c'est le cas dans ce travail. Les références enregistrées dans notre base de connaissances se retrouvent facilement en faisant une recherche par mot clef ou en plein texte. Les résultats de ces recherches donnent une liste de documents dont les annotations font office de résumé. En visualisant les mots clefs utilisés et les parties sélectionnées, il n'est plus nécessaire de consulter l'intégralité du document. Par exemple, voici la page d'annotation d'un article dans Diigo :
 
-[^43]:
+[^positionnements-9]:
     > https://tutos.bu.univ-rennes2.fr/c.php?g=686436&p=4906338
 
-![Illustration 20: Copie d'écran d'un article annoté dans Diigo](media/10000001000003A4000002648983E64502CE7461.png){width="17cm" height="11.162cm"}
+![Article annoté dans Diigo](media/10000001000003A4000002648983E64502CE7461.png){#fig-annotationDiigo fig-align="center"}
 
-Cette copie d'écran montre les parties de l'article que nous avons sélectionnéses (marge jaune) et les notes que nous avons prises pour la sélection (marge grise). En ce référent à cette page d'annotation, il est pratique de retrouver rapidement ce qui nous a semblé pertinent et pourquoi[^44].
+Cette copie d'écran montre les parties de l'article que nous avons sélectionnéses (marge jaune) et les notes que nous avons prises pour la sélection (marge grise). En ce référent à cette page d'annotation, il est pratique de retrouver rapidement ce qui nous a semblé pertinent et pourquoi[^positionnements-10].
 
-[^44]:
+[^positionnements-10]:
     > Nous avons testé avec plusieurs groupes d'étudiants, l'association d'une couleur de surlignage avec une signification particulière : vert = je suis d'accord, rouge = je ne suis pas d'accord, jaune = je ne comprend pas et bleu = référence. L'expérience est toujours en cours et les résultats seront bientôt publiés.
 
-Un autre usage particulièrement intéressant des annotations est la conservation de références qui ne sont plus accessibles en ligne et qui représente plus de 10 % des URL (cf. ci-dessous). Lorsque nous importons les annotations Web depuis Diigo vers notre de base de connaissances Omeka S (cf. [3.4.2.2.1Importation des données de diigo](#anchor-33) p. [72](#anchor-33)), nous testons la validité de l'URL et enregistrons son statut[^45] ce qui permet de savoir quelles URL sont obsolètes :
+Un autre usage particulièrement intéressant des annotations est la conservation de références qui ne sont plus accessibles en ligne et qui représente dans notre corpus plus de 10 % des URL (cf. ci-dessous). Lorsque nous importons les annotations Web depuis Diigo vers notre de base de connaissances Omeka S @sec-importDiigo, nous testons la validité de l'URL et enregistrons son statut[^positionnements-11] ce qui permet de savoir quelles URL sont obsolètes :
 
-[^45]:
+[^positionnements-11]:
     > https://samszo.univ-paris8.fr/omk/api/references?metadata\[serverStatus\]=schema:serverStatus
 
-![Illustration 21: Répartition de la classe des statuts pour les URL dans Diigo](media/10000001000001E6000001FDFBA335D820BED6E2.png){width="7.4cm" height="7.751cm"}
+![Répartition de la classe des statuts pour les URL dans Diigo](media/10000001000001E6000001FDFBA335D820BED6E2.png){#fig-statutUrlDiigo fig-align="center"}
 
-L'usage le plus intéressant de cette base de données d'annotations est sans doute leurs analyses pour une gestion des connaissances personnelles (Deuff, 2012) et la cartographie d'un milieu de connaissance qui est l'objet de ce travail.
+L'usage le plus intéressant de cette base de données d'annotations est sans doute leurs analyses pour une gestion des connaissances personnelles [@deuff2012] et la cartographie d'un milieu de connaissance qui est l'objet de ce travail.
 
-De manière plus expérimentale, nous utilisons ces annotations pour expérimenter de nouvelles formes d'éditorialisation scientifiques en puisant dans cette base de données la matière d'une inspiration chaotique ([3.4.4](#anchor-34) [Chaoticum Seminario](#anchor-34) p. [74](#anchor-34)).
+De manière plus expérimentale, nous utilisons ces annotations pour expérimenter de nouvelles formes d'éditorialisation scientifiques en puisant dans cette base de données la matière d'une inspiration chaotique @sec-chaoticumSeminario.
 
-#### Diffuser les annotations
+### Diffuser les annotations {#sec-diffuserAnnotations}
 
-Ce travail d'annotation et de sélection de citation nous fourni une base de connaissances de plus de 1 400 références bibliographiques et plus de 19 000 références Web qui sont indexées par plus de 6 000 concepts. L'ensemble de ces données sont accessibles soit sur les Zotero pour les références bibliographiques[^46], soit sur Diigo pour les références Web[^47], soit directement sur notre base Omeka S dans un format HTML pour naviguer dans la base de données ou en JSON[^48] pour analyser les données avec des algorithmes.
+Ce travail d'annotation et de sélection de citation nous fourni une base de connaissances de plus de 1 400 références bibliographiques et plus de 19 000 références Web qui sont indexées par plus de 6 000 concepts. L'ensemble de ces données sont accessibles soit sur les Zotero pour les références bibliographiques[^positionnements-12], soit sur Diigo pour les références Web[^positionnements-13], soit directement sur notre base Omeka S dans un format HTML pour naviguer dans la base de données ou en JSON[^positionnements-14] pour analyser les données avec des algorithmes.
 
-[^46]:
+[^positionnements-12]:
     > https://www.zotero.org/luckysemiosis/library
 
-[^47]:
+[^positionnements-13]:
     > https://www.diigo.com/user/luckysemiosis
 
-[^48]:
+[^positionnements-14]:
     > https://samszo.univ-paris8.fr/omk/api/items?item_set_id=1&item_set_id=4
 
-#### Réfléchir le processus
+### Réfléchir le processus {#sec-reflechirProcessus}
 
-Le processus que nous venons de décrire évolue constamment, tend à s'améliorer, se préciser au fil du temps et s'enrichir de nouvelles pratiques. Par exemple, une analyse automatique de l'adéquation entre les sources d'information, les données filtrées, les annotations et leurs utilisations dans des travaux scientifiques ou pédagogiques, pourrait servir de base pour un système de recommandation (Szoniecky & Hachour, 2012).
+Le processus que nous venons de décrire évolue constamment, tend à s'améliorer, se préciser au fil du temps et s'enrichir de nouvelles pratiques. Par exemple, une analyse automatique de l'adéquation entre les sources d'information, les données filtrées, les annotations et leurs utilisations dans des travaux scientifiques ou pédagogiques, pourrait servir de base pour un système de recommandation [@hachour2014].
 
-Toutefois, le fait que les étapes du processus soient principalement manuelles contribue à construire une subjectivité qui m'est propre. Chaque décision nécessaire pour la poursuite du processus est prise parce qu'au moment du choix elle correspond aux inclinaisons de ma « raison trajective » (cf. [1.1](#anchor-7) [Principes de cartographie des connaissances](#anchor-7) p. [12](#anchor-7)). En enregistrant ces décisions via des dispositifs numériques, le processus de veille offre dès lors un triple intérêt. Premièrement, il permet d'explorer rationnellement une domaine de connaissances. Deuxièmement, elle trace un frayage (Citton, 2010) particulier dans un écosystème de connaissances qui crée les conditions d'une communication stigmergique :
+Toutefois, le fait que les étapes du processus soient principalement manuelles contribue à construire une subjectivité qui m'est propre. Chaque décision nécessaire pour la poursuite du processus est prise parce qu'au moment du choix elle correspond aux inclinaisons de ma « raison trajective » @fig-cyclesemiose . En enregistrant ces décisions via des dispositifs numériques, le processus de veille offre dès lors un triple intérêt. Premièrement, il permet d'explorer rationnellement une domaine de connaissances. Deuxièmement, elle trace un frayage [@citton2010] particulier dans un écosystème de connaissances qui crée les conditions d'une communication stigmergique :
 
-> « L'étymologie grecque explique assez bien le sens du mot « stigmergie » : des marques (stigma) sont laissées dans l'environnement par l'action ou le travail (ergon) de membres d'une collectivité, et ces marques guident en retour -- et récursivement -- leurs actions. » (Lévy, 2023)
+> « L'étymologie grecque explique assez bien le sens du mot « stigmergie » : des marques (stigma) sont laissées dans l'environnement par l'action ou le travail (ergon) de membres d'une collectivité, et ces marques guident en retour -- et récursivement -- leurs actions. » [@lévy2023]
 
-Troisièmement, il donne une représentation d'une subjectivité et de ces évolutions ce qui conditionne le développement de la réflexivité et de l'esprit critique (Desfriches Doria & Meunier, 2021).
+Troisièmement, il donne une représentation d'une subjectivité et de ces évolutions ce qui conditionne le développement de la réflexivité et de l'esprit critique [@desfrichesdoria2021].
 
-Entre l'automatisation du processus et les choix manuels, il convient donc de pratiquer le bon équilibre entre alléger le travail et construire son esprit critique (cf. [3](#anchor-32) [Concevoir des technologies intellectives pour explorer les écosystème de connaissances](#anchor-32) p. [69](#anchor-32)).
+Entre l'automatisation du processus et les choix manuels, il convient donc de pratiquer le bon équilibre entre alléger le travail et construire son esprit critique @sec-part-technoIntello.
 
-### Sciences humaines
+## Sciences humaines {#sec-posiSciencesHumaines}
 
 Mon point de vue à 360° = zoomable sunburst [https://observablehq.com/\@d3/zoomable-sunburst](https://observablehq.com/@d3/zoomable-sunburst){.uri}
 
-### Sciences de l'information et de la communication
+## Sciences de l'information et de la communication {#sec-posiSIC}
 
 Pour moi, les sciences de l'information et de la communication ont pour but de concevoir, expérimenter et critiquer des modèles conceptuels permettant de quantifier l'information et de qualifier la communication. Ce double aspect des SIC est sans doute caricatural mais il pose à mon sens les deux pôles entre lesquels cette discipline est en tension. D'un coté nous avons dans la continuation de Shannon et Weaver, une recherche sur les moyens de modéliser l'information pour fournir la matière nécessaire au développement de technologies stables. De l'autre coté nous avons dans la continuation des études en communication, une recherche sur l'analyse des processus d'échanges...
 
@@ -125,7 +127,7 @@ Les cours que je donne depuis 2005 se font essentiellement à l'université Pari
 
 Parallèlement à mes cours de Paris 8, tous les ans je donne un ou deux cours dans des établissements publics afin de m'enrichir d'ambiances, de pratiques et de public différents.
 
-#### Analyse comparative entre 2000 et 2020
+### Analyse comparative entre 2000 et 2020
 
 l'article de Bernard Miège : <https://www.persee.fr/doc/reso_0751-7971_2000_num_18_100_2237>
 
@@ -137,7 +139,7 @@ VS
 
 dynamique de recherche en SIC : <http://cpdirsic.fr/wp-content/uploads/2018/09/dynamiques-des-recherches-sic-web-180919.pdf>
 
-#### Mon parcourt en SIC
+### Mon parcourt en SIC
 
 steam graph de l'intensité des rencontres intellectuelles depuis 1997
 
