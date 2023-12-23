@@ -8,9 +8,9 @@ La gravure un modèle de diffusion à grande échelle et une première approche 
 
 John Cage, la découverte du chaos et des processus de chance
 
-Premières rencontres intellectuelles à la Tourette : Michel Serres, Regis Debray, l'histoire culturelle, les frères dominicains, la bibliothèque : Foucault\...
+Premières rencontres intellectuelles à la Tourette : Michel Serres, Regis Debray, l'histoire culturelle, les frères dominicains, la bibliothèque : Foucault...
 
-L'intuition d'une machine à stimuler les connaissances par une mise en situation cinestésique\...
+L'intuition d'une machine à stimuler les connaissances par une mise en situation cinestésique...
 
 Les premiers outils informatiques avec hypercard : le générateur automatique de philosophie
 
@@ -72,9 +72,6 @@ Le deuxième volet interroge les puissances du faux, les mécanismes du leurre a
 
 https://crilcq.arcanes.ca/ 
 
-
-
-
 ### 2018 -- 2021 : POLEMIKA {#sec-projetPolemika}
 
 Génération automatique d'arguments pour l'éducation à l'esprit critique
@@ -106,7 +103,6 @@ Ce travail de recherche interdisciplinaire inclut des approches de géographie, 
 -   Un développement inhabituel ou non prévisible de l'action. »
 -   https://intelligibilite-numerique.numerev.com/manifeste
 
-
 \- Lire Ensemble
 
 \- cartographie deleuze
@@ -115,10 +111,26 @@ Ce travail de recherche interdisciplinaire inclut des approches de géographie, 
 
 \- Application développée spécifiquement pour le travail d'HDR.
 
-
 \- Pédagothèque Psy
-
 
 \- Ontostats
 
-### 2020 -- 2022 : Litte_Bot {#sec-projetLitteBot}
+### 2019 -- 2022 : LITTE_BOT {#sec-projetLitteBot}
+
+Le projet LITTE_BOT consiste en la création d'un chatbot théâtral incarnant Dom Juan à l'occasion du 400ème anniversaire de la naissance de Molière, présenté pour l'exposition "Molière, le jeu du vrai et du faux" que lui ont consacrée la BnF et la Comédie Française. fin 2022. A l'origine de ce projet, Rocio Berenguer, une dramaturge, s'est rapprochée de la BnF pour récupérer un corpus pour créer un chatbot littéraire. Le projet Gallica Studio, aujourd'hui terminé, encourageait la réutilisation des contenus de Gallica, dont la plupart sont dans le domaine public, tout en invitant à l'expérimentation de nouveaux usages rendus possibles par les technologies émergentes. En l’occurrence, explorer la médiation vocale rendue possible par les chatbots et expliquer cette technologie au grand public. En collaboration avec Anna Pappa, nous avons apporté notre expertise scientifique pour faire du chatbot une réalité, dans le cadre d'un appel à projets de l'EUR Artec.
+
+L'objectif était de créer un chatbot ouvert capable d'incarner le Dom Juan de Molière. Le défi technique était de créer une base de données suffisamment grande pour entraîner le modèle de langage séquence à séquence. Les modèles linguistiques actuels sont formés avec des corpus contemporains. Pour notre projet, nous devions construire de toutes pièces une base de données qui permettrait à une intelligence artificielle d'imiter le Dom Juan de Molière, de parler le français du XVIIe siècle et de comprendre le français actuel parlé par son interlocuteur.
+
+La base de données pour la formation du chatbot est non seulement indispensable, mais aussi la partie la plus importante de ce projet. Dans un premier temps, j'ai travaillé sur l'analyse sémantique du corpus Molière disponible sur Gallica grâce à un précédent partenariat de recherche entre la BnF et le laboratoire OBVIL de la Sorbonne. La mise à disposition de ce corpus des textes de Molière dans un format manipulable par des machines (<https://obvil.sorbonne-universite.fr/corpus/moliere/moliere>) permet d’envisager de multiple réutilisation de ces textes pour des usages innovants. Par exemple, l’Obvil analyse les relations entre les personnages d’une pièce de théâtre pour visualiser l’importance de leurs relations :
+
+![](images/obvil_corpus_moliere_moliere_dom-juan-1682.png){#fig_obvilDonJuan}
+
+Pour ce projet nous avons analysé la structure du corpus (pièces de théâtre, actes, scènes, répliques, phrases, mots-clés) pour créer des éléments dans une base de données Omeka S correspondant à chacune de ces structures et à leurs relations. Pour ce faire nous avons développé un module générique [^frayages-1] d'importation des pages HTML qui à partir d'un fichier de configuration[^frayages-2] sélectionne les éléments de la page et les enregistre dans la base Omeka S en détaillant leurs relations. Nous avons importer toutes [^frayages-3] pour obtenir une base de plus de 100 000 itemsCe travail d'hypertrextualisation permet d'explorer la base de données et d'enrichir les éléments qui la compose. Nous souhaitons que ces enrichissements soient l'occassion de travailler précisément les répliques du théâtre de Molière afin de
+
+[^frayages-1]: Lien vers les sources du module : <https://github.com/samszo/Omeka-S-module-Scraping>
+
+[^frayages-2]: lien vers le fichier de configuration pour l'importation des pièces de Molière : <https://github.com/samszo/Omeka-S-module-Scraping/blob/main/data/exemples/moliereParPiece.json>
+
+[^frayages-3]: Lien vers les pièces importées :
+
+Après avoir décidé que l'unité de la base d'apprentissage serait la ligne, Rocio Berenguer et son stagiaire ont indexé manuellement les répliques selon des étiquettes correspondant au scénario suivi par le chatbot. En réalité, LITTE_BOT combine deux chatbots : un chatbot ouvert basé sur le modèle Seq2Seq et un chatbot scénarisé, aux lignes indexées. Cependant, quelques mois avant le lancement, la base de données était encore insuffisante et B12 a travaillé sur la version publique du chatbot en utilisant un modèle pré-entraîné, GPT-2.
