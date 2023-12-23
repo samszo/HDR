@@ -1,14 +1,14 @@
-## Réalisations {#sec-realisations}
+# Réalisations {#sec-realisations}
 
-### Modélisation d'une pulsation existentielle
+## Modélisation d'une pulsation existentielle
 
-#### Les principes du modèle
+### Les principes du modèle
 
-#### Généricité du modèle
+### Généricité du modèle
 
 Reprendre les différents exemple des principes élémentaire de la pensée de P. Lévy et les traduire sous frme de diagrammes
 
-##### Rebondir dans les couches de l'individuation : heterogenetic flow
+### Rebondir dans les couches de l'individuation : heterogenetic flow
 
 "While the dynamics of separation of the two planes are largely unknown and typical to each semiotic context, we will speculate on the possibility of a spectral differentiation of the planes, in which the eigenvectors of the assemblage will indicate the independent directions of subspaces E/C. This construction allows the emergence of the semiotic function from the dynamic evolution of the heterogenetic flow without the need of any stabilisation, as opposed to the classical case of structural morphodynamics." p. 3
 
@@ -64,7 +64,9 @@ Importation des tags comme des concept skos et les rapports entre tags, ressourc
 
 ####### JDC
 
-2019 -- 2022 : ARCANES
+## Projets de recherche {#sec-projetsRecherche}
+
+### 2019 -- présent : ARCANES {#sec-projetArcanes}
 
 Des arts trompeurs à la post-vérité : régimes d'authenticité en contexte numérique
 
@@ -76,7 +78,11 @@ Le deuxième volet interroge les puissances du faux, les mécanismes du leurre a
 
 https://crilcq.arcanes.ca/ 
 
-2018 -- 2021 : POLEMIKA
+### 2020 -- 2022 : Litte_Bot {#sec-projetLitteBot}
+
+
+
+### 2018 -- 2021 : POLEMIKA {#sec-projetPolemika}
 
 Génération automatique d'arguments pour l'éducation à l'esprit critique
 
@@ -88,7 +94,7 @@ Ce projet de recherche vise à expérimenter des processus innovants de formatio
 
 En articulation avec ce projet, l'objet du projet Polemik'Art financer par ArTec consiste à 1) concevoir des modalités d'interactions humaines et numériques avec des dispositifs de mise en scène du générateur d'arguments développé dans POLEMIKA, 2) étudier le rôle des émotions dans la réception de ces mises en scène de contre-propositions, 3) évaluer l'influence de la participation des publics sur l'évolution de leurs émotions. https://polemika.univ-paris8.fr/
 
-2010 -- 2013 : GEVU
+### 2010 -- 2013 : GEVU {#sec-projetGEVU}
 
 Outil d'intelligence collective pour le diagnostic de l'accessibilité des bâtiments et des voiries
 
