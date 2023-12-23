@@ -1,6 +1,6 @@
-## Frayages intellectuels : les étapes d'une pensée {#sec-frayages}
+# Frayages intellectuels : les étapes d'une pensée {#sec-frayages}
 
-### De l'histoire de l'art aux sciences de l'information et de la communication
+## De l'histoire de l'art aux sciences de l'information et de la communication
 
 La chance de découvrir l'art de toute les époques et par là d'apprendre à voir par la pratique intensive des œuvres et leurs analyses complexes.
 
@@ -30,7 +30,7 @@ comparaison des schémas depuis celui du jardin, puis du premier diagramme dans 
 
 Calculer la complexité d'un point de vue
 
-### Mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication
+## Mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication
 
 #### Cours et ateliers
 
@@ -44,7 +44,7 @@ les expériences d'enseignement pour faire comprendre la notion complexe :
 
 \- a quoi ça sert ?
 
-#### Projet de recherche en humanités numériques
+## Projet de recherche en humanités numériques {#sec-projetsRecherche}
 
 \- les bulletins diplomatiques de la sciences
 
@@ -58,9 +58,54 @@ les expériences d'enseignement pour faire comprendre la notion complexe :
 
 \- l'évaluation des activités politiques
 
-\- SMEL, Arcanes
+\- SMEL
 
-\- Polemika
+### 2019 -- présent : ARCANES {#sec-projetArcanes}
+
+Des arts trompeurs à la post-vérité : régimes d'authenticité en contexte numérique
+
+Subvention CRSH -- Savoir : 256 000 \$
+
+Le projet Arcanes comporte deux volets. Le premier volet explore les processus de production du sens, les filiations historiques et intermédiales ainsi que les dynamiques de médiation, tout comme les divers dispositifs et les processus d'éditorialisation dans le sillon des humanités et des cultures numériques.
+
+Le deuxième volet interroge les puissances du faux, les mécanismes du leurre ainsi que les stratégies d'illusion tels qu'ils se manifestent dans les arts -- que nous qualifions « d'arts trompeurs » -, la littérature,  les pratiques médiatiques et l'écosystème socionumérique actuel.
+
+https://crilcq.arcanes.ca/ 
+
+
+
+
+### 2018 -- 2021 : POLEMIKA {#sec-projetPolemika}
+
+Génération automatique d'arguments pour l'éducation à l'esprit critique
+
+Subvention Région Ile de France : 30 800 € 
+
+Subvention ArTec : 5 000 €
+
+Ce projet de recherche vise à expérimenter des processus innovants de formation à l'esprit critique. Le premier volet dont nous devrions obtenir le financer par les "Trophées de l'innovation en Ile de France" se centre sur le développement informatique d'un générateur automatique d'arguments sous forme de Web App, qui sert d'interface d'interaction avec les utilisateurs, et de moyen de collecte de données sur les émotions suscitées par la génération des contre-propositions.
+
+En articulation avec ce projet, l'objet du projet Polemik'Art financer par ArTec consiste à 1) concevoir des modalités d'interactions humaines et numériques avec des dispositifs de mise en scène du générateur d'arguments développé dans POLEMIKA, 2) étudier le rôle des émotions dans la réception de ces mises en scène de contre-propositions, 3) évaluer l'influence de la participation des publics sur l'évolution de leurs émotions. https://polemika.univ-paris8.fr/
+
+### 2010 -- 2013 : GEVU {#sec-projetGEVU}
+
+Outil d'intelligence collective pour le diagnostic de l'accessibilité des bâtiments et des voiries
+
+Contrat de recherche de l'université de Lille : 80 000 € 
+
+Ce travail de recherche interdisciplinaire inclut des approches de géographie, d'urbanisme, d'ergonomie, de science de l'information, de design d'information et de pédagogie. L'objectif commun consiste à développer, en partenariat avec un OPH, un outil d'intelligence collective pour le diagnostic de l'accessibilité des bâtiments et des voiries : GEVU. Les spécificités de cette application Web apportent des bénéfices certains aux acteurs du logement social notamment en terme de visualisation et d'analyse des territoires mais aussi concernant la communication entre les acteurs. Il nous a aussi permis de mettre en place des méthodes de modélisation des écosystèmes d'information et de confronter nos approches dans le cadre d'un atelier de conception coopérative, pour une conduite de projets en référence à l'homme..
+
+### Ateliers de littérature générative
+
+« Revaz (2009) définit ainsi les propriétés communes à tous les récits :
+
+-   Une représentation d'actions,
+-   Un déroulement chronologique,
+-   Un enchaînement causal,
+-   Une transformation (renversement) entre l'état initial et l'état final,
+-   Un développement inhabituel ou non prévisible de l'action. »
+-   https://intelligibilite-numerique.numerev.com/manifeste
+
 
 \- Lire Ensemble
 
@@ -70,12 +115,10 @@ les expériences d'enseignement pour faire comprendre la notion complexe :
 
 \- Application développée spécifiquement pour le travail d'HDR.
 
-\- Arcanes
 
 \- Pédagothèque Psy
 
-\- Lire ensemble
 
 \- Ontostats
 
-\- Litte Bot
+### 2020 -- 2022 : Litte_Bot {#sec-projetLitteBot}
