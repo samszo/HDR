@@ -92,7 +92,7 @@ Contrat de recherche de l'université de Lille : 80 000 € 
 
 Ce travail de recherche interdisciplinaire inclut des approches de géographie, d'urbanisme, d'ergonomie, de science de l'information, de design d'information et de pédagogie. L'objectif commun consiste à développer, en partenariat avec un OPH, un outil d'intelligence collective pour le diagnostic de l'accessibilité des bâtiments et des voiries : GEVU. Les spécificités de cette application Web apportent des bénéfices certains aux acteurs du logement social notamment en terme de visualisation et d'analyse des territoires mais aussi concernant la communication entre les acteurs. Il nous a aussi permis de mettre en place des méthodes de modélisation des écosystèmes d'information et de confronter nos approches dans le cadre d'un atelier de conception coopérative, pour une conduite de projets en référence à l'homme..
 
-### Ateliers de littérature générative
+### Ateliers de littérature générative {#sec-ateliersGenerateur}
 
 « Revaz (2009) définit ainsi les propriétés communes à tous les récits :
 
@@ -125,7 +125,7 @@ La base de données pour la formation du chatbot est non seulement indispensable
 
 ![Obvil : représentation des relations entre personnages](images/obvil_corpus_moliere_moliere_dom-juan-1682.png){#fig_obvilDonJuan}
 
-Pour ce projet nous avons analysé la structure du corpus (pièces de théâtre, actes, scènes, répliques, phrases, mots-clés) pour créer des éléments dans une base de données Omeka S correspondant à chacune de ces structures et à leurs relations. Pour ce faire nous avons développé un module générique [^frayages-1] d'importation des pages HTML qui à partir d'un fichier de configuration[^frayages-2] sélectionne les éléments de la page et les enregistre dans la base Omeka S en détaillant leurs relations. Nous avons importer toutes [^frayages-3] pour obtenir une base de plus de 100 000 items. Ce travail d'hypertrextualisation permet d'explorer la base de données et d'enrichir les éléments qui la compose. Nous souhaitons que ces enrichissements soient l'occassion de travailler précisément les répliques du théâtre de Molière afin de
+Pour ce projet nous avons analysé la structure du corpus (pièces de théâtre, actes, scènes, répliques, phrases, mots-clés) pour créer des éléments dans une base de données Omeka S correspondant à chacune de ces structures et à leurs relations. Pour ce faire nous avons développé un module générique [^frayages-1] d'importation des pages HTML qui à partir d'un fichier de configuration[^frayages-2] sélectionne les éléments de la page et les enregistre dans la base Omeka S en détaillant leurs relations. Nous avons importer toutes [^frayages-3] pour obtenir une base de plus de 100 000 items. Ce travail d'hypertrextualisation permet d'explorer la base de données et d'enrichir les éléments qui la compose et dont voici la représentation :
 
 [^frayages-1]: Lien vers les sources du module : <https://github.com/samszo/Omeka-S-module-Scraping>
 
@@ -133,4 +133,6 @@ Pour ce projet nous avons analysé la structure du corpus (pièces de théâtre,
 
 [^frayages-3]: Lien vers les pièces importées :<http://localhost/omk_moliere/s/theatre-de-moliere/item?resource_class_id%5B%5D=1017&sort_by=created&sort_order=desc&submit=Search>
 
-Après avoir décidé que l'unité de la base d'apprentissage serait la ligne, Rocio Berenguer et son stagiaire ont indexé manuellement les répliques selon des étiquettes correspondant au scénario suivi par le chatbot. En réalité, LITTE_BOT combine deux chatbots : un chatbot ouvert basé sur le modèle Seq2Seq et un chatbot scénarisé, aux lignes indexées. Cependant, quelques mois avant le lancement, la base de données était encore insuffisante et B12 a travaillé sur la version publique du chatbot en utilisant un modèle pré-entraîné, GPT-2.
+Nous souhaitions travailler précisément les répliques du théâtre de Molière afin de les rendre génératives en suivant le modèle des générateur de Jean Pierre Balpe @sec-ateliersGenerateur. et ainsi disposé d'un générateur automatique de répliques de Molière. Malheureusement, nous n'avons pas trouvé les ressources nécessaires pour faire ce travail en détail. Nous avons privilégié une approche plus rapide en indexant manuellement les répliques selon des étiquettes correspondant au scénario suivi par le chatbot. En réalité, LITTE_BOT combine deux chatbots : un chatbot ouvert basé sur le modèle Seq2Seq et un chatbot scénarisé, aux lignes indexées.
+
+Cette pratique de la scénarisation des chabots reste aujourd'hui la plus répandue car elle permet de maîtriser précisément le processus de dialogue entre les utilisateurs et les bots. Comme le confirme les indexations manuelles par micro-tâches faites pour rendre ChatGPT opérationnel ou le chatbot Chomsky VS Comsky
