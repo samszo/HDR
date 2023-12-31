@@ -1,3 +1,11 @@
+::: {#exergue1 .exergue}
+« Il faut demander aux algorithmes\
+de nous montrer\
+et la route,\
+et le paysage »\
+[@cardon2015, § 5]
+:::
+
 # Principes de cartographie des connaissances {#sec-principesCarto}
 
 Les principes de cartographie des connaissances que nous utilisons s'appuient sur des idées inspirées de nombreuses références @sec-positionnements à partir desquels nous concevons un design des connaissances et définissons des propriétés graphiques. Il va de soi, que d'autres références définiraient d'autres designs et d'autres propriétés graphiques. Il serait particulièrement intéressant d'analyser en quoi tel ou tel auteur utilise dans ses œuvres des images mentales spécifiques qui en font un plasticien de la pensée. Il nous semble évident que les idées de Descartes et Spinoza n'ont pas la même plasticité, de même celles d'Heidegger et Bachelard ou de Wittgenstein et Deleuze. L'absolu plasticité du numérique permettrait sans doute de montrer ces idées suivant des modes de représentation propres à chacun de ces auteurs afin de les comparer ou des les utiliser pour un design de connaissance spécifique. Nous avons fait ce travail dans les lignes suivantes pour construire notre design des connaissance à partir d'idées dont la plasticités nous semble particulièrement fertile.
@@ -438,6 +446,8 @@ Pour représenter et modéliser les rapports, nous reprenons les principes que r
 
 ![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation fig-align="center"}
 
+Ces quatre dimensions de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances, sont autonome quand à leur propriétés spécifiques et leur mode de représentation. Toutefois, ils convient de les utiliser ensemble pour obtenir une vision globale de l'écosystème mais pour ce faire nous avons besoin d'un nouveau principe pour associer ces dimensions existentielles et les représenter : le crible.
+
 ## Modéliser des cribles : vers une cartographie des subjectivités[^principescarto-38] {#sec-illusionExhaustivite}
 
 [^principescarto-38]: Ce chapitre reprend en les modifiant les chapitres consacrés au crible dans [@szoniecky2020]
@@ -493,11 +503,7 @@ Concernant le prédicat de la structure logique que nous utilisons, il est défi
 
 Le crible est pour l'instant composé de trois dimensions correspondant au sujet, à l'objet et au prédicat de la formule logique basique. Chaque dimension est une collection d'éléments dont nous avons défini les caractéristiques essentielles. Il nous faut maintenant ajouter une quatrième dimension correspondant aux rapports @sec-sec-rapportsInstExis que ces éléments entretiennent les uns avec les autres. En effet, suivant notre hypothèse d'un univers chaotique – analogiste, toutes les relations entre objets, sujets et prédicats sont possibles, mais toutes ne sont pas exprimées, uniquement celles qui sont choisies pour la modélisation. Il est donc important de définir les rapports comme une des dimensions fondamentales puisqu'ils existent potentiellement, mais ne sont pas effectuées nécessairement. Il y a une actualité des rapports, une temporalité des relations entre les éléments composant la formule sujet, objet et prédicat, il convient donc de modéliser celles-ci pour passer d'une signification potentielle du crible à une expression de cette signification. Les rapports sont l'expression temporelle des dynamismes du crible à la fois dans le présent, le passé et le futur. L'expressions d'un rapport se fait dans un présent dont on enregistre la date pour constituer un historique et simuler les évolutions. Par exemple, la formule : « il (sujet) annote (prédicat) un livre (objet) » est effectuée à des moments précis et suivant des répétitions particulières. Les rapports sont donc génératifs dans la mesure où ils créent une potentialité d'évolution non seulement dans leurs répétitions à l'identique, mais aussi dans leurs transformations par mutations des éléments les constituants. La formule « il (sujet) annote (prédicat) un livre (objet) » peut se transformer en « il (sujet) annote (prédicat) un article (objet) » ou en « il (sujet) écrit (prédicat) un livre (objet) ». Ce sera la modélisation qui limitera les évolutions du rapport en définissant les éléments qui composent les objets, les sujets et les prédicats.
 
-Le crible que nous proposons pour modéliser notre écosystème de connaissance est donc composé à partir de la formule logique sujet – objet – prédicat que nous avons décomposé en quatre dimensions possédant chacune leurs contraintes : 
-- objet : éléments physiques structurés en arborescences, 
-- sujet : éléments sociaux structurés en collectifs, 
-- prédicat : éléments conceptuels structurés en topologies, 
-- rapports : éléments temporels structurés en triplets.
+Le crible que nous proposons pour modéliser notre écosystème de connaissance est donc composé à partir de la formule logique sujet – objet – prédicat que nous avons décomposé en quatre dimensions possédant chacune leurs contraintes : - objet : éléments physiques structurés en arborescences, - sujet : éléments sociaux structurés en collectifs, - prédicat : éléments conceptuels structurés en topologies, - rapports : éléments temporels structurés en triplets.
 
 ### Usages du crible
 
