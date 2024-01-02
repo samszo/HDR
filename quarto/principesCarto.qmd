@@ -1,9 +1,18 @@
-::: {#exergue1 .exergue}
+::: {#exergue-PrincipesCarto1 .exergue}
 « Il faut demander aux algorithmes\
 de nous montrer\
 et la route,\
 et le paysage »\
 [@cardon2015, § 5]
+:::
+
+::: {#exergue-PrincipesCarto2 .exergue}
+« Le numérique est donc\
+à la fois ce qui est\
+autour de nous,\
+entre nous,\
+en nous »\
+[@bachimont2020]
 :::
 
 # Principes de cartographie des connaissances {#sec-principesCarto}
@@ -26,7 +35,9 @@ Entre discerner et agir, intuition et expression, c'est dans ce « milieu » q
 
 Cette raison pilote la réflexion en modifiant l'inclinaison du pli vers le discernement de signifiés ou vers l'expression de signifiants. Elle procède de processus que nous contrôlons consciemment et d'autres plus imprévisibles et incontrôlables qui se produisent en fonction d'une multitudes de pliages et de leurs capacités à ce faire, ce défaire, ce bloquer suivant un cinquième principe celui du degrés de flexibilité [@clément2021].
 
-Les cycles de sémioses, les analogies, les plis, les pulsations existentielles, les degrés de flexibilité structurent et produisent nos connaissances tout au long de nos vies en développant trois pouvoirs fondamentaux : discerner, raisonner, agir. Notre hypothèse principale est qu'il est possible de cartographier ces connaissances en représentant les pliages et leurs dynamismes dans trois directions : vers l'intériorité (discerner), en boucles récursives (raisonner) et vers l'extérieur (agir). À chaque pulsation existentielle, à chaque événement de nos vies, à chaque pli, ces pouvoirs augmentent ou diminuent accentuant ainsi des rapports privilégiés, d'autres, plus secrets, et même certains qui nous restent inconnus. Ainsi, la pulsation varie continuellement, elle est parfois instantanée par exemple quand on rit, elle peut aussi prendre beaucoup de temps quand un souvenir longtemps oublié émerge petit à petit ; elle devient un métier quand à force de pratiquer un geste particulier, celui-ci s'automatise. Ces pulsations se transforment parfois en bêtises ou en inconscience quand le pouvoir d'agir prend le pas sur les pouvoirs de discerner et de choisir en occultant leurs pliages potentiels. Suivant leurs fréquences, les pulsations existentielles forment des ondes dont la vitesse de propagation est fonction de leur longueur (distance séparant deux maxima consécutifs de l'amplitude entre physicalités et intériorité) et du milieu dans lequel elles se déploient. La catégorisation et l'analyse de ces ondes renvoient globalement à une réflexion sur la modélisation de l'esprit qui dépasse le cadre de ce propos mais que nous illustration par le diagramme suivant :
+Les cycles de sémioses, les analogies, les plis, les pulsations existentielles, les degrés de flexibilité structurent et produisent nos connaissances tout au long de nos vies en développant trois pouvoirs fondamentaux : discerner, raisonner, agir. Notre hypothèse principale est qu'il est possible de cartographier ces connaissances en représentant les pliages et leurs dynamismes dans trois directions : vers l'intériorité (discerner), en boucles récursives (raisonner) et vers l'extérieur (agir). À chaque pulsation existentielle, à chaque événement de nos vies, à chaque pli, ces pouvoirs augmentent ou diminuent accentuant ainsi des rapports privilégiés, d'autres, plus secrets, et même certains qui nous restent inconnus. De ce point de vue, nous n'adoptons pas la conjecture au cœur des recherches en IA depuis 1955, formulée à l’occasion de séminaire d'été à Dartmouth par John McCarthy, Marvin Minksy, Claude Shannon et Nathaniel Rochester [@leveau-vallier2023, p. 39] qui prend comme principe que tous les aspects de l’intelligence peuvent être décrits avec une précision telle qu’une machine peut les simuler.
+
+Ainsi, la pulsation varie continuellement, elle est parfois instantanée par exemple quand on rit, elle peut aussi prendre beaucoup de temps quand un souvenir longtemps oublié émerge petit à petit ; elle devient un métier quand à force de pratiquer un geste particulier, celui-ci s'automatise. Ces pulsations se transforment parfois en bêtises ou en inconscience quand le pouvoir d'agir prend le pas sur les pouvoirs de discerner et de choisir en occultant leurs pliages potentiels. Suivant leurs fréquences, les pulsations existentielles forment des ondes dont la vitesse de propagation est fonction de leur longueur (distance séparant deux maxima consécutifs de l'amplitude entre physicalités et intériorité) et du milieu dans lequel elles se déploient. La catégorisation et l'analyse de ces ondes renvoient globalement à une réflexion sur la modélisation de l'esprit qui dépasse le cadre de ce propos mais que nous illustration par le diagramme suivant :
 
 ![Dynamiques pulsations existentielles](images/localhost_samszo_HDR_pulsationsExistentielles.html.png){#fig-dynamiquesPulsationsExistentielles fig-align="center"}
 
@@ -435,16 +446,123 @@ Chaque espace défini par les intersections renvoie un ensemble particulier d'ac
 ## Les rapports comme actualité des existences potentielles {#sec-rapportsInstExis}
 
 Les rapports sont la quatrième dimension de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances. Ils composent la dimension existentielle qui relie les trois autres dimensions et les espaces qui leurs sont associés : dimension physique et espaces matériels hiérarchiques, dimension des essences et espaces conceptuels topologiques, dimension des actants et espaces topographiques chorématiques. Les rapports définissent des espaces temporel, ils transforment une virtualité en actualité. Par exemple, je suis en tant qu'actant actuellement en rapport avec la physicalité de mon clavier et de mon écran qui produisent les concepts que vous lisez. Ces rapports, ne seront plus actuels quand à la fin de cette séance de travail je commencerais une autre activité. Moi en tant qu'actant, mon clavier en tant que physicalités et ce que j'ai écrit en tant que concepts, nous existons toujours comme potentialités de futurs rapports qui s'instancieront à une date et pour une période données. En d'autres termes, les trois dimensions physique, actant, concept créent des potentialités de rapports qui s'instancient ici et maintenant dans l'actualité d'une existence informationnelle.
-
-Pour représenter et modéliser les rapports, nous reprenons les principes que recommande le W3C avec le format « Open Annotation »[^principescarto-36] qui code de façon très simple les relations entre des ressources sémantiques afin de définir un point de vue particulier sur celles-ci. Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S "Annotation" développé par Daniel Berthereau[^principescarto-37] afin de créer des rapports entre des ressopurces physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en rapport avec les autres dimension dimension existentielles, par exemple pour typer le rapport avec un concept particulier comme ceux proposés par la langage SKOS @fig-cartoHexaAjoutConcept
+Pour modéliser les rapports, nous reprenons les principes que recommande le W3C avec le format « Open Annotation »[^principescarto-36] qui code de façon très simple les relations entre des ressources sémantiques afin de définir un point de vue particulier sur celles-ci. Suivant ce modèle une "annotation" est ce qui met en rapport un "body" à une "target". De notre point de vue, la modélisation du rapport est donc une "annotation" qui dans un ici et maintenant va mettre en relation deux ressources. On retrouve ici :
+-   le modèle hypertextuel basique : nœud - ancre - lien [@balpe1996], 
+-   le triplet RDF : sujet - objet - prédicat [@gandon2012],
+-   la définition élémentaire d'une analogie : source - destination - même [@hofstadter].
 
 [^principescarto-36]:
     > cf. <http://www.openannotation.org/>
 
+![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation fig-align="center"}
+
+Les recherches menées en théories des graphes [@moretti2008] ont montré leur souplesse dans la capacité de mettre en relation des éléments hétérogènes les uns avec les autres où : 
+> « la réalité abordée est réduite à des symboles sans signification pour être soumise à des manipulations aveugles. » [@bachimont2020].
+Nous défendons ici une toute autre approche puisque la modélisation des rapports que nous proposons s'incrit dans une démarche où ne reduisons pas les objets que nous manipulons uniquement à des symboles mais nous les associons à une « organologie générale » où chaque élément appartient à une dimension existentielle qui contraint les manières de le décrire et des le mettre en rapport avec d'autres. Potentiellement, il est possible de mettre en rapport n'importe quelle ressource avec n'importe quelle autre quel que soit la dimension existentielle à laquelle elle appartient. Notre modèle propose quatre dimensions existentielles et trois positions pour définir un rapport ce qui donne 4\*4\*4 = 64 possibilités de rapport. Toutefois, de notre point vue, ces 64 possibilités de rapport ne sont pas toutes cohérentes comme le résume le tableau suivant :
+
+```{mermaid}
+graph LR
+    root((rapports possibles)):::classOK-->sujetP((S. P.)):::classKO
+    root-->sujetA((S. A.)):::classOK
+    root-->sujetC((S. C.)):::classKO
+    root-->sujetR((S. R.)):::classKO
+    sujetP-->objetPP((O. P.)):::classKO
+    sujetP-->objetPA((O. A.)):::classKO
+    sujetP-->objetPC((O. C.)):::classKO
+    sujetP-->objetPR((O. R.)):::classKO
+    sujetA-->objetAP((O. P.))
+    sujetA-->objetAA((O. A.))
+    sujetA-->objetAC((O. C.))
+    sujetA-->objetAR((O. R.))
+    sujetC-->objetCP((O. P.)):::classKO
+    sujetC-->objetCA((O. A.)):::classKO
+    sujetC-->objetCC((O. C.)):::classKO
+    sujetC-->objetCR((O. R.)):::classKO
+    sujetR-->objetRP((O. P.)):::classKO
+    sujetR-->objetRA((O. A.)):::classKO
+    sujetR-->objetRC((O. C.)):::classKO
+    sujetR-->objetRR((O. R.)):::classKO
+
+    objetPP-->predPPP((P. P.)):::classKO
+    objetPP-->predPPA((P. A.)):::classKO
+    objetPP-->predPPC((P. C.)):::classKO
+    objetPP-->predPPR((P. R.)):::classKO
+    objetPA-->predPAP((P. P.)):::classKO
+    objetPA-->predPAA((P. A.)):::classKO
+    objetPA-->predPAC((P. C.)):::classKO
+    objetPA-->predPAR((P. R.)):::classKO
+    objetPC-->predPCP((P. P.)):::classKO
+    objetPC-->predPCA((P. A.)):::classKO
+    objetPC-->predPCC((P. C.)):::classKO
+    objetPC-->predPCR((P. R.)):::classKO
+    objetPR-->predPRP((P. A.)):::classKO
+    objetPR-->predPRA((P. A.)):::classKO
+    objetPR-->predPRC((P. C.)):::classKO
+    objetPR-->predPRR((P. R.)):::classKO
+
+    objetAP-->predAPP((P. P.)):::classKO
+    objetAP-->predAPA((P. A.)):::classKO
+    objetAP-->predAPC((P. C.)):::classOK
+    objetAP-->predAPR((P. R.)):::classOK
+    objetAA-->predAAP((P. P.)):::classKO
+    objetAA-->predAAA((P. A.))
+    objetAA-->predAAC((P. C.))
+    objetAA-->predAAR((P. R.))
+    objetAC-->predACP((P. P.))
+    objetAC-->predACA((P. A.))
+    objetAC-->predACC((P. C.))
+    objetAC-->predACR((P. R.))
+    objetAR-->predARP((P. A.))
+    objetAR-->predARA((P. A.))
+    objetAR-->predARC((P. C.))
+    objetAR-->predARR((P. R.))
+
+    objetCP-->predCPP((P. P.))
+    objetCP-->predCPA((P. A.))
+    objetCP-->predCPC((P. C.))
+    objetCP-->predCPR((P. R.))
+    objetCA-->predCAP((P. P.))
+    objetCA-->predCAA((P. A.))
+    objetCA-->predCAC((P. C.))
+    objetCA-->predCAR((P. R.))
+    objetCC-->predCCP((P. P.))
+    objetCC-->predCCA((P. A.))
+    objetCC-->predCCC((P. C.))
+    objetCC-->predCCR((P. R.))
+    objetCR-->predCRP((P. A.))
+    objetCR-->predCRA((P. A.))
+    objetCR-->predCRC((P. C.))
+    objetCR-->predCRR((P. R.))
+
+    objetRP-->predRPP((P. P.))
+    objetRP-->predRPA((P. A.))
+    objetRP-->predRPC((P. C.))
+    objetRP-->predRPR((P. R.))
+    objetRA-->predRAP((P. P.))
+    objetRA-->predRAA((P. A.))
+    objetRA-->predRAC((P. C.))
+    objetRA-->predRAR((P. R.))
+    objetRC-->predRCP((P. P.))
+    objetRC-->predRCA((P. A.))
+    objetRC-->predRCC((P. C.))
+    objetRC-->predRCR((P. R.))
+    objetRR-->predRRP((P. A.))
+    objetRR-->predRRA((P. A.))
+    objetRR-->predRRC((P. C.))
+    objetRR-->predRRR((P. R.))
+
+    classDef classOK fill:green
+    classDef classKO fill:red
+    linkStyle 0,2,3 stroke:red,stroke-width:4px;
+    linkStyle 1 stroke:green,stroke-width:4px;
+```
+
+
+On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 34 possibilités nous n'en retenons que 10. Insistons sur le fait que ces incohérences le sont de notre point vue et que d'autres personnes pourrait considérer que d'autres rapport sont possibles suivant leurs manières de voir les connaissances. C'est ici que se situe les débats scientifiques, par exemple peut-on considérer comme sujet uniquement les actants ? Les concepts peuvent-ils être des objects ? A l'inverse, les phisicalités peuvent-elles êtres des prédicats ? 
+Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S "Annotation" développé par Daniel Berthereau[^principescarto-37] afin de créer des rapports entre des ressources physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en rapport avec les autres dimension existentielles, par exemple pour typer le rapport avec un concept particulier comme ceux proposés par la langage SKOS @fig-cartoHexaAjoutConcept
+
 [^principescarto-37]:
     > Accessible ici : <https://gitlab.com/Daniel-KM/Omeka-S-module-Annotate>
-
-![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation fig-align="center"}
 
 Ces quatre dimensions de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances, sont autonome quand à leur propriétés spécifiques et leur mode de représentation. Toutefois, ils convient de les utiliser ensemble pour obtenir une vision globale de l'écosystème mais pour ce faire nous avons besoin d'un nouveau principe pour associer ces dimensions existentielles et les représenter : le crible.
 

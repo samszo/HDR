@@ -14,15 +14,19 @@
 
 "Il ne fait aucun doute qu'une telle théorie générale des 'Gestalten', une 'Morphologie Générale', ne serait d'un intêret épistémologique fondamental." (Thom, 1975) p. 372
 
+A l'inverse du modèle de Yan LeCun [@lecun]
+
+![](images/LeCunArchitecturePerceptionAction.jpg)
+
 #### Expérimentation des connaissances par l'existence des affects
 
 L'ensemble de l'opération décrite par Spinoza présente quatre moments : 1°) joie passive qui augmente notre puissance d'agir, d'où découlent des désirs ou des passions, en fonction d'une idée encore inadéquate ; 2°) a la faveur de ces passions joyeuses, formation d'une notion commune (idée adéquate) ; 3°) Joie active, qui suit de cette notion commune et qui s'explique par notre puissance d'agir ; 4°) Cette joie active s'ajoute à la joie passive, mais remplace les désirs-passions qui naissaient de celle-ci pas des désirs qui appartiennent à la raison, et qui sont de véritables actions. Ainsi se réalise le programme de Spinoza : non pas supprimer toute passion, mais à la faveur de la passion joyeuse, faire que les passions n'occupent plus que la plus petite partie de nous-même et que notre pouvoir d'être affecté soit rempli par un maximum d'affections actives." (Deleuze, 1968, p. 264)
 
 #### Pouvoirs de discernement, de choisir et d'agir
 
-### La complexité existentielle[^49] {#sec-complexiteExitentielle}
+### La complexité existentielle[^resultats-1] {#sec-complexiteExitentielle}
 
-[^49]:
+[^resultats-1]:
     > Nous ne présenterons pas ici les relations de ce travail avec les recherches en informatique théorique sur la complexité algorithmique (Perrot, 2022)
 
 Nous reprenons ici les chapitres consacrées à cette problématique que nous avons publié en anglais dans (Szoniecky, 2018) en les corrigeant et les complétant de nouvelles propositions.
@@ -43,15 +47,15 @@ La complexité d'un écosystème de connaissances est calculée à partir des ex
 
 -   « Afrique », « Amérique du nord », « Amérique du sud », « Antartique », « Artique », « Asie », « Europe » : niveau 2 : 7 éléments =\> complexité = 2 \* 7 = 14
 
-Pour faciliter ces calculs, nous avons développer un algorithme pour Omeka S[^50] qui utilise les informations de la base de données pour calculer la complexité d'une ou de plusieurs existences suivant le principe qu'une ressource Omeka S est une existence. Cette algorithme se compose de deux parties, une première qui calcule pour une ressource le nombre d'élément de chaque dimension et une deuxième qui calcule la complexité à partir de ce dénombrement.
+Pour faciliter ces calculs, nous avons développer un algorithme pour Omeka S[^resultats-2] qui utilise les informations de la base de données pour calculer la complexité d'une ou de plusieurs existences suivant le principe qu'une ressource Omeka S est une existence. Cette algorithme se compose de deux parties, une première qui calcule pour une ressource le nombre d'élément de chaque dimension et une deuxième qui calcule la complexité à partir de ce dénombrement.
 
-[^50]:
+[^resultats-2]:
     > Cette algorithme est utilisable directement avec une API pour un petit nombre d'élément ou avec un « Writer » pour le module Bulk Export développé par Daniel Bertherau (https://gitlab.com/Daniel-KM/Omeka-S-module-BulkExport). Le code de l'algorithme est disponible ici : <https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L169>\
     > le writer ici :https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/Writer/AbstractComplexityWriter.php
 
-L'étape du dénombrement calcule pour chaque ressource le nombre d'élément de la dimension existentielle correspondant à la classe[^51] de cette ressource. Puis incrémente le nombre d'actant pour chaque propriétaire (« owner ») de la ressource. Pour chaque propriété qui décrit cette ressource, l'algorithme incrémente premièrement le nombre de concept (une propriété est définie par une « rdf:Property » dans un vocabulaire spécifique) ; deuxièmement le nombre d'élément physique pour chaque valeur de la propriété puisque dans Omeka S, la propriété d'une ressource a une cardinalité 0-n. Dans le cas où une valeur de propriété est une relation vers une autre ressource, le calcul de complexité s'applique récursivement à cette ressource en augmentant le niveau de modélisation dans la limite de n+1 niveau (pour une explication de ce choix cf. [1.5.3.3](#anchor-65) [Différence entre complexité et maillage du réseau](#anchor-65) p. [55](#anchor-65)). Parallèlement au comptage des éléments des dimensions physique, actant et concept, l'algorithme incrémente la dimension des rapports en suivant le modèle logique sujet, objet, prédicat dont nous avons montrer l'intérêt pour un processus de modélisation dans (Szoniecky, 2020) et que nous détaillons plus loin ([1.5.4](#anchor-66) [Diagrammes et cribles conceptuels](#anchor-66) p. [55](#anchor-66)). Dans le cas de cet algorithme, les valeurs des sujets, objets et prédicats sont définies avec les règles suivantes :
+L'étape du dénombrement calcule pour chaque ressource le nombre d'élément de la dimension existentielle correspondant à la classe[^resultats-3] de cette ressource. Puis incrémente le nombre d'actant pour chaque propriétaire (« owner ») de la ressource. Pour chaque propriété qui décrit cette ressource, l'algorithme incrémente premièrement le nombre de concept (une propriété est définie par une « rdf:Property » dans un vocabulaire spécifique) ; deuxièmement le nombre d'élément physique pour chaque valeur de la propriété puisque dans Omeka S, la propriété d'une ressource a une cardinalité 0-n. Dans le cas où une valeur de propriété est une relation vers une autre ressource, le calcul de complexité s'applique récursivement à cette ressource en augmentant le niveau de modélisation dans la limite de n+1 niveau (pour une explication de ce choix cf. [1.5.3.3](#anchor-65) [Différence entre complexité et maillage du réseau](#anchor-65) p. [55](#anchor-65)). Parallèlement au comptage des éléments des dimensions physique, actant et concept, l'algorithme incrémente la dimension des rapports en suivant le modèle logique sujet, objet, prédicat dont nous avons montrer l'intérêt pour un processus de modélisation dans (Szoniecky, 2020) et que nous détaillons plus loin ([1.5.4](#anchor-66) [Diagrammes et cribles conceptuels](#anchor-66) p. [55](#anchor-66)). Dans le cas de cet algorithme, les valeurs des sujets, objets et prédicats sont définies avec les règles suivantes :
 
-[^51]:
+[^resultats-3]:
     > La liste des correspondance est disponible ici : https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L39
 
 -   Pour chaque ressource :
@@ -78,7 +82,7 @@ Suite à cette étape de dénombrement, la deuxième partie de l'algorithme cons
 
     -   date : date du calcul de la complexité
 
-    -   resources[^52] : liste des ressources impliquée dans le calcul avec les informations :
+    -   resources[^resultats-4] : liste des ressources impliquée dans le calcul avec les informations :
 
         -   type : le type de ressource omeka S = items, item set, media, annotations
         -   id : l'identifiant
@@ -87,7 +91,7 @@ Suite à cette étape de dénombrement, la deuxième partie de l'algorithme cons
         -   complexity : la complexité calculée
         -   d : la dimension existentielle = Physique, Actant, Concept, Rapport
         -   n : les niveaux de modélisation pris en compte pour cette ressource
-        -   details[^53]
+        -   details[^resultats-5]
 
 -   params : affiche les paramètres passés à l'algorithme
 
@@ -131,10 +135,10 @@ Suite à cette étape de dénombrement, la deuxième partie de l'algorithme cons
     -   nb : le nombre d'élément
     -   c : la complexité
 
-[^52]:
+[^resultats-4]:
     > Cette information n'est présente que dans les calculs via l'API mais pas avec le module Export
 
-[^53]:
+[^resultats-5]:
     > Cette information n'est présente que pour les ressource de niveau 1 dans les calculs via l'API mais pas avec le module Export
 
 Les données fournies par l'algorithme permettent de vérifier les calculs et de les utiliser pour faire d'autres traitements par exemple pour les représenter graphiquement et naviguer dans les résultats.
@@ -148,7 +152,6 @@ Par exemple, reprenons la modélisation de la Figure 4.2., Chromecast est consid
 #### Différence entre complexité et maillage du réseau
 
 Il est important de comprendre que le calcul de la complexité d'une existence ne prend pas en compte l'intégralité du réseau informationnel dont fait partie cette existence mais uniquement . Nous avons fait le choix pour simplifier lecalcule dea complexité d'une existence mais uniquement les informations
-
 
 Par exemple, la citation suivante possède une complexité de 231 dans notre écosystème de connaissance :
 
