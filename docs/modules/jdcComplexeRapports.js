@@ -165,7 +165,7 @@ export class jdcComplexeRapports {
             //calcule les échelles pour le départ
             groupDimNivStart.forEach((v,k,m) => {
                 ak=k.split('_');
-                bb = ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
+                bb = getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);//ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
                 let scKeys = keys['start-end'][ak[0]][ak[1]],
                     sh = d3.scaleBand()
                     .domain(scKeys)
@@ -211,7 +211,7 @@ export class jdcComplexeRapports {
             //calcule les échelles pour l'arrivée
             groupDimNivEnd.forEach((v,k,m) => {
                 ak=k.split('_');
-                bb = ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
+                bb = getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);//ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
                 let scKeys = keys['start-end'][ak[0]][ak[1]],
                     sh = d3.scaleBand()
                     .domain(scKeys)
@@ -235,13 +235,13 @@ export class jdcComplexeRapports {
                         sv.range([bb.y-posiG.y,bb.y-posiG.y]);                    
                         break;            
                     case 'Concept':
-                        /*le long du 1/2 cercle nord
+                        /*le long du 1/2 cercle sud
                         */
                         let cx = bb.x-posiG.x+bb.width/2,
                             cy = bb.y-posiG.y+bb.height/2,
                             r = bb.height/2, 
                             pc=scKeys.map((nb,i)=>{
-                                return getPointsOnCircle(cx,cy,r,180/scKeys.length*i+180);
+                                return getPointsOnCircle(cx,cy,r,360/scKeys.length*i+360);
                             });
                         sh = d3.scaleOrdinal(scKeys, pc.map(p=>p.x));
                         sv = d3.scaleOrdinal(scKeys, pc.map(p=>p.y));    

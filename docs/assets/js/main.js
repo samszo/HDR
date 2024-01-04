@@ -56,7 +56,8 @@
             curwait ++;
         }, 1000);
     }
-    function hideLoader() {
+    function hideLoader(all=false) {
+        if(all)curwait=0;
         curwait --;
         if(curwait<1){
             d3.select("#ws-loading").style("display", "none");

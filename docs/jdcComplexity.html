@@ -280,14 +280,14 @@
                     hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx,false);
                     hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes,true);
                     setDetails();
-                    hideLoader();
+                    hideLoader(true);
                 })
                 .catch(error => {
                     m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
                     +error);
                     m.setBoutons([{'name':"Close"}]);                
                     m.show();    
-                    hideLoader();
+                    hideLoader(true);
                     console.error('There was an error!', error);
                 });                
         }
