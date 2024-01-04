@@ -142,6 +142,10 @@ export class jdcComplexeRapports {
         //pour calculer les positions équilibrées des rapports dans les niveaux des dimensions
         //une échelle par bande pour chaque dimension-niveau
         //le domaine de chaque échelle correspond à l'ordre dans le tableau des rapports
+        //les contraintes de créations des rapports sont décrite ici : 
+        // le début = objet => physique, actant ou concept  
+        // le sujet = actant => toujours au centre
+        // la fin toujours le p
         function getScales(){
             let groupDimNivStart =  d3.group(me.data.details, d => d.s+'_'+d.ns),
                 groupDimNivEnd =  d3.group(me.data.details, d => d.o+'_'+d.no),
@@ -309,6 +313,7 @@ export class jdcComplexeRapports {
 
         function getPositions(d,i){
             //récupère les scales
+            //debut = sujet, milieu = 
             let ssh = scaleBands['s_'+d.s+'_'+d.ns+'_h'],
                 ssv = scaleBands['s_'+d.s+'_'+d.ns+'_v'],
                 seh = scaleBands['e_'+d.o+'_'+d.no+'_h'], 

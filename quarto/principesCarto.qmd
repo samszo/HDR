@@ -455,6 +455,10 @@ Les rapports sont la quatrième dimension de l'existence que nous utilisons pour
 Les recherches menées en théories des graphes [@moretti2008] ont montré leur souplesse dans la capacité de mettre en relation des éléments hétérogènes les uns avec les autres où : \> « la réalité abordée est réduite à des symboles sans signification pour être soumise à des manipulations aveugles. » [@bachimont2020]. Nous défendons ici une toute autre approche puisque la modélisation des rapports que nous proposons s'incrit dans une démarche où ne reduisons pas les objets que nous manipulons uniquement à des symboles mais nous les associons à une « organologie générale » où chaque élément appartient à une dimension existentielle qui contraint les manières de le décrire et des le mettre en rapport avec d'autres. Potentiellement, il est possible de mettre en rapport n'importe quelle ressource avec n'importe quelle autre quel que soit la dimension existentielle à laquelle elle appartient. Notre modèle propose quatre dimensions existentielles et trois positions pour définir un rapport ce qui donne 4\*4\*4 = 64 possibilités de rapport. Toutefois, de notre point vue, ces 64 possibilités de rapport ne sont pas toutes cohérentes comme le résume le tableau suivant :
 
 ```{mermaid}
+%%| echo: false
+%%| label: fig-contraintesRapports
+%%| fig-cap: "Cohérences des rapports"
+
 graph LR
     root((rapports possibles)):::classOK-->sujetP((Suj. Phy.)):::classKO
     root-->sujetA((Suj. Act.)):::classOK
@@ -497,19 +501,19 @@ graph LR
     objetAP-->predAPP((Pre. Phy.)):::classKO
     objetAP-->predAPA((Pre. Act.)):::classKO
     objetAP-->predAPC((Pre. Cpt.)):::classOK
-    objetAP-->predAPR((Pre. Rap.)):::classOK
+    objetAP-->predAPR((Pre. Rap.)):::classKO
     objetAA-->predAAP((Pre. Phy.)):::classKO
     objetAA-->predAAA((Pre. Act.)):::classKO
     objetAA-->predAAC((Pre. Cpt.)):::classOK
-    objetAA-->predAAR((Pre. Rap.)):::classOK
+    objetAA-->predAAR((Pre. Rap.)):::classKO
     objetAC-->predACP((Pre. Phy.)):::classKO
     objetAC-->predACA((Pre. Act.)):::classKO
-    objetAC-->predACC((Pre. Cpt.)):::classKO
-    objetAC-->predACR((Pre. Rap.)):::classOK
+    objetAC-->predACC((Pre. Cpt.)):::classOK
+    objetAC-->predACR((Pre. Rap.)):::classKO
     objetAR-->predARP((Pre. Act.)):::classKO
     objetAR-->predARA((Pre. Act.)):::classKO
     objetAR-->predARC((Pre. Cpt.)):::classOK
-    objetAR-->predARR((Pre. Rap.)):::classOK
+    objetAR-->predARR((Pre. Rap.)):::classKO
 
     objetCP-->predCPP((Pre. Phy.)):::classKO
     objetCP-->predCPA((Pre. Act.)):::classKO
@@ -547,11 +551,11 @@ graph LR
 
     classDef classOK fill:green
     classDef classKO fill:red
-    linkStyle 0,2,3,4,5,6,7,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,40,41,44,45,46,48,49,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 stroke:red,stroke-width:4px;
-    linkStyle 1,8,9,10,11,38,39,42,43,47,50,51 stroke:green,stroke-width:4px;
+    linkStyle 0,2,3,4,5,6,7,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,43,44,45,47,48,49,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 stroke:red,stroke-width:4px;
+    linkStyle 1,8,9,10,11,38,42,46,50 stroke:green,stroke-width:4px;
 ```
 
-On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 64 possibilités nous n'en retenons que 12. Insistons sur le fait que ces incohérences le sont de notre point vue et que d'autres personnes pourrait considérer que d'autres rapports sont possibles suivant leurs manières de voir les connaissances. C'est ici que se situe les débats scientifiques non pas au niveau des techniques informatiques ou de la justesse mathématique mais au niveau épistémologique. Nous avons fait le choix de limiter les possibilités aux cas les plus simples mais de nombreuses questions se posent : peut-on considérer comme sujet uniquement les actants ? Les concepts peuvent-ils être des objets ? Les physicalités peuvent-elles êtres des prédicats ? Pour toutes ces questions, il convient de trouver des exemples précis qui montre la cohérence des rapports. Attention, les restrictions que nous appliquons n'empèche pas de considérer une personnes comme un concept comme le fait par exemple la philosophie avec le personnage de l'idiot ou quand on parle de Napoléon en politique ou dans une fiction. De même, les physicalités peuvent être conceptualisés pour en parler en terme générique et pas spécifique, la physicalités banane dans la coupe à fruit sur la table, devient alors banane en tant que fruit jaune et allongée des zones tropicales. Il est toujours possible de modéliser une existence suivant un dimension particulière afin de s'interroger sur un point de vue spécifique. C'est ce qui et à l'oeuvre dans l'hypothèse Gaïa qui pense notre Terre non plus comme physicalités mais comme actant [@latour2015]. C'est aussi ce que font les poètes en transformant des concepts ou des émotions en actants autonomes. Globalement, la transformation d'une dimension physique ou conceptuelle en actant est un processus d'agentivité [@ingold; @hörl2012].
+On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 64 possibilités nous n'en retenons que 9. Insistons sur le fait que ces incohérences le sont de notre point vue et que d'autres personnes pourrait considérer que d'autres rapports sont possibles suivant leurs manières de voir les connaissances. C'est ici que se situe les débats scientifiques non pas au niveau des techniques informatiques ou de la justesse mathématique mais au niveau épistémologique. Nous avons fait le choix de limiter les possibilités aux cas qui correspondent à l'épistémologie que nous pratiquons @sec-principesCarto mais de nombreuses questions se posent : peut-on considérer comme sujet uniquement les actants et comme prédicat uniquement les concepts ? Les concepts peuvent-ils être des objets ? Les physicalités peuvent-elles êtres des prédicats ? Pour toutes ces questions, il convient de trouver des exemples précis qui montre la cohérence des rapports. Attention, les restrictions que nous appliquons n'empèche pas de considérer une personnes comme un concept comme le fait par exemple la philosophie avec le personnage de l'idiot ou quand on parle de Napoléon en politique ou dans une fiction. De même, les physicalités peuvent être conceptualisés pour en parler en terme générique et pas spécifique, la physicalité banane dans la coupe à fruit sur la table, devient alors banane en tant que fruit jaune et allongée des zones tropicales. Il est toujours possible de modéliser une existence suivant un dimension particulière afin de s'interroger sur un point de vue spécifique. C'est ce qui et à l'oeuvre dans l'hypothèse Gaïa qui pense notre Terre non plus comme un ensemble de physicalités mais comme actant [@latour2015]. C'est aussi ce que font les poètes en transformant des concepts ou des émotions en actants autonomes. Globalement, la transformation d'une dimension physique ou conceptuelle en actant est un processus d'agentivité [@ingold; @hörl2012].
 
 Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S "Annotation" développé par Daniel Berthereau[^principescarto-37] afin de créer des rapports entre des ressources physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en rapport avec les autres dimension existentielles, par exemple pour typer le rapport avec un concept particulier comme ceux proposés par la langage SKOS @fig-cartoHexaAjoutConcept.
 

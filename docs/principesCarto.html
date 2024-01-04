@@ -742,9 +742,10 @@ avec A<sup>c</sup> le complémentaire de A soit E − A.&nbsp;» <span class="ci
 <p>Les recherches menées en théories des graphes <span class="citation" data-cites="moretti2008">(<a href="references.html#ref-moretti2008" role="doc-biblioref">Moretti, Jeanpierre, and Dobenesque 2008</a>)</span> ont montré leur souplesse dans la capacité de mettre en relation des éléments hétérogènes les uns avec les autres où : &gt; «&nbsp;la réalité abordée est réduite à des symboles sans signification pour être soumise à des manipulations aveugles. » <span class="citation" data-cites="bachimont2020">(<a href="references.html#ref-bachimont2020" role="doc-biblioref">B. Bachimont 2020</a>)</span>. Nous défendons ici une toute autre approche puisque la modélisation des rapports que nous proposons s’incrit dans une démarche où ne reduisons pas les objets que nous manipulons uniquement à des symboles mais nous les associons à une «&nbsp;organologie générale » où chaque élément appartient à une dimension existentielle qui contraint les manières de le décrire et des le mettre en rapport avec d’autres. Potentiellement, il est possible de mettre en rapport n’importe quelle ressource avec n’importe quelle autre quel que soit la dimension existentielle à laquelle elle appartient. Notre modèle propose quatre dimensions existentielles et trois positions pour définir un rapport ce qui donne 4*4*4 = 64 possibilités de rapport. Toutefois, de notre point vue, ces 64 possibilités de rapport ne sont pas toutes cohérentes comme le résume le tableau suivant :</p>
 <div class="cell">
 <div class="cell-output-display">
+<div id="fig-contraintesRapports" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
 <div>
-<div>
-<pre class="mermaid mermaid-js">graph LR
+<pre class="mermaid mermaid-js" data-label="fig-contraintesRapports">graph LR
     root((rapports possibles)):::classOK--&gt;sujetP((Suj. Phy.)):::classKO
     root--&gt;sujetA((Suj. Act.)):::classOK
     root--&gt;sujetC((Suj. Cpt.)):::classKO
@@ -755,8 +756,8 @@ avec A<sup>c</sup> le complémentaire de A soit E − A.&nbsp;» <span class="ci
     sujetP--&gt;objetPR((Obj. Rap.)):::classKO
     sujetA--&gt;objetAP((Obj. Phy.)):::classOK
     sujetA--&gt;objetAA((Obj. Act.)):::classOK
-    sujetA--&gt;objetAC((Obj. Cpt.)):::classKO
-    sujetA--&gt;objetAR((Obj. Rap.)):::classKO
+    sujetA--&gt;objetAC((Obj. Cpt.)):::classOK
+    sujetA--&gt;objetAR((Obj. Rap.)):::classOK
     sujetC--&gt;objetCP((Obj. Phy.)):::classKO
     sujetC--&gt;objetCA((Obj. Act.)):::classKO
     sujetC--&gt;objetCC((Obj. Cpt.)):::classKO
@@ -786,19 +787,19 @@ avec A<sup>c</sup> le complémentaire de A soit E − A.&nbsp;» <span class="ci
     objetAP--&gt;predAPP((Pre. Phy.)):::classKO
     objetAP--&gt;predAPA((Pre. Act.)):::classKO
     objetAP--&gt;predAPC((Pre. Cpt.)):::classOK
-    objetAP--&gt;predAPR((Pre. Rap.)):::classOK
+    objetAP--&gt;predAPR((Pre. Rap.)):::classKO
     objetAA--&gt;predAAP((Pre. Phy.)):::classKO
     objetAA--&gt;predAAA((Pre. Act.)):::classKO
     objetAA--&gt;predAAC((Pre. Cpt.)):::classOK
-    objetAA--&gt;predAAR((Pre. Rap.)):::classOK
+    objetAA--&gt;predAAR((Pre. Rap.)):::classKO
     objetAC--&gt;predACP((Pre. Phy.)):::classKO
     objetAC--&gt;predACA((Pre. Act.)):::classKO
-    objetAC--&gt;predACC((Pre. Cpt.)):::classKO
-    objetAC--&gt;predACR((Pre. Rap.)):::classOK
+    objetAC--&gt;predACC((Pre. Cpt.)):::classOK
+    objetAC--&gt;predACR((Pre. Rap.)):::classKO
     objetAR--&gt;predARP((Pre. Act.)):::classKO
     objetAR--&gt;predARA((Pre. Act.)):::classKO
     objetAR--&gt;predARC((Pre. Cpt.)):::classOK
-    objetAR--&gt;predARR((Pre. Rap.)):::classOK
+    objetAR--&gt;predARR((Pre. Rap.)):::classKO
 
     objetCP--&gt;predCPP((Pre. Phy.)):::classKO
     objetCP--&gt;predCPA((Pre. Act.)):::classKO
@@ -836,15 +837,25 @@ avec A<sup>c</sup> le complémentaire de A soit E − A.&nbsp;» <span class="ci
 
     classDef classOK fill:green
     classDef classKO fill:red
-    linkStyle 0,2,3 stroke:red,stroke-width:4px;
-    linkStyle 1 stroke:green,stroke-width:4px;
+    linkStyle 0,2,3,4,5,6,7,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,43,44,45,47,48,49,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 stroke:red,stroke-width:4px;
+    linkStyle 1,8,9,10,11,38,42,46,50 stroke:green,stroke-width:4px;
 </pre>
 </div>
+<figcaption class="figure-caption">Figure&nbsp;1.29: Cohérences des rapports</figcaption>
+</figure>
 </div>
 </div>
 </div>
-<p>On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 34 possibilités nous n’en retenons que 10. Insistons sur le fait que ces incohérences le sont de notre point vue et que d’autres personnes pourrait considérer que d’autres rapport sont possibles suivant leurs manières de voir les connaissanceSuj. C’est ici que se situe les débats scientifiques, par exemple peut-on considérer comme sujet uniquement les actants ? Les concepts peuvent-ils être des objects ? A l’inverse, les phisicalités peuvent-elles êtres des prédicats ? Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S “Annotation” développé par Daniel Berthereau<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> afin de créer des rapports entre des ressources physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en rapport avec les autres dimension existentielles, par exemple pour typer le rapport avec un concept particulier comme ceux proposés par la langage SKOS <a href="#fig-cartoHexaAjoutConcept">Figure&nbsp;<span>1.20</span></a></p>
-<p>Ces quatre dimensions de l’existence que nous utilisons pour modéliser les écosystèmes de connaissances, sont autonome quand à leur propriétés spécifiques et leur mode de représentation. Toutefois, ils convient de les utiliser ensemble pour obtenir une vision globale de l’écosystème mais pour ce faire nous avons besoin d’un nouveau principe pour associer ces dimensions existentielles et les représenter : le crible.</p>
+<p>On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 64 possibilités nous n’en retenons que 9. Insistons sur le fait que ces incohérences le sont de notre point vue et que d’autres personnes pourrait considérer que d’autres rapports sont possibles suivant leurs manières de voir les connaissances. C’est ici que se situe les débats scientifiques non pas au niveau des techniques informatiques ou de la justesse mathématique mais au niveau épistémologique. Nous avons fait le choix de limiter les possibilités aux cas qui correspondent à l’épistémologie que nous pratiquons <a href="#sec-principesCarto"><span>Chapter&nbsp;1</span></a> mais de nombreuses questions se posent : peut-on considérer comme sujet uniquement les actants et comme prédicat uniquement les concepts ? Les concepts peuvent-ils être des objets ? Les physicalités peuvent-elles êtres des prédicats ? Pour toutes ces questions, il convient de trouver des exemples précis qui montre la cohérence des rapports. Attention, les restrictions que nous appliquons n’empèche pas de considérer une personnes comme un concept comme le fait par exemple la philosophie avec le personnage de l’idiot ou quand on parle de Napoléon en politique ou dans une fiction. De même, les physicalités peuvent être conceptualisés pour en parler en terme générique et pas spécifique, la physicalité banane dans la coupe à fruit sur la table, devient alors banane en tant que fruit jaune et allongée des zones tropicales. Il est toujours possible de modéliser une existence suivant un dimension particulière afin de s’interroger sur un point de vue spécifique. C’est ce qui et à l’oeuvre dans l’hypothèse Gaïa qui pense notre Terre non plus comme un ensemble de physicalités mais comme actant <span class="citation" data-cites="latour2015">(<a href="references.html#ref-latour2015" role="doc-biblioref">Latour 2015</a>)</span>. C’est aussi ce que font les poètes en transformant des concepts ou des émotions en actants autonomes. Globalement, la transformation d’une dimension physique ou conceptuelle en actant est un processus d’agentivité <span class="citation" data-cites="ingold hörl2012">(<a href="references.html#ref-ingold" role="doc-biblioref">Ingold, n.d.</a>; <a href="references.html#ref-hörl2012" role="doc-biblioref">Hörl and Plas 2012</a>)</span>.</p>
+<p>Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S “Annotation” développé par Daniel Berthereau<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> afin de créer des rapports entre des ressources physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en rapport avec les autres dimension existentielles, par exemple pour typer le rapport avec un concept particulier comme ceux proposés par la langage SKOS <a href="#fig-cartoHexaAjoutConcept">Figure&nbsp;<span>1.20</span></a>.</p>
+<p>Pour représenter les rapports dans nos diagrammes de visualisation des complexités existentielles, nous utilisons des lignes avec un début sous forme de cercle vert correspondant à l’objet, un milieu sous forme de carré blanc correspondant au sujet et une fin sous forme de flèche rouge correspondant au prédicat. Ce choix de représentation est motivé par la forme générique d’une existence informationnelle où le centre est occupé par l’actant qui dans nos contraintes de possibilité des rapports est toujours le sujet.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/localhost_samszo_HDR_jdcComplexityDiagramme.html.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Visualisattion des rapports</figcaption>
+</figure>
+</div>
+<p>Les quatre dimensions de l’existence que nous utilisons pour modéliser les écosystèmes de connaissances, sont autonomes quant à leur propriétés spécifiques et leur mode de représentation. Toutefois, ils convient de les utiliser ensemble pour obtenir une vision globale de l’écosystème mais pour ce faire nous avons besoin d’un nouveau principe pour associer ces dimensions existentielles et les représenter : le crible.</p>
 </section>
 <section id="sec-illusionExhaustivite" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="sec-illusionExhaustivite"><span class="header-section-number">1.7</span> Modéliser des cribles&nbsp;: vers une cartographie des subjectivités<a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a></h2>
@@ -887,7 +898,7 @@ Concevoir un crible entre objectivité et subjectivité, monde naturel et délib
 <div id="fig-TaxonomyIdeas" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/TaxonomyIdeas.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure&nbsp;1.29: Taxonomie des idées</figcaption>
+<figcaption class="figure-caption">Figure&nbsp;1.30: Taxonomie des idées</figcaption>
 </figure>
 </div>
 <p>Le crible est pour l’instant composé de trois dimensions correspondant au sujet, à l’objet et au prédicat de la formule logique basique. Chaque dimension est une collection d’éléments dont nous avons défini les caractéristiques essentielles. Il nous faut maintenant ajouter une quatrième dimension correspondant aux rapports <span class="quarto-unresolved-ref">?sec-sec-rapportsInstExis</span> que ces éléments entretiennent les uns avec les autres. En effet, suivant notre hypothèse d’un univers chaotique – analogiste, toutes les relations entre objets, sujets et prédicats sont possibles, mais toutes ne sont pas exprimées, uniquement celles qui sont choisies pour la modélisation. Il est donc important de définir les rapports comme une des dimensions fondamentales puisqu’ils existent potentiellement, mais ne sont pas effectuées nécessairement. Il y a une actualité des rapports, une temporalité des relations entre les éléments composant la formule sujet, objet et prédicat, il convient donc de modéliser celles-ci pour passer d’une signification potentielle du crible à une expression de cette signification. Les rapports sont l’expression temporelle des dynamismes du crible à la fois dans le présent, le passé et le futur. L’expressions d’un rapport se fait dans un présent dont on enregistre la date pour constituer un historique et simuler les évolutions. Par exemple, la formule&nbsp;: «&nbsp;il (sujet) annote (prédicat) un livre (objet)&nbsp;» est effectuée à des moments précis et suivant des répétitions particulières. Les rapports sont donc génératifs dans la mesure où ils créent une potentialité d’évolution non seulement dans leurs répétitions à l’identique, mais aussi dans leurs transformations par mutations des éléments les constituants. La formule «&nbsp;il (sujet) annote (prédicat) un livre (objet)&nbsp;» peut se transformer en «&nbsp;il (sujet) annote (prédicat) un article (objet)&nbsp;» ou en «&nbsp;il (sujet) écrit (prédicat) un livre (objet)&nbsp;». Ce sera la modélisation qui limitera les évolutions du rapport en définissant les éléments qui composent les objets, les sujets et les prédicats.</p>
@@ -1079,8 +1090,14 @@ Hofstadter, Douglas, and Emmanuel Sander. 2013. <em>L’analogie : Coeur de La P
 <div id="ref-hofstadter" class="csl-entry" role="listitem">
 ———. n.d. <span>“L’analogie, Au Coeur de La Pensée.”</span> <a href="http://changerdere.scienceshumaines.com/contribution/42">http://changerdere.scienceshumaines.com/contribution/42</a>.
 </div>
+<div id="ref-hörl2012" class="csl-entry" role="listitem">
+Hörl, Erich, and Guillaume Plas. 2012. <span>“Le Nouveau Paradigme Écologique.”</span> <em>Multitudes</em> 51 (4): 74. <a href="https://doi.org/10.3917/mult.051.0074">https://doi.org/10.3917/mult.051.0074</a>.
+</div>
 <div id="ref-hunyadi2020" class="csl-entry" role="listitem">
 Hunyadi, Mark. 2020. <em>Au Début Est La Confiance</em>. 1er édition. Lormont: Editions Le Bord de l’eau.
+</div>
+<div id="ref-ingold" class="csl-entry" role="listitem">
+Ingold, Tim. n.d. <em>L’anthropologie comme éducation</em>. Collection Paideia.
 </div>
 <div id="ref-isaac2011" class="csl-entry" role="listitem">
 Isaac, Antoine. 2011. <span>“DC-2011, The Hague.”</span> In. <a href="http://dcevents.dublincore.org/IntConf/dc-2011/paper/view/69">http://dcevents.dublincore.org/IntConf/dc-2011/paper/view/69</a>.
@@ -1096,6 +1113,9 @@ Laborde, Julio. 2019. <span>“Pretopology, a Mathematical Tool for Structuring 
 </div>
 <div id="ref-latour2012" class="csl-entry" role="listitem">
 Latour, Bruno. 2012. <em>Enquêtes Sur Les Modes d’existence : Une Anthropologie Des Modernes</em>. Paris: Editions La Découverte.
+</div>
+<div id="ref-latour2015" class="csl-entry" role="listitem">
+———. 2015. <em>Face à Gaïa</em>. Paris: La Découverte.
 </div>
 <div id="ref-leveau-vallier2023" class="csl-entry" role="listitem">
 Leveau-Vallier, Alban. 2023. <span>“Intelligence artificielle et intuition.”</span> PhD thesis. <a href="https://hal.science/tel-04015572/document">https://hal.science/tel-04015572/document</a>.
