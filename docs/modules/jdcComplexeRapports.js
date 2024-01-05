@@ -142,14 +142,19 @@ export class jdcComplexeRapports {
         //pour calculer les positions équilibrées des rapports dans les niveaux des dimensions
         //une échelle par bande pour chaque dimension-niveau
         //le domaine de chaque échelle correspond à l'ordre dans le tableau des rapports
-        //les contraintes de créations des rapports sont décrite ici : 
+        //les contraintes de créations des rapports sont décrite ici : https://samszo.github.io/HDR/principesCarto.html#fig-contraintesRapports
         // le début = objet => physique, actant ou concept  
-        // le sujet = actant => toujours au centre
-        // la fin toujours le p
+        // le centre = le sujet = toujours actant
+        // la fin = le prédicat = toujours concept
         function getScales(){
+            /*
             let groupDimNivStart =  d3.group(me.data.details, d => d.s+'_'+d.ns),
                 groupDimNivEnd =  d3.group(me.data.details, d => d.o+'_'+d.no),
                 groupDimMid =  d3.group(me.data.details, d => d.s),
+            */
+            let groupDimNivStart =  d3.group(me.data.details, d => d.o+'_'+d.no),
+                groupDimNivEnd =  d3.group(me.data.details, d => 'Concept_'+d.ns),
+                groupDimMid =  d3.group(me.data.details, d => 'Actant_'+d.ns),
                 gDims=[], ak, bb, keys={'start-end':[],'mid':[]};
             //calcule les clefs
             me.data.details.forEach((r,i)=>{
@@ -161,8 +166,12 @@ export class jdcComplexeRapports {
                 if(!keys['start-end'][r.o])keys['start-end'][r.o]=[];
                 if(!keys['start-end'][r.o][r.no])keys['start-end'][r.o][r.no]=[];
                 keys['start-end'][r.o][r.no].push(i);
+                if(!keys['start-end']['Concept'])keys['start-end']['Concept']=[];
+                if(!keys['start-end']['Concept'][r.ns])keys['start-end']['Concept'][r.ns]=[];
+                keys['start-end']['Concept'][r.ns].push(i);
                 if(!keys['mid'][r.s])keys['mid'][r.s]=[];                
-                keys['mid'][r.s].push(i);
+                if(!keys['mid'][r.s][r.ns])keys['mid'][r.s][r.ns]=[];
+                keys['mid'][r.s][r.ns].push(i);
             });
 
 
@@ -199,7 +208,7 @@ export class jdcComplexeRapports {
                             cy = bb.y-posiG.y+bb.height/2,
                             r = bb.height/2, 
                             pc=scKeys.map((nb,i)=>{
-                                return getPointsOnCircle(cx,cy,r,180/scKeys.length*i+180);
+                                return getPointsOnCircle(cx,cy,r,180/scKeys.length*i);
                             });
                         sh = d3.scaleOrdinal(scKeys, pc.map(p=>p.x));
                         sv = d3.scaleOrdinal(scKeys, pc.map(p=>p.y));    
@@ -216,7 +225,8 @@ export class jdcComplexeRapports {
             groupDimNivEnd.forEach((v,k,m) => {
                 ak=k.split('_');
                 bb = getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);//ak[0]=='Physique' ? getDimNivPosi("clip_"+idsDim[ak[0]]+ak[1]) : getDimNivPosi("g_"+idsDim[ak[0]]+ak[1]);
-                let scKeys = keys['start-end'][ak[0]][ak[1]],
+                //let scKeys = keys['start-end'][ak[0]][ak[1]],
+                let scKeys = keys['start-end']['Concept'][ak[1]],
                     sh = d3.scaleBand()
                     .domain(scKeys)
                     .paddingInner(0.2) // edit the inner padding value in [0,1]
@@ -245,7 +255,7 @@ export class jdcComplexeRapports {
                             cy = bb.y-posiG.y+bb.height/2,
                             r = bb.height/2, 
                             pc=scKeys.map((nb,i)=>{
-                                return getPointsOnCircle(cx,cy,r,360/scKeys.length*i+360);
+                                return getPointsOnCircle(cx,cy,r,180/scKeys.length*i+180);
                             });
                         sh = d3.scaleOrdinal(scKeys, pc.map(p=>p.x));
                         sv = d3.scaleOrdinal(scKeys, pc.map(p=>p.y));    
@@ -256,31 +266,34 @@ export class jdcComplexeRapports {
             });
             //calcule les échelles pour le milieu
             groupDimMid.forEach((v,k,m) => {
-                bb = getDimNivPosi("g_"+idsDim["Actant"]+"0");
+                ak=k.split('_');
+                //ATTENTION la numérotation des actant commence à 1 et le graphique à 0
+                bb = getDimNivPosi("g_"+idsDim[ak[0]]+(ak[1]-1));
+                let scKeys = keys['mid'][ak[0]][ak[1]];                
                 let sh = d3.scaleBand()
-                    .domain(keys['mid'][k])
+                    .domain(scKeys)
                     .paddingInner(0.2) // edit the inner padding value in [0,1]
                     .paddingOuter(0.2) // edit the outer padding value in [0,1]                
                     ;               
                 let sv = d3.scaleBand()
-                    .domain(keys['mid'][k])
+                    .domain(scKeys)
                     .paddingInner(0.2) // edit the inner padding value in [0,1]
                     .paddingOuter(0.2) // edit the outer padding value in [0,1]                
                     ;               
-                switch (k) {
+                switch (ak[0]) {
                     case 'Physique':
                         //le long du coté Nord de l'hexagone
-                        sh.range([bb.x+me.hexas[0][1].x-posiG.x, bb.x+(me.hexas[0][1].x*3)-posiG.x]);
+                        sh.range([bb.x+me.hexas[(ak[1]-1)][1].x-posiG.x, bb.x+(me.hexas[(ak[1]-1)][1].x*3)-posiG.x]);
                         sv.range([bb.y-posiG.y,bb.y-posiG.y]);                    
                         break;            
                     case 'Actant':
                         //le long du coté sud de l'hexagone au dessus du titre
-                        sh.range([bb.x+me.hexas[0][1].x-posiG.x, bb.x+(me.hexas[0][1].x*3)-posiG.x]);
+                        sh.range([bb.x+me.hexas[(ak[1]-1)][1].x-posiG.x, bb.x+(me.hexas[(ak[1]-1)][1].x*3)-posiG.x]);
                         sv.range([bb.y+bb.height-posiG.y-20,bb.y+bb.height-posiG.y-20]);                    
                         break;            
                     case 'Concept':
                         //Le long du coté sud de l'hexagone
-                        sh.range([bb.x+me.hexas[0][1].x-posiG.x, bb.x+(me.hexas[0][1].x*3)-posiG.x]);
+                        sh.range([bb.x+me.hexas[(ak[1]-1)][1].x-posiG.x, bb.x+(me.hexas[(ak[1]-1)][1].x*3)-posiG.x]);
                         sv.range([bb.y+bb.height-posiG.y,bb.y+bb.height-posiG.y]);                    
                         break;            
                 }
@@ -313,13 +326,21 @@ export class jdcComplexeRapports {
 
         function getPositions(d,i){
             //récupère les scales
-            //debut = sujet, milieu = 
+            //debut = object, milieu = sujet-actant, fin = predicat-concept 
+                /*
             let ssh = scaleBands['s_'+d.s+'_'+d.ns+'_h'],
                 ssv = scaleBands['s_'+d.s+'_'+d.ns+'_v'],
                 seh = scaleBands['e_'+d.o+'_'+d.no+'_h'], 
-                sev = scaleBands['e_'+d.o+'_'+d.no+'_v'], 
+                sev = scaleBands['e_'+d.o+'_'+d.no+'_v'],
                 smh = scaleBands['m_'+d.s+'_h'], 
                 smv = scaleBands['m_'+d.s+'_v'],
+                */ 
+            let ssh = scaleBands['s_'+d.o+'_'+d.no+'_h'],
+                ssv = scaleBands['s_'+d.o+'_'+d.no+'_v'],
+                seh = scaleBands['e_Concept_'+d.ns+'_h'], 
+                sev = scaleBands['e_Concept_'+d.ns+'_v'], 
+                smh = scaleBands['m_'+d.s+'_'+d.ns+'_h'], 
+                smv = scaleBands['m_'+d.s+'_'+d.ns+'_v'],
                 posis = [[ssh(i),ssv(i)],[smh(i),smv(i)],[seh(i),sev(i)]];
             posis.forEach(p=>{
                 p.forEach(c=>{
