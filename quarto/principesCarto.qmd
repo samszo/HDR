@@ -463,106 +463,8 @@ Les recherches menées en théories des graphes [@moretti2008] ont montré leur 
 
 Nous défendons ici une toute autre approche puisque la modélisation des rapports que nous proposons s'incrit dans une démarche où ne reduisons pas les objets que nous manipulons uniquement à des symboles mais nous les associons à une « organologie générale » [@stiegler2005] où chaque élément appartient à une dimension existentielle qui contraint les manières de le décrire et des le mettre en rapport avec d'autres. Potentiellement, il est possible de mettre en rapport n'importe quelle ressource avec n'importe quelles autres quel que soit la dimension existentielle à laquelle elle appartient. Notre modèle propose quatre dimensions existentielles et trois positions pour définir un rapport ce qui donne 4\*4\*4 = 64 possibilités de rapports. Toutefois, de notre point vue, ces 64 possibilités de rapport ne sont pas toutes cohérentes comme le résume le tableau suivant :
 
-```{mermaid}
-%%| echo: false
-%%| label: fig-contraintesRapports
-%%| fig-cap: "Cohérences des rapports"
+![Cohérences des rapports](images/coherencesRapports.png){#fig-coherenceRapport fig-align="center"}
 
-graph LR
-    root((rapports possibles)):::classOK-->sujetP((Suj. Phy.)):::classKO
-    root-->sujetA((Suj. Act.)):::classOK
-    root-->sujetC((Suj. Cpt.)):::classKO
-    root-->sujetR((Suj. Rap.)):::classKO
-    sujetP-->objetPP((Obj. Phy.)):::classKO
-    sujetP-->objetPA((Obj. Act.)):::classKO
-    sujetP-->objetPC((Obj. Cpt.)):::classKO
-    sujetP-->objetPR((Obj. Rap.)):::classKO
-    sujetA-->objetAP((Obj. Phy.)):::classOK
-    sujetA-->objetAA((Obj. Act.)):::classOK
-    sujetA-->objetAC((Obj. Cpt.)):::classOK
-    sujetA-->objetAR((Obj. Rap.)):::classOK
-    sujetC-->objetCP((Obj. Phy.)):::classKO
-    sujetC-->objetCA((Obj. Act.)):::classKO
-    sujetC-->objetCC((Obj. Cpt.)):::classKO
-    sujetC-->objetCR((Obj. Rap.)):::classKO
-    sujetR-->objetRP((Obj. Phy.)):::classKO
-    sujetR-->objetRA((Obj. Act.)):::classKO
-    sujetR-->objetRC((Obj. Cpt.)):::classKO
-    sujetR-->objetRR((Obj. Rap.)):::classKO
-
-    objetPP-->predPPP((Pre. Phy.)):::classKO
-    objetPP-->predPPA((Pre. Act.)):::classKO
-    objetPP-->predPPC((Pre. Cpt.)):::classKO
-    objetPP-->predPPR((Pre. Rap.)):::classKO
-    objetPA-->predPAP((Pre. Phy.)):::classKO
-    objetPA-->predPAA((Pre. Act.)):::classKO
-    objetPA-->predPAC((Pre. Cpt.)):::classKO
-    objetPA-->predPAR((Pre. Rap.)):::classKO
-    objetPC-->predPCP((Pre. Phy.)):::classKO
-    objetPC-->predPCA((Pre. Act.)):::classKO
-    objetPC-->predPCC((Pre. Cpt.)):::classKO
-    objetPC-->predPCR((Pre. Rap.)):::classKO
-    objetPR-->predPRP((Pre. Act.)):::classKO
-    objetPR-->predPRA((Pre. Act.)):::classKO
-    objetPR-->predPRC((Pre. Cpt.)):::classKO
-    objetPR-->predPRR((Pre. Rap.)):::classKO
-
-    objetAP-->predAPP((Pre. Phy.)):::classKO
-    objetAP-->predAPA((Pre. Act.)):::classKO
-    objetAP-->predAPC((Pre. Cpt.)):::classOK
-    objetAP-->predAPR((Pre. Rap.)):::classKO
-    objetAA-->predAAP((Pre. Phy.)):::classKO
-    objetAA-->predAAA((Pre. Act.)):::classKO
-    objetAA-->predAAC((Pre. Cpt.)):::classOK
-    objetAA-->predAAR((Pre. Rap.)):::classKO
-    objetAC-->predACP((Pre. Phy.)):::classKO
-    objetAC-->predACA((Pre. Act.)):::classKO
-    objetAC-->predACC((Pre. Cpt.)):::classOK
-    objetAC-->predACR((Pre. Rap.)):::classKO
-    objetAR-->predARP((Pre. Act.)):::classKO
-    objetAR-->predARA((Pre. Act.)):::classKO
-    objetAR-->predARC((Pre. Cpt.)):::classOK
-    objetAR-->predARR((Pre. Rap.)):::classKO
-
-    objetCP-->predCPP((Pre. Phy.)):::classKO
-    objetCP-->predCPA((Pre. Act.)):::classKO
-    objetCP-->predCPC((Pre. Cpt.)):::classKO
-    objetCP-->predCPR((Pre. Rap.)):::classKO
-    objetCA-->predCAP((Pre. Phy.)):::classKO
-    objetCA-->predCAA((Pre. Act.)):::classKO
-    objetCA-->predCAC((Pre. Cpt.)):::classKO
-    objetCA-->predCAR((Pre. Rap.)):::classKO
-    objetCC-->predCCP((Pre. Phy.)):::classKO
-    objetCC-->predCCA((Pre. Act.)):::classKO
-    objetCC-->predCCC((Pre. Cpt.)):::classKO
-    objetCC-->predCCR((Pre. Rap.)):::classKO
-    objetCR-->predCRP((Pre. Act.)):::classKO
-    objetCR-->predCRA((Pre. Act.)):::classKO
-    objetCR-->predCRC((Pre. Cpt.)):::classKO
-    objetCR-->predCRR((Pre. Rap.)):::classKO
-
-    objetRP-->predRPP((Pre. Phy.)):::classKO
-    objetRP-->predRPA((Pre. Act.)):::classKO
-    objetRP-->predRPC((Pre. Cpt.)):::classKO
-    objetRP-->predRPR((Pre. Rap.)):::classKO
-    objetRA-->predRAP((Pre. Phy.)):::classKO
-    objetRA-->predRAA((Pre. Act.)):::classKO
-    objetRA-->predRAC((Pre. Cpt.)):::classKO
-    objetRA-->predRAR((Pre. Rap.)):::classKO
-    objetRC-->predRCP((Pre. Phy.)):::classKO
-    objetRC-->predRCA((Pre. Act.)):::classKO
-    objetRC-->predRCC((Pre. Cpt.)):::classKO
-    objetRC-->predRCR((Pre. Rap.)):::classKO
-    objetRR-->predRRP((Pre. Act.)):::classKO
-    objetRR-->predRRA((Pre. Act.)):::classKO
-    objetRR-->predRRC((Pre. Cpt.)):::classKO
-    objetRR-->predRRR((Pre. Rap.)):::classKO
-
-    classDef classOK fill:green
-    classDef classKO fill:red
-    linkStyle 0,2,3,4,5,6,7,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,43,44,45,47,48,49,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 stroke:red,stroke-width:4px;
-    linkStyle 1,8,9,10,11,38,42,46,50 stroke:green,stroke-width:4px;
-```
 
 On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 64 possibilités nous n'en retenons que 9. Insistons sur le fait que ces incohérences le sont de notre point vue et que d'autres personnes pourrait considérer que d'autres rapports sont possibles suivant leurs manières de penser les connaissances. C'est ici que se situe les débats scientifiques non pas au niveau des techniques informatiques ou de la justesse mathématique mais au niveau épistémologique. Nous avons fait le choix de limiter les possibilités aux cas qui correspondent à l'épistémologie que nous pratiquons @sec-principesCarto mais de nombreuses questions se posent : peut-on considérer comme sujet uniquement les actants et comme prédicat uniquement les concepts ? Les concepts peuvent-ils être des objets ? Les physicalités peuvent-elles êtres des prédicats ?
 
@@ -622,7 +524,7 @@ Pour donner du sens à ce monde de chaos, les cribles offrent des réseaux de co
 > «  Rappelons que l’identification analogique repose sur la reconnaissance d’une discontinuité générale des intériorités et des physicalités aboutissant à un monde peuplé de singularités, un monde qui serait donc difficile à habiter et à penser en raison du foisonnement des différences qui le composent, si l’on ne s’efforçait de trouver entre les existants, comme entre les parties dont ils sont faits, des réseaux de correspondance permettant un cheminement interprétatif. » [@descola2006, p. 182]
 
 
-Concevoir un crible entre objectivité et subjectivité, monde naturel et délibération sémiotique, physicalités et intériorités, consiste dans l'univers du numérique à définir une analogie pour modéliser les cohérences nécessaires à la récolte des données et à leurs interprétations. Le crible sujet – prédicat – objet est une structure trop simple et beaucoup trop plastique pour réduire suffisamment les « proliférations stochastiques », nous proposons d'enrichir cette structure avec des règles analogiques supplémentaires qui minimiseront les réseaux de correspondances et les chemins interprétatifs possibles.
+Concevoir un crible entre objectivité et subjectivité, monde naturel et délibération sémiotique, physicalités et intérioritéscf, consiste dans l'univers du numérique à définir une analogie pour modéliser les cohérences nécessaires à la récolte des données et à leurs interprétations. Le crible sujet – prédicat – objet est une structure trop simple et beaucoup trop plastique pour réduire suffisamment les « proliférations stochastiques », nous proposons d'enrichir cette structure avec des règles analogiques supplémentaires qui minimiseront les réseaux de correspondances et les chemins interprétatifs possibles.
 
 ### Proposition d'un crible {#sec-propositionCrible}
 
