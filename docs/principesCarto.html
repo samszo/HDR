@@ -80,9 +80,6 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -743,111 +740,11 @@ avec A<sup>c</sup> le complémentaire de A soit E − A.&nbsp;» <span class="ci
 </div>
 <p>Les recherches menées en théories des graphes <span class="citation" data-cites="moretti2008">(<a href="references.html#ref-moretti2008" role="doc-biblioref">Moretti, Jeanpierre, and Dobenesque 2008</a>)</span> ont montré leur souplesse dans la capacité de mettre en relation des éléments hétérogènes les uns avec les autres où : &gt; «&nbsp;la réalité abordée est réduite à des symboles sans signification pour être soumise à des manipulations aveugles. » <span class="citation" data-cites="bachimont2020">(<a href="references.html#ref-bachimont2020" role="doc-biblioref">B. Bachimont 2020</a>)</span>.</p>
 <p>Nous défendons ici une toute autre approche puisque la modélisation des rapports que nous proposons s’incrit dans une démarche où ne reduisons pas les objets que nous manipulons uniquement à des symboles mais nous les associons à une «&nbsp;organologie générale » <span class="citation" data-cites="stiegler2005">(<a href="references.html#ref-stiegler2005" role="doc-biblioref">Stiegler 2005</a>)</span> où chaque élément appartient à une dimension existentielle qui contraint les manières de le décrire et des le mettre en rapport avec d’autres. Potentiellement, il est possible de mettre en rapport n’importe quelle ressource avec n’importe quelles autres quel que soit la dimension existentielle à laquelle elle appartient. Notre modèle propose quatre dimensions existentielles et trois positions pour définir un rapport ce qui donne 4*4*4 = 64 possibilités de rapports. Toutefois, de notre point vue, ces 64 possibilités de rapport ne sont pas toutes cohérentes comme le résume le tableau suivant :</p>
-<div class="cell" data-fig-height="100px">
-<div class="cell-output-display">
-<div id="fig-contraintesRapports" class="quarto-figure quarto-figure-center anchored">
+<div id="fig-coherenceRapport" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<div>
-<pre class="mermaid mermaid-js" data-label="fig-contraintesRapports">graph LR
-    root((rapports possibles)):::classOK--&gt;sujetP((Suj. Phy.)):::classKO
-    root--&gt;sujetA((Suj. Act.)):::classOK
-    root--&gt;sujetC((Suj. Cpt.)):::classKO
-    root--&gt;sujetR((Suj. Rap.)):::classKO
-    sujetP--&gt;objetPP((Obj. Phy.)):::classKO
-    sujetP--&gt;objetPA((Obj. Act.)):::classKO
-    sujetP--&gt;objetPC((Obj. Cpt.)):::classKO
-    sujetP--&gt;objetPR((Obj. Rap.)):::classKO
-    sujetA--&gt;objetAP((Obj. Phy.)):::classOK
-    sujetA--&gt;objetAA((Obj. Act.)):::classOK
-    sujetA--&gt;objetAC((Obj. Cpt.)):::classOK
-    sujetA--&gt;objetAR((Obj. Rap.)):::classOK
-    sujetC--&gt;objetCP((Obj. Phy.)):::classKO
-    sujetC--&gt;objetCA((Obj. Act.)):::classKO
-    sujetC--&gt;objetCC((Obj. Cpt.)):::classKO
-    sujetC--&gt;objetCR((Obj. Rap.)):::classKO
-    sujetR--&gt;objetRP((Obj. Phy.)):::classKO
-    sujetR--&gt;objetRA((Obj. Act.)):::classKO
-    sujetR--&gt;objetRC((Obj. Cpt.)):::classKO
-    sujetR--&gt;objetRR((Obj. Rap.)):::classKO
-
-    objetPP--&gt;predPPP((Pre. Phy.)):::classKO
-    objetPP--&gt;predPPA((Pre. Act.)):::classKO
-    objetPP--&gt;predPPC((Pre. Cpt.)):::classKO
-    objetPP--&gt;predPPR((Pre. Rap.)):::classKO
-    objetPA--&gt;predPAP((Pre. Phy.)):::classKO
-    objetPA--&gt;predPAA((Pre. Act.)):::classKO
-    objetPA--&gt;predPAC((Pre. Cpt.)):::classKO
-    objetPA--&gt;predPAR((Pre. Rap.)):::classKO
-    objetPC--&gt;predPCP((Pre. Phy.)):::classKO
-    objetPC--&gt;predPCA((Pre. Act.)):::classKO
-    objetPC--&gt;predPCC((Pre. Cpt.)):::classKO
-    objetPC--&gt;predPCR((Pre. Rap.)):::classKO
-    objetPR--&gt;predPRP((Pre. Act.)):::classKO
-    objetPR--&gt;predPRA((Pre. Act.)):::classKO
-    objetPR--&gt;predPRC((Pre. Cpt.)):::classKO
-    objetPR--&gt;predPRR((Pre. Rap.)):::classKO
-
-    objetAP--&gt;predAPP((Pre. Phy.)):::classKO
-    objetAP--&gt;predAPA((Pre. Act.)):::classKO
-    objetAP--&gt;predAPC((Pre. Cpt.)):::classOK
-    objetAP--&gt;predAPR((Pre. Rap.)):::classKO
-    objetAA--&gt;predAAP((Pre. Phy.)):::classKO
-    objetAA--&gt;predAAA((Pre. Act.)):::classKO
-    objetAA--&gt;predAAC((Pre. Cpt.)):::classOK
-    objetAA--&gt;predAAR((Pre. Rap.)):::classKO
-    objetAC--&gt;predACP((Pre. Phy.)):::classKO
-    objetAC--&gt;predACA((Pre. Act.)):::classKO
-    objetAC--&gt;predACC((Pre. Cpt.)):::classOK
-    objetAC--&gt;predACR((Pre. Rap.)):::classKO
-    objetAR--&gt;predARP((Pre. Act.)):::classKO
-    objetAR--&gt;predARA((Pre. Act.)):::classKO
-    objetAR--&gt;predARC((Pre. Cpt.)):::classOK
-    objetAR--&gt;predARR((Pre. Rap.)):::classKO
-
-    objetCP--&gt;predCPP((Pre. Phy.)):::classKO
-    objetCP--&gt;predCPA((Pre. Act.)):::classKO
-    objetCP--&gt;predCPC((Pre. Cpt.)):::classKO
-    objetCP--&gt;predCPR((Pre. Rap.)):::classKO
-    objetCA--&gt;predCAP((Pre. Phy.)):::classKO
-    objetCA--&gt;predCAA((Pre. Act.)):::classKO
-    objetCA--&gt;predCAC((Pre. Cpt.)):::classKO
-    objetCA--&gt;predCAR((Pre. Rap.)):::classKO
-    objetCC--&gt;predCCP((Pre. Phy.)):::classKO
-    objetCC--&gt;predCCA((Pre. Act.)):::classKO
-    objetCC--&gt;predCCC((Pre. Cpt.)):::classKO
-    objetCC--&gt;predCCR((Pre. Rap.)):::classKO
-    objetCR--&gt;predCRP((Pre. Act.)):::classKO
-    objetCR--&gt;predCRA((Pre. Act.)):::classKO
-    objetCR--&gt;predCRC((Pre. Cpt.)):::classKO
-    objetCR--&gt;predCRR((Pre. Rap.)):::classKO
-
-    objetRP--&gt;predRPP((Pre. Phy.)):::classKO
-    objetRP--&gt;predRPA((Pre. Act.)):::classKO
-    objetRP--&gt;predRPC((Pre. Cpt.)):::classKO
-    objetRP--&gt;predRPR((Pre. Rap.)):::classKO
-    objetRA--&gt;predRAP((Pre. Phy.)):::classKO
-    objetRA--&gt;predRAA((Pre. Act.)):::classKO
-    objetRA--&gt;predRAC((Pre. Cpt.)):::classKO
-    objetRA--&gt;predRAR((Pre. Rap.)):::classKO
-    objetRC--&gt;predRCP((Pre. Phy.)):::classKO
-    objetRC--&gt;predRCA((Pre. Act.)):::classKO
-    objetRC--&gt;predRCC((Pre. Cpt.)):::classKO
-    objetRC--&gt;predRCR((Pre. Rap.)):::classKO
-    objetRR--&gt;predRRP((Pre. Act.)):::classKO
-    objetRR--&gt;predRRA((Pre. Act.)):::classKO
-    objetRR--&gt;predRRC((Pre. Cpt.)):::classKO
-    objetRR--&gt;predRRR((Pre. Rap.)):::classKO
-
-    classDef classOK fill:green
-    classDef classKO fill:red
-    linkStyle 0,2,3,4,5,6,7,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,43,44,45,47,48,49,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 stroke:red,stroke-width:4px;
-    linkStyle 1,8,9,10,11,38,42,46,50 stroke:green,stroke-width:4px;
-</pre>
-</div>
+<p><img src="images/coherencesRapports.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Figure&nbsp;1.29: Cohérences des rapports</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 64 possibilités nous n’en retenons que 9. Insistons sur le fait que ces incohérences le sont de notre point vue et que d’autres personnes pourrait considérer que d’autres rapports sont possibles suivant leurs manières de penser les connaissances. C’est ici que se situe les débats scientifiques non pas au niveau des techniques informatiques ou de la justesse mathématique mais au niveau épistémologique. Nous avons fait le choix de limiter les possibilités aux cas qui correspondent à l’épistémologie que nous pratiquons <a href="#sec-principesCarto"><span>Chapter&nbsp;1</span></a> mais de nombreuses questions se posent : peut-on considérer comme sujet uniquement les actants et comme prédicat uniquement les concepts ? Les concepts peuvent-ils être des objets ? Les physicalités peuvent-elles êtres des prédicats ?</p>
 <p>Pour toutes ces questions, il convient de trouver des exemples précis dans la littérature ou dans la vie courante qui montre la cohérence ou non des rapports. Nous nous appuyons sur notre modèle <a href="resultats.html#sec-modeleOntoEthique"><span>Section&nbsp;5.0.2</span></a> pour faire une séparation nette entre les actants comme milieu entre les dimensions des physicalités et des intériorités, entre les attributs de l’entendu et de la pensée. Nous posons comme principe de modélisation que l’objet est une physicalité, que le prédicat est un concept et que le sujet est un actant. Attention, ces restrictions n’empèchent pas de considérer une personnes comme un concept comme le fait par exemple la philosophie avec le personnage de l’idiot ou quand on parle de Napoléon en politique ou dans une fiction. De même, les physicalités peuvent être conceptualisés pour en parler en terme générique et pas spécifique, la physicalité banane dans la coupe à fruit sur la table, devient alors banane en tant que fruit jaune et allongée des zones tropicales. Il est toujours possible de modéliser une entité suivant un dimension particulière afin de s’interroger sur un point de vue spécifique. C’est ce qui et à l’oeuvre dans l’hypothèse Gaïa qui pense notre Terre non plus uniquement comme un ensemble de physicalités mais comme actant <span class="citation" data-cites="latour2015">(<a href="references.html#ref-latour2015" role="doc-biblioref">Latour 2015</a>)</span>. C’est aussi ce que font les poètes en transformant des concepts ou des émotions en actants autonomes. Globalement, la transformation d’une dimension physique ou conceptuelle en actant est un processus d’agentivité <span class="citation" data-cites="ingold hörl2012">(<a href="references.html#ref-ingold" role="doc-biblioref">Ingold, n.d.</a>; <a href="references.html#ref-hörl2012" role="doc-biblioref">Hörl and Plas 2012</a>)</span> qui est de la responsabilité du modélisateur dont les choix orientent explicitement ses analyses vers un mode d’existence spécifique :</p>
@@ -914,7 +811,7 @@ avec A<sup>c</sup> le complémentaire de A soit E − A.&nbsp;» <span class="ci
 <figcaption class="figure-caption">Figure&nbsp;1.31: Taxonomie des idées</figcaption>
 </figure>
 </div>
-<p>Le crible est pour l’instant composé de trois dimensions correspondant au sujet, à l’objet et au prédicat de la formule logique basique. Chaque dimension est une collection d’éléments dont nous avons défini les caractéristiques essentielles. Il nous faut maintenant ajouter une quatrième dimension correspondant aux rapports <span class="quarto-unresolved-ref">?sec-sec-rapportsInstExis</span> que ces éléments entretiennent les uns avec les autres. En effet, suivant notre hypothèse d’un univers chaotique – analogiste, toutes les relations entre objets, sujets et prédicats sont possibles, mais toutes ne sont pas exprimées, uniquement celles qui sont choisies pour la modélisation . Il est donc important de définir les rapports comme une des dimensions fondamentales puisqu’ils existent potentiellement, mais ne sont pas effectuées nécessairement <a href="#fig-contraintesRapports">Figure&nbsp;<span>1.29</span></a> . Il y a une actualité des rapports, une temporalité des relations entre les éléments composant la formule sujet, objet et prédicat, il convient donc de modéliser celles-ci pour passer d’une signification potentielle du crible à une expression de cette signification. Les rapports sont l’expression temporelle des dynamismes du crible à la fois dans le présent, le passé et le futur. L’expressions d’un rapport se fait dans un présent dont on enregistre la date pour constituer un historique et simuler les évolutions. Par exemple, la formule&nbsp;: «&nbsp;il (sujet) annote (prédicat) un livre (objet)&nbsp;» est effectuée à des moments précis et suivant des répétitions particulières. Les rapports sont donc génératifs dans la mesure où ils créent une potentialité d’évolution non seulement dans leurs répétitions à l’identique, mais aussi dans leurs transformations par mutations des éléments les constituants. La formule «&nbsp;il (sujet) annote (prédicat) un livre (objet)&nbsp;» peut se transformer en «&nbsp;il (sujet) annote (prédicat) un article (objet)&nbsp;» ou en «&nbsp;il (sujet) écrit (prédicat) un livre (objet)&nbsp;». Ce sera la modélisation qui limitera les évolutions du rapport en définissant les éléments qui composent les objets, les sujets et les prédicats.</p>
+<p>Le crible est pour l’instant composé de trois dimensions correspondant au sujet, à l’objet et au prédicat de la formule logique basique. Chaque dimension est une collection d’éléments dont nous avons défini les caractéristiques essentielles. Il nous faut maintenant ajouter une quatrième dimension correspondant aux rapports <span class="quarto-unresolved-ref">?sec-sec-rapportsInstExis</span> que ces éléments entretiennent les uns avec les autres. En effet, suivant notre hypothèse d’un univers chaotique – analogiste, toutes les relations entre objets, sujets et prédicats sont possibles, mais toutes ne sont pas exprimées, uniquement celles qui sont choisies pour la modélisation . Il est donc important de définir les rapports comme une des dimensions fondamentales puisqu’ils existent potentiellement, mais ne sont pas effectuées nécessairement <span class="quarto-unresolved-ref">?fig-contraintesRapports</span> . Il y a une actualité des rapports, une temporalité des relations entre les éléments composant la formule sujet, objet et prédicat, il convient donc de modéliser celles-ci pour passer d’une signification potentielle du crible à une expression de cette signification. Les rapports sont l’expression temporelle des dynamismes du crible à la fois dans le présent, le passé et le futur. L’expressions d’un rapport se fait dans un présent dont on enregistre la date pour constituer un historique et simuler les évolutions. Par exemple, la formule&nbsp;: «&nbsp;il (sujet) annote (prédicat) un livre (objet)&nbsp;» est effectuée à des moments précis et suivant des répétitions particulières. Les rapports sont donc génératifs dans la mesure où ils créent une potentialité d’évolution non seulement dans leurs répétitions à l’identique, mais aussi dans leurs transformations par mutations des éléments les constituants. La formule «&nbsp;il (sujet) annote (prédicat) un livre (objet)&nbsp;» peut se transformer en «&nbsp;il (sujet) annote (prédicat) un article (objet)&nbsp;» ou en «&nbsp;il (sujet) écrit (prédicat) un livre (objet)&nbsp;». Ce sera la modélisation qui limitera les évolutions du rapport en définissant les éléments qui composent les objets, les sujets et les prédicats.</p>
 <p>Le crible que nous proposons pour modéliser notre écosystème de connaissance est donc composé à partir de la formule logique sujet – objet – prédicat que nous avons décomposé en quatre dimensions possédant chacune leurs contraintes&nbsp;: - objet&nbsp;: éléments physiques structurés en arborescences, - sujet&nbsp;: éléments sociaux structurés en collectifs, - prédicat&nbsp;: éléments conceptuels structurés en topologies, - rapports&nbsp;: éléments temporels structurés en triplets.</p>
 </section>
 <section id="sec-usageCrible" class="level3" data-number="1.7.2">

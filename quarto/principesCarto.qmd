@@ -449,8 +449,7 @@ Chaque espace défini par les intersections renvoie un ensemble particulier d'ac
 
 Les rapports sont la quatrième dimension de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances. Ils composent la dimension existentielle qui relie les trois autres dimensions, les connaissances et les espaces qui leurs sont associés : dimension physique, connaissances des chocs et espaces matériels hiérarchiques, dimension des concepts, connaissances des essences et espaces topologiques, dimension des actants, connaissances des dynamismes et espaces topographiques chorématiques. Les rapports définissent des espaces temporels, ils transforment une virtualité en actualité. Par exemple, je suis en tant qu'actant actuellement en rapport avec la physicalité de mon clavier et de mon écran qui produisent les concepts que vous lisez. Ces rapports, ne seront plus actuels quand à la fin de cette séance de travail je commencerais une autre activité. Moi en tant qu'actant, mon clavier en tant que physicalités et ce que j'ai écrit en tant que concepts, nous existons toujours comme potentialités de futurs rapports qui s'instancieront à une date et pour une période données. En d'autres termes, les trois dimensions physique, actant, concept créent des potentialités de rapports qui s'instancient ici et maintenant dans l'actualité d'une existence informationnelle.
 
-Pour modéliser des rapports le modèle hypertextuel basique : nœud - ancre - lien et depuis longtemps utilisé [@balpe1996] de même que le triplet RDF sujet - objet - prédicat [@gandon2012] que le W3C préconise pour modéliser des rapports logiques en RDF\[\^principecarto-37-1\]. Ils sont traditionnellement représentés sous la forme d'un graphe où le sujet et l'objet sont des entités et le prédicat un label décrivant le lien entre les deux entités : 
-![Visualisattion des triplets RDF](images/Schema_triplet.png){#fig-tripletRDF fig-align="center"}
+Pour modéliser des rapports le modèle hypertextuel basique : nœud - ancre - lien et depuis longtemps utilisé [@balpe1996] de même que le triplet RDF sujet - objet - prédicat [@gandon2012] que le W3C préconise pour modéliser des rapports logiques en RDF\[\^principecarto-37-1\]. Ils sont traditionnellement représentés sous la forme d'un graphe où le sujet et l'objet sont des entités et le prédicat un label décrivant le lien entre les deux entités : ![Visualisattion des triplets RDF](images/Schema_triplet.png){#fig-tripletRDF fig-align="center"}
 
 Nos principes de cartographie s'accomodent parfaitement de cette modélisation par triplet RDF mais nous faisons le choix d'un autre type de représentation qui reprend les recommandations du W3C avec le format « Open Annotation »[^principescarto-36] qui code de façon très simple les relations entre des ressources numériques afin de définir un point de vue particulier sur celles-ci. Suivant ce modèle une "annotation" est ce qui met en rapport un "body" à une "target". De notre point de vue, la modélisation du rapport est donc une "annotation" qui dans un ici et maintenant va mettre en relation deux ressources.
 
@@ -464,7 +463,6 @@ Les recherches menées en théories des graphes [@moretti2008] ont montré leur 
 Nous défendons ici une toute autre approche puisque la modélisation des rapports que nous proposons s'incrit dans une démarche où ne reduisons pas les objets que nous manipulons uniquement à des symboles mais nous les associons à une « organologie générale » [@stiegler2005] où chaque élément appartient à une dimension existentielle qui contraint les manières de le décrire et des le mettre en rapport avec d'autres. Potentiellement, il est possible de mettre en rapport n'importe quelle ressource avec n'importe quelles autres quel que soit la dimension existentielle à laquelle elle appartient. Notre modèle propose quatre dimensions existentielles et trois positions pour définir un rapport ce qui donne 4\*4\*4 = 64 possibilités de rapports. Toutefois, de notre point vue, ces 64 possibilités de rapport ne sont pas toutes cohérentes comme le résume le tableau suivant :
 
 ![Cohérences des rapports](images/coherencesRapports.png){#fig-coherenceRapport fig-align="center"}
-
 
 On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 64 possibilités nous n'en retenons que 9. Insistons sur le fait que ces incohérences le sont de notre point vue et que d'autres personnes pourrait considérer que d'autres rapports sont possibles suivant leurs manières de penser les connaissances. C'est ici que se situe les débats scientifiques non pas au niveau des techniques informatiques ou de la justesse mathématique mais au niveau épistémologique. Nous avons fait le choix de limiter les possibilités aux cas qui correspondent à l'épistémologie que nous pratiquons @sec-principesCarto mais de nombreuses questions se posent : peut-on considérer comme sujet uniquement les actants et comme prédicat uniquement les concepts ? Les concepts peuvent-ils être des objets ? Les physicalités peuvent-elles êtres des prédicats ?
 
@@ -523,7 +521,6 @@ Pour donner du sens à ce monde de chaos, les cribles offrent des réseaux de co
 
 > «  Rappelons que l’identification analogique repose sur la reconnaissance d’une discontinuité générale des intériorités et des physicalités aboutissant à un monde peuplé de singularités, un monde qui serait donc difficile à habiter et à penser en raison du foisonnement des différences qui le composent, si l’on ne s’efforçait de trouver entre les existants, comme entre les parties dont ils sont faits, des réseaux de correspondance permettant un cheminement interprétatif. » [@descola2006, p. 182]
 
-
 Concevoir un crible entre objectivité et subjectivité, monde naturel et délibération sémiotique, physicalités et intérioritéscf, consiste dans l'univers du numérique à définir une analogie pour modéliser les cohérences nécessaires à la récolte des données et à leurs interprétations. Le crible sujet – prédicat – objet est une structure trop simple et beaucoup trop plastique pour réduire suffisamment les « proliférations stochastiques », nous proposons d'enrichir cette structure avec des règles analogiques supplémentaires qui minimiseront les réseaux de correspondances et les chemins interprétatifs possibles.
 
 ### Proposition d'un crible {#sec-propositionCrible}
@@ -565,8 +562,7 @@ Les hypothèses cartographiques que nous venons de poser, précise notre modèle
 [^principescarto-43]:
     > <https://www.w3.org/RDF/>
 
-![Semantic Web Stack, Par W3C https://commons.wikimedia.org/wiki/File:Semantic_Web_Stack.png](media/1000000100000258000002762CF3B23905723B38.png){#fig-semanticWebStack }
-
+![Semantic Web Stack, Par W3C https://commons.wikimedia.org/wiki/File:Semantic_Web_Stack.png](media/1000000100000258000002762CF3B23905723B38.png){#fig-semanticWebStack}
 
 Toutefois, il nous semble que la confiance est toute relative puisque celle-ci relève d'avantage d'un pari que d'un calcul logique :
 
@@ -586,14 +582,13 @@ Nous avons donc un pli modélisé par le dispositif numérique qui enregistre le
 
 -   les « valeurs-beautés » qui définissent le champ esthétique au sens de tout ce qui transforme nos goûts et nos sensibilités.
 
-Ces positionnements sur l’importance des valeurs définissent des points de vue particuliers et des fluctuations temporelles suivant le moment de leurs expressions. Par exemple, l'évaluation d'une activité peut évoluer suivant que ses finalités sont accomplies ou non. Si j'annote une citation pour le plaisir de la découverte et de l'échange, mais qu’une fois sur deux le plaisir n’est pas là, ce critère devient moins pertinent alors que celui de la pertinence de la citation ne change pas. Petit à petit un équilibre se met en place entre l’importance des valeurs et leurs pertinences dans l’activité. 
+Ces positionnements sur l’importance des valeurs définissent des points de vue particuliers et des fluctuations temporelles suivant le moment de leurs expressions. Par exemple, l'évaluation d'une activité peut évoluer suivant que ses finalités sont accomplies ou non. Si j'annote une citation pour le plaisir de la découverte et de l'échange, mais qu’une fois sur deux le plaisir n’est pas là, ce critère devient moins pertinent alors que celui de la pertinence de la citation ne change pas. Petit à petit un équilibre se met en place entre l’importance des valeurs et leurs pertinences dans l’activité.
 
 Le dispositif numérique de cartographie des affects a été implémenté dans un formulaire que l'utilisateur peut activé en cliquant sur une icône dédiée. Il présente le crible conceptuel soit sous la forme d'une liste de curseurs permettant d'évaluer individuellement l'importance de chaque concept soit sous la forme d'une cartographie sémantique qui présente un espace coloré qui enregistre en un clic l'importance des concepts relativement les uns par rapport aux autres.
 
 Nous avons évalué avec ce dispositif le corpus de nos positionnements scientifiques @sec-positionnements. Les données que nous avons récoltés proviennent de nos propres évaluations, il nous faut maintenant mettre à disposition le corpus et les outils de cartographie associés pour récolter des données multipliant les points de vue. Afin que cette modélisation exprime un point de vue collectif, nous proposons de prendre en compte une pondération sociale des positionnements individuels suivant les principes avancé par Tarde et repris par Citton en pondérant les registres de valeurs avec trois paramètres :
 
-> « 
-> -   a\) le nombre de ceux qui adhèrent à la conception de l'utilité, de la vérité ou de la beauté valorisant (ou condamnant) un objet ou une pratique donnée ;
+> «  - a) le nombre de ceux qui adhèrent à la conception de l'utilité, de la vérité ou de la beauté valorisant (ou condamnant) un objet ou une pratique donnée ;
 >
 > -   b\) le poids social de ces adhérents, selon leur statut, leur fonction, leur prestige, leur notoriété et tout ce qui détermine la capacité d'entraînement dont bénéficie leur jugement sur le jugement général du public ; et
 >
