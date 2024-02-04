@@ -1,0 +1,10 @@
+# Parcours universitaire {#sec-item299358}
+::: {.callout-tip}
+## dcterms:isPartOf
+ 
+:::
+## Maîtrise d’Histoire de l’art {#sec-item299343}
+## DEA d’Histoire de l’art {#sec-item299342}
+## Licence de Philosophie par correspondance {#sec-item299341}
+## Doctorat en Sciences de l’Information et de la communication {#sec-item299340}
+## Licence d'Histoire de l'Art {#sec-item428891}

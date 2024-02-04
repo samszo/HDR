@@ -1,0 +1,22 @@
+project:
+  type: book
+  output-dir: ../docs/cv
+
+book:
+  title: "Curiculum Vitae"
+  author: "Samuel Szoniecky"
+  date: "04/02/2024"
+  chapters:
+    - index.qmd
+    - cvReferences.qmd
+
+bibliography: cvReferences.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
