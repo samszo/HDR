@@ -5,3 +5,5 @@ docs/.DS_Store
 quarto/.DS_Store
 .DS_Store
 docs/assets/data/.~lock.omkSamSzo_concepts.csv#
+
+/.luarc.json
