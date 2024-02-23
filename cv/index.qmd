@@ -28,26 +28,24 @@
 ## Parcours universitaire {#sec-item299358 .o-Item_schema-Chapter}
 
 
-### ***1990-09-21  -  1993-09-30*** Licence d'Histoire de l'Art {#sec-item428891 .unnumbered .o-Item_dctype-Event}
+### ***1990 - 1993*** Licence d'Histoire de l'Art {#sec-item428891 .unnumbered .o-Item_dctype-Event}
 
 
-### ***1993-10-01  -  1994-09-30*** Maîtrise d’Histoire de l’art {#sec-item299343 .unnumbered .o-Item_dctype-Event}
-**Description** : Le musée imaginaire d’un marchand de gravures à Paris au XVIIIe siècle, Université Paris X Nanterre, sous la direction de Christian Michel 
-
-
-
-### ***1994-10-01  -  1995-06-30*** DEA d’Histoire de l’art {#sec-item299342 .unnumbered .o-Item_dctype-Event}
-**Description** : John Cage, influence des processus chaotiques dans la création contemporaine, Université Paris X Nanterre, sous la direction de Claude Frontisi. 
+### ***1993 - 1994*** Maîtrise d’Histoire de l’art {#sec-item299343 .unnumbered .o-Item_dctype-Event}
+*Description* : Le musée imaginaire d’un marchand de gravures à Paris au XVIIIe siècle, Université Paris X Nanterre, sous la direction de Christian Michel 
 
 
 
-### ***1995-10-01  -  1996-06-30*** Licence de Philosophie par correspondance {#sec-item299341 .unnumbered .o-Item_dctype-Event}
-**Description** : Développement et expérimentation d’une application informatique pour l’écriture philosophique post-métaphysique, Université Paris X Nanterre. 
+### ***1994 - 1995*** DEA d’Histoire de l’art {#sec-item299342 .unnumbered .o-Item_dctype-Event}
+*Description* : John Cage, influence des processus chaotiques dans la création contemporaine, Université Paris X Nanterre, sous la direction de Claude Frontisi. 
 
 
+### ***1995 - 1996*** Licence de Philosophie par correspondance {#sec-item299341 .unnumbered .o-Item_dctype-Event}
+*Description* : Développement et expérimentation d’une application informatique pour l’écriture philosophique post-métaphysique, Université Paris X Nanterre. 
 
-### ***2009-10-01  -  2012-12-07*** Doctorat en Sciences de l’Information et de la communication {#sec-item299340 .unnumbered .o-Item_dctype-Event}
-**Description** : Études et conception d’un langage symbolique pour l’intelligence collective : vers un langage allégorique pour le Web, Université Paris 8, sous la direction d’Imad Saleh. 
+
+### ***2009 - 2012*** Doctorat en Sciences de l’Information et de la communication {#sec-item299340 .unnumbered .o-Item_dctype-Event}
+*Description* : Études et conception d’un langage symbolique pour l’intelligence collective : vers un langage allégorique pour le Web, Université Paris 8, sous la direction d’Imad Saleh. 
 
 
 ## Enseignements {#sec-item299352 .o-Item_schema-Chapter}
@@ -59,824 +57,158 @@
 #### Cours à l’Université Paris 8 {#sec-item299624 .unnumbered .o-Item_schema-Chapter}
 
 
-##### Atelier génération de texte {#sec-item299446 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce MIP s’inscrit dans le cadre du partenariat international entre ArTeC et le Rochester Institute of Technology (RIT). L’objectif est de maîtriser la gestion d’un projet créatif numérique au sein d’une équipe internationale en mettant en œuvre des méthodologies de communication numérique collaborative synchrones et asynchrones. 
+##### 2019 - Présent ***Atelier génération de texte*** {#sec-item299446 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce MIP s’inscrit dans le cadre du partenariat international entre ArTeC et le Rochester Institute of Technology (RIT). L’objectif est de maîtriser la gestion d’un projet créatif numérique au sein d’une équipe internationale en mettant en œuvre des méthodologies de communication numérique collaborative synchrones et asynchrones.
 
-**A comme Parcours** : [Master 1 NET](http://localhost/samszo/omk/s/fiches/item/299416){target='_blank'} 
+*A comme Parcours* : [Master 1 NET](http://localhost/samszo/omk/s/fiches/item/299416){target='_blank'} 
 
+##### 2013 - 2020 ***Gestion de projet*** {#sec-item299440 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce cours prépare les étudiants à mieux gérer leurs projets par la mise en pratique de méthode et d’outils : Gantt, planning partagé, gestionnaire de code… 
 
-
-###### ***2019-02-01  -  2019-05-30*** 15 Heures {#sec-item299564 .unnumbered .o-Item_dctype-Event}
-
-
-###### ***2020-02-01  -  2020-05-30*** 15 Heures {#sec-item299565 .unnumbered .o-Item_dctype-Event}
+*A comme Parcours* : [Licence Pro OCI](http://localhost/samszo/omk/s/fiches/item/299412){target='_blank'} 
 
 
-###### ***2021-02-01  -  2021-05-30*** 15 Heures {#sec-item299566 .unnumbered .o-Item_dctype-Event}
+##### 2014 - Présent ***Ethique du web et écosystèmes d’information*** {#sec-item299433 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours pour sensibiliser les étudiants à la complexité de l’information-communication par une modélisation écosystémique suivant une problématique éthique. 
 
-###### ***2022-02-01  -  2022-05-30*** 15 Heures {#sec-item299567 .unnumbered .o-Item_dctype-Event}
+*A comme Parcours* : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
+##### 2020 - Présent ***Systèmes d’information et programmation Internet*** {#sec-item299431 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours pour comprendre en quoi un système d’information est un écosystème et comment le développer en utilisant des langages de programmation Web. 
 
-###### ***2023-02-01  -  2023-05-30*** 15 Heures {#sec-item299568 .unnumbered .o-Item_dctype-Event}
+*A comme Parcours* : [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420){target='_blank'} 
 
-##### Gestion de projet {#sec-item299440 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce cours prépare les étudiants à mieux gérer leurs projets par la mise en pratique de méthode et d’outils : Gantt, planning partagé, gestionnaire de code… 
+##### 2010 - 2015 ***Conception de site Web*** {#sec-item299439 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours pour la conception collaborative d’édition numériques à partir de CMS et avec les technologie HTML, CSS, javascript. 
 
-**A comme Parcours** : [Licence Pro OCI](http://localhost/samszo/omk/s/fiches/item/299412){target='_blank'} 
+*A comme Parcours* : [DU Assistant en technologies numériques audiovisuelles](http://localhost/samszo/omk/s/fiches/item/299425){target='_blank'} 
 
+##### 2013 - 2020 ***Atelier de projets collaboratifs*** {#sec-item299438 .unnumbered .o-Item_fup8-EC}
+*Description* : Dans ce cours nous accompagnement les étudiants dans la conception et la réalisation d’un projet numérique incluant : une note d’intention, un teaser vidéo, un site Web, une application mobile et un dossier de conception. Les étudiants devront rédiger un cahier des charges pour un projet hypermédia/TIC, savoir communiquer et collaborer avec les équipes de création et de développement, participer à la réalisation de projets innovants, mettre en œuvre ou appliquer une méthode de développement adaptée à un travail d’équipe, savoir réaliser une maquette fonctionnelle, argumenter et défendre un point de vue en réunion d’équipe, devant des clients, décideurs, etc. 
 
-###### ***2013-02-01  -  2013-05-30*** 30 Heures {#sec-item299528 .unnumbered .o-Item_dctype-Event}
-
-###### ***2014-02-01  -  2014-05-30*** 30 Heures {#sec-item299529 .unnumbered .o-Item_dctype-Event}
-
-
-###### ***2015-02-01  -  2015-05-30*** 30  Heures {#sec-item299530 .unnumbered .o-Item_dctype-Event}
-
-###### ***2016-02-01  -  2016-05-30*** 30  Heures {#sec-item299531 .unnumbered .o-Item_dctype-Event}
+*A comme Parcours* : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
 
 
-###### ***2017-02-01  -  2017-05-30*** 30  Heures {#sec-item299532 .unnumbered .o-Item_dctype-Event}
 
-###### ***2018-02-01  -  2018-05-30*** 30  Heures {#sec-item299533 .unnumbered .o-Item_dctype-Event}
-
-###### ***2019-02-01  -  2019-05-30*** 30  Heures {#sec-item299534 .unnumbered .o-Item_dctype-Event}
-
-###### ***2020-02-01  -  2020-05-30*** 30  Heures {#sec-item299535 .unnumbered .o-Item_dctype-Event}
-
-##### Ethique du web et écosystèmes d’information {#sec-item299433 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours pour sensibiliser les étudiants à la complexité de l’information-communication par une modélisation écosystémique suivant une problématique éthique. 
-
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
-
-###### ***2014-02-01  -  2014-05-30*** 30  Heures {#sec-item299475 .unnumbered .o-Item_dctype-Event}
-
-###### ***2015-02-01  -  2015-05-30*** 30  Heures {#sec-item299476 .unnumbered .o-Item_dctype-Event}
-
-###### ***2016-02-01  -  2016-05-30*** 30  Heures {#sec-item299477 .unnumbered .o-Item_dctype-Event}
-
-###### ***2017-02-01  -  2017-05-30*** 30  Heures {#sec-item299478 .unnumbered .o-Item_dctype-Event}
-
-###### ***2018-02-01  -  2018-05-30*** 30  Heures {#sec-item299479 .unnumbered .o-Item_dctype-Event}
-
-###### ***2019-02-01  -  2019-05-30*** 30  Heures {#sec-item299480 .unnumbered .o-Item_dctype-Event}
-
-###### ***2020-02-01  -  2020-05-30*** 30  Heures {#sec-item299481 .unnumbered .o-Item_dctype-Event}
-
-###### ***2021-02-01  -  2021-05-30*** 30  Heures {#sec-item299482 .unnumbered .o-Item_dctype-Event}
-
-###### ***2022-02-01  -  2022-05-30*** 30  Heures {#sec-item299483 .unnumbered .o-Item_dctype-Event}
-
-###### ***2023-02-01  -  2023-05-30*** 30  Heures {#sec-item299484 .unnumbered .o-Item_dctype-Event}
-
-##### Systèmes d’information et programmation Internet {#sec-item299431 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours pour comprendre en quoi un système d’information est un écosystème et comment le développer en utilisant des langages de programmation Web. 
-
-**A comme Parcours** : [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420){target='_blank'} 
-
-###### ***2020-01-26  -  2020-01-31*** 30  Heures {#sec-item299459 .unnumbered .o-Item_dctype-Event}
-
-###### ***2021-01-26  -  2021-01-31*** 30  Heures {#sec-item299460 .unnumbered .o-Item_dctype-Event}
-
-###### ***2022-01-26  -  2022-01-31*** 30  Heures {#sec-item299461 .unnumbered .o-Item_dctype-Event}
-
-###### ***2023-01-26  -  2023-01-31*** 15  Heures {#sec-item299462 .unnumbered .o-Item_dctype-Event}
-
-##### Conception de site Web {#sec-item299439 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours pour la conception collaborative d’édition numériques à partir de CMS et avec les technologie HTML, CSS, javascript. 
-
-**A comme Parcours** : [DU Assistant en technologies numériques audiovisuelles](http://localhost/samszo/omk/s/fiches/item/299425){target='_blank'} 
-
-
-###### ***2010-01-20  -  2010-01-25*** 30  Heures {#sec-item299522 .unnumbered .o-Item_dctype-Event}
-
-###### ***2011-01-20  -  2011-01-25*** 30  Heures {#sec-item299523 .unnumbered .o-Item_dctype-Event}
-
-###### ***2012-01-20  -  2012-01-25*** 30  Heures {#sec-item299524 .unnumbered .o-Item_dctype-Event}
-
-###### ***2013-02-01  -  2013-05-30*** 30  Heures {#sec-item299525 .unnumbered .o-Item_dctype-Event}
-
-###### ***2014-02-01  -  2014-05-30*** 30  Heures {#sec-item299526 .unnumbered .o-Item_dctype-Event}
-
-###### ***2015-02-01  -  2015-05-30*** 30  Heures {#sec-item299527 .unnumbered .o-Item_dctype-Event}
-
-##### Atelier de projets collaboratifs {#sec-item299438 .unnumbered .o-Item_fup8-EC}
-**Description** : Dans ce cours nous accompagnement les étudiants dans la conception et la réalisation d’un projet numérique incluant : une note d’intention, un teaser vidéo, un site Web, une application mobile et un dossier de conception. Les étudiants devront rédiger un cahier des charges pour un projet hypermédia/TIC, savoir communiquer et collaborer avec les équipes de création et de développement, participer à la réalisation de projets innovants, mettre en œuvre ou appliquer une méthode de développement adaptée à un travail d’équipe, savoir réaliser une maquette fonctionnelle, argumenter et défendre un point de vue en réunion d’équipe, devant des clients, décideurs, etc. 
-
-**A comme Parcours** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
-
-###### ***2013-02-01  -  2013-05-30*** 30  Heures {#sec-item299514 .unnumbered .o-Item_dctype-Event}
-
-###### ***2014-02-01  -  2014-05-30*** 30  Heures {#sec-item299515 .unnumbered .o-Item_dctype-Event}
-
-###### ***2015-02-01  -  2015-05-30*** 30  Heures {#sec-item299516 .unnumbered .o-Item_dctype-Event}
-
-###### ***2016-02-01  -  2016-05-30*** 30  Heures {#sec-item299517 .unnumbered .o-Item_dctype-Event}
-
-###### ***2017-02-01  -  2017-05-30*** 30  Heures {#sec-item299518 .unnumbered .o-Item_dctype-Event}
-
-###### ***2018-02-01  -  2018-05-30*** 30  Heures {#sec-item299519 .unnumbered .o-Item_dctype-Event}
-
-###### ***2019-02-01  -  2019-05-30*** 30  Heures {#sec-item299520 .unnumbered .o-Item_dctype-Event}
-
-###### ***2020-02-01  -  2020-05-30*** 30  Heures {#sec-item299521 .unnumbered .o-Item_dctype-Event}
-
-##### Perfectionnement outils et langages de base {#sec-item299437 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce cours forme les étudiants aux compétences suivantes : 
+##### 2013 - 2020 ***Perfectionnement outils et langages de base*** {#sec-item299437 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce cours forme les étudiants aux compétences suivantes : 
 Gérer des formats, créer et produire de l’iconographie, traiter les images.
 Connaître les techniques de numérisation, d’optimisation de poids et de compression liés à la création, le traitement, la diffusion on/off line et l’archivage de l’image (2D fixe ou animée), du son et de la vidéo. 
 Rédiger des concepts créatifs en fonction du support choisi (presse, multimédia, spots, radio, TV, affiches, jeux vidéo, …) 
 
-**A comme Parcours** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
+*A comme Parcours* : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
 
 
+##### 2013 - 2020 ***Réalisation avancée en développement*** {#sec-item299436 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce cours présente les technologies pour concevoir et réaliser des dispositifs numériques en ligne, par exemple modéliser et intégrer des bases de données en appliquant une méthode de conception, connaître et savoir appliquer les règles d’accessibilité pour des pages Web, prendre en compte les balises sémantiques et les micro formats. 
 
-###### ***2013-02-01  -  2013-05-30*** Perfectionnement outils et langages de base {#sec-item299506 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
+*A comme Parcours* : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
 
-30  Heures
 
+##### 2010 - 2020 ***Rencontres crossmédia*** {#sec-item299435 .unnumbered .o-Item_fup8-EC}
+*Description* : L’objectif de ce cours consiste à proposer à des étudiants en apprentissage, une vision théorique de leurs métiers par la rencontre avec des acteurs universitaires dans leur domaine. Savoir identifier les fondamentaux de la création numérique, analyse, synthèse. Élaborer et argumenter de manière critique des modèles théoriques et des recommandations pratiques. Analyser des contenus hypermédia (texte, image, son et vidéo). 
 
+*A comme Parcours* : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} [Licence Pro Création et Développement Numérique en Ligne](http://localhost/samszo/omk/s/fiches/item/299604){target='_blank'} 
 
-###### ***2014-02-01  -  2014-05-30*** Perfectionnement outils et langages de base {#sec-item299507 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
 
-30  Heures
+##### 2015 - 2017 ***Hyperurbain*** {#sec-item299434 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours pour la conception collaborative de dispositifs numériques innovant dans le cadre de la ville connecté. 
 
+*A comme Parcours* : [Master 2 NET](http://localhost/samszo/omk/s/fiches/item/299415){target='_blank'} 
 
 
-###### ***2015-02-01  -  2015-05-30*** Perfectionnement outils et langages de base {#sec-item299508 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
+##### 2012 - Présent ***Langage du Web*** {#sec-item299432 .unnumbered .o-Item_fup8-EC}
+*Description* : Explication des théories et mise en pratique des langages du WEB : html, javascript, Web sémantique, SVG, XML… 
 
-30  Heures
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
+##### 2020 - Présent ***Participation critique*** {#sec-item299430 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce cours intensive réuni pendant une semaine les étudiants de la Mention Humanité  numérique pour après à deux jours de présentations d’universitaires et de professionnels sur un thème, concevoir une note d’intention sur un dispositif numérique mettant en pratique le thème abordé. 
 
-###### ***2016-02-01  -  2016-05-30*** Perfectionnement outils et langages de base {#sec-item299509 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
+*A comme Parcours* : [Master 2 CEN](http://localhost/samszo/omk/s/fiches/item/299417){target='_blank'} 
 
-30  Heures
 
+##### 2009 - 2010 ***Accessibilité Web, internet, multi modalité, communication homme/machine*** {#sec-item299429 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours pour former les étudiants à la maîtrise des flux d’information et de communication dans un environnement Web 
 
+*A comme Parcours* : [Master 2 CEN](http://localhost/samszo/omk/s/fiches/item/299417){target='_blank'} 
 
-###### ***2017-02-01  -  2017-05-30*** Perfectionnement outils et langages de base {#sec-item299510 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
 
-30  Heures
+##### 2009 - 2010 ***Technique du Web : XML*** {#sec-item299428 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours pour la compréhension et l’usage des langages XML. 
 
+*A comme Parcours* : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
 
 
-###### ***2018-02-01  -  2018-05-30*** Perfectionnement outils et langages de base {#sec-item299511 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
+##### 2013 - 2015 ***Atelier 3D*** {#sec-item299427 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours intensif pour la conception, la réalisation et la diffusion d’un dispositif Web 3D. 
 
-30  Heures
+*A comme Parcours* : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
 
 
+##### 2015 - 2016 ***Javascript pratique*** {#sec-item299426 .unnumbered .o-Item_fup8-EC}
+*Description* : Mise en pratique du Javascript par une pédagogie par projet 
 
-###### ***2019-02-01  -  2019-05-30*** Perfectionnement outils et langages de base {#sec-item299512 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2020-02-01  -  2020-05-30*** Perfectionnement outils et langages de base {#sec-item299513 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Réalisation avancée en développement {#sec-item299436 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce cours présente les technologies pour concevoir et réaliser des dispositifs numériques en ligne, par exemple modéliser et intégrer des bases de données en appliquant une méthode de conception, connaître et savoir appliquer les règles d’accessibilité pour des pages Web, prendre en compte les balises sémantiques et les micro formats. 
-
-**A comme Parcours** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
-
-
-
-###### ***2013-10-01  -  2013-12-20*** Réalisation avancée en développement {#sec-item299498 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2014-10-01  -  2014-12-20*** Réalisation avancée en développement {#sec-item299499 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2015-10-01  -  2015-12-20*** Réalisation avancée en développement {#sec-item299500 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2016-10-01  -  2016-12-20*** Réalisation avancée en développement {#sec-item299501 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2017-10-01  -  2017-12-20*** Réalisation avancée en développement {#sec-item299502 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2018-10-01  -  2018-12-20*** Réalisation avancée en développement {#sec-item299503 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2019-10-01  -  2019-12-20*** Réalisation avancée en développement {#sec-item299504 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2020-10-01  -  2020-12-20*** Réalisation avancée en développement {#sec-item299505 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Rencontres crossmédia {#sec-item299435 .unnumbered .o-Item_fup8-EC}
-**Description** : L’objectif de ce cours consiste à proposer à des étudiants en apprentissage, une vision théorique de leurs métiers par la rencontre avec des acteurs universitaires dans leur domaine. Savoir identifier les fondamentaux de la création numérique, analyse, synthèse. Élaborer et argumenter de manière critique des modèles théoriques et des recommandations pratiques. Analyser des contenus hypermédia (texte, image, son et vidéo). 
-
-**A comme Parcours** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} [Licence Pro Création et Développement Numérique en Ligne](http://localhost/samszo/omk/s/fiches/item/299604){target='_blank'} 
-
-
-
-###### ***2010-01-20  -  2010-01-25*** Rencontres crossmédia {#sec-item299487 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2011-01-20  -  2011-01-25*** Rencontres crossmédia {#sec-item299488 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2012-01-20  -  2012-01-25*** Rencontres crossmédia {#sec-item299489 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2013-01-20  -  2013-01-25*** Rencontres crossmédia {#sec-item299490 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2014-01-20  -  2014-01-25*** Rencontres crossmédia {#sec-item299491 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2015-01-20  -  2015-01-25*** Rencontres crossmédia {#sec-item299492 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2016-01-20  -  2016-01-25*** Rencontres crossmédia {#sec-item299493 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2017-01-20  -  2017-01-25*** Rencontres crossmédia {#sec-item299494 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2018-01-20  -  2018-01-25*** Rencontres crossmédia {#sec-item299495 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2019-01-20  -  2019-01-25*** Rencontres crossmédia {#sec-item299496 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2020-01-20  -  2020-01-25*** Rencontres crossmédia {#sec-item299497 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Hyperurbain {#sec-item299434 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours pour la conception collaborative de dispositifs numériques innovant dans le cadre de la ville connecté. 
-
-**A comme Parcours** : [Master 2 NET](http://localhost/samszo/omk/s/fiches/item/299415){target='_blank'} 
-
-
-
-###### ***2015-02-01  -  2015-05-30*** Hyperurbain {#sec-item299485 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2016-02-01  -  2016-05-30*** Hyperurbain {#sec-item299486 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Langage du Web {#sec-item299432 .unnumbered .o-Item_fup8-EC}
-**Description** : Explication des théories et mise en pratique des langages du WEB : html, javascript, Web sémantique, SVG, XML… 
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
-
-
-
-###### ***2012-10-01  -  2012-12-20*** Langage du Web {#sec-item299463 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2013-10-01  -  2013-12-20*** Langage du Web {#sec-item299464 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2014-10-01  -  2014-12-20*** Langage du Web {#sec-item299465 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2015-10-01  -  2015-12-20*** Langage du Web {#sec-item299466 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2016-10-01  -  2016-12-20*** Langage du Web {#sec-item299467 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2017-10-01  -  2017-12-20*** Langage du Web {#sec-item299468 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2018-10-01  -  2018-12-20*** Langage du Web {#sec-item299469 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2019-10-01  -  2019-12-20*** Langage du Web {#sec-item299470 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2020-10-01  -  2020-12-20*** Langage du Web {#sec-item299471 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2021-10-01  -  2021-12-20*** Langage du Web {#sec-item299472 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2022-10-01  -  2022-12-20*** Langage du Web {#sec-item299473 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2023-10-01  -  2023-12-20*** Langage du Web {#sec-item299474 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Participation critique {#sec-item299430 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce cours intensive réuni pendant une semaine les étudiants de la Mention Humanité  numérique pour après à deux jours de présentations d’universitaires et de professionnels sur un thème, concevoir une note d’intention sur un dispositif numérique mettant en pratique le thème abordé. 
-
-**A comme Parcours** : [Master 2 CEN](http://localhost/samszo/omk/s/fiches/item/299417){target='_blank'} 
-
-
-
-###### ***2020-01-20  -  2020-01-25*** Participation critique {#sec-item299455 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2021-01-20  -  2021-01-25*** Participation critique {#sec-item299456 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2022-01-20  -  2022-01-25*** Participation critique {#sec-item299457 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2023-01-20  -  2023-01-25*** Participation critique {#sec-item299458 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Accessibilité Web, internet, multi modalité, communication homme/machine {#sec-item299429 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours pour former les étudiants à la maîtrise des flux d’information et de communication dans un environnement Web 
-
-**A comme Parcours** : [Master 2 CEN](http://localhost/samszo/omk/s/fiches/item/299417){target='_blank'} 
-
-
-
-###### ***2009-10-01  -  2009-12-20*** Accessibilité Web, internet, multi modalité, communication homme/machine {#sec-item299454 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Technique du Web : XML {#sec-item299428 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours pour la compréhension et l’usage des langages XML. 
-
-**A comme Parcours** : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
-
-
-
-###### ***2009-10-01  -  2009-12-20*** Technique du Web : XML {#sec-item299453 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Atelier 3D {#sec-item299427 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours intensif pour la conception, la réalisation et la diffusion d’un dispositif Web 3D. 
-
-**A comme Parcours** : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
-
-
-
-###### ***2013-10-01  -  2013-12-20*** Atelier 3D {#sec-item299451 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2014-10-01  -  2014-12-20*** Atelier 3D {#sec-item299452 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
-##### Javascript pratique {#sec-item299426 .unnumbered .o-Item_fup8-EC}
-**Description** : Mise en pratique du Javascript par une pédagogie par projet 
-
-**A comme Parcours** : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
-
-
-
-###### ***2015-10-01  -  2015-12-20*** Javascript pratique {#sec-item299450 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-20  Heures
-
-
-
+*A comme Parcours* : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
 
 
 #### Cours au CNAM – Bretagne {#sec-item299625 .unnumbered .o-Item_schema-Chapter}
 
 
-##### Web sémantique pour chef de projet {#sec-item299441 .unnumbered .o-Item_fup8-EC}
-**Description** : L’objectif de ce cours à distance est de familiariser les étudiants au technologies du Web sémantique pour qu’ils puissent les appliquer dans le contexte de leur travail de chef de projet. 
+##### 2017 - Présent ***Web sémantique pour chef de projet*** {#sec-item299441 .unnumbered .o-Item_fup8-EC}
+*Description* : L’objectif de ce cours à distance est de familiariser les étudiants au technologies du Web sémantique pour qu’ils puissent les appliquer dans le contexte de leur travail de chef de projet. 
 
-**A comme Parcours** : [CS 61](http://localhost/samszo/omk/s/fiches/item/299411){target='_blank'} 
-
-
-
-###### ***2017-04-10  -  2017-04-10*** Web sémantique pour chef de projet {#sec-item299541 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-6  Heures
-
-
-
-###### ***2018-04-10  -  2018-04-10*** Web sémantique pour chef de projet {#sec-item299542 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-6  Heures
-
-
-
-###### ***2019-04-10  -  2019-04-10*** Web sémantique pour chef de projet {#sec-item299543 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-6  Heures
-
-
-
-###### ***2020-04-10  -  2020-04-10*** Web sémantique pour chef de projet {#sec-item299544 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-6  Heures
-
-
-
-###### ***2021-04-10  -  2021-04-10*** Web sémantique pour chef de projet {#sec-item299545 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-6  Heures
-
-
-
-###### ***2022-04-10  -  2022-04-10*** Web sémantique pour chef de projet {#sec-item299546 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-6  Heures
-
-
-
-###### ***2023-04-10  -  2023-04-10*** Web sémantique pour chef de projet {#sec-item299547 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-6  Heures
-
-
-
+*A comme Parcours* : [CS 61](http://localhost/samszo/omk/s/fiches/item/299411){target='_blank'} 
 
 
 #### Cours à l’IUT de Paris Rives de Seine {#sec-item299626 .unnumbered .o-Item_schema-Chapter}
 
 
-##### Sémiologie {#sec-item299443 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce cours permet aux étudiants de découvrir les principes fondamentaux de la sémiologie et des les appliquer dans des cas pratiques. 
+##### 2017 - 2018 ***Sémiologie*** {#sec-item299443 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce cours permet aux étudiants de découvrir les principes fondamentaux de la sémiologie et des les appliquer dans des cas pratiques. 
 
-**A comme Parcours** : [Licence Pro Métiers de la communication : chef de projet communication](http://localhost/samszo/omk/s/fiches/item/299409){target='_blank'} 
-
-
-
-###### ***2017-02-20  -  2017-05-30*** Sémiologie {#sec-item299557 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-24  Heures
+*A comme Parcours* : [Licence Pro Métiers de la communication : chef de projet communication](http://localhost/samszo/omk/s/fiches/item/299409){target='_blank'} 
 
 
+##### 2015 - Présent ***Data visualisation*** {#sec-item299442 .unnumbered .o-Item_fup8-EC}
+*Description* : Cours pour la conception de visualisation interactives et dynamiques à partir de données provenant de l’Open Data. 
 
-
-##### Data visualisation {#sec-item299442 .unnumbered .o-Item_fup8-EC}
-**Description** : Cours pour la conception de visualisation interactives et dynamiques à partir de données provenant de l’Open Data. 
-
-**A comme Parcours** : [DU Dataviz](http://localhost/samszo/omk/s/fiches/item/299410){target='_blank'} 
-
-
-
-###### ***2015-06-20  -  2015-06-20*** Data visualisation {#sec-item299548 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2016-06-20  -  2016-06-20*** Data visualisation {#sec-item299549 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2017-06-10  -  2017-06-10*** Data visualisation {#sec-item299550 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2018-06-10  -  2018-06-10*** Data visualisation {#sec-item299551 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2019-06-10  -  2019-06-10*** Data visualisation {#sec-item299552 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2020-06-10  -  2020-06-10*** Data visualisation {#sec-item299553 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2021-06-10  -  2021-06-10*** Data visualisation {#sec-item299554 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2022-06-10  -  2022-06-10*** Data visualisation {#sec-item299555 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
-###### ***2023-06-10  -  2023-06-10*** Data visualisation {#sec-item299556 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-4  Heures
-
-
-
+*A comme Parcours* : [DU Dataviz](http://localhost/samszo/omk/s/fiches/item/299410){target='_blank'} 
 
 
 #### Cours à l’INALCO {#sec-item299627 .unnumbered .o-Item_schema-Chapter}
 
 
-##### Conception de site Web {#sec-item299444 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce cours permet aux étudiants de découvrir les langages de base du Web (HTML, CSS, Javascript) et de développer un premier site en utilisant un CMS (SPIP, Wordpress) 
+##### 2015 - 201 ***Conception de site Web*** {#sec-item299444 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce cours permet aux étudiants de découvrir les langages de base du Web (HTML, CSS, Javascript) et de développer un premier site en utilisant un CMS (SPIP, Wordpress) 
 
-**A comme Parcours** : [Master  CFI](http://localhost/samszo/omk/s/fiches/item/299408){target='_blank'} 
-
-
-
-###### ***2015-02-01  -  2015-05-30*** Conception de site Web {#sec-item299558 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2016-02-01  -  2016-05-30*** Conception de site Web {#sec-item299559 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2017-02-01  -  2017-05-30*** Conception de site Web {#sec-item299560 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
+*A comme Parcours* : [Master  CFI](http://localhost/samszo/omk/s/fiches/item/299408){target='_blank'} 
 
 #### Cours à l’Université Paris 13 {#sec-item299628 .unnumbered .o-Item_schema-Chapter}
 
+##### 2012 - 2015 ***Algorithmique*** {#sec-item299445 .unnumbered .o-Item_fup8-EC}
+*Description* : Ce cours permet aux étudiants de découvrir les règles de base de l’algorithmique et de développer un premier programme en Javascript 
 
-##### Algorithmique {#sec-item299445 .unnumbered .o-Item_fup8-EC}
-**Description** : Ce cours permet aux étudiants de découvrir les règles de base de l’algorithmique et de développer un premier programme en Javascript 
-
-**A comme Parcours** : [Master  DIMI](http://localhost/samszo/omk/s/fiches/item/299407){target='_blank'} 
-
-
-
-###### ***2012-01-20  -  2012-01-25*** Algorithmique {#sec-item299561 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2013-02-01  -  2013-05-30*** Algorithmique {#sec-item299562 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2014-02-01  -  2014-05-30*** Algorithmique {#sec-item299563 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
+*A comme Parcours* : [Master  DIMI](http://localhost/samszo/omk/s/fiches/item/299407){target='_blank'} 
 
 
 #### Cours au CNAM Paris {#sec-item541156 .unnumbered .o-Item_schema-Chapter}
 **A comme Université** : [CNAM](http://localhost/samszo/omk/s/fiches/item/299388){target='_blank'} 
 
 
+##### 2020 - 2022 ***Base de données*** relationnelle {#sec-item301901 .unnumbered .o-Item_fup8-EC}
+*Description* : L’objectif du cours est de former les étudiant à la conception et l’utilisaion de bases de données relationnelles. 
 
-##### Base de données relationnelle {#sec-item301901 .unnumbered .o-Item_fup8-EC}
-**Description** : L’objectif du cours est de former les étudiant à la conception et l’utilisaion de bases de données relationnelles. 
-
-**A comme Parcours** : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900){target='_blank'} 
-
-
-
-###### ***2020-02-20  -  2020-05-30*** Base de données relationnelles {#sec-item301902 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-###### ***2021-01-13  -  2021-05-30*** Base de données relationnelles {#sec-item301903 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
+*A comme Parcours* : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900){target='_blank'} 
 
 
 #### Cours à l'Université de Rouen Normandie {#sec-item541157 .unnumbered .o-Item_schema-Chapter}
 
+##### 2022 - 2023 ***Anthropologie et épistémologie du numérique*** {#sec-item299449 .unnumbered .o-Item_fup8-EC}
+*Description* : Dans ce séminaire, nous explorerons l’écosystème du numérique suivant deux approches complémentaires, une centrée sur l’humain (Descola) dans les milieux (Berque) numériques et l’autre sur les connaissances (Deleuze & Guattari) produites dans cet écosystème. Ces explorations seront modélisées sous la forme d’existences informationnelles (Morin, Latour) dont nous analyserons les pouvoirs de discerner, d’élaborer et d’agir (Groupe µ). L’objectif principal de ce séminaire est de fournir aux étudiants une méthode générique pour l’analyse des écosystèmes (Szoniecky) et l’expression d’un point de vue éthique (Deleuze). 
 
-##### Anthropologie et épistémologie du numérique {#sec-item299449 .unnumbered .o-Item_fup8-EC}
-**Description** : Dans ce séminaire, nous explorerons l’écosystème du numérique suivant deux approches complémentaires, une centrée sur l’humain (Descola) dans les milieux (Berque) numériques et l’autre sur les connaissances (Deleuze & Guattari) produites dans cet écosystème. Ces explorations seront modélisées sous la forme d’existences informationnelles (Morin, Latour) dont nous analyserons les pouvoirs de discerner, d’élaborer et d’agir (Groupe µ). L’objectif principal de ce séminaire est de fournir aux étudiants une méthode générique pour l’analyse des écosystèmes (Szoniecky) et l’expression d’un point de vue éthique (Deleuze). 
-
-**A comme Parcours** : [Master Humanités numériques](http://localhost/samszo/omk/s/fiches/item/299423){target='_blank'} 
-
-
-
-###### ***2022-09-15  -  2023-01-20*** Anthropologie et épistémologie du numérique {#sec-item299573 .unnumbered .o-Item_dctype-Event}
-**A comme EC** :  
-
-30  Heures
-
-
-
-
+*A comme Parcours* : [Master Humanités numériques](http://localhost/samszo/omk/s/fiches/item/299423){target='_blank'} 
 
 
 ### Production de documents pédagogiques {#sec-item299360 .o-Item_schema-Chapter}
@@ -899,7 +231,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900){target='_blank'} 
+*A comme Parcours* : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900){target='_blank'} 
 
 
 
@@ -916,7 +248,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900){target='_blank'} 
+*A comme Parcours* : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900){target='_blank'} 
 
 
 
@@ -932,7 +264,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### ***2015-01-19T07:38:34Z  -  2015-05-19T07:40:40Z*** tweetpalette {#sec-item299742 .unnumbered .o-Item_schema-Project}
-**Description** : Dans le cadre des cours 2011-2012, conception d’un outil pour envoyer des tweet à partir d’une cartographie conceptuelle. 
+*Description* : Dans le cadre des cours 2011-2012, conception d’un outil pour envoyer des tweet à partir d’une cartographie conceptuelle. 
 
 [](){target='_blank'}**homepage** :  
 
@@ -951,9 +283,9 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### Gestion électronique de documents hypermédias {#sec-item299607 .unnumbered .o-Item_fup8-EC}
-**Description** : L’objectif du cours consiste à montrer les pratiques de gestion du document à la fois dans la tradition des bibliothèques (indexation, classification…) et sur le Web (base de données, système de gestion de contenus (CMS), folksonomie…). 
+*Description* : L’objectif du cours consiste à montrer les pratiques de gestion du document à la fois dans la tradition des bibliothèques (indexation, classification…) et sur le Web (base de données, système de gestion de contenus (CMS), folksonomie…). 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -966,9 +298,9 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### Hypermédia collaboratif {#sec-item299606 .unnumbered .o-Item_fup8-EC}
-**Description** : L’objectif du cours consiste à montrer par des exercices pratiques les enjeux des développements Web collaboratif, aux niveaux techniques, sémantiques et des usages sociaux. 
+*Description* : L’objectif du cours consiste à montrer par des exercices pratiques les enjeux des développements Web collaboratif, aux niveaux techniques, sémantiques et des usages sociaux. 
 
-**A comme Parcours** : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
+*A comme Parcours* : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
 
 
 
@@ -1015,7 +347,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ###### ***2015-01-19T07:38:34Z  -  2015-05-19T07:40:40Z*** tweetpalette {#sec-item299742 .unnumbered .o-Item_schema-Project}
-**Description** : Dans le cadre des cours 2011-2012, conception d’un outil pour envoyer des tweet à partir d’une cartographie conceptuelle. 
+*Description* : Dans le cadre des cours 2011-2012, conception d’un outil pour envoyer des tweet à partir d’une cartographie conceptuelle. 
 
 [](){target='_blank'}**homepage** :  
 
@@ -1036,9 +368,9 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### Conception d'un projet dans l'écosystème Web {#sec-item299605 .unnumbered .o-Item_fup8-EC}
-**Description** : L’objectif du cours consiste à guider les étudiants dans la conception de leur projet en leur montrant les outils, les méthodes et les usages disponibles dans le Web : gestion de projet, conception collaborative, CMS, référencement… 
+*Description* : L’objectif du cours consiste à guider les étudiants dans la conception de leur projet en leur montrant les outils, les méthodes et les usages disponibles dans le Web : gestion de projet, conception collaborative, CMS, référencement… 
 
-**A comme Parcours** : [Master 1 ILOI](http://localhost/samszo/omk/s/fiches/item/299603){target='_blank'} 
+*A comme Parcours* : [Master 1 ILOI](http://localhost/samszo/omk/s/fiches/item/299603){target='_blank'} 
 
 
 
@@ -1051,9 +383,9 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### Méthodologie de travail collaboratif {#sec-item299448 .unnumbered .o-Item_fup8-EC}
-**Description** : L'objectif de ce cours est de développer des compétences transversales en vous formant au travail collaboratif en ligne. Nous vous donnerons dans ce cours des outils d'autoévaluation de vos compétences, vous formerons à l'utilisation d'outils collaboratifs en ligne et vous ferons travailler un groupe pour réaliser un projet. 
+*Description* : L'objectif de ce cours est de développer des compétences transversales en vous formant au travail collaboratif en ligne. Nous vous donnerons dans ce cours des outils d'autoévaluation de vos compétences, vous formerons à l'utilisation d'outils collaboratifs en ligne et vous ferons travailler un groupe pour réaliser un projet. 
 
-**A comme Parcours** : [Licence 1 Psychologie IED](http://localhost/samszo/omk/s/fiches/item/299422){target='_blank'} 
+*A comme Parcours* : [Licence 1 Psychologie IED](http://localhost/samszo/omk/s/fiches/item/299422){target='_blank'} 
 
 
 
@@ -1094,9 +426,9 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### Approches transversales des humanités numériques {#sec-item299447 .unnumbered .o-Item_fup8-EC}
-**Description** : Présentation des enjeux techniques et scientifiques des Humanités Numériques. 
+*Description* : Présentation des enjeux techniques et scientifiques des Humanités Numériques. 
 
-**A comme Parcours** : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
+*A comme Parcours* : [Master 1 CEN](http://localhost/samszo/omk/s/fiches/item/299418){target='_blank'} 
 
 
 
@@ -1168,7 +500,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -1213,7 +545,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -1258,7 +590,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -1286,7 +618,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
+*A comme Parcours* : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
 
 
@@ -1301,7 +633,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -1346,7 +678,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420){target='_blank'} 
+*A comme Parcours* : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420){target='_blank'} 
 
 
 
@@ -1380,7 +712,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
+*A comme Parcours* : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
 
 
@@ -1397,7 +729,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -1431,7 +763,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
+*A comme Parcours* : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
 
 
@@ -1465,7 +797,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -1482,7 +814,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
+*A comme Parcours* : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
 
 
@@ -1559,7 +891,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
+*A comme Parcours* : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413){target='_blank'} 
 
 
 
@@ -1576,7 +908,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
+*A comme Parcours* : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
 
 
@@ -1610,7 +942,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-**A comme Parcours** : [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420){target='_blank'} 
+*A comme Parcours* : [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420){target='_blank'} 
 
 
 
@@ -1770,35 +1102,35 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ##### ***2018-02-15  -  2018-09-15*** Mémoire de Hadjira Oumennor Makhaldi {#sec-item299795 .unnumbered .o-Item_schema-Chapter}
-**Description** : À l’ère du numérique : Comment pourrait fonctionner l’agriculture du XXIe siècle ? 
+*Description* : À l’ère du numérique : Comment pourrait fonctionner l’agriculture du XXIe siècle ? 
 
 **participant** : [Hadjira Oumennor Makhaldi](http://localhost/samszo/omk/s/fiches/item/299751){target='_blank'} 
 
 
 
 ##### ***2017-02-15  -  2017-09-15*** Mémoire de Gabrielle Godin {#sec-item299796 .unnumbered .o-Item_schema-Chapter}
-**Description** : Théâtre et téléprésence : Enjeux de communication 
+*Description* : Théâtre et téléprésence : Enjeux de communication 
 
 **participant** : [Gabrielle Godin](http://localhost/samszo/omk/s/fiches/item/62567){target='_blank'} 
 
 
 
 ##### ***2016-02-15  -  2016-09-15*** Mémoire de Caroline Avril {#sec-item299797 .unnumbered .o-Item_schema-Chapter}
-**Description** : Scénographie Émotive : Interfacer les émotions 
+*Description* : Scénographie Émotive : Interfacer les émotions 
 
 **participant** : [Caroline Avril](http://localhost/samszo/omk/s/fiches/item/299752){target='_blank'} 
 
 
 
 ##### ***2015-02-15  -  2015-09-15*** Mémoire de Maxime Antremont {#sec-item299798 .unnumbered .o-Item_schema-Chapter}
-**Description** : Abstractions numériques : Processus de création et négociation du sens dans la conception et l'usage d'artefacts numériques 
+*Description* : Abstractions numériques : Processus de création et négociation du sens dans la conception et l'usage d'artefacts numériques 
 
 **participant** : [Maxime Antremont](http://localhost/samszo/omk/s/fiches/item/299753){target='_blank'} 
 
 
 
 ##### ***2014-02-15  -  2014-09-15*** Mémoire de Yann Soubai {#sec-item299799 .unnumbered .o-Item_schema-Chapter}
-**Description** : Espaces associatifs de création et de diffusion culturelles 
+*Description* : Espaces associatifs de création et de diffusion culturelles 
 
 **participant** : [Yann Soubai](http://localhost/samszo/omk/s/fiches/item/299754){target='_blank'} 
 
@@ -1809,63 +1141,63 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ##### ***2016-02-15  -  2016-09-15*** Mémoire de Asmae El Miloudi {#sec-item299800 .unnumbered .o-Item_schema-Chapter}
-**Description** : Développement site web dynamique 
+*Description* : Développement site web dynamique 
 
 **participant** : [Asmae El Miloudi](http://localhost/samszo/omk/s/fiches/item/299755){target='_blank'} 
 
 
 
 ##### ***2016-02-15  -  2016-09-15*** Mémoire de Xiaohe Cao {#sec-item299801 .unnumbered .o-Item_schema-Chapter}
-**Description** : Développement d’une application HTML5 hors ligne 
+*Description* : Développement d’une application HTML5 hors ligne 
 
 **participant** : [Xiaohe Cao](http://localhost/samszo/omk/s/fiches/item/299756){target='_blank'} 
 
 
 
 ##### ***2016-02-15  -  2016-09-15*** Mémoire de Zineb Slaoui {#sec-item299802 .unnumbered .o-Item_schema-Chapter}
-**Description** : Milliweb 
+*Description* : Milliweb 
 
 **participant** : [Zineb Slaoui](http://localhost/samszo/omk/s/fiches/item/299757){target='_blank'} 
 
 
 
 ##### ***2016-02-15  -  2016-09-15*** Mémoire de Karima Hajjari {#sec-item299803 .unnumbered .o-Item_schema-Chapter}
-**Description** : Développement de modules pour une solution de place de marché sur internet 
+*Description* : Développement de modules pour une solution de place de marché sur internet 
 
 **participant** : [Karima Hajjari](http://localhost/samszo/omk/s/fiches/item/299758){target='_blank'} 
 
 
 
 ##### ***2014-02-15  -  2014-09-15*** Mémoire de Youcef Chahed {#sec-item299804 .unnumbered .o-Item_schema-Chapter}
-**Description** : Etudes, Conception et Réalisation d’un Système Web 
+*Description* : Etudes, Conception et Réalisation d’un Système Web 
 
 **participant** : [Youcef Chahed](http://localhost/samszo/omk/s/fiches/item/299759){target='_blank'} 
 
 
 
 ##### ***2014-02-15  -  2014-09-15*** Mémoire de Firdaous Boumarsel {#sec-item299805 .unnumbered .o-Item_schema-Chapter}
-**Description** : Rapport de stage de fin d'études ALBIANT-IT filiale du groupe BPCE 
+*Description* : Rapport de stage de fin d'études ALBIANT-IT filiale du groupe BPCE 
 
 **participant** : [Firdaous Boumarsel](http://localhost/samszo/omk/s/fiches/item/299760){target='_blank'} 
 
 
 
 ##### ***2014-02-15  -  2014-09-15*** Mémoire de Mohamed El Frihmat {#sec-item299806 .unnumbered .o-Item_schema-Chapter}
-**Description** : Création d’une application de gestion Participation à la refonte du site web actuel 
+*Description* : Création d’une application de gestion Participation à la refonte du site web actuel 
 
 **participant** : [Mohamed El Frihmat](http://localhost/samszo/omk/s/fiches/item/299761){target='_blank'} 
 
 
 
 ##### ***2013-02-15  -  2013-09-15*** Mémoire de Fahem Irantene {#sec-item299807 .unnumbered .o-Item_schema-Chapter}
-**Description** : Réalisation d’une application centralisant les multiples opérations des différents départements de l’UPR IDF 
+*Description* : Réalisation d’une application centralisant les multiples opérations des différents départements de l’UPR IDF 
 
 **participant** : [Fahem Irantene](http://localhost/samszo/omk/s/fiches/item/299762){target='_blank'} 
 
 
 
 ##### ***2013-02-15  -  2013-09-15*** Mémoire de Nadir Gharzal {#sec-item299808 .unnumbered .o-Item_schema-Chapter}
-**Description** : Participation à la mise en œuvre d’une application web : Accueil Client 
+*Description* : Participation à la mise en œuvre d’une application web : Accueil Client 
 
 **participant** : [Nadir Gharzal](http://localhost/samszo/omk/s/fiches/item/299763){target='_blank'} 
 
@@ -1876,7 +1208,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ##### ***2018-02-15  -  2018-09-15*** Mémoire de Eléonore Gouttegata {#sec-item299809 .unnumbered .o-Item_schema-Chapter}
-**Description** : L’ergonomie au service de la conception : un outil numérique pour favoriser la recherche en sciences humaines et sociales 
+*Description* : L’ergonomie au service de la conception : un outil numérique pour favoriser la recherche en sciences humaines et sociales 
 
 **participant** : [Eléonore Gouttegata](http://localhost/samszo/omk/s/fiches/item/299764){target='_blank'} 
 
@@ -1891,28 +1223,28 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ##### ***2018-06-12  -  2018-06-12*** Jury de thèse de The Loc Nguyen {#sec-item299810 .unnumbered .o-Item_schema-Chapter}
-**Description** : Non-pharmacological interventions : terminology acquisition and visualization 
+*Description* : Non-pharmacological interventions : terminology acquisition and visualization 
 
 **participant** : [The Loc Nguyen](http://localhost/samszo/omk/s/fiches/item/299765){target='_blank'} 
 
 
 
 ##### ***2018-06-19  -  2018-06-19*** Jury de thèse de Mohamed Benabid {#sec-item299811 .unnumbered .o-Item_schema-Chapter}
-**Description** : Pratiques de consommation et processus de changement organisationnel : cas du marché de l’information en ligne 
+*Description* : Pratiques de consommation et processus de changement organisationnel : cas du marché de l’information en ligne 
 
 **participant** : [Mohamed Benabid](http://localhost/samszo/omk/s/fiches/item/299766){target='_blank'} 
 
 
 
 ##### ***2016-10-10  -  2016-10-10*** Jury de thèse de Mathieu Andro {#sec-item299812 .unnumbered .o-Item_schema-Chapter}
-**Description** : Bibliothèques numériques et crowdsourcing : expérimentations autour de Numalire, projet de numérisation à la demande par crowdfunding 
+*Description* : Bibliothèques numériques et crowdsourcing : expérimentations autour de Numalire, projet de numérisation à la demande par crowdfunding 
 
 **participant** : [Mathieu Andro](http://localhost/samszo/omk/s/fiches/item/62070){target='_blank'} 
 
 
 
 ##### ***2019-11-22  -  2019-11-22*** Jury de thèse de El Hadji Malick Gueye {#sec-item299813 .unnumbered .o-Item_schema-Chapter}
-**Description** : Politiques d’accès aux données statistiques sur le web à l’ère de l’open data :
+*Description* : Politiques d’accès aux données statistiques sur le web à l’ère de l’open data :
 pratiques et perspectives.
 Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRISTAT. 
 
@@ -2017,7 +1349,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2023-04-01  -  2023-06-30*** Stage de Rim Kaidi {#sec-item299828 .unnumbered .o-Item_schema-Chapter}
-**Description** : Design d’information pour le bilan du laboratoire Paragraphe 
+*Description* : Design d’information pour le bilan du laboratoire Paragraphe 
 
 [](){target='_blank'}**relatedLink** :  
 
@@ -2026,7 +1358,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2021-04-01  -  2021-06-30*** Stage de Christina Ramaroson {#sec-item299829 .unnumbered .o-Item_schema-Chapter}
-**Description** : Recensement des dispositifs numériques de lutte contre les fakes news (jeux sérieux, sites de Hoax, fact checking etc.), élaboration d’un protocole d’expérimentation des dispositifs, expérimentation et analyse des dispositifs, synthèse. 
+*Description* : Recensement des dispositifs numériques de lutte contre les fakes news (jeux sérieux, sites de Hoax, fact checking etc.), élaboration d’un protocole d’expérimentation des dispositifs, expérimentation et analyse des dispositifs, synthèse. 
 
 **worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
@@ -2035,7 +1367,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2020-04-01  -  2020-06-30*** Stage de Chacha Mahfoud {#sec-item299830 .unnumbered .o-Item_schema-Chapter}
-**Description** : Recherche documentaires structurées, lecture d’articles scientifiques, rédaction d’un état de l’art sur les fake news d’après la littérature scientifique, participation aux réunions et séminaires. 
+*Description* : Recherche documentaires structurées, lecture d’articles scientifiques, rédaction d’un état de l’art sur les fake news d’après la littérature scientifique, participation aux réunions et séminaires. 
 
 **worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
@@ -2044,7 +1376,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2019-04-01  -  2019-06-30*** Stage de Lucien Cartier-Tilet {#sec-item299831 .unnumbered .o-Item_schema-Chapter}
-**Description** : Tests et corrections d’un module Omeka S pour le scraping des textes de Molière. 
+*Description* : Tests et corrections d’un module Omeka S pour le scraping des textes de Molière. 
 
 **worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} [Omeka-S-module-Scraping](http://localhost/samszo/omk/s/fiches/item/299717){target='_blank'} 
 
@@ -2053,7 +1385,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2018-04-01  -  2018-06-30*** Stage de Roch Delanay {#sec-item299832 .unnumbered .o-Item_schema-Chapter}
-**Description** : Conception et développement d’une application de mailing pour la gestion des publication scientifiques. 
+*Description* : Conception et développement d’une application de mailing pour la gestion des publication scientifiques. 
 
 **worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
@@ -2062,21 +1394,21 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2012-04-01  -  2012-06-30*** Stage de Ala Atrash {#sec-item299833 .unnumbered .o-Item_schema-Chapter}
-**Description** : Conception et développement de la version tactile de GEVU 
+*Description* : Conception et développement de la version tactile de GEVU 
 
 **participant** : [Ala Atrash](http://localhost/samszo/omk/s/fiches/item/299778){target='_blank'} 
 
 
 
 ##### ***2011-04-01  -  2011-06-30*** Stage de Claire Dezaille {#sec-item299834 .unnumbered .o-Item_schema-Chapter}
-**Description** : Conception de statistiques pour GEVU 
+*Description* : Conception de statistiques pour GEVU 
 
 **participant** : [Claire Dezaille](http://localhost/samszo/omk/s/fiches/item/299779){target='_blank'} 
 
 
 
 ##### ***2010-04-01  -  2010-06-30*** Stage de Abderrahim Bargaoui {#sec-item299835 .unnumbered .o-Item_schema-Chapter}
-**Description** : Archipoenum 
+*Description* : Archipoenum 
 
 **worksFor** : [archipoenum](http://localhost/samszo/omk/s/fiches/item/299747){target='_blank'} 
 
@@ -2085,7 +1417,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2010-04-01  -  2010-06-30*** Stage de Mehdi Touibi {#sec-item299836 .unnumbered .o-Item_schema-Chapter}
-**Description** : Evaluation de l’activité politique 
+*Description* : Evaluation de l’activité politique 
 
 **worksFor** : [evalactipol](http://localhost/samszo/omk/s/fiches/item/299750){target='_blank'} 
 
@@ -2094,7 +1426,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2009-04-01  -  2009-06-30*** Stage de Amel Bourenane {#sec-item299837 .unnumbered .o-Item_schema-Chapter}
-**Description** : EvalActiSem : évaluation de l’activité sémantique 
+*Description* : EvalActiSem : évaluation de l’activité sémantique 
 
 **worksFor** : [evalactisem](http://localhost/samszo/omk/s/fiches/item/299748){target='_blank'} 
 
@@ -2104,12 +1436,12 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 #### ***2017-09-15  -  2023-09-10*** Animation d’une équipe {#sec-item299366 .unnumbered .o-Item_schema-Chapter}
-**Description** : Dans le cadre de la collection d’ouvrage Digital Tools & Uses, j’ai participé à l’animation de l’équipe d’auteurs, à la création dusite Web, à l'organisation des conférences... 
+*Description* : Dans le cadre de la collection d’ouvrage Digital Tools & Uses, j’ai participé à l’animation de l’équipe d’auteurs, à la création dusite Web, à l'organisation des conférences... 
 
 
 
 #### ***2017-09-10  -  2018-09-10*** Création d’un axe scientifique {#sec-item299364 .unnumbered .o-Item_schema-Chapter}
-**Description** : Dans le cadre de la refonte des équipes du laboratoire Paragraphe, j’ai participé à la création de l’axe « Dispositifs numériques : production, usages et modélisation communicationnelle ». 
+*Description* : Dans le cadre de la refonte des équipes du laboratoire Paragraphe, j’ai participé à la création de l’axe « Dispositifs numériques : production, usages et modélisation communicationnelle ». 
 
 
 
@@ -2121,7 +1453,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2023-10-18  -  2023-10-20*** H2PTM 2023 {#sec-item299838 .unnumbered .o-Item_schema-Chapter}
-**Description** : La fabrique du sens à l’ère de l’information numérique : enjeux et défis 
+*Description* : La fabrique du sens à l’ère de l’information numérique : enjeux et défis 
 
 **address** : Arenberg Creative Mine, Valenciennes, France 
 
@@ -2130,7 +1462,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2019-10-16  -  2019-10-19*** H2PTM 2019 {#sec-item299842 .unnumbered .o-Item_schema-Chapter}
-**Description** : De l’hypertexte aux humanités numériques 
+*Description* : De l’hypertexte aux humanités numériques 
 
 **address** : Université de Franche-Comté, Montbéliard 
 
@@ -2139,7 +1471,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2017-10-18  -  2017-10-20*** H2PTM 2017 {#sec-item299843 .unnumbered .o-Item_schema-Chapter}
-**Description** : Le numérique à l'ère des designs 
+*Description* : Le numérique à l'ère des designs 
 
 **address** : Arenberg Creative Mine, Valenciennes, France 
 
@@ -2167,7 +1499,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2014-06-11  -  2014-06-13*** 9th HSLALS {#sec-item299849 .unnumbered .o-Item_schema-Chapter}
-**Description** : International Conference on Human System Learning Alternative Learning Systems 
+*Description* : International Conference on Human System Learning Alternative Learning Systems 
 
 **address** : Cotonou, Bénin 
 
@@ -2196,14 +1528,14 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2017-10-25  -  2018-03-21*** ADACEMU {#sec-item299854 .unnumbered .o-Item_dctype-Event}
-**Description** : https://adacemu.univ-paris8.fr/ 
+*Description* : https://adacemu.univ-paris8.fr/ 
 
 [](){target='_blank'}**relatedLink** :  
 
 
 
 ##### ***2014-05-16  -  2014-05-16*** Séminaire Inter-équipe Laboratoire Paragraphe {#sec-item299856 .unnumbered .o-Item_dctype-Event}
-**Description** : Les écosystèmes d’information 
+*Description* : Les écosystèmes d’information 
 
 **address** : Université Paris 8, Saint-Denis, France 
 
@@ -2221,7 +1553,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2022-10-13  -  2022-10-15*** 01Design 12 {#sec-item299840 .unnumbered .o-Item_schema-Chapter}
-**Description** : Design non intentionnel 
+*Description* : Design non intentionnel 
 
 [](){target='_blank'}**relatedLink** :  
 
@@ -2277,7 +1609,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2010-11-08  -  2010-11-10*** 12th iiWAS2010 {#sec-item299857 .unnumbered .o-Item_dctype-Event}
-**Description** : International Conference on Information Integration and Web-based Applications & Services 
+*Description* : International Conference on Information Integration and Web-based Applications & Services 
 
 [](){target='_blank'}**relatedLink** :  
 
@@ -2286,7 +1618,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### ***2021-10-13  -  2021-10-15*** H2PTM 2021 {#sec-item300722 .unnumbered .o-Item_dctype-Event}
-**Description** : 16ème édition (1989-2021)
+*Description* : 16ème édition (1989-2021)
 Information : Enjeux et nouveaux défis 
 
 [](){target='_blank'}**relatedLink** :  
@@ -2301,7 +1633,7 @@ Information : Enjeux et nouveaux défis
 
 
 #### ***2018  -  2019*** ANR Open Memories {#sec-item299646 .unnumbered .o-Item_dctype-Event}
-**Description** : Porté par l’INA 
+*Description* : Porté par l’INA 
 
 **worksFor** : [ANR](http://localhost/samszo/omk/s/fiches/item/299599){target='_blank'} [INA](http://localhost/samszo/omk/s/fiches/item/299597){target='_blank'} 
 
@@ -2334,7 +1666,7 @@ Information : Enjeux et nouveaux défis
 
 
 #### ***2016-06-01  -  2016-07-30*** Colloque jeunes chercheurs {#sec-item299653 .unnumbered .o-Item_schema-Chapter}
-**Description** : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
+*Description* : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
 
 [](){target='_blank'}**relatedLink** :  
 
@@ -2343,14 +1675,14 @@ Information : Enjeux et nouveaux défis
 
 
 #### ***2016-05-01  -  2016-06-30*** Langues, cultures et médias en Méditerranée {#sec-item299654 .unnumbered .o-Item_schema-Chapter}
-**Description** : Langues, cultures et médias en Méditerranée : forme, sens et développement, Agadir, Maroc 
+*Description* : Langues, cultures et médias en Méditerranée : forme, sens et développement, Agadir, Maroc 
 
 [](){target='_blank'}**relatedLink** :  
 
 
 
 #### ***2016-01-03  -  2016-02-15*** AAP Interdisciplinaires {#sec-item299655 .unnumbered .o-Item_schema-Chapter}
-**Description** : AAP Interdisciplinaires Phase 2 
+*Description* : AAP Interdisciplinaires Phase 2 
 
 **worksFor** : [Université de Nantes](http://localhost/samszo/omk/s/fiches/item/299596){target='_blank'} 
 
@@ -2362,7 +1694,7 @@ Information : Enjeux et nouveaux défis
 
 
 #### ***2015-06-01  -  2015-07-30*** Colloque jeunes chercheurs {#sec-item299657 .unnumbered .o-Item_schema-Chapter}
-**Description** : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
+*Description* : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
 
 [](){target='_blank'}**relatedLink** :  
 
@@ -2380,21 +1712,21 @@ Information : Enjeux et nouveaux défis
 
 
 #### ***2015  -  2023*** Membre du comité scientifique de la revue Internet des Objets {#sec-item299659 .unnumbered .o-Item_schema-Chapter}
-**Description** : ISTE Open Science 
+*Description* : ISTE Open Science 
 
 [](){target='_blank'}**relatedLink** :  
 
 
 
 #### ***2015  -  2023*** Membre du comité de la collections « Outils et usages numériques » {#sec-item299660 .unnumbered .o-Item_schema-Chapter}
-**Description** : Collection dirigée par Imad Saleh 
+*Description* : Collection dirigée par Imad Saleh 
 
 [](){target='_blank'}**relatedLink** :  
 
 
 
 #### ***2017  -  2023*** Membre du comité éditorial de la Revue sur les langues de moindre diffusion {#sec-item299661 .unnumbered .o-Item_schema-Chapter}
-**Description** : Expertise pour les propositions dans le champs du numérique 
+*Description* : Expertise pour les propositions dans le champs du numérique 
 
 
 
@@ -2439,7 +1771,7 @@ Information : Enjeux et nouveaux défis
 
 
 ##### ***2019-09-14  -  2023-12-30*** Arcanes {#sec-item299859 .unnumbered .o-Item_schema-Chapter}
-**Description** : Des arts trompeurs à la post-vérité : régimes d'authenticité en contexte numérique
+*Description* : Des arts trompeurs à la post-vérité : régimes d'authenticité en contexte numérique
 Subvention CRSH – Savoir : 256 000 $
 Le projet Arcanes comporte deux volets. Le premier volet explore les processus de production du sens, les filiations historiques et intermédiales ainsi que les dynamiques de médiation, tout comme les divers dispositifs et les processus d’éditorialisation dans le sillon des humanités et des cultures numériques.
 Le deuxième volet interroge les puissances du faux, les mécanismes du leurre ainsi que les stratégies d’illusion tels qu’ils se manifestent dans les arts – que nous qualifions « d’arts trompeurs » -, la littérature,  les pratiques médiatiques et l’écosystème socionumérique actuel. 
@@ -2451,7 +1783,7 @@ Le deuxième volet interroge les puissances du faux, les mécanismes du leurre a
 
 
 ##### ***2018-09-14  -  2021-12-30*** Polemika {#sec-item299860 .unnumbered .o-Item_schema-Chapter}
-**Description** : Génération automatique d’arguments pour l’éducation à l’esprit critique
+*Description* : Génération automatique d’arguments pour l’éducation à l’esprit critique
 Subvention Région Ile de France : 30 800 € 
 Subvention ArTec : 5 000 €
 Ce projet de recherche vise à expérimenter des processus innovants de formation à l’esprit critique. Le premier volet dont nous devrions obtenir le financer par les “Trophées de l’innovation en Ile de France” se centre sur le développement informatique d’un générateur automatique d’arguments sous forme de Web App, qui sert d’interface d’interaction avec les utilisateurs, et de moyen de collecte de données sur les émotions suscitées par la génération des contre-propositions.
@@ -2464,7 +1796,7 @@ En articulation avec ce projet, l’objet du projet Polemik’Art financer par A
 
 
 ##### ***2010-09-14  -  2013-12-30*** GEVU {#sec-item299861 .unnumbered .o-Item_schema-Chapter}
-**Description** : Outil d’intelligence collective pour le diagnostic de l’accessibilité des bâtiments et des voiries
+*Description* : Outil d’intelligence collective pour le diagnostic de l’accessibilité des bâtiments et des voiries
 Contrat de recherche de l’université de Lille : 80 000 € 
 Ce travail de recherche interdisciplinaire inclut des approches de géographie, d’urbanisme, d’ergonomie, de science de l’information, de design d’information et de pédagogie. L’objectif commun consiste à développer, en partenariat avec un OPH, un outil d’intelligence collective pour le diagnostic de l’accessibilité des bâtiments et des voiries : GEVU. Les spécificités de cette application Web apportent des bénéfices certains aux acteurs du logement social notamment en terme de visualisation et d’analyse des territoires mais aussi concernant la communication entre les acteurs. Il nous a aussi permis de mettre en place des méthodes de modélisation des écosystèmes d’information et de confronter nos approches dans le cadre d’un atelier de conception coopérative, pour une conduite de projets en référence à l’homme. 
 
@@ -2483,7 +1815,7 @@ Ce travail de recherche interdisciplinaire inclut des approches de géographie, 
 
 
 ##### ***2009-10-25  -  2012-06-21*** Représentant des doctorants {#sec-item299864 .unnumbered .o-Item_schema-Chapter}
-**Description** : Élu en janvier 2010 par les doctorants du laboratoire comme leur représentant au conseil scientifique, j'ai notamment accompli les tâches suivantes :
+*Description* : Élu en janvier 2010 par les doctorants du laboratoire comme leur représentant au conseil scientifique, j'ai notamment accompli les tâches suivantes :
 Organisation des réunions pour l'accompagnement des doctorants
 Rédaction des comptes-rendus de réunions 
 Participation à la rédaction du rapport d'activité pour l'AERES 
@@ -2495,52 +1827,52 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 ##### ***2023-05-01  -  2023-06-30*** Audition des candidats pour le poste MCF 71 {#sec-item299865 .unnumbered .o-Item_dctype-Event}
-**Description** : IUT Paris Sorbonne Département Information-Communication à IUT Paris Sorbonne 
+*Description* : IUT Paris Sorbonne Département Information-Communication à IUT Paris Sorbonne 
 
 
 
 ##### ***2023-05-01  -  2023-06-30*** Vice-président du comité de sélection pour le poste MCF 71 {#sec-item299866 .unnumbered .o-Item_dctype-Event}
-**Description** : Paris 8, Département Documentation, laboratoire Paragraphe 
+*Description* : Paris 8, Département Documentation, laboratoire Paragraphe 
 
 
 
 ##### ***2021-05-01  -  2021-06-30*** Vice-président du comité de sélection pour le poste MCF 71 {#sec-item299867 .unnumbered .o-Item_dctype-Event}
-**Description** : Paris 8, Département Humanités numériques, laboratoire Paragraphe 
+*Description* : Paris 8, Département Humanités numériques, laboratoire Paragraphe 
 
 
 
 ##### ***2018-05-01  -  2018-06-20*** Audition des candidats pour le poste MCF 71 {#sec-item299868 .unnumbered .o-Item_dctype-Event}
-**Description** : IUT Paris Sorbonne, Département Information-Communication à IUT Paris Sorbonne 
+*Description* : IUT Paris Sorbonne, Département Information-Communication à IUT Paris Sorbonne 
 
 
 
 ##### ***2018-05-01  -  2018-06-20*** Audition des candidats pour le poste MCF 71 {#sec-item299869 .unnumbered .o-Item_dctype-Event}
-**Description** : Paris 8, Département Humanités numériques, laboratoire Paragraphe 
+*Description* : Paris 8, Département Humanités numériques, laboratoire Paragraphe 
 
 
 
 ##### ***2017-05-01  -  2017-06-20*** Audition des candidats pour le poste MCF 71 {#sec-item299870 .unnumbered .o-Item_dctype-Event}
-**Description** : INALCO, Département « Métiers des Langues, de la Communication et de l’Interculturel » - Filière Communication et Formation Interculturelle (CFI) 
+*Description* : INALCO, Département « Métiers des Langues, de la Communication et de l’Interculturel » - Filière Communication et Formation Interculturelle (CFI) 
 
 
 
 ##### ***2017-05-01  -  2017-06-20*** Audition des candidats pour le poste MCF 71 {#sec-item299871 .unnumbered .o-Item_dctype-Event}
-**Description** : Univ. Paris Nord - Paris 13, UFR Sciences de la Communication - LabSic, Mention Création Numérique, Master IC (Innovation en communication) et DIMI (Design d'Interfaces Multimédia et Internet) 
+*Description* : Univ. Paris Nord - Paris 13, UFR Sciences de la Communication - LabSic, Mention Création Numérique, Master IC (Innovation en communication) et DIMI (Design d'Interfaces Multimédia et Internet) 
 
 
 
 ##### ***2017-05-01  -  2017-06-20*** Audition des candidats pour le poste MCF 71 {#sec-item299872 .unnumbered .o-Item_dctype-Event}
-**Description** : DICEN CNAM / IFIS et IUT de l’UPEMLV 
+*Description* : DICEN CNAM / IFIS et IUT de l’UPEMLV 
 
 
 
 ##### ***2015-06-10  -  2015-07-10*** Audition poste IGR en Réalité Mixte et Culture Augmentée {#sec-item299873 .unnumbered .o-Item_dctype-Event}
-**Description** : Université Paris 8, Laboratoire Paragraphe 
+*Description* : Université Paris 8, Laboratoire Paragraphe 
 
 
 
 ##### ***2014-05-01  -  2014-06-20*** Audition des candidats pour le poste MCF 71 {#sec-item299874 .unnumbered .o-Item_dctype-Event}
-**Description** : DICEN CNAM / IFIS et IUT de l’UPEMLV 
+*Description* : DICEN CNAM / IFIS et IUT de l’UPEMLV 
 
 
 
@@ -2553,14 +1885,14 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 ##### ***2018-10-10  -  2023-12-31*** Membre de conseil académique de l’EUR ArTec. {#sec-item299875 .unnumbered .o-Item_schema-Chapter}
-**Description** : Il est l’instance législatrice de l’EUR ArTeC. Il émet des avis sur les orientations scientifiques de l’EUR proposées par le comité exécutif. Il se prononce sur la qualité des programmes de recherche et de formation envisagés et évalue leurs résultats. Il réunit une quarantaine de membre. 
+*Description* : Il est l’instance législatrice de l’EUR ArTeC. Il émet des avis sur les orientations scientifiques de l’EUR proposées par le comité exécutif. Il se prononce sur la qualité des programmes de recherche et de formation envisagés et évalue leurs résultats. Il réunit une quarantaine de membre. 
 
 **worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} 
 
 
 
 ##### ***2012-10-23  -  2019-09-15*** Membre de IDEFI – CréaTIC {#sec-item299876 .unnumbered .o-Item_schema-Chapter}
-**Description** : Participation à la conception du projet et à la conception de pédagogies innovantes visant à développer les technologies de l’information et de la communication au service de la pédagogie socioconstructiviste par projets et de la créativité numérique étudiante cf. Module Innovant Pédagogique IDEFI-CreaTIC - Paris 8 
+*Description* : Participation à la conception du projet et à la conception de pédagogies innovantes visant à développer les technologies de l’information et de la communication au service de la pédagogie socioconstructiviste par projets et de la créativité numérique étudiante cf. Module Innovant Pédagogique IDEFI-CreaTIC - Paris 8 
 
 **worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
@@ -2587,7 +1919,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 ##### ***2009-11-12  -  2012-09-09*** Représentant des doctorants {#sec-item299879 .unnumbered .o-Item_schema-Chapter}
-**Description** : Élu en janvier 2010 par les doctorants du laboratoire comme leur représentant au conseil scientifique, j'ai notamment accompli les tâches suivantes :Organisation des réunions pour l'accompagnement des doctorants, rédaction des comptes-rendus de réunions , participation à la rédaction du rapport d'activité pour l'AERES 
+*Description* : Élu en janvier 2010 par les doctorants du laboratoire comme leur représentant au conseil scientifique, j'ai notamment accompli les tâches suivantes :Organisation des réunions pour l'accompagnement des doctorants, rédaction des comptes-rendus de réunions , participation à la rédaction du rapport d'activité pour l'AERES 
 
 
 
@@ -4292,7 +3624,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### ***2019-04-01  -  2019-06-30*** Stage de Lucien Cartier-Tilet {#sec-item299831 .unnumbered .o-Item_schema-Chapter}
-**Description** : Tests et corrections d’un module Omeka S pour le scraping des textes de Molière. 
+*Description* : Tests et corrections d’un module Omeka S pour le scraping des textes de Molière. 
 
 **worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} [Omeka-S-module-Scraping](http://localhost/samszo/omk/s/fiches/item/299717){target='_blank'} 
 
@@ -4330,7 +3662,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### ***2021-05-07T08:27:09Z  -  2023-07-18T07:33:50Z*** Omeka-S-module-ZoteroImportplus {#sec-item299722 .unnumbered .o-Item_schema-Project}
-**Description** : Amélioration du module Zotero existant : import des documents et des notes, hypertextualisation des auteurs… 
+*Description* : Amélioration du module Zotero existant : import des documents et des notes, hypertextualisation des auteurs… 
 
 [](){target='_blank'}**homepage** :  
 
@@ -4557,7 +3889,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### ***2021  -  2022*** Base de données Omeka s pour une pédagothèque en psychologie {#sec-item299715 .unnumbered .o-Item_schema-Project}
-**Description** : L'objectif de ce site est de faciliter le partage des ressources pédagogiques entre enseignants dans le domaine de la psychologie 
+*Description* : L'objectif de ce site est de faciliter le partage des ressources pédagogiques entre enseignants dans le domaine de la psychologie 
 
 [](){target='_blank'}[](){target='_blank'}**relatedLink** :   
 
@@ -4676,7 +4008,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### ***2018  -  *** 2018 : Emonitor {#sec-item299724 .unnumbered .o-Item_schema-Project}
-**Description** : Application mobile pour capter les émotions des étudiants 
+*Description* : Application mobile pour capter les émotions des étudiants 
 
 **participant** : [Amri Toumia](http://localhost/samszo/omk/s/fiches/item/62512){target='_blank'} [Muriel Louâpre](http://localhost/samszo/omk/s/fiches/item/61960){target='_blank'} 
 
@@ -4704,24 +4036,24 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### ***2014  -  2015*** EditInflu {#sec-item299736 .unnumbered .o-Item_schema-Project}
-**Description** : Outils pour la modélisation des influences, projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
+*Description* : Outils pour la modélisation des influences, projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
 
 
 ##### ***2014  -  2015*** Navigateur à facette {#sec-item299737 .unnumbered .o-Item_schema-Project}
-**Description** : Mis en pratique pour l’histoire de la biologie, projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
+*Description* : Mis en pratique pour l’histoire de la biologie, projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
 
 
 ##### ***2014  -  2015*** Visualisation des points de vue sur les catégories d’influences {#sec-item299738 .unnumbered .o-Item_schema-Project}
-**Description** : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
+*Description* : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
 [](){target='_blank'}**relatedLink** :  
 
 
 
 ##### ***2012  -  2014*** GEVU {#sec-item299740 .unnumbered .o-Item_schema-Project}
-**Description** : Outil pour l'évaluation globale des territoires urbains avec N. Bouhai, A. Atrash, C. Dezaille et Laboratoire TVES – Lille 1. Cet outil pour l’évaluation de l’accessibilité par des personnes handicapées des bâtiments et des voiries est conçu et développé en partenariat avec le Laboratoire TVES dans le cadre d’un contrat de recherche. 
+*Description* : Outil pour l'évaluation globale des territoires urbains avec N. Bouhai, A. Atrash, C. Dezaille et Laboratoire TVES – Lille 1. Cet outil pour l’évaluation de l’accessibilité par des personnes handicapées des bâtiments et des voiries est conçu et développé en partenariat avec le Laboratoire TVES dans le cadre d’un contrat de recherche. 
 
 **participant** : [Nasreddine BouhaÏ](http://localhost/samszo/omk/s/fiches/item/61152){target='_blank'} 
 
@@ -4771,7 +4103,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### ***2023-05-23T05:23:43Z  -  2023-05-31T07:40:20Z*** cocult {#sec-item299711 .unnumbered .o-Item_schema-Project}
-**Description** : Application pour créer des parcours culturelle à partir d’une déambulation photographique et d’une indexation par des cribles conceptuels 
+*Description* : Application pour créer des parcours culturelle à partir d’une déambulation photographique et d’une indexation par des cribles conceptuels 
 
 [](){target='_blank'}**homepage** :  
 
@@ -4801,7 +4133,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### ***2021-04-01  -  2021-06-30*** Stage de Christina Ramaroson {#sec-item299829 .unnumbered .o-Item_schema-Chapter}
-**Description** : Recensement des dispositifs numériques de lutte contre les fakes news (jeux sérieux, sites de Hoax, fact checking etc.), élaboration d’un protocole d’expérimentation des dispositifs, expérimentation et analyse des dispositifs, synthèse. 
+*Description* : Recensement des dispositifs numériques de lutte contre les fakes news (jeux sérieux, sites de Hoax, fact checking etc.), élaboration d’un protocole d’expérimentation des dispositifs, expérimentation et analyse des dispositifs, synthèse. 
 
 **worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
@@ -4810,7 +4142,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### ***2020-04-01  -  2020-06-30*** Stage de Chacha Mahfoud {#sec-item299830 .unnumbered .o-Item_schema-Chapter}
-**Description** : Recherche documentaires structurées, lecture d’articles scientifiques, rédaction d’un état de l’art sur les fake news d’après la littérature scientifique, participation aux réunions et séminaires. 
+*Description* : Recherche documentaires structurées, lecture d’articles scientifiques, rédaction d’un état de l’art sur les fake news d’après la littérature scientifique, participation aux réunions et séminaires. 
 
 **worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
@@ -4820,7 +4152,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### ***2015-05-19T07:37:11Z  -  2015-05-19T07:38:11Z*** yc-passerelle {#sec-item299745 .unnumbered .o-Item_schema-Project}
-**Description** : Explorateur d'interview avec Claude Yacoub et Odile Farge
+*Description* : Explorateur d'interview avec Claude Yacoub et Odile Farge
 Outils pour naviguer dans un recueil d’interviews à partir d’une interface 3D 
 
 [](){target='_blank'}**homepage** :  
@@ -4836,7 +4168,7 @@ Outils pour naviguer dans un recueil d’interviews à partir d’une interface 
 
 
 ##### ***2015-05-19T07:40:13Z  -  2015-05-19T07:43:55Z*** archipoenum {#sec-item299747 .unnumbered .o-Item_schema-Project}
-**Description** : En collaboration avec Philippe Bootz et Abderrahim Bargaoui 
+*Description* : En collaboration avec Philippe Bootz et Abderrahim Bargaoui 
 Application Web pour archiver une collection d’œuvre de poésie numérique et de point de vue sur ces œuvres. 
 
 [](){target='_blank'}**homepage** :  
@@ -4854,7 +4186,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### ***2010-04-01  -  2010-06-30*** Stage de Abderrahim Bargaoui {#sec-item299835 .unnumbered .o-Item_schema-Chapter}
-**Description** : Archipoenum 
+*Description* : Archipoenum 
 
 **worksFor** : [archipoenum](http://localhost/samszo/omk/s/fiches/item/299747){target='_blank'} 
 
@@ -4864,7 +4196,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2015-05-19T07:41:28Z  -  2015-05-19T07:47:07Z*** evalactisem {#sec-item299748 .unnumbered .o-Item_schema-Project}
-**Description** : En collaboration avec avec Pierre Lévy et Amel Bourenane :  Outil pour l'évaluation de l'activité sémantique par la traduction en IEML d'une folksonomie Delicious. 
+*Description* : En collaboration avec avec Pierre Lévy et Amel Bourenane :  Outil pour l'évaluation de l'activité sémantique par la traduction en IEML d'une folksonomie Delicious. 
 
 [](){target='_blank'}**homepage** :  
 
@@ -4881,7 +4213,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### ***2009-04-01  -  2009-06-30*** Stage de Amel Bourenane {#sec-item299837 .unnumbered .o-Item_schema-Chapter}
-**Description** : EvalActiSem : évaluation de l’activité sémantique 
+*Description* : EvalActiSem : évaluation de l’activité sémantique 
 
 **worksFor** : [evalactisem](http://localhost/samszo/omk/s/fiches/item/299748){target='_blank'} 
 
@@ -4939,7 +4271,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2015-05-19T07:42:25Z  -  2015-05-19T07:47:36Z*** evalactipol {#sec-item299750 .unnumbered .o-Item_schema-Project}
-**Description** : Application Web pour l'évaluation de l’activité politique. 
+*Description* : Application Web pour l'évaluation de l’activité politique. 
 
 [](){target='_blank'}**homepage** :  
 
@@ -4954,7 +4286,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### ***2010-04-01  -  2010-06-30*** Stage de Mehdi Touibi {#sec-item299836 .unnumbered .o-Item_schema-Chapter}
-**Description** : Evaluation de l’activité politique 
+*Description* : Evaluation de l’activité politique 
 
 **worksFor** : [evalactipol](http://localhost/samszo/omk/s/fiches/item/299750){target='_blank'} 
 
@@ -5059,14 +4391,14 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2016-03-10  -  2016-04-30*** Visualisation des interactions scientifiques {#sec-item299729 .unnumbered .o-Item_schema-Project}
-**Description** : Mis en pratique entre les membres de l’équipe CiTU du laboratoire Paragraphe 
+*Description* : Mis en pratique entre les membres de l’équipe CiTU du laboratoire Paragraphe 
 
 [](){target='_blank'}**relatedLink** :  
 
 
 
 ##### ***2015-11-03  -  2016-03-12*** Navigateur conceptuel dans les vedettes matières Rameau {#sec-item299733 .unnumbered .o-Item_schema-Project}
-**Description** : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
+*Description* : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
 [](){target='_blank'}**relatedLink** :  
 
@@ -5092,17 +4424,17 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2010-03-01  -  2010-03-05*** WebStudies Garden {#sec-item299746 .unnumbered .o-Item_schema-Project}
-**Description** : Dans le cadre d'un atelier sur le jeu et le design d’information, conception et développement d’un outil pour comparer deux bookmark delicious sous la forme d'un jardin. 
+*Description* : Dans le cadre d'un atelier sur le jeu et le design d’information, conception et développement d’un outil pour comparer deux bookmark delicious sous la forme d'un jardin. 
 
 
 
 ##### ***2010  -  2011*** Diagramme pour l’exploration d'une folksonomie {#sec-item299744 .unnumbered .o-Item_schema-Project}
-**Description** : Application Web développée pour naviguer dans les signets définis par les enseignants du département Hypermédia de l’Université Paris 8, à partir de diagrammes générés dynamiquement. 
+*Description* : Application Web développée pour naviguer dans les signets définis par les enseignants du département Hypermédia de l’Université Paris 8, à partir de diagrammes générés dynamiquement. 
 
 
 
 ##### ***2012  -  2013*** Territorialité de l'art {#sec-item299741 .unnumbered .o-Item_schema-Project}
-**Description** : Application Web développée pour évaluer une œuvre artistique par rapport à des cartes géographiques, thématiques, conceptuelles. 
+*Description* : Application Web développée pour évaluer une œuvre artistique par rapport à des cartes géographiques, thématiques, conceptuelles. 
 
 
 
@@ -5374,7 +4706,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2015-06-16T13:09:36Z  -  2016-02-17T13:03:41Z*** open-edition {#sec-item299730 .unnumbered .o-Item_schema-Project}
-**Description** : Conception d’un site Web pour l’édition de revue scientifique en Open Access 
+*Description* : Conception d’un site Web pour l’édition de revue scientifique en Open Access 
 
 [](){target='_blank'}**homepage** :  
 
@@ -5466,7 +4798,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2012  -  2014*** GAPAII {#sec-item299739 .unnumbered .o-Item_schema-Project}
-**Description** : Génération Automatique de Proverbes et Analyse des Interprétation exprimées sur Internet, Projet LABEX ARTS-H2H avec H. Hachour, N. Bouhai et UMR Structures Formelles du Langage 7023 
+*Description* : Génération Automatique de Proverbes et Analyse des Interprétation exprimées sur Internet, Projet LABEX ARTS-H2H avec H. Hachour, N. Bouhai et UMR Structures Formelles du Langage 7023 
 
 **participant** : [Nasreddine BouhaÏ](http://localhost/samszo/omk/s/fiches/item/61152){target='_blank'} [Hakim Hachour](http://localhost/samszo/omk/s/fiches/item/61522){target='_blank'} 
 
@@ -5503,7 +4835,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### ***2021-11-11T15:33:05Z  -  2022-12-14T23:55:51Z*** ChaoticumSeminario {#sec-item299712 .unnumbered .o-Item_schema-Project}
-**Description** : Application de recherche création pour expérimenter de nouveaux modes d’éditorialisation scientifiques 
+*Description* : Application de recherche création pour expérimenter de nouveaux modes d’éditorialisation scientifiques 
 
 [](){target='_blank'}**homepage** :  
 
@@ -5589,7 +4921,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### ***2021-11-11T15:33:05Z  -  2022-12-14T23:55:51Z*** ChaoticumSeminario {#sec-item299712 .unnumbered .o-Item_schema-Project}
-**Description** : Application de recherche création pour expérimenter de nouveaux modes d’éditorialisation scientifiques 
+*Description* : Application de recherche création pour expérimenter de nouveaux modes d’éditorialisation scientifiques 
 
 [](){target='_blank'}**homepage** :  
 
@@ -5697,7 +5029,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### ***2015-05-19T07:37:32Z  -  2022-12-02T07:15:17Z*** generateur {#sec-item299743 .unnumbered .o-Item_schema-Project}
-**Description** : En collaboration  avec Jean-Pierre Balpe, conception et développement d’un nouveau générateur de texte accessible sur le Web 
+*Description* : En collaboration  avec Jean-Pierre Balpe, conception et développement d’un nouveau générateur de texte accessible sur le Web 
 
 [](){target='_blank'}**homepage** :  
 
@@ -5753,7 +5085,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### ***2017-02-03  -  2017-04-03*** Générateur de dé iconique {#sec-item299726 .unnumbered .o-Item_schema-Project}
-**Description** : Pour séances de créativité, créer des dés iconiques. 
+*Description* : Pour séances de créativité, créer des dés iconiques. 
 
 **worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
@@ -5775,7 +5107,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2015-01-25  -  2015-05-05*** Atelier CreaTIC : Les archives en Italie {#sec-item299735 .unnumbered .o-Item_schema-Project}
-**Description** : Aide à la conception d’un site web 
+*Description* : Aide à la conception d’un site web 
 
 **worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
@@ -5996,7 +5328,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### ***2001-04-21  -  2001-07-30*** Base de données de gestion administrative {#sec-item299690 .unnumbered .o-Item_schema-Project}
-**Description** : Fédération des Agents GEnéraux d'Assurances
+*Description* : Fédération des Agents GEnéraux d'Assurances
 Développement d’une application de gestion administrative ; modélisation base de donnée, procédures stockées, interfaces utilisateurs.
 Technologie : Windows NT, UNIX, SQL Server, Transact-SQL, AMC Designor, WinDev. 
 
@@ -6005,7 +5337,7 @@ Technologie : Windows NT, UNIX, SQL Server, Transact-SQL, AMC Designor, WinDev.
 
 
 ##### ***2000-06-27  -  2000-12-10*** Agence française de l’innovation – Multimédia spatio-temporel {#sec-item299691 .unnumbered .o-Item_schema-Project}
-**Description** : Conception d’un système d’information pour l’organisation et la gestion en temps réel de contenus multimédia liés à la position spatio-temporelle d’un véhicule. 
+*Description* : Conception d’un système d’information pour l’organisation et la gestion en temps réel de contenus multimédia liés à la position spatio-temporelle d’un véhicule. 
 
 **worksFor** : [MMD](http://localhost/samszo/omk/s/fiches/item/299588){target='_blank'} 
 
@@ -6016,7 +5348,7 @@ Technologie : Windows NT, UNIX, SQL Server, Transact-SQL, AMC Designor, WinDev.
 
 
 ##### ***2005-11-06  -  2006-06-15*** ANPE – Maintenance évolutive Intranet {#sec-item299680 .unnumbered .o-Item_schema-Project}
-**Description** : Maintenance et évolution de l’Intranet pour la gestion de l’annuaire.
+*Description* : Maintenance et évolution de l’Intranet pour la gestion de l’annuaire.
 Modélisation d’objets métiers pour les listes de diffusion et les droits applicatifs
 Développement des contrôles spécifiques
 Tests, intégration
@@ -6029,7 +5361,7 @@ Environnement de développement : C# .Net 2.0, ASP .NET 2.0, Transact-SQL
 
 
 ##### ***2004-09-03  -  2005-10-11*** Cegetel - Tierce Maintenance Applicative {#sec-item299681 .unnumbered .o-Item_schema-Project}
-**Description** : Tierce Maintenance Applicative sur 4 applications :
+*Description* : Tierce Maintenance Applicative sur 4 applications :
 CALIF et ANGELIC : cf. ci-dessous 12/02 à 12/03
 HDCAP : cf. ci-dessous 01/04 à 08/04
 AGECA : Outils de gestion des Conduits ADSL pour les domaines de planification, définition, commande, lancement de la réalisation, suivi de la capacité.
@@ -6046,7 +5378,7 @@ Environnement de développement : C# .Net 1.1, PL/SQL, SVG, XML, XSLT, JavaScrip
 
 
 ##### ***2004-01-08  -  2004-08-23*** Cegetel – Développement d’un outil informatique {#sec-item299682 .unnumbered .o-Item_schema-Project}
-**Description** : Développement d’un outil informatique permettant d’identifier et d’anticiper les besoins d’approvisionnement en ressources matérielles relatives aux équipements réseaux haut débit.
+*Description* : Développement d’un outil informatique permettant d’identifier et d’anticiper les besoins d’approvisionnement en ressources matérielles relatives aux équipements réseaux haut débit.
 Rédaction des spécifications techniques
 Développement de composants génériques pour la présentation de graphiques SVG dynamique (courbe, schéma…)
 Développement de procédures stockées pour la production de statistiques et d’alarmes.
@@ -6060,7 +5392,7 @@ Environnement de développement : C# .Net 1.1, PL/SQL, SVG, XML, XSLT, JavaScrip
 
 
 ##### ***2002-12-11  -  2003-12-22*** Telecom Developpement – Développement d’un outil de vérification de facture {#sec-item299683 .unnumbered .o-Item_schema-Project}
-**Description** : Les services financiers avaient besoin d’une application capable de vérifier des dizaines de milliers de ligne de facture, de produire des factures prévisionnelles pour le contrôle de gestion et de gérer le suivi des commandes.
+*Description* : Les services financiers avaient besoin d’une application capable de vérifier des dizaines de milliers de ligne de facture, de produire des factures prévisionnelles pour le contrôle de gestion et de gérer le suivi des commandes.
 Conception du modèle de la base de données
 Rédaction des spécifications techniques
 Développement de composants génériques pour l’intégration et l’édition des données
@@ -6077,7 +5409,7 @@ Environnement de développement : VB .Net 1.1, TrueDBGrid, PL/SQL, AMC Designor,
 
 
 ##### ***2002-10-10  -  2002-12-04*** ANPE – Gestion de l’annuaire {#sec-item299684 .unnumbered .o-Item_schema-Project}
-**Description** : L’application de gestion de l’annuaire de l’ANPE avait besoin d’une optimisation de ces performances notamment en ce qui concerne les requêtes sur l’annuaire Exchange et sur le tri des données :
+*Description* : L’application de gestion de l’annuaire de l’ANPE avait besoin d’une optimisation de ces performances notamment en ce qui concerne les requêtes sur l’annuaire Exchange et sur le tri des données :
 Analyse des performances
 Rédaction des spécifications techniques
 Développement d’un composant de mise en cache et de tri des requêtes
@@ -6091,7 +5423,7 @@ Environnement de développement : VB 6.0, ASP,XML,XSLT, Visual Source Safe
 
 
 ##### ***2002-07-02  -  2002-09-22*** ANPE – synchronisation carnet d’adresse {#sec-item299685 .unnumbered .o-Item_schema-Project}
-**Description** : Pour son Intranet, l’ANPE avait besoin d’un outil de synchronisation des carnets d’adresses Outlook Express (WAB) et Outlook Web Access (OWA) :
+*Description* : Pour son Intranet, l’ANPE avait besoin d’un outil de synchronisation des carnets d’adresses Outlook Express (WAB) et Outlook Web Access (OWA) :
 Développement d’un composant d’extraction et de synchronisation des carnets d’adresses via des flux XML
 Développement d’un contrôle ActiveX accessible par une page ASP
 Mise à jour du site Intranet
@@ -6104,7 +5436,7 @@ Environnement de développement : VB 6.0, ASP,XML, Visual Source Safe
 
 
 ##### ***2002-04-03  -  2002-06-30*** Gestion du RMI {#sec-item299686 .unnumbered .o-Item_schema-Project}
-**Description** : Les services de la ville de Paris gèrent l’attribution des chèques de transport pour les bénéficiaires du RMI. Chaque mois, un flux de plusieurs dizaines de milliers de personnes doit être gérer. L’application existante Chèque Mobilité ne permettant une importation automatique de ce flux, une solution d’importation automatique devait être mise en place.
+*Description* : Les services de la ville de Paris gèrent l’attribution des chèques de transport pour les bénéficiaires du RMI. Chaque mois, un flux de plusieurs dizaines de milliers de personnes doit être gérer. L’application existante Chèque Mobilité ne permettant une importation automatique de ce flux, une solution d’importation automatique devait être mise en place.
 Vérification du fichier à importer
 Importation par le loader Oracle via un composant VB
 Edition des doublons
@@ -6118,7 +5450,7 @@ Environnement de développement : VB 6.0, Visual Source Safe, Oracle 8i
 
 
 ##### ***2002-05-14  -  2002-06-24*** OPERA {#sec-item299687 .unnumbered .o-Item_schema-Project}
-**Description** : OPERA dispose d’une application de type extranet /intranet pour permettre à ses acheteurs de gérer leurs appels d’offres promotionnelles.
+*Description* : OPERA dispose d’une application de type extranet /intranet pour permettre à ses acheteurs de gérer leurs appels d’offres promotionnelles.
 L’intranet permet à l’acheteur de soumettre ses appels d’offres à ses fournisseurs, puis de sélectionner les propositions
 L’extranet permet au fournisseur de répondre aux appels d’offres et de suivre l’évolution de ses produits retenus
 OPERA cherchait un partenaire pour prendre en charge la maintenance de l’application dans son intégralité.
@@ -6131,7 +5463,7 @@ Environnement de développement : VB 6.0, Access 97, ASP, VBA Excel 2000, Visual
 
 
 ##### ***2001-11-11  -  2002-04-12*** Nomadys {#sec-item299688 .unnumbered .o-Item_schema-Project}
-**Description** : Contribution au développement du site WEB Nomadys (Auto assistance clientèle de l’offre GSM Nomad)
+*Description* : Contribution au développement du site WEB Nomadys (Auto assistance clientèle de l’offre GSM Nomad)
 Technologie : SQL Server 7, IIS, Visual Studio, HTML, ASP, JavaScript, XML, annuaire LDAP 
 
 **worksFor** : [Bouygues Telecom](http://localhost/samszo/omk/s/fiches/item/299577){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
@@ -6139,7 +5471,7 @@ Technologie : SQL Server 7, IIS, Visual Studio, HTML, ASP, JavaScript, XML, annu
 
 
 ##### ***2001-08-02  -  2002-01-16*** Mesure qualité réseau {#sec-item299689 .unnumbered .o-Item_schema-Project}
-**Description** : Développement d’un outil de mesure de performances et qualités de services pour les réseaux.
+*Description* : Développement d’un outil de mesure de performances et qualités de services pour les réseaux.
 Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO 
 
 **worksFor** : [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
@@ -6151,7 +5483,7 @@ Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO
 
 
 ##### ***2009-07-06  -  2009-09-03*** Gestion solutions de logistique {#sec-item299672 .unnumbered .o-Item_schema-Project}
-**Description** : Conception et réalisation d’un outil pour le partage des solutions de logistique. 
+*Description* : Conception et réalisation d’un outil pour le partage des solutions de logistique. 
 
 [](){target='_blank'}**relatedLink** :  
 
@@ -6160,44 +5492,44 @@ Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO
 
 
 ##### ***2007-12-10  -  2009-07-04*** OnadaBase {#sec-item299673 .unnumbered .o-Item_schema-Project}
-**Description** : Conception d’un outil pour le diagnostic de l’accessibilité des bâtiments par des personnes handicapées 
+*Description* : Conception d’un outil pour le diagnostic de l’accessibilité des bâtiments par des personnes handicapées 
 
 
 
 ##### ***2006-09-08  -  2009-07-12*** Visites Aquitaine {#sec-item299674 .unnumbered .o-Item_schema-Project}
-**Description** : Conception et réalisation d’un système d’information pour l’édition et la présentation du patrimoine de la région Aquitaine 
+*Description* : Conception et réalisation d’un système d’information pour l’édition et la présentation du patrimoine de la région Aquitaine 
 
 
 
 ##### ***2008-01-23  -  2008-04-30*** Automatisation des publications {#sec-item299675 .unnumbered .o-Item_schema-Project}
-**Description** : Chef de projet  conception d’un outil pour la publication semi-automatique de contenus semi structurés 
+*Description* : Chef de projet  conception d’un outil pour la publication semi-automatique de contenus semi structurés 
 
 **worksFor** : [Archipelago-publishing](http://localhost/samszo/omk/s/fiches/item/299580){target='_blank'} 
 
 
 
 ##### ***2007-07-01  -  2007-07-31*** Outil de gestion des solidarités {#sec-item299676 .unnumbered .o-Item_schema-Project}
-**Description** : Développement avec IEML d’un outil collaboratif de gestion des solidarités en partenariat avec la 10e famille 
+*Description* : Développement avec IEML d’un outil collaboratif de gestion des solidarités en partenariat avec la 10e famille 
 
 **worksFor** : [10e Famille](http://localhost/samszo/omk/s/fiches/item/299581){target='_blank'} 
 
 
 
 ##### ***2007-06-02  -  2007-09-15*** Life Explorer {#sec-item299677 .unnumbered .o-Item_schema-Project}
-**Description** : Modélisation système d’information pour la gestion 3D temps réel d’une bactérie pour valider les théories sur l'encombrement interne 
+*Description* : Modélisation système d’information pour la gestion 3D temps réel d’une bactérie pour valider les théories sur l'encombrement interne 
 
 [](){target='_blank'}**relatedLink** :  
 
 
 
 ##### ***2006-01-06  -  2006-02-15*** Tournées de marchandising {#sec-item299678 .unnumbered .o-Item_schema-Project}
-**Description** : Conception et réalisation d’une application Web pour l’évaluation marketing des tournées de marchandising 
+*Description* : Conception et réalisation d’une application Web pour l’évaluation marketing des tournées de marchandising 
 
 **worksFor** : [Wrigley](http://localhost/samszo/omk/s/fiches/item/299582){target='_blank'} 
 
 
 
 ##### ***2005-06-10  -  2009-09-04*** MUNDIGO {#sec-item299679 .unnumbered .o-Item_schema-Project}
-**Description** : Cofondateur d’une structure de production et distribution de contenus culturels favorisant la découverte et l’échange entre les cultures. 
+*Description* : Cofondateur d’une structure de production et distribution de contenus culturels favorisant la découverte et l’échange entre les cultures. 
 
 **worksFor** : [Mundigo](http://localhost/samszo/omk/s/fiches/item/299583){target='_blank'} 
