@@ -1,10 +1,24 @@
-# Parcours universitaire {#sec-item299358}
-::: {.callout-tip}
-## dcterms:isPartOf
- 
+---
+filters:
+    - multibib
+---
+
+# Curiculum vitae {#sec-item299344 .o-Item_schema-Chapter}
+
+
+[api](http://localhost/samszo/omk/api/items/299344){target="_blank"} [admin](http://localhost/samszo/omk/admin/item/299344){target="_blank"} [Fiches](http://localhost/samszo/omk/s/fiches/item/299344){target="_blank"} [CV](http://localhost/samszo/omk/s/cv/item/299344){target="_blank"}
+
+
+::: {#refs_main}
+---
+nocite: |
+  @*
+---
 :::
-## Maîtrise d’Histoire de l’art {#sec-item299343}
-## DEA d’Histoire de l’art {#sec-item299342}
-## Licence de Philosophie par correspondance {#sec-item299341}
-## Doctorat en Sciences de l’Information et de la communication {#sec-item299340}
-## Licence d'Histoire de l'Art {#sec-item428891}
+
+::: {#refs_app}
+---
+nocite: |
+  @*
+---
+:::

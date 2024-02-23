@@ -10,13 +10,13 @@ book:
     - index.qmd
     - cvReferences.qmd
 
-bibliography: cvReferences.bib
+bibliography_main: cvReferencesArt.bib
+bibliography_app: cvReferencesBart.bib
 
 format:
   html:
     theme: cosmo
   pdf:
     documentclass: scrreprt
-
 
 
