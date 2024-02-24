@@ -187,11 +187,9 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 ### Production de documents pédagogiques {#sec-item299360 .o-Item_schema-Chapter}
 
 
-#### Développement de dispositif numérique pour l’enseignement {#sec-item299629 .unnumbered .o-Item_schema-Chapter}
+#### Développement de dispositif numérique pour l’enseignement {#sec-item299629 .o-Item_schema-Chapter}
 
-#### Supports de cours {#sec-item299630 .unnumbered .o-Item_schema-Chapter}
-
-
+#### Supports de cours {#sec-item299630 .o-Item_schema-Chapter}
 
 ##### 2015 - 2016 ***THYP_15-16*** {#sec-item301801 .unnumbered .o-Item_schema-Project}
 [https://github.com/samszo/THYP_15-16](https://github.com/samszo/THYP_15-16){target='_blank'}  
@@ -464,7 +462,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 **A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
 
-#### Exemples de code {#sec-item299631 .unnumbered .o-Item_schema-Chapter}
+#### Exemples de code {#sec-item299631 .o-Item_schema-Chapter}
 
 ##### 2015 ***tweetpalette*** {#sec-item299742 .unnumbered .o-Item_schema-Project}
 **Description** : Dans le cadre des cours 2011-2012, conception d’un outil pour envoyer des tweet à partir d’une cartographie conceptuelle.[https://github.com/samszo/tweetpalette](https://github.com/samszo/tweetpalette){target='_blank'}
@@ -546,11 +544,14 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 **A comme EC** : [Atelier génération de texte](http://localhost/samszo/omk/s/fiches/item/299446){target='_blank'} 
 
 
-#### Veille ciblée {#sec-item299632 .unnumbered .o-Item_schema-Chapter}
+#### Veille ciblée {#sec-item299632 .o-Item_schema-Chapter}
 
+**Description** : Depuis une quinzaine d’années, nous menons un veille active pour à la fois trouver, filtrer, organiser et diffuser les informations pertinentes pour nos travaux de recherche et d’enseignement. Au fil du temps, nous avons mis en place un processus spécifique pour effectuer cette tâche le plus efficacement possible [Lien vers une explication détaillée](https://samszo.github.io/HDR/positionnements.html#sec-processusVeille){target='_blank'}. Nous mettons à disposition des étudiants cette veille et les processus qui permettent de l'effectuer.
+[Lien vers la base de donnée de veille](https://www.diigo.com/user/luckysemiosis){target='_blank'} 
 
-#### Bibliographie commentée {#sec-item299633 .unnumbered .o-Item_schema-Chapter}
+#### Bibliographie commentée {#sec-item299633 .o-Item_schema-Chapter}
 
+**Description** : La veille bibliographique fait partie intégrante du travail d'enseignant chercheur à la fois pour connaitre les tendances scientifiques mais aussi pour alimenter ses propres recherches. Nous menons ce travail de veille en utilisant Zotero, un outils très pratique pour compiler des références, les publier et les diffuser [Lien vers notre base de données Zotero](https://www.zotero.org/luckysemiosis/library){target='_blank'}. Cette veille bibliographique est mise à disposition des étudiants pour qu'ils y trouvent des références et comprennent comment construire leur propre base de connaissances.
 
 
 ### Conception d’enseignements nouveaux ou de dispositifs innovants {#sec-item299361 .o-Item_schema-Chapter}
