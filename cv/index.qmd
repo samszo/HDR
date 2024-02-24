@@ -469,7 +469,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **Langage de programmation** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
-**Lien en relation** : [https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette](https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette){target='_blank'}  
+**Site Web en relation** : : [https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette](https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette){target='_blank'}  
 
 **participant** : [Hypermédia collaboratif](http://localhost/samszo/omk/s/fiches/item/299617){target='_blank'} 
 
@@ -557,132 +557,77 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 ### Conception d’enseignements nouveaux ou de dispositifs innovants {#sec-item299361 .o-Item_schema-Chapter}
 
 
-#### Module Innovant Pédagogique IDEFI-CreaTIC - Paris 8 {#sec-item299634 .unnumbered .o-Item_schema-Chapter}
+#### Module Innovant Pédagogique IDEFI-CreaTIC - Paris 8 {#sec-item299634 .unnumbered .o-Item_schema-Chapter}[IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'}
 
 
-##### 2016-10-10 - 2017-05-30 ***Programme Jardiner les écosystèmes de connaissances*** {#sec-item299785 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
-
-
+##### 2016 - 2017 ***Programme Jardiner les écosystèmes de connaissances*** {#sec-item299785 .unnumbered .o-Item_schema-Chapter}
 
 ###### Atelier laboratoire : Développer des graines de connaissances {#sec-item299881 .unnumbered .o-Item_schema-Chapter}
 
-
 ###### Séminaire de recherche : Vie imaginaire et Intelligence artificielle {#sec-item299882 .unnumbered .o-Item_schema-Chapter}
 
-
 ###### Hackathon : Les Archives Nationales font leur Hackathon {#sec-item299883 .unnumbered .o-Item_schema-Chapter}
-[http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon](http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon){target='_blank'}**Lien en relation** :  
-
-
+[http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon](http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon){target='_blank'}  
 
 ###### Workshop : Perspectives du livre numériques {#sec-item299884 .unnumbered .o-Item_schema-Chapter}
 
-
-
-##### 2017-10-10 - 2018-05-30 ***Valorisation des archives numériques*** {#sec-item299786 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
-
-
+##### 2017 - 2018 ***Valorisation des archives numériques*** {#sec-item299786 .unnumbered .o-Item_schema-Chapter}
 
 ###### Atelier laboratoire : Conception de ressources pédagogiques pour les archives numériques {#sec-item299885 .unnumbered .o-Item_schema-Chapter}
-
 
 ###### Séminaire : Valorisation pédagogique des archives numérique {#sec-item299886 .unnumbered .o-Item_schema-Chapter}
 
 
+##### 2016 - 2017 ***Créativité, reconstruction, proverbes*** {#sec-item299787 .unnumbered .o-Item_schema-Chapter}
 
-##### 2016-10-10 - 2017-05-30 ***Créativité, reconstruction, proverbes*** {#sec-item299787 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+###### Séminaire : Créativité, reconstruction, proverbes {#sec-item299887 .unnumbered .o-Item_schema-Chapter}
 
-
-
-###### 2016-10-02 - 2016-12-21 ***Séminaire : Créativité, reconstruction, proverbes*** {#sec-item299887 .unnumbered .o-Item_schema-Chapter}
-
-
-###### 2017-01-17 - 2017-01-20 ***Atelier laboratoire : Créativité, reconstruction, proverbes*** {#sec-item299888 .unnumbered .o-Item_schema-Chapter}
-**address** : Centre d’art D’Haïti, Port au Prince 
+###### Atelier laboratoire : Créativité, reconstruction, proverbes {#sec-item299888 .unnumbered .o-Item_schema-Chapter}
+**Localisation** : Centre d’art D’Haïti, Port au Prince, Haïti 
 
 
+##### 2015 - 2016 ***Manuel de créativité*** {#sec-item299788 .unnumbered .o-Item_schema-Chapter}
 
-
-##### 2015-10-10 - 2016-05-30 ***Manuel de créativité*** {#sec-item299788 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
-
-
-
-###### 2016-06-25 - 2016-06-26 ***Séminaire : Outils de créativité pour la reconstruction*** {#sec-item299889 .unnumbered .o-Item_schema-Chapter}
-**address** : Abbaye de Saint Riquier 
-
-
+###### Séminaire : Outils de créativité pour la reconstruction {#sec-item299889 .unnumbered .o-Item_schema-Chapter}
+**Localisation** : Centre culturel de l'Abbaye de Saint Riquier, Baie de Somme, France 
 
 
 ##### 2015-10-10 - 2016-05-30 ***Proverbes et e-éducation*** {#sec-item299789 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
-
-
-###### 2016-01-26 - 2016-01-26 ***Séminaire : Apprendre par les proverbes*** {#sec-item299890 .unnumbered .o-Item_schema-Chapter}
-**address** : MSH Paris Nord 
-
-
+###### Séminaire : Apprendre par les proverbes {#sec-item299890 .unnumbered .o-Item_schema-Chapter}
+**Localisation** : MSH Paris Nord 
 
 ###### Atelier laboratoire : Conception de ressources pédagogiques numériques à partir de proverbes {#sec-item299891 .unnumbered .o-Item_schema-Chapter}
 
 
-
-##### 2016-10-10 - 2017-05-30 ***Ontologie pour les statistiques*** {#sec-item299790 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+##### 2016 - 2017 ***Ontologie pour les statistiques*** {#sec-item299790 .unnumbered .o-Item_schema-Chapter}
 
 **participant** : [Jean-Marc Meunier](http://localhost/samszo/omk/s/fiches/item/62155){target='_blank'} 
 
 
-
 ###### Atelier laboratoire : Ontologie pour le référencement des ressources pédagogique en statistiques {#sec-item299892 .unnumbered .o-Item_schema-Chapter}
-[https://ontostats.univ-paris8.fr/](https://ontostats.univ-paris8.fr/){target='_blank'}**Lien en relation** :  
+**Site Web en relation** : :[https://ontostats.univ-paris8.fr/](https://ontostats.univ-paris8.fr/){target='_blank'}  
 
 
-
-
-##### 2016-10-10 - 2017-05-30 ***Hyperurbains et smartcities*** {#sec-item299791 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
-
+##### 2015 - 2017 ***Hyperurbains et smartcities*** {#sec-item299791 .unnumbered .o-Item_schema-Chapter}
 
 
 ###### Atelier laboratoire : Conception de dispositifs numériques pour le voyage connecté {#sec-item299893 .unnumbered .o-Item_schema-Chapter}
 
 
-
-##### 2015-10-10 - 2016-05-30 ***Hyperurbains et smartcities*** {#sec-item299792 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
-
-
-
-###### Atelier laboratoire : Conception de dispositifs numériques pour le voyage connecté {#sec-item299894 .unnumbered .o-Item_schema-Chapter}
-
-
-
-##### 2014-10-10 - 2015-05-30 ***Le livre post-numérique*** {#sec-item299793 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
-
+##### 2014 - 2015 ***Le livre post-numérique*** {#sec-item299793 .unnumbered .o-Item_schema-Chapter}
 
 
 ###### Atelier laboratoire : Le livre post-numérique : création et édition collaborative scientifique {#sec-item299895 .unnumbered .o-Item_schema-Chapter}
 
-
 ###### Conférence : Livre post-numérique : historique, mutations et perspective, Fès, Maroc {#sec-item299896 .unnumbered .o-Item_schema-Chapter}
+**Site Web en relation** : :[http://europia.org/CIDE17/](http://europia.org/CIDE17/){target='_blank'}  
 
 
-
-##### 2014-10-10 - 2015-05-30 ***Archives en Italie*** {#sec-item299794 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
-
+##### 2014 - 2015 ***Archives en Italie*** {#sec-item299794 .unnumbered .o-Item_schema-Chapter}
 
 
 ###### Atelier laboratoire : Conception d’une base de donnée pour les humanités numériques {#sec-item299900 .unnumbered .o-Item_schema-Chapter}
-
-
-
 
 
 ### Encadrement et le suivi de travaux d’étudiant⋅e⋅s {#sec-item299362 .o-Item_schema-Chapter}
@@ -812,34 +757,33 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 #### Membre de Jury de thèses {#sec-item299638 .unnumbered .o-Item_schema-Chapter}
 
 
-##### 2018-06-12 - 2018-06-12 ***Jury de thèse de The Loc Nguyen*** {#sec-item299810 .unnumbered .o-Item_schema-Chapter}
+##### 2018-06-12 ***Jury de thèse de The Loc Nguyen*** {#sec-item299810 .unnumbered .o-Item_schema-Chapter}
 **Description** : Non-pharmacological interventions : terminology acquisition and visualization 
 
 **participant** : [The Loc Nguyen](http://localhost/samszo/omk/s/fiches/item/299765){target='_blank'} 
 
 
 
-##### 2018-06-19 - 2018-06-19 ***Jury de thèse de Mohamed Benabid*** {#sec-item299811 .unnumbered .o-Item_schema-Chapter}
+##### 2018 ***Jury de thèse de Mohamed Benabid*** {#sec-item299811 .unnumbered .o-Item_schema-Chapter}
 **Description** : Pratiques de consommation et processus de changement organisationnel : cas du marché de l’information en ligne 
 
 **participant** : [Mohamed Benabid](http://localhost/samszo/omk/s/fiches/item/299766){target='_blank'} 
 
 
 
-##### 2016-10-10 - 2016-10-10 ***Jury de thèse de Mathieu Andro*** {#sec-item299812 .unnumbered .o-Item_schema-Chapter}
+##### 2016 ***Jury de thèse de Mathieu Andro*** {#sec-item299812 .unnumbered .o-Item_schema-Chapter}
 **Description** : Bibliothèques numériques et crowdsourcing : expérimentations autour de Numalire, projet de numérisation à la demande par crowdfunding 
 
 **participant** : [Mathieu Andro](http://localhost/samszo/omk/s/fiches/item/62070){target='_blank'} 
 
 
 
-##### 2019-11-22 - 2019-11-22 ***Jury de thèse de El Hadji Malick Gueye*** {#sec-item299813 .unnumbered .o-Item_schema-Chapter}
+##### 2019 ***Jury de thèse de El Hadji Malick Gueye*** {#sec-item299813 .unnumbered .o-Item_schema-Chapter}
 **Description** : Politiques d’accès aux données statistiques sur le web à l’ère de l’open data :
 pratiques et perspectives.
 Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRISTAT. 
 
 **participant** : [El Hadji Malick Gueye](http://localhost/samszo/omk/s/fiches/item/299767){target='_blank'} 
-
 
 
 
@@ -850,24 +794,22 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 
-
 ## Recherche {#sec-item299353 .o-Item_schema-Chapter}
 
 
 ### Encadrement de chercheurs⋅euses {#sec-item299365 .o-Item_schema-Chapter}
 
 
-#### Co-direction de thèse {#sec-item299641 .unnumbered .o-Item_schema-Chapter}
+#### Co-direction de thèse {#sec-item299641 .o-Item_schema-Chapter}
 
 
-##### 2018-10-10 - now ***Thèse de Gabriel Godin*** {#sec-item299814 .unnumbered .o-Item_schema-Chapter}
+##### 2018-10-10 - Présent ***Thèse de Gabriel Godin*** {#sec-item299814 .unnumbered .o-Item_schema-Chapter}
 **participant** : [Gabrielle Godin](http://localhost/samszo/omk/s/fiches/item/62567){target='_blank'} [Imad Saleh](http://localhost/samszo/omk/s/fiches/item/61148){target='_blank'} [Renée Bourassa](http://localhost/samszo/omk/s/fiches/item/62548){target='_blank'} 
 
 
 
-##### 2017-10-10 - now ***Thèse de Amri Toumia*** {#sec-item299815 .unnumbered .o-Item_schema-Chapter}
+##### 2017-10-10 - 2022 ***Thèse de Amri Toumia*** {#sec-item299815 .unnumbered .o-Item_schema-Chapter}
 **participant** : [Amri Toumia](http://localhost/samszo/omk/s/fiches/item/62512){target='_blank'} [Imad Saleh](http://localhost/samszo/omk/s/fiches/item/61148){target='_blank'} 
-
 
 
 ##### 2012-10-10 - 2016-12-21 ***Thèse de Mathieu Andro*** {#sec-item299816 .unnumbered .o-Item_schema-Chapter}
@@ -875,165 +817,128 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 
-
 #### Comité de suivi de thèse {#sec-item299642 .unnumbered .o-Item_schema-Chapter}
 
+##### 2023 ***Thèse de Pierre Mickaël Micaletti*** { .unnumbered .o-Item_schema-Chapter}
 
-##### 2023-09-10 - 2023-10-10 ***Thèse de Mohammed Ahmed Hassan*** {#sec-item299817 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Mohammed Ahmed Hassan](http://localhost/samszo/omk/s/fiches/item/299768){target='_blank'} 
+##### 2023 ***Thèse de Shumin Liang*** { .unnumbered .o-Item_schema-Chapter}
 
+##### 2023 ***Thèse de Andrea Sosa*** { .unnumbered .o-Item_schema-Chapter}
 
-
-##### 2022-09-10 - 2022-10-10 ***Thèse de Manon Micaletti*** {#sec-item299818 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Manon Micaletti](http://localhost/samszo/omk/s/fiches/item/299769){target='_blank'} 
-
+##### 2023 ***Thèse de Mohammed Ahmed Hassan*** {#sec-item299817 .unnumbered .o-Item_schema-Chapter}
 
 
-##### 2022-09-10 - 2022-10-10 ***Thèse de Sarah Malaeb*** {#sec-item299819 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Sarah Malaeb](http://localhost/samszo/omk/s/fiches/item/299770){target='_blank'} 
+##### 2022 ***Thèse de Manon Micaletti*** {#sec-item299818 .unnumbered .o-Item_schema-Chapter}
 
 
-
-##### 2021-09-10 - 2021-10-10 ***Thèse de Luis Torres*** {#sec-item299820 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Luis Torres](http://localhost/samszo/omk/s/fiches/item/299771){target='_blank'} 
+##### 2022 ***Thèse de Sarah Malaeb*** {#sec-item299819 .unnumbered .o-Item_schema-Chapter}
 
 
+##### 2021 ***Thèse de Luis Torres*** {#sec-item299820 .unnumbered .o-Item_schema-Chapter}
 
-##### 2018-09-10 - 2018-10-10 ***Thèse de Carole Henri*** {#sec-item299821 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Carole Henri](http://localhost/samszo/omk/s/fiches/item/299772){target='_blank'} 
+##### 2018 ***Thèse de Carole Henri*** {#sec-item299821 .unnumbered .o-Item_schema-Chapter}
 
+##### 2018 ***Thèse de Emna Louati*** {#sec-item299822 .unnumbered .o-Item_schema-Chapter}
 
+##### 2019 ***Thèse de Emna Louati*** {#sec-item299823 .unnumbered .o-Item_schema-Chapter}
 
-##### 2018-09-10 - 2018-10-10 ***Thèse de Emna Louati*** {#sec-item299822 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Emna Louati](http://localhost/samszo/omk/s/fiches/item/299773){target='_blank'} 
+##### 2020 ***Thèse de Emna Louati*** {#sec-item299824 .unnumbered .o-Item_schema-Chapter}
 
+##### 2021 ***Thèse de Emna Louati*** {#sec-item299825 .unnumbered .o-Item_schema-Chapter}
 
+##### 2022 ***Thèse de Emna Louati*** {#sec-item299826 .unnumbered .o-Item_schema-Chapter}
 
-##### 2019-09-10 - 2019-10-10 ***Thèse de Emna Louati*** {#sec-item299823 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Emna Louati](http://localhost/samszo/omk/s/fiches/item/299773){target='_blank'} 
-
-
-
-##### 2020-09-10 - 2020-10-10 ***Thèse de Emna Louati*** {#sec-item299824 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Emna Louati](http://localhost/samszo/omk/s/fiches/item/299773){target='_blank'} 
-
-
-
-##### 2021-09-10 - 2021-10-10 ***Thèse de Emna Louati*** {#sec-item299825 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Emna Louati](http://localhost/samszo/omk/s/fiches/item/299773){target='_blank'} 
-
-
-
-##### 2022-09-10 - 2022-10-10 ***Thèse de Emna Louati*** {#sec-item299826 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Emna Louati](http://localhost/samszo/omk/s/fiches/item/299773){target='_blank'} 
-
-
-
-##### 2023-06-10 - 2023-07-10 ***Thèse de Emna Louati*** {#sec-item299827 .unnumbered .o-Item_schema-Chapter}
-**participant** : [Emna Louati](http://localhost/samszo/omk/s/fiches/item/299773){target='_blank'} 
-
-
+##### 2023 ***Thèse de Emna Louati*** {#sec-item299827 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Encadrement de stagiaires de Master 2 {#sec-item299643 .unnumbered .o-Item_schema-Chapter}
 
-
-##### 2023-04-01 - 2023-06-30 ***Stage de Rim Kaidi*** {#sec-item299828 .unnumbered .o-Item_schema-Chapter}
+##### 2023 ***Stage de Rim Kaidi*** {#sec-item299828 .unnumbered .o-Item_schema-Chapter}
 **Description** : Design d’information pour le bilan du laboratoire Paragraphe 
 
-[https://github.com/samszo/StatsHAL](https://github.com/samszo/StatsHAL){target='_blank'}**Lien en relation** :  
+**Site Web en relation** : [https://github.com/samszo/StatsHAL](https://github.com/samszo/StatsHAL){target='_blank'}
 
 **participant** : [Rim Kaidi](http://localhost/samszo/omk/s/fiches/item/299774){target='_blank'} 
 
 
-
-##### 2021-04-01 - 2021-06-30 ***Stage de Christina Ramaroson*** {#sec-item299829 .unnumbered .o-Item_schema-Chapter}
+##### 2021 ***Stage de Christina Ramaroson*** {#sec-item299829 .unnumbered .o-Item_schema-Chapter}
 **Description** : Recensement des dispositifs numériques de lutte contre les fakes news (jeux sérieux, sites de Hoax, fact checking etc.), élaboration d’un protocole d’expérimentation des dispositifs, expérimentation et analyse des dispositifs, synthèse. 
 
-**worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
+**Site Web en relation** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
 **participant** : [Christina Ramaroson](http://localhost/samszo/omk/s/fiches/item/299775){target='_blank'} 
 
 
 
-##### 2020-04-01 - 2020-06-30 ***Stage de Chacha Mahfoud*** {#sec-item299830 .unnumbered .o-Item_schema-Chapter}
+##### 2020 ***Stage de Chacha Mahfoud*** {#sec-item299830 .unnumbered .o-Item_schema-Chapter}
 **Description** : Recherche documentaires structurées, lecture d’articles scientifiques, rédaction d’un état de l’art sur les fake news d’après la littérature scientifique, participation aux réunions et séminaires. 
 
-**worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
+**Site Web en relation** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
-**participant** : [Chacha Mahfoud](http://localhost/samszo/omk/s/fiches/item/299784){target='_blank'} 
+**participant** : [Chacha Mahfoud](http://localhost/samszo/omk/s/fiches/item/299784){target='_blank'} [Orélie Desfriches Doria](http://localhost/samszo/omk/s/fiches/item/62137){target='_blank'}
 
 
-
-##### 2019-04-01 - 2019-06-30 ***Stage de Lucien Cartier-Tilet*** {#sec-item299831 .unnumbered .o-Item_schema-Chapter}
+##### 2019 ***Stage de Lucien Cartier-Tilet*** {#sec-item299831 .unnumbered .o-Item_schema-Chapter}
 **Description** : Tests et corrections d’un module Omeka S pour le scraping des textes de Molière. 
 
-**worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} [Omeka-S-module-Scraping](http://localhost/samszo/omk/s/fiches/item/299717){target='_blank'} 
+**Travail pour** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} [Omeka-S-module-Scraping](http://localhost/samszo/omk/s/fiches/item/299717){target='_blank'} 
 
 **participant** : [Lucien Cartier-Tilet](http://localhost/samszo/omk/s/fiches/item/299776){target='_blank'} 
 
 
-
-##### 2018-04-01 - 2018-06-30 ***Stage de Roch Delanay*** {#sec-item299832 .unnumbered .o-Item_schema-Chapter}
+##### 2018 ***Stage de Roch Delanay*** {#sec-item299832 .unnumbered .o-Item_schema-Chapter}
 **Description** : Conception et développement d’une application de mailing pour la gestion des publication scientifiques. 
 
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 **participant** : [Roch Delanay](http://localhost/samszo/omk/s/fiches/item/299777){target='_blank'} 
 
 
 
-##### 2012-04-01 - 2012-06-30 ***Stage de Ala Atrash*** {#sec-item299833 .unnumbered .o-Item_schema-Chapter}
+##### 2012 ***Stage de Ala Atrash*** {#sec-item299833 .unnumbered .o-Item_schema-Chapter}
 **Description** : Conception et développement de la version tactile de GEVU 
 
 **participant** : [Ala Atrash](http://localhost/samszo/omk/s/fiches/item/299778){target='_blank'} 
 
 
 
-##### 2011-04-01 - 2011-06-30 ***Stage de Claire Dezaille*** {#sec-item299834 .unnumbered .o-Item_schema-Chapter}
+##### 2011 ***Stage de Claire Dezaille*** {#sec-item299834 .unnumbered .o-Item_schema-Chapter}
 **Description** : Conception de statistiques pour GEVU 
 
 **participant** : [Claire Dezaille](http://localhost/samszo/omk/s/fiches/item/299779){target='_blank'} 
 
 
 
-##### 2010-04-01 - 2010-06-30 ***Stage de Abderrahim Bargaoui*** {#sec-item299835 .unnumbered .o-Item_schema-Chapter}
+##### 2010 ***Stage de Abderrahim Bargaoui*** {#sec-item299835 .unnumbered .o-Item_schema-Chapter}
 **Description** : Archipoenum 
 
-**worksFor** : [archipoenum](http://localhost/samszo/omk/s/fiches/item/299747){target='_blank'} 
+**Travail pour** : : [archipoenum](http://localhost/samszo/omk/s/fiches/item/299747){target='_blank'} 
 
-**participant** : [Abderrahim Bargaoui](http://localhost/samszo/omk/s/fiches/item/299780){target='_blank'} 
+**participant** : [Abderrahim Bargaoui](http://localhost/samszo/omk/s/fiches/item/299780){target='_blank'} [Philippe Bootz](http://localhost/samszo/omk/s/fiches/item/61224){target='_blank'} 
 
 
-
-##### 2010-04-01 - 2010-06-30 ***Stage de Mehdi Touibi*** {#sec-item299836 .unnumbered .o-Item_schema-Chapter}
+##### 2010 ***Stage de Mehdi Touibi*** {#sec-item299836 .unnumbered .o-Item_schema-Chapter}
 **Description** : Evaluation de l’activité politique 
 
-**worksFor** : [evalactipol](http://localhost/samszo/omk/s/fiches/item/299750){target='_blank'} 
+**Travail pour** : : [evalactipol](http://localhost/samszo/omk/s/fiches/item/299750){target='_blank'} 
 
 **participant** : [Mehdi Touibi](http://localhost/samszo/omk/s/fiches/item/299781){target='_blank'} 
-
 
 
 ##### 2009-04-01 - 2009-06-30 ***Stage de Amel Bourenane*** {#sec-item299837 .unnumbered .o-Item_schema-Chapter}
 **Description** : EvalActiSem : évaluation de l’activité sémantique 
 
-**worksFor** : [evalactisem](http://localhost/samszo/omk/s/fiches/item/299748){target='_blank'} 
+**Travail pour** : : [evalactisem](http://localhost/samszo/omk/s/fiches/item/299748){target='_blank'} 
 
 **participant** : [Amel Bourenane](http://localhost/samszo/omk/s/fiches/item/299782){target='_blank'} 
 
 
+#### Animation d’une équipe {#sec-item299366 .unnumbered .o-Item_schema-Chapter}
+**Description** : Dans le cadre de la collection d’ouvrage Digital Tools & Uses, je participe à l’animation de l’équipe d’auteurs, à la création du site Web, à l'organisation des conférences... 
 
 
-#### 2017-09-15 - 2023-09-10 ***Animation d’une équipe*** {#sec-item299366 .unnumbered .o-Item_schema-Chapter}
-**Description** : Dans le cadre de la collection d’ouvrage Digital Tools & Uses, j’ai participé à l’animation de l’équipe d’auteurs, à la création dusite Web, à l'organisation des conférences... 
-
-
-
-#### 2017-09-10 - 2018-09-10 ***Création d’un axe scientifique*** {#sec-item299364 .unnumbered .o-Item_schema-Chapter}
-**Description** : Dans le cadre de la refonte des équipes du laboratoire Paragraphe, j’ai participé à la création de l’axe « Dispositifs numériques : production, usages et modélisation communicationnelle ». 
-
-
+#### Création d’un axe scientifique {#sec-item299364 .unnumbered .o-Item_schema-Chapter}
+**Description** : Dans le cadre de la refonte des équipes du laboratoire Paragraphe, j’ai participé à la création de l’axe « Dispositifs numériques : production, usages et modélisation communicationnelle », travaille à son développement et anime ses activités. 
 
 
 ### Organisation de séminaires, journées d’études et/ou colloques {#sec-item299367 .o-Item_schema-Chapter}
@@ -1045,65 +950,59 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2023-10-18 - 2023-10-20 ***H2PTM 2023*** {#sec-item299838 .unnumbered .o-Item_schema-Chapter}
 **Description** : La fabrique du sens à l’ère de l’information numérique : enjeux et défis 
 
-**address** : Arenberg Creative Mine, Valenciennes, France 
+**Localisation** : Arenberg Creative Mine, Valenciennes, France 
 
-[http://h2ptm.univ-paris8.fr/](http://h2ptm.univ-paris8.fr/){target='_blank'}**Lien en relation** :  
-
+**Site Web en relation** : [http://h2ptm.univ-paris8.fr/](http://h2ptm.univ-paris8.fr/){target='_blank'}  
 
 
 ##### 2019-10-16 - 2019-10-19 ***H2PTM 2019*** {#sec-item299842 .unnumbered .o-Item_schema-Chapter}
 **Description** : De l’hypertexte aux humanités numériques 
 
-**address** : Université de Franche-Comté, Montbéliard 
+**Localisation** : Université de Franche-Comté, Montbéliard 
 
-[http://h2ptm.univ-paris8.fr/OLD/h2ptm21/](http://h2ptm.univ-paris8.fr/OLD/h2ptm21/){target='_blank'}**Lien en relation** :  
-
+**Site Web en relation** : [http://h2ptm.univ-paris8.fr/OLD/h2ptm21/](http://h2ptm.univ-paris8.fr/OLD/h2ptm21/){target='_blank'}  
 
 
 ##### 2017-10-18 - 2017-10-20 ***H2PTM 2017*** {#sec-item299843 .unnumbered .o-Item_schema-Chapter}
 **Description** : Le numérique à l'ère des designs 
 
-**address** : Arenberg Creative Mine, Valenciennes, France 
+**Localisation** : Arenberg Creative Mine, Valenciennes, France 
 
-[http://h2ptm.univ-paris8.fr/OLD/h2ptm19/](http://h2ptm.univ-paris8.fr/OLD/h2ptm19/){target='_blank'}**Lien en relation** :  
-
+**Site Web en relation** : [http://h2ptm.univ-paris8.fr/OLD/h2ptm19/](http://h2ptm.univ-paris8.fr/OLD/h2ptm19/){target='_blank'}
 
 
 ##### 2016-11-09 - 2016-11-10 ***01 Design 10*** {#sec-item299844 .unnumbered .o-Item_schema-Chapter}
-**address** : Grenade, Espagne 
+**Localisation** : Grenade, Espagne 
 
-[http://01design.eu/10/](http://01design.eu/10/){target='_blank'}**Lien en relation** :  
-
+**Site Web en relation** : [http://01design.eu/10/](http://01design.eu/10/){target='_blank'}
 
 
 ##### 2016-12-01 - 2016-12-02 ***Frontières Numériques 3*** {#sec-item299845 .unnumbered .o-Item_schema-Chapter}
-**address** : Université de Toulon 
-
+**Localisation** : Université de Toulon 
 
 
 ##### 2016-11-29 - 2016-11-29 ***Journée nationale de l’Internet des objets*** {#sec-item299846 .unnumbered .o-Item_schema-Chapter}
-**address** : Cité de l’Innovation, Nokia Paris-Saclay 
+**Localisation** : Cité de l’Innovation, Nokia Paris-Saclay 
 
-[https://ido2016.sciencesconf.org/](https://ido2016.sciencesconf.org/){target='_blank'}**Lien en relation** :  
+**Site Web en relation** : [https://ido2016.sciencesconf.org/](https://ido2016.sciencesconf.org/){target='_blank'}
 
 
 
 ##### 2014-06-11 - 2014-06-13 ***9th HSLALS*** {#sec-item299849 .unnumbered .o-Item_schema-Chapter}
 **Description** : International Conference on Human System Learning Alternative Learning Systems 
 
-**address** : Cotonou, Bénin 
+**Localisation** : Cotonou, Bénin 
 
-[http://www.ichsl.net/9/pc.htm](http://www.ichsl.net/9/pc.htm){target='_blank'}**Lien en relation** :  
+**Site Web en relation** : [http://www.ichsl.net/9/pc.htm](http://www.ichsl.net/9/pc.htm){target='_blank'}  
 
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 
 
 ##### 2012-05-08 - 2012-05-11 ***01 Design 08*** {#sec-item299851 .unnumbered .o-Item_schema-Chapter}
-**address** : Académie Royale des Beaux-Arts de Bruxelles, Belgique 
+**Localisation** : Académie Royale des Beaux-Arts de Bruxelles, Belgique 
 
-[http://europia.org/edition/livres/cogn/01D8.htm](http://europia.org/edition/livres/cogn/01D8.htm){target='_blank'}**Lien en relation** :  
-
+**Site Web en relation** : [http://europia.org/edition/livres/cogn/01D8.htm](http://europia.org/edition/livres/cogn/01D8.htm){target='_blank'} :  
 
 
 
@@ -1116,94 +1015,105 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 #### Organisation séminaires {#sec-item300720 .unnumbered .o-Item_dctype-Event}
 
+##### 2022 - Présent ***GENIC*** { .unnumbered .o-Item_dctype-Event}
+**Description** : Séminaire des membres du groupe d’étude et de recherche GENIC* (Groupe sur l’Éthique et le Numérique en Information-Communication), labellisé par la SFSIC autour des enjeux de l’éthique et du numérique.
+**Site Web en relation** : [https://genic.hypotheses.org/](https://genic.hypotheses.org/){target='_blank'}
+
+##### 2020 - Présent ***Arcanes*** { .unnumbered .o-Item_dctype-Event}
+**Description** : Un séminaire international et interdisciplinaire dont objectif consiste à explorer les mécanismes à l’œuvre dans les arts trompeurs et l’espace informationnel qui activent les puissances du faux, prenant place dans une ère de post-vérité. 
+**Site Web en relation** : [https://crilcq.arcanes.ca/activites/seminaires-arcanes/](https://crilcq.arcanes.ca/activites/seminaires-arcanes/){target='_blank'}
+
+
+##### 2018 - Présent ***Séminaire de DiNuPuMoc*** {.unnumbered .o-Item_dctype-Event}
+**Description** : Séminaire de l'axe Dispositifs numériques : production, usages et modélisation communicationnelle (DiNuPUMoC) du laboratoire Paragraphe
+
+**Localisation** : Université Paris 8, Saint-Denis, France 
+
 
 ##### 2017-10-25 - 2018-03-21 ***ADACEMU*** {#sec-item299854 .unnumbered .o-Item_dctype-Event}
 **Description** : https://adacemu.univ-paris8.fr/ 
 
-[https://adacemu.univ-paris8.fr/](https://adacemu.univ-paris8.fr/){target='_blank'}**Lien en relation** :  
-
+**Site Web en relation** : [https://adacemu.univ-paris8.fr/](https://adacemu.univ-paris8.fr/){target='_blank'}
 
 
 ##### 2014-05-16 - 2014-05-16 ***Séminaire Inter-équipe Laboratoire Paragraphe*** {#sec-item299856 .unnumbered .o-Item_dctype-Event}
 **Description** : Les écosystèmes d’information 
 
-**address** : Université Paris 8, Saint-Denis, France 
-
-
+**Localisation** : Université Paris 8, Saint-Denis, France 
 
 
 #### Organisation colloques {#sec-item300721 .unnumbered .o-Item_dctype-Event}
 
 
 ##### 2023-06-07 - 2023-06-09 ***Frontières numériques 5*** {#sec-item299839 .unnumbered .o-Item_schema-Chapter}
-[https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2023/](https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2023/){target='_blank'}**Lien en relation** :  
+[https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2023/](https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2023/){target='_blank'}**Site Web en relation** : :  
 
-**address** : Hammamet, Tunisie 
+**Localisation** : Hammamet, Tunisie 
 
 
 
 ##### 2022-10-13 - 2022-10-15 ***01Design 12*** {#sec-item299840 .unnumbered .o-Item_schema-Chapter}
 **Description** : Design non intentionnel 
 
-[https://01design.eu/12/](https://01design.eu/12/){target='_blank'}**Lien en relation** :  
+[https://01design.eu/12/](https://01design.eu/12/){target='_blank'}**Site Web en relation** : :  
 
-**address** : Hammamet, Tunisie 
+**Localisation** : Hammamet, Tunisie 
 
 
 
 ##### 2022-11-09 - 2022-11-10 ***Frontières numériques 4*** {#sec-item299841 .unnumbered .o-Item_schema-Chapter}
-[https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2022/](https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2022/){target='_blank'}**Lien en relation** :  
+[https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2022/](https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2022/){target='_blank'}**Site Web en relation** : :  
 
-**address** : Université Paris 8, Saint-Denis, France 
+**Localisation** : Université Paris 8, Saint-Denis, France 
 
 
 
 ##### 2015-10-14 - 2015-10-16 ***H2PTM 2015*** {#sec-item299847 .unnumbered .o-Item_schema-Chapter}
-[http://h2ptm.univ-paris8.fr/OLD/h2ptm15/](http://h2ptm.univ-paris8.fr/OLD/h2ptm15/){target='_blank'}**Lien en relation** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm15/](http://h2ptm.univ-paris8.fr/OLD/h2ptm15/){target='_blank'}**Site Web en relation** : :  
 
-**address** : Université Paris 8, Saint-Denis, France 
+**Localisation** : Université Paris 8, Saint-Denis, France 
 
 
 
 ##### 2014-11-18 - 2014-11-19 ***Frontières Numériques 2*** {#sec-item299848 .unnumbered .o-Item_schema-Chapter}
-**address** : Fes, Maroc 
+**Localisation** : Fes, Maroc 
 
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 
 
 ##### 2013-10-16 - 2013-10-16 ***H2PTM 2013*** {#sec-item299850 .unnumbered .o-Item_schema-Chapter}
-**address** : CNAM, Paris 
+**Localisation** : CNAM, Paris 
 
-[http://h2ptm.univ-paris8.fr/OLD/h2ptm13/](http://h2ptm.univ-paris8.fr/OLD/h2ptm13/){target='_blank'}**Lien en relation** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm13/](http://h2ptm.univ-paris8.fr/OLD/h2ptm13/){target='_blank'}**Site Web en relation** : :  
 
 
 
 ##### 2020-11-15 - 2020-11-17 ***Digital Tools & Uses – Congress 2020*** {#sec-item299852 .unnumbered .o-Item_schema-Chapter}
-[https://digitaluses-congress.univ-paris8.fr/](https://digitaluses-congress.univ-paris8.fr/){target='_blank'}**Lien en relation** :  
+[https://digitaluses-congress.univ-paris8.fr/](https://digitaluses-congress.univ-paris8.fr/){target='_blank'}**Site Web en relation** : :  
 
-**address** : Hammamet, Tunisie 
+**Localisation** : Hammamet, Tunisie 
 
 
 
 ##### 2018-10-03 - 2018-10-05 ***Digital Tools & Uses – Congress 2018*** {#sec-item299853 .unnumbered .o-Item_schema-Chapter}
-**address** : MSH Paris Nord, Aubervilliers 
+**Localisation** : MSH Paris Nord, Aubervilliers 
 
 
 
 ##### 2017-05-18 - 2017-05-19 ***Conférence Nouveaux défis de l’Internet des Objets*** {#sec-item299855 .unnumbered .o-Item_schema-Chapter}
-[https://ido2017.sciencesconf.org/](https://ido2017.sciencesconf.org/){target='_blank'}**Lien en relation** :  
+[https://ido2017.sciencesconf.org/](https://ido2017.sciencesconf.org/){target='_blank'}**Site Web en relation** : :  
 
-**address** : Fes, Maroc 
+**Localisation** : Fes, Maroc 
 
 
 
 ##### 2010-11-08 - 2010-11-10 ***12th iiWAS2010*** {#sec-item299857 .unnumbered .o-Item_dctype-Event}
 **Description** : International Conference on Information Integration and Web-based Applications & Services 
 
-[http://www.iiwas.org/conferences/iiwas2010](http://www.iiwas.org/conferences/iiwas2010){target='_blank'}**Lien en relation** :  
+[http://www.iiwas.org/conferences/iiwas2010](http://www.iiwas.org/conferences/iiwas2010){target='_blank'}**Site Web en relation** : :  
 
-**address** : IUFM University Cergy-Pontoise, Gennevilliers 
+**Localisation** : IUFM University Cergy-Pontoise, Gennevilliers 
 
 
 
@@ -1211,9 +1121,9 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 **Description** : 16ème édition (1989-2021)
 Information : Enjeux et nouveaux défis 
 
-[http://h2ptm.univ-paris8.fr/OLD/h2ptm21/](http://h2ptm.univ-paris8.fr/OLD/h2ptm21/){target='_blank'}**Lien en relation** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm21/](http://h2ptm.univ-paris8.fr/OLD/h2ptm21/){target='_blank'}**Site Web en relation** : :  
 
-**address** : Campus Condorcet Paris-Aubervilliers 
+**Localisation** : Campus Condorcet Paris-Aubervilliers 
 
 
 
@@ -1225,7 +1135,7 @@ Information : Enjeux et nouveaux défis
 #### 2018 - 2019 ***ANR Open Memories*** {#sec-item299646 .unnumbered .o-Item_dctype-Event}
 **Description** : Porté par l’INA 
 
-**worksFor** : [ANR](http://localhost/samszo/omk/s/fiches/item/299599){target='_blank'} [INA](http://localhost/samszo/omk/s/fiches/item/299597){target='_blank'} 
+**Travail pour** : : [ANR](http://localhost/samszo/omk/s/fiches/item/299599){target='_blank'} [INA](http://localhost/samszo/omk/s/fiches/item/299597){target='_blank'} 
 
 
 
@@ -1246,54 +1156,54 @@ Information : Enjeux et nouveaux défis
 
 
 #### 2020 - 2021 ***Soutien à la recherche-création pour la relève professorale, , Canada.Décembre 2016, Digital Humanities 2017, Montreal, Canada*** {#sec-item299651 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [Fonds de recherche du Québec](http://localhost/samszo/omk/s/fiches/item/299598){target='_blank'} 
+**Travail pour** : : [Fonds de recherche du Québec](http://localhost/samszo/omk/s/fiches/item/299598){target='_blank'} 
 
 
 
 #### 2016-12-01 - 2017-03-12 ***Digital Humanities 2017*** {#sec-item299652 .unnumbered .o-Item_schema-Chapter}
-[https://dh2017.adho.org/](https://dh2017.adho.org/){target='_blank'}**Lien en relation** :  
+[https://dh2017.adho.org/](https://dh2017.adho.org/){target='_blank'}**Site Web en relation** : :  
 
 
 
 #### 2016-06-01 - 2016-07-30 ***Colloque jeunes chercheurs*** {#sec-item299653 .unnumbered .o-Item_schema-Chapter}
 **Description** : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
 
-[http://cli2016.fr/comites.php](http://cli2016.fr/comites.php){target='_blank'}**Lien en relation** :  
+[http://cli2016.fr/comites.php](http://cli2016.fr/comites.php){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [CLI](http://localhost/samszo/omk/s/fiches/item/299600){target='_blank'} 
+**Travail pour** : : [CLI](http://localhost/samszo/omk/s/fiches/item/299600){target='_blank'} 
 
 
 
 #### 2016-05-01 - 2016-06-30 ***Langues, cultures et médias en Méditerranée*** {#sec-item299654 .unnumbered .o-Item_schema-Chapter}
 **Description** : Langues, cultures et médias en Méditerranée : forme, sens et développement, Agadir, Maroc 
 
-[https://calenda.org/354696](https://calenda.org/354696){target='_blank'}**Lien en relation** :  
+[https://calenda.org/354696](https://calenda.org/354696){target='_blank'}**Site Web en relation** : :  
 
 
 
 #### 2016-01-03 - 2016-02-15 ***AAP Interdisciplinaires*** {#sec-item299655 .unnumbered .o-Item_schema-Chapter}
 **Description** : AAP Interdisciplinaires Phase 2 
 
-**worksFor** : [Université de Nantes](http://localhost/samszo/omk/s/fiches/item/299596){target='_blank'} 
+**Travail pour** : : [Université de Nantes](http://localhost/samszo/omk/s/fiches/item/299596){target='_blank'} 
 
 
 
 #### 2015-10-03 - 2015-12-30 ***Digital Humanities 2016*** {#sec-item299656 .unnumbered .o-Item_schema-Chapter}
-[http://dh2016.adho.org/](http://dh2016.adho.org/){target='_blank'}**Lien en relation** :  
+[http://dh2016.adho.org/](http://dh2016.adho.org/){target='_blank'}**Site Web en relation** : :  
 
 
 
 #### 2015-06-01 - 2015-07-30 ***Colloque jeunes chercheurs*** {#sec-item299657 .unnumbered .o-Item_schema-Chapter}
 **Description** : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
 
-[http://cli2016.fr/comites.php](http://cli2016.fr/comites.php){target='_blank'}**Lien en relation** :  
+[http://cli2016.fr/comites.php](http://cli2016.fr/comites.php){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [CLI](http://localhost/samszo/omk/s/fiches/item/299600){target='_blank'} 
+**Travail pour** : : [CLI](http://localhost/samszo/omk/s/fiches/item/299600){target='_blank'} 
 
 
 
 #### 2010-05-01 - 2010-05-31 ***ANR Programme CONTENUS ET INTERACTIONS*** {#sec-item299658 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [ANR](http://localhost/samszo/omk/s/fiches/item/299599){target='_blank'} 
+**Travail pour** : : [ANR](http://localhost/samszo/omk/s/fiches/item/299599){target='_blank'} 
 
 
 
@@ -1304,14 +1214,14 @@ Information : Enjeux et nouveaux défis
 #### 2015 - 2023 ***Membre du comité scientifique de la revue Internet des Objets*** {#sec-item299659 .unnumbered .o-Item_schema-Chapter}
 **Description** : ISTE Open Science 
 
-[http://www.openscience.fr/Internet-des-objets](http://www.openscience.fr/Internet-des-objets){target='_blank'}**Lien en relation** :  
+[http://www.openscience.fr/Internet-des-objets](http://www.openscience.fr/Internet-des-objets){target='_blank'}**Site Web en relation** : :  
 
 
 
 #### 2015 - 2023 ***Membre du comité de la collections « Outils et usages numériques »*** {#sec-item299660 .unnumbered .o-Item_schema-Chapter}
 **Description** : Collection dirigée par Imad Saleh 
 
-[http://digitaluses.info/](http://digitaluses.info/){target='_blank'}**Lien en relation** :  
+[http://digitaluses.info/](http://digitaluses.info/){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -1328,7 +1238,7 @@ Information : Enjeux et nouveaux défis
 
 
 #### 2010 - 2023 ***ISKO Magreb*** {#sec-item299663 .unnumbered .o-Item_schema-Chapter}
-[https://www.isko-maghreb.org/](https://www.isko-maghreb.org/){target='_blank'}**Lien en relation** :  
+[https://www.isko-maghreb.org/](https://www.isko-maghreb.org/){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -1344,12 +1254,12 @@ Information : Enjeux et nouveaux défis
 
 
 #### 2018 - 2023 ***Responsable pédagogique Master 2 AVUN*** {#sec-item299665 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
+**Travail pour** : : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414){target='_blank'} 
 
 
 
 #### 2010 - 2019 ***Responsable pédagogique Licence Pro DWM*** {#sec-item299666 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
+**Travail pour** : : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421){target='_blank'} 
 
 
 
@@ -1366,9 +1276,9 @@ Subvention CRSH – Savoir : 256 000 $
 Le projet Arcanes comporte deux volets. Le premier volet explore les processus de production du sens, les filiations historiques et intermédiales ainsi que les dynamiques de médiation, tout comme les divers dispositifs et les processus d’éditorialisation dans le sillon des humanités et des cultures numériques.
 Le deuxième volet interroge les puissances du faux, les mécanismes du leurre ainsi que les stratégies d’illusion tels qu’ils se manifestent dans les arts – que nous qualifions « d’arts trompeurs » -, la littérature,  les pratiques médiatiques et l’écosystème socionumérique actuel. 
 
-[https://crilcq.arcanes.ca/](https://crilcq.arcanes.ca/){target='_blank'}**Lien en relation** :  
+[https://crilcq.arcanes.ca/](https://crilcq.arcanes.ca/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Fonds de recherche du Québec](http://localhost/samszo/omk/s/fiches/item/299598){target='_blank'} 
+**Travail pour** : : [Fonds de recherche du Québec](http://localhost/samszo/omk/s/fiches/item/299598){target='_blank'} 
 
 
 
@@ -1379,9 +1289,9 @@ Subvention ArTec : 5 000 €
 Ce projet de recherche vise à expérimenter des processus innovants de formation à l’esprit critique. Le premier volet dont nous devrions obtenir le financer par les “Trophées de l’innovation en Ile de France” se centre sur le développement informatique d’un générateur automatique d’arguments sous forme de Web App, qui sert d’interface d’interaction avec les utilisateurs, et de moyen de collecte de données sur les émotions suscitées par la génération des contre-propositions.
 En articulation avec ce projet, l’objet du projet Polemik’Art financer par ArTec consiste à 1) concevoir des modalités d’interactions humaines et numériques avec des dispositifs de mise en scène du générateur d’arguments développé dans POLEMIKA, 2) étudier le rôle des émotions dans la réception de ces mises en scène de contre-propositions, 3) évaluer l’influence de la participation des publics sur l’évolution de leurs émotions. 
 
-[https://polemika.univ-paris8.fr/](https://polemika.univ-paris8.fr/){target='_blank'}**Lien en relation** :  
+[https://polemika.univ-paris8.fr/](https://polemika.univ-paris8.fr/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} 
+**Travail pour** : : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} 
 
 
 
@@ -1400,7 +1310,7 @@ Ce travail de recherche interdisciplinaire inclut des approches de géographie, 
 
 
 #### Conseil scientifique laboratoire Paragraphe {#sec-item299668 .unnumbered .o-Item_schema-Chapter}
-**worksFor** : [Laboratoire Paragraphe](http://localhost/samszo/omk/s/fiches/item/299601){target='_blank'} 
+**Travail pour** : : [Laboratoire Paragraphe](http://localhost/samszo/omk/s/fiches/item/299601){target='_blank'} 
 
 
 
@@ -1477,14 +1387,14 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 ##### 2018-10-10 - 2023-12-31 ***Membre de conseil académique de l’EUR ArTec.*** {#sec-item299875 .unnumbered .o-Item_schema-Chapter}
 **Description** : Il est l’instance législatrice de l’EUR ArTeC. Il émet des avis sur les orientations scientifiques de l’EUR proposées par le comité exécutif. Il se prononce sur la qualité des programmes de recherche et de formation envisagés et évalue leurs résultats. Il réunit une quarantaine de membre. 
 
-**worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} 
+**Travail pour** : : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} 
 
 
 
 ##### 2012-10-23 - 2019-09-15 ***Membre de IDEFI – CréaTIC*** {#sec-item299876 .unnumbered .o-Item_schema-Chapter}
 **Description** : Participation à la conception du projet et à la conception de pédagogies innovantes visant à développer les technologies de l’information et de la communication au service de la pédagogie socioconstructiviste par projets et de la créativité numérique étudiante cf. Module Innovant Pédagogique IDEFI-CreaTIC - Paris 8 
 
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 
 
@@ -2061,9 +1971,9 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 ##### 2016 -  ***Generative Stein Poems*** {#sec-item299728 .unnumbered .o-Item_schema-Project}
-[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**Lien en relation** :  
+[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
+**Travail pour** : : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
 
 **participant** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} [Everardo Reyes](http://localhost/samszo/omk/s/fiches/item/62572){target='_blank'} 
 
@@ -2166,9 +2076,9 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 ##### 2018 -  ***2018 : Valorisation des Archives numériques*** {#sec-item299723 .unnumbered .o-Item_schema-Project}
-[https://jardindesconnaissances.univ-paris8.fr/public/valarnum](https://jardindesconnaissances.univ-paris8.fr/public/valarnum){target='_blank'}**Lien en relation** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/valarnum](https://jardindesconnaissances.univ-paris8.fr/public/valarnum){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Métamorphoses et hybridations d’une archive numérique pour sa valorisation : vers des écosystèmes de connaissances](http://localhost/samszo/omk/s/fiches/item/70159){target='_blank'} 
+**Travail pour** : : [Métamorphoses et hybridations d’une archive numérique pour sa valorisation : vers des écosystèmes de connaissances](http://localhost/samszo/omk/s/fiches/item/70159){target='_blank'} 
 
 
 
@@ -2813,7 +2723,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 #### Ingénierie Sémantique Collaborative {#sec-item300723 .unnumbered .o-Item_bibo-Slideshow}
 **presented at** : H2PTM'07 : Collaborer, Echanger, Inventer : Expériences de réseaux 
 
-**address** : Hammamet, Tunisie 
+**Localisation** : Hammamet, Tunisie 
 
 **Date** : 2007-10-15 
 
@@ -3183,7 +3093,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/Omeka-S-module-JDC](https://github.com/samszo/Omeka-S-module-JDC){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/Omeka-S-module-JDC](https://github.com/samszo/Omeka-S-module-JDC){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -3196,7 +3106,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/Omeka-S-module-CartoAffect](https://github.com/samszo/Omeka-S-module-CartoAffect){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/Omeka-S-module-CartoAffect](https://github.com/samszo/Omeka-S-module-CartoAffect){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -3209,14 +3119,14 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/Omeka-S-module-scraping](https://github.com/samszo/Omeka-S-module-scraping){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/Omeka-S-module-scraping](https://github.com/samszo/Omeka-S-module-scraping){target='_blank'}**Site Web en relation** : :  
 
 
 
 ###### 2019-04-01 - 2019-06-30 ***Stage de Lucien Cartier-Tilet*** {#sec-item299831 .unnumbered .o-Item_schema-Chapter}
 **Description** : Tests et corrections d’un module Omeka S pour le scraping des textes de Molière. 
 
-**worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} [Omeka-S-module-Scraping](http://localhost/samszo/omk/s/fiches/item/299717){target='_blank'} 
+**Travail pour** : : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} [Omeka-S-module-Scraping](http://localhost/samszo/omk/s/fiches/item/299717){target='_blank'} 
 
 **participant** : [Lucien Cartier-Tilet](http://localhost/samszo/omk/s/fiches/item/299776){target='_blank'} 
 
@@ -3232,7 +3142,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/Omeka-S-module-CmapImport](https://github.com/samszo/Omeka-S-module-CmapImport){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/Omeka-S-module-CmapImport](https://github.com/samszo/Omeka-S-module-CmapImport){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -3245,9 +3155,9 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/Omeka-S-module-generateur](https://github.com/samszo/Omeka-S-module-generateur){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/Omeka-S-module-generateur](https://github.com/samszo/Omeka-S-module-generateur){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Daniel Berthereau](http://localhost/samszo/omk/s/fiches/item/299623){target='_blank'} 
+**Travail pour** : : [Daniel Berthereau](http://localhost/samszo/omk/s/fiches/item/299623){target='_blank'} 
 
 
 
@@ -3262,7 +3172,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/Omeka-S-module-zoteroImportPlus](https://github.com/samszo/Omeka-S-module-zoteroImportPlus){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/Omeka-S-module-zoteroImportPlus](https://github.com/samszo/Omeka-S-module-zoteroImportPlus){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -3481,9 +3391,9 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 ##### 2021 - 2022 ***Base de données Omeka s pour une pédagothèque en psychologie*** {#sec-item299715 .unnumbered .o-Item_schema-Project}
 **Description** : L'objectif de ce site est de faciliter le partage des ressources pédagogiques entre enseignants dans le domaine de la psychologie 
 
-[https://pedagotheque.uoh.fr/psy/](https://pedagotheque.uoh.fr/psy/){target='_blank'}[https://github.com/samszo/Omeka-S-theme-UOH](https://github.com/samszo/Omeka-S-theme-UOH){target='_blank'}**Lien en relation** :   
+[https://pedagotheque.uoh.fr/psy/](https://pedagotheque.uoh.fr/psy/){target='_blank'}[https://github.com/samszo/Omeka-S-theme-UOH](https://github.com/samszo/Omeka-S-theme-UOH){target='_blank'}**Site Web en relation** : :   
 
-**worksFor** : [Jean-Marc Meunier](http://localhost/samszo/omk/s/fiches/item/62155){target='_blank'} 
+**Travail pour** : : [Jean-Marc Meunier](http://localhost/samszo/omk/s/fiches/item/62155){target='_blank'} 
 
 
 
@@ -3591,9 +3501,9 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2018 -  ***2018 : Valorisation des Archives numériques*** {#sec-item299723 .unnumbered .o-Item_schema-Project}
-[https://jardindesconnaissances.univ-paris8.fr/public/valarnum](https://jardindesconnaissances.univ-paris8.fr/public/valarnum){target='_blank'}**Lien en relation** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/valarnum](https://jardindesconnaissances.univ-paris8.fr/public/valarnum){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Métamorphoses et hybridations d’une archive numérique pour sa valorisation : vers des écosystèmes de connaissances](http://localhost/samszo/omk/s/fiches/item/70159){target='_blank'} 
+**Travail pour** : : [Métamorphoses et hybridations d’une archive numérique pour sa valorisation : vers des écosystèmes de connaissances](http://localhost/samszo/omk/s/fiches/item/70159){target='_blank'} 
 
 
 
@@ -3605,9 +3515,9 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2016 -  ***Generative Stein Poems*** {#sec-item299728 .unnumbered .o-Item_schema-Project}
-[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**Lien en relation** :  
+[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
+**Travail pour** : : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
 
 **participant** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} [Everardo Reyes](http://localhost/samszo/omk/s/fiches/item/62572){target='_blank'} 
 
@@ -3638,7 +3548,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 ##### 2014 - 2015 ***Visualisation des points de vue sur les catégories d’influences*** {#sec-item299738 .unnumbered .o-Item_schema-Project}
 **Description** : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
-[https://jardindesconnaissances.univ-paris8.fr/public/biolographes/comparecat](https://jardindesconnaissances.univ-paris8.fr/public/biolographes/comparecat){target='_blank'}**Lien en relation** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/biolographes/comparecat](https://jardindesconnaissances.univ-paris8.fr/public/biolographes/comparecat){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -3703,7 +3613,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://artnum.univ-paris8.fr/cocult/tags.html](https://artnum.univ-paris8.fr/cocult/tags.html){target='_blank'}**Lien en relation** :  
+[https://artnum.univ-paris8.fr/cocult/tags.html](https://artnum.univ-paris8.fr/cocult/tags.html){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -3716,16 +3626,16 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://polemika.univ-paris8.fr/omk/s/prototypes](https://polemika.univ-paris8.fr/omk/s/prototypes){target='_blank'}[https://polemika.univ-paris8.fr/omk/s/emotions/page/welcome](https://polemika.univ-paris8.fr/omk/s/emotions/page/welcome){target='_blank'}**Lien en relation** :   
+[https://polemika.univ-paris8.fr/omk/s/prototypes](https://polemika.univ-paris8.fr/omk/s/prototypes){target='_blank'}[https://polemika.univ-paris8.fr/omk/s/emotions/page/welcome](https://polemika.univ-paris8.fr/omk/s/emotions/page/welcome){target='_blank'}**Site Web en relation** : :   
 
-**worksFor** : [Jean-Marc Meunier](http://localhost/samszo/omk/s/fiches/item/62155){target='_blank'} [Orélie Desfriches Doria](http://localhost/samszo/omk/s/fiches/item/62137){target='_blank'} 
+**Travail pour** : : [Jean-Marc Meunier](http://localhost/samszo/omk/s/fiches/item/62155){target='_blank'} [Orélie Desfriches Doria](http://localhost/samszo/omk/s/fiches/item/62137){target='_blank'} 
 
 
 
 ###### 2021-04-01 - 2021-06-30 ***Stage de Christina Ramaroson*** {#sec-item299829 .unnumbered .o-Item_schema-Chapter}
 **Description** : Recensement des dispositifs numériques de lutte contre les fakes news (jeux sérieux, sites de Hoax, fact checking etc.), élaboration d’un protocole d’expérimentation des dispositifs, expérimentation et analyse des dispositifs, synthèse. 
 
-**worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
+**Travail pour** : : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
 **participant** : [Christina Ramaroson](http://localhost/samszo/omk/s/fiches/item/299775){target='_blank'} 
 
@@ -3734,7 +3644,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 ###### 2020-04-01 - 2020-06-30 ***Stage de Chacha Mahfoud*** {#sec-item299830 .unnumbered .o-Item_schema-Chapter}
 **Description** : Recherche documentaires structurées, lecture d’articles scientifiques, rédaction d’un état de l’art sur les fake news d’après la littérature scientifique, participation aux réunions et séminaires. 
 
-**worksFor** : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
+**Travail pour** : : [polemika](http://localhost/samszo/omk/s/fiches/item/299716){target='_blank'} 
 
 **participant** : [Chacha Mahfoud](http://localhost/samszo/omk/s/fiches/item/299784){target='_blank'} 
 
@@ -3769,7 +3679,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/archipoenum](https://github.com/samszo/archipoenum){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/archipoenum](https://github.com/samszo/archipoenum){target='_blank'}**Site Web en relation** : :  
 
 **participant** : [Philippe Bootz](http://localhost/samszo/omk/s/fiches/item/61224){target='_blank'} 
 
@@ -3778,7 +3688,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ###### 2010-04-01 - 2010-06-30 ***Stage de Abderrahim Bargaoui*** {#sec-item299835 .unnumbered .o-Item_schema-Chapter}
 **Description** : Archipoenum 
 
-**worksFor** : [archipoenum](http://localhost/samszo/omk/s/fiches/item/299747){target='_blank'} 
+**Travail pour** : : [archipoenum](http://localhost/samszo/omk/s/fiches/item/299747){target='_blank'} 
 
 **participant** : [Abderrahim Bargaoui](http://localhost/samszo/omk/s/fiches/item/299780){target='_blank'} 
 
@@ -3796,7 +3706,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/evalactisem](https://github.com/samszo/evalactisem){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/evalactisem](https://github.com/samszo/evalactisem){target='_blank'}**Site Web en relation** : :  
 
 **participant** : [Pierre Lévy](http://localhost/samszo/omk/s/fiches/item/61132){target='_blank'} 
 
@@ -3805,7 +3715,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ###### 2009-04-01 - 2009-06-30 ***Stage de Amel Bourenane*** {#sec-item299837 .unnumbered .o-Item_schema-Chapter}
 **Description** : EvalActiSem : évaluation de l’activité sémantique 
 
-**worksFor** : [evalactisem](http://localhost/samszo/omk/s/fiches/item/299748){target='_blank'} 
+**Travail pour** : : [evalactisem](http://localhost/samszo/omk/s/fiches/item/299748){target='_blank'} 
 
 **participant** : [Amel Bourenane](http://localhost/samszo/omk/s/fiches/item/299782){target='_blank'} 
 
@@ -3871,14 +3781,14 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/evalactipol](https://github.com/samszo/evalactipol){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/evalactipol](https://github.com/samszo/evalactipol){target='_blank'}**Site Web en relation** : :  
 
 
 
 ###### 2010-04-01 - 2010-06-30 ***Stage de Mehdi Touibi*** {#sec-item299836 .unnumbered .o-Item_schema-Chapter}
 **Description** : Evaluation de l’activité politique 
 
-**worksFor** : [evalactipol](http://localhost/samszo/omk/s/fiches/item/299750){target='_blank'} 
+**Travail pour** : : [evalactipol](http://localhost/samszo/omk/s/fiches/item/299750){target='_blank'} 
 
 **participant** : [Mehdi Touibi](http://localhost/samszo/omk/s/fiches/item/299781){target='_blank'} 
 
@@ -3983,14 +3893,14 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ##### 2016-03-10 - 2016-04-30 ***Visualisation des interactions scientifiques*** {#sec-item299729 .unnumbered .o-Item_schema-Project}
 **Description** : Mis en pratique entre les membres de l’équipe CiTU du laboratoire Paragraphe 
 
-[https://jardindesconnaissances.univ-paris8.fr/public/paragraphe](https://jardindesconnaissances.univ-paris8.fr/public/paragraphe){target='_blank'}**Lien en relation** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/paragraphe](https://jardindesconnaissances.univ-paris8.fr/public/paragraphe){target='_blank'}**Site Web en relation** : :  
 
 
 
 ##### 2015-11-03 - 2016-03-12 ***Navigateur conceptuel dans les vedettes matières Rameau*** {#sec-item299733 .unnumbered .o-Item_schema-Project}
 **Description** : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
-[https://jardindesconnaissances.univ-paris8.fr/public/editinflu/navigrameau?label=Histoire%20m%C3%A9di%C3%A9vale](https://jardindesconnaissances.univ-paris8.fr/public/editinflu/navigrameau?label=Histoire%20m%C3%A9di%C3%A9vale){target='_blank'}**Lien en relation** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/editinflu/navigrameau?label=Histoire%20m%C3%A9di%C3%A9vale](https://jardindesconnaissances.univ-paris8.fr/public/editinflu/navigrameau?label=Histoire%20m%C3%A9di%C3%A9vale){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -4007,9 +3917,9 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-02-04 - 2015-05-30 ***Formulaire de capture de émotions*** {#sec-item299734 .unnumbered .o-Item_schema-Project}
-[https://jardindesconnaissances.univ-paris8.fr/public/graph/roueemotion](https://jardindesconnaissances.univ-paris8.fr/public/graph/roueemotion){target='_blank'}[https://jardindesconnaissances.univ-paris8.fr/public/graph/emostat](https://jardindesconnaissances.univ-paris8.fr/public/graph/emostat){target='_blank'}**Lien en relation** :   
+[https://jardindesconnaissances.univ-paris8.fr/public/graph/roueemotion](https://jardindesconnaissances.univ-paris8.fr/public/graph/roueemotion){target='_blank'}[https://jardindesconnaissances.univ-paris8.fr/public/graph/emostat](https://jardindesconnaissances.univ-paris8.fr/public/graph/emostat){target='_blank'}**Site Web en relation** : :   
 
-**worksFor** : [Information et communication](http://localhost/samszo/omk/s/fiches/item/299401){target='_blank'} 
+**Travail pour** : : [Information et communication](http://localhost/samszo/omk/s/fiches/item/299401){target='_blank'} 
 
 
 
@@ -4306,7 +4216,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://www.openscience.fr/Accueil](https://www.openscience.fr/Accueil){target='_blank'}**Lien en relation** :  
+[https://www.openscience.fr/Accueil](https://www.openscience.fr/Accueil){target='_blank'}**Site Web en relation** : :  
 
 **participant** : [Ghislain Guy](http://localhost/samszo/omk/s/fiches/item/299621){target='_blank'} 
 
@@ -4417,7 +4327,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/mesostiche](https://github.com/samszo/mesostiche){target='_blank'}[https://samszo.github.io/mesostiche/chaoticum-cantiques.html](https://samszo.github.io/mesostiche/chaoticum-cantiques.html){target='_blank'}**Lien en relation** :   
+[https://github.com/samszo/mesostiche](https://github.com/samszo/mesostiche){target='_blank'}[https://samszo.github.io/mesostiche/chaoticum-cantiques.html](https://samszo.github.io/mesostiche/chaoticum-cantiques.html){target='_blank'}**Site Web en relation** : :   
 
 
 
@@ -4435,7 +4345,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -4448,7 +4358,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/A_Maze_Logo](https://github.com/samszo/A_Maze_Logo){target='_blank'}[https://samszo.github.io/A_Maze_Logo/TroisCouchesExistentielles.html](https://samszo.github.io/A_Maze_Logo/TroisCouchesExistentielles.html){target='_blank'}**Lien en relation** :   
+[https://github.com/samszo/A_Maze_Logo](https://github.com/samszo/A_Maze_Logo){target='_blank'}[https://samszo.github.io/A_Maze_Logo/TroisCouchesExistentielles.html](https://samszo.github.io/A_Maze_Logo/TroisCouchesExistentielles.html){target='_blank'}**Site Web en relation** : :   
 
 
 
@@ -4461,7 +4371,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://samszo.univ-paris8.fr/ChaoticumPapillonae/](https://samszo.univ-paris8.fr/ChaoticumPapillonae/){target='_blank'}**Lien en relation** :  
+[https://samszo.univ-paris8.fr/ChaoticumPapillonae/](https://samszo.univ-paris8.fr/ChaoticumPapillonae/){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -4521,7 +4431,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**Lien en relation** :  
+[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**Site Web en relation** : :  
 
 
 
@@ -4591,16 +4501,16 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2018 - 2019 ***Générateur de textes pour l’Orlanoïde*** {#sec-item299725 .unnumbered .o-Item_schema-Project}
-[http://www.orlan.eu/orlan-et-lorlanoide](http://www.orlan.eu/orlan-et-lorlanoide){target='_blank'}**Lien en relation** :  
+[http://www.orlan.eu/orlan-et-lorlanoide](http://www.orlan.eu/orlan-et-lorlanoide){target='_blank'}**Site Web en relation** : :  
 
 **participant** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} [Orlan](http://localhost/samszo/omk/s/fiches/item/299622){target='_blank'} 
 
 
 
 ###### 2016 -  ***Generative Stein Poems*** {#sec-item299728 .unnumbered .o-Item_schema-Project}
-[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**Lien en relation** :  
+[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
+**Travail pour** : : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
 
 **participant** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} [Everardo Reyes](http://localhost/samszo/omk/s/fiches/item/62572){target='_blank'} 
 
@@ -4629,7 +4539,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[https://artnum.univ-paris8.fr/balpe/generateur/services/capture.php?gen=bios](https://artnum.univ-paris8.fr/balpe/generateur/services/capture.php?gen=bios){target='_blank'}**Lien en relation** :  
+[https://artnum.univ-paris8.fr/balpe/generateur/services/capture.php?gen=bios](https://artnum.univ-paris8.fr/balpe/generateur/services/capture.php?gen=bios){target='_blank'}**Site Web en relation** : :  
 
 **participant** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} 
 
@@ -4666,9 +4576,9 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2017-02-23 - 2017-06-20 ***Atelier CreaTIC : Créativité, Reconstruction et Proverbe*** {#sec-item299727 .unnumbered .o-Item_schema-Project}
-[https://youtu.be/HY6KBrSnpI8](https://youtu.be/HY6KBrSnpI8){target='_blank'}[https://jardindesconnaissances.univ-paris8.fr/public/plisages/de](https://jardindesconnaissances.univ-paris8.fr/public/plisages/de){target='_blank'}**Lien en relation** :   
+[https://youtu.be/HY6KBrSnpI8](https://youtu.be/HY6KBrSnpI8){target='_blank'}[https://jardindesconnaissances.univ-paris8.fr/public/plisages/de](https://jardindesconnaissances.univ-paris8.fr/public/plisages/de){target='_blank'}**Site Web en relation** : :   
 
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 **participant** : [Stéphane Safin](http://localhost/samszo/omk/s/fiches/item/62190){target='_blank'} [Claude Yacoub](http://localhost/samszo/omk/s/fiches/item/61424){target='_blank'} 
 
@@ -4677,20 +4587,20 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ###### 2017-02-03 - 2017-04-03 ***Générateur de dé iconique*** {#sec-item299726 .unnumbered .o-Item_schema-Project}
 **Description** : Pour séances de créativité, créer des dés iconiques. 
 
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 
 
 
 ##### 2016-01-26 - 2016-05-15 ***Atelier CreaTIC : Hyperurbain Paris <-> Milan*** {#sec-item299731 .unnumbered .o-Item_schema-Project}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 **participant** : [Khaldoun Zreik](http://localhost/samszo/omk/s/fiches/item/61173){target='_blank'} [Catherine Nyeki](http://localhost/samszo/omk/s/fiches/item/299620){target='_blank'} 
 
 
 
 ##### 2016-01-24 - 2016-04-06 ***Atelier CreaTIC : Proverbes et E-éducation*** {#sec-item299732 .unnumbered .o-Item_schema-Project}
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 **participant** : [Salam Diab Duranton](http://localhost/samszo/omk/s/fiches/item/299618){target='_blank'} [Abdenbi Lachkar](http://localhost/samszo/omk/s/fiches/item/299619){target='_blank'} 
 
@@ -4699,7 +4609,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ##### 2015-01-25 - 2015-05-05 ***Atelier CreaTIC : Les archives en Italie*** {#sec-item299735 .unnumbered .o-Item_schema-Project}
 **Description** : Aide à la conception d’un site web 
 
-**worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
+**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
 
 
@@ -4806,12 +4716,12 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 #### 1997-09-26 - 1998-05-26 ***Chargé de Mission*** {#sec-item299709 .unnumbered .o-Item_dctype-Event}
-**worksFor** : 299595 
+**Travail pour** : : 299595 
 
 
 
 #### 1996-09-01 - 1997-06-30 ***Service civique*** {#sec-item299710 .unnumbered .o-Item_dctype-Event}
-**worksFor** : 299594 
+**Travail pour** : : 299594 
 
 
 
@@ -4819,44 +4729,44 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2000-09-20 - 2000-09-30 ***Vendanges en Bourgogne*** {#sec-item299697 .unnumbered .o-Item_dctype-Event}
-[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Lien en relation** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
+**Travail pour** : : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1999-09-20 - 1999-09-30 ***Vendanges en Bourgogne*** {#sec-item299696 .unnumbered .o-Item_dctype-Event}
-[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Lien en relation** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
+**Travail pour** : : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1998-09-20 - 1998-09-30 ***Vendanges en Bourgogne*** {#sec-item299695 .unnumbered .o-Item_dctype-Event}
-[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Lien en relation** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
+**Travail pour** : : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1997-09-20 - 1997-09-30 ***Vendanges en Bourgogne*** {#sec-item299694 .unnumbered .o-Item_dctype-Event}
-[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Lien en relation** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
+**Travail pour** : : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1996-10-10 - 1996-10-20 ***Vendanges en Champagne*** {#sec-item299693 .unnumbered .o-Item_dctype-Event}
-[https://champagne-xavier-leconte.com/](https://champagne-xavier-leconte.com/){target='_blank'}**Lien en relation** :  
+[https://champagne-xavier-leconte.com/](https://champagne-xavier-leconte.com/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Champagne Xavier Lecomte](http://localhost/samszo/omk/s/fiches/item/299589){target='_blank'} 
+**Travail pour** : : [Champagne Xavier Lecomte](http://localhost/samszo/omk/s/fiches/item/299589){target='_blank'} 
 
 
 
 ##### 1995-10-10 - 1995-10-20 ***Vendanges en Champagne*** {#sec-item299692 .unnumbered .o-Item_dctype-Event}
-[https://champagne-xavier-leconte.com/](https://champagne-xavier-leconte.com/){target='_blank'}**Lien en relation** :  
+[https://champagne-xavier-leconte.com/](https://champagne-xavier-leconte.com/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [Champagne Xavier Lecomte](http://localhost/samszo/omk/s/fiches/item/299589){target='_blank'} 
+**Travail pour** : : [Champagne Xavier Lecomte](http://localhost/samszo/omk/s/fiches/item/299589){target='_blank'} 
 
 
 
@@ -4865,22 +4775,22 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 1992-07-01 - 1992-08-31 ***Agent Hospitalier : accueil*** {#sec-item299701 .unnumbered .o-Item_dctype-Event}
-**worksFor** : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
+**Travail pour** : : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
 
 
 
 ##### 1994-07-01 - 1994-08-01 ***Agent Hospitalier : pharmacie*** {#sec-item299702 .unnumbered .o-Item_dctype-Event}
-**worksFor** : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
+**Travail pour** : : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
 
 
 
 ##### 1993-07-01 - 1993-08-01 ***Agent Hospitalier : radiologie*** {#sec-item299703 .unnumbered .o-Item_dctype-Event}
-**worksFor** : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
+**Travail pour** : : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
 
 
 
 ##### 1995-07-01 - 1995-07-31 ***Agent Hospitalier : réanimation*** {#sec-item299704 .unnumbered .o-Item_dctype-Event}
-**worksFor** : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
+**Travail pour** : : [Bobigny Hôpital Avicenne](http://localhost/samszo/omk/s/fiches/item/299574){target='_blank'} 
 
 
 
@@ -4889,23 +4799,23 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 1996-08-01 - 1996-08-31 ***Guide interprète du Couvent de la Tourette*** {#sec-item299698 .unnumbered .o-Item_dctype-Event}
-[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**Lien en relation** :  
+[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : 299575 
+**Travail pour** : : 299575 
 
 
 
 ##### 1997-08-01 - 1997-08-31 ***Guide interprète du Couvent de la Tourette*** {#sec-item299699 .unnumbered .o-Item_dctype-Event}
-[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**Lien en relation** :  
+[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : 299575 
+**Travail pour** : : 299575 
 
 
 
 ##### 1998-08-01 - 1998-08-31 ***Guide interprète du Couvent de la Tourette*** {#sec-item299700 .unnumbered .o-Item_dctype-Event}
-[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**Lien en relation** :  
+[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : 299575 
+**Travail pour** : : 299575 
 
 
 
@@ -4922,14 +4832,14 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 Développement d’une application de gestion administrative ; modélisation base de donnée, procédures stockées, interfaces utilisateurs.
 Technologie : Windows NT, UNIX, SQL Server, Transact-SQL, AMC Designor, WinDev. 
 
-**worksFor** : [MMD](http://localhost/samszo/omk/s/fiches/item/299588){target='_blank'} 
+**Travail pour** : : [MMD](http://localhost/samszo/omk/s/fiches/item/299588){target='_blank'} 
 
 
 
 ##### 2000-06-27 - 2000-12-10 ***Agence française de l’innovation – Multimédia spatio-temporel*** {#sec-item299691 .unnumbered .o-Item_schema-Project}
 **Description** : Conception d’un système d’information pour l’organisation et la gestion en temps réel de contenus multimédia liés à la position spatio-temporelle d’un véhicule. 
 
-**worksFor** : [MMD](http://localhost/samszo/omk/s/fiches/item/299588){target='_blank'} 
+**Travail pour** : : [MMD](http://localhost/samszo/omk/s/fiches/item/299588){target='_blank'} 
 
 
 
@@ -4946,7 +4856,7 @@ Technologie
 Windows 2003, SQL Server 2005, Visual Studio 2005
 Environnement de développement : C# .Net 2.0, ASP .NET 2.0, Transact-SQL 
 
-**worksFor** : [ANPE](http://localhost/samszo/omk/s/fiches/item/299576){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [ANPE](http://localhost/samszo/omk/s/fiches/item/299576){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -4963,7 +4873,7 @@ Technologie
 Windows NT, Oracle 9
 Environnement de développement : C# .Net 1.1, PL/SQL, SVG, XML, XSLT, JavaScript, Source Safe 
 
-**worksFor** : [Cegetel](http://localhost/samszo/omk/s/fiches/item/299578){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [Cegetel](http://localhost/samszo/omk/s/fiches/item/299578){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -4977,7 +4887,7 @@ Technologie
 Windows NT, Oracle 9
 Environnement de développement : C# .Net 1.1, PL/SQL, SVG, XML, XSLT, JavaScript, Source Safe 
 
-**worksFor** : [Cegetel](http://localhost/samszo/omk/s/fiches/item/299578){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [Cegetel](http://localhost/samszo/omk/s/fiches/item/299578){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -4994,7 +4904,7 @@ Technologie
 Windows NT, Oracle 8i
 Environnement de développement : VB .Net 1.1, TrueDBGrid, PL/SQL, AMC Designor, Visual Source Safe 
 
-**worksFor** : [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -5008,7 +4918,7 @@ Technologie
 Extranet / Intranet sous IIS 5.0, Windows 2000 Server, Exchange 2000 SP2
 Environnement de développement : VB 6.0, ASP,XML,XSLT, Visual Source Safe 
 
-**worksFor** : [ANPE](http://localhost/samszo/omk/s/fiches/item/299576){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [ANPE](http://localhost/samszo/omk/s/fiches/item/299576){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -5021,7 +4931,7 @@ Technologie
 Extranet / Intranet sous IIS 5.0, Windows 2000 Server, Exchange 2000 SP2
 Environnement de développement : VB 6.0, ASP,XML, Visual Source Safe 
 
-**worksFor** : [ANPE](http://localhost/samszo/omk/s/fiches/item/299576){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [ANPE](http://localhost/samszo/omk/s/fiches/item/299576){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -5035,7 +4945,7 @@ Technologie
 Microsoft WINDOWS 2000 et WINDOWS 98
 Environnement de développement : VB 6.0, Visual Source Safe, Oracle 8i 
 
-**worksFor** : [Ville de Paris](http://localhost/samszo/omk/s/fiches/item/299584){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [Ville de Paris](http://localhost/samszo/omk/s/fiches/item/299584){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -5048,7 +4958,7 @@ Technologie
 Extranet / Intranet sous IIS 4.0, Windows NT 4.0 Server, SQL Server 7.0
 Environnement de développement : VB 6.0, Access 97, ASP, VBA Excel 2000, Visual Source Safe 
 
-**worksFor** : [Casino](http://localhost/samszo/omk/s/fiches/item/299586){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [Casino](http://localhost/samszo/omk/s/fiches/item/299586){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -5056,7 +4966,7 @@ Environnement de développement : VB 6.0, Access 97, ASP, VBA Excel 2000, Visual
 **Description** : Contribution au développement du site WEB Nomadys (Auto assistance clientèle de l’offre GSM Nomad)
 Technologie : SQL Server 7, IIS, Visual Studio, HTML, ASP, JavaScript, XML, annuaire LDAP 
 
-**worksFor** : [Bouygues Telecom](http://localhost/samszo/omk/s/fiches/item/299577){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [Bouygues Telecom](http://localhost/samszo/omk/s/fiches/item/299577){target='_blank'} [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -5064,7 +4974,7 @@ Technologie : SQL Server 7, IIS, Visual Studio, HTML, ASP, JavaScript, XML, annu
 **Description** : Développement d’un outil de mesure de performances et qualités de services pour les réseaux.
 Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO 
 
-**worksFor** : [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
+**Travail pour** : : [EXAKIS](http://localhost/samszo/omk/s/fiches/item/299585){target='_blank'} 
 
 
 
@@ -5075,9 +4985,9 @@ Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO
 ##### 2009-07-06 - 2009-09-03 ***Gestion solutions de logistique*** {#sec-item299672 .unnumbered .o-Item_schema-Project}
 **Description** : Conception et réalisation d’un outil pour le partage des solutions de logistique. 
 
-[https://www.ania.net/author/anea](https://www.ania.net/author/anea){target='_blank'}**Lien en relation** :  
+[https://www.ania.net/author/anea](https://www.ania.net/author/anea){target='_blank'}**Site Web en relation** : :  
 
-**worksFor** : [ANEA](http://localhost/samszo/omk/s/fiches/item/299579){target='_blank'} 
+**Travail pour** : : [ANEA](http://localhost/samszo/omk/s/fiches/item/299579){target='_blank'} 
 
 
 
@@ -5094,34 +5004,34 @@ Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO
 ##### 2008-01-23 - 2008-04-30 ***Automatisation des publications*** {#sec-item299675 .unnumbered .o-Item_schema-Project}
 **Description** : Chef de projet  conception d’un outil pour la publication semi-automatique de contenus semi structurés 
 
-**worksFor** : [Archipelago-publishing](http://localhost/samszo/omk/s/fiches/item/299580){target='_blank'} 
+**Travail pour** : : [Archipelago-publishing](http://localhost/samszo/omk/s/fiches/item/299580){target='_blank'} 
 
 
 
 ##### 2007-07-01 - 2007-07-31 ***Outil de gestion des solidarités*** {#sec-item299676 .unnumbered .o-Item_schema-Project}
 **Description** : Développement avec IEML d’un outil collaboratif de gestion des solidarités en partenariat avec la 10e famille 
 
-**worksFor** : [10e Famille](http://localhost/samszo/omk/s/fiches/item/299581){target='_blank'} 
+**Travail pour** : : [10e Famille](http://localhost/samszo/omk/s/fiches/item/299581){target='_blank'} 
 
 
 
 ##### 2007-06-02 - 2007-09-15 ***Life Explorer*** {#sec-item299677 .unnumbered .o-Item_schema-Project}
 **Description** : Modélisation système d’information pour la gestion 3D temps réel d’une bactérie pour valider les théories sur l'encombrement interne 
 
-[http://www.lifeexplorer.eu](http://www.lifeexplorer.eu){target='_blank'}**Lien en relation** :  
+[http://www.lifeexplorer.eu](http://www.lifeexplorer.eu){target='_blank'}**Site Web en relation** : :  
 
 
 
 ##### 2006-01-06 - 2006-02-15 ***Tournées de marchandising*** {#sec-item299678 .unnumbered .o-Item_schema-Project}
 **Description** : Conception et réalisation d’une application Web pour l’évaluation marketing des tournées de marchandising 
 
-**worksFor** : [Wrigley](http://localhost/samszo/omk/s/fiches/item/299582){target='_blank'} 
+**Travail pour** : : [Wrigley](http://localhost/samszo/omk/s/fiches/item/299582){target='_blank'} 
 
 
 
 ##### 2005-06-10 - 2009-09-04 ***MUNDIGO*** {#sec-item299679 .unnumbered .o-Item_schema-Project}
 **Description** : Cofondateur d’une structure de production et distribution de contenus culturels favorisant la découverte et l’échange entre les cultures. 
 
-**worksFor** : [Mundigo](http://localhost/samszo/omk/s/fiches/item/299583){target='_blank'} 
+**Travail pour** : : [Mundigo](http://localhost/samszo/omk/s/fiches/item/299583){target='_blank'} 
 
 
