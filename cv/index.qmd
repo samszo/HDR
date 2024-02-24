@@ -174,7 +174,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ##### 2020-02-20T10:18:35Z  -  2020-05-05T10:54:56Z ***MEDAS_1_19-20*** {#sec-item301829 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/MEDAS_1_19-20](https://github.com/samszo/MEDAS_1_19-20){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -189,11 +189,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ##### 2021-01-13T15:01:23Z  -  2021-05-04T15:24:10Z ***MEDAS-1_20-21*** {#sec-item301841 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/MEDAS-1_20-21](https://github.com/samszo/MEDAS-1_20-21){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/MEDAS-1_20-21/](https://samszo.github.io/MEDAS-1_20-21/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : thomaspedi](http://localhost/samszo/omk/s/fiches/item/301309){target='_blank'} [GitHub User : bokoua](http://localhost/samszo/omk/s/fiches/item/301311){target='_blank'} [GitHub User : nassimaoukhelifa](http://localhost/samszo/omk/s/fiches/item/301313){target='_blank'} [GitHub User : Peadz](http://localhost/samszo/omk/s/fiches/item/301315){target='_blank'} [GitHub User : docteurport](http://localhost/samszo/omk/s/fiches/item/301317){target='_blank'} [GitHub User : meyssa-b](http://localhost/samszo/omk/s/fiches/item/301319){target='_blank'} [GitHub User : TomBlach](http://localhost/samszo/omk/s/fiches/item/301321){target='_blank'} [GitHub User : maeeeeeeeeva](http://localhost/samszo/omk/s/fiches/item/301323){target='_blank'} [GitHub User : rayane-ilo](http://localhost/samszo/omk/s/fiches/item/301325){target='_blank'} [GitHub User : noeger](http://localhost/samszo/omk/s/fiches/item/301327){target='_blank'} [GitHub User : EmelineGR](http://localhost/samszo/omk/s/fiches/item/301329){target='_blank'} [GitHub User : SerineLaass](http://localhost/samszo/omk/s/fiches/item/301331){target='_blank'} [GitHub User : RedaEss](http://localhost/samszo/omk/s/fiches/item/301333){target='_blank'} [GitHub User : Fujistone](http://localhost/samszo/omk/s/fiches/item/301335){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : FelitaD](http://localhost/samszo/omk/s/fiches/item/301337){target='_blank'} [GitHub User : CharlineZ](http://localhost/samszo/omk/s/fiches/item/301339){target='_blank'} 
 
@@ -219,7 +219,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 #### 2015-01-19T07:38:34Z  -  2015-05-19T07:40:40Z ***tweetpalette*** {#sec-item299742 .unnumbered .o-Item_schema-Project}
 **Description** : Dans le cadre des cours 2011-2012, conception d’un outil pour envoyer des tweet à partir d’une cartographie conceptuelle. 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/tweetpalette](https://github.com/samszo/tweetpalette){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -227,7 +227,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette](https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette){target='_blank'}**relatedLink** :  
 
 **participant** : [Hypermédia collaboratif](http://localhost/samszo/omk/s/fiches/item/299617){target='_blank'} 
 
@@ -302,7 +302,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 ###### 2015-01-19T07:38:34Z  -  2015-05-19T07:40:40Z ***tweetpalette*** {#sec-item299742 .unnumbered .o-Item_schema-Project}
 **Description** : Dans le cadre des cours 2011-2012, conception d’un outil pour envoyer des tweet à partir d’une cartographie conceptuelle. 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/tweetpalette](https://github.com/samszo/tweetpalette){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -310,7 +310,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette](https://jardindesconnaissances.univ-paris8.fr/public/tweetpalette){target='_blank'}**relatedLink** :  
 
 **participant** : [Hypermédia collaboratif](http://localhost/samszo/omk/s/fiches/item/299617){target='_blank'} 
 
@@ -415,7 +415,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2015-01-30T09:56:06Z  -  2015-08-29T23:42:44Z ***pololu-dance*** {#sec-item301781 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/pololu-dance](https://github.com/samszo/pololu-dance){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -430,7 +430,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2015-05-19T07:38:13Z  -  2015-06-19T07:40:12Z ***trombinoscope*** {#sec-item301786 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/trombinoscope](https://github.com/samszo/trombinoscope){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -443,7 +443,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2015-09-29T08:19:23Z  -  2015-12-11T07:41:10Z ***THYP_15-16*** {#sec-item301801 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/THYP_15-16](https://github.com/samszo/THYP_15-16){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -458,7 +458,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2015-10-01T10:28:00Z  -  2016-10-02T17:19:14Z ***CDNL_15-16*** {#sec-item301802 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/CDNL_15-16](https://github.com/samszo/CDNL_15-16){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -473,7 +473,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2016-03-23T12:19:43Z  -  2016-06-23T12:29:47Z ***oci_15-16*** {#sec-item301804 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/oci_15-16](https://github.com/samszo/oci_15-16){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -488,7 +488,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2016-09-29T08:12:29Z  -  2017-01-09T21:49:34Z ***THYP_16-17*** {#sec-item301805 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/THYP_16-17](https://github.com/samszo/THYP_16-17){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -503,7 +503,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2016-11-18T13:21:23Z  -  2017-02-18T13:43:35Z ***CDNL_16-17*** {#sec-item301807 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/CDNL_16-17](https://github.com/samszo/CDNL_16-17){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -518,7 +518,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2017-01-11T12:37:46Z  -  2018-10-01T23:10:44Z ***OCI_16-17*** {#sec-item301808 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/OCI_16-17](https://github.com/samszo/OCI_16-17){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -533,7 +533,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2017-09-26T13:30:17Z  -  2017-12-10T16:37:21Z ***THYP_17-18*** {#sec-item301811 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/THYP_17-18](https://github.com/samszo/THYP_17-18){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -548,7 +548,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2018-01-24T12:03:47Z  -  2018-04-10T20:16:17Z ***OCI_17-18*** {#sec-item301812 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/OCI_17-18](https://github.com/samszo/OCI_17-18){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -563,7 +563,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2018-01-30T16:48:30Z  -  2018-03-31T22:45:31Z ***AVUN_17-18*** {#sec-item301813 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/AVUN_17-18](https://github.com/samszo/AVUN_17-18){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : laumelgar](http://localhost/samszo/omk/s/fiches/item/300747){target='_blank'} [GitHub User : abah2411](http://localhost/samszo/omk/s/fiches/item/300749){target='_blank'} [GitHub User : KENFT2017](http://localhost/samszo/omk/s/fiches/item/300751){target='_blank'} [GitHub User : sidalikarim](http://localhost/samszo/omk/s/fiches/item/300753){target='_blank'} [GitHub User : aicha87](http://localhost/samszo/omk/s/fiches/item/300755){target='_blank'} [GitHub User : NanyGhania](http://localhost/samszo/omk/s/fiches/item/300757){target='_blank'} [GitHub User : badkim](http://localhost/samszo/omk/s/fiches/item/300759){target='_blank'} [GitHub User : Aziza992](http://localhost/samszo/omk/s/fiches/item/300761){target='_blank'} [GitHub User : medicosts](http://localhost/samszo/omk/s/fiches/item/300763){target='_blank'} [GitHub User : zeinou1](http://localhost/samszo/omk/s/fiches/item/300765){target='_blank'} [GitHub User : anissa-m](http://localhost/samszo/omk/s/fiches/item/300767){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : Jnzeu](http://localhost/samszo/omk/s/fiches/item/300769){target='_blank'} [GitHub User : ndeignan](http://localhost/samszo/omk/s/fiches/item/300771){target='_blank'} [GitHub User : mantoyiillah](http://localhost/samszo/omk/s/fiches/item/300773){target='_blank'} [GitHub User : amisaada](http://localhost/samszo/omk/s/fiches/item/300775){target='_blank'} 
 
@@ -576,7 +576,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2018-09-25T12:29:12Z  -  2019-02-04T04:53:24Z ***THYP_18-19*** {#sec-item301815 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/THYP_18-19](https://github.com/samszo/THYP_18-19){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -591,7 +591,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2018-09-28T12:31:44Z  -  2019-03-28T23:46:04Z ***DWM_18-19*** {#sec-item301816 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/DWM_18-19](https://github.com/samszo/DWM_18-19){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -606,7 +606,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2019-02-12T09:20:13Z  -  2019-04-09T08:36:22Z ***OCI_18-19*** {#sec-item301819 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/OCI_18-19](https://github.com/samszo/OCI_18-19){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -621,7 +621,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2019-02-14T11:48:21Z  -  2019-04-06T10:47:48Z ***GSI-AVUN_18-19*** {#sec-item301820 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/GSI-AVUN_18-19](https://github.com/samszo/GSI-AVUN_18-19){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -636,11 +636,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2019-10-04T12:05:46Z  -  2020-02-28T03:07:46Z ***DWM_19-20*** {#sec-item301826 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/DWM_19-20](https://github.com/samszo/DWM_19-20){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/DWM_19-20/](https://samszo.github.io/DWM_19-20/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : Darkusse](http://localhost/samszo/omk/s/fiches/item/300891){target='_blank'} [GitHub User : Aysha-P8](http://localhost/samszo/omk/s/fiches/item/300893){target='_blank'} [GitHub User : gayaganjo](http://localhost/samszo/omk/s/fiches/item/300895){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : Luchilax](http://localhost/samszo/omk/s/fiches/item/300897){target='_blank'} [GitHub User : anisbelabed](http://localhost/samszo/omk/s/fiches/item/300899){target='_blank'} [GitHub User : bira12010](http://localhost/samszo/omk/s/fiches/item/300901){target='_blank'} [GitHub User : shraidy](http://localhost/samszo/omk/s/fiches/item/300903){target='_blank'} [GitHub User : Clocloh](http://localhost/samszo/omk/s/fiches/item/300905){target='_blank'} [GitHub User : ChebahMegdouda](http://localhost/samszo/omk/s/fiches/item/300907){target='_blank'} [GitHub User : xelafi](http://localhost/samszo/omk/s/fiches/item/300909){target='_blank'} [GitHub User : Zahar9](http://localhost/samszo/omk/s/fiches/item/300911){target='_blank'} [GitHub User : sofiane5995](http://localhost/samszo/omk/s/fiches/item/300913){target='_blank'} [GitHub User : khalifa907](http://localhost/samszo/omk/s/fiches/item/300915){target='_blank'} 
 
@@ -653,11 +653,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2019-10-14T10:47:52Z  -  2020-03-26T17:45:48Z ***AVUN_19-20*** {#sec-item301827 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/AVUN_19-20](https://github.com/samszo/AVUN_19-20){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/AVUN_19-20/](https://samszo.github.io/AVUN_19-20/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : Abdelilahmeg](http://localhost/samszo/omk/s/fiches/item/300777){target='_blank'} [GitHub User : AnisOuadi](http://localhost/samszo/omk/s/fiches/item/300779){target='_blank'} [GitHub User : A-JUGURTHA](http://localhost/samszo/omk/s/fiches/item/300781){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : hanend](http://localhost/samszo/omk/s/fiches/item/300783){target='_blank'} [GitHub User : dylnbrt](http://localhost/samszo/omk/s/fiches/item/300785){target='_blank'} [GitHub User : hernanpe](http://localhost/samszo/omk/s/fiches/item/300787){target='_blank'} [GitHub User : selkarimi77](http://localhost/samszo/omk/s/fiches/item/300789){target='_blank'} [GitHub User : walidai94](http://localhost/samszo/omk/s/fiches/item/300791){target='_blank'} [GitHub User : rhyxlennautha](http://localhost/samszo/omk/s/fiches/item/300793){target='_blank'} [GitHub User : RochDLY](http://localhost/samszo/omk/s/fiches/item/300795){target='_blank'} [GitHub User : cinnamon-n](http://localhost/samszo/omk/s/fiches/item/300797){target='_blank'} [GitHub User : amrouche90](http://localhost/samszo/omk/s/fiches/item/300799){target='_blank'} [GitHub User : fatoumatadembele](http://localhost/samszo/omk/s/fiches/item/300801){target='_blank'} 
 
@@ -670,11 +670,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2020-09-23T08:29:53Z  -  2021-01-24T13:34:20Z ***THYP_20-21*** {#sec-item301836 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/THYP_20-21](https://github.com/samszo/THYP_20-21){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/THYP_20-21/](https://samszo.github.io/THYP_20-21/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : salim499](http://localhost/samszo/omk/s/fiches/item/300869){target='_blank'} [GitHub User : widadch](http://localhost/samszo/omk/s/fiches/item/301633){target='_blank'} [GitHub User : olayajaaouane](http://localhost/samszo/omk/s/fiches/item/301635){target='_blank'} [GitHub User : N-Ali](http://localhost/samszo/omk/s/fiches/item/301637){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : drissben49](http://localhost/samszo/omk/s/fiches/item/301639){target='_blank'} [GitHub User : anas0dev](http://localhost/samszo/omk/s/fiches/item/301641){target='_blank'} [GitHub User : aniss-maamri](http://localhost/samszo/omk/s/fiches/item/301643){target='_blank'} [GitHub User : imerizak](http://localhost/samszo/omk/s/fiches/item/301645){target='_blank'} [GitHub User : KamalELKADI](http://localhost/samszo/omk/s/fiches/item/301647){target='_blank'} [GitHub User : cheikht3010](http://localhost/samszo/omk/s/fiches/item/301649){target='_blank'} [GitHub User : mehdibridi](http://localhost/samszo/omk/s/fiches/item/301651){target='_blank'} [GitHub User : Baste95](http://localhost/samszo/omk/s/fiches/item/301653){target='_blank'} [GitHub User : Hichem-ben-ameur](http://localhost/samszo/omk/s/fiches/item/301655){target='_blank'} [GitHub User : BoussadSabi](http://localhost/samszo/omk/s/fiches/item/301657){target='_blank'} [GitHub User : XT19](http://localhost/samszo/omk/s/fiches/item/301659){target='_blank'} [GitHub User : melanieCorr](http://localhost/samszo/omk/s/fiches/item/301661){target='_blank'} [GitHub User : marouajellal](http://localhost/samszo/omk/s/fiches/item/301663){target='_blank'} [GitHub User : sbaiabdellah](http://localhost/samszo/omk/s/fiches/item/301665){target='_blank'} [GitHub User : Yrrieth](http://localhost/samszo/omk/s/fiches/item/301667){target='_blank'} [GitHub User : chafiaifrene](http://localhost/samszo/omk/s/fiches/item/301669){target='_blank'} [GitHub User : koceilaodh94](http://localhost/samszo/omk/s/fiches/item/301671){target='_blank'} [GitHub User : tinhinaneifrene](http://localhost/samszo/omk/s/fiches/item/301673){target='_blank'} 
 
@@ -687,11 +687,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2020-10-03T06:54:11Z  -  2021-01-24T10:12:07Z ***ADLN_20-21*** {#sec-item301837 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/ADLN_20-21](https://github.com/samszo/ADLN_20-21){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/ADLN_20-21/](https://samszo.github.io/ADLN_20-21/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : PhilippeP8](http://localhost/samszo/omk/s/fiches/item/300741){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : MathildeBtrl](http://localhost/samszo/omk/s/fiches/item/300743){target='_blank'} [GitHub User : philippkhon](http://localhost/samszo/omk/s/fiches/item/300745){target='_blank'} 
 
@@ -704,11 +704,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2020-10-16T08:29:45Z  -  2022-02-06T17:18:20Z ***AVUN_20-21*** {#sec-item301838 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/AVUN_20-21](https://github.com/samszo/AVUN_20-21){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/AVUN_20-21/](https://samszo.github.io/AVUN_20-21/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : ROWAIDAK](http://localhost/samszo/omk/s/fiches/item/300803){target='_blank'} [GitHub User : bamba06](http://localhost/samszo/omk/s/fiches/item/300805){target='_blank'} [GitHub User : Salima-kafiz](http://localhost/samszo/omk/s/fiches/item/300807){target='_blank'} [GitHub User : zannoune](http://localhost/samszo/omk/s/fiches/item/300809){target='_blank'} [GitHub User : AbderrahimHALHALI](http://localhost/samszo/omk/s/fiches/item/300811){target='_blank'} [GitHub User : ali-salaheddine](http://localhost/samszo/omk/s/fiches/item/300813){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : lmoultala](http://localhost/samszo/omk/s/fiches/item/300815){target='_blank'} [GitHub User : LounisDjellaoui](http://localhost/samszo/omk/s/fiches/item/300817){target='_blank'} [GitHub User : farah-soukarieh](http://localhost/samszo/omk/s/fiches/item/300819){target='_blank'} [GitHub User : Bil-sef](http://localhost/samszo/omk/s/fiches/item/300821){target='_blank'} [GitHub User : cheikh-faye](http://localhost/samszo/omk/s/fiches/item/300823){target='_blank'} 
 
@@ -721,11 +721,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2021-01-25T10:22:11Z  -  2021-03-14T01:07:50Z ***M2GSI_20-21_ProgramSystem*** {#sec-item301842 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/M2GSI_20-21_ProgramSystem](https://github.com/samszo/M2GSI_20-21_ProgramSystem){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/M2GSI_20-21_ProgramSystem/](https://samszo.github.io/M2GSI_20-21_ProgramSystem/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : biyel](http://localhost/samszo/omk/s/fiches/item/301247){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : Aissatou-Cis](http://localhost/samszo/omk/s/fiches/item/301249){target='_blank'} [GitHub User : Dado93-B](http://localhost/samszo/omk/s/fiches/item/301251){target='_blank'} [GitHub User : Ibrahima15](http://localhost/samszo/omk/s/fiches/item/301253){target='_blank'} [GitHub User : Jane271197](http://localhost/samszo/omk/s/fiches/item/301255){target='_blank'} [GitHub User : diasek](http://localhost/samszo/omk/s/fiches/item/301257){target='_blank'} [GitHub User : coumba999](http://localhost/samszo/omk/s/fiches/item/301259){target='_blank'} [GitHub User : Sonia-Gasmi](http://localhost/samszo/omk/s/fiches/item/301261){target='_blank'} [GitHub User : COCO94-b](http://localhost/samszo/omk/s/fiches/item/301263){target='_blank'} [GitHub User : omarkatadiasse](http://localhost/samszo/omk/s/fiches/item/301265){target='_blank'} [GitHub User : Kouamou-Romaric](http://localhost/samszo/omk/s/fiches/item/301267){target='_blank'} [GitHub User : M639148](http://localhost/samszo/omk/s/fiches/item/301269){target='_blank'} [GitHub User : Alexia971](http://localhost/samszo/omk/s/fiches/item/301271){target='_blank'} [GitHub User : Noralli](http://localhost/samszo/omk/s/fiches/item/301273){target='_blank'} [GitHub User : babelhead](http://localhost/samszo/omk/s/fiches/item/301275){target='_blank'} [GitHub User : YasmineNouar](http://localhost/samszo/omk/s/fiches/item/301277){target='_blank'} [GitHub User : samb1212](http://localhost/samszo/omk/s/fiches/item/301279){target='_blank'} [GitHub User : sndong-git](http://localhost/samszo/omk/s/fiches/item/301281){target='_blank'} [GitHub User : allassane29](http://localhost/samszo/omk/s/fiches/item/301283){target='_blank'} [GitHub User : KalelGuerni](http://localhost/samszo/omk/s/fiches/item/301285){target='_blank'} 
 
@@ -738,11 +738,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2021-10-04T07:24:41Z  -  2021-12-05T06:59:53Z ***THYP_21-22*** {#sec-item301856 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/THYP_21-22](https://github.com/samszo/THYP_21-22){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/THYP_21-22/](https://samszo.github.io/THYP_21-22/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : asalasachat](http://localhost/samszo/omk/s/fiches/item/301675){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : julienpan](http://localhost/samszo/omk/s/fiches/item/301225){target='_blank'} [GitHub User : dev-aghiles](http://localhost/samszo/omk/s/fiches/item/301677){target='_blank'} [GitHub User : josephine25](http://localhost/samszo/omk/s/fiches/item/301237){target='_blank'} [GitHub User : djnabil](http://localhost/samszo/omk/s/fiches/item/301229){target='_blank'} [GitHub User : rajalamgarmel](http://localhost/samszo/omk/s/fiches/item/301235){target='_blank'} [GitHub User : ismailmernissi](http://localhost/samszo/omk/s/fiches/item/301679){target='_blank'} [GitHub User : Mouatez96](http://localhost/samszo/omk/s/fiches/item/301681){target='_blank'} [GitHub User : ZertalRaouf](http://localhost/samszo/omk/s/fiches/item/301683){target='_blank'} [GitHub User : YanHip](http://localhost/samszo/omk/s/fiches/item/301233){target='_blank'} [GitHub User : AbderrezakFel](http://localhost/samszo/omk/s/fiches/item/301685){target='_blank'} [GitHub User : khalilaimen25](http://localhost/samszo/omk/s/fiches/item/301687){target='_blank'} [GitHub User : saidanikhaled34](http://localhost/samszo/omk/s/fiches/item/301689){target='_blank'} [GitHub User : aissakert](http://localhost/samszo/omk/s/fiches/item/301691){target='_blank'} [GitHub User : MEGCHICHEFarid](http://localhost/samszo/omk/s/fiches/item/301693){target='_blank'} [GitHub User : MoussaDeme](http://localhost/samszo/omk/s/fiches/item/301695){target='_blank'} [GitHub User : othmanito123](http://localhost/samszo/omk/s/fiches/item/301697){target='_blank'} [GitHub User : AMMARIsalma](http://localhost/samszo/omk/s/fiches/item/301699){target='_blank'} [GitHub User : Abdallah189](http://localhost/samszo/omk/s/fiches/item/301701){target='_blank'} [GitHub User : Youssoufyouss](http://localhost/samszo/omk/s/fiches/item/300887){target='_blank'} [GitHub User : ammour99](http://localhost/samszo/omk/s/fiches/item/301703){target='_blank'} 
 
@@ -755,11 +755,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2021-10-29T10:57:22Z  -  2021-12-03T09:04:12Z ***AVUN_21-22*** {#sec-item301857 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/AVUN_21-22](https://github.com/samszo/AVUN_21-22){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/AVUN_21-22/](https://samszo.github.io/AVUN_21-22/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -772,7 +772,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2021-12-07T05:07:23Z  -  2021-12-07T05:07:27Z ***genstory*** {#sec-item301861 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genstory](https://github.com/samszo/genstory){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -785,11 +785,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2022-01-24T10:19:01Z  -  2022-02-24T10:42:19Z ***M2GSI_21-22*** {#sec-item301868 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/M2GSI_21-22](https://github.com/samszo/M2GSI_21-22){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/M2GSI_21-22/](https://samszo.github.io/M2GSI_21-22/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -802,11 +802,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2022-05-11T08:17:57Z  -  2022-05-11T08:23:02Z ***genstory2022*** {#sec-item301873 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genstory2022](https://github.com/samszo/genstory2022){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/genstory2022/](https://samszo.github.io/genstory2022/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -819,7 +819,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2022-05-11T11:47:33Z  -  2022-05-11T11:34:38Z ***RIT---A-Dream*** {#sec-item301874 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/RIT---A-Dream](https://github.com/samszo/RIT---A-Dream){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : HugoDaSilva94](http://localhost/samszo/omk/s/fiches/item/301513){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -832,11 +832,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2022-09-20T07:16:45Z  -  2023-02-08T14:29:44Z ***THYP_22-23*** {#sec-item301877 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/THYP_22-23](https://github.com/samszo/THYP_22-23){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/THYP_22-23/](https://samszo.github.io/THYP_22-23/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -849,11 +849,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2022-09-23T07:53:20Z  -  2023-01-13T11:24:28Z ***AVUN_22-23*** {#sec-item301878 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/AVUN_22-23](https://github.com/samszo/AVUN_22-23){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/AVUN_22-23/](https://samszo.github.io/AVUN_22-23/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : Massine3](http://localhost/samszo/omk/s/fiches/item/300825){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : NADYUMI](http://localhost/samszo/omk/s/fiches/item/300827){target='_blank'} [GitHub User : Rimkaidi](http://localhost/samszo/omk/s/fiches/item/300829){target='_blank'} [GitHub User : asarr5](http://localhost/samszo/omk/s/fiches/item/300831){target='_blank'} [GitHub User : IHantouche](http://localhost/samszo/omk/s/fiches/item/300833){target='_blank'} [GitHub User : shanlu63](http://localhost/samszo/omk/s/fiches/item/300835){target='_blank'} [GitHub User : Laioussama](http://localhost/samszo/omk/s/fiches/item/300837){target='_blank'} [GitHub User : Shami86](http://localhost/samszo/omk/s/fiches/item/300839){target='_blank'} [GitHub User : kaypeebee](http://localhost/samszo/omk/s/fiches/item/300841){target='_blank'} [GitHub User : eldjouher-wq](http://localhost/samszo/omk/s/fiches/item/300843){target='_blank'} 
 
@@ -866,11 +866,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2022-12-08T10:35:10Z  -  2022-12-15T08:16:40Z ***CV-2022*** {#sec-item301884 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/CV-2022](https://github.com/samszo/CV-2022){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/CV-2022/](https://samszo.github.io/CV-2022/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -883,11 +883,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2023-01-23T12:08:44Z  -  2023-01-31T23:54:28Z ***M2GSI_22-23*** {#sec-item301886 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/M2GSI_22-23](https://github.com/samszo/M2GSI_22-23){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/M2GSI_22-23/](https://samszo.github.io/M2GSI_22-23/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : Feriellekhl](http://localhost/samszo/omk/s/fiches/item/301287){target='_blank'} [GitHub User : ogpit](http://localhost/samszo/omk/s/fiches/item/301289){target='_blank'} [GitHub User : Helenya95](http://localhost/samszo/omk/s/fiches/item/301291){target='_blank'} [GitHub User : SuzanneFelix](http://localhost/samszo/omk/s/fiches/item/301293){target='_blank'} [GitHub User : Lhaddar](http://localhost/samszo/omk/s/fiches/item/301295){target='_blank'} [GitHub User : bsinagonrigui](http://localhost/samszo/omk/s/fiches/item/301297){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : rouguiyatoundoye](http://localhost/samszo/omk/s/fiches/item/301299){target='_blank'} [GitHub User : imanegoual](http://localhost/samszo/omk/s/fiches/item/301301){target='_blank'} [GitHub User : achafea](http://localhost/samszo/omk/s/fiches/item/301303){target='_blank'} [GitHub User : smessali](http://localhost/samszo/omk/s/fiches/item/301305){target='_blank'} [GitHub User : Yameogomariette](http://localhost/samszo/omk/s/fiches/item/301307){target='_blank'} 
 
@@ -900,11 +900,11 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 #### 2023-03-20T06:51:12Z  -  2023-05-17T08:31:19Z ***genstory2023*** {#sec-item301888 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genstory2023](https://github.com/samszo/genstory2023){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/genstory2023/](https://samszo.github.io/genstory2023/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : spw3572](http://localhost/samszo/omk/s/fiches/item/301047){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : ReallyJustH](http://localhost/samszo/omk/s/fiches/item/301049){target='_blank'} [GitHub User : IHantouche](http://localhost/samszo/omk/s/fiches/item/300833){target='_blank'} [GitHub User : kaypeebee](http://localhost/samszo/omk/s/fiches/item/300841){target='_blank'} [GitHub User : Hebrewscampbell](http://localhost/samszo/omk/s/fiches/item/301051){target='_blank'} [GitHub User : beytanii](http://localhost/samszo/omk/s/fiches/item/301053){target='_blank'} [GitHub User : PhilippeP8](http://localhost/samszo/omk/s/fiches/item/300741){target='_blank'} [GitHub User : Fillla](http://localhost/samszo/omk/s/fiches/item/301055){target='_blank'} [GitHub User : nw7554](http://localhost/samszo/omk/s/fiches/item/301057){target='_blank'} 
 
@@ -935,7 +935,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ###### Hackathon : Les Archives Nationales font leur Hackathon {#sec-item299883 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon](http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon){target='_blank'}**relatedLink** :  
 
 
 
@@ -1002,7 +1002,7 @@ Rédiger des concepts créatifs en fonction du support choisi (presse, multiméd
 
 
 ###### Atelier laboratoire : Ontologie pour le référencement des ressources pédagogique en statistiques {#sec-item299892 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[https://ontostats.univ-paris8.fr/](https://ontostats.univ-paris8.fr/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1304,7 +1304,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2023-04-01  -  2023-06-30 ***Stage de Rim Kaidi*** {#sec-item299828 .unnumbered .o-Item_schema-Chapter}
 **Description** : Design d’information pour le bilan du laboratoire Paragraphe 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/StatsHAL](https://github.com/samszo/StatsHAL){target='_blank'}**relatedLink** :  
 
 **participant** : [Rim Kaidi](http://localhost/samszo/omk/s/fiches/item/299774){target='_blank'} 
 
@@ -1410,7 +1410,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 **address** : Arenberg Creative Mine, Valenciennes, France 
 
-[](){target='_blank'}**relatedLink** :  
+[http://h2ptm.univ-paris8.fr/](http://h2ptm.univ-paris8.fr/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1419,7 +1419,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 **address** : Université de Franche-Comté, Montbéliard 
 
-[](){target='_blank'}**relatedLink** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm21/](http://h2ptm.univ-paris8.fr/OLD/h2ptm21/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1428,14 +1428,14 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 **address** : Arenberg Creative Mine, Valenciennes, France 
 
-[](){target='_blank'}**relatedLink** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm19/](http://h2ptm.univ-paris8.fr/OLD/h2ptm19/){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2016-11-09  -  2016-11-10 ***01 Design 10*** {#sec-item299844 .unnumbered .o-Item_schema-Chapter}
 **address** : Grenade, Espagne 
 
-[](){target='_blank'}**relatedLink** :  
+[http://01design.eu/10/](http://01design.eu/10/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1447,7 +1447,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2016-11-29  -  2016-11-29 ***Journée nationale de l’Internet des objets*** {#sec-item299846 .unnumbered .o-Item_schema-Chapter}
 **address** : Cité de l’Innovation, Nokia Paris-Saclay 
 
-[](){target='_blank'}**relatedLink** :  
+[https://ido2016.sciencesconf.org/](https://ido2016.sciencesconf.org/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1456,7 +1456,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 **address** : Cotonou, Bénin 
 
-[](){target='_blank'}**relatedLink** :  
+[http://www.ichsl.net/9/pc.htm](http://www.ichsl.net/9/pc.htm){target='_blank'}**relatedLink** :  
 
 **worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
@@ -1465,7 +1465,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2012-05-08  -  2012-05-11 ***01 Design 08*** {#sec-item299851 .unnumbered .o-Item_schema-Chapter}
 **address** : Académie Royale des Beaux-Arts de Bruxelles, Belgique 
 
-[](){target='_blank'}**relatedLink** :  
+[http://europia.org/edition/livres/cogn/01D8.htm](http://europia.org/edition/livres/cogn/01D8.htm){target='_blank'}**relatedLink** :  
 
 
 
@@ -1483,7 +1483,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2017-10-25  -  2018-03-21 ***ADACEMU*** {#sec-item299854 .unnumbered .o-Item_dctype-Event}
 **Description** : https://adacemu.univ-paris8.fr/ 
 
-[](){target='_blank'}**relatedLink** :  
+[https://adacemu.univ-paris8.fr/](https://adacemu.univ-paris8.fr/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1499,7 +1499,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### 2023-06-07  -  2023-06-09 ***Frontières numériques 5*** {#sec-item299839 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2023/](https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2023/){target='_blank'}**relatedLink** :  
 
 **address** : Hammamet, Tunisie 
 
@@ -1508,21 +1508,21 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2022-10-13  -  2022-10-15 ***01Design 12*** {#sec-item299840 .unnumbered .o-Item_schema-Chapter}
 **Description** : Design non intentionnel 
 
-[](){target='_blank'}**relatedLink** :  
+[https://01design.eu/12/](https://01design.eu/12/){target='_blank'}**relatedLink** :  
 
 **address** : Hammamet, Tunisie 
 
 
 
 ##### 2022-11-09  -  2022-11-10 ***Frontières numériques 4*** {#sec-item299841 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2022/](https://conferences-paragraphe.univ-paris8.fr/frontieres-numeriques/2022/){target='_blank'}**relatedLink** :  
 
 **address** : Université Paris 8, Saint-Denis, France 
 
 
 
 ##### 2015-10-14  -  2015-10-16 ***H2PTM 2015*** {#sec-item299847 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm15/](http://h2ptm.univ-paris8.fr/OLD/h2ptm15/){target='_blank'}**relatedLink** :  
 
 **address** : Université Paris 8, Saint-Denis, France 
 
@@ -1538,12 +1538,12 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2013-10-16  -  2013-10-16 ***H2PTM 2013*** {#sec-item299850 .unnumbered .o-Item_schema-Chapter}
 **address** : CNAM, Paris 
 
-[](){target='_blank'}**relatedLink** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm13/](http://h2ptm.univ-paris8.fr/OLD/h2ptm13/){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2020-11-15  -  2020-11-17 ***Digital Tools & Uses – Congress 2020*** {#sec-item299852 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[https://digitaluses-congress.univ-paris8.fr/](https://digitaluses-congress.univ-paris8.fr/){target='_blank'}**relatedLink** :  
 
 **address** : Hammamet, Tunisie 
 
@@ -1555,7 +1555,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 
 
 ##### 2017-05-18  -  2017-05-19 ***Conférence Nouveaux défis de l’Internet des Objets*** {#sec-item299855 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[https://ido2017.sciencesconf.org/](https://ido2017.sciencesconf.org/){target='_blank'}**relatedLink** :  
 
 **address** : Fes, Maroc 
 
@@ -1564,7 +1564,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 ##### 2010-11-08  -  2010-11-10 ***12th iiWAS2010*** {#sec-item299857 .unnumbered .o-Item_dctype-Event}
 **Description** : International Conference on Information Integration and Web-based Applications & Services 
 
-[](){target='_blank'}**relatedLink** :  
+[http://www.iiwas.org/conferences/iiwas2010](http://www.iiwas.org/conferences/iiwas2010){target='_blank'}**relatedLink** :  
 
 **address** : IUFM University Cergy-Pontoise, Gennevilliers 
 
@@ -1574,7 +1574,7 @@ Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRIST
 **Description** : 16ème édition (1989-2021)
 Information : Enjeux et nouveaux défis 
 
-[](){target='_blank'}**relatedLink** :  
+[http://h2ptm.univ-paris8.fr/OLD/h2ptm21/](http://h2ptm.univ-paris8.fr/OLD/h2ptm21/){target='_blank'}**relatedLink** :  
 
 **address** : Campus Condorcet Paris-Aubervilliers 
 
@@ -1614,14 +1614,14 @@ Information : Enjeux et nouveaux défis
 
 
 #### 2016-12-01  -  2017-03-12 ***Digital Humanities 2017*** {#sec-item299652 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[https://dh2017.adho.org/](https://dh2017.adho.org/){target='_blank'}**relatedLink** :  
 
 
 
 #### 2016-06-01  -  2016-07-30 ***Colloque jeunes chercheurs*** {#sec-item299653 .unnumbered .o-Item_schema-Chapter}
 **Description** : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
 
-[](){target='_blank'}**relatedLink** :  
+[http://cli2016.fr/comites.php](http://cli2016.fr/comites.php){target='_blank'}**relatedLink** :  
 
 **worksFor** : [CLI](http://localhost/samszo/omk/s/fiches/item/299600){target='_blank'} 
 
@@ -1630,7 +1630,7 @@ Information : Enjeux et nouveaux défis
 #### 2016-05-01  -  2016-06-30 ***Langues, cultures et médias en Méditerranée*** {#sec-item299654 .unnumbered .o-Item_schema-Chapter}
 **Description** : Langues, cultures et médias en Méditerranée : forme, sens et développement, Agadir, Maroc 
 
-[](){target='_blank'}**relatedLink** :  
+[https://calenda.org/354696](https://calenda.org/354696){target='_blank'}**relatedLink** :  
 
 
 
@@ -1642,14 +1642,14 @@ Information : Enjeux et nouveaux défis
 
 
 #### 2015-10-03  -  2015-12-30 ***Digital Humanities 2016*** {#sec-item299656 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[http://dh2016.adho.org/](http://dh2016.adho.org/){target='_blank'}**relatedLink** :  
 
 
 
 #### 2015-06-01  -  2015-07-30 ***Colloque jeunes chercheurs*** {#sec-item299657 .unnumbered .o-Item_schema-Chapter}
 **Description** : Colloque jeunes chercheurs de l'école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8, 
 
-[](){target='_blank'}**relatedLink** :  
+[http://cli2016.fr/comites.php](http://cli2016.fr/comites.php){target='_blank'}**relatedLink** :  
 
 **worksFor** : [CLI](http://localhost/samszo/omk/s/fiches/item/299600){target='_blank'} 
 
@@ -1667,14 +1667,14 @@ Information : Enjeux et nouveaux défis
 #### 2015  -  2023 ***Membre du comité scientifique de la revue Internet des Objets*** {#sec-item299659 .unnumbered .o-Item_schema-Chapter}
 **Description** : ISTE Open Science 
 
-[](){target='_blank'}**relatedLink** :  
+[http://www.openscience.fr/Internet-des-objets](http://www.openscience.fr/Internet-des-objets){target='_blank'}**relatedLink** :  
 
 
 
 #### 2015  -  2023 ***Membre du comité de la collections « Outils et usages numériques »*** {#sec-item299660 .unnumbered .o-Item_schema-Chapter}
 **Description** : Collection dirigée par Imad Saleh 
 
-[](){target='_blank'}**relatedLink** :  
+[http://digitaluses.info/](http://digitaluses.info/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1691,7 +1691,7 @@ Information : Enjeux et nouveaux défis
 
 
 #### 2010  -  2023 ***ISKO Magreb*** {#sec-item299663 .unnumbered .o-Item_schema-Chapter}
-[](){target='_blank'}**relatedLink** :  
+[https://www.isko-maghreb.org/](https://www.isko-maghreb.org/){target='_blank'}**relatedLink** :  
 
 
 
@@ -1729,7 +1729,7 @@ Subvention CRSH – Savoir : 256 000 $
 Le projet Arcanes comporte deux volets. Le premier volet explore les processus de production du sens, les filiations historiques et intermédiales ainsi que les dynamiques de médiation, tout comme les divers dispositifs et les processus d’éditorialisation dans le sillon des humanités et des cultures numériques.
 Le deuxième volet interroge les puissances du faux, les mécanismes du leurre ainsi que les stratégies d’illusion tels qu’ils se manifestent dans les arts – que nous qualifions « d’arts trompeurs » -, la littérature,  les pratiques médiatiques et l’écosystème socionumérique actuel. 
 
-[](){target='_blank'}**relatedLink** :  
+[https://crilcq.arcanes.ca/](https://crilcq.arcanes.ca/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Fonds de recherche du Québec](http://localhost/samszo/omk/s/fiches/item/299598){target='_blank'} 
 
@@ -1742,7 +1742,7 @@ Subvention ArTec : 5 000 €
 Ce projet de recherche vise à expérimenter des processus innovants de formation à l’esprit critique. Le premier volet dont nous devrions obtenir le financer par les “Trophées de l’innovation en Ile de France” se centre sur le développement informatique d’un générateur automatique d’arguments sous forme de Web App, qui sert d’interface d’interaction avec les utilisateurs, et de moyen de collecte de données sur les émotions suscitées par la génération des contre-propositions.
 En articulation avec ce projet, l’objet du projet Polemik’Art financer par ArTec consiste à 1) concevoir des modalités d’interactions humaines et numériques avec des dispositifs de mise en scène du générateur d’arguments développé dans POLEMIKA, 2) étudier le rôle des émotions dans la réception de ces mises en scène de contre-propositions, 3) évaluer l’influence de la participation des publics sur l’évolution de leurs émotions. 
 
-[](){target='_blank'}**relatedLink** :  
+[https://polemika.univ-paris8.fr/](https://polemika.univ-paris8.fr/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} 
 
@@ -1882,7 +1882,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 ## Publications, communications et « produits de la recherche » {#sec-item299355 .o-Item_schema-Chapter}
 
 
-### 2009-10-01  -  2012-12-12 ***Thèse de doctorat en sciences de l’information et de la communication*** {#sec-item299375 .o-Item_schema-Chapter}
+### 2009-10-01  -  2012-12-12 ***Thèse de doctorat en sciences de l’information et de la communication*** {#sec-item299375 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Évaluation et conception d'un langage symbolique pour l'intelligence collective : Vers un langage allégorique pour le Web {#sec-item69227 .unnumbered .o-Item_bibo-Thesis}
@@ -1898,7 +1898,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **short title** : Évaluation et conception d'un langage symbolique pour l'intelligence collective 
 
-[](){target='_blank'}**uri** :  
+[http://tel.archives-ouvertes.fr/tel-00764457](http://tel.archives-ouvertes.fr/tel-00764457){target='_blank'}**uri** :  
 
 **Source** : tel.archives-ouvertes.fr 
 
@@ -1907,7 +1907,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 
-### 2007-01-01  -  now ***Ouvrages individuels et direction d'ouvrages collectifs*** {#sec-item299376 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Ouvrages individuels et direction d'ouvrages collectifs*** {#sec-item299376 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Collective Intelligence and Digital Archives: Towards Knowledge Ecosystems {#sec-item69399 .unnumbered .o-Item_bibo-Book}
@@ -2069,14 +2069,14 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **Language** : fr 
 
-[](){target='_blank'}**uri** :  
+[https://hal.science/hal-04148454](https://hal.science/hal-04148454){target='_blank'}**uri** :  
 
 **Source** : hal.science 
 
 
 
 
-### 2007-01-01  -  now ***Chapitre d’ouvrage*** {#sec-item299377 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Chapitre d’ouvrage*** {#sec-item299377 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Design d’information pour une pédagogie de l’ontologie {#sec-item68921 .unnumbered .o-Item_bibo-Article}
@@ -2180,7 +2180,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **isbn** : 978-2-8143-0320-1 
 
-[](){target='_blank'}**uri** :  
+[http://www.lcdpu.fr/livre/?GCOI=27000100976800&fa=details](http://www.lcdpu.fr/livre/?GCOI=27000100976800&fa=details){target='_blank'}**uri** :  
 
 
 
@@ -2262,7 +2262,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **isbn** : 978-2-37896-359-0 
 
-[](){target='_blank'}**uri** :  
+[https://journals.openedition.org/lectures/59146](https://journals.openedition.org/lectures/59146){target='_blank'}**uri** :  
 
 **Source** : journals.openedition.org 
 
@@ -2294,7 +2294,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 
-### 2007-01-01  -  now ***ACL : Articles dans des revues internationales ou nationales avec comité de lecture*** {#sec-item299378 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***ACL : Articles dans des revues internationales ou nationales avec comité de lecture*** {#sec-item299378 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Générateur hypertextuel pour l'interprétation des médias sociaux dans une topologie sémantique {#sec-item68930 .unnumbered .o-Item_bibo-AcademicArticle}
@@ -2318,7 +2318,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **issn** : 1622-1494 
 
-[](){target='_blank'}**uri** :  
+[http://lcn.revuesonline.com/article.jsp?articleId=17695](http://lcn.revuesonline.com/article.jsp?articleId=17695){target='_blank'}**uri** :  
 
 **Source** : accesdistant.bu.univ-paris8.fr:2056 
 
@@ -2343,7 +2343,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **isbn** : 978-2-271-07889-6 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01098424](https://hal-univ-paris8.archives-ouvertes.fr/hal-01098424){target='_blank'}**uri** :  
 
 **Source** : hal-univ-paris8.archives-ouvertes.fr 
 
@@ -2370,7 +2370,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **short title** : Cultiver son jardin numérique 
 
-[](){target='_blank'}**uri** :  
+[https://hal-bnf.archives-ouvertes.fr/hal-01258307/document](https://hal-bnf.archives-ouvertes.fr/hal-01258307/document){target='_blank'}**uri** :  
 
 **Source** : hal-bnf.archives-ouvertes.fr 
 
@@ -2397,7 +2397,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **short title** : Knowledge Design in the Internet of Things 
 
-[](){target='_blank'}**uri** :  
+[http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0007751703990407](http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0007751703990407){target='_blank'}**uri** :  
 
 **Source** : Crossref 
 
@@ -2417,14 +2417,14 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **Language** : en 
 
-[](){target='_blank'}**uri** :  
+[https://www.academia.edu/28638189/2016_-_Generative_Stein_Poems](https://www.academia.edu/28638189/2016_-_Generative_Stein_Poems){target='_blank'}**uri** :  
 
 **Source** : www.academia.edu 
 
 
 
 ##### 2016  -   ***Generative Stein Poems*** {#sec-item299728 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**relatedLink** :  
+[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
 
@@ -2433,7 +2433,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 
 ###### 2013-11-07T09:59:45Z  -  2013-11-14T14:27:56Z ***texteGraphique*** {#sec-item301768 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/texteGraphique](https://github.com/samszo/texteGraphique){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : ereyes](http://localhost/samszo/omk/s/fiches/item/301515){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -2464,7 +2464,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **issn** : 2514-8273 
 
-[](){target='_blank'}**uri** :  
+[https://www.openscience.fr/Pretopologie-et-protection-de-la-vie-privee-dans-l-Internet-des-Objets](https://www.openscience.fr/Pretopologie-et-protection-de-la-vie-privee-dans-l-Internet-des-Objets){target='_blank'}**uri** :  
 
 
 
@@ -2494,7 +2494,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **short title** : Design de connaissances dans l’Internet des Objets 
 
-[](){target='_blank'}**uri** :  
+[https://www.cairn.info/revue-communication-et-management-2020-1-page-39.htm](https://www.cairn.info/revue-communication-et-management-2020-1-page-39.htm){target='_blank'}**uri** :  
 
 **Source** : www.cairn.info 
 
@@ -2522,14 +2522,14 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **Language** : en 
 
-[](){target='_blank'}**uri** :  
+[http://europia.org/RIHM/V20N1/3-RIHM20V1-samszo.pdf](http://europia.org/RIHM/V20N1/3-RIHM20V1-samszo.pdf){target='_blank'}**uri** :  
 
 **Source** : Zotero 
 
 
 
 ##### 2018  -   ***2018 : Valorisation des Archives numériques*** {#sec-item299723 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**relatedLink** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/valarnum](https://jardindesconnaissances.univ-paris8.fr/public/valarnum){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Métamorphoses et hybridations d’une archive numérique pour sa valorisation : vers des écosystèmes de connaissances](http://localhost/samszo/omk/s/fiches/item/70159){target='_blank'} 
 
@@ -2562,14 +2562,14 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **issn** : 2779-1106 
 
-[](){target='_blank'}**uri** :  
+[https://www.cairn.info/revue-approches-theoriques-en-information-communication-2022-2-page-5.htm](https://www.cairn.info/revue-approches-theoriques-en-information-communication-2022-2-page-5.htm){target='_blank'}**uri** :  
 
 **Source** : Cairn.info 
 
 
 
 
-### 2007-01-01  -  now ***Communication avec actes dans un congrès international*** {#sec-item299379 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Communication avec actes dans un congrès international*** {#sec-item299379 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Toward an Ontology of the Field of Digital Poetry {#sec-item67457 .unnumbered .o-Item_bibo-Article}
@@ -2625,7 +2625,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **pages** : 12 pages 
 
-[](){target='_blank'}**uri** :  
+[http://atlas.irit.fr/PIE/VSST/Actes_VSST_2010_Toulouse/Session%207%20-%20Ontologies/SZONIECKY.pdf](http://atlas.irit.fr/PIE/VSST/Actes_VSST_2010_Toulouse/Session%207%20-%20Ontologies/SZONIECKY.pdf){target='_blank'}**uri** :  
 
 
 
@@ -2688,7 +2688,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **Language** : fr 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01070113/document](https://hal-univ-paris8.archives-ouvertes.fr/hal-01070113/document){target='_blank'}**uri** :  
 
 **Source** : halshs.archives-ouvertes.fr 
 
@@ -2707,7 +2707,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **pages** : pp. 244– 257 
 
-[](){target='_blank'}**uri** :  
+[http://www.ksi.mff.cuni.cz/ejc/](http://www.ksi.mff.cuni.cz/ejc/){target='_blank'}**uri** :  
 
 
 
@@ -2728,7 +2728,7 @@ Participation à la rédaction du rapport d'activité pour l'AERES
 
 **Language** : fr 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01098509/document](https://hal-univ-paris8.archives-ouvertes.fr/hal-01098509/document){target='_blank'}**uri** :  
 
 **Source** : halshs.archives-ouvertes.fr 
 
@@ -2769,7 +2769,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **short title** : Dictionnaires de catégories pour la génération automatique de proverbes 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01098427](https://hal-univ-paris8.archives-ouvertes.fr/hal-01098427){target='_blank'}**uri** :  
 
 **Source** : HAL Archives Ouvertes 
 
@@ -2798,7 +2798,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **issn** : 2514-8273 
 
-[](){target='_blank'}**uri** :  
+[http://www.openscience.fr/Modelisation-ethique-de-l-Internet-des-Objets](http://www.openscience.fr/Modelisation-ethique-de-l-Internet-des-Objets){target='_blank'}**uri** :  
 
 
 
@@ -2823,7 +2823,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **short title** : Blockchain Et Intelligence Collective Pour Le Design Des Connaissances De L'Internet Des Objets 
 
-[](){target='_blank'}**uri** :  
+[http://doi.acm.org/10.1145/3240117.3240137](http://doi.acm.org/10.1145/3240117.3240137){target='_blank'}**uri** :  
 
 **Source** : ACM Digital Library 
 
@@ -2849,7 +2849,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **Publisher** : Kyoto, Japan 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01841292](https://hal-univ-paris8.archives-ouvertes.fr/hal-01841292){target='_blank'}**uri** :  
 
 **Source** : HAL Archives Ouvertes 
 
@@ -2873,7 +2873,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **Language** : fr 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01565705/document](https://hal-univ-paris8.archives-ouvertes.fr/hal-01565705/document){target='_blank'}**uri** :  
 
 **Source** : hal-univ-paris8.archives-ouvertes.fr 
 
@@ -2884,7 +2884,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 
-### 2007-01-01  -  now ***Communication avec actes dans un congrès national*** {#sec-item299380 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Communication avec actes dans un congrès national*** {#sec-item299380 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Impact des TIC sur la visibilité des SIC à l’international : analyses sémantiques d’un corpus de communiqués diplomatiques {#sec-item69328 .unnumbered .o-Item_bibo-Article}
@@ -2913,7 +2913,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **Publisher** : Bordeaux 
 
-[](){target='_blank'}**uri** :  
+[http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes](http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes){target='_blank'}**uri** :  
 
 **Source** : Amazon.com 
 
@@ -2938,14 +2938,14 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **short title** : L’usage des diagrammes dans les partitions musicales 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436](https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436){target='_blank'}**uri** :  
 
 **Source** : hal-univ-paris8.archives-ouvertes.fr 
 
 
 
 
-### 2007-01-01  -  now ***Communication sans acte dans un congrès international*** {#sec-item299381 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Communication sans acte dans un congrès international*** {#sec-item299381 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Le langage du Web du symbolique à l'allégorique, vers une représentation de la connaissance en train de se faire {#sec-item67666 .unnumbered .o-Item_bibo-Article}
@@ -2986,7 +2986,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **short title** : Tweet Palette 
 
-[](){target='_blank'}**uri** :  
+[https://hal-univ-paris8.archives-ouvertes.fr/hal-01098442/document](https://hal-univ-paris8.archives-ouvertes.fr/hal-01098442/document){target='_blank'}**uri** :  
 
 **Source** : hal-univ-paris8.archives-ouvertes.fr 
 
@@ -3035,7 +3035,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Colloque international Archives des savoirs : Problèmes et enjeux 
 
-[](){target='_blank'}**uri** :  
+[https://docplayer.fr/2235208-Colloque-international-archives-des-savoirs-problemes-et-enjeux-universite-de-geneve-19-21-juin-2014.html](https://docplayer.fr/2235208-Colloque-international-archives-des-savoirs-problemes-et-enjeux-universite-de-geneve-19-21-juin-2014.html){target='_blank'}**uri** :  
 
 
 
@@ -3052,7 +3052,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : 6e Colloque International Aliento 
 
-[](){target='_blank'}**uri** :  
+[http://aliento.msh-lorraine.fr/actualites/vue-details/article/programme-6e-colloque-aliento-16-17-mars-2016-nancy-paris-france.html](http://aliento.msh-lorraine.fr/actualites/vue-details/article/programme-6e-colloque-aliento-16-17-mars-2016-nancy-paris-france.html){target='_blank'}**uri** :  
 
 
 
@@ -3067,7 +3067,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Software and Digital Humanities II 
 
-[](){target='_blank'}**uri** :  
+[http://www.paris-iea.fr/fr/evenements/symposium-on-software-and-digital-humanities-ii](http://www.paris-iea.fr/fr/evenements/symposium-on-software-and-digital-humanities-ii){target='_blank'}**uri** :  
 
 
 
@@ -3086,7 +3086,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : 27th ACM Conference on Hypertext and Social Media 
 
-[](){target='_blank'}**uri** :  
+[http://ht.acm.org/ht2016/](http://ht.acm.org/ht2016/){target='_blank'}**uri** :  
 
 
 
@@ -3101,7 +3101,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Frontières numériques - Perceptions 
 
-[](){target='_blank'}**uri** :  
+[http://frontieres.paragraphe.info](http://frontieres.paragraphe.info){target='_blank'}**uri** :  
 
 
 
@@ -3118,7 +3118,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Angles morts du numériques, Limite de la programmation 
 
-[](){target='_blank'}**uri** :  
+[https://cerisy-colloques.fr/numerique2020/](https://cerisy-colloques.fr/numerique2020/){target='_blank'}**uri** :  
 
 
 
@@ -3137,7 +3137,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : 5th E-Poetry Festival 
 
-[](){target='_blank'}**uri** :  
+[http://174.132.128.221/~hermenei/press.php](http://174.132.128.221/~hermenei/press.php){target='_blank'}**uri** :  
 
 
 
@@ -3154,7 +3154,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Web Studies 
 
-[](){target='_blank'}**uri** :  
+[http://webstudies.info/ws2010/](http://webstudies.info/ws2010/){target='_blank'}**uri** :  
 
 
 
@@ -3183,7 +3183,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 
-### 2007-01-01  -  now ***Intervention dans des Journées d’études*** {#sec-item299382 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Intervention dans des Journées d’études*** {#sec-item299382 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Le jardin des connaissances {#sec-item68712 .unnumbered .o-Item_bibo-Article}
@@ -3214,7 +3214,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Dynamiques de mise en accessibilité territoriale : de l’analyse des situations de handicap à la conception spatiale durable 
 
-[](){target='_blank'}**uri** :  
+[http://www.meshs.fr/page.php?r=24&id=343&lang=fr](http://www.meshs.fr/page.php?r=24&id=343&lang=fr){target='_blank'}**uri** :  
 
 
 
@@ -3231,7 +3231,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Bibliothèque numérique à l'ère du Web 2.0 
 
-[](){target='_blank'}**uri** :  
+[http://www.u-cergy.fr/fr/recherche-et-valorisation/iea/archives---2006-a-2010/programme-des-cycles-thematiques-2011/eduquer-et-transmettre---quelle-ecole-demain-2/bibliotheque-numerique-a-l-ere-du-web-2-0.html](http://www.u-cergy.fr/fr/recherche-et-valorisation/iea/archives---2006-a-2010/programme-des-cycles-thematiques-2011/eduquer-et-transmettre---quelle-ecole-demain-2/bibliotheque-numerique-a-l-ere-du-web-2-0.html){target='_blank'}**uri** :  
 
 
 
@@ -3263,7 +3263,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Technologies de l'Information et de la Communication en Langue Arabe 
 
-[](){target='_blank'}**uri** :  
+[http://isictal.blogspot.fr/2011/07/ticla-technologies-de-linformation-et.html](http://isictal.blogspot.fr/2011/07/ticla-technologies-de-linformation-et.html){target='_blank'}**uri** :  
 
 
 
@@ -3278,7 +3278,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **Publisher** : CNAM, Paris 
 
-[](){target='_blank'}**uri** :  
+[http://dicen.cnam.fr/evenements/les-moteurs-de-recommandation-503171.kjsp](http://dicen.cnam.fr/evenements/les-moteurs-de-recommandation-503171.kjsp){target='_blank'}**uri** :  
 
 
 
@@ -3298,7 +3298,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **Date** : 2015-05-06 
 
-[](){target='_blank'}**uri** :  
+[https://socioargu.hypotheses.org/5037](https://socioargu.hypotheses.org/5037){target='_blank'}**uri** :  
 
 **Language** : fr-FR 
 
@@ -3317,7 +3317,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Séminaire Socio-informatique des controverses 
 
-[](){target='_blank'}**uri** :  
+[https://socioargu.hypotheses.org/4932](https://socioargu.hypotheses.org/4932){target='_blank'}**uri** :  
 
 
 
@@ -3364,7 +3364,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Journée d’études Valorisation pédagogique des archives numérique 
 
-[](){target='_blank'}**uri** :  
+[http://valarnum.univ-paris8.fr/Programme](http://valarnum.univ-paris8.fr/Programme){target='_blank'}**uri** :  
 
 
 
@@ -3381,7 +3381,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : Colloque de l’Association des Archivistes du Québec : Pratiques collaboratives. Posture et compétences professionnelles de l’archiviste 
 
-[](){target='_blank'}**uri** :  
+[https://archivistes.qc.ca/category/colloque-automne-2021/](https://archivistes.qc.ca/category/colloque-automne-2021/){target='_blank'}**uri** :  
 
 
 
@@ -3398,7 +3398,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : État et nouvelles perspectives du Web sémantique et social : Langage IEML 
 
-[](){target='_blank'}**uri** :  
+[http://www.ieml.org/IMG/pdf/Programme_du_13_mai-_Etat_et_perspectives_du_Web_semantique_et_social_-2.pdf](http://www.ieml.org/IMG/pdf/Programme_du_13_mai-_Etat_et_perspectives_du_Web_semantique_et_social_-2.pdf){target='_blank'}**uri** :  
 
 
 
@@ -3418,7 +3418,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 
-### 2007-01-01  -  now ***Intervention dans conférences publiques*** {#sec-item299383 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Intervention dans conférences publiques*** {#sec-item299383 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Dimension technique, ergonomique et cognitive du Web {#sec-item300092 .unnumbered .o-Item_bibo-Slideshow}
@@ -3464,7 +3464,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : RADart,  5 : interfaces multitouch et/ou naturelles 
 
-[](){target='_blank'}**uri** :  
+[http://lacantine.org/events/radart-n-5-interfaces-multitouch-et-naturelles](http://lacantine.org/events/radart-n-5-interfaces-multitouch-et-naturelles){target='_blank'}**uri** :  
 
 
 
@@ -3496,7 +3496,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : VIIIe Colloque International ; Enjeux et usages des TIC, Publics et pratiques médiatiques 
 
-[](){target='_blank'}**uri** :  
+[http://ocs.univ-metz.fr/public/conferences/7/schedConfs/9/program-fr_CA.pdf](http://ocs.univ-metz.fr/public/conferences/7/schedConfs/9/program-fr_CA.pdf){target='_blank'}**uri** :  
 
 
 
@@ -3526,19 +3526,19 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **presented at** : ISKO Magreb 2011, Concepts et outils pour le management de la connaissance 
 
-[](){target='_blank'}**uri** :  
+[https://isko-maghreb2011.loria.fr/index.html%3Fp=17.html](https://isko-maghreb2011.loria.fr/index.html%3Fp=17.html){target='_blank'}**uri** :  
 
 
 
 
-### 2007-01-01  -  now ***Conception et développement d’outils*** {#sec-item299386 .o-Item_schema-Chapter}
+### 2007-01-01  -  now ***Conception et développement d’outils*** {#sec-item299386 .unnumbered .o-Item_schema-Chapter}
 
 
 #### Modules Omeka S {#sec-item300724 .unnumbered .o-Item_schema-Chapter}
 
 
 ##### 2020-06-08T06:43:04Z  -  2021-10-28T06:34:52Z ***Omeka-S-module-JDC*** {#sec-item299713 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-JDC](https://github.com/samszo/Omeka-S-module-JDC){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3546,12 +3546,12 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/Omeka-S-module-JDC](https://github.com/samszo/Omeka-S-module-JDC){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2020-05-16T04:45:32Z  -  2021-12-29T05:36:24Z ***Omeka-S-module-CartoAffect*** {#sec-item299714 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-CartoAffect](https://github.com/samszo/Omeka-S-module-CartoAffect){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
@@ -3559,12 +3559,12 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/Omeka-S-module-CartoAffect](https://github.com/samszo/Omeka-S-module-CartoAffect){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2020-12-24T05:19:43Z  -  2022-01-07T05:44:32Z ***Omeka-S-module-Scraping*** {#sec-item299717 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-Scraping](https://github.com/samszo/Omeka-S-module-Scraping){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3572,7 +3572,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/Omeka-S-module-scraping](https://github.com/samszo/Omeka-S-module-scraping){target='_blank'}**relatedLink** :  
 
 
 
@@ -3587,7 +3587,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-04-15T05:26:20Z  -  2021-06-15T05:29:56Z ***Omeka-S-module-CmapImport*** {#sec-item299718 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-CmapImport](https://github.com/samszo/Omeka-S-module-CmapImport){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -3595,12 +3595,12 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/Omeka-S-module-CmapImport](https://github.com/samszo/Omeka-S-module-CmapImport){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2020-02-08T08:37:14Z  -  2021-10-17T08:13:56Z ***omeka-s-module-generateur*** {#sec-item299719 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/omeka-s-module-generateur](https://github.com/samszo/omeka-s-module-generateur){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3608,7 +3608,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/Omeka-S-module-generateur](https://github.com/samszo/Omeka-S-module-generateur){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Daniel Berthereau](http://localhost/samszo/omk/s/fiches/item/299623){target='_blank'} 
 
@@ -3617,7 +3617,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 ##### 2021-05-07T08:27:09Z  -  2023-07-18T07:33:50Z ***Omeka-S-module-ZoteroImportplus*** {#sec-item299722 .unnumbered .o-Item_schema-Project}
 **Description** : Amélioration du module Zotero existant : import des documents et des notes, hypertextualisation des auteurs… 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-ZoteroImportplus](https://github.com/samszo/Omeka-S-module-ZoteroImportplus){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -3625,12 +3625,12 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/Omeka-S-module-zoteroImportPlus](https://github.com/samszo/Omeka-S-module-zoteroImportPlus){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2020-04-15T05:42:38Z  -  2022-08-05T06:32:29Z ***Omeka-S-module-DiigoImport*** {#sec-item301831 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-DiigoImport](https://github.com/samszo/Omeka-S-module-DiigoImport){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -3643,7 +3643,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2020-07-26T06:43:55Z  -  2020-07-29T05:35:42Z ***ValueSuggest*** {#sec-item301834 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/ValueSuggest](https://github.com/samszo/ValueSuggest){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -3656,7 +3656,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-05-14T06:51:01Z  -  2022-06-09T07:52:39Z ***Omeka-S-module-ChaoticumSeminario*** {#sec-item301848 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-ChaoticumSeminario](https://github.com/samszo/Omeka-S-module-ChaoticumSeminario){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3669,7 +3669,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-06-02T06:34:23Z  -  2021-06-25T07:46:39Z ***Omeka-S-module-ResourceNetworks*** {#sec-item301850 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-ResourceNetworks](https://github.com/samszo/Omeka-S-module-ResourceNetworks){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -3682,7 +3682,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-12-31T05:47:59Z  -  2022-01-07T06:19:39Z ***Omeka-S-module-Mesostiche*** {#sec-item301864 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-module-Mesostiche](https://github.com/samszo/Omeka-S-module-Mesostiche){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -3699,7 +3699,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2020-05-16T04:48:37Z  -  2022-07-25T06:12:07Z ***Omeka-S-theme-CartoAffect*** {#sec-item301832 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-CartoAffect](https://github.com/samszo/Omeka-S-theme-CartoAffect){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3712,7 +3712,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-03-21T08:33:04Z  -  2021-11-20T08:24:26Z ***polemika_omks_theme_api*** {#sec-item301844 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/polemika_omks_theme_api](https://github.com/samszo/polemika_omks_theme_api){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -3725,7 +3725,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-03-21T08:36:36Z  -  2021-06-10T04:13:05Z ***polemika_omks_theme_emotions*** {#sec-item301845 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/polemika_omks_theme_emotions](https://github.com/samszo/polemika_omks_theme_emotions){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3738,7 +3738,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-04-29T05:00:35Z  -  2021-10-17T05:59:11Z ***polemika_omks_theme_polemika*** {#sec-item301847 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/polemika_omks_theme_polemika](https://github.com/samszo/polemika_omks_theme_polemika){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -3751,7 +3751,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-06-25T08:02:37Z  -  2021-07-29T08:05:58Z ***Omeka-S-theme-UOH*** {#sec-item301851 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-UOH](https://github.com/samszo/Omeka-S-theme-UOH){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -3764,7 +3764,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-07-30T06:12:49Z  -  2021-11-19T03:39:09Z ***Omeka-S-theme-FeuilletNumerique*** {#sec-item301852 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-FeuilletNumerique](https://github.com/samszo/Omeka-S-theme-FeuilletNumerique){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3777,7 +3777,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-08-20T05:59:10Z  -  2021-10-24T06:54:38Z ***Omeka-S-theme-JDC*** {#sec-item301853 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-JDC](https://github.com/samszo/Omeka-S-theme-JDC){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -3790,7 +3790,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-11-24T06:20:19Z  -  2021-12-06T23:22:05Z ***Omeka-S-theme-PolemikaProto*** {#sec-item301858 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-PolemikaProto](https://github.com/samszo/Omeka-S-theme-PolemikaProto){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -3803,7 +3803,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2022-01-02T10:24:49Z  -  2022-01-02T10:24:49Z ***Omeka-S-theme-Chaoticum*** {#sec-item301865 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-Chaoticum](https://github.com/samszo/Omeka-S-theme-Chaoticum){target='_blank'}**homepage** :  
 
 **Identifier** : 443736806 
 
@@ -3812,7 +3812,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2022-01-19T08:23:44Z  -  2022-01-30T09:06:10Z ***Omeka-S-theme-EDISEM*** {#sec-item301867 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-EDISEM](https://github.com/samszo/Omeka-S-theme-EDISEM){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3825,7 +3825,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2022-02-28T13:32:24Z  -  2022-03-03T08:12:07Z ***Omeka-S-theme-GenStory*** {#sec-item301870 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Omeka-S-theme-GenStory](https://github.com/samszo/Omeka-S-theme-GenStory){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -3844,14 +3844,14 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 ##### 2021  -  2022 ***Base de données Omeka s pour une pédagothèque en psychologie*** {#sec-item299715 .unnumbered .o-Item_schema-Project}
 **Description** : L'objectif de ce site est de faciliter le partage des ressources pédagogiques entre enseignants dans le domaine de la psychologie 
 
-[](){target='_blank'}[](){target='_blank'}**relatedLink** :   
+[https://pedagotheque.uoh.fr/psy/](https://pedagotheque.uoh.fr/psy/){target='_blank'}[https://github.com/samszo/Omeka-S-theme-UOH](https://github.com/samszo/Omeka-S-theme-UOH){target='_blank'}**relatedLink** :   
 
 **worksFor** : [Jean-Marc Meunier](http://localhost/samszo/omk/s/fiches/item/62155){target='_blank'} 
 
 
 
 ##### 2013-09-27T09:07:32Z  -  2013-12-19T08:58:53Z ***EvalEtu*** {#sec-item301766 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/EvalEtu](https://github.com/samszo/EvalEtu){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -3864,7 +3864,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2016-10-03T10:17:52Z  -  2018-12-16T16:58:32Z ***OntoStats*** {#sec-item301806 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/OntoStats](https://github.com/samszo/OntoStats){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : jmeunierP8](http://localhost/samszo/omk/s/fiches/item/301463){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -3875,11 +3875,11 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2019-07-08T07:50:26Z  -  2019-07-30T08:19:48Z ***GEN_19*** {#sec-item301825 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/GEN_19](https://github.com/samszo/GEN_19){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/GEN_19/](https://samszo.github.io/GEN_19/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : mamadoumarega](http://localhost/samszo/omk/s/fiches/item/301059){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : Kishare](http://localhost/samszo/omk/s/fiches/item/301061){target='_blank'} [GitHub User : lagunas55](http://localhost/samszo/omk/s/fiches/item/301063){target='_blank'} [GitHub User : KarimDMD](http://localhost/samszo/omk/s/fiches/item/301065){target='_blank'} [GitHub User : Yarline](http://localhost/samszo/omk/s/fiches/item/301067){target='_blank'} [GitHub User : ous270](http://localhost/samszo/omk/s/fiches/item/301069){target='_blank'} [GitHub User : fatima-2019](http://localhost/samszo/omk/s/fiches/item/301071){target='_blank'} [GitHub User : maylaa](http://localhost/samszo/omk/s/fiches/item/301073){target='_blank'} [GitHub User : shinobi0](http://localhost/samszo/omk/s/fiches/item/301075){target='_blank'} [GitHub User : Haidane](http://localhost/samszo/omk/s/fiches/item/301077){target='_blank'} [GitHub User : SaryGts](http://localhost/samszo/omk/s/fiches/item/301079){target='_blank'} [GitHub User : Tommy92390](http://localhost/samszo/omk/s/fiches/item/301081){target='_blank'} [GitHub User : aliuwayne](http://localhost/samszo/omk/s/fiches/item/301083){target='_blank'} [GitHub User : AFIAGEN-2](http://localhost/samszo/omk/s/fiches/item/301085){target='_blank'} [GitHub User : Thylk](http://localhost/samszo/omk/s/fiches/item/301087){target='_blank'} [GitHub User : afiagen11](http://localhost/samszo/omk/s/fiches/item/301089){target='_blank'} [GitHub User : saleh-92](http://localhost/samszo/omk/s/fiches/item/301091){target='_blank'} 
 
@@ -3890,11 +3890,11 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2020-09-18T08:16:43Z  -  2020-09-23T12:17:17Z ***AccueilHN_20-21*** {#sec-item301835 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/AccueilHN_20-21](https://github.com/samszo/AccueilHN_20-21){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/AccueilHN_20-21/](https://samszo.github.io/AccueilHN_20-21/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -3905,11 +3905,11 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-02-11T11:42:17Z  -  2021-03-31T18:49:42Z ***M1_INFO_20-21*** {#sec-item301843 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/M1_INFO_20-21](https://github.com/samszo/M1_INFO_20-21){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/M1_INFO_20-21/](https://samszo.github.io/M1_INFO_20-21/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : vincent-tran-94](http://localhost/samszo/omk/s/fiches/item/301223){target='_blank'} [GitHub User : julienpan](http://localhost/samszo/omk/s/fiches/item/301225){target='_blank'} [GitHub User : nguyenthihangnga](http://localhost/samszo/omk/s/fiches/item/301177){target='_blank'} [GitHub User : MassiHimi](http://localhost/samszo/omk/s/fiches/item/301227){target='_blank'} [GitHub User : djnabil](http://localhost/samszo/omk/s/fiches/item/301229){target='_blank'} [GitHub User : codeurEnHerbe](http://localhost/samszo/omk/s/fiches/item/301231){target='_blank'} [GitHub User : YanHip](http://localhost/samszo/omk/s/fiches/item/301233){target='_blank'} [GitHub User : rajalamgarmel](http://localhost/samszo/omk/s/fiches/item/301235){target='_blank'} [GitHub User : josephine25](http://localhost/samszo/omk/s/fiches/item/301237){target='_blank'} [GitHub User : Phundrak](http://localhost/samszo/omk/s/fiches/item/301239){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : kapilan45](http://localhost/samszo/omk/s/fiches/item/301241){target='_blank'} [GitHub User : Momar25](http://localhost/samszo/omk/s/fiches/item/301243){target='_blank'} 
 
@@ -3920,11 +3920,11 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-09-17T12:46:35Z  -  2021-09-26T17:08:12Z ***AccueilHN_21-22*** {#sec-item301854 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/AccueilHN_21-22](https://github.com/samszo/AccueilHN_21-22){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/AccueilHN_21-22/](https://samszo.github.io/AccueilHN_21-22/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -3935,11 +3935,11 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2021-09-21T10:53:47Z  -  2021-10-16T08:48:23Z ***M1-HumaNum_21-22*** {#sec-item301855 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/M1-HumaNum_21-22](https://github.com/samszo/M1-HumaNum_21-22){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/M1-HumaNum_21-22/](https://samszo.github.io/M1-HumaNum_21-22/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : luciiieb](http://localhost/samszo/omk/s/fiches/item/301197){target='_blank'} [GitHub User : Evaprev](http://localhost/samszo/omk/s/fiches/item/301199){target='_blank'} [GitHub User : gkerdelhue](http://localhost/samszo/omk/s/fiches/item/301201){target='_blank'} [GitHub User : houdemel](http://localhost/samszo/omk/s/fiches/item/301203){target='_blank'} [GitHub User : Freidja](http://localhost/samszo/omk/s/fiches/item/301205){target='_blank'} [GitHub User : LeliaAndrox](http://localhost/samszo/omk/s/fiches/item/301207){target='_blank'} [GitHub User : ValentineBria](http://localhost/samszo/omk/s/fiches/item/301209){target='_blank'} [GitHub User : margauxjnm](http://localhost/samszo/omk/s/fiches/item/301211){target='_blank'} [GitHub User : Anaisdvx](http://localhost/samszo/omk/s/fiches/item/301213){target='_blank'} [GitHub User : Dianellee](http://localhost/samszo/omk/s/fiches/item/301215){target='_blank'} [GitHub User : Diaseptyl](http://localhost/samszo/omk/s/fiches/item/301217){target='_blank'} [GitHub User : LeaSkib](http://localhost/samszo/omk/s/fiches/item/301219){target='_blank'} [GitHub User : gergesim](http://localhost/samszo/omk/s/fiches/item/301221){target='_blank'} 
 
@@ -3954,7 +3954,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2018  -   ***2018 : Valorisation des Archives numériques*** {#sec-item299723 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**relatedLink** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/valarnum](https://jardindesconnaissances.univ-paris8.fr/public/valarnum){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Métamorphoses et hybridations d’une archive numérique pour sa valorisation : vers des écosystèmes de connaissances](http://localhost/samszo/omk/s/fiches/item/70159){target='_blank'} 
 
@@ -3968,7 +3968,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ##### 2016  -   ***Generative Stein Poems*** {#sec-item299728 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**relatedLink** :  
+[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
 
@@ -3977,7 +3977,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### 2013-11-07T09:59:45Z  -  2013-11-14T14:27:56Z ***texteGraphique*** {#sec-item301768 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/texteGraphique](https://github.com/samszo/texteGraphique){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : ereyes](http://localhost/samszo/omk/s/fiches/item/301515){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4001,7 +4001,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 ##### 2014  -  2015 ***Visualisation des points de vue sur les catégories d’influences*** {#sec-item299738 .unnumbered .o-Item_schema-Project}
 **Description** : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
-[](){target='_blank'}**relatedLink** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/biolographes/comparecat](https://jardindesconnaissances.univ-paris8.fr/public/biolographes/comparecat){target='_blank'}**relatedLink** :  
 
 
 
@@ -4013,7 +4013,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### 2015-05-19T07:38:55Z  -  2015-05-19T07:38:55Z ***gevu-project*** {#sec-item301787 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/gevu-project](https://github.com/samszo/gevu-project){target='_blank'}**homepage** :  
 
 **Identifier** : 35866820 
 
@@ -4022,7 +4022,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### 2015-05-19T07:39:16Z  -  2015-05-19T07:39:16Z ***gevu-android*** {#sec-item301788 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/gevu-android](https://github.com/samszo/gevu-android){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : GoogleCodeExporter](http://localhost/samszo/omk/s/fiches/item/301095){target='_blank'} 
 
@@ -4033,7 +4033,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### 2015-05-19T07:39:37Z  -  2015-05-19T07:42:45Z ***gevu-android-mobile*** {#sec-item301789 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/gevu-android-mobile](https://github.com/samszo/gevu-android-mobile){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [actionscript](http://localhost/samszo/omk/s/fiches/item/158736){target='_blank'} 
 
@@ -4044,7 +4044,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 
 ###### 2015-05-19T07:41:47Z  -  2015-05-19T07:55:08Z ***gevu*** {#sec-item301793 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/gevu](https://github.com/samszo/gevu){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [actionscript](http://localhost/samszo/omk/s/fiches/item/158736){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4058,7 +4058,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 ##### 2023-05-23T05:23:43Z  -  2023-05-31T07:40:20Z ***cocult*** {#sec-item299711 .unnumbered .o-Item_schema-Project}
 **Description** : Application pour créer des parcours culturelle à partir d’une déambulation photographique et d’une indexation par des cribles conceptuels 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/cocult](https://github.com/samszo/cocult){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4066,12 +4066,12 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://artnum.univ-paris8.fr/cocult/tags.html](https://artnum.univ-paris8.fr/cocult/tags.html){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2020-03-22T04:48:20Z  -  2021-12-06T23:40:32Z ***polemika*** {#sec-item299716 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/polemika](https://github.com/samszo/polemika){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
@@ -4079,7 +4079,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}[](){target='_blank'}**relatedLink** :   
+[https://polemika.univ-paris8.fr/omk/s/prototypes](https://polemika.univ-paris8.fr/omk/s/prototypes){target='_blank'}[https://polemika.univ-paris8.fr/omk/s/emotions/page/welcome](https://polemika.univ-paris8.fr/omk/s/emotions/page/welcome){target='_blank'}**relatedLink** :   
 
 **worksFor** : [Jean-Marc Meunier](http://localhost/samszo/omk/s/fiches/item/62155){target='_blank'} [Orélie Desfriches Doria](http://localhost/samszo/omk/s/fiches/item/62137){target='_blank'} 
 
@@ -4108,7 +4108,7 @@ Pour que ces observations puissent servir à une analyse socio-cognitive précis
 **Description** : Explorateur d'interview avec Claude Yacoub et Odile Farge
 Outils pour naviguer dans un recueil d’interviews à partir d’une interface 3D 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/yc-passerelle](https://github.com/samszo/yc-passerelle){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [actionscript](http://localhost/samszo/omk/s/fiches/item/158736){target='_blank'} 
 
@@ -4124,7 +4124,7 @@ Outils pour naviguer dans un recueil d’interviews à partir d’une interface 
 **Description** : En collaboration avec Philippe Bootz et Abderrahim Bargaoui 
 Application Web pour archiver une collection d’œuvre de poésie numérique et de point de vue sur ces œuvres. 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/archipoenum](https://github.com/samszo/archipoenum){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4132,7 +4132,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/archipoenum](https://github.com/samszo/archipoenum){target='_blank'}**relatedLink** :  
 
 **participant** : [Philippe Bootz](http://localhost/samszo/omk/s/fiches/item/61224){target='_blank'} 
 
@@ -4151,7 +4151,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ##### 2015-05-19T07:41:28Z  -  2015-05-19T07:47:07Z ***evalactisem*** {#sec-item299748 .unnumbered .o-Item_schema-Project}
 **Description** : En collaboration avec avec Pierre Lévy et Amel Bourenane :  Outil pour l'évaluation de l'activité sémantique par la traduction en IEML d'une folksonomie Delicious. 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/evalactisem](https://github.com/samszo/evalactisem){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4159,7 +4159,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/evalactisem](https://github.com/samszo/evalactisem){target='_blank'}**relatedLink** :  
 
 **participant** : [Pierre Lévy](http://localhost/samszo/omk/s/fiches/item/61132){target='_blank'} 
 
@@ -4176,7 +4176,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2013-12-11T07:53:21Z  -  2013-12-11T08:03:01Z ***Cross-Reading*** {#sec-item301770 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Cross-Reading](https://github.com/samszo/Cross-Reading){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4187,7 +4187,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2014-10-01T11:15:20Z  -  2015-01-07T15:05:08Z ***livre-postnum*** {#sec-item301777 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/livre-postnum](https://github.com/samszo/livre-postnum){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4200,7 +4200,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-05-19T07:34:42Z  -  2015-05-19T07:34:42Z ***modulonto*** {#sec-item301783 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/modulonto](https://github.com/samszo/modulonto){target='_blank'}**homepage** :  
 
 **Identifier** : 35866631 
 
@@ -4209,11 +4209,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-05-19T07:36:17Z  -  2023-07-15T05:04:16Z ***jardindesconnaissances*** {#sec-item301784 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/jardindesconnaissances](https://github.com/samszo/jardindesconnaissances){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [actionscript](http://localhost/samszo/omk/s/fiches/item/158736){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[http://samszo.github.io/jardindesconnaissances/](http://samszo.github.io/jardindesconnaissances/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4226,7 +4226,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ##### 2015-05-19T07:42:25Z  -  2015-05-19T07:47:36Z ***evalactipol*** {#sec-item299750 .unnumbered .o-Item_schema-Project}
 **Description** : Application Web pour l'évaluation de l’activité politique. 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/evalactipol](https://github.com/samszo/evalactipol){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4234,7 +4234,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/evalactipol](https://github.com/samszo/evalactipol){target='_blank'}**relatedLink** :  
 
 
 
@@ -4249,7 +4249,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2017-03-08T09:56:13Z  -  2017-04-05T09:11:50Z ***DesignEdition-ELO17*** {#sec-item301810 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/DesignEdition-ELO17](https://github.com/samszo/DesignEdition-ELO17){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4262,7 +4262,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2019-03-22T08:56:14Z  -  2019-03-22T08:56:16Z ***plconception*** {#sec-item301821 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/plconception](https://github.com/samszo/plconception){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : LyZeoN](http://localhost/samszo/omk/s/fiches/item/301465){target='_blank'} [GitHub User : hdouangm](http://localhost/samszo/omk/s/fiches/item/301467){target='_blank'} [GitHub User : nimdanor](http://localhost/samszo/omk/s/fiches/item/301469){target='_blank'} [GitHub User : plgitlogin](http://localhost/samszo/omk/s/fiches/item/301471){target='_blank'} [GitHub User : Rafal272](http://localhost/samszo/omk/s/fiches/item/301473){target='_blank'} [GitHub User : elisehardy](http://localhost/samszo/omk/s/fiches/item/301475){target='_blank'} [GitHub User : magdalena-kobylanski](http://localhost/samszo/omk/s/fiches/item/301477){target='_blank'} [GitHub User : nborie](http://localhost/samszo/omk/s/fiches/item/301479){target='_blank'} [GitHub User : esandier](http://localhost/samszo/omk/s/fiches/item/301481){target='_blank'} 
 
@@ -4273,7 +4273,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2020-11-24T16:59:45Z  -  2020-11-24T16:59:50Z ***artstrompeurs-postverite*** {#sec-item301839 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/artstrompeurs-postverite](https://github.com/samszo/artstrompeurs-postverite){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4284,7 +4284,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2021-04-02T13:15:21Z  -  2021-09-26T20:00:13Z ***LireEnsemble2021*** {#sec-item301846 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/LireEnsemble2021](https://github.com/samszo/LireEnsemble2021){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4297,11 +4297,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2021-12-17T17:08:01Z  -  2021-12-17T17:45:27Z ***manifeste_des_mutants*** {#sec-item301862 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/manifeste_des_mutants](https://github.com/samszo/manifeste_des_mutants){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/manifeste_des_mutants/](https://samszo.github.io/manifeste_des_mutants/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4312,11 +4312,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2023-04-30T06:02:54Z  -  2023-05-01T13:40:49Z ***StatsHAL*** {#sec-item301891 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/StatsHAL](https://github.com/samszo/StatsHAL){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/StatsHAL/](https://samszo.github.io/StatsHAL/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : Rimkaidi](http://localhost/samszo/omk/s/fiches/item/300829){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4327,7 +4327,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2023-07-30T04:53:41Z  -  2023-07-30T05:57:18Z ***HDR*** {#sec-item301892 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/HDR](https://github.com/samszo/HDR){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4346,19 +4346,19 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ##### 2016-03-10  -  2016-04-30 ***Visualisation des interactions scientifiques*** {#sec-item299729 .unnumbered .o-Item_schema-Project}
 **Description** : Mis en pratique entre les membres de l’équipe CiTU du laboratoire Paragraphe 
 
-[](){target='_blank'}**relatedLink** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/paragraphe](https://jardindesconnaissances.univ-paris8.fr/public/paragraphe){target='_blank'}**relatedLink** :  
 
 
 
 ##### 2015-11-03  -  2016-03-12 ***Navigateur conceptuel dans les vedettes matières Rameau*** {#sec-item299733 .unnumbered .o-Item_schema-Project}
 **Description** : Projet développé en collaboration avec les chercheurs de l’ANR Biolographes 
 
-[](){target='_blank'}**relatedLink** :  
+[https://jardindesconnaissances.univ-paris8.fr/public/editinflu/navigrameau?label=Histoire%20m%C3%A9di%C3%A9vale](https://jardindesconnaissances.univ-paris8.fr/public/editinflu/navigrameau?label=Histoire%20m%C3%A9di%C3%A9vale){target='_blank'}**relatedLink** :  
 
 
 
 ###### 2015-05-19T07:40:52Z  -  2016-09-19T07:43:52Z ***navigsemiobiblio*** {#sec-item301791 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/navigsemiobiblio](https://github.com/samszo/navigsemiobiblio){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -4370,7 +4370,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-02-04  -  2015-05-30 ***Formulaire de capture de émotions*** {#sec-item299734 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}[](){target='_blank'}**relatedLink** :   
+[https://jardindesconnaissances.univ-paris8.fr/public/graph/roueemotion](https://jardindesconnaissances.univ-paris8.fr/public/graph/roueemotion){target='_blank'}[https://jardindesconnaissances.univ-paris8.fr/public/graph/emostat](https://jardindesconnaissances.univ-paris8.fr/public/graph/emostat){target='_blank'}**relatedLink** :   
 
 **worksFor** : [Information et communication](http://localhost/samszo/omk/s/fiches/item/299401){target='_blank'} 
 
@@ -4392,7 +4392,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2013-10-23T13:22:35Z  -  2017-07-23T15:36:56Z ***LaMuseMent*** {#sec-item301767 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/LaMuseMent](https://github.com/samszo/LaMuseMent){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4405,7 +4405,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2013-11-21T12:09:55Z  -  2013-11-21T12:12:18Z ***LeRoiDesCons*** {#sec-item301769 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/LeRoiDesCons](https://github.com/samszo/LeRoiDesCons){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4416,7 +4416,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2013-12-11T12:32:11Z  -  2014-08-23T10:38:42Z ***GeText*** {#sec-item301771 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/GeText](https://github.com/samszo/GeText){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
@@ -4429,7 +4429,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2014-01-14T12:58:52Z  -  2017-07-10T08:45:40Z ***3deleuze*** {#sec-item301774 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/3deleuze](https://github.com/samszo/3deleuze){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -4442,7 +4442,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2014-03-03T10:33:38Z  -  2014-04-11T06:42:39Z ***TopDalia*** {#sec-item301775 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/TopDalia](https://github.com/samszo/TopDalia){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4453,7 +4453,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2014-10-20T13:44:10Z  -  2014-12-08T16:38:06Z ***ecosysteme*** {#sec-item301778 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/ecosysteme](https://github.com/samszo/ecosysteme){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} 
 
@@ -4466,7 +4466,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-01-13T08:48:15Z  -  2021-01-19T20:54:42Z ***fullerene*** {#sec-item301780 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/fullerene](https://github.com/samszo/fullerene){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4479,7 +4479,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-05-19T07:37:51Z  -  2015-05-19T07:39:20Z ***pointdevuepistemo*** {#sec-item301785 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/pointdevuepistemo](https://github.com/samszo/pointdevuepistemo){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -4490,7 +4490,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-05-19T07:40:32Z  -  2015-05-19T07:43:08Z ***tagaudio*** {#sec-item301790 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/tagaudio](https://github.com/samszo/tagaudio){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [actionscript](http://localhost/samszo/omk/s/fiches/item/158736){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4501,7 +4501,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-05-19T07:42:06Z  -  2015-05-19T07:44:57Z ***fullerene-spip*** {#sec-item301794 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/fullerene-spip](https://github.com/samszo/fullerene-spip){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -4512,7 +4512,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-05-19T07:44:27Z  -  2015-05-19T07:46:54Z ***navig-spatio-temporel*** {#sec-item301799 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/navig-spatio-temporel](https://github.com/samszo/navig-spatio-temporel){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4523,11 +4523,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2016-02-17T11:51:22Z  -  2016-02-17T12:25:45Z ***eval-radar*** {#sec-item301803 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/eval-radar](https://github.com/samszo/eval-radar){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[http://samszo.github.io/eval-radar/](http://samszo.github.io/eval-radar/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4538,7 +4538,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2017-02-14T08:22:45Z  -  2017-04-05T12:04:45Z ***explagora*** {#sec-item301809 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/explagora](https://github.com/samszo/explagora){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4551,11 +4551,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2018-03-27T09:03:56Z  -  2018-04-24T06:32:40Z ***flickEmo*** {#sec-item301814 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/flickEmo](https://github.com/samszo/flickEmo){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/flickEmo/](https://samszo.github.io/flickEmo/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4566,7 +4566,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2019-05-30T12:36:58Z  -  2019-05-30T12:39:23Z ***smel_pwa_cartosem*** {#sec-item301823 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/smel_pwa_cartosem](https://github.com/samszo/smel_pwa_cartosem){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4577,7 +4577,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2019-06-13T13:51:41Z  -  2019-06-13T13:54:07Z ***transmusicales*** {#sec-item301824 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/transmusicales](https://github.com/samszo/transmusicales){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4588,11 +4588,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2022-01-18T12:52:00Z  -  2022-01-18T13:17:39Z ***timeliner*** {#sec-item301866 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/timeliner](https://github.com/samszo/timeliner){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/timeliner/](https://samszo.github.io/timeliner/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : zz85](http://localhost/samszo/omk/s/fiches/item/301705){target='_blank'} [GitHub User : cocoademon](http://localhost/samszo/omk/s/fiches/item/301707){target='_blank'} [GitHub User : tschw](http://localhost/samszo/omk/s/fiches/item/301709){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : ebour](http://localhost/samszo/omk/s/fiches/item/301711){target='_blank'} 
 
@@ -4603,7 +4603,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2022-04-27T07:30:23Z  -  2022-04-28T06:21:16Z ***HN-VerifPlanService*** {#sec-item301872 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/HN-VerifPlanService](https://github.com/samszo/HN-VerifPlanService){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4616,11 +4616,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2022-06-10T13:31:24Z  -  2022-11-24T05:55:36Z ***cartoHexa*** {#sec-item301875 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/cartoHexa](https://github.com/samszo/cartoHexa){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/cartoHexa/](https://samszo.github.io/cartoHexa/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4631,7 +4631,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2023-01-02T07:04:25Z  -  2022-11-07T22:59:40Z ***knowledge_graph_cytoscape*** {#sec-item301885 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/knowledge_graph_cytoscape](https://github.com/samszo/knowledge_graph_cytoscape){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : ishanmehta17](http://localhost/samszo/omk/s/fiches/item/301175){target='_blank'} 
 
@@ -4642,7 +4642,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2023-04-19T11:51:36Z  -  now ***TriTag*** {#sec-item301890 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/TriTag](https://github.com/samszo/TriTag){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4661,7 +4661,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ##### 2015-06-16T13:09:36Z  -  2016-02-17T13:03:41Z ***open-edition*** {#sec-item299730 .unnumbered .o-Item_schema-Project}
 **Description** : Conception d’un site Web pour l’édition de revue scientifique en Open Access 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/open-edition](https://github.com/samszo/open-edition){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4669,14 +4669,14 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://www.openscience.fr/Accueil](https://www.openscience.fr/Accueil){target='_blank'}**relatedLink** :  
 
 **participant** : [Ghislain Guy](http://localhost/samszo/omk/s/fiches/item/299621){target='_blank'} 
 
 
 
 ##### 2005  -  2009 ***mundigo*** {#sec-item301796 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/mundigo](https://github.com/samszo/mundigo){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -4687,7 +4687,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2006  -  2009 ***visitesenaquitaine*** {#sec-item301798 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/visitesenaquitaine](https://github.com/samszo/visitesenaquitaine){target='_blank'}**homepage** :  
 
 **Identifier** : 35867088 
 
@@ -4696,7 +4696,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2006-09-08  -  2009-07-12 ***bnsa-web*** {#sec-item301795 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/bnsa-web](https://github.com/samszo/bnsa-web){target='_blank'}**homepage** :  
 
 **Identifier** : 35867044 
 
@@ -4705,7 +4705,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2007  -  2009 ***mundimuzik*** {#sec-item301792 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/mundimuzik](https://github.com/samszo/mundimuzik){target='_blank'}**homepage** :  
 
 **Identifier** : 35866927 
 
@@ -4714,7 +4714,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2007  -  2009 ***onadabase*** {#sec-item301800 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/onadabase](https://github.com/samszo/onadabase){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [actionscript](http://localhost/samszo/omk/s/fiches/item/158736){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4725,7 +4725,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-01-19T07:43:47Z  -  2015-05-19T07:43:47Z ***anea*** {#sec-item301797 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/anea](https://github.com/samszo/anea){target='_blank'}**homepage** :  
 
 **Identifier** : 35867069 
 
@@ -4734,7 +4734,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2015-04-13T08:48:04Z  -  2021-10-10T06:04:49Z ***gestedit*** {#sec-item301782 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/gestedit](https://github.com/samszo/gestedit){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4758,7 +4758,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2014-06-13T13:20:01Z  -  2014-11-11T07:57:16Z ***gapaii*** {#sec-item301776 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/gapaii](https://github.com/samszo/gapaii){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4772,7 +4772,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2020-12-16T05:09:11Z  -  2022-01-10T09:14:41Z ***mesostiche*** {#sec-item299720 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/mesostiche](https://github.com/samszo/mesostiche){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4780,7 +4780,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}[](){target='_blank'}**relatedLink** :   
+[https://github.com/samszo/mesostiche](https://github.com/samszo/mesostiche){target='_blank'}[https://samszo.github.io/mesostiche/chaoticum-cantiques.html](https://samszo.github.io/mesostiche/chaoticum-cantiques.html){target='_blank'}**relatedLink** :   
 
 
 
@@ -4790,7 +4790,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ###### 2021-11-11T15:33:05Z  -  2022-12-14T23:55:51Z ***ChaoticumSeminario*** {#sec-item299712 .unnumbered .o-Item_schema-Project}
 **Description** : Application de recherche création pour expérimenter de nouveaux modes d’éditorialisation scientifiques 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -4798,12 +4798,12 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**relatedLink** :  
 
 
 
 ###### 2021-01-14T16:29:13Z  -  2022-01-07T05:45:09Z ***A_Maze_Logo*** {#sec-item299721 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/A_Maze_Logo](https://github.com/samszo/A_Maze_Logo){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
@@ -4811,12 +4811,12 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}[](){target='_blank'}**relatedLink** :   
+[https://github.com/samszo/A_Maze_Logo](https://github.com/samszo/A_Maze_Logo){target='_blank'}[https://samszo.github.io/A_Maze_Logo/TroisCouchesExistentielles.html](https://samszo.github.io/A_Maze_Logo/TroisCouchesExistentielles.html){target='_blank'}**relatedLink** :   
 
 
 
 ###### 2015-05-19T07:36:45Z  -  2015-05-19T07:37:37Z ***chaoticum-papillonae*** {#sec-item299749 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/chaoticum-papillonae](https://github.com/samszo/chaoticum-papillonae){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4824,12 +4824,12 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://samszo.univ-paris8.fr/ChaoticumPapillonae/](https://samszo.univ-paris8.fr/ChaoticumPapillonae/){target='_blank'}**relatedLink** :  
 
 
 
 ###### 2020-04-12T08:00:47Z  -  2020-05-12T08:03:05Z ***genplan*** {#sec-item301830 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genplan](https://github.com/samszo/genplan){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4840,11 +4840,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2021-12-29T05:32:09Z  -  2022-01-10T14:07:11Z ***Voeux_2022*** {#sec-item301863 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/Voeux_2022](https://github.com/samszo/Voeux_2022){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/Voeux_2022/](https://samszo.github.io/Voeux_2022/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4855,11 +4855,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2023-02-08T06:00:03Z  -  now ***genaffiche*** {#sec-item301887 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genaffiche](https://github.com/samszo/genaffiche){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/genaffiche/](https://samszo.github.io/genaffiche/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4876,7 +4876,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ###### 2021-11-11T15:33:05Z  -  2022-12-14T23:55:51Z ***ChaoticumSeminario*** {#sec-item299712 .unnumbered .o-Item_schema-Project}
 **Description** : Application de recherche création pour expérimenter de nouveaux modes d’éditorialisation scientifiques 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -4884,13 +4884,13 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://github.com/samszo/ChaoticumSeminario](https://github.com/samszo/ChaoticumSeminario){target='_blank'}**relatedLink** :  
 
 
 
 
 ###### 2021-12-07T05:07:23Z  -  2021-12-07T05:07:27Z ***genstory*** {#sec-item301861 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genstory](https://github.com/samszo/genstory){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4903,11 +4903,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2022-05-11T08:17:57Z  -  2022-05-11T08:23:02Z ***genstory2022*** {#sec-item301873 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genstory2022](https://github.com/samszo/genstory2022){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/genstory2022/](https://samszo.github.io/genstory2022/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4920,7 +4920,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2022-05-11T11:47:33Z  -  2022-05-11T11:34:38Z ***RIT---A-Dream*** {#sec-item301874 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/RIT---A-Dream](https://github.com/samszo/RIT---A-Dream){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : HugoDaSilva94](http://localhost/samszo/omk/s/fiches/item/301513){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4933,11 +4933,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2023-03-20T06:51:12Z  -  2023-05-17T08:31:19Z ***genstory2023*** {#sec-item301888 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/genstory2023](https://github.com/samszo/genstory2023){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/genstory2023/](https://samszo.github.io/genstory2023/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : spw3572](http://localhost/samszo/omk/s/fiches/item/301047){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} [GitHub User : ReallyJustH](http://localhost/samszo/omk/s/fiches/item/301049){target='_blank'} [GitHub User : IHantouche](http://localhost/samszo/omk/s/fiches/item/300833){target='_blank'} [GitHub User : kaypeebee](http://localhost/samszo/omk/s/fiches/item/300841){target='_blank'} [GitHub User : Hebrewscampbell](http://localhost/samszo/omk/s/fiches/item/301051){target='_blank'} [GitHub User : beytanii](http://localhost/samszo/omk/s/fiches/item/301053){target='_blank'} [GitHub User : PhilippeP8](http://localhost/samszo/omk/s/fiches/item/300741){target='_blank'} [GitHub User : Fillla](http://localhost/samszo/omk/s/fiches/item/301055){target='_blank'} [GitHub User : nw7554](http://localhost/samszo/omk/s/fiches/item/301057){target='_blank'} 
 
@@ -4954,14 +4954,14 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ###### 2018  -  2019 ***Générateur de textes pour l’Orlanoïde*** {#sec-item299725 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**relatedLink** :  
+[http://www.orlan.eu/orlan-et-lorlanoide](http://www.orlan.eu/orlan-et-lorlanoide){target='_blank'}**relatedLink** :  
 
 **participant** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} [Orlan](http://localhost/samszo/omk/s/fiches/item/299622){target='_blank'} 
 
 
 
 ###### 2016  -   ***Generative Stein Poems*** {#sec-item299728 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**relatedLink** :  
+[http://brooom.org/poemesStein/](http://brooom.org/poemesStein/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [2016 - Generative Stein Poems](http://localhost/samszo/omk/s/fiches/item/69898){target='_blank'} 
 
@@ -4970,7 +4970,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ####### 2013-11-07T09:59:45Z  -  2013-11-14T14:27:56Z ***texteGraphique*** {#sec-item301768 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/texteGraphique](https://github.com/samszo/texteGraphique){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : ereyes](http://localhost/samszo/omk/s/fiches/item/301515){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -4984,7 +4984,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 ###### 2015-05-19T07:37:32Z  -  2022-12-02T07:15:17Z ***generateur*** {#sec-item299743 .unnumbered .o-Item_schema-Project}
 **Description** : En collaboration  avec Jean-Pierre Balpe, conception et développement d’un nouveau générateur de texte accessible sur le Web 
 
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/generateur](https://github.com/samszo/generateur){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
@@ -4992,21 +4992,21 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 **provider** : [GitHub](http://localhost/samszo/omk/s/fiches/item/300730){target='_blank'} 
 
-[](){target='_blank'}**relatedLink** :  
+[https://artnum.univ-paris8.fr/balpe/generateur/services/capture.php?gen=bios](https://artnum.univ-paris8.fr/balpe/generateur/services/capture.php?gen=bios){target='_blank'}**relatedLink** :  
 
 **participant** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} 
 
 
 
 ###### Générateurs pour un herbier {#sec-item301899 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://www.miguel-chevalier.com/work/herbarius-2059-2009](https://www.miguel-chevalier.com/work/herbarius-2059-2009){target='_blank'}**homepage** :  
 
 **list of contributors** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} [Miguel Chevalier](http://localhost/samszo/omk/s/fiches/item/301898){target='_blank'} 
 
 
 
 ###### 2009  -  2010 ***Générateur de textes pour Capture*** {#sec-item301897 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://chatonsky.net/capture/](https://chatonsky.net/capture/){target='_blank'}**homepage** :  
 
 **list of contributors** : [Jean-Pierre Balpe](http://localhost/samszo/omk/s/fiches/item/61153){target='_blank'} [Grégory Chatonsky](http://localhost/samszo/omk/s/fiches/item/301896){target='_blank'} 
 
@@ -5014,7 +5014,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2019-11-08T12:44:23Z  -  2019-11-08T12:44:27Z ***gen_fake*** {#sec-item301828 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/gen_fake](https://github.com/samszo/gen_fake){target='_blank'}**homepage** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -5029,7 +5029,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2017-02-23  -  2017-06-20 ***Atelier CreaTIC : Créativité, Reconstruction et Proverbe*** {#sec-item299727 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}[](){target='_blank'}**relatedLink** :   
+[https://youtu.be/HY6KBrSnpI8](https://youtu.be/HY6KBrSnpI8){target='_blank'}[https://jardindesconnaissances.univ-paris8.fr/public/plisages/de](https://jardindesconnaissances.univ-paris8.fr/public/plisages/de){target='_blank'}**relatedLink** :   
 
 **worksFor** : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target='_blank'} 
 
@@ -5067,7 +5067,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2018-10-20T05:27:16Z  -  2019-04-12T10:24:44Z ***spip-squelettes*** {#sec-item301818 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/spip-squelettes](https://github.com/samszo/spip-squelettes){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -5080,11 +5080,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2020-05-21T16:48:04Z  -  now ***paragraphe*** {#sec-item301833 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/paragraphe](https://github.com/samszo/paragraphe){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/paragraphe/](https://samszo.github.io/paragraphe/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -5095,11 +5095,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2022-10-04T06:27:34Z  -  2022-11-04T10:13:20Z ***frontieres-numeriques*** {#sec-item301879 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/frontieres-numeriques](https://github.com/samszo/frontieres-numeriques){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/frontieres-numeriques/](https://samszo.github.io/frontieres-numeriques/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : mikepierce](http://localhost/samszo/omk/s/fiches/item/301045){target='_blank'} [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -5110,11 +5110,11 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2022-10-16T05:07:34Z  -  2023-04-14T09:02:59Z ***frontieres-numeriques_2023*** {#sec-item301881 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/frontieres-numeriques_2023](https://github.com/samszo/frontieres-numeriques_2023){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} 
 
-[](){target='_blank'}**serviceUrl** :  
+[https://samszo.github.io/frontieres-numeriques_2023/](https://samszo.github.io/frontieres-numeriques_2023/){target='_blank'}**serviceUrl** :  
 
 **list of contributors** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735){target='_blank'} 
 
@@ -5125,7 +5125,7 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2023-04-13T15:30:51Z  -  2023-05-13T15:53:54Z ***spip_squelettes_paragraphe2023*** {#sec-item301889 .unnumbered .o-Item_schema-Project}
-[](){target='_blank'}**homepage** :  
+[https://github.com/samszo/spip_squelettes_paragraphe2023](https://github.com/samszo/spip_squelettes_paragraphe2023){target='_blank'}**homepage** :  
 
 **programmingLanguage** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711){target='_blank'} [html](http://localhost/samszo/omk/s/fiches/item/96621){target='_blank'} [css](http://localhost/samszo/omk/s/fiches/item/102418){target='_blank'} [php](http://localhost/samszo/omk/s/fiches/item/108369){target='_blank'} 
 
@@ -5182,42 +5182,42 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 2000-09-20  -  2000-09-30 ***Vendanges en Bourgogne*** {#sec-item299697 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1999-09-20  -  1999-09-30 ***Vendanges en Bourgogne*** {#sec-item299696 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1998-09-20  -  1998-09-30 ***Vendanges en Bourgogne*** {#sec-item299695 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1997-09-20  -  1997-09-30 ***Vendanges en Bourgogne*** {#sec-item299694 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://www.domaine-comte-armand.com/](https://www.domaine-comte-armand.com/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Domaine Comte Armand](http://localhost/samszo/omk/s/fiches/item/299590){target='_blank'} 
 
 
 
 ##### 1996-10-10  -  1996-10-20 ***Vendanges en Champagne*** {#sec-item299693 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://champagne-xavier-leconte.com/](https://champagne-xavier-leconte.com/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Champagne Xavier Lecomte](http://localhost/samszo/omk/s/fiches/item/299589){target='_blank'} 
 
 
 
 ##### 1995-10-10  -  1995-10-20 ***Vendanges en Champagne*** {#sec-item299692 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://champagne-xavier-leconte.com/](https://champagne-xavier-leconte.com/){target='_blank'}**relatedLink** :  
 
 **worksFor** : [Champagne Xavier Lecomte](http://localhost/samszo/omk/s/fiches/item/299589){target='_blank'} 
 
@@ -5252,21 +5252,21 @@ Application Web pour archiver une collection d’œuvre de poésie numérique et
 
 
 ##### 1996-08-01  -  1996-08-31 ***Guide interprète du Couvent de la Tourette*** {#sec-item299698 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**relatedLink** :  
 
 **worksFor** : 299575 
 
 
 
 ##### 1997-08-01  -  1997-08-31 ***Guide interprète du Couvent de la Tourette*** {#sec-item299699 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**relatedLink** :  
 
 **worksFor** : 299575 
 
 
 
 ##### 1998-08-01  -  1998-08-31 ***Guide interprète du Couvent de la Tourette*** {#sec-item299700 .unnumbered .o-Item_dctype-Event}
-[](){target='_blank'}**relatedLink** :  
+[https://www.couventdelatourette.fr/](https://www.couventdelatourette.fr/){target='_blank'}**relatedLink** :  
 
 **worksFor** : 299575 
 
@@ -5438,7 +5438,7 @@ Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO
 ##### 2009-07-06  -  2009-09-03 ***Gestion solutions de logistique*** {#sec-item299672 .unnumbered .o-Item_schema-Project}
 **Description** : Conception et réalisation d’un outil pour le partage des solutions de logistique. 
 
-[](){target='_blank'}**relatedLink** :  
+[https://www.ania.net/author/anea](https://www.ania.net/author/anea){target='_blank'}**relatedLink** :  
 
 **worksFor** : [ANEA](http://localhost/samszo/omk/s/fiches/item/299579){target='_blank'} 
 
@@ -5471,7 +5471,7 @@ Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO
 ##### 2007-06-02  -  2007-09-15 ***Life Explorer*** {#sec-item299677 .unnumbered .o-Item_schema-Project}
 **Description** : Modélisation système d’information pour la gestion 3D temps réel d’une bactérie pour valider les théories sur l'encombrement interne 
 
-[](){target='_blank'}**relatedLink** :  
+[http://www.lifeexplorer.eu](http://www.lifeexplorer.eu){target='_blank'}**relatedLink** :  
 
 
 
@@ -5486,3 +5486,5 @@ Technologie : Windows NT, UNIX, Brio, Oracle, Access, VB6, ADO
 **Description** : Cofondateur d’une structure de production et distribution de contenus culturels favorisant la découverte et l’échange entre les cultures. 
 
 **worksFor** : [Mundigo](http://localhost/samszo/omk/s/fiches/item/299583){target='_blank'} 
+
+
