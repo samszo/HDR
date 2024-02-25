@@ -1,3 +1,30 @@
+---
+title: "Curiculum Vitae de Samuel Szoniecky"
+subtitle: "Maître de conférence en Science de l'information et de la communication"
+author: "Samuel Szoniecky"
+date: "04/02/2024"
+
+# Use the multibib extension
+filters:
+  - multibib
+
+# Turn off YAML validation
+validate-yaml: false
+
+# Define list of separate bibliography files
+bibliography:
+    main: samszo.bib
+    app: cvReferencesBart.bib
+
+# Disable citeproc
+citeproc: false
+
+format: 
+  html: 
+    toc: true
+  pdf: default
+---
+
 # Curiculum vitae {#sec-item299344 .o-Item_schema-Chapter}
 
 

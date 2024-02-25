@@ -1,0 +1,43 @@
+---
+title: "Multiple bibliographies"
+subtitle: "Basic example"
+
+# Use the multibib extension
+filters:
+  - multibib
+
+# Turn off YAML validation
+validate-yaml: false
+
+# Define list of separate bibliography files
+bibliography:
+    main: samszo.bib
+    app: cvReferencesBart.bib
+
+# Disable citeproc
+citeproc: false
+
+format: 
+  html: 
+    toc: true
+  pdf: default
+---
+
+
+
+# References
+::: {#refs-main}
+---
+nocite: |
+  @*
+---
+:::
+
+# Software
+
+::: {#refs-app}
+---
+nocite: |
+  @*
+---
+:::

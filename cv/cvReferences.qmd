@@ -1,4 +1,16 @@
+---
+bibliography_main: samszo.bib
+bibliography_app: cvReferencesBart.bib
+filters:
+  - multibib
+validate-yaml: false
+---
+
 # References {.unnumbered}
 
-::: {#refs}
+::: {#refs-main}
+---
+nocite: |
+  @*
+---
 :::

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Multiple bibliographies</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="biblio_files/libs/clipboard/clipboard.min.js"></script>
+<script src="biblio_files/libs/quarto-html/quarto.js"></script>
+<script src="biblio_files/libs/quarto-html/popper.min.js"></script>
+<script src="biblio_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="biblio_files/libs/quarto-html/anchor.min.js"></script>
+<link href="biblio_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="biblio_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="biblio_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="biblio_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="biblio_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="biblio.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Multiple bibliographies</h1>
+<p class="subtitle lead">Basic example</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs-main" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-beloued_studio_2016" class="csl-entry" role="listitem">
+Beloued, Abdelkrim, Peter Stockinger, and Steffen Lalande. 2016. <span>“Studio <span>Campus</span> <span>AAR</span>: <span>A</span> <span>Semantic</span> <span>Platform</span> for <span>Analyzing</span> and <span>Publishing</span> <span>Audiovisual</span> <span>Corpuses</span>.”</span> In <em>Collective Intelligence and Digital Archives</em>, edited by Samuel Szoniecky and Nasreddine Bouhai. ISTE Ltd/John Wiley; Sons Inc.
+</div>
+<div id="ref-bootz_entityidentity_2009" class="csl-entry" role="listitem">
+Bootz, Philippe. 2009. <span>“Entity/<span>Identity</span> : <span>A</span> Tool Designed to Index Documents about Digital Poetry.”</span> Barcelona, Spain. <a href="http://174.132.128.221/~hermenei/press.php">http://174.132.128.221/~hermenei/press.php</a>.
+</div>
+<div id="ref-bootz_toward_2008" class="csl-entry" role="listitem">
+Bootz, Philippe, and Samuel Szoniecky. 2008. <span>“Toward an <span>Ontology</span> of the <span>Field</span> of <span>Digital</span> <span>Poetry</span>.”</span> In. Bergen.
+</div>
+<div id="ref-bootz_entity_2009" class="csl-entry" role="listitem">
+Bootz, Philippe, Samuel Szoniecky, and Abderrahim Bargaoui. 2009. <span>“Entity / <span>Identity</span>.”</span> <a href="http://archivesic.ccsd.cnrs.fr/sic_00603588">http://archivesic.ccsd.cnrs.fr/sic_00603588</a>.
+</div>
+<div id="ref-bourassa_espace_2019" class="csl-entry" role="listitem">
+Bourassa, Renée, Jean-Marc Larrue, Gabrielle Godin, and Samuel Szoniecky. 2019. <span>“Espace Liminaire de l’authenticité : <span>Une</span> Démarche d’humanités Numériques.”</span> In <em><span>H2PTM</span>’19</em>, 126–44. ISTE Editions.
+</div>
+<div id="ref-desfriches_doria_les_2022" class="csl-entry" role="listitem">
+Desfriches Doria, Orélie, and Samuel Szoniecky. 2022. <span>“Les Enjeux de La Culture Numérique&nbsp;: Des Habitus de Réception à La Réflexivité Numérique.”</span> <em>Approches Théoriques En Information-Communication (ATIC)</em> 5 (2): 5–10. <a href="https://doi.org/10.3917/atic.005.0005">https://doi.org/10.3917/atic.005.0005</a>.
+</div>
+<div id="ref-hachour_impact_2006" class="csl-entry" role="listitem">
+Hachour, Hakim, and Samuel Szoniecky. 2006. <span>“Impact Des <span>TIC</span> Sur La Visibilité Des <span>SIC</span> à l’international : Analyses Sémantiques d’un Corpus de Communiqués Diplomatiques.”</span> In. Université du Sud Toulon Var.
+</div>
+<div id="ref-chartron_espaces_2014" class="csl-entry" role="listitem">
+Hachour, Hakim, Samuel Szoniecky, and Safia Abouad. 2014. <span>“Espaces Sémio-Cognitifs : Les Frontières Des Systèmes de Recommandation.”</span> In <em>Les Moteurs Et Systèmes de Recommandation</em>, edited by Ghislaine Chartron, Gérald Kembellec, and Imad Saleh, Collection Systèmes d’information, Web et informatique ubiquitaire édition. Hermes Science Publishing Ltd.
+</div>
+<div id="ref-ihadjadene_classifications_2013" class="csl-entry" role="listitem">
+Ihadjadène, Madjid, Samuel Szoniecky, and Gérald Kembellec. 2013. <em>Classifications Et Dispositifs Informationnels</em>. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098424">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098424</a>.
+</div>
+<div id="ref-laborderie_cultiver_2015" class="csl-entry" role="listitem">
+Laborderie, Arnaud, and Samuel Szoniecky. 2015. <span>“Cultiver Son Jardin Numérique : Métaphore Et Dispositifs Éditoriaux.”</span> <em>Interfaces Numériques</em> 4 (3): 351–68. <a href="https://hal-bnf.archives-ouvertes.fr/hal-01258307/document">https://hal-bnf.archives-ouvertes.fr/hal-01258307/document</a>.
+</div>
+<div id="ref-louapre_outils_2017" class="csl-entry" role="listitem">
+Louâpre, Muriel, and Samuel Szoniecky. 2017. <span>“Outils Pour Une Modélisation de l’interprétation Des Archives Numériques.”</span> In <em>Intelligence Collective Et Archives Numériques</em>, edited by Imad Saleh, Systèmes d’information, web et société. ISTE éditions.
+</div>
+<div id="ref-meunier_ontology-based_2018" class="csl-entry" role="listitem">
+Meunier, Jean-Marc, and Samuel Szoniecky. 2018. <span>“An Ontology-Based Enriched Ebook for Teaching Statistics.”</span> In <em><span>ICOTS</span> 10, 10 Th <span>International</span> <span>Conference</span> on <span>Teaching</span> <span>Statistics</span></em>. Kyoto, Japan. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01841292">https://hal-univ-paris8.archives-ouvertes.fr/hal-01841292</a>.
+</div>
+<div id="ref-meunier_apports_2017" class="csl-entry" role="listitem">
+Meunier, Jean-Marc, Samuel Szoniecky, and Myriam Lamolle. 2017. <span>“Apports d’une Ontologie à l’apprentissage Des Statistiques.”</span> In. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01565705/document">https://hal-univ-paris8.archives-ouvertes.fr/hal-01565705/document</a>.
+</div>
+<div id="ref-pappa_designing_2023" class="csl-entry" role="listitem">
+Pappa, Anna, Samuel Szoniecky, Rocio Berenguer, Joël Huthwohl, Cécile Quach, and Arnaud Laborderie. 2023. <span>“Designing a Database for a Classical Theatrical Chatbot.”</span> In <em>Open and <span>Truster</span> : <span>Reassessing</span> Research Library Values</em>. Budapest. https://doi.org/<a href="https://doi.org/10.36820/LIBER.2023">https://doi.org/10.36820/LIBER.2023</a>.
+</div>
+<div id="ref-quach_litte_bot_2022" class="csl-entry" role="listitem">
+Quach, Cécile, Anna Pappa, Rocio Berenguer, Samuel Szoniecky, Joël Huthwohl, Hugo Dendievel, and Arnaud Laborderie. 2022. <span>“<span>LITTE</span>_BOT, Un Robot Conversationnel Pour Dialoguer Avec Des Œuvres Littéraires, Des Personnages Ou Leur Auteur.”</span> Billet. <em>Carnet de La Recherche à La Bibliothèque Nationale de France</em>. <a href="https://bnf.hypotheses.org/12976">https://bnf.hypotheses.org/12976</a>.
+</div>
+<div id="ref-reyes_dtuc_2018" class="csl-entry" role="listitem">
+Reyes, E., S. Szoniecky, A. Mkadmi, G. Kembellec, R. Fournier-S’niehotta, F. Siala-Kallel, M. Ammi, and S. Labelle, eds. 2018. <em><span>DTUC</span> ’18: <span>Proceedings</span> of the 1st <span>International</span> <span>Conference</span> on <span>Digital</span> <span>Tools</span> &amp; <span>Uses</span> <span>Congress</span></em>. New York, NY, USA: ACM.
+</div>
+<div id="ref-reyes-garcia_generative_2016" class="csl-entry" role="listitem">
+Reyes-Garcia, Everardo. 2016. <span>“Generative <span>Stein</span> <span>Poems</span>.”</span> Halifax, Canada. <a href="http://ht.acm.org/ht2016/">http://ht.acm.org/ht2016/</a>.
+</div>
+<div id="ref-saleh_challenges_2018" class="csl-entry" role="listitem">
+Saleh, Imad, Mehdi Ammi, and Samuel Szoniecky. 2018. <em>Challenges of the <span>Internet</span> of <span>Things</span>: <span>Technique</span>, <span>Use</span>, <span>Ethics</span></em>. Hoboken, NJ: ISTE Ltd.
+</div>
+<div id="ref-saleh_5eme_2023" class="csl-entry" role="listitem">
+Saleh, Imad, Samuel Szoniecky, and Malek Ghenima. 2023. <em>5ème Colloque <span>Frontières</span> <span>Numériques</span></em>. <a href="https://hal.science/hal-04148454">https://hal.science/hal-04148454</a>.
+</div>
+<div id="ref-noauthor_samuel_nodate" class="csl-entry" role="listitem">
+<span>“Samuel <span>Szoniecky</span> - <span>Enseignant</span> <span>Chercheur</span> - <span>La</span> Chance Du Sens.”</span> n.d. Accessed February 17, 2016. <a href="http://www.samszo.univ-paris8.fr/">http://www.samszo.univ-paris8.fr/</a>.
+</div>
+<div id="ref-stransky_lusage_2014" class="csl-entry" role="listitem">
+Stransky, Lenka, and Samuel Szoniecky. 2014. <span>“L’usage Des Diagrammes Dans Les Partitions Musicales : Du Graphique Au Conceptuel Pour Une Potentialité Du Geste.”</span> In. Université du Sud Toulon Var. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436</a>.
+</div>
+<div id="ref-szoniecky_samuel_dimension_2007" class="csl-entry" role="listitem">
+Szoniecky, Samuel. 2007. <span>“Dimension Technique, Ergonomique Et Cognitive Du <span>Web</span>.”</span> Saint Denis.
+</div>
+<div id="ref-szoniecky_samuel_jardin_2008-1" class="csl-entry" role="listitem">
+———. 2008a. <span>“Le Jardin Des Connaissances.”</span> Ecomusée du Perche, Saint-Cyr-la-Rosière.
+</div>
+<div id="ref-szoniecky_samuel_jardin_2008" class="csl-entry" role="listitem">
+———. 2008b. <span>“Le Jardin Des Connaissances.”</span> CNAM, Paris.
+</div>
+<div id="ref-szoniecky_samuel_evaluation_2009" class="csl-entry" role="listitem">
+———. 2009a. <span>“Évaluation de l’activité Sémantique.”</span> Chaire de Recherche du Canada en Intelligence Collective, Université Ottawa, Ottawa, Canada.
+</div>
+<div id="ref-szoniecky_jardin_2009" class="csl-entry" role="listitem">
+———. 2009b. <span>“Le Jardin Des Connaissances.”</span> In. Conservatoire National des Arts et Métiers, Paris.
+</div>
+<div id="ref-szoniecky_les_2009" class="csl-entry" role="listitem">
+———. 2009c. <span>“Les Outils Pour Un État Des Lieux de l’accessibilité Urbaine : Actualités Et Perspectives.”</span> Maison des sciences de l’homme et de la société, Lille. <a href="http://www.meshs.fr/page.php?r=24&amp;id=343&amp;lang=fr">http://www.meshs.fr/page.php?r=24&amp;id=343&amp;lang=fr</a>.
+</div>
+<div id="ref-szoniecky_agent_2010" class="csl-entry" role="listitem">
+———. 2010a. <span>“Agent Ontologique Pour La Veille Des Écosystèmes d’information.”</span> In <em>Veille <span>Stratégique</span> <span>Scientifique</span> &amp; <span>Technologique</span> <span>Systèmes</span> d’information Élaborée, <span>Bibliométrie</span></em>, 12 pages. Toulouse. <a href="http://atlas.irit.fr/PIE/VSST/Actes_VSST_2010_Toulouse/Session%207%20-%20Ontologies/SZONIECKY.pdf">http://atlas.irit.fr/PIE/VSST/Actes_VSST_2010_Toulouse/Session%207%20-%20Ontologies/SZONIECKY.pdf</a>.
+</div>
+<div id="ref-szoniecky_samuel_ontological_2010" class="csl-entry" role="listitem">
+———. 2010b. <span>“Ontological Design for Ecosystem Information.”</span> Toluca, Mexico. <a href="http://webstudies.info/ws2010/">http://webstudies.info/ws2010/</a>.
+</div>
+<div id="ref-szoniecky_design_2010" class="csl-entry" role="listitem">
+———. 2010c. <span>“Design d’information Pour Une Pédagogie de l’ontologie.”</span> In <em>O1 <span>Design</span>.7 : <span>Conception</span> Assistée Par Concepteur</em>, pp. 181–192. Paris: Productions Europia.
+</div>
+<div id="ref-szoniecky_samuel_chora_2010" class="csl-entry" role="listitem">
+———. 2010d. <span>“<span>CHORA</span>.”</span> La Cantine, Paris. <a href="http://lacantine.org/events/radart-n-5-interfaces-multitouch-et-naturelles">http://lacantine.org/events/radart-n-5-interfaces-multitouch-et-naturelles</a>.
+</div>
+<div id="ref-szoniecky_proposition_2011" class="csl-entry" role="listitem">
+———. 2011a. <span>“Proposition d’une Méthode Graphique Pour Le Filtrage Des Flux d’information.”</span> In <em>Doctorales <span>SFIC</span> 2011, <span>Problématisation</span> Et Méthodologie de Recherche</em>. Bordeaux. <a href="http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes">http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes</a>.
+</div>
+<div id="ref-szoniecky_folksonomie_2011" class="csl-entry" role="listitem">
+———. 2011b. <span>“Folksonomie Pour l’exploration Sémantique d’une Bibliothèque.”</span> Université de Cergy-Pontoise. <a href="http://www.u-cergy.fr/fr/recherche-et-valorisation/iea/archives---2006-a-2010/programme-des-cycles-thematiques-2011/eduquer-et-transmettre---quelle-ecole-demain-2/bibliotheque-numerique-a-l-ere-du-web-2-0.html">http://www.u-cergy.fr/fr/recherche-et-valorisation/iea/archives---2006-a-2010/programme-des-cycles-thematiques-2011/eduquer-et-transmettre---quelle-ecole-demain-2/bibliotheque-numerique-a-l-ere-du-web-2-0.html</a>.
+</div>
+<div id="ref-szoniecky_ieml_2011" class="csl-entry" role="listitem">
+———. 2011c. <span>“<span>IEML</span>, Une Sphère Comme Système de Coordonnées Sémantique de l’e-Science ?”</span> Université Paris 8.
+</div>
+<div id="ref-szoniecky_langage_2011" class="csl-entry" role="listitem">
+———. 2011d. <span>“Le Langage Du <span>Web</span> Du Symbolique à l’allégorique, Vers Une Représentation de La Connaissance En Train de Se Faire.”</span> In <em><span>ISKO</span> - <span>Magreb</span> 2011</em>. Hammamet, Tunisie.
+</div>
+<div id="ref-szoniecky_samuel_utilisation_2011" class="csl-entry" role="listitem">
+———. 2011e. <span>“L’utilisation d’<span>IEML</span> Pour La Préservation Des Langues de Faible Diffusion.”</span> Tipaza, Algérie.
+</div>
+<div id="ref-szoniecky_intelligence_2011" class="csl-entry" role="listitem">
+———. 2011f. <span>“Intelligence Collective Pour La Conception de Statistiques Géo-Localisées.”</span> IUT de Lisieux.
+</div>
+<div id="ref-szoniecky_samuel_comment_2012" class="csl-entry" role="listitem">
+———. 2012a. <span>“Comment Valoriser Des Textualités Complexes Par Le Numérique ?”</span> Labex {Arts}-{H2H} et {Patrima}. Bibliothèque Nationale, Site Richelieu, Paris.
+</div>
+<div id="ref-szoniecky_tweet_2012" class="csl-entry" role="listitem">
+———. 2012b. <span>“Tweet <span>Palette</span> : Cartographie Sémantique Pour l’interprétation d’un Événement.”</span> In, 15. Université de Lorraine. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098442/document">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098442/document</a>.
+</div>
+<div id="ref-szoniecky_tweet_2012-1" class="csl-entry" role="listitem">
+———. 2012c. <span>“Tweet <span>Palette</span> : Cartographie Sémantique Pour l’interprétation d’un Événement.”</span> Université de Lorraine, Metz. <a href="http://ocs.univ-metz.fr/public/conferences/7/schedConfs/9/program-fr_CA.pdf">http://ocs.univ-metz.fr/public/conferences/7/schedConfs/9/program-fr_CA.pdf</a>.
+</div>
+<div id="ref-szoniecky_evaluation_2012" class="csl-entry" role="listitem">
+———. 2012d. <span>“Évaluation Et Conception d’un Langage Symbolique Pour l’intelligence Collective : <span>Vers</span> Un Langage Allégorique Pour Le <span>Web</span>.”</span> Science de l'information et de la communication, Université Paris VIII Vincennes-Saint Denis. <a href="http://tel.archives-ouvertes.fr/tel-00764457">http://tel.archives-ouvertes.fr/tel-00764457</a>.
+</div>
+<div id="ref-francois_les_2012" class="csl-entry" role="listitem">
+———. 2012e. <span>“Les Frontières Des Écosystèmes d’informations Numériques.”</span> In <em>Geoartistique Et Géopolitique Frontieres</em>, edited by Soulages François, pp. 65–76. Local &amp; <span>Global</span>. L’Harmattan.
+</div>
+<div id="ref-szoniecky_dictionnaires_2013" class="csl-entry" role="listitem">
+———. 2013. <span>“Dictionnaires de Catégories Pour La Génération Automatique de Proverbes : Vers Une Économie Sémantique de l’interprétation.”</span> In <em>La <span>Néologie</span>, Les Corpus Informatisés Et Les Processus d’élaboration Des Langues de Moindre Diffusion</em>. Ghardaïa, Algeria. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098427">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098427</a>.
+</div>
+<div id="ref-szoniecky_ecosysteme_2014" class="csl-entry" role="listitem">
+———. 2014a. <span>“Écosystème d’information Pour La Création, l’édition Et l’évaluation de Ressources Pédagogiques Numériques.”</span> In. Cotonou, Bénin. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098509/document">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098509/document</a>.
+</div>
+<div id="ref-szoniecky_interpreter_2014" class="csl-entry" role="listitem">
+———. 2014b. <span>“Interpréter Les Archives <span>Deleuze</span> : Exemple de Jardinage Des Connaissances.”</span> Université́ de Genève. <a href="https://docplayer.fr/2235208-Colloque-international-archives-des-savoirs-problemes-et-enjeux-universite-de-geneve-19-21-juin-2014.html">https://docplayer.fr/2235208-Colloque-international-archives-des-savoirs-problemes-et-enjeux-universite-de-geneve-19-21-juin-2014.html</a>.
+</div>
+<div id="ref-szoniecky_exploration_2014" class="csl-entry" role="listitem">
+———. 2014c. <span>“Exploration Et Modélisation Des Frontières Numériques Par Un Appareil de Capture Sémantique.”</span> Labex {Arts}-{H2H}. Ecole Supérieure d’Ingénierie en Sciences Appliquées, Fès, Maroc.
+</div>
+<div id="ref-szoniecky_interpreter_2015" class="csl-entry" role="listitem">
+———. 2015a. <span>“Interpréter La Voix de <span>Deleuze</span>. <span>Exemple</span> de Jardinage Des Connaissances.”</span> In <em>Frontières d’archives <span>Recherches</span>, Mémoires, Savoirs</em>, edited by Jean-François Bert and Marc J. Ratcliff, 165–77. Paris: Editions des archives contemporaines.
+</div>
+<div id="ref-szoniecky_generateurs_2015" class="csl-entry" role="listitem">
+———. 2015b. <span>“Générateurs Automatiques de Texte.”</span> EHESS, Paris. <a href="https://socioargu.hypotheses.org/4932">https://socioargu.hypotheses.org/4932</a>.
+</div>
+<div id="ref-szoniecky_methode_2015" class="csl-entry" role="listitem">
+———. 2015c. <span>“Méthode Des Humanités Numériques&nbsp;: Automatismes Et Intuitions.”</span> Université de Stuttgart.
+</div>
+<div id="ref-szoniecky_outillages_2016" class="csl-entry" role="listitem">
+———. 2016a. <span>“Outillages Numériques Pour Les Humanités : Cartographier Des Réseaux d’influences.”</span> Nancy. <a href="http://aliento.msh-lorraine.fr/actualites/vue-details/article/programme-6e-colloque-aliento-16-17-mars-2016-nancy-paris-france.html">http://aliento.msh-lorraine.fr/actualites/vue-details/article/programme-6e-colloque-aliento-16-17-mars-2016-nancy-paris-france.html</a>.
+</div>
+<div id="ref-szoniecky_perception_2016" class="csl-entry" role="listitem">
+———. 2016b. <span>“La Perception Des Proverbes : Cartographier Les Frontières Sapientielles.”</span> <a href="http://frontieres.paragraphe.info">http://frontieres.paragraphe.info</a>.
+</div>
+<div id="ref-szoniecky_ecosysteme_2017" class="csl-entry" role="listitem">
+———. 2017a. <em>Écosystème de Connaissances : Méthode de Modélisation Et d’analyse de l’information Et de La Communication</em>. ISTE Editions.
+</div>
+<div id="ref-szoniecky_cartographier_2017" class="csl-entry" role="listitem">
+———. 2017b. <span>“Cartographier l’interprétation Des Archives.”</span> Archives Nationales, Pierrefitte sur Seine. <a href="http://valarnum.univ-paris8.fr/Programme">http://valarnum.univ-paris8.fr/Programme</a>.
+</div>
+<div id="ref-szoniecky_blockchain_2018" class="csl-entry" role="listitem">
+———. 2018a. <span>“Blockchain Et Intelligence Collective Pour Le Design Des Connaissances de l’internet Des Objets : Modélisation Du Pouvoir d’agir Des Objets Connectés.”</span> In <em>Proceedings of the 1st <span>International</span> <span>Conference</span> on <span>Digital</span> <span>Tools</span> &amp; <span>Uses</span> <span>Congress</span></em>, 16:1–6. <span>DTUC</span> ’18. MSH Paris Nord: ACM. <a href="https://doi.org/10.1145/3240117.3240137">https://doi.org/10.1145/3240117.3240137</a>.
+</div>
+<div id="ref-bornes-varol_jeux_2018" class="csl-entry" role="listitem">
+———. 2018b. <span>“Jeux d’interprétations Collectives Pour Cartographier Les Influences Sapientielles.”</span> In <em>Aliento <span>N</span>°9 - <span>Ascendance</span> Et <span>Postérité</span> de Corpus de Sagesse Arabe Et Juive En <span>Europe</span> Et En <span>Méditerranée</span></em>, edited by Marie-Christine Bornes-Varol and Marie-Sol Ortola, Editions Universitaires de Lorraine. Aliento 9. Presses universitaires de Nancy. <a href="http://www.lcdpu.fr/livre/?GCOI=27000100976800&amp;fa=details">http://www.lcdpu.fr/livre/?GCOI=27000100976800&amp;fa=details</a>.
+</div>
+<div id="ref-szoniecky_ecosystems_2018" class="csl-entry" role="listitem">
+———. 2018c. <em>Ecosystems <span>Knowledge</span>: <span>Modeling</span> and <span>Analysis</span> <span>Method</span> for <span>Information</span> and <span>Communication</span></em>. Wiley-Iste.
+</div>
+<div id="ref-szoniecky_ethical_2018" class="csl-entry" role="listitem">
+———. 2018d. <span>“Ethical <span>Modeling</span> of the <span>Internet</span> of <span>Things</span>.”</span> In <em>Challenges of the <span>Internet</span> of <span>Things</span>: <span>Technique</span>, <span>Use</span>, <span>Ethics</span></em>, 215–43. Hoboken, NJ: ISTE Ltd.
+</div>
+<div id="ref-szoniecky_modeling_2018" class="csl-entry" role="listitem">
+———. 2018e. <span>“Modeling of Power to Act for an Ethics of the <span>Internet</span> of <span>Things</span>.”</span> In <em>Challenges of the <span>Internet</span> of <span>Things</span>: <span>Technique</span>, <span>Use</span>, <span>Ethics</span></em>, 215–43. Hoboken, NJ: ISTE Ltd. <a href="http://www.iste.co.uk/book.php?id=1396">http://www.iste.co.uk/book.php?id=1396</a>.
+</div>
+<div id="ref-leleu-merviel_metamorphoses_2019" class="csl-entry" role="listitem">
+———. 2019. <span>“Métamorphoses Et Hybridations d’une Archive Numérique Pour Sa Valorisation&nbsp;: Vers Des Écosystèmes de Connaissances.”</span> Edited by Sylvie Leleu-Merviel and Khaldoun Zreik. <em>Journal of Human Mediated Interactions</em> 20 (1): 77–104. <a href="http://europia.org/RIHM/V20N1/3-RIHM20V1-samszo.pdf">http://europia.org/RIHM/V20N1/3-RIHM20V1-samszo.pdf</a>.
+</div>
+<div id="ref-szoniecky_conception_2020" class="csl-entry" role="listitem">
+———. 2020a. <span>“Conception d’un Crible Pour Mesurer Collectivement Les Impacts Écologiques de l’activité.”</span> <em>Les Cahiers Du Numerique</em> Vol. 16 (2): 175–99. <a href="https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm">https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm</a>.
+</div>
+<div id="ref-szoniecky_intelligence_2020" class="csl-entry" role="listitem">
+———. 2020b. <span>“Intelligence <span>Végétale</span>, 24 Septembre – 1er Octobre,”</span> Colloque de Cerisy. <a href="https://cerisy-colloques.fr/numerique2020/">https://cerisy-colloques.fr/numerique2020/</a>.
+</div>
+<div id="ref-citton_intelligences_2023" class="csl-entry" role="listitem">
+———. 2023. <span>“Intelligences Végétales.”</span> In <em>Angles Morts Du Numérique Ubiquitaire</em>, edited by Yves Citton, Marie Lechner, and Masure Anthony, 249–55. Presses du réel (Les). <a href="https://journals.openedition.org/lectures/59146">https://journals.openedition.org/lectures/59146</a>.
+</div>
+<div id="ref-szoniecky_ecologies_nodate" class="csl-entry" role="listitem">
+———. n.d.a. <span>“Ecologies of Software.”</span> IEA, Paris, France. <a href="http://www.paris-iea.fr/fr/evenements/symposium-on-software-and-digital-humanities-ii">http://www.paris-iea.fr/fr/evenements/symposium-on-software-and-digital-humanities-ii</a>.
+</div>
+<div id="ref-szoniecky_samuel_langage_nodate" class="csl-entry" role="listitem">
+———. n.d.b. <span>“Le Langage Du <span>Web</span> Du Symbolique à l’allégorique.”</span> Hammamet, Tunisie. <a href="https://isko-maghreb2011.loria.fr/index.html%3Fp=17.html">https://isko-maghreb2011.loria.fr/index.html%3Fp=17.html</a>.
+</div>
+<div id="ref-szoniecky_valorisation_nodate" class="csl-entry" role="listitem">
+———. n.d.c. <span>“Valorisation Des Archives Numériques.”</span> En ligne. <a href="https://archivistes.qc.ca/category/colloque-automne-2021/">https://archivistes.qc.ca/category/colloque-automne-2021/</a>.
+</div>
+<div id="ref-szoniecky_2016_nodate" class="csl-entry" role="listitem">
+Szoniecky, Samuel, Jean-Pierre Balpe, and Everardo Reyes. n.d. <span>“2016 - <span>Generative</span> <span>Stein</span> <span>Poems</span>.”</span> Accessed January 18, 2020. <a href="https://www.academia.edu/28638189/2016_-_Generative_Stein_Poems">https://www.academia.edu/28638189/2016_-_Generative_Stein_Poems</a>.
+</div>
+<div id="ref-szoniecky_collective_2016" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Nasreddine Bouhai. 2016. <em>Collective Intelligence and Digital Archives</em>. Hoboken, NJ: ISTE Ltd/John Wiley; Sons Inc.
+</div>
+<div id="ref-szoniecky_intelligence_2017" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Nasreddine Bouhaï. 2017. <em>Intelligence Collective Et Archives Numériques</em>. Edited by Imad Saleh. Systèmes d’information, web et société. ISTE éditions.
+</div>
+<div id="ref-szoniecky_collective_2017" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Nasreddine BouhaÏ. 2017. <em>Collective <span>Intelligence</span> and <span>Digital</span> <span>Archives</span>: <span>Towards</span> <span>Knowledge</span> <span>Ecosystems</span></em>. 1st ed. Wiley-ISTE.
+</div>
+<div id="ref-szoniecky_samuel_ontologie_2008" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Amel Bourenane. 2008. <span>“Une Ontologie Spinoziste Pour Une Écologie de l’information.”</span> Université Paris 8. <a href="http://www.ieml.org/IMG/pdf/Programme_du_13_mai-_Etat_et_perspectives_du_Web_semantique_et_social_-2.pdf">http://www.ieml.org/IMG/pdf/Programme_du_13_mai-_Etat_et_perspectives_du_Web_semantique_et_social_-2.pdf</a>.
+</div>
+<div id="ref-szoniecky_gevu_2012" class="csl-entry" role="listitem">
+Szoniecky, Samuel, Viviane Folcher, Franck Bodin, and Khaldoun Zreik. 2012. <span>“<span>GEVU</span> : Un Outil Pour Territorialiser Les Usages de La Ville.”</span> In <em>O1 <span>Design</span>.8 : <span>Echelles</span>, <span>Espaces</span>, <span>Temps</span></em>, 45–62. Paris: Productions Europia.
+</div>
+<div id="ref-szoniecky_espaces_2012" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Hakim Hachour. 2012. <span>“Espaces Cognitifs : Les Frontières de La Recommandation.”</span> CNAM, Paris. <a href="http://dicen.cnam.fr/evenements/les-moteurs-de-recommandation-503171.kjsp">http://dicen.cnam.fr/evenements/les-moteurs-de-recommandation-503171.kjsp</a>.
+</div>
+<div id="ref-szoniecky_monades_2014" class="csl-entry" role="listitem">
+———. 2014. <span>“Monades Pour Une Éthique Des Écosystèmes d’information Numériques.”</span> In. Nantes. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01070113/document">https://hal-univ-paris8.archives-ouvertes.fr/hal-01070113/document</a>.
+</div>
+<div id="ref-szoniecky_generation_2015" class="csl-entry" role="listitem">
+———. 2015. <span>“Génération Automatique de Textes.”</span> Billet. <em>Socio-Informatique Et Argumentation</em>. <a href="https://socioargu.hypotheses.org/5037">https://socioargu.hypotheses.org/5037</a>.
+</div>
+<div id="ref-szoniecky_role_2012" class="csl-entry" role="listitem">
+Szoniecky, Samuel, Hakim Hachour, and Nasreddine Bouhai. 2012a. <span>“The Role of Semantic Topology in Sensmaking Processes : Adressing Challenges of Indexing with Metalanguages.”</span> In <em>22nd <span>European</span>-<span>Japanese</span> <span>Conference</span> on <span>Information</span> <span>Modeling</span> and <span>Knowledge</span> <span>Bases</span></em>, pp. 244–257. Prague, Czech Republic. <a href="http://www.ksi.mff.cuni.cz/ejc/">http://www.ksi.mff.cuni.cz/ejc/</a>.
+</div>
+<div id="ref-szoniecky_generateur_2012" class="csl-entry" role="listitem">
+———. 2012b. <span>“Générateur Hypertextuel Pour l’interprétation Des Médias Sociaux Dans Une Topologie Sémantique.”</span> <em>Les Cahiers Du Numérique</em> Vol. 7, Empreintes de l’hypertexte sous la direction de Caroline Angé (3): 93–121. <a href="http://lcn.revuesonline.com/article.jsp?articleId=17695">http://lcn.revuesonline.com/article.jsp?articleId=17695</a>.
+</div>
+<div id="ref-szoniecky_outillages_2015" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Muriel Louâpre. 2015. <span>“Outillages Numériques Pour Les Humanités : Cartographier Des Réseaux d’influences.”</span> In <em><span>ISKO</span> - <span>Magreb</span> 2015</em>. Hammamet, Tunisie.
+</div>
+<div id="ref-szoniecky_editer_nodate" class="csl-entry" role="listitem">
+———. n.d. <span>“Editer Des Réseaux d’influence.”</span> Maison des sciences de l’Homme, Paris.
+</div>
+<div id="ref-szoniecky_modelisation_2017" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Stéphane Safin. 2017. <span>“Modélisation Éthique de l’<span>Internet</span> Des <span>Objets</span>.”</span> <em>Internet Des Objets</em> 2 (Numéro 2). <a href="https://doi.org/10.21494/ISTE.OP.2017.0148">https://doi.org/10.21494/ISTE.OP.2017.0148</a>.
+</div>
+<div id="ref-szoniecky_web_2011" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Imad Saleh. 2011. <span>“Web Sémantique Et Multilinguisme.”</span> Université de Cergy Pontoise. <a href="http://isictal.blogspot.fr/2011/07/ticla-technologies-de-linformation-et.html">http://isictal.blogspot.fr/2011/07/ticla-technologies-de-linformation-et.html</a>.
+</div>
+<div id="ref-szoniecky_digital_2016" class="csl-entry" role="listitem">
+Szoniecky, Samuel, Imad Saleh, and Arnaud Laborderie. 2016. <span>“Digital Monads for a Spatio-Temporal Modeling of Urban Humanities.”</span> In <em>City <span>Temporalities</span></em>, edited by Khaldoun Zreik and Patrizia Laudati, Europia. Paris.
+</div>
+<div id="ref-szoniecky_pretopologie_2018" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Amri Toumia. 2018. <span>“Prétopologie Et Protection de La Vie Privée Dans l’<span>Internet</span> Des <span>Objets</span>.”</span> <em>Internet Des Objets</em> 2 (Numéro 1). <a href="https://doi.org/10.21494/ISTE.OP.2018.0227">https://doi.org/10.21494/ISTE.OP.2018.0227</a>.
+</div>
+<div id="ref-szoniecky_knowledge_2019" class="csl-entry" role="listitem">
+———. 2019. <span>“Knowledge <span>Design</span> in the <span>Internet</span> of <span>Things</span>: <span>Blockchain</span> and <span>Connected</span> <span>Refrigerator</span>:”</span> In <em>Proceedings of the 4th <span>International</span> <span>Conference</span> on <span>Internet</span> of <span>Things</span>, <span>Big</span> <span>Data</span> and <span>Security</span></em>, 399–407. Heraklion, Crete, Greece: SCITEPRESS - Science; Technology Publications. <a href="https://doi.org/10.5220/0007751703990407">https://doi.org/10.5220/0007751703990407</a>.
+</div>
+<div id="ref-szoniecky_design_2020" class="csl-entry" role="listitem">
+———. 2020. <span>“Design de Connaissances Dans l’<span>Internet</span> Des <span>Objets</span> : <span>Blockchain</span> Et Réfrigérateur Connecté.”</span> <em>Communication Management</em> Vol. 17 (1): 39–52. <a href="https://www.cairn.info/revue-communication-et-management-2020-1-page-39.htm">https://www.cairn.info/revue-communication-et-management-2020-1-page-39.htm</a>.
+</div>
+<div id="ref-szoniecky_les_2012" class="csl-entry" role="listitem">
+Szoniecky, Samuel, and Claude Yacoub. 2012. <span>“Les Petites Bibliothèques Dans l’écosystème d’information Mondiale.”</span> In <em>Métiers de l’information, Des Bibliothèques Et Des Archives</em>, edited by Abderrazak Mkadmi and Khaldoun Zreik, pp. 131–144. Tunis, Tunisie: Europia.
+</div>
+<div id="ref-ziku_reerua_2023" class="csl-entry" role="listitem">
+Ziku, Mariana, Konstantinos Michalakis, George Caridakis, Markos Konstadakis, George Trichopoulos, Everardo Reyes, Samuel Szoniecky, Katia Dupret, and Jennifer Eschweiler. 2023. <span>“Re:<span>ERUA</span> <span>CoCult</span>: <span>Towards</span> a Participatory Data Governance for Community Heritage Documentation,”</span> June. <a href="https://zenodo.org/record/8180417">https://zenodo.org/record/8180417</a>.
+</div>
+</div>
+</section>
+<section id="software" class="level1">
+<h1>Software</h1>
+<div id="refs-app" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-meunier_apports_2017" class="csl-entry" role="listitem">
+Meunier, Jean-Marc, Samuel Szoniecky, and Myriam Lamolle. 2017. <span>“Apports d’une Ontologie à l’apprentissage Des Statistiques.”</span> In. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01565705/document">https://hal-univ-paris8.archives-ouvertes.fr/hal-01565705/document</a>.
+</div>
+<div id="ref-leleu-merviel_metamorphoses_2019" class="csl-entry" role="listitem">
+Szoniecky, Samuel. 2019. <span>“Métamorphoses Et Hybridations d’une Archive Numérique Pour Sa Valorisation&nbsp;: Vers Des Écosystèmes de Connaissances.”</span> Edited by Sylvie Leleu-Merviel and Khaldoun Zreik. <em>Journal of Human Mediated Interactions</em> 20 (1): 77–104. <a href="http://europia.org/RIHM/V20N1/3-RIHM20V1-samszo.pdf">http://europia.org/RIHM/V20N1/3-RIHM20V1-samszo.pdf</a>.
+</div>
+<div id="ref-szoniecky_conception_2020" class="csl-entry" role="listitem">
+———. 2020. <span>“Conception d’un Crible Pour Mesurer Collectivement Les Impacts Écologiques de l’activité.”</span> <em>Les Cahiers Du Numerique</em> Vol. 16 (2): 175–99. <a href="https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm">https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm</a>.
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
