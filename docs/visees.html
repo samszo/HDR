@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,17 +75,16 @@ ul.task-list li input[type="checkbox"] {
 
 <body class="nav-sidebar floating">
 
-
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cartoConnaissances.html">Cartographie d’un milieu de connaissances</a></li><li class="breadcrumb-item"><a href="./visees.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visées scientifiques&nbsp;: échelles d'exploration et axes directionnels</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cartoConnaissances.html">Introduction générale : Cartographie d’un milieu de connaissances</a></li><li class="breadcrumb-item"><a href="./visees.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visées scientifiques&nbsp;: échelles d’exploration et axes directionnels</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -88,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Habilitation à Diriger des Recherches : Modélisation des écosystèmes de connaissances pour une écologie de l’information et de la communication</a> 
@@ -113,16 +119,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Summary</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction générale</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./cartoConnaissances.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cartographie d'un milieu de connaissances</span></a>
+ <span class="menu-text">Introduction générale : Cartographie d'un milieu de connaissances</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -250,30 +250,30 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-echelleLocale" id="toc-sec-echelleLocale" class="nav-link active" data-scroll-target="#sec-echelleLocale"><span class="header-section-number">3.0.1</span> Echelle locale : produire une expression matérielle&nbsp;cohérente</a></li>
-  <li><a href="#sec-echelleGlobale" id="toc-sec-echelleGlobale" class="nav-link" data-scroll-target="#sec-echelleGlobale"><span class="header-section-number">3.0.2</span> Echelle globale : technologies intellectuelles collectives</a></li>
-  <li><a href="#sec-echelleSociale" id="toc-sec-echelleSociale" class="nav-link" data-scroll-target="#sec-echelleSociale"><span class="header-section-number">3.0.3</span> Echelle sociale&nbsp;: la communauté des enseignants chercheurs</a></li>
-  <li><a href="#sec-echelleConcetuelle" id="toc-sec-echelleConcetuelle" class="nav-link" data-scroll-target="#sec-echelleConcetuelle"><span class="header-section-number">3.0.4</span> Echelle conceptuelle&nbsp;: théoriser la modélisation des connaissances</a></li>
-  <li><a href="#sec-axeIOT" id="toc-sec-axeIOT" class="nav-link" data-scroll-target="#sec-axeIOT"><span class="header-section-number">3.0.5</span> Axe internet des objets</a></li>
-  <li><a href="#sec-axeGeneratif" id="toc-sec-axeGeneratif" class="nav-link" data-scroll-target="#sec-axeGeneratif"><span class="header-section-number">3.0.6</span> Axe générativité générique</a></li>
-  <li><a href="#sec-axePlasticite" id="toc-sec-axePlasticite" class="nav-link" data-scroll-target="#sec-axePlasticite"><span class="header-section-number">3.0.7</span> Axe plasticité absolue</a></li>
-  <li><a href="#sec-axeDesignConnaissances" id="toc-sec-axeDesignConnaissances" class="nav-link" data-scroll-target="#sec-axeDesignConnaissances"><span class="header-section-number">3.0.8</span> Axe design des connaissances</a></li>
-  <li><a href="#sec-axeIntelCo" id="toc-sec-axeIntelCo" class="nav-link" data-scroll-target="#sec-axeIntelCo"><span class="header-section-number">3.0.9</span> Axe intelligences collectives</a></li>
-  <li><a href="#sec-axeFormaConsensus" id="toc-sec-axeFormaConsensus" class="nav-link" data-scroll-target="#sec-axeFormaConsensus"><span class="header-section-number">3.0.10</span> Axes formalisation du consensus</a></li>
+  <li><a href="#sec-echelleLocale" id="toc-sec-echelleLocale" class="nav-link active" data-scroll-target="#sec-echelleLocale"><span class="header-section-number">3.1</span> Echelle locale : produire une expression matérielle&nbsp;cohérente</a></li>
+  <li><a href="#sec-echelleGlobale" id="toc-sec-echelleGlobale" class="nav-link" data-scroll-target="#sec-echelleGlobale"><span class="header-section-number">3.2</span> Echelle globale : technologies intellectuelles collectives</a></li>
+  <li><a href="#sec-echelleSociale" id="toc-sec-echelleSociale" class="nav-link" data-scroll-target="#sec-echelleSociale"><span class="header-section-number">3.3</span> Echelle sociale&nbsp;: la communauté des enseignants chercheurs</a></li>
+  <li><a href="#sec-echelleConcetuelle" id="toc-sec-echelleConcetuelle" class="nav-link" data-scroll-target="#sec-echelleConcetuelle"><span class="header-section-number">3.4</span> Echelle conceptuelle&nbsp;: théoriser la modélisation des connaissances</a></li>
+  <li><a href="#sec-axeIOT" id="toc-sec-axeIOT" class="nav-link" data-scroll-target="#sec-axeIOT"><span class="header-section-number">3.5</span> Axe internet des objets</a></li>
+  <li><a href="#sec-axeGeneratif" id="toc-sec-axeGeneratif" class="nav-link" data-scroll-target="#sec-axeGeneratif"><span class="header-section-number">3.6</span> Axe écritures génératives</a></li>
+  <li><a href="#sec-axePlasticite" id="toc-sec-axePlasticite" class="nav-link" data-scroll-target="#sec-axePlasticite"><span class="header-section-number">3.7</span> Axe plasticité absolue</a></li>
+  <li><a href="#sec-axeDesignConnaissances" id="toc-sec-axeDesignConnaissances" class="nav-link" data-scroll-target="#sec-axeDesignConnaissances"><span class="header-section-number">3.8</span> Axe design des connaissances</a></li>
+  <li><a href="#sec-axeIntelCo" id="toc-sec-axeIntelCo" class="nav-link" data-scroll-target="#sec-axeIntelCo"><span class="header-section-number">3.9</span> Axe intelligences collectives</a></li>
+  <li><a href="#sec-axeFormaConsensus" id="toc-sec-axeFormaConsensus" class="nav-link" data-scroll-target="#sec-axeFormaConsensus"><span class="header-section-number">3.10</span> Axes formalisation du consensus</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cartoConnaissances.html">Introduction générale : Cartographie d’un milieu de connaissances</a></li><li class="breadcrumb-item"><a href="./visees.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visées scientifiques&nbsp;: échelles d’exploration et axes directionnels</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span id="sec-visees" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visées scientifiques&nbsp;: échelles d’exploration et axes directionnels</span></span></h1>
 </div>
@@ -288,38 +288,40 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<p>Définition de l’objet de recherche</p>
+
+<p>Nous comprenons notre travail de recherche comme peur se comprendre comme s Nos perspectives de recherche</p>
 <p>Il est nécessaire de mettre fin à amincissement du monde et une représentation de la pensée en un réseau qui supprime la multiplicité des modes d’existences&nbsp;:</p>
 <p>«&nbsp;Tout se passe comme si la densité des modes d’existence, la pluralité des relations que nous pouvons entretenir avec les êtres qui forment nos milieux et qu’ils entretiennent entre eux, l’hétérogénéité de nos savoirs, cette « surabondance du réel » étaient la cible d’un leitmotiv : une seule logique pour l’hétérogénéité des savoirs, un seul mode d’existence pour la pluralité des êtres, un seul cosmos pour la diversité des mondes. Bref, cette peur d’être dupe a pour effet de réduire les savoirs, les êtres et le monde à une seule et unique couche d’existence.&nbsp;» (Debaise &amp; Stengers, 2021) § 6</p>
 <p>ceci ayant pour conséquences&nbsp;selon F. Guattari, F., Les trois écologies, Galilée, Paris, 1989,… :</p>
 <p>« politique de la méfiance », réduisant les environnements à une simple ressource, usant de catégories scalables qui rendent équivalentes ou insignifiantes les manières d’habiter, de s’attacher, de valoriser.</p>
 <p>le « laminage des subjectivités » par un enfermement dans les catégories de l’individu et de ses fonctions psychologisantes</p>
 <p>la destruction des rapports collectifs par une mise en concurrence généralisée à tous les niveaux des individus entre eux.</p>
-<section id="sec-echelleLocale" class="level3" data-number="3.0.1">
-<h3 data-number="3.0.1" class="anchored" data-anchor-id="sec-echelleLocale"><span class="header-section-number">3.0.1</span> Echelle locale : produire une expression matérielle&nbsp;cohérente</h3>
+<section id="sec-echelleLocale" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="sec-echelleLocale"><span class="header-section-number">3.1</span> Echelle locale : produire une expression matérielle&nbsp;cohérente</h2>
 <p>Concevoir des outils sur des mobiles</p>
 </section>
-<section id="sec-echelleGlobale" class="level3" data-number="3.0.2">
-<h3 data-number="3.0.2" class="anchored" data-anchor-id="sec-echelleGlobale"><span class="header-section-number">3.0.2</span> Echelle globale : technologies intellectuelles collectives</h3>
+<section id="sec-echelleGlobale" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="sec-echelleGlobale"><span class="header-section-number">3.2</span> Echelle globale : technologies intellectuelles collectives</h2>
 <p>Rendre interopérables les données produites</p>
 </section>
-<section id="sec-echelleSociale" class="level3" data-number="3.0.3">
-<h3 data-number="3.0.3" class="anchored" data-anchor-id="sec-echelleSociale"><span class="header-section-number">3.0.3</span> Echelle sociale&nbsp;: la communauté des enseignants chercheurs</h3>
+<section id="sec-echelleSociale" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="sec-echelleSociale"><span class="header-section-number">3.3</span> Echelle sociale&nbsp;: la communauté des enseignants chercheurs</h2>
 <p>Pas uniquement à l’université&nbsp;: tout acteur est à la fois chercheur et enseignant = explorateur et conteur.</p>
 <p>Détailler l’importance de ce point de vue dans le cadre de l’enseignement où la notion de gestion de l’information n’est pas évidente...</p>
 </section>
-<section id="sec-echelleConcetuelle" class="level3" data-number="3.0.4">
-<h3 data-number="3.0.4" class="anchored" data-anchor-id="sec-echelleConcetuelle"><span class="header-section-number">3.0.4</span> Echelle conceptuelle&nbsp;: théoriser la modélisation des connaissances</h3>
+<section id="sec-echelleConcetuelle" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="sec-echelleConcetuelle"><span class="header-section-number">3.4</span> Echelle conceptuelle&nbsp;: théoriser la modélisation des connaissances</h2>
 <p>Fournir une alternative qualitative à la théorie de l’information de shannon</p>
 </section>
-<section id="sec-axeIOT" class="level3" data-number="3.0.5">
-<h3 data-number="3.0.5" class="anchored" data-anchor-id="sec-axeIOT"><span class="header-section-number">3.0.5</span> Axe internet des objets</h3>
+<section id="sec-axeIOT" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="sec-axeIOT"><span class="header-section-number">3.5</span> Axe internet des objets</h2>
 <p>Concevoir, développer et analyser les objets connectés dans un Internet omniprésent</p>
 </section>
-<section id="sec-axeGeneratif" class="level3" data-number="3.0.6">
-<h3 data-number="3.0.6" class="anchored" data-anchor-id="sec-axeGeneratif"><span class="header-section-number">3.0.6</span> Axe générativité générique</h3>
+<section id="sec-axeGeneratif" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="sec-axeGeneratif"><span class="header-section-number">3.6</span> Axe écritures génératives</h2>
 <p>Les exemples de data visualisation ci dessus illustrent ce qui est en jeu</p>
 <p>Représentation paramétrique de données</p>
 <p>Traduction, transformation numérique&nbsp;?</p>
@@ -327,14 +329,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Choix entre spécificité, généricité et réutilisabilité&nbsp;?</p>
 <p>cf.&nbsp;<a href="https://levelup.gitconnected.com/how-to-make-your-code-reusable-891ea5db415c" class="uri">https://levelup.gitconnected.com/how-to-make-your-code-reusable-891ea5db415c</a></p>
 </section>
-<section id="sec-axePlasticite" class="level3" data-number="3.0.7">
-<h3 data-number="3.0.7" class="anchored" data-anchor-id="sec-axePlasticite"><span class="header-section-number">3.0.7</span> Axe plasticité absolue</h3>
+<section id="sec-axePlasticite" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="sec-axePlasticite"><span class="header-section-number">3.7</span> Axe plasticité absolue</h2>
 <p>“Contrairement à l’élasticité, la plasticité n’a aucune promesse de retour. Les deux concepts suggèrent un point limite auquel le système se rompt. Cependant, le changement dans chacun est différent, car quelque chose d’élastique revient ou peut reprendre forme après son changement.</p>
 <p>Contrairement aux compréhensions du pouvoir, même aux formes subtiles de pouvoir disciplinaire, la plasticité à l’échelle de l’individu et de la polis représente la possibilité d’un changement sans sujétion, c’est-à-dire sans résistance. Plutôt que les relations de pouvoir qui font des sujets à l’image foucaldienne, on a la possibilité de concevoir ou de diriger des sujets qui n’ont aucun indice de ce qu’ils étaient avant, de sorte que quelque chose puisse résister.” mail Jean Max</p>
 <p>https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#inbox/FMfcgzGtwMVVsTKtkHmLcCDbcHMMTbbd</p>
 </section>
-<section id="sec-axeDesignConnaissances" class="level3" data-number="3.0.8">
-<h3 data-number="3.0.8" class="anchored" data-anchor-id="sec-axeDesignConnaissances"><span class="header-section-number">3.0.8</span> Axe design des connaissances</h3>
+<section id="sec-axeDesignConnaissances" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="sec-axeDesignConnaissances"><span class="header-section-number">3.8</span> Axe design des connaissances</h2>
 <p>Modélisation des connaissances et conception des outils pour la manipuler dans les environnements d’apprentissage humain</p>
 <p>Mise en situation d’une potentialité de connaissances</p>
 <p>Comment concevoir une ergonomie des interfaces cognitives&nbsp;?</p>
@@ -342,13 +344,13 @@ ul.task-list li input[type="checkbox"] {
 <p>- premier langage&nbsp;: enseignement de math et des stats</p>
 <p>Modèle sémiologique + anthropologique + onto éthique</p>
 </section>
-<section id="sec-axeIntelCo" class="level3" data-number="3.0.9">
-<h3 data-number="3.0.9" class="anchored" data-anchor-id="sec-axeIntelCo"><span class="header-section-number">3.0.9</span> Axe intelligences collectives</h3>
+<section id="sec-axeIntelCo" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="sec-axeIntelCo"><span class="header-section-number">3.9</span> Axe intelligences collectives</h2>
 <p>Interopérabilité et réflexivité d’une conversation créative</p>
 <p>=&gt; fournir les outils pour une quantification de l’information et la stimulation des communications</p>
 </section>
-<section id="sec-axeFormaConsensus" class="level3" data-number="3.0.10">
-<h3 data-number="3.0.10" class="anchored" data-anchor-id="sec-axeFormaConsensus"><span class="header-section-number">3.0.10</span> Axes formalisation du consensus</h3>
+<section id="sec-axeFormaConsensus" class="level2" data-number="3.10">
+<h2 data-number="3.10" class="anchored" data-anchor-id="sec-axeFormaConsensus"><span class="header-section-number">3.10</span> Axes formalisation du consensus</h2>
 <p>Méthodes et outils du web sémantique et du LOD&nbsp;: la puissance de la norme.</p>
 <p>Pour une éthique de la discussion par une formalisation des échanges ayant pour but l’éducation de l’esprit critique par la stimulation des trois pouvoirs de discerner, choisir, agir.</p>
 <p>Les deux textes ci-dessus ont été générés par deux IA à partir du titre de la séance du séminaire. Leur pertinence toute relative illustre les effets du pilotage par les données du métier de chercheur en SHS d’un point de vue éthique : stimuler “une formation de la volonté” à travers des règles pratiques d’échanges (Habermas 2013, p.&nbsp;22).</p>
@@ -356,8 +358,8 @@ ul.task-list li input[type="checkbox"] {
 <p>“Tout dans l’existence nous condamnait à n’avoir que des idées inadéquates : nous n’avions ni l’idée de nous même, ni l’idée des corps extérieurs, mais seulement des idées d’affections, indiquant l’effet d’un corps extérieur sur nous. Mais précisément, à partir de cet effet, nous pouvons former l’idée de ce qui est commun à un corps extérieur et au nôtre. Compte tenu des conditions de notre existence, c’est pour nous la seule voie capable de nous mener à une idée adéquate. La première idée adéquate que nous ayons, c’est la notion commune, l’idée de ce”quelque chose de commun”.” (Deleuze 1968 p.&nbsp;259)</p>
 <p>Pour parvenir à ce “commun”, nous avons élaboré une multitude de “jeux de langages” (Wittgenstein 1987), de diagrammes (Guattari 1989), de dispositifs (Gardies 2012)... dont ceux utilisés aujourd’hui par les chercheurs pour produire grâce au numérique une infinité de “physicalités”, de documents, de données, de ressources. Ce développement exponentiel des physicalités renvoie les chercheurs à deux questions éthiques fondamentales :</p>
 <p>Comment exercer nos volontés éthiques dans cette noosphère pilotée exclusivement par des machines ? Peut-on concevoir des documents pilotés par des données (https://d3js.org/) dédiés à l’exercice de la volonté éthique ?</p>
-<section id="ethique-morale" class="level4" data-number="3.0.10.1">
-<h4 data-number="3.0.10.1" class="anchored" data-anchor-id="ethique-morale"><span class="header-section-number">3.0.10.1</span> Ethique &lt;&gt; morale</h4>
+<section id="ethique-morale" class="level4" data-number="3.10.0.1">
+<h4 data-number="3.10.0.1" class="anchored" data-anchor-id="ethique-morale"><span class="header-section-number">3.10.0.1</span> Ethique &lt;&gt; morale</h4>
 <p>Il est fondamental de distinguer l’éthique de la morale d’en une optique de formation à l’esprit critique car il est nécessaire de bien connaître la différence entre une démarche éthique qui consiste à connaître ce qu’on est et une démarche morale qui se focalise sur l’acceptabilité sociale de ses action. Dès lors lorsque Dewey &amp; Tufs confondent moral et éthique en ne distinguant pas le «&nbsp;bon&nbsp;» et le «&nbsp;mauvais&nbsp;» du «&nbsp;bien&nbsp;» et du «&nbsp;mal&nbsp;»&nbsp;ils contribuent à déresponsabilisé l’individu dans son apprentissage de l’esprit critique :</p>
 <p>«&nbsp;L’éthique est la science qui traite de la conduite en tant que l’on peut dire de celle-ci qu’elle est bonne ou mauvaise, qu’elle engage un jugement en termes de bien ou de mal.&nbsp;» (Dewey &amp; Tufts, 2021a, paragr. 1)§ 1</p>
 <p>Ce qui se confirme quand ils excluent le goût comme élément du processus de valorisation à l’inverse de Spinoza dans sa lettre à Pliyenberg qui au contraire met l’accent le goût comme moteur d’une manière d’être.</p>
@@ -449,10 +451,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -462,8 +463,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -476,6 +486,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -519,6 +648,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -544,6 +674,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -605,17 +761,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./positionnements.html" class="pagination-link">
+      <a href="./positionnements.html" class="pagination-link" aria-label="Positionnements">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Positionnements</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./frayages.html" class="pagination-link">
+      <a href="./frayages.html" class="pagination-link" aria-label="Frayages intellectuels&nbsp;: les étapes d'une pensée">
         <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Frayages intellectuels&nbsp;: les étapes d’une pensée</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 

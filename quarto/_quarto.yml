@@ -9,7 +9,6 @@ book:
   chapters:
     - index.qmd
     - summary.qmd  
-    - intro.qmd    
     - part: cartoConnaissances.qmd
       chapters:
         - principesCarto.qmd

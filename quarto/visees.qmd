@@ -1,42 +1,36 @@
-## Visées scientifiques : échelles d'exploration et axes directionnels {#sec-visees}
+# Perspectives scientifiques : échelles d'exploration et axes d'expérimentation {#sec-visees}
 
-Définition de l'objet de recherche
+Au delà de nos positionnement actuels que nous venons de présenter @sec-posiSIC notre travail de recherche se déploie suivant plusieurs perspectives que nous développeront ici suivant les diffférents niveaux d'échelles que nous explorons et les axes d'expérimentations que nous développons afin de mettre fin à un « amincissement du monde » et une représentation de la pensée en un réseau qui supprime la multiplicité des modes d'existences :
 
-Il est nécessaire de mettre fin à amincissement du monde et une représentation de la pensée en un réseau qui supprime la multiplicité des modes d'existences :
+\> « Tout se passe comme si la densité des modes d'existence, la pluralité des relations que nous pouvons entretenir avec les êtres qui forment nos milieux et qu'ils entretiennent entre eux, l'hétérogénéité de nos savoirs, cette « surabondance du réel » étaient la cible d'un leitmotiv : une seule logique pour l'hétérogénéité des savoirs, un seul mode d'existence pour la pluralité des êtres, un seul cosmos pour la diversité des mondes. Bref, cette peur d'être dupe a pour effet de réduire les savoirs, les êtres et le monde à une seule et unique couche d'existence. » [@debaise2021, § 6 ]
 
-« Tout se passe comme si la densité des modes d'existence, la pluralité des relations que nous pouvons entretenir avec les êtres qui forment nos milieux et qu'ils entretiennent entre eux, l'hétérogénéité de nos savoirs, cette « surabondance du réel » étaient la cible d'un leitmotiv : une seule logique pour l'hétérogénéité des savoirs, un seul mode d'existence pour la pluralité des êtres, un seul cosmos pour la diversité des mondes. Bref, cette peur d'être dupe a pour effet de réduire les savoirs, les êtres et le monde à une seule et unique couche d'existence. » (Debaise & Stengers, 2021) § 6
+Ce qui nous importe ici c'est de lutter contre une « politique de la méfiance »[@guattari1989], réduisant les environnements à une simple ressource en usant de catégories qui rendent équivalentes ou insignifiantes les manières d'habiter, de s'attacher, de valoriser. Ce « laminage des subjectivités » (*Ibid.*) entraîne la destruction des rapports collectifs par une mise en concurrence généralisée à tous les niveaux des individus entre eux. Voyez donc ici l'expression d'une subjectivité qui donnera lieu j'espère à une politique de la curiosité conduisant au développement d'un collectif de pensé stimulé par la différence.
 
-ceci ayant pour conséquences selon F. Guattari, F., Les trois écologies, Galilée, Paris, 1989,... :
-
-« politique de la méfiance », réduisant les environnements à une simple ressource, usant de catégories scalables qui rendent équivalentes ou insignifiantes les manières d'habiter, de s'attacher, de valoriser.
-
-le « laminage des subjectivités » par un enfermement dans les catégories de l'individu et de ses fonctions psychologisantes
-
-la destruction des rapports collectifs par une mise en concurrence généralisée à tous les niveaux des individus entre eux.
+## Echelles d'exploration## {#sec-echelleExploration}
 
 ### Echelle locale : produire une expression matérielle cohérente {#sec-echelleLocale}
 
 Concevoir des outils sur des mobiles
 
-### Echelle globale : technologies intellectuelles collectives {#sec-echelleGlobale}
+## Echelle globale : technologies intellectuelles collectives {#sec-echelleGlobale}
 
 Rendre interopérables les données produites
 
-### Echelle sociale : la communauté des enseignants chercheurs {#sec-echelleSociale}
+## Echelle sociale : la communauté des enseignants chercheurs {#sec-echelleSociale}
 
 Pas uniquement à l'université : tout acteur est à la fois chercheur et enseignant = explorateur et conteur.
 
-Détailler l'importance de ce point de vue dans le cadre de l'enseignement où la notion de gestion de l'information n'est pas évidente\...
+Détailler l'importance de ce point de vue dans le cadre de l'enseignement où la notion de gestion de l'information n'est pas évidente...
 
-### Echelle conceptuelle : théoriser la modélisation des connaissances {#sec-echelleConcetuelle}
+## Echelle conceptuelle : théoriser la modélisation des connaissances {#sec-echelleConcetuelle}
 
 Fournir une alternative qualitative à la théorie de l'information de shannon
 
-### Axe internet des objets {#sec-axeIOT}
+## Axe internet des objets {#sec-axeIOT}
 
 Concevoir, développer et analyser les objets connectés dans un Internet omniprésent
 
-### Axe générativité générique {#sec-axeGeneratif}
+## Axe écritures génératives {#sec-axeGeneratif}
 
 Les exemples de data visualisation ci dessus illustrent ce qui est en jeu
 
@@ -50,7 +44,7 @@ Choix entre spécificité, généricité et réutilisabilité ?
 
 cf. <https://levelup.gitconnected.com/how-to-make-your-code-reusable-891ea5db415c>
 
-### Axe plasticité absolue {#sec-axePlasticite}
+## Axe plasticité absolue {#sec-axePlasticite}
 
 "Contrairement à l'élasticité, la plasticité n'a aucune promesse de retour. Les deux concepts suggèrent un point limite auquel le système se rompt. Cependant, le changement dans chacun est différent, car quelque chose d'élastique revient ou peut reprendre forme après son changement.
 
@@ -58,7 +52,7 @@ Contrairement aux compréhensions du pouvoir, même aux formes subtiles de pouvo
 
 https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGtwMVVsTKtkHmLcCDbcHMMTbbd
 
-### Axe design des connaissances {#sec-axeDesignConnaissances}
+## Axe design des connaissances {#sec-axeDesignConnaissances}
 
 Modélisation des connaissances et conception des outils pour la manipuler dans les environnements d'apprentissage humain
 
@@ -72,13 +66,13 @@ Passage de l'individuel au collectif ?
 
 Modèle sémiologique + anthropologique + onto éthique
 
-### Axe intelligences collectives {#sec-axeIntelCo}
+## Axe intelligences collectives {#sec-axeIntelCo}
 
 Interopérabilité et réflexivité d'une conversation créative
 
 =\> fournir les outils pour une quantification de l'information et la stimulation des communications
 
-### Axes formalisation du consensus {#sec-axeFormaConsensus}
+## Axes formalisation du consensus {#sec-axeFormaConsensus}
 
 Méthodes et outils du web sémantique et du LOD : la puissance de la norme.
 
@@ -90,7 +84,7 @@ L'enjeu de l'éthique est d'exercer sa "volonté" en tant qu'individu ou qu'inst
 
 "Tout dans l'existence nous condamnait à n'avoir que des idées inadéquates : nous n'avions ni l'idée de nous même, ni l'idée des corps extérieurs, mais seulement des idées d'affections, indiquant l'effet d'un corps extérieur sur nous. Mais précisément, à partir de cet effet, nous pouvons former l'idée de ce qui est commun à un corps extérieur et au nôtre. Compte tenu des conditions de notre existence, c'est pour nous la seule voie capable de nous mener à une idée adéquate. La première idée adéquate que nous ayons, c'est la notion commune, l'idée de ce"quelque chose de commun"." (Deleuze 1968 p. 259)
 
-Pour parvenir à ce "commun", nous avons élaboré une multitude de "jeux de langages" (Wittgenstein 1987), de diagrammes (Guattari 1989), de dispositifs (Gardies 2012)\... dont ceux utilisés aujourd'hui par les chercheurs pour produire grâce au numérique une infinité de "physicalités", de documents, de données, de ressources. Ce développement exponentiel des physicalités renvoie les chercheurs à deux questions éthiques fondamentales :
+Pour parvenir à ce "commun", nous avons élaboré une multitude de "jeux de langages" (Wittgenstein 1987), de diagrammes (Guattari 1989), de dispositifs (Gardies 2012)... dont ceux utilisés aujourd'hui par les chercheurs pour produire grâce au numérique une infinité de "physicalités", de documents, de données, de ressources. Ce développement exponentiel des physicalités renvoie les chercheurs à deux questions éthiques fondamentales :
 
 Comment exercer nos volontés éthiques dans cette noosphère pilotée exclusivement par des machines ? Peut-on concevoir des documents pilotés par des données (https://d3js.org/) dédiés à l'exercice de la volonté éthique ?
 
