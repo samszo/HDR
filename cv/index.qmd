@@ -13,11 +13,10 @@
 [Université Paris 8 Vincennes – Saint Denis](http://localhost/samszo/omk/s/fiches/item/299387){target='_blank'} 
 
 
-
 ### Membre du conseil documentaire du SCD {#sec-item299707 .unnumbered .o-Item_dctype-Event}
 [Université Paris 8 Vincennes – Saint Denis](http://localhost/samszo/omk/s/fiches/item/299387){target='_blank'} [Bibliothèque Universitaire de Paris 8](http://localhost/samszo/omk/s/fiches/item/299591){target='_blank'} 
 
-
+ Omeka-S-module-ZoteroImportplus : https://github.com/samszo/Omeka-S-module-ZoteroImportplus
 
 ### Membre de la commission pédagogique, UFR Sciences et Technologies Numériques {#sec-item299708 .unnumbered .o-Item_dctype-Event}
 [Université Paris 8 Vincennes – Saint Denis](http://localhost/samszo/omk/s/fiches/item/299387){target='_blank'} [EUR ArTeC](http://localhost/samszo/omk/s/fiches/item/299592){target='_blank'} 
