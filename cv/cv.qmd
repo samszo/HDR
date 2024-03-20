@@ -234,6 +234,28 @@ Chercheur au Laboratoire Paragraphe (EA 349) - Equipe Dispositifs numériques : 
 
 ## Activités d’enseignement
 
+Thèses encadrées : 3 - Thèse soutenus : 1 - Jury de thèse : 4  
+
+Stages encadrés dans le laboratoire Paragraphe : 11
+
+Mémoires de Master encadrés (M1 et M2) : 31
+
+Nombre de cours : 20 
+
+Nombre d’établissement d’enseignement : 7
+
+Nombre de parcours d’enseignement : 14
+
+Nombre d’heure de cours à l’université depuis 2012 : + 3 300
+
++-----------------------------------------------------------------+------------------------+
+| Type de production                                              | Nombre                 |
++=================================================================+========================+
+| Production de documents pédagogiques                            | 35                     |
++-----------------------------------------------------------------+------------------------+
+| Conception d’enseignements nouveaux ou de dispositifs innovants | 18                     |
++-----------------------------------------------------------------+------------------------+
+
 ### Cours à l’Université Paris 8
 
 +----------------+--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+--------+-------+-------+
@@ -552,7 +574,7 @@ Lycée Albert Schweitzer, Le Raincy, Seine Saint-Denis
 |                | **Responsabilités** : Participation à la conception du projet et à la conception de pédagogies innovantes visant à développer les technologies de l’information et de la communication au service de la pédagogie socioconstructiviste par projets et de la créativité numérique étudiante...                                      |
 +----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### **Responsabilités pédagogiques**  {.unnumbered}
+### **Responsabilités pédagogiques** {.unnumbered}
 
 En tant que responsable de formation voici une liste non exhaustive des missions que j’ai effectuées : 
 
@@ -586,25 +608,25 @@ En tant que responsable de formation voici une liste non exhaustive des missions
 
 Participation à l'étude des dossiers et à l'audition pour des postes de maître de conférences en sciences del'information et de la communication.
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2023        | -   IUT Paris Sorbonne Département Information-Communication à IUT Paris Sorbonne                                                                                                                    |
-|             |                                                                                                                                                                                                      |
-|             | -   Paris 8, Département Documentation, laboratoire Paragraphe, Vice-président                                                                                                                       |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2021        | -   Paris 8, Département Humanités numériques, laboratoire Paragraphe, Vice-président                                                                                                                |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2018        | -   IUT Paris Sorbonne, Département Information-Communication à IUT Paris Sorbonne                                                                                                                   |
-|             |                                                                                                                                                                                                      |
-|             | -   Paris 8, Département Humanités numériques, laboratoire Paragraphe                                                                                                                                |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2017        | -   INALCO, Département « Métiers des Langues, de la Communication et de l’Interculturel » - Filière Communication et Formation Interculturelle (CFI)                                                |
-|             |                                                                                                                                                                                                      |
-|             | -   Univ. Paris Nord - Paris 13, UFR Sciences de la Communication - LabSic, Mention Création Numérique, Master IC (Innovation en communication) et DIMI (Design d’Interfaces Multimédia et Internet) |
-|             |                                                                                                                                                                                                      |
-|             | -   DICEN CNAM / IFIS et IUT de l’UPEMLV                                                                                                                                                             |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2014        | -   DICEN CNAM / IFIS et IUT de l’UPEMLV                                                                                                                                                             |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2023    | -   IUT Paris Sorbonne Département Information-Communication à IUT Paris Sorbonne                                                                                                                    |
+|         |                                                                                                                                                                                                      |
+|         | -   Paris 8, Département Documentation, laboratoire Paragraphe, Vice-président                                                                                                                       |
++---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2021    | -   Paris 8, Département Humanités numériques, laboratoire Paragraphe, Vice-président                                                                                                                |
++---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2018    | -   IUT Paris Sorbonne, Département Information-Communication à IUT Paris Sorbonne                                                                                                                   |
+|         |                                                                                                                                                                                                      |
+|         | -   Paris 8, Département Humanités numériques, laboratoire Paragraphe                                                                                                                                |
++---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2017    | -   INALCO, Département « Métiers des Langues, de la Communication et de l’Interculturel » - Filière Communication et Formation Interculturelle (CFI)                                                |
+|         |                                                                                                                                                                                                      |
+|         | -   Univ. Paris Nord - Paris 13, UFR Sciences de la Communication - LabSic, Mention Création Numérique, Master IC (Innovation en communication) et DIMI (Design d’Interfaces Multimédia et Internet) |
+|         |                                                                                                                                                                                                      |
+|         | -   DICEN CNAM / IFIS et IUT de l’UPEMLV                                                                                                                                                             |
++---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2014    | -   DICEN CNAM / IFIS et IUT de l’UPEMLV                                                                                                                                                             |
++---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### **Membre de comité de suivi de thèse**
 
@@ -781,11 +803,9 @@ Participation à l'étude des dossiers et à l'audition pour des postes de maît
 |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                | **Collaborateurs** : Hakim Hachour (Paragraphe), Nasredine Bouhai (Paragraphe), Jean Pierre Balpe (Biennale des poètes), Pierre Lévy (Université d’Ottawa, Canada)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                | **Partenaires** : UMR Structures Formelles du Langage (Paris 8), Chaire de recherche du Canada sur                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|                | l’intelligence collective Université d’Ottawa (Canada), Groupe CERCO, Bénin (Afrique de l’ouest)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                | **Partenaires** : UMR Structures Formelles du Langage (Paris 8), Chaire de recherche du Canada sur l’intelligence collective Université d’Ottawa (Canada), Groupe CERCO, Bénin (Afrique de l’ouest)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                | **Défis scientifiques** : A partir du constat empirique que l’usage des proverbes permet de convoyer des éléments de connaissances pertinents dans une situation sociale donnée, et que l’interprétation contextuelle des proverbes permet de produire des schémas d’action hétérogènes selon les acteurs et la situation, il nous était apparu opportun d’étudier la structuration de proverbes et leurs interprétations, et ce, à partir d’une analyse d’un corpus de proverbes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                | multilingue \[français, anglais, arabe et fon (dialecte africain)\] et d'un générateur automatique de proverbes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                | **Défis scientifiques** : A partir du constat empirique que l’usage des proverbes permet de convoyer des éléments de connaissances pertinents dans une situation sociale donnée, et que l’interprétation contextuelle des proverbes permet de produire des schémas d’action hétérogènes selon les acteurs et la situation, il nous était apparu opportun d’étudier la structuration de proverbes et leurs interprétations, et ce, à partir d’une analyse d’un corpus de proverbes multilingue \[français, anglais, arabe et fon (dialecte africain)\] et d'un générateur automatique de proverbes.                                                                                                                                                                                                                                                                                                                                                                       |
 |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                | **Publications** :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -797,6 +817,9 @@ Participation à l'étude des dossiers et à l'audition pour des postes de maît
 +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Activités d'enseignement
+
+Les enseignements que j’ai données se développent suivant trois axes complémentaires : technique, conceptuel, collaboratif.
+Première un axe technique où les étudiants sont formés aux langages informatiques et aux outils nécessaires pour le développement de dispositifs numériques et la maîtrise des flux d’information et de communication dans un environnement Web. C’est l’occasion suivant une pédagogie par projet, de montrer par des exemples concrets de conception et de développement, comment utiliser les outils gratuits et Open Source pour mettre en pratiques les langages informatiques. Le deuxième axe est plus théorique, il consiste à montrer aux étudiants comment analyser et critiquer une thématique en utilisant les notions et les théories des sciences de l’information et de la communication et plus généralement des sciences humaines à travers des outils et des méthodes de veille informationnelle. L’objectif est d’encourager les étudiants à faire de la « musculation cérébrale» et a constituer leur propre base de connaissances afin d’augmenter leurs pouvoirs de discernement et d’action. Le troisième axe consiste à mettre les étudiants en situation de travail collectif afin qu’ils expérimentent les difficultés et les avantages de l’intelligence collective. Dans cet axe, nous accompagnons les étudiants dans la conception et la réalisation d’un projet numérique incluant par exemple : une note d’intention, un teaser vidéo, un site Web, une application mobile et un dossier de conception. Les étudiants doivent rédiger un cahier des charges pour un projet hypermédia/TIC, savoir communiquer et collaborer avec les équipes de création et de développement, participer à la réalisation de projets innovants, mettre en œuvre ou appliquer une méthode de développement adaptée à un travail d’équipe, savoir réaliser une maquette fonctionnelle, argumenter et défendre un point de vue en réunion d’équipe, devant des clients, décideurs, etc.
 
 ### Jurys
 
@@ -818,7 +841,7 @@ En tant que membre du département humanités numériques, je participe aux cons
 
 J’ai aussi participé de 2009 à 2011 aux jurys de délivrance des diplômes du Master EU Management Multimedia 3M2 délivré par le Campus de la Fonderie de l’image (CNA-CEFAG), Bagnolet 
 
-#### **Membre de Jury de thèses** 
+#### **Membre de Jury de thèses**
 
 -   2019 ***Jury de thèse de El Hadji Malick Gueye***, Politiques d’accès aux données statistiques sur le web à l’ère de l’open data : pratiques et perspectives. Cas des Instituts Nationaux de Statistique d’Afrique membres du réseau AFRISTAT.
 
@@ -830,7 +853,7 @@ J’ai aussi participé de 2009 à 2011 aux jurys de délivrance des diplômes 
 
 ### Production de documents pédagogiques 
 
-Dans le cadre de mon activité d’enseignement je mes à disposition des étudiants les documents pédagogiques suivant :
+Dans le cadre de mon activité d’enseignement je mets à disposition des étudiants les documents pédagogiques suivant :
 
 #### Supports de cours
 
@@ -844,479 +867,367 @@ Les supports de cours sont disponibles directement sur mon site web sous la form
 
 Pour les étudiants plus curieux, je mets à disposition l'ensemble des supports de présentation que j’utilise pour mes conférences : <https://samszo.github.io/ConfErrance/>
 
-Les documents pédagogiques pour les cours techniques sont constitués d’exemples de codes mis à disposition sur la plateforme
-collaborative GitHub sous la forme de projet auquel les étudiants participent. Le tableau ci-dessous a été généré automatiquement avec un outil d'extraction des données de GitHub : <https://samszo.github.io/HDR/githubStats.html>
-
-| Année       | Parcours                                                          | URL                                    | langages                                                                                                                                                                                                                              |
-|-------------|-------------------------------------------------------------------|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2015 - 2016 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413) | <https://github.com/samszo/THYP_15-16> | [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418) [html](http://localhost/samszo/omk/s/fiches/item/96621) [php](http://localhost/samszo/omk/s/fiches/item/108369) |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-|             |                                                                   |                                        |                                                                                                                                                                                                                                       |
-
--   2015 - 2016 ***THYP_15-16***
-
-**Langage de programmation** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418) [html](http://localhost/samszo/omk/s/fiches/item/96621) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** :
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)
-
-2015 - 2016 ***CDNL_15-16***
-
-<https://github.com/samszo/CDNL_15-16>
-
-**Langage de programmation** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [html](http://localhost/samszo/omk/s/fiches/item/96621) [css](http://localhost/samszo/omk/s/fiches/item/102418) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** : [GitHub User : milounis](http://localhost/samszo/omk/s/fiches/item/300845) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : wumiolabisi](http://localhost/samszo/omk/s/fiches/item/300847) [GitHub User : ghislainguy](http://localhost/samszo/omk/s/fiches/item/300849) [GitHub User : Arso972](http://localhost/samszo/omk/s/fiches/item/300851) [GitHub User : caromou](http://localhost/samszo/omk/s/fiches/item/300853) [GitHub User : ernestovi](http://localhost/samszo/omk/s/fiches/item/300855) [GitHub User : nazadounet](http://localhost/samszo/omk/s/fiches/item/300857) [GitHub User : Sissiwiki](http://localhost/samszo/omk/s/fiches/item/300859) [GitHub User : djamelmeziane](http://localhost/samszo/omk/s/fiches/item/300861) [GitHub User : elo93](http://localhost/samszo/omk/s/fiches/item/300863)
-
-**A comme EC** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)
-
-2015 - 2016 ***oci_15-16***
-
-<https://github.com/samszo/oci_15-16>
-
-**Langage de programmation** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418) [html](http://localhost/samszo/omk/s/fiches/item/96621) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** : [GitHub User : Mokranecj](http://localhost/samszo/omk/s/fiches/item/301381) [GitHub User : dergazz](http://localhost/samszo/omk/s/fiches/item/301383) [GitHub User : nguyenngochoan](http://localhost/samszo/omk/s/fiches/item/301385) [GitHub User : imandzu](http://localhost/samszo/omk/s/fiches/item/301387) [GitHub User : AllawaAbdat](http://localhost/samszo/omk/s/fiches/item/301389) [GitHub User : chebli](http://localhost/samszo/omk/s/fiches/item/301391) [GitHub User : hamelsamir](http://localhost/samszo/omk/s/fiches/item/301393) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : nghawa](http://localhost/samszo/omk/s/fiches/item/301395) [GitHub User : salahixio](http://localhost/samszo/omk/s/fiches/item/301397) [GitHub User : dafraouiyassine](http://localhost/samszo/omk/s/fiches/item/301399) [GitHub User : gardouh](http://localhost/samszo/omk/s/fiches/item/301401) [GitHub User : geekloper](http://localhost/samszo/omk/s/fiches/item/301403) [GitHub User : landrisarah](http://localhost/samszo/omk/s/fiches/item/301405)
-
-**A comme EC** : [Gestion de projet](http://localhost/samszo/omk/s/fiches/item/299440)
-
-2016 - 2017 ***THYP_16-17***
-
-<https://github.com/samszo/THYP_16-17>
-
-**Langage de programmation** : [php](http://localhost/samszo/omk/s/fiches/item/108369) [css](http://localhost/samszo/omk/s/fiches/item/102418) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [html](http://localhost/samszo/omk/s/fiches/item/96621)
-
-**Contributeurs** : [GitHub User : jaafar89](http://localhost/samszo/omk/s/fiches/item/301561) [GitHub User : allab1](http://localhost/samszo/omk/s/fiches/item/301563) [GitHub User : Myriamb93](http://localhost/samszo/omk/s/fiches/item/301565) [GitHub User : atif33](http://localhost/samszo/omk/s/fiches/item/301567) [GitHub User : ouahibb](http://localhost/samszo/omk/s/fiches/item/301569) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : Schachil](http://localhost/samszo/omk/s/fiches/item/301571) [GitHub User : djassimo](http://localhost/samszo/omk/s/fiches/item/301573) [GitHub User : driss100](http://localhost/samszo/omk/s/fiches/item/301575) [GitHub User : ELALAMIOMAR](http://localhost/samszo/omk/s/fiches/item/301577) [GitHub User : yazid2j](http://localhost/samszo/omk/s/fiches/item/301579) [GitHub User : adeel95190](http://localhost/samszo/omk/s/fiches/item/301581) [GitHub User : amnaabbassi](http://localhost/samszo/omk/s/fiches/item/301583) [GitHub User : AleksRado](http://localhost/samszo/omk/s/fiches/item/301585) [GitHub User : HamzaNas](http://localhost/samszo/omk/s/fiches/item/301587) [GitHub User : LazarYoussra](http://localhost/samszo/omk/s/fiches/item/301589)
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)
-
-2016 - 2017 ***CDNL_16-17***
-
-<https://github.com/samszo/CDNL_16-17>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735)
-
-**A comme EC** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)
-
-2016 - 2017 ***OCI_16-17***
-
-<https://github.com/samszo/OCI_16-17>
-
-**Langage de programmation** : [css](http://localhost/samszo/omk/s/fiches/item/102418) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [html](http://localhost/samszo/omk/s/fiches/item/96621) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** : [GitHub User : elberkaouinajib](http://localhost/samszo/omk/s/fiches/item/301407) [GitHub User : ElhocineADJLOUA](http://localhost/samszo/omk/s/fiches/item/301409) [GitHub User : nassdjerroud](http://localhost/samszo/omk/s/fiches/item/301411) [GitHub User : Mojelloul](http://localhost/samszo/omk/s/fiches/item/301413) [GitHub User : chanez](http://localhost/samszo/omk/s/fiches/item/301415) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : achourBRB](http://localhost/samszo/omk/s/fiches/item/301417) [GitHub User : AdrienPro](http://localhost/samszo/omk/s/fiches/item/301419) [GitHub User : Amealky](http://localhost/samszo/omk/s/fiches/item/301421) [GitHub User : JeanEudesT](http://localhost/samszo/omk/s/fiches/item/301423) [GitHub User : drhouj](http://localhost/samszo/omk/s/fiches/item/301425) [GitHub User : rimkfly](http://localhost/samszo/omk/s/fiches/item/301427) [GitHub User : abdelilahcharai](http://localhost/samszo/omk/s/fiches/item/301429) [GitHub User : tolstoyfafa](http://localhost/samszo/omk/s/fiches/item/301431) [GitHub User : hohoinfo](http://localhost/samszo/omk/s/fiches/item/301433)
-
-**A comme EC** : [Gestion de projet](http://localhost/samszo/omk/s/fiches/item/299440)
-
-2017 - 2018 ***THYP_17-18***
-
-<https://github.com/samszo/THYP_17-18>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [php](http://localhost/samszo/omk/s/fiches/item/108369) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : salmisim](http://localhost/samszo/omk/s/fiches/item/301591) [GitHub User : hazemwehbi](http://localhost/samszo/omk/s/fiches/item/301593) [GitHub User : TheSimpleone0](http://localhost/samszo/omk/s/fiches/item/301595) [GitHub User : imandzu](http://localhost/samszo/omk/s/fiches/item/301387) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : rozaarezki](http://localhost/samszo/omk/s/fiches/item/301597) [GitHub User : kahina92](http://localhost/samszo/omk/s/fiches/item/301599) [GitHub User : morynho](http://localhost/samszo/omk/s/fiches/item/301601) [GitHub User : lydia-leb](http://localhost/samszo/omk/s/fiches/item/301603) [GitHub User : geekloper](http://localhost/samszo/omk/s/fiches/item/301403) [GitHub User : nourhenyh](http://localhost/samszo/omk/s/fiches/item/301605) [GitHub User : rabiata](http://localhost/samszo/omk/s/fiches/item/301607) [GitHub User : oulebsircylia](http://localhost/samszo/omk/s/fiches/item/301609) [GitHub User : helmabr](http://localhost/samszo/omk/s/fiches/item/301611) [GitHub User : nadiabn](http://localhost/samszo/omk/s/fiches/item/301613) [GitHub User : Mounnjide](http://localhost/samszo/omk/s/fiches/item/301615) [GitHub User : bchiri](http://localhost/samszo/omk/s/fiches/item/301617) [GitHub User : saadhamdani](http://localhost/samszo/omk/s/fiches/item/301619) [GitHub User : smanessoub](http://localhost/samszo/omk/s/fiches/item/301621) [GitHub User : saimi1](http://localhost/samszo/omk/s/fiches/item/301623) [GitHub User : yawyaw99](http://localhost/samszo/omk/s/fiches/item/301625) [GitHub User : BerradaYacin](http://localhost/samszo/omk/s/fiches/item/301627) [GitHub User : ameni26](http://localhost/samszo/omk/s/fiches/item/301629) [GitHub User : Nicolas-Loew](http://localhost/samszo/omk/s/fiches/item/301631)
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)
-
-2017 - 2018 ***OCI_17-18***
-
-<https://github.com/samszo/OCI_17-18>
-
-**Langage de programmation** : [php](http://localhost/samszo/omk/s/fiches/item/108369) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418) [html](http://localhost/samszo/omk/s/fiches/item/96621)
-
-**Contributeurs** : [GitHub User : GayaKdyem](http://localhost/samszo/omk/s/fiches/item/301435) [GitHub User : mondir-jaatar](http://localhost/samszo/omk/s/fiches/item/301437) [GitHub User : AREZKIfetta](http://localhost/samszo/omk/s/fiches/item/301439) [GitHub User : naouel21](http://localhost/samszo/omk/s/fiches/item/301441) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : ussf15](http://localhost/samszo/omk/s/fiches/item/301443) [GitHub User : KORCHID](http://localhost/samszo/omk/s/fiches/item/301445) [GitHub User : Odlareg93](http://localhost/samszo/omk/s/fiches/item/301447) [GitHub User : Abdennour7](http://localhost/samszo/omk/s/fiches/item/301449) [GitHub User : tolstoyfafa](http://localhost/samszo/omk/s/fiches/item/301431)
-
-**A comme EC** : [Gestion de projet](http://localhost/samszo/omk/s/fiches/item/299440)
-
-2017 - 2018 ***AVUN_17-18***
-
-<https://github.com/samszo/AVUN_17-18>
-
-**Contributeurs** : [GitHub User : laumelgar](http://localhost/samszo/omk/s/fiches/item/300747) [GitHub User : abah2411](http://localhost/samszo/omk/s/fiches/item/300749) [GitHub User : KENFT2017](http://localhost/samszo/omk/s/fiches/item/300751) [GitHub User : sidalikarim](http://localhost/samszo/omk/s/fiches/item/300753) [GitHub User : aicha87](http://localhost/samszo/omk/s/fiches/item/300755) [GitHub User : NanyGhania](http://localhost/samszo/omk/s/fiches/item/300757) [GitHub User : badkim](http://localhost/samszo/omk/s/fiches/item/300759) [GitHub User : Aziza992](http://localhost/samszo/omk/s/fiches/item/300761) [GitHub User : medicosts](http://localhost/samszo/omk/s/fiches/item/300763) [GitHub User : zeinou1](http://localhost/samszo/omk/s/fiches/item/300765) [GitHub User : anissa-m](http://localhost/samszo/omk/s/fiches/item/300767) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : Jnzeu](http://localhost/samszo/omk/s/fiches/item/300769) [GitHub User : ndeignan](http://localhost/samszo/omk/s/fiches/item/300771) [GitHub User : mantoyiillah](http://localhost/samszo/omk/s/fiches/item/300773) [GitHub User : amisaada](http://localhost/samszo/omk/s/fiches/item/300775)
-
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)
-
-2018 - 2019 ***THYP_18-19***
-
-<https://github.com/samszo/THYP_18-19>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621)
-
-**Contributeurs** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735)
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)
-
-2018 - 2019 ***DWM_18-19***
-
-<https://github.com/samszo/DWM_18-19>
-
-**Langage de programmation** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418) [html](http://localhost/samszo/omk/s/fiches/item/96621) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** : [GitHub User : RochDLY](http://localhost/samszo/omk/s/fiches/item/300795) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : noeklk](http://localhost/samszo/omk/s/fiches/item/300871) [GitHub User : natachabile](http://localhost/samszo/omk/s/fiches/item/300873) [GitHub User : mmagassa02](http://localhost/samszo/omk/s/fiches/item/300875) [GitHub User : yohanhask](http://localhost/samszo/omk/s/fiches/item/300877) [GitHub User : Moustaphaniang](http://localhost/samszo/omk/s/fiches/item/300879) [GitHub User : zahir0699](http://localhost/samszo/omk/s/fiches/item/300881) [GitHub User : HakimP8](http://localhost/samszo/omk/s/fiches/item/300883) [GitHub User : GDiouck](http://localhost/samszo/omk/s/fiches/item/300885) [GitHub User : Youssoufyouss](http://localhost/samszo/omk/s/fiches/item/300887) [GitHub User : leasurlamer](http://localhost/samszo/omk/s/fiches/item/300889)
-
-**A comme EC** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)
-
-2018 - 2019 ***OCI_18-19***
-
-<https://github.com/samszo/OCI_18-19>
-
-**Langage de programmation** : [css](http://localhost/samszo/omk/s/fiches/item/102418) [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** : [GitHub User : abdel-h](http://localhost/samszo/omk/s/fiches/item/301451) [GitHub User : timziba](http://localhost/samszo/omk/s/fiches/item/301453) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : djnabil](http://localhost/samszo/omk/s/fiches/item/301229) [GitHub User : JulesSaunier](http://localhost/samszo/omk/s/fiches/item/301455) [GitHub User : RedaBenlakehal](http://localhost/samszo/omk/s/fiches/item/301457) [GitHub User : walidDjafri](http://localhost/samszo/omk/s/fiches/item/301459)
-
-**A comme EC** : [Gestion de projet](http://localhost/samszo/omk/s/fiches/item/299440)
-
-2018 - 2019 ***GSI-AVUN_18-19***
-
-<https://github.com/samszo/GSI-AVUN_18-19>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621)
-
-**Contributeurs** : [GitHub User : NiltonDaRosa](http://localhost/samszo/omk/s/fiches/item/301097) [GitHub User : Hajermehmli](http://localhost/samszo/omk/s/fiches/item/301099) [GitHub User : Modelisation1819](http://localhost/samszo/omk/s/fiches/item/301101) [GitHub User : AlimaDiop](http://localhost/samszo/omk/s/fiches/item/301103) [GitHub User : Mariem91](http://localhost/samszo/omk/s/fiches/item/301105) [GitHub User : ManarMorjanGSI](http://localhost/samszo/omk/s/fiches/item/301107) [GitHub User : hafiskamelia](http://localhost/samszo/omk/s/fiches/item/301109) [GitHub User : boussahelaamira](http://localhost/samszo/omk/s/fiches/item/301111) [GitHub User : elsofedexy](http://localhost/samszo/omk/s/fiches/item/301113) [GitHub User : T-Mendes](http://localhost/samszo/omk/s/fiches/item/301115) [GitHub User : LINDABELHOCINE](http://localhost/samszo/omk/s/fiches/item/301117) [GitHub User : Thieran](http://localhost/samszo/omk/s/fiches/item/301119) [GitHub User : YasmineAouimeur](http://localhost/samszo/omk/s/fiches/item/301121) [GitHub User : Hassinaho07](http://localhost/samszo/omk/s/fiches/item/301123) [GitHub User : paoandi](http://localhost/samszo/omk/s/fiches/item/301125) [GitHub User : katiabelhocine](http://localhost/samszo/omk/s/fiches/item/301127) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : ndiayemalha12](http://localhost/samszo/omk/s/fiches/item/301129) [GitHub User : modjadoun](http://localhost/samszo/omk/s/fiches/item/301131) [GitHub User : DDjakaridja](http://localhost/samszo/omk/s/fiches/item/301133) [GitHub User : Maghnia20](http://localhost/samszo/omk/s/fiches/item/301135) [GitHub User : kabskik](http://localhost/samszo/omk/s/fiches/item/301137) [GitHub User : djamel31](http://localhost/samszo/omk/s/fiches/item/301139) [GitHub User : ouferhat](http://localhost/samszo/omk/s/fiches/item/301141) [GitHub User : Hasnabe](http://localhost/samszo/omk/s/fiches/item/301143) [GitHub User : CarolineTravers](http://localhost/samszo/omk/s/fiches/item/301145) [GitHub User : RomanSimar](http://localhost/samszo/omk/s/fiches/item/301147) [GitHub User : Samadaitaicha](http://localhost/samszo/omk/s/fiches/item/301149) [GitHub User : andhanouni](http://localhost/samszo/omk/s/fiches/item/301151) [GitHub User : Thomasfiacre](http://localhost/samszo/omk/s/fiches/item/301153) [GitHub User : hibaavun](http://localhost/samszo/omk/s/fiches/item/301155) [GitHub User : mariamgsi](http://localhost/samszo/omk/s/fiches/item/301157) [GitHub User : Fatmaabd](http://localhost/samszo/omk/s/fiches/item/301159) [GitHub User : TanDezac](http://localhost/samszo/omk/s/fiches/item/301161) [GitHub User : aitammar](http://localhost/samszo/omk/s/fiches/item/301163) [GitHub User : tagouth](http://localhost/samszo/omk/s/fiches/item/301165) [GitHub User : Keren94](http://localhost/samszo/omk/s/fiches/item/301167) [GitHub User : Nenecha](http://localhost/samszo/omk/s/fiches/item/301169) [GitHub User : ElBouzidi84](http://localhost/samszo/omk/s/fiches/item/301171) [GitHub User : najatamgoune](http://localhost/samszo/omk/s/fiches/item/301173)
-
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414) [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420)
-
-2019 - 2020 ***DWM_19-20***
-
-<https://github.com/samszo/DWM_19-20>
-
-**Langage de programmation** : [css](http://localhost/samszo/omk/s/fiches/item/102418) [php](http://localhost/samszo/omk/s/fiches/item/108369) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [html](http://localhost/samszo/omk/s/fiches/item/96621)
-
-**Contributeurs** : [GitHub User : Darkusse](http://localhost/samszo/omk/s/fiches/item/300891) [GitHub User : Aysha-P8](http://localhost/samszo/omk/s/fiches/item/300893) [GitHub User : gayaganjo](http://localhost/samszo/omk/s/fiches/item/300895) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : Luchilax](http://localhost/samszo/omk/s/fiches/item/300897) [GitHub User : anisbelabed](http://localhost/samszo/omk/s/fiches/item/300899) [GitHub User : bira12010](http://localhost/samszo/omk/s/fiches/item/300901) [GitHub User : shraidy](http://localhost/samszo/omk/s/fiches/item/300903) [GitHub User : Clocloh](http://localhost/samszo/omk/s/fiches/item/300905) [GitHub User : ChebahMegdouda](http://localhost/samszo/omk/s/fiches/item/300907) [GitHub User : xelafi](http://localhost/samszo/omk/s/fiches/item/300909) [GitHub User : Zahar9](http://localhost/samszo/omk/s/fiches/item/300911) [GitHub User : sofiane5995](http://localhost/samszo/omk/s/fiches/item/300913) [GitHub User : khalifa907](http://localhost/samszo/omk/s/fiches/item/300915)
-
-**A comme EC** : [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)
-
-2019 - 2020 ***AVUN_19-20***
-
-<https://github.com/samszo/AVUN_19-20>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [php](http://localhost/samszo/omk/s/fiches/item/108369)
-
-**Contributeurs** : [GitHub User : Abdelilahmeg](http://localhost/samszo/omk/s/fiches/item/300777) [GitHub User : AnisOuadi](http://localhost/samszo/omk/s/fiches/item/300779) [GitHub User : A-JUGURTHA](http://localhost/samszo/omk/s/fiches/item/300781) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : hanend](http://localhost/samszo/omk/s/fiches/item/300783) [GitHub User : dylnbrt](http://localhost/samszo/omk/s/fiches/item/300785) [GitHub User : hernanpe](http://localhost/samszo/omk/s/fiches/item/300787) [GitHub User : selkarimi77](http://localhost/samszo/omk/s/fiches/item/300789) [GitHub User : walidai94](http://localhost/samszo/omk/s/fiches/item/300791) [GitHub User : rhyxlennautha](http://localhost/samszo/omk/s/fiches/item/300793) [GitHub User : RochDLY](http://localhost/samszo/omk/s/fiches/item/300795) [GitHub User : cinnamon-n](http://localhost/samszo/omk/s/fiches/item/300797) [GitHub User : amrouche90](http://localhost/samszo/omk/s/fiches/item/300799) [GitHub User : fatoumatadembele](http://localhost/samszo/omk/s/fiches/item/300801)
-
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)
-
-2019 - 2020 ***MEDAS_1_19-20***
-
-<https://github.com/samszo/MEDAS_1_19-20>
-
-**Langage de programmation** : [php](http://localhost/samszo/omk/s/fiches/item/108369) [html](http://localhost/samszo/omk/s/fiches/item/96621)
-
-**Contributeurs** : [GitHub User : clmtdr](http://localhost/samszo/omk/s/fiches/item/301341) [GitHub User : Helicorp](http://localhost/samszo/omk/s/fiches/item/301343) [GitHub User : Maxime24131](http://localhost/samszo/omk/s/fiches/item/301345) [GitHub User : belounis](http://localhost/samszo/omk/s/fiches/item/301347) [GitHub User : OmAyn](http://localhost/samszo/omk/s/fiches/item/301349) [GitHub User : Thuy-Lien](http://localhost/samszo/omk/s/fiches/item/301351) [GitHub User : hiedwig](http://localhost/samszo/omk/s/fiches/item/301353) [GitHub User : Dae-Dae](http://localhost/samszo/omk/s/fiches/item/301355) [GitHub User : AlbanDAVID](http://localhost/samszo/omk/s/fiches/item/301357) [GitHub User : DanLeds](http://localhost/samszo/omk/s/fiches/item/301359) [GitHub User : FOGNE](http://localhost/samszo/omk/s/fiches/item/301361) [GitHub User : alixvd](http://localhost/samszo/omk/s/fiches/item/301363) [GitHub User : Galdro29](http://localhost/samszo/omk/s/fiches/item/301365) [GitHub User : Yaden1337](http://localhost/samszo/omk/s/fiches/item/301367) [GitHub User : Nyakoumo](http://localhost/samszo/omk/s/fiches/item/301369) [GitHub User : aenort](http://localhost/samszo/omk/s/fiches/item/301371) [GitHub User : anisbous](http://localhost/samszo/omk/s/fiches/item/301373) [GitHub User : VDuchauffour](http://localhost/samszo/omk/s/fiches/item/301375) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : gregoozelallicooze](http://localhost/samszo/omk/s/fiches/item/301377) [GitHub User : AdamMEOI](http://localhost/samszo/omk/s/fiches/item/301379)
-
-**A comme Parcours** : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900)
-
-2020 - 2021 ***MEDAS-1_20-21***
-
-<https://github.com/samszo/MEDAS-1_20-21>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [php](http://localhost/samszo/omk/s/fiches/item/108369) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : thomaspedi](http://localhost/samszo/omk/s/fiches/item/301309) [GitHub User : bokoua](http://localhost/samszo/omk/s/fiches/item/301311) [GitHub User : nassimaoukhelifa](http://localhost/samszo/omk/s/fiches/item/301313) [GitHub User : Peadz](http://localhost/samszo/omk/s/fiches/item/301315) [GitHub User : docteurport](http://localhost/samszo/omk/s/fiches/item/301317) [GitHub User : meyssa-b](http://localhost/samszo/omk/s/fiches/item/301319) [GitHub User : TomBlach](http://localhost/samszo/omk/s/fiches/item/301321) [GitHub User : maeeeeeeeeva](http://localhost/samszo/omk/s/fiches/item/301323) [GitHub User : rayane-ilo](http://localhost/samszo/omk/s/fiches/item/301325) [GitHub User : noeger](http://localhost/samszo/omk/s/fiches/item/301327) [GitHub User : EmelineGR](http://localhost/samszo/omk/s/fiches/item/301329) [GitHub User : SerineLaass](http://localhost/samszo/omk/s/fiches/item/301331) [GitHub User : RedaEss](http://localhost/samszo/omk/s/fiches/item/301333) [GitHub User : Fujistone](http://localhost/samszo/omk/s/fiches/item/301335) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : FelitaD](http://localhost/samszo/omk/s/fiches/item/301337) [GitHub User : CharlineZ](http://localhost/samszo/omk/s/fiches/item/301339)
-
-**A comme Parcours** : [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900)
-
-2020 - 2021 ***THYP_20-21***
-
-<https://github.com/samszo/THYP_20-21>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : salim499](http://localhost/samszo/omk/s/fiches/item/300869) [GitHub User : widadch](http://localhost/samszo/omk/s/fiches/item/301633) [GitHub User : olayajaaouane](http://localhost/samszo/omk/s/fiches/item/301635) [GitHub User : N-Ali](http://localhost/samszo/omk/s/fiches/item/301637) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : drissben49](http://localhost/samszo/omk/s/fiches/item/301639) [GitHub User : anas0dev](http://localhost/samszo/omk/s/fiches/item/301641) [GitHub User : aniss-maamri](http://localhost/samszo/omk/s/fiches/item/301643) [GitHub User : imerizak](http://localhost/samszo/omk/s/fiches/item/301645) [GitHub User : KamalELKADI](http://localhost/samszo/omk/s/fiches/item/301647) [GitHub User : cheikht3010](http://localhost/samszo/omk/s/fiches/item/301649) [GitHub User : mehdibridi](http://localhost/samszo/omk/s/fiches/item/301651) [GitHub User : Baste95](http://localhost/samszo/omk/s/fiches/item/301653) [GitHub User : Hichem-ben-ameur](http://localhost/samszo/omk/s/fiches/item/301655) [GitHub User : BoussadSabi](http://localhost/samszo/omk/s/fiches/item/301657) [GitHub User : XT19](http://localhost/samszo/omk/s/fiches/item/301659) [GitHub User : melanieCorr](http://localhost/samszo/omk/s/fiches/item/301661) [GitHub User : marouajellal](http://localhost/samszo/omk/s/fiches/item/301663) [GitHub User : sbaiabdellah](http://localhost/samszo/omk/s/fiches/item/301665) [GitHub User : Yrrieth](http://localhost/samszo/omk/s/fiches/item/301667) [GitHub User : chafiaifrene](http://localhost/samszo/omk/s/fiches/item/301669) [GitHub User : koceilaodh94](http://localhost/samszo/omk/s/fiches/item/301671) [GitHub User : tinhinaneifrene](http://localhost/samszo/omk/s/fiches/item/301673)
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)
-
-2020 - 2021 ***ADLN_20-21***
-
-<https://github.com/samszo/ADLN_20-21>
-
-**Langage de programmation** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [html](http://localhost/samszo/omk/s/fiches/item/96621) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : PhilippeP8](http://localhost/samszo/omk/s/fiches/item/300741) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : MathildeBtrl](http://localhost/samszo/omk/s/fiches/item/300743) [GitHub User : philippkhon](http://localhost/samszo/omk/s/fiches/item/300745)
-
-**A comme EC** : [Atelier génération de texte](http://localhost/samszo/omk/s/fiches/item/299446)
-
-2020 - 2021 ***AVUN_20-21***
-
-<https://github.com/samszo/AVUN_20-21>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621)
-
-**Contributeurs** : [GitHub User : ROWAIDAK](http://localhost/samszo/omk/s/fiches/item/300803) [GitHub User : bamba06](http://localhost/samszo/omk/s/fiches/item/300805) [GitHub User : Salima-kafiz](http://localhost/samszo/omk/s/fiches/item/300807) [GitHub User : zannoune](http://localhost/samszo/omk/s/fiches/item/300809) [GitHub User : AbderrahimHALHALI](http://localhost/samszo/omk/s/fiches/item/300811) [GitHub User : ali-salaheddine](http://localhost/samszo/omk/s/fiches/item/300813) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : lmoultala](http://localhost/samszo/omk/s/fiches/item/300815) [GitHub User : LounisDjellaoui](http://localhost/samszo/omk/s/fiches/item/300817) [GitHub User : farah-soukarieh](http://localhost/samszo/omk/s/fiches/item/300819) [GitHub User : Bil-sef](http://localhost/samszo/omk/s/fiches/item/300821) [GitHub User : cheikh-faye](http://localhost/samszo/omk/s/fiches/item/300823)
-
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)
-
-2020 - 2021 ***M2GSI_20-21***
-
-<https://github.com/samszo/M2GSI_20-21_ProgramSystem>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : biyel](http://localhost/samszo/omk/s/fiches/item/301247) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : Aissatou-Cis](http://localhost/samszo/omk/s/fiches/item/301249) [GitHub User : Dado93-B](http://localhost/samszo/omk/s/fiches/item/301251) [GitHub User : Ibrahima15](http://localhost/samszo/omk/s/fiches/item/301253) [GitHub User : Jane271197](http://localhost/samszo/omk/s/fiches/item/301255) [GitHub User : diasek](http://localhost/samszo/omk/s/fiches/item/301257) [GitHub User : coumba999](http://localhost/samszo/omk/s/fiches/item/301259) [GitHub User : Sonia-Gasmi](http://localhost/samszo/omk/s/fiches/item/301261) [GitHub User : COCO94-b](http://localhost/samszo/omk/s/fiches/item/301263) [GitHub User : omarkatadiasse](http://localhost/samszo/omk/s/fiches/item/301265) [GitHub User : Kouamou-Romaric](http://localhost/samszo/omk/s/fiches/item/301267) [GitHub User : M639148](http://localhost/samszo/omk/s/fiches/item/301269) [GitHub User : Alexia971](http://localhost/samszo/omk/s/fiches/item/301271) [GitHub User : Noralli](http://localhost/samszo/omk/s/fiches/item/301273) [GitHub User : babelhead](http://localhost/samszo/omk/s/fiches/item/301275) [GitHub User : YasmineNouar](http://localhost/samszo/omk/s/fiches/item/301277) [GitHub User : samb1212](http://localhost/samszo/omk/s/fiches/item/301279) [GitHub User : sndong-git](http://localhost/samszo/omk/s/fiches/item/301281) [GitHub User : allassane29](http://localhost/samszo/omk/s/fiches/item/301283) [GitHub User : KalelGuerni](http://localhost/samszo/omk/s/fiches/item/301285)
-
-**A comme EC** : [Systèmes d’information et programmation Internet](http://localhost/samszo/omk/s/fiches/item/299431)
-
-2021 - 2022 ***THYP_21-22***
-
-<https://github.com/samszo/THYP_21-22>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [css](http://localhost/samszo/omk/s/fiches/item/102418) [javascript](http://localhost/samszo/omk/s/fiches/item/89711)
-
-**Contributeurs** : [GitHub User : asalasachat](http://localhost/samszo/omk/s/fiches/item/301675) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : julienpan](http://localhost/samszo/omk/s/fiches/item/301225) [GitHub User : dev-aghiles](http://localhost/samszo/omk/s/fiches/item/301677) [GitHub User : josephine25](http://localhost/samszo/omk/s/fiches/item/301237) [GitHub User : djnabil](http://localhost/samszo/omk/s/fiches/item/301229) [GitHub User : rajalamgarmel](http://localhost/samszo/omk/s/fiches/item/301235) [GitHub User : ismailmernissi](http://localhost/samszo/omk/s/fiches/item/301679) [GitHub User : Mouatez96](http://localhost/samszo/omk/s/fiches/item/301681) [GitHub User : ZertalRaouf](http://localhost/samszo/omk/s/fiches/item/301683) [GitHub User : YanHip](http://localhost/samszo/omk/s/fiches/item/301233) [GitHub User : AbderrezakFel](http://localhost/samszo/omk/s/fiches/item/301685) [GitHub User : khalilaimen25](http://localhost/samszo/omk/s/fiches/item/301687) [GitHub User : saidanikhaled34](http://localhost/samszo/omk/s/fiches/item/301689) [GitHub User : aissakert](http://localhost/samszo/omk/s/fiches/item/301691) [GitHub User : MEGCHICHEFarid](http://localhost/samszo/omk/s/fiches/item/301693) [GitHub User : MoussaDeme](http://localhost/samszo/omk/s/fiches/item/301695) [GitHub User : othmanito123](http://localhost/samszo/omk/s/fiches/item/301697) [GitHub User : AMMARIsalma](http://localhost/samszo/omk/s/fiches/item/301699) [GitHub User : Abdallah189](http://localhost/samszo/omk/s/fiches/item/301701) [GitHub User : Youssoufyouss](http://localhost/samszo/omk/s/fiches/item/300887) [GitHub User : ammour99](http://localhost/samszo/omk/s/fiches/item/301703)
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)
-
-2021 - 2022 ***AVUN_21-22***
-
-<https://github.com/samszo/AVUN_21-22>
-
-**Langage de programmation** : [css](http://localhost/samszo/omk/s/fiches/item/102418) [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711)
-
-**Contributeurs** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735)
-
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)
-
-2021 - 2022 ***M2GSI_21-22***
-
-<https://github.com/samszo/M2GSI_21-22>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735)
-
-**A comme EC** : [Systèmes d’information et programmation Internet](http://localhost/samszo/omk/s/fiches/item/299431)
-
-2022 - 2023 ***M2GSI_22-23***
-
-<https://github.com/samszo/M2GSI_22-23>
-
-**Langage de programmation** : [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [html](http://localhost/samszo/omk/s/fiches/item/96621) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : Feriellekhl](http://localhost/samszo/omk/s/fiches/item/301287) [GitHub User : ogpit](http://localhost/samszo/omk/s/fiches/item/301289) [GitHub User : Helenya95](http://localhost/samszo/omk/s/fiches/item/301291) [GitHub User : SuzanneFelix](http://localhost/samszo/omk/s/fiches/item/301293) [GitHub User : Lhaddar](http://localhost/samszo/omk/s/fiches/item/301295) [GitHub User : bsinagonrigui](http://localhost/samszo/omk/s/fiches/item/301297) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : rouguiyatoundoye](http://localhost/samszo/omk/s/fiches/item/301299) [GitHub User : imanegoual](http://localhost/samszo/omk/s/fiches/item/301301) [GitHub User : achafea](http://localhost/samszo/omk/s/fiches/item/301303) [GitHub User : smessali](http://localhost/samszo/omk/s/fiches/item/301305) [GitHub User : Yameogomariette](http://localhost/samszo/omk/s/fiches/item/301307)
-
-**A comme Parcours** : [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420)
-
-2022 - 2023 ***THYP_22-23***
-
-<https://github.com/samszo/THYP_22-23>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711)
-
-**Contributeurs** : [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735)
-
-**A comme Parcours** : [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)
-
-2022 - 2023 ***AVUN_22-23***
-
-<https://github.com/samszo/AVUN_22-23>
-
-**Langage de programmation** : [html](http://localhost/samszo/omk/s/fiches/item/96621) [javascript](http://localhost/samszo/omk/s/fiches/item/89711) [css](http://localhost/samszo/omk/s/fiches/item/102418)
-
-**Contributeurs** : [GitHub User : Massine3](http://localhost/samszo/omk/s/fiches/item/300825) [GitHub User : samszo](http://localhost/samszo/omk/s/fiches/item/300735) [GitHub User : NADYUMI](http://localhost/samszo/omk/s/fiches/item/300827) [GitHub User : Rimkaidi](http://localhost/samszo/omk/s/fiches/item/300829) [GitHub User : asarr5](http://localhost/samszo/omk/s/fiches/item/300831) [GitHub User : IHantouche](http://localhost/samszo/omk/s/fiches/item/300833) [GitHub User : shanlu63](http://localhost/samszo/omk/s/fiches/item/300835) [GitHub User : Laioussama](http://localhost/samszo/omk/s/fiches/item/300837) [GitHub User : Shami86](http://localhost/samszo/omk/s/fiches/item/300839) [GitHub User : kaypeebee](http://localhost/samszo/omk/s/fiches/item/300841) [GitHub User : eldjouher-wq](http://localhost/samszo/omk/s/fiches/item/300843)
-
-**A comme Parcours** : [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)
-
-	
-
--   
-    	[[https://github.com/samszo/DesignWebMobile_17-18]{.underline}](https://github.com/samszo/DesignWebMobile_17-18)
-
-    	
-
--   
-    	<https://github.com/samszo/AVUN_17-18>[,]{.underline} <https://github.com/samszo/AVUN_18-19>[,]{.underline} <https://github.com/samszo/AVUN_19-20>[,]{.underline} <https://github.com/samszo/AVUN_20-21>
-
-    	
-
--   
-    	[[https://github.com/samszo/THYP_17-18]{.underline}](https://github.com/samszo/THYP_17-18), 
-    	[[https://github.com/samszo/THYP_18-19]{.underline}](https://github.com/samszo/THYP_18-19),
-    	[[https://github.com/samszo/THYP_19-20]{.underline}](https://github.com/samszo/THYP_19-20),
-    	[[https://github.com/samszo/THYP_20-21]{.underline}](https://github.com/samszo/THYP_20-21)
-
-Cette
-plateforme est aussi utilisée par les étudiants pour mettre à
-disposition leurs réponses aux exercices demandés, poser leurs
-questions, suivre les corrections. 
-
-#### Veille
-ciblée
-
-Grâce
-à la plateforme de gestion collaborative de signets Diigo les
-étudiants peuvent accéder à une veille ciblée sur un ensemble de
-notions en lien avec le cours, par exemple :
-
--   
-    	
-
--   
-    	[https://www.diigo.com/user/luckysemiosis?query=%23thèse](https://www.diigo.com/user/luckysemiosis?query=%23th%C3%A8se)
-
-    	
-
--   
-    	[[https://www.diigo.com/user/luckysemiosis?query=%23THYP]{.underline}](https://www.diigo.com/user/luckysemiosis?query=%23THYP)
-
-    	
-
--   
-    	[[https://www.diigo.com/user/luckysemiosis?query=%23actulivre]{.underline}](https://www.diigo.com/user/luckysemiosis?query=%23actulivre) 
-
-#### Bibliographie
-commentée
-
-Une
-bibliographie des ouvrages et articles importants dans le domaine est
-accessible en ligne avec des commentaires et des citations :
-[[https://www.zotero.org/luckysemiosis/items]{.underline}](https://www.zotero.org/luckysemiosis/items)  
-
-### 3.3
-Conception d’enseignements nouveaux ou de dispositifs innovants
-
-Parallèlement
-aux documents pédagogiques classiques, j’ai conçu et développé
-des dispositifs numériques pour accompagner mes enseignements.
-
-#### Développement
-de dispositif numérique pour l’enseignement
-
-##### 2020 - 2021 : Pédagothèque pour
-l’enseignement de la psychologie
-
-En
-partenariat avec l’Université Ouverte des Humanités (UOH)
-<https://uoh.fr/front/> :
-
-[[https://jardindesconnaissances.univ-paris8.fr/uohPsy/s/uoh-pedagotheque-en-psychologie/page/Accueil]{.underline}](https://jardindesconnaissances.univ-paris8.fr/uohPsy/s/uoh-pedagotheque-en-psychologie/page/Accueil) 
-
-#### Module
-Innovant Pédagogique IDEFI-CreaTIC - Paris 8
-
-Dans
-le cadre des Initiatives d’Excellence en Formations Innovantes, je
-participe depuis sa conception au projet CréaTIC :
-[[http://idefi-creatic.net/fr/]{.underline}](http://idefi-creatic.net/fr/)  
-
-##### 2018 - 2019 : Programme Jardiner les
-écosystèmes de connaissances
-
-Atelier
-laboratoire : Développer des graines de connaissances
-
-Séminaire
-de recherche : Vie imaginaire et Intelligence artificielle
-
-Hackathon :
-Les Archives Nationales font leur Hackathon
-
-[[http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon]{.underline}](http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon) 
-
-Workshop :
-Perspectives du livre numériques
-
-##### 2017 - 2018 : Valorisation des archives
-numériques
-
-Atelier
-laboratoire : Conception de ressources pédagogiques pour les
-archives numériques
-
-[[https://valarnum.univ-paris8.fr/Atelier-CreaTIC]{.underline}](https://valarnum.univ-paris8.fr/Atelier-CreaTIC) 
-
-Séminaire
-: Valorisation pédagogique des archives numérique
-
-[[https://valarnum.univ-paris8.fr/]{.underline}](https://valarnum.univ-paris8.fr/) 
-
-##### 2016 - 2017 : Créativité, reconstruction,
-proverbes
-
-Séminaire :
-Créativité, reconstruction, proverbes, octobre à décembre 2016,
-Paris 8
-
-Atelier
-laboratoire : Créativité, reconstruction, proverbes, 17 au 20
-janvier 2017, Centre d’art D’Haïti, Port au Prince
-
-##### 2015 -2016 : Manuel de créativité
-
-Séminaire :
-Outils de créativité pour la reconstruction, 25, 26 juin 2015,
-Abbaye de Saint Riquier.
-
-##### 2015-2016 : Proverbes et e-éducation
-
-Séminaire :
-Apprendre par les proverbes, MSH Paris Nord, 26 janvier 2016
-
-Atelier
-laboratoire : Conception de ressources pédagogiques numériques à
-partir de proverbes
-
-##### 2016 - 2017 : Ontologie pour les
-statistiques
-
-Atelier
-laboratoire : Ontologie pour le référencement des ressources
-pédagogique en statistiques
-
-[[https://ontostats.univ-paris8.fr/]{.underline}](https://ontostats.univ-paris8.fr/) 
-
-##### 2016 - 2017 : Hyperurbains et smartcities
-
-Atelier
-laboratoire : Conception de dispositifs numériques pour le voyage
-connecté
-
-##### 2015 - 2016 : Hyperurbains et smartcities
-
-Atelier
-laboratoire : Conception de dispositifs numériques pour le voyage
-connecté
-
-##### 2014 - 2015 : Le livre post-numérique
-
-Atelier
-laboratoire : Le livre post-numérique : création et édition
-collaborative scientifique
-
-Conférence :
-Livre post-numérique : historique, mutations et perspective, Fès,
-Maroc
-
-##### 2014 - 2015 : Archives en Italie
-
-Atelier
-laboratoire : Conception d’une base de donnée pour les humanités
-numériques
-
-[http://gapai.univ-paris8.fr/CreaTIC/archives-en-italie/]{.underline}
+Les documents pédagogiques pour les cours techniques sont constitués d’exemples de codes mis à disposition sur la plateforme collaborative GitHub sous la forme de projet auquel les étudiants participent. Le tableau ci-dessous a été généré automatiquement avec un outil d'extraction des données de GitHub : <https://samszo.github.io/HDR/githubStats.html>
+
+Cette plateforme est aussi utilisée par les étudiants pour mettre à disposition leurs réponses aux exercices demandés, poser leurs questions, suivre les corrections. 
+
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Année       | Parcours                                                                                                                            | URL                                                   |
++=============+=====================================================================================================================================+=======================================================+
+| 2022 - 2023 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_22-23>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)                                                                   | <https://github.com/samszo/AVUN_22-23>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420)                                                                    | <https://github.com/samszo/M2GSI_22-23>               |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| 2021 - 2022 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_21-22>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)                                                                   | <https://github.com/samszo/AVUN_21-22>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420)                                                                    | <https://github.com/samszo/M2GSI_21-22>               |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| 2020 - 2021 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_20-21>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)                                                                   | <https://github.com/samszo/AVUN_20-21>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420)                                                                    | <https://github.com/samszo/M2GSI_20-21_ProgramSystem> |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900)                                  | <https://github.com/samszo/MEDAS-1_20-21>             |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 1 NET](http://localhost/samszo/omk/s/fiches/item/299416)                                                                    | <https://github.com/samszo/ADLN_20-21>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| 2019 - 2020 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_19-20>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)                                                                   | <https://github.com/samszo/AVUN_19-20>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)                                                   | <https://github.com/samszo/DWM_19-20>                 |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master Méga Données et Analyse Sociale (MéDAS)](http://localhost/samszo/omk/s/fiches/item/301900)                                  | <https://github.com/samszo/MEDAS_1_19-20>             |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| 2018 - 2019 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_18-19>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414), [Master 2 GSI](http://localhost/samszo/omk/s/fiches/item/299420) | <https://github.com/samszo/GSI-AVUN_18-19>            |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)                                                   | <https://github.com/samszo/DWM_18-19>                 |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro OCI](http://localhost/samszo/omk/s/fiches/item/299412)                                                                 | <https://github.com/samszo/OCI_18-19>                 |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| 2017 - 2018 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_17-18>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Master 2 AVUN](http://localhost/samszo/omk/s/fiches/item/299414)                                                                   | <https://github.com/samszo/AVUN_17-18>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro OCI](http://localhost/samszo/omk/s/fiches/item/299412)                                                                 | <https://github.com/samszo/OCI_17-18>                 |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| 2016 - 2017 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_16-17>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)                                                   | <https://github.com/samszo/CDNL_16-17>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro OCI](http://localhost/samszo/omk/s/fiches/item/299412)                                                                 | <https://github.com/samszo/OCI_16-17>                 |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| 2015 - 2016 | [Master 2 THYP](http://localhost/samszo/omk/s/fiches/item/299413)                                                                   | <https://github.com/samszo/THYP_15-16>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro Design Web Mobile](http://localhost/samszo/omk/s/fiches/item/299421)                                                   | <https://github.com/samszo/CDNL_15-16>                |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+|             | [Licence Pro OCI](http://localhost/samszo/omk/s/fiches/item/299412)                                                                 | <https://github.com/samszo/oci_15-16>                 |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+
+#### Veille ciblée
+
+Grâce à la plateforme de gestion collaborative de signets Diigo les étudiants peuvent accéder à une veille ciblée sur un ensemble de notions en lien avec le cours, par exemple :
+
+-   [Veille sur les thèses](https://www.diigo.com/user/luckysemiosis?query=%23th%C3%A8se)
+
+-   [Veille pour le parcours THYP](https://www.diigo.com/user/luckysemiosis?query=%23THYP)
+
+-   [Veille sur la parution d'ouvrages scientifiques](https://www.diigo.com/user/luckysemiosis?query=%23actulivre)
+
+#### Bibliographie commentée
+
+Une bibliographie des ouvrages et articles importants dans le domaine est accessible en ligne avec des commentaires et des citations : [[https://www.zotero.org/luckysemiosis/items]{.underline}](https://www.zotero.org/luckysemiosis/items)  
+
+### Conception d’enseignements nouveaux ou de dispositifs innovants
+
+Parallèlement aux documents pédagogiques classiques, j’ai conçu et développé des dispositifs numériques pour accompagner mes enseignements.
+
+#### Développement de dispositif numérique pour l’enseignement
+
+##### 2020 - 2021 : Pédagothèque pour l’enseignement de la psychologie {.unnumbered}
+
+En partenariat avec l’Université Ouverte des Humanités (UOH) <https://uoh.fr/front/> et en collaboration avec Jean-Marc Meunier, nous avons développé une pédagothèque pour l'enseignement de la psychologie <https://pedagotheque.uoh.fr/psy/>.
+
+#### Module Innovant Pédagogique IDEFI-CreaTIC - EUR ArTec 
+
+Dans le cadre des Initiatives d’Excellence en Formations Innovantes, j'ai participé depuis sa conception au projet CréaTIC ([[http://idefi-creatic.net/fr/]{.underline}](http://idefi-creatic.net/fr/)[)]{.underline} en proposant des MIP (Modules Innovant Pédagogique). De même, dans le cadre de l'EUR ou en collaboration avec Philippe Bootz et Ines Laïtano, nous animons un MIP en littérature numérique.
+
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Année          | Description                                                                                                                                                                                                                                                                                                                               |
++================+===========================================================================================================================================================================================================================================================================================================================================+
+| 2019 - Présent | ##### Atelier génération de texte {.unnumbered}                                                                                                                                                                                                                                                                                           |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | Ce MIP s’inscrit dans le cadre du partenariat international entre ArTeC et le Rochester Institute of Technology (RIT). L’objectif est de maîtriser la gestion d’un projet créatif numérique au sein d’une équipe internationale en mettant en œuvre des méthodologies de communication numérique collaborative synchrones et asynchrones. |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2018 - 2019    | ##### **Jardiner les écosystèmes de connaissances** {.unnumbered}                                                                                                                                                                                                                                                                         |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire** : Développer des graines de connaissances                                                                                                                                                                                                                                                                         |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Séminaire de recherche** : Vie imaginaire et Intelligence artificielle                                                                                                                                                                                                                                                                  |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Hackathon** : Les Archives Nationales font leur Hackathon [[http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon]{.underline}](http://www.archives-nationales.culture.gouv.fr/les-archives-nationales-font-leur-hackathon)                                                                        |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Workshop** : Perspectives du livre numériques                                                                                                                                                                                                                                                                                           |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2017 - 2018    | ##### Valorisation des archives numériques {.unnumbered}                                                                                                                                                                                                                                                                                  |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire** : Conception de ressources pédagogiques pour les archives numériques [[https://valarnum.univ-paris8.fr/Atelier-CreaTIC]{.underline}](https://valarnum.univ-paris8.fr/Atelier-CreaTIC)                                                                                                                             |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Séminaire** : Valorisation pédagogique des archives numériques <https://valarnum.univ-paris8.fr/>                                                                                                                                                                                                                                       |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2016 - 2017    | ##### Créativité, reconstruction, proverbes {.unnumbered}                                                                                                                                                                                                                                                                                 |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Séminaire** : Créativité, reconstruction, proverbes, octobre à décembre 2016, Paris 8                                                                                                                                                                                                                                                   |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire** : Créativité, reconstruction, proverbes, 17 au 20 janvier 2017, Centre d’art D’Haïti, Port au Prince                                                                                                                                                                                                              |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | ##### Ontologie pour les statistiques {.unnumbered}                                                                                                                                                                                                                                                                                       |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire :** Ontologie pour le référencement des ressources pédagogique en statistiques [[https://ontostats.univ-paris8.fr/]{.underline}](https://ontostats.univ-paris8.fr/)                                                                                                                                                 |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | ##### Hyperurbains et smartcities {.unnumbered}                                                                                                                                                                                                                                                                                           |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire** : Conception de dispositifs numériques pour le voyage connecté                                                                                                                                                                                                                                                    |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2015 - 2016    | ##### Manuel de créativité {.unnumbered}                                                                                                                                                                                                                                                                                                  |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Séminaire** : Outils de créativité pour la reconstruction, 25, 26 juin 2015, Abbaye de Saint Riquier.                                                                                                                                                                                                                                   |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | ##### Proverbes et e-éducation {.unnumbered}                                                                                                                                                                                                                                                                                              |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Séminaire** : Apprendre par les proverbes, MSH Paris Nord, 26 janvier 2016                                                                                                                                                                                                                                                              |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire** : Conception de ressources pédagogiques numériques à partir de proverbes                                                                                                                                                                                                                                          |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2014 - 2015    | ##### Le livre post-numérique {.unnumbered}                                                                                                                                                                                                                                                                                               |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire** : Le livre post-numérique : création et édition collaborative scientifique                                                                                                                                                                                                                                        |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Conférence** : Livre post-numérique : historique, mutations et perspective, Fès, Maroc                                                                                                                                                                                                                                                  |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | ##### Archives en Italie {.unnumbered}                                                                                                                                                                                                                                                                                                    |
+|                |                                                                                                                                                                                                                                                                                                                                           |
+|                | **Atelier laboratoire** : Conception d’une base de donnée pour les humanités numériques                                                                                                                                                                                                                                                   |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Encadrement de mémoires de master {.unnumbered}
 
-###  {.unnumbered}
+Dans le cadre des Master du département Humanités numérique j’ai suivie les travaux d’une trentaine d’étudiants.
+
+#### Master 2 NET
+
+Dans cette formation, les étudiants produisent un mémoire considéré comme un premier travail de recherche.
+
+2018 - Hadjira Oumennor Makhaldi, À l’ère du numérique : Comment pourrait fonctionner l’agriculture du XXIe siècle ? 
+
+2017 - Gabrielle Godin : Théâtre et téléprésence : Enjeux de communication
+
+2016 - Caroline Avril, Scénographie Émotive : Interfacer les émotions
+
+2015 - Maxime Antremont, Abstractions numériques : Processus de création et négociation du sens dans la conception et l'usage d'artefacts numériques
+
+2014 - Yann Soubai, Espaces associatifs de création et de diffusion culturelles
+
+#### Master 2 THYP
+
+Dans cette formation, les étudiants produisent un rapport de stage.
+
+2016 - Asmae El Miloudi, Développement site web dynamique
+
+2016 - Xiaohe Cao, Développement d’une application HTML5 hors ligne
+
+2015 - Zineb Slaoui, Milliweb
+
+2015 - Karima Hajjari, Développement de modules pour une solution de place de marché sur internet
+
+2014 - Youcef Chahed, Etudes, Conception et Réalisation d’un Système Web 
+
+2014 - Firdaous Boumarsel, Rapport de stage de fin d'études ALBIANT-IT filiale du groupe BPCE
+
+2014 – Mohame, El Frihmat, Création d’une application de gestion Participation à la refonte du site web actuel
+
+2013 - Fahem Irantene, Réalisation d’une application centralisant les multiples opérations des différents départements de l’UPR IDF
+
+2013 - Nadir Gharzal, Participation à la mise en œuvre d’une application web : Accueil Client
+
+2013 - Halima Hammouda, Librairie onisep.fr
+
+2012 - Chaimae Alami Mchichi, Stage intégrateur e-CRM et réalisation de développements sur la plateforme Neolane
+
+2012 - Ala Aldin Atrash, Transforming GEVU Web application to mobile application using Adobe Flex
+
+2010 - Ahlem Abderrahmane, Rapport de stage, CapSanté
+
+2010 - Mehdi Touibi, Implémentation d’une application web 2.0 pour l’évaluation de l’activité politique des députés
+français au sein de l’Assemblée Nationale
+
+2009 - Bachar ALBOUZ, Rapport de stage Direct interactiv
+
+2009 -  Bachir Bouslougui, Navigateur Spatio-temporel
+
+2009 - Bargaoui Abderrahim, Plugin Firefox pour l’archivage de la poésie numérique
+
+2008 - Olloi Dede, Réalisation d’un monitoring des activités d’Outsourcing
+
+2008 - Aquil Ramzan, Développement d’un EDI éditeur et d’un guide shopping
+
+2007 - Rime Karout, Création de la deuxième version du CMS EasyPlay
+
+2007 - Karim Elhousny, Euro-Méditérranée Tours, Rapport de stage
+
+2007 - Ahmed Mohamed, Evolution du système d’information du musée du sport
+
+2007 - Hassen Boumaraf, Mise en place d’un intranet d’entreprise
+
+2006 - Mehdi Benzarti, Modélisation et conception d’une base de données et création des interfaces de saisies pour l’étude P2M
+
+2006 - Karima Kadri, Création d’un système d’information pour le contrôle de gestion aux Galeries Lafayette
+
+#### Master 2 Ergonomie
+
+Dans cette formation, les étudiants produisent un mémoire considéré comme un premier travail de recherche.
+
+2017 - Eléonore Gouttegata, L’ergonomie au service de la conception : un outil numérique pour favoriser la recherche en sciences humaines et sociales
+
+### Présentation des principaux enseignements
+
+Les cours que je donne depuis 2005 se font essentiellement à l’université Paris 8 dans le département Humanité numériques,
+anciennement Hypermédia, ce sont des cours en présentiels sauf depuis la pandémie de Covid où suivant la situation sanitaire je donne des cours à distance par visioconférence.
+Ce sont principalement des cours de Licence 3 professionnelle et de Master 1 et 2 qui s’adressent à un public en formation initiale
+venant de parcours très différents : information communication, informatique, sciences humaines, journalisme, graphisme…
+
+L’objectif pédagogique principal consiste à montrer que dans les métiers du numérique ces disciplines sont complémentaires et que leurs mise en pratique dans des projets en équipe permet de s’enrichir des compétences des uns et des autres. J’insiste beaucoup sur la nécessité de développer tout à la fois des compétences techniques, des points de vue théoriques et des pratiques collaboratives efficaces. Il me semble aussi très important de transmettre aux étudiants l’idée que l’apprentissage est une pratique continue surtout dans une domaine très évolutif comme celui du numérique et que les cours sont que les prémices d’un formation tout au long de la vie.
+
+Parallèlement à mes cours de Paris 8, tous les ans je donne un ou deux cours dans des établissements publics afin de m’enrichir d’ambiances, de pratiques et de public différents.
+
+#### **Département Humanités Numériques – Université Paris 8**
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Parcours                                                                                                                                                                      | Années         | Cours                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++===============================================================================================================================================================================+================+============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+| Master CEN (Création Edition Numérique)                                                                                                                                       | 2015 - 2016    | **Javascript pratique** (20H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <https://humanites-numeriques.univ-paris8.fr/-Masters-CEN->                                                                                                                   |                | Mise en pratique du Javascript par une pédagogie par projet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                               | 2013 - 2015    | **Atelier 3D** (40H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | Cours intensif pour la conception, la réalisation et la diffusion d’un dispositif Web 3D.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                               | 2009 - 2010    | Technique du Web : XML (40H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | Cours intensif pour la conception, la réalisation et la diffusion d’un dispositif Web 3D.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                               | 2009 - 2010    | **Accessibilité Web, internet, multi modalité, communication homme/machine** (40H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | Cours pour former les étudiants à la maîtrise des flux d’information et de communication dans un environnement Web                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Master 2 THYP (Technologie de l’HYPermédia)                                                                                                                                   | 2012 - Présent | **Langages du Web** (40H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| [[http://hypermed]{.underline}](http://hypermedia.univ-paris8.fr/formations/masterthypii/presentation/)<https://www.univ-paris8.fr/-Master-Technologies-de-l-Hypermedia-678-> |                | Explication des théories et mise en pratique des langages du WEB : html, javascript, Zend Framework, SVG, XML...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Master 2 AVUN (Analyse et Valorisation des Usages Numériques) jusqu'en 2022 puis Master 2 ACEHN (Analyses et Conception de Environnements Humains Numériques )                | 2014 - présent | **Ethique du web et écosystèmes d’information** (30H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <https://humanites-numeriques.univ-paris8.fr/-Master-ACEHN->                                                                                                                  |                | Cours pour sensibiliser les étudiants à la complexité de l’information-communication par une modélisation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                               |                | écosystémique suivant une problématique éthique.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Master 2 NET (Numérique : Enjeux, Technologies)                                                                                                                               | 2015 - 2017    | **Hyperurbain** (30H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <https://humanites-numeriques.univ-paris8.fr/-N-E-T->                                                                                                                         |                | Cours pour la conception collaborative de dispositifs numériques innovant dans le cadre de la ville connecté.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Licence Pro DWM (Design Web Mobile) anciennement CDNL (Création Développement Numérique en Ligne)                                                                             | 2010 - 2019    | **Rencontres média** (60H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | L’objectif de ce cours consiste à proposer à des étudiants en apprentissage, une vision théorique de leurs métiers par la rencontre avec des acteurs universitaires dans leur domaine. Savoir identifier les fondamentaux de la création numérique, analyse, synthèse. Élaborer et argumenter de manière critique des modèles théoriques et des recommandations pratiques. Analyser des contenus hypermédia (texte, image, son et vidéo).                                                                                                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                               | 2013 - 2019    | **Réalisation avancée en développement** (40H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | Ce cours présente les technologies pour concevoir et réaliser des dispositifs numériques en ligne, par exemple modéliser et intégrer des bases de données en appliquant une méthode de conception, connaître et savoir appliquer les règles d’accessibilité pour des pages Web, prendre en compte les balises sémantiques et les micro formats.                                                                                                                                                                                                                                                                                                                                            |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                               | 2013 - 2019    | **Perfectionnement outils et langages de base** (40H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | Ce cours forme les étudiants aux compétences suivantes :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | -   Gérer des formats, créer et produire de l’iconographie, traiter les images.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | -   Connaître les techniques de numérisation, d’optimisation de poids et de compression liés à la création, le traitement, la diffusion on/off line et l’archivage de l’image (2D fixe ou animée), du son et de la vidéo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | -   Rédiger des concepts créatifs en fonction du support choisi (presse, multimédia, spots, radio, TV, affiches,	jeux vidéo, …)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                               | 2013 - 2019    | **Atelier de projet collaboratif** (40H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | Dans ce cours nous accompagnement les étudiants dans la conception et la réalisation d’un projet numérique incluant : une note d’intention, un teaser vidéo, un site Web, une application mobile et un dossier de conception. Les étudiants devront rédiger un cahier des charges pour un projet hypermédia/TIC, savoir communiquer et collaborer avec les équipes de création et de développement, participer à la réalisation de projets innovants, mettre en œuvre ou appliquer une méthode de développement adaptée à un travail d’équipe, savoir réaliser une maquette fonctionnelle, argumenter et défendre un point de vue en réunion d’équipe, devant des clients, décideurs, etc. |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| DU Assistant en technologies numériques audiovisuelles                                                                                                                        | 2010 - 2015    | **Conception de site Web** (30H)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                               |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                               |                | Cours pour la conception collaborative d’édition numériques à partir de CMS et avec les technologie HTML, CSS,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                               |                | javascript.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+#### **Département Informatique – Université Paris 8**
+
++---------------------------------------+-------------+----------------------------------------------------------------+
+| Parcours                              | Années      | Cours                                                          |
++=======================================+=============+================================================================+
+| Licence Pro OCI (Objets Communicants  | 2013 - 2020 | **Gestion de projet** (30H)                                    |
+| Intelligents)                         |             |                                                                |
+|                                       |             | Ce cours prépare les étudiants à mieux gérer                   |
+|                                       |             | leurs projets par la mise en pratique de méthode et d’outils : |
+|                                       |             | Gantt, planning partagé, gestionnaire de code…                 |
++---------------------------------------+-------------+----------------------------------------------------------------+
+
+#### **CNAM – Bretagne**
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Parcours                                                                                                                                                    | Années         | Cours                                                                                                                                                                                        |
++=============================================================================================================================================================+================+==============================================================================================================================================================================================+
+| Certificat de spécialisation CS 61 : Innovations                                                                                                            | 2017 - présent | **Web sémantique pour chef de projet** (6H)                                                                                                                                                  |
+| territoriales, Politiques numériques et Open Data                                                                                                           |                |                                                                                                                                                                                              |
+|                                                                                                                                                             |                | L’objectif de ce cours à distance est de familiariser les étudiants au technologies du Web sémantique pour qu’ils puissent les appliquer dans le contexte de leur travail de chef de projet. |
+| <https://formation.cnam.fr/rechercher-par-discipline/certificat-de-specialisation-innovations-territoriales-politiques-numeriques-et-open-data-777352.kjsp> |                |                                                                                                                                                                                              |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+#### **Département Information Communication – IUT Paris Descartes**
+
++---------------------------------------------------------------------------------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Parcours                                                                                          | Années         | Cours                                                                                                                               |
++===================================================================================================+================+=====================================================================================================================================+
+| DU : Analyse Data science                                                                         | 2015 - présent | **Data visualisation** (4H)                                                                                                         |
+|                                                                                                   |                |                                                                                                                                     |
+| <https://iutparis-seine.u-paris.fr/metiers-de-la-data/diplome-duniversite-analyste-data-science/> |                | Cours pour la conception de visualisation interactives et dynamiques à partir de données provenant de l’Open Data.                  |
++---------------------------------------------------------------------------------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Licence Pro Métiers de la communication : chef                                                    | 2017 - 2018    | **Sémiologie** (24H)                                                                                                                |
+| de projet communication                                                                           |                |                                                                                                                                     |
+|                                                                                                   |                | Ce cours permet aux étudiants de découvrir les principes fondamentaux de la sémiologie et des les appliquer dans des cas pratiques. |
++---------------------------------------------------------------------------------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------------------+
+
+#### **Département Communication et Formation interculturelles - INALCO**
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Parcours                                                                                                                                                             | Années      | Cours                                                                                                                                                                 |
++======================================================================================================================================================================+=============+=======================================================================================================================================================================+
+| Master CFI (Communication et Formation                                                                                                                               | 2015 - 2017 | **Conception de site Web** (30H)                                                                                                                                      |
+| interculturelles)                                                                                                                                                    |             |                                                                                                                                                                       |
+|                                                                                                                                                                      |             | Ce cours permet aux étudiants de découvrir les langages de base du Web (HTML, CSS, Javascript) et de développer un premier site en utilisant un CMS (SPIP, Wordpress) |
+| [[http://www.inalco.fr/departement/communication-formation-interculturelles]{.underline}](http://www.inalco.fr/departement/communication-formation-interculturelles) |             |                                                                                                                                                                       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+#### **Département Science de L'information et de la Communication - Paris 13**
+
++----------------------------------------------------------+-------------+---------------------------------------------------------------+
+| Parcours                                                 | Années      | Cours                                                         |
++==========================================================+=============+===============================================================+
+| Master DIMI (Design d’interface multimédia et internet)  | 2012 - 2015 | **Algorithmique** (30H)                                       |
+|                                                          |             |                                                               |
+|                                                          |             | Ce cours permet aux étudiants de découvrir les                |
+|                                                          |             | règles de base de l’algorithmique et de développer un premier |
+|                                                          |             | programme en Javascript                                       |
++----------------------------------------------------------+-------------+---------------------------------------------------------------+
 
 ## Activités de recherche
 
