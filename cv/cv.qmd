@@ -685,6 +685,7 @@ Les enseignements que j’ai données se développent suivant trois axes complé
 
 ### Jurys
 
+#### **Membre de Jury de Master**
 En tant que responsable pédagogique j’organise et participe aux jurys de recrutement et de délivrance des diplômes :
 
 -   2018 - présent : Master 2 AVUN
@@ -1215,15 +1216,82 @@ Parallèlement à mes cours de Paris 8, tous les ans je donne un ou deux cours d
 |             | **Description** : Conception de statistiques pour GEVU                                                                                                                                                                                                         |
 +-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Participation à des réseaux et sociétés savantes
+### Participation à des activités d’expertise
+2020 - 2021 Soutien à la recherche-création pour la relève professorale, Canada.Décembre 2016, Digital Humanities 2017, Montreal, Canada
+
+2016 - 2017 Digital Humanities 2017
+Site Web en relation : https://dh2017.adho.org/
+
+2016 Colloque jeunes chercheurs de l’école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8
+Site Web en relation : http://cli2016.fr/comites.php
+
+2016 Langues, cultures et médias en Méditerranée
+Description : Langues, cultures et médias en Méditerranée : forme, sens et développement, Agadir, Maroc
+Site Web en relation : https://calenda.org/354696
+
+2016 AAP Interdisciplinaires Phase 2, Université de Nantes
+
+2015 Digital Humanities 2016
+Site Web en relation : http://dh2016.adho.org/
+
+2015 Colloque jeunes chercheurs de l’école doctorale CLI : Cognition, Langage, Interaction, Université Paris 8.
+Site Web en relation : http://cli2016.fr/comites.php
+
+2010 ANR Programme CONTENUS ET INTERACTIONS
 
 ### Participation à des comités de lecture, éditoriaux et scientifiques
+2015 - Présent Membre du comité scientifique de la revue Internet des Objets
+Description : ISTE Open Science
+Site Web en relation : http://www.openscience.fr/Internet-des-objets
+
+2015 - Présent Membre du comité de la collections « Outils et usages numériques »
+Cette collection d'ouvrage dirigée par Imad Saleh regroupe uen vingtaine de chercheurs qui travaillent sur les outils et les usages du numériques
+Site Web en relation : http://digitaluses.info/
+
+2017 - Présent Membre du comité éditorial de la Revue sur les langues de moindre diffusion
+Cette revue dirigée par Abderrezak Dourari traite des enjeux des langues de mondre diffusion notamment concernant les impacts du numérique.
+Site Web en relation : https://www.cnplet.dz/component/k2/item/313 
 
 ### Organisation de séminaires, congrès et colloques de portée nationale et internationale
 
-#### Organisation Journée d’étude {#sec-item299645 .unnumbered .o-Item_schema-Chapter}
+#### Création d’un colloque international IEEE
+- 2020 : Digital Tools & Uses – Congress, Hammamet - 15, 16 and 17 October 2020,  https://digitaluses-congress.univ-paris8.fr/ 
+- 2018 : Digital Tools & Uses – Congress, Paris - 3, 4 and 5 Octobre 2018, https://digitaluses-congress.univ-paris8.fr/?page=Paris-2018 
 
-##### 2011-04-04 - 2011-04-04 ***E-science*** {#sec-item299858 .unnumbered .o-Item_schema-Chapter}
+#### Membre d’un comité d'événement scientifiques
+- 2023 : H2PTM 2023, La fabrique du sens à l’ère de l’information numérique : enjeux et défis
+Localisation : Arenberg Creative Mine, Valenciennes, France
+Site Web en relation : http://h2ptm.univ-paris8.fr/
+
+- 2022 Colloque international - Existences collectives. Perspectives sémiotiques sur la sociabilité animale et humaine 
+20-21 octobre 2022, Université Paris 8 et Campus Condorcet
+<https://existencesco.sciencesconf.org/>
+
+- 2022 : 01 Design 12, Design Non-intentionel
+13, 14 et 15 octobre 2022, Kerkennah Islands, Tunisia.
+Site Web en relation : http://01design.eu/12/
+
+- 2021 : H2PTM 2021, Enjeux et nouveaux défis
+Localisation : Campus Condorcet Aubervilliers  
+
+- 2019 : Conférence H2PTM 2019, 16, 17 et 18 octobre 2019, Université de Franche-Comté, Montbéliard : De l’hypertexte aux humanités numériques http://h2ptm.univ-paris8.fr/OLD/h2ptm19/ 
+
+- 2017 : Conférence H2PTM 2017, 18, 19 et 20 octobre 2019, Valenciennes - Arenberg Creative Mine, Le numérique à l'ère des designs : de l’hypertexte à l’hyper-expérience  http://h2ptm.univ-paris8.fr/OLD/h2ptm17/ 
+
+- 2016 : 01 Design 10, 9 et 10 novembre 2016, Grenade, Espagne, http://01design.eu/10/ 
+
+- 2016 : Colloque international Frontières Numériques, 1 et 2 décembre 2016, Université de Toulon
+2016 : Journée nationale de l’Internet des objets, 29 Novembre 2016, Cité de l’Innovation, Nokia Paris-Saclay https://ido2016.sciencesconf.org/ 
+
+- 2015 : H2PTM, 14 au 16 octobre 2015, Paris, France, http://h2ptm.univ-paris8.fr/ 
+
+- 2014 : Colloque international Frontières Numériques, 18 et 19 novembre 2014, Fes, Maroc
+
+- 2014, 9th International Conference on Human System Learning Alternative Learning Systems, 11 – 13 juin 2014, Cotonou, Bénin 
+
+- 2013 : Conférence H2PTM 2013, 16, 17 et 18 octobre 2013, CNAM, Paris http://h2ptm.univ-paris8.fr/OLD/h2ptm13/ 
+
+- 2012 : Conférence 01 Design 08, 9, 10 et 11 mai 2012, Académie Royale des Beaux-Arts de Bruxelles, Belgique
 
 #### Organisation séminaires {#sec-item300720 .unnumbered .o-Item_dctype-Event}
 
@@ -1327,76 +1395,9 @@ CréaTIC
 
 **Localisation** : Université Paris 8, Saint-Denis, France
 
-### Participation à des instances d’expertise scientifique
 
-#### Membre d’un comité d'événement scientifiques {#sec-item299644 .unnumbered .o-Item_schema-Chapter}
 
-##### 2023-10-18 - 2023-10-20 ***H2PTM 2023*** {#sec-item299838 .unnumbered .o-Item_schema-Chapter}
 
-**Description** : La fabrique du sens à l’ère de l’information numérique : enjeux et défis
-
-**Localisation** : Arenberg Creative Mine, Valenciennes, France
-
-**Site Web en relation** : [http://h2ptm.univ-paris8.fr/](http://h2ptm.univ-paris8.fr/){target="_blank"}
-
-2022
-
-## Colloque international - Existences collectives. Perspectives sémiotiques sur la sociabilité animale et humaine 
-
-**Colloque international**\
-\
-20-21 octobre 2022\
-Université Paris 8 et Campus Condorcet
-
-<https://existencesco.sciencesconf.org/>
-
-##### 2019-10-16 - 2019-10-19 ***H2PTM 2019*** {#sec-item299842 .unnumbered .o-Item_schema-Chapter}
-
-**Description** : De l’hypertexte aux humanités numériques
-
-**Localisation** : Université de Franche-Comté, Montbéliard
-
-**Site Web en relation** : [http://h2ptm.univ-paris8.fr/OLD/h2ptm21/](http://h2ptm.univ-paris8.fr/OLD/h2ptm21/){target="_blank"}
-
-##### 2017-10-18 - 2017-10-20 ***H2PTM 2017*** {#sec-item299843 .unnumbered .o-Item_schema-Chapter}
-
-**Description** : Le numérique à l'ère des designs
-
-**Localisation** : Arenberg Creative Mine, Valenciennes, France
-
-**Site Web en relation** : [http://h2ptm.univ-paris8.fr/OLD/h2ptm19/](http://h2ptm.univ-paris8.fr/OLD/h2ptm19/){target="_blank"}
-
-##### 2016-11-09 - 2016-11-10 ***01 Design 10*** {#sec-item299844 .unnumbered .o-Item_schema-Chapter}
-
-**Localisation** : Grenade, Espagne
-
-**Site Web en relation** : [http://01design.eu/10/](http://01design.eu/10/){target="_blank"}
-
-##### 2016-12-01 - 2016-12-02 ***Frontières Numériques 3*** {#sec-item299845 .unnumbered .o-Item_schema-Chapter}
-
-**Localisation** : Université de Toulon
-
-##### 2016-11-29 - 2016-11-29 ***Journée nationale de l’Internet des objets*** {#sec-item299846 .unnumbered .o-Item_schema-Chapter}
-
-**Localisation** : Cité de l’Innovation, Nokia Paris-Saclay
-
-**Site Web en relation** : [https://ido2016.sciencesconf.org/](https://ido2016.sciencesconf.org/){target="_blank"}
-
-##### 2014-06-11 - 2014-06-13 ***9th HSLALS*** {#sec-item299849 .unnumbered .o-Item_schema-Chapter}
-
-**Description** : International Conference on Human System Learning Alternative Learning Systems
-
-**Localisation** : Cotonou, Bénin
-
-**Site Web en relation** : [http://www.ichsl.net/9/pc.htm](http://www.ichsl.net/9/pc.htm){target="_blank"}
-
-**Travail pour** : : [IDEFI CreaTIC](http://localhost/samszo/omk/s/fiches/item/299593){target="_blank"}
-
-##### 2012-05-08 - 2012-05-11 ***01 Design 08*** {#sec-item299851 .unnumbered .o-Item_schema-Chapter}
-
-**Localisation** : Académie Royale des Beaux-Arts de Bruxelles, Belgique
-
-**Site Web en relation** : [http://europia.org/edition/livres/cogn/01D8.htm](http://europia.org/edition/livres/cogn/01D8.htm){target="_blank"} :
 
 #### Membre de comité de sélection
 
