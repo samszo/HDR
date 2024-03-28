@@ -34,12 +34,12 @@ number-sections: true
 
 format: 
   html: 
-    theme: cosmo
+    theme: default
     css: styles.css
     toc: true
     toc-depth : 4
   pdf:
-    documentclass: scrreprt
+    documentclass: book
     toc: true
     toc-depth : 4
     template-partials:
@@ -136,6 +136,7 @@ Chercheur au Laboratoire Paragraphe (EA 349) - Equipe Dispositifs numériques : 
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 1993    | Licence d'Histoire de l'Art, Université Paris X Nanterre                                                                                                                                                                                    |
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+: {.striped .hover tbl-colwidths="[20,80]"}
 
 ## Parcours professionnels, Activités administratives & Charges collectives
 
@@ -160,6 +161,8 @@ Chercheur au Laboratoire Paragraphe (EA 349) - Equipe Dispositifs numériques : 
 +----------------+--------------------------------------------------------------------------------------------------------------------------------+
 | 2005 - 2006    | Conférencier, Université Paris 8, Département Hypermédias                                                                      |
 +----------------+--------------------------------------------------------------------------------------------------------------------------------+
+: {tbl-colwidths="[20,80]" .striped .hover}
+
 
 #### Carrière privée {.unnumbered}
 
@@ -174,6 +177,7 @@ Chercheur au Laboratoire Paragraphe (EA 349) - Equipe Dispositifs numériques : 
 +-------------+--------------------------------------------------------------------------------------------+
 | 1998 - 2000 | Analyste - chef de projet, MuldiMédiaDiffusion, Blois                                      |
 +-------------+--------------------------------------------------------------------------------------------+
+: {tbl-colwidths="[20,80]" .striped .hover}
 
 ### Activités administratives & Charges collectives
 
@@ -202,6 +206,7 @@ Chercheur au Laboratoire Paragraphe (EA 349) - Equipe Dispositifs numériques : 
 +----------------+---------------------------------------------------------------------------------------+
 | 2010 - 2019    | Responsable pédagogique Licence Pro DWM                                               |
 +----------------+---------------------------------------------------------------------------------------+
+: {tbl-colwidths="[20,80]" .striped .hover}
 
 ### Charges d’organisation de conférences & Rayonnement scientifique
 
