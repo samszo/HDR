@@ -39,12 +39,10 @@ number-sections: true
 format: 
   html: 
     theme: default
-    toc: true
-    toc-depth : 4
     search: true
-    repo-url: https://github.com/samszo/HDR
-    repo-actions: [edit]
-    downloads: [pdf]
+    toc: true
+    number-sections: true
+    number-depth: 4
     comments:
       hypothesis: true
   docx:
@@ -62,9 +60,7 @@ format:
 #    toc-depth : 4
 #    template-partials:
 #      - before-body.tex
-
-format: 
-   pdf: 
+  pdf: 
     documentclass: scrreprt
     pdfengine: xelatex
     papersize: A4    
@@ -77,16 +73,16 @@ format:
     toc-depth: 4
     toc-title: Table des matières
 #    include-in-header: before-body.tex   
-header-includes:
-  - \usepackage{fancyhdr}
-  - \usepackage{graphicx}
-  - \usepackage{eso-pic}
-  - \usepackage{tikz}
-  - \AtBeginDocument{\thispagestyle{empty}\begin{tikzpicture}[remember picture,overlay]
-          \node at (current page.south) [yshift=6cm] {\includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{images/Logo-P8.jpg}};
-          \node at (current page.center) [yshift=3.5cm] [anchor=north,yshift=-2cm] {\Huge\textbf{Dossier d’Habilitation à Diriger des Recherches}};
-          \node at (current page.south) [yshift=5cm] [anchor=north,yshift=-2cm] {\normalsize\textbf{Avril 2024}};
-          \end{tikzpicture}\clearpage}
+# header-includes:
+#   - \usepackage{fancyhdr}
+#   - \usepackage{graphicx}
+#   - \usepackage{eso-pic}
+#   - \usepackage{tikz}
+#   - \AtBeginDocument{\thispagestyle{empty}\begin{tikzpicture}[remember picture,overlay]
+#           \node at (current page.south) [yshift=6cm] {\includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{images/Logo-P8.jpg}};
+#           \node at (current page.center) [yshift=3.5cm] [anchor=north,yshift=-2cm] {\Huge\textbf{Dossier d’Habilitation à Diriger des Recherches}};
+#           \node at (current page.south) [yshift=5cm] [anchor=north,yshift=-2cm] {\normalsize\textbf{Avril 2024}};
+#           \end{tikzpicture}\clearpage}
 ---
 
 ```{=tex}
