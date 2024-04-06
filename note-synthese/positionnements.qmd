@@ -200,7 +200,7 @@ A partir du processus de veille que nous venons de décrire, j'ai constitué une
 
 ![Répartition des classes par nombre d'objet dans l'écosystème](media/100000010000023E0000017E87A6A293BEC71C5E.png){#fig-repartitionClass width="11.09cm" height="7.378cm"}
 
-Le graphique montre que les deux tiers des objets dans l'écosystème sont des annotations (61 120 = 60 %) qui créent un rapport entre un document, un actant et un concept. Nous retrouvons ici le 4 dimensions du modèle que nous utilisons pour modéliser les connaissances (@sec-modeleOntoEthique) : document, actant, concept, rapport. Plus précisément, la dimension physique (documentaire) est composée essentiellement de pages Web (19 491 items = 19 %[^positionnements-17]), des citations (8 994 = 9 %), de médias (3 427 = 3 %), des notes (1 488 = 1 %) et des livres (568 = 1 %) issues de notre processus de veille. Les autres dimensions de l'écosystème sont les concepts (6 266 = 6 %) et les personnes (1 885 2 %) associées aux actants (500 = 0,5 %). Le graphique ci-dessous montre cette répartition des objets suivant les dimension existentielles :
+Le graphique montre que les deux tiers des objets dans l'écosystème sont des annotations (61 120 = 60 %) qui créent un rapport entre un document, un actant et un concept. Nous retrouvons ici le 4 dimensions du modèle que nous utilisons pour modéliser les connaissances (@sec-modeleOntoEthique) : document, actant, concept, rapport. Plus précisément, la dimension physique (documentaire) est composée essentiellement de pages Web (19 491 items = 19 %[^positionnements-17]), des citations (8 994 = 9 %), de médias (3 427 = 3 %), des notes (1 488 = 1 %) et des livres (568 = 1 %) issues de notre processus de veille. Les autres dimensions de l'écosystème sont les concepts (6 266 = 6 %) et les personnes (1 898 2 %) associées aux actants (500 = 0,5 %). Le graphique ci-dessous montre cette répartition des objets suivant les dimension existentielles :
 
 [^positionnements-17]:
     > Liste complète des pages Web : <https://bit.ly/3Qj1NRm>
@@ -213,8 +213,6 @@ Cette représentation suivant la classe des objets sous estime la complexité de
 
 Ce graphique montre que la complexité des existences est très diverse puisqu'elle s'établit entre 1 et presque 3 Millions, de même concernant le nombre d'existence ayant la même complexité qui oscille entre 1 et plus de 10 mille. Une analyse des répartitions suivant le type de ressource omeka (media, item, collection, annotation) montre que les ressources les moins complexes sont les médias avec une complexité inférieure à 12 et les plus complexes sont bien évidemment les collections car elles cumulent les complexités des ressources qui la compose.
 
-Il reste encore de nombreuses travaux de recherche à faire sur cet écosystème de connaissances, ces évolutions et les moyens de les modéliser et de les analyser. Le chapitre suivant donne un exemple de ce type de travaux en analysant les actants de l'écosystème.
+Il reste encore de nombreuses travaux de recherche à faire sur cet écosystème de connaissances, ces évolutions,les moyens de les modéliser et de les analyser. Le chapitre suivant donne un exemple de ce type de travaux en analysant les personnes présente dans l'écosystème.
 
-## Analyse qualitative des actants de l'écosytème
-
-##
+## Analyse qualitative des personnes de l'écosytème
