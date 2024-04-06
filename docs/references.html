@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -65,7 +65,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -74,11 +80,18 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -86,17 +99,16 @@ div.csl-indent {
 
 <body class="nav-sidebar floating">
 
-
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -106,7 +118,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Habilitation à Diriger des Recherches : Modélisation des écosystèmes de connaissances pour une écologie de l’information et de la communication</a> 
@@ -127,20 +139,26 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Summary</span></a>
+  <a href="./remerciements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Remerciements</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction générale</span></a>
+  <a href="./avantpropos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Avant-propos</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction générale : Cartographie d’un milieu de connaissances</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./cartoConnaissances.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cartographie d'un milieu de connaissances</span></a>
+ <span class="menu-text">Introduction générale : Cartographie d'un milieu de connaissances</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -149,31 +167,31 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./principesCarto.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Principes de cartographie des connaissances</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Principes de cartographie des connaissances</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./positionnements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Positionnements</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Positionnements</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./visees.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visées scientifiques&nbsp;: échelles d’exploration et axes directionnels</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Perspectives scientifiques&nbsp;: échelles d’exploration et axes d’expérimentation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./frayages.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Frayages intellectuels&nbsp;: les étapes d’une pensée</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Frayages intellectuels&nbsp;: les étapes d’une pensée</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./resultats.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Rappel des résultats</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Rappel des résultats</span></span></a>
   </div>
 </li>
       </ul>
@@ -190,13 +208,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./etatArtEpistemo.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Etat de l’art épistémologique</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Etat de l’art épistémologique</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./problemesErgo.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Problématiques ergonomiques</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Problématiques ergonomiques</span></span></a>
   </div>
 </li>
       </ul>
@@ -213,13 +231,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./etatArtTI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Etat de l’art</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Etat de l’art</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./realisations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Réalisations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réalisations</span></span></a>
   </div>
 </li>
       </ul>
@@ -236,25 +254,25 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./analyserOntoEthique.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Analyser l’onto-éthique des objets connectés</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Analyser l’onto-éthique des objets connectés</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./capterGout.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Capter le choix des goûts véritables</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Capter le choix des goûts véritables</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./developper.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Développer des outils pour cartographier les connaissances</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Développer des outils pour cartographier les connaissances</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./diffuser.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Diffuser le modèle écosystèmique onto-éthique</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Diffuser le modèle écosystèmique onto-éthique</span></span></a>
   </div>
 </li>
       </ul>
@@ -268,7 +286,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -291,521 +309,527 @@ div.csl-indent {
   </div>
   
 
+
 </header>
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-aït-touati2019" class="csl-entry" role="listitem">
-Aït-Touati, Frédérique, Alexandra Arènes, and Axelle Grégoire. 2019.
-<em>Terra forma : manuel de cartographies potentielles</em>. Paris:
-Éditions B42.
+Aït-Touati, F., Arènes, A., &amp; Grégoire, A. (2019). <em>Terra forma :
+manuel de cartographies potentielles</em>. Paris: Éditions B42.
 </div>
 <div id="ref-amato2013" class="csl-entry" role="listitem">
-Amato, Armand Etienne, and Étienne Perény. 2013. <em>Les avatars
-jouables des mondes numériques&nbsp;: Théories, terrains et témoignages de
-pratiques interactives</em>. Lavoisier.
+Amato, A. E., &amp; Perény, É. (2013). <em>Les avatars jouables des
+mondes numériques&nbsp;: Théories, terrains et témoignages de pratiques
+interactives</em>. Lavoisier.
 </div>
 <div id="ref-andro2022" class="csl-entry" role="listitem">
-Andro, Mathieu, Jérôme Bondu, Corinne Dupin, and Christophe Deschamps.
-2022. <span>“Un état de l<span>’</span>art des plateformes de veille en
-France via une grande enquête-panorama&nbsp;: enjeux, méthode et
-objectifs.”</span> <em>I2D - Information, données &amp; documents</em> 2
-(2): 8–14. <a href="https://doi.org/10.3917/i2d.222.0008">https://doi.org/10.3917/i2d.222.0008</a>.
+Andro, M., Bondu, J., Dupin, C., &amp; Deschamps, C. (2022). Un état de
+l<span>’</span>art des plateformes de veille en France via une grande
+enquête-panorama&nbsp;: enjeux, méthode et objectifs. <em>I2D - Information,
+données &amp; documents</em>, <em>2</em>(2), 8–14. Retrieved from <a href="https://www.cairn.info/revue-i2d-information-donnees-et-documents-2022-2-page-8.htm">https://www.cairn.info/revue-i2d-information-donnees-et-documents-2022-2-page-8.htm</a>
 </div>
 <div id="ref-andry2022" class="csl-entry" role="listitem">
-Andry, Tiffany, Suzanne Kieffer, and François Lambotte. 2022. <em>Les
-fondamentaux de la visualisation de données</em>. <a href="https://dial.uclouvain.be/pr/boreal/object/boreal:255906">https://dial.uclouvain.be/pr/boreal/object/boreal:255906</a>.
+Andry, T., Kieffer, S., &amp; Lambotte, F. (2022). <em>Les fondamentaux
+de la visualisation de données</em>. Retrieved from <a href="https://dial.uclouvain.be/pr/boreal/object/boreal:255906">https://dial.uclouvain.be/pr/boreal/object/boreal:255906</a>
 </div>
 <div id="ref-bachimont2020" class="csl-entry" role="listitem">
-Bachimont, Bruno. 2020. <span>“Manifeste pour l’intelligibilité du
-numérique.”</span> <em>Revue Intelligibilité du numérique</em>, March.
-<a href="https://intelligibilite-numerique.numerev.com/manifeste">https://intelligibilite-numerique.numerev.com/manifeste</a>.
-</div>
-<div id="ref-bachimont2007" class="csl-entry" role="listitem">
-Bachimont, Bruno. 2007. <em>Ingénierie Des Connaissances Et Des Contenus
-: Le Numérique Entre Ontologies Et Documents</em>. Science Informatique
-Et SHS. Paris: Hermes science publications.
+Bachimont, B. (2020). Manifeste pour l’intelligibilité du numérique.
+<em>Revue Intelligibilité du numérique</em>. Retrieved from <a href="https://intelligibilite-numerique.numerev.com/manifeste">https://intelligibilite-numerique.numerev.com/manifeste</a>
 </div>
 <div id="ref-bachimont2011" class="csl-entry" role="listitem">
-Bachimont, Bruno, Fabien Gandon, Gautier Poupeau, Bernard Vatant,
-Raphaël Troncy, Stéphane Pouyllau, Ruth Martinez, Michèle Battisti, and
-Manuel Zacklad. 2011. <span>“Enjeux et technologies : des données au
-sens.”</span> <em>Documentaliste-Sciences de l’Information</em> 48 (4):
-24–41. <a href="https://doi.org/10.3917/docsi.484.0024">https://doi.org/10.3917/docsi.484.0024</a>.
+Bachimont, B., Gandon, F., Poupeau, G., Vatant, B., Troncy, R.,
+Pouyllau, S., Martinez, R., et al. (2011). Enjeux et technologies : des
+données au sens. <em>Documentaliste-Sciences de l’Information</em>,
+<em>48</em>(4), 24–41. Retrieved from <a href="http://www.cairn.info/article.php?ID_ARTICLE=DOCSI_484_0024">http://www.cairn.info/article.php?ID_ARTICLE=DOCSI_484_0024</a>
+</div>
+<div id="ref-bachimont2007" class="csl-entry" role="listitem">
+Bachimont, Bruno. (2007). <em>Ingénierie des connaissances et des
+contenus : Le numérique entre ontologies et documents</em>. Science
+informatique et SHS. Paris: Hermes science publications.
 </div>
 <div id="ref-badiou2018" class="csl-entry" role="listitem">
-Badiou, Alain. 2018. <em>L’immanence des vérités</em>. L’être et
+Badiou, A. (2018). <em>L’immanence des vérités</em>. L’être et
 l’événement , 3; Ouvertures.
 </div>
 <div id="ref-balpe1996" class="csl-entry" role="listitem">
-Balpe, Jean-Pierre, Imad Saleh, and Alain Lelu. 1996. <em>Techniques
-avancées pour l’hypertexte</em>. Paris: Hermès.
+Balpe, J.-P., Saleh, I., &amp; Lelu, A. (1996). <em>Techniques avancées
+pour l’hypertexte</em>. Paris: Hermès.
 </div>
 <div id="ref-bastian2009" class="csl-entry" role="listitem">
-Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. 2009.
-<span>“Gephi : An Open Source Software for Exploring and Manipulating
-Networks,”</span> International AAAI Conference on Weblogs and Social
-Media,. <a href="https://gephi.org/publications/gephi-bastian-feb09.pdf">https://gephi.org/publications/gephi-bastian-feb09.pdf</a>.
+Bastian, M., Heymann, S., &amp; Jacomy, M. (2009). Gephi : An Open
+Source Software for Exploring and Manipulating Networks. International
+AAAI Conference on Weblogs and Social Media. Retrieved from <a href="https://gephi.org/publications/gephi-bastian-feb09.pdf">https://gephi.org/publications/gephi-bastian-feb09.pdf</a>
 </div>
 <div id="ref-bautier2016" class="csl-entry" role="listitem">
-Bautier, Roger. 2016. <span>“Un principium équivoque pour les sciences
-de l<span>’</span>information et de la communication ?”</span>
-<em>Questions de communication</em>, no. 29 (June): 145–58. <a href="https://doi.org/10.4000/questionsdecommunication.10442">https://doi.org/10.4000/questionsdecommunication.10442</a>.
+Bautier, R. (2016). Un principium équivoque pour les sciences de
+l<span>’</span>information et de la communication ? <em>Questions de
+communication</em>, (29), 145–158. Retrieved from <a href="http://journals.openedition.org/questionsdecommunication/10442">http://journals.openedition.org/questionsdecommunication/10442</a>
 </div>
 <div id="ref-béguin2017" class="csl-entry" role="listitem">
-Béguin, Michèle, and Denise Pumain. 2017. <em>La représentation des
-données géographiques. Statistique et cartographie</em>. Vol. 4e éd.
-Cursus. Paris: Armand Colin. <a href="https://www.cairn.info/la-representation-des-donnees-geographiques--9782200617820.htm">https://www.cairn.info/la-representation-des-donnees-geographiques--9782200617820.htm</a>.
+Béguin, M., &amp; Pumain, D. (2017). <em>La représentation des données
+géographiques. Statistique et cartographie</em>. Cursus (Vol. 4e éd.).
+Paris: Armand Colin. Retrieved from <a href="https://www.cairn.info/la-representation-des-donnees-geographiques--9782200617820.htm">https://www.cairn.info/la-representation-des-donnees-geographiques--9782200617820.htm</a>
 </div>
 <div id="ref-belmandt1993" class="csl-entry" role="listitem">
-Belmandt, Z. 1993. <em>Manuel de Prétopologie Et Ses Applications.
-Sciences Humaines Et Sociales, Réseaux, Jeux, Reconnaissance Des Formes,
-Processus Et Modèles, Classification, Imagerie, Mathématiques</em>.
+Belmandt, Z. (1993). <em>Manuel de prétopologie et ses applications.
+Sciences humaines et sociales, réseaux, jeux, reconnaissance des formes,
+processus et modèles, classification, imagerie, mathématiques</em>.
 Paris: Hermes Science Publications.
 </div>
 <div id="ref-beretta2023" class="csl-entry" role="listitem">
-Beretta, Francesco. 2023. <span>“Données ouvertes liées et recherche
-historique : un changement de paradigme.”</span> <em>Humanités
-numériques</em>, no. 7 (July). <a href="https://doi.org/10.4000/revuehn.3349">https://doi.org/10.4000/revuehn.3349</a>.
+Beretta, F. (2023). Données ouvertes liées et recherche historique : un
+changement de paradigme. <em>Humanités numériques</em>, (7). Retrieved
+from <a href="https://journals.openedition.org/revuehn/3349">https://journals.openedition.org/revuehn/3349</a>
 </div>
 <div id="ref-berque2009" class="csl-entry" role="listitem">
-Berque, Augustin. 2009a. <em>Ecoumène : Introduction à l’étude Des
-Milieux Humains</em>. Belin.
+Berque, A. (2009a). <em>Ecoumène : Introduction à l’étude des milieux
+humains</em>. Belin.
 </div>
 <div id="ref-berque2009a" class="csl-entry" role="listitem">
-———. 2009b. <em>Ecoumène : Introduction à l’étude Des Milieux
-Humains</em>. Belin.
+Berque, A. (2009b). <em>Ecoumène : Introduction à l’étude des milieux
+humains</em>. Belin.
 </div>
 <div id="ref-bertin1999" class="csl-entry" role="listitem">
-Bertin, Jacques. 1999. <em>Sémiologie Graphique Les Diagrammes, Les
-Réseaux, Les Cartes</em>. Paris: Ed. de l’EHESS.
+Bertin, J. (1999). <em>Sémiologie graphique les diagrammes, les réseaux,
+les cartes</em>. Paris: Ed. de l’EHESS.
 </div>
 <div id="ref-bourassa2019" class="csl-entry" role="listitem">
-Bourassa, Renée, Jean-Marc Larrue, Gabrielle Godin, and Samuel
-Szoniecky. 2019. <span>“Espace Liminaire de l<span>’</span>authenticité
-: Une Démarche d<span>’</span>humanités Numériques.”</span> In, 126–44.
-ISTE Editions.
+Bourassa, R., Larrue, J.-M., Godin, G., &amp; Szoniecky, S. (2019).
+Espace liminaire de l<span>’</span>authenticité : Une démarche
+d<span>’</span>humanités numériques (pp. 126–144). ISTE Editions.
 </div>
 <div id="ref-brandt2021" class="csl-entry" role="listitem">
-Brandt, Per Aage. 2021. <span>“De la chorématique. Les dynamiques de
-l<span>’</span>espace vécu.”</span> <em>Revista Acta Semiotica</em>,
-May. <a href="https://doi.org/10.23925/2763-700X.2021n1.54163">https://doi.org/10.23925/2763-700X.2021n1.54163</a>.
+Brandt, P. A. (2021). De la chorématique. Les dynamiques de
+l<span>’</span>espace vécu. <em>Revista Acta Semiotica</em>. Retrieved
+from <a href="https://revistas.pucsp.br/index.php/actasemiotica/article/view/54143">https://revistas.pucsp.br/index.php/actasemiotica/article/view/54143</a>
 </div>
 <div id="ref-broudoux2012" class="csl-entry" role="listitem">
-Broudoux, Evelyne, Claire François, Besagni Dominique, Fabry Cécilia,
-and Roussel Clotilde. 2012. <span>“Références Scientifiques En Ligne :
-Folksonomies Et Activité Des Groupes,”</span> April. <a href="http://archivesic.ccsd.cnrs.fr/sic_00713487">http://archivesic.ccsd.cnrs.fr/sic_00713487</a>.
+Broudoux, E., François, C., Dominique, B., Cécilia, F., &amp; Clotilde,
+R. (2012). Références scientifiques en ligne : Folksonomies et activité
+des groupes. Retrieved from <a href="http://archivesic.ccsd.cnrs.fr/sic_00713487">http://archivesic.ccsd.cnrs.fr/sic_00713487</a>
 </div>
 <div id="ref-callon2013" class="csl-entry" role="listitem">
-Callon, Michel. 2013. <span>“Quatre Modèles Pour Décrire La Dynamique de
-La Science.”</span> In, edited by Madeleine Akrich and Bruno Latour,
-201–51. Sciences Sociales. Paris: Presses des Mines. <a href="http://books.openedition.org/pressesmines/1199">http://books.openedition.org/pressesmines/1199</a>.
+Callon, M. (2013). Quatre modèles pour décrire la dynamique de la
+science. In M. Akrich &amp; B. Latour (Eds.), Sciences sociales (pp.
+201–251). Paris: Presses des Mines. Retrieved from <a href="http://books.openedition.org/pressesmines/1199">http://books.openedition.org/pressesmines/1199</a>
 </div>
 <div id="ref-cardon2015" class="csl-entry" role="listitem">
-Cardon, Dominique. 2015. <span>“Conclusion. La route et le
-paysage.”</span> In, 105–6. La République des idées. Paris: Le Seuil. <a href="https://www.cairn.info/a-quoi-revent-les-algorithmes--9782021279962-p-105.htm">https://www.cairn.info/a-quoi-revent-les-algorithmes--9782021279962-p-105.htm</a>.
+Cardon, D. (2015). Conclusion. La route et le paysage. La République des
+idées (pp. 105–106). Paris: Le Seuil. Retrieved from <a href="https://www.cairn.info/a-quoi-revent-les-algorithmes--9782021279962-p-105.htm">https://www.cairn.info/a-quoi-revent-les-algorithmes--9782021279962-p-105.htm</a>
 </div>
 <div id="ref-cavalin2017" class="csl-entry" role="listitem">
-Cavalin, Tangi. 2017. <span>“Le Centre Thomas More : genèse et
-enjeux.”</span> <em>Archives de sciences sociales des religions</em>,
-no. 180 (December): 19–34. <a href="https://doi.org/10.4000/assr.29717">https://doi.org/10.4000/assr.29717</a>.
+Cavalin, T. (2017). Le Centre Thomas More : genèse et enjeux.
+<em>Archives de sciences sociales des religions</em>, (180), 19–34.
+Retrieved from <a href="https://journals.openedition.org/assr/29717">https://journals.openedition.org/assr/29717</a>
 </div>
 <div id="ref-chardin1997" class="csl-entry" role="listitem">
-Chardin, Pierre Teilhard de, and Fernande Tardivel. 1997. <em>Hymne de
+Chardin, P. T. de, &amp; Tardivel, F. (1997). <em>Hymne de
 l’univers</em>. Seuil.
 </div>
+<div id="ref-citton2008" class="csl-entry" role="listitem">
+Citton, Y. (2008a). Entre l’économie psychique de spinoza et
+l’inter-psychologie économique de tarde (pp. 45–68). Paris: Éd.
+Amsterdam.
+</div>
 <div id="ref-citton2008a" class="csl-entry" role="listitem">
-Citton, Yves. 2008. <span>“Les Lois de l’imitation Des Affects.”</span>
-In, 69–102. Paris: Éd. Amsterdam.
+Citton, Y. (2008b). Les lois de l’imitation des affects (pp. 69–102).
+Paris: Éd. Amsterdam.
 </div>
 <div id="ref-citton2010" class="csl-entry" role="listitem">
-———. 2010. <span>“Biennale d<span>’</span>art Contemporain, Ateliers de
-Rennes.”</span> In, p.114–121. éd. Raphaëlle Jeune. <a href="http://www.lesateliersderennes.fr/sites/default/files/media/cequivientdenous.pdf">http://www.lesateliersderennes.fr/sites/default/files/media/cequivientdenous.pdf</a>.
+Citton, Y. (2010). Biennale d<span>’</span>art contemporain, ateliers de
+rennes (pp. p.114–121). éd. Raphaëlle Jeune. Retrieved from <a href="http://www.lesateliersderennes.fr/sites/default/files/media/cequivientdenous.pdf">http://www.lesateliersderennes.fr/sites/default/files/media/cequivientdenous.pdf</a>
 </div>
 <div id="ref-citton2008b" class="csl-entry" role="listitem">
-Citton, Yves, and Frédéric Lordon. 2008. <span>“Un Devenir Spinoziste de
-Sciences Sociales ?”</span> In, 15–44. Paris: Éd. Amsterdam.
+Citton, Y., &amp; Lordon, F. (2008). Un devenir spinoziste de sciences
+sociales ? (pp. 15–44). Paris: Éd. Amsterdam.
 </div>
 <div id="ref-clément2021" class="csl-entry" role="listitem">
-Clément, Evelyne. 2021. <em>La Flexibilité Cognitive: Pierre Angulaire
-de l’apprentissage</em>. ISTE éditions.
+Clément, E. (2021). <em>La flexibilité cognitive: Pierre angulaire de
+l’apprentissage</em>. ISTE éditions.
 </div>
 <div id="ref-comte-sponville1998" class="csl-entry" role="listitem">
-Comte-Sponville, André. 1998. <span>“3. Qu’est-ce que le matérialisme
-?”</span> <em>Une éducation philosophique</em>, Perspectives critiques,
-7e éd.: 86–111. <a href="https://www.cairn.info/education-philosophique--9782130458975-page-86.htm">https://www.cairn.info/education-philosophique--9782130458975-page-86.htm</a>.
+Comte-Sponville, A. (1998). 3. Qu’est-ce que le matérialisme ? <em>Une
+éducation philosophique</em>, Perspectives critiques, <em>7e éd.</em>,
+86–111. Retrieved from <a href="https://www.cairn.info/education-philosophique--9782130458975-page-86.htm">https://www.cairn.info/education-philosophique--9782130458975-page-86.htm</a>
 </div>
 <div id="ref-coumet2020" class="csl-entry" role="listitem">
-Coumet, Ernest. 2020. <span>“Sur l<span>’</span>histoire des diagrammes
-logiques, «&nbsp;figures géometriques&nbsp;».”</span> In, edited by Sophie Roux
-and Thierry Martin, 381–408. Sciences : concepts et problèmes. Besançon:
-Presses universitaires de Franche-Comté. <a href="http://books.openedition.org/pufc/13838">http://books.openedition.org/pufc/13838</a>.
+Coumet, E. (2020). Sur l<span>’</span>histoire des diagrammes logiques,
+«&nbsp;figures géometriques&nbsp;». In S. Roux &amp; T. Martin (Eds.), Sciences :
+concepts et problèmes (pp. 381–408). Besançon: Presses universitaires de
+Franche-Comté. Retrieved from <a href="http://books.openedition.org/pufc/13838">http://books.openedition.org/pufc/13838</a>
 </div>
 <div id="ref-dalud-vincent2017" class="csl-entry" role="listitem">
-Dalud-Vincent, Monique. 2017. <span>“Une autre manière de modéliser les
-réseaux sociaux. Applications à l<span>’</span>étude de
-co-publications.”</span> <em>Nouvelles perspectives en sciences
-sociales</em> 12 (2): 41–68. <a href="https://doi.org/10.7202/1040904ar">https://doi.org/10.7202/1040904ar</a>.
+Dalud-Vincent, M. (2017). Une autre manière de modéliser les réseaux
+sociaux. Applications à l<span>’</span>étude de co-publications.
+<em>Nouvelles perspectives en sciences sociales</em>, <em>12</em>(2),
+41–68. Retrieved from <a href="https://www.erudit.org/fr/revues/npss/2009-v4-n2-npss03175/1040904ar/">https://www.erudit.org/fr/revues/npss/2009-v4-n2-npss03175/1040904ar/</a>
+</div>
+<div id="ref-debaise2021" class="csl-entry" role="listitem">
+Debaise, D., &amp; Stengers, I. (2021). Résister à
+l<span>’</span>amincissement du monde. <em>Multitudes</em>,
+<em>85</em>(4), 129–137. Retrieved from <a href="https://www.cairn.info/revue-multitudes-2021-4-page-129.htm">https://www.cairn.info/revue-multitudes-2021-4-page-129.htm</a>
 </div>
 <div id="ref-deleuze1968" class="csl-entry" role="listitem">
-Deleuze, Gilles. 1968. <em>Spinoza Et Le Problème de l’expression</em>.
-Arguments (Éditions de Minuit. Paris: Éditions de Minuit.
+Deleuze, G. (1968). <em>Spinoza et le problème de l’expression</em>.
+Arguments (éditions de minuit. Paris: Éditions de Minuit.
 </div>
 <div id="ref-deleuze1981" class="csl-entry" role="listitem">
-———. 1981. <span>“La Voix de Gilles Deleuze : 12- 17/03/81 - 1.”</span>
-<a href="http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151">http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151</a>.
+Deleuze, G. (1981, March 17). La voix de gilles deleuze : 12- 17/03/81 -
+1. Retrieved from <a href="http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151">http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151</a>
 </div>
 <div id="ref-deleuze1988" class="csl-entry" role="listitem">
-———. 1988. <em>Le Pli</em>. Editions de Minuit.
+Deleuze, G. (1988). <em>Le pli</em>. Editions de Minuit.
 </div>
 <div id="ref-deleuze2003" class="csl-entry" role="listitem">
-———. 2003. <em>Spinoza. : Philosophie Pratique</em>. [Nouv. éd.].
-Editions de Minuit.
+Deleuze, G. (2003). <em>Spinoza. : Philosophie pratique</em> ([Nouv.
+éd.].). Editions de Minuit.
 </div>
 <div id="ref-deleuze1980" class="csl-entry" role="listitem">
-Deleuze, Gilles., and Félix. Guattari. 1980. <em>Mille Plateaux</em>.
-Paris: Éditions de minuit.
+Deleuze, Gilles., &amp; Guattari, Félix. (1980). <em>Mille
+plateaux</em>. Paris: Éditions de minuit.
 </div>
 <div id="ref-derrida1997" class="csl-entry" role="listitem">
-Derrida, Jacques. 1997. <em>Chora l Works: Jacques Derrida and Peter
-Eisenman</em>. Monacelli Press.
+Derrida, J. (1997). <em>Chora l works: Jacques derrida and peter
+eisenman</em>. Monacelli Press.
 </div>
 <div id="ref-descola2006" class="csl-entry" role="listitem">
-Descola, Philippe. 2006. <span>“La Fabrique Des Images.”</span>
-<em>Anthropologie Et Sociétés</em> 30 (3): 167–82. <a href="http://id.erudit.org/iderudit/014932ar">http://id.erudit.org/iderudit/014932ar</a>.
+Descola, P. (2006). La fabrique des images. <em>Anthropologie et
+Sociétés</em>, <em>30</em>(3), 167–182. Retrieved from <a href="http://id.erudit.org/iderudit/014932ar">http://id.erudit.org/iderudit/014932ar</a>
 </div>
 <div id="ref-descola2005" class="csl-entry" role="listitem">
-Descola, Philippe. 2005. <em>Par-Delà Nature Et Culture</em>. Paris: NRF
-: Gallimard.
+Descola, Philippe. (2005). <em>Par-delà nature et culture</em>. Paris:
+NRF : Gallimard.
 </div>
 <div id="ref-desfrichesdoria2021" class="csl-entry" role="listitem">
-Desfriches Doria, Orélie, and Jean-Marc Meunier. 2021a. <span>“Eduquer à
-l’esprit critique avec Opelmika - Entre <span>"</span>habitus
-numérique<span>"</span> et mobilisation des émotions.”</span> In,
-112–24. Campus Condorcet Paris-Aubervilliers.
+Desfriches Doria, O., &amp; Meunier, J.-M. (2021a). Eduquer à l’esprit
+critique avec Opelmika - Entre <span>"</span>habitus
+numérique<span>"</span> et mobilisation des émotions (pp. 112–124).
+Campus Condorcet Paris-Aubervilliers.
 </div>
 <div id="ref-desfrichesdoria2021a" class="csl-entry" role="listitem">
-———. 2021b. <span>“Eduquer à l’esprit critique avec Polemika - Entre
-<span>"</span>habitus numérique<span>"</span> et mobilisation des
-émotions.”</span> In, 112–24. Campus Condorcet Paris-Aubervilliers.
+Desfriches Doria, O., &amp; Meunier, J.-M. (2021b). Eduquer à l’esprit
+critique avec Polemika - Entre <span>"</span>habitus
+numérique<span>"</span> et mobilisation des émotions (pp. 112–124).
+Campus Condorcet Paris-Aubervilliers.
 </div>
 <div id="ref-deuff2012" class="csl-entry" role="listitem">
-Deuff, Olivier Le. 2012. <span>“Le réseau personnel de gestion des
-connaissances et la redéfinition du travail.”</span> <em>Terminal.
-Technologie de l’information, culture &amp; société</em>, no. 110
-(April): 39–54. <a href="https://doi.org/10.4000/terminal.1227">https://doi.org/10.4000/terminal.1227</a>.
+Deuff, O. L. (2012). Le réseau personnel de gestion des connaissances et
+la redéfinition du travail. <em>Terminal. Technologie de l’information,
+culture &amp; société</em>, (110), 39–54. Retrieved from <a href="http://terminal.revues.org/1227">http://terminal.revues.org/1227</a>
 </div>
 <div id="ref-domenget2017" class="csl-entry" role="listitem">
-Domenget, Jean-Claude, Bernard Miège, and Nicolas Pélissier. 2017.
-<em>Temps Et Temporalités En Information-Communication : Des Concepts
-Aux Méthodes</em>. Edited by Editions L’Harmattan/SFSIC. <a href="https://hal.archives-ouvertes.fr/hal-03573956">https://hal.archives-ouvertes.fr/hal-03573956</a>.
+Domenget, J.-C., Miège, B., &amp; Pélissier, N. (2017). <em>Temps et
+temporalités en information-communication : Des concepts aux
+méthodes</em>. (E. L’Harmattan/SFSIC, Ed.). Retrieved from <a href="https://hal.archives-ouvertes.fr/hal-03573956">https://hal.archives-ouvertes.fr/hal-03573956</a>
 </div>
 <div id="ref-drucker2020" class="csl-entry" role="listitem">
-Drucker, Johanna, Morgane Mignon, and Marie-Mathilde Bortolotti. 2020.
-<em>Visualisation: L’interprétation Modélisante</em>. 1er édition. B42.
+Drucker, J., Mignon, M., &amp; Bortolotti, M.-M. (2020).
+<em>Visualisation: L’interprétation modélisante</em> (1er édition.).
+B42.
 </div>
 <div id="ref-eco1994" class="csl-entry" role="listitem">
-Eco, Umberto. 1994. <em>La Recherche de La Langue Parfaite Dans La
-Culture Européenne</em>. Paris: Seuil.
+Eco, U. (1994). <em>La recherche de la langue parfaite dans la culture
+européenne</em>. Paris: Seuil.
 </div>
 <div id="ref-fekete2015" class="csl-entry" role="listitem">
-Fekete, Jean-Daniel, and Jeremy Boy. 2015. <span>“Recherche en
-visualisation d<span>’</span>information ou Dataviz&nbsp;: pourquoi et
-comment&nbsp;?”</span> <em>I2D - Information, données &amp; documents</em> 52
-(2): 32–33. <a href="https://doi.org/10.3917/i2d.152.0032">https://doi.org/10.3917/i2d.152.0032</a>.
+Fekete, J.-D., &amp; Boy, J. (2015). Recherche en visualisation
+d<span>’</span>information ou Dataviz&nbsp;: pourquoi et comment&nbsp;? <em>I2D -
+Information, données &amp; documents</em>, <em>52</em>(2), 32–33.
+Retrieved from <a href="https://www.cairn.info/revue-i2d-information-donnees-et-documents-2015-2-page-32.htm">https://www.cairn.info/revue-i2d-information-donnees-et-documents-2015-2-page-32.htm</a>
 </div>
 <div id="ref-foucault1990" class="csl-entry" role="listitem">
-Foucault, Michel. 1990. <em>Les Mots Et Les Choses</em>. Gallimard.
+Foucault, M. (1990). <em>Les mots et les choses</em>. Gallimard.
 </div>
 <div id="ref-fry2008" class="csl-entry" role="listitem">
-Fry, Ben. 2008. <em>Visualizing Data</em>. Illustrated edition. O’Reilly
-Media, Inc, USA.
+Fry, B. (2008). <em>Visualizing data</em> (illustrated edition.).
+O’Reilly Media, Inc, USA.
 </div>
 <div id="ref-gandon2012" class="csl-entry" role="listitem">
-Gandon, Fabien L., Catherine Faron-Zucker, and Olivier Corby. 2012.
-<em>Le Web sémantique : comment lier les données et les schémas sur le
-Web ?</em> InfoPro. Paris: Dunod.
+Gandon, F. L., Faron-Zucker, C., &amp; Corby, O. (2012). <em>Le Web
+sémantique : comment lier les données et les schémas sur le Web ?</em>
+InfoPro. Paris: Dunod.
 </div>
 <div id="ref-gärdenfors2001" class="csl-entry" role="listitem">
-Gärdenfors, Peter. 2001. <span>“Les espaces conceptuels.”</span>
-<em>Intellectica</em> 32 (1): 185–205. <a href="https://doi.org/10.3406/intel.2001.1617">https://doi.org/10.3406/intel.2001.1617</a>.
+Gärdenfors, P. (2001). Les espaces conceptuels. <em>Intellectica</em>,
+<em>32</em>(1), 185–205. Retrieved from <a href="https://www.persee.fr/doc/intel_0769-4113_2001_num_32_1_1617">https://www.persee.fr/doc/intel_0769-4113_2001_num_32_1_1617</a>
 </div>
 <div id="ref-giacona2019" class="csl-entry" role="listitem">
-Giacona, Florie, Brice Martin, Nicolas Eckert, and Jérémy Desarthe.
-2019. <span>“Une méthodologie de la modélisation en géohistoire : de la
-chronologie (spatialisée) des événements au fonctionnement du système
-par la mise en correspondance spatiale et temporelle.”</span>
-<em>Physio-Géo. Géographie physique et environnement</em>, no. Volume 14
-(December): 171–99. <a href="https://doi.org/10.4000/physio-geo.9186">https://doi.org/10.4000/physio-geo.9186</a>.
+Giacona, F., Martin, B., Eckert, N., &amp; Desarthe, J. (2019). Une
+méthodologie de la modélisation en géohistoire : de la chronologie
+(spatialisée) des événements au fonctionnement du système par la mise en
+correspondance spatiale et temporelle. <em>Physio-Géo. Géographie
+physique et environnement</em>, (Volume 14), 171–199. Retrieved from <a href="https://journals.openedition.org/physio-geo/9186">https://journals.openedition.org/physio-geo/9186</a>
 </div>
 <div id="ref-gleick1999" class="csl-entry" role="listitem">
-Gleick, James. 1999. <em>La Théorie Du Chaos : Vers Une Nouvelle
-Science</em>. Flammarion.
+Gleick, J. (1999). <em>La théorie du chaos : Vers une nouvelle
+science</em>. Flammarion.
 </div>
 <div id="ref-guattari1989" class="csl-entry" role="listitem">
-Guattari, Félix. 1989. <em>Cartographies Schizoanalytiques</em>.
-Galilée.
+Guattari, F. (1989). <em>Cartographies schizoanalytiques</em>. Galilée.
 </div>
 <div id="ref-guattari1992" class="csl-entry" role="listitem">
-———. 1992. <em>Chaosmose</em>. Paris: Galilée.
+Guattari, F. (1992). <em>Chaosmose</em>. Paris: Galilée.
 </div>
 <div id="ref-hachour2014" class="csl-entry" role="listitem">
-Hachour, Hakim, Samuel Szoniecky, and Safia Abouad. 2014. <span>“Espaces
-Sémio-Cognitifs : Les Frontières Des Systèmes de Recommandation.”</span>
-In, Collection Systèmes d’information, Web et informatique ubiquitaire
-édition. Hermes Science Publishing Ltd.
+Hachour, H., Szoniecky, S., &amp; Abouad, S. (2014). Espaces
+sémio-cognitifs : les frontières des systèmes de recommandation
+(Collection Systèmes d’information, Web et informatique ubiquitaire
+édition.). Hermes Science Publishing Ltd.
 </div>
 <div id="ref-hofstadter2013" class="csl-entry" role="listitem">
-Hofstadter, Douglas, and Emmanuel Sander. 2013. <em>L’analogie : Coeur
-de La Pensée</em>. Odile Jacob.
+Hofstadter, D., &amp; Sander, E. (2013). <em>L’analogie : Coeur de la
+pensée</em>. Odile Jacob.
 </div>
 <div id="ref-hörl2012" class="csl-entry" role="listitem">
-Hörl, Erich, and Guillaume Plas. 2012. <span>“Le Nouveau Paradigme
-Écologique.”</span> <em>Multitudes</em> 51 (4): 74. <a href="https://doi.org/10.3917/mult.051.0074">https://doi.org/10.3917/mult.051.0074</a>.
+Hörl, E., &amp; Plas, G. (2012). Le nouveau paradigme écologique.
+<em>Multitudes</em>, <em>51</em>(4), 74. Retrieved from <a href="http://accesdistant.bu.univ-paris8.fr:2056/article.php?ID_ARTICLE=MULT_051_0074&amp;DocId=236472&amp;Index=%2Fcairn2Idx%2Fcairn&amp;TypeID=226&amp;BAL=ankPawzF93mrk&amp;HitCount=2&amp;hits=1add+1adc+0&amp;fileext=html#hit1">http://accesdistant.bu.univ-paris8.fr:2056/article.php?ID_ARTICLE=MULT_051_0074&amp;DocId=236472&amp;Index=%2Fcairn2Idx%2Fcairn&amp;TypeID=226&amp;BAL=ankPawzF93mrk&amp;HitCount=2&amp;hits=1add+1adc+0&amp;fileext=html#hit1</a>
 </div>
 <div id="ref-hunyadi2020" class="csl-entry" role="listitem">
-Hunyadi, Mark. 2020a. <em>Au Début Est La Confiance</em>. 1er édition.
+Hunyadi, M. (2020a). <em>Au début est la confiance</em> (1er édition.).
 Lormont: Editions Le Bord de l’eau.
 </div>
 <div id="ref-hunyadi2020a" class="csl-entry" role="listitem">
-———. 2020b. <em>Au Début Est La Confiance</em>. 1er édition. Lormont:
-Editions Le Bord de l’eau.
+Hunyadi, M. (2020b). <em>Au début est la confiance</em> (1er édition.).
+Lormont: Editions Le Bord de l’eau.
 </div>
 <div id="ref-ingold" class="csl-entry" role="listitem">
-Ingold, Tim. n.d. <em>L’anthropologie comme éducation</em>. Collection
+Ingold, T. (n.d.). <em>L’anthropologie comme éducation</em>. Collection
 Paideia.
 </div>
 <div id="ref-isaac2011" class="csl-entry" role="listitem">
-Isaac, Antoine. 2011. <span>“DC-2011, The Hague.”</span> In. <a href="http://dcevents.dublincore.org/IntConf/dc-2011/paper/view/69">http://dcevents.dublincore.org/IntConf/dc-2011/paper/view/69</a>.
+Isaac, A. (2011). DC-2011, The Hague. Retrieved from <a href="http://dcevents.dublincore.org/IntConf/dc-2011/paper/view/69">http://dcevents.dublincore.org/IntConf/dc-2011/paper/view/69</a>
 </div>
 <div id="ref-jauss1978a" class="csl-entry" role="listitem">
-Jauss, Hans Robert. 1978. <em>Pour Une Esthétique de La Réception</em>.
+Jauss, H. R. (1978). <em>Pour une esthétique de la réception</em>.
 Gallimard.
 </div>
 <div id="ref-jérusalem1993" class="csl-entry" role="listitem">
-Jérusalem, Ecole biblique de. 1993. <em>La Bible de Jérusalem : La
-Sainte Bible</em>. Nouvelle édition. Paris: Desclée de Brouwer.
+Jérusalem, E. biblique de. (1993). <em>La Bible de Jérusalem : La Sainte
+Bible</em> (Nouvelle édition.). Paris: Desclée de Brouwer.
 </div>
 <div id="ref-kandinsky1991" class="csl-entry" role="listitem">
-Kandinsky, Wassily. 1991. <em>Point et ligne sur plan : contribution à
-l’analyse des éléments picturaux</em>. Edited by Philippe Sers. Nouv.
-éd. établie, présentée et annotée. Folio/essais 168. Paris: Gallimard.
+Kandinsky, W. (1991). <em>Point et ligne sur plan : contribution à
+l’analyse des éléments picturaux</em>. (P. Sers, Ed.)Folio/essais (Nouv.
+éd. établie, présentée et annotée.). Paris: Gallimard.
 </div>
 <div id="ref-laborde2019" class="csl-entry" role="listitem">
-Laborde, Julio. 2019. <span>“Pretopology, a Mathematical Tool for
-Structuring Complex Systems : Methods, Algorithms and
-Applications.”</span> PhD thesis. <a href="https://tel.archives-ouvertes.fr/tel-02637029">https://tel.archives-ouvertes.fr/tel-02637029</a>.
+Laborde, J. (2019, April 2). <em>Pretopology, a mathematical tool for
+structuring complex systems : methods, algorithms and applications</em>
+(PhD thesis). Retrieved from <a href="https://tel.archives-ouvertes.fr/tel-02637029">https://tel.archives-ouvertes.fr/tel-02637029</a>
 </div>
 <div id="ref-latour2009" class="csl-entry" role="listitem">
-Latour, Bruno. 2009. <span>“Sur un livre d<span>’</span>Etienne Souriau
-: Les Différents modes d<span>’</span>existence.”</span> <a href="http://www.bruno-latour.fr/sites/default/files/98-SOURIAU-FR.pdf">http://www.bruno-latour.fr/sites/default/files/98-SOURIAU-FR.pdf</a>.
+Latour, B. (2009). Sur un livre d<span>’</span>Etienne Souriau : Les
+Différents modes d<span>’</span>existence. Retrieved from <a href="http://www.bruno-latour.fr/sites/default/files/98-SOURIAU-FR.pdf">http://www.bruno-latour.fr/sites/default/files/98-SOURIAU-FR.pdf</a>
 </div>
 <div id="ref-latour2012" class="csl-entry" role="listitem">
-———. 2012a. <em>Enquêtes Sur Les Modes d’existence : Une Anthropologie
-Des Modernes</em>. Paris: Editions La Découverte.
+Latour, B. (2012a). <em>Enquêtes sur les modes d’existence : Une
+anthropologie des modernes</em>. Paris: Editions La Découverte.
 </div>
 <div id="ref-latour2012a" class="csl-entry" role="listitem">
-———. 2012b. <em>Enquêtes Sur Les Modes d’existence : Une Anthropologie
-Des Modernes</em>. Paris: Editions La Découverte.
+Latour, B. (2012b). <em>Enquêtes sur les modes d’existence : Une
+anthropologie des modernes</em>. Paris: Editions La Découverte.
 </div>
 <div id="ref-latour2015" class="csl-entry" role="listitem">
-———. 2015. <em>Face à Gaïa</em>. Paris: La Découverte.
+Latour, B. (2015). <em>Face à Gaïa</em>. Paris: La Découverte.
 </div>
 <div id="ref-lecun" class="csl-entry" role="listitem">
-LeCun, Yann. n.d. <span>“A Vision to Make AI Systems Learn and Reason
-Like Animals and Humans.”</span> <a href="https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/">https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/</a>.
+LeCun, Y. (n.d.). A vision to make AI systems learn and reason like
+animals and humans. Retrieved from <a href="https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/">https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/</a>
 </div>
 <div id="ref-leveau-vallier2023" class="csl-entry" role="listitem">
-Leveau-Vallier, Alban. 2023. <span>“Intelligence artificielle et
-intuition.”</span> PhD thesis. <a href="https://hal.science/tel-04015572/document">https://hal.science/tel-04015572/document</a>.
+Leveau-Vallier, A. (2023, January 27). <em>Intelligence artificielle et
+intuition</em> (PhD thesis). Retrieved from <a href="https://hal.science/tel-04015572/document">https://hal.science/tel-04015572/document</a>
 </div>
 <div id="ref-levorato2008" class="csl-entry" role="listitem">
-Levorato, Vincent. 2008. <span>“Contributions à la Modélisation des
-Réseaux Complexes : Prétopologie et Applications.”</span> PhD thesis. <a href="https://tel.archives-ouvertes.fr/tel-00460708/document">https://tel.archives-ouvertes.fr/tel-00460708/document</a>.
+Levorato, V. (2008, December 5). <em>Contributions à la Modélisation des
+Réseaux Complexes : Prétopologie et Applications</em> (PhD thesis).
+Retrieved from <a href="https://tel.archives-ouvertes.fr/tel-00460708/document">https://tel.archives-ouvertes.fr/tel-00460708/document</a>
 </div>
 <div id="ref-lévy2011" class="csl-entry" role="listitem">
-Lévy, Pierre. 2011. <em>La Sphère Sémantique : Tome 1, Computation,
-Cognition, Économie de l’information</em>. Hermes Science Publications.
-</div>
-<div id="ref-lévy2023a" class="csl-entry" role="listitem">
-———. 2023a. <span>“CALCULER LA SÉMANTIQUE AVEC IEML.”</span> <a href="https://hal.science/hal-04055239">https://hal.science/hal-04055239</a>.
+Lévy, P. (2011). <em>La sphère sémantique : Tome 1, computation,
+cognition, économie de l’information</em>. Hermes Science Publications.
 </div>
 <div id="ref-lévy2023" class="csl-entry" role="listitem">
-———. 2023b. <span>“Intelligence Collective, Intelligence Artificielle Et
-Partage Du Savoir.”</span> <a href="https://pierrelevyblog.com/2023/07/12/intelligence-collective-intelligence-artificielle-et-partage-du-savoir/">https://pierrelevyblog.com/2023/07/12/intelligence-collective-intelligence-artificielle-et-partage-du-savoir/</a>.
+Lévy, P. (2023a, July 12). Intelligence collective, intelligence
+artificielle et partage du savoir. Retrieved from <a href="https://pierrelevyblog.com/2023/07/12/intelligence-collective-intelligence-artificielle-et-partage-du-savoir/">https://pierrelevyblog.com/2023/07/12/intelligence-collective-intelligence-artificielle-et-partage-du-savoir/</a>
+</div>
+<div id="ref-lévy2023a" class="csl-entry" role="listitem">
+Lévy, P. (2023b, April). <em>CALCULER LA SÉMANTIQUE AVEC IEML</em>.
+Retrieved from <a href="https://hal.science/hal-04055239">https://hal.science/hal-04055239</a>
 </div>
 <div id="ref-masure2023" class="csl-entry" role="listitem">
-Masure, Anthony. 2023. <em>Design Sous Artifice : La Création Au Risque
-Du Machine Learning</em>. Illustrated édition. Head Publishing.
+Masure, A. (2023). <em>Design sous artifice : la création au risque du
+machine learning</em> (Illustrated édition.). Head Publishing.
 </div>
 <div id="ref-maturana1994" class="csl-entry" role="listitem">
-Maturana, Humberto R., and Francisco J. Varela. 1994. <em>L’arbre de La
-Connaissance</em>. Paris: Editions Addison-Wesley France.
+Maturana, H. R., &amp; Varela, F. J. (1994). <em>L’arbre de la
+connaissance</em>. Paris: Editions Addison-Wesley France.
 </div>
 <div id="ref-moretti2008" class="csl-entry" role="listitem">
-Moretti, Franco, Laurent Jeanpierre, and Etienne Dobenesque. 2008.
-<em>Graphes, Cartes Et Arbres : Modèles Abstraits Pour Une Autre
-Histoire de La Littérature</em>. Paris: Les Prairies Ordinaires.
+Moretti, F., Jeanpierre, L., &amp; Dobenesque, E. (2008). <em>Graphes,
+cartes et arbres : Modèles abstraits pour une autre histoire de la
+littérature</em>. Paris: Les Prairies Ordinaires.
 </div>
 <div id="ref-morin1981" class="csl-entry" role="listitem">
-Morin, Edgar. 1981. <em>La Méthode, Tome 1</em>. Seuil.
+Morin, E. (1981). <em>La méthode, tome 1</em>. Seuil.
 </div>
 <div id="ref-morin1985" class="csl-entry" role="listitem">
-———. 1985. <em>La Méthode, La Vie de La Vie, Tome 2</em>. Seuil.
+Morin, E. (1985). <em>La méthode, la vie de la vie, tome 2</em>. Seuil.
 </div>
 <div id="ref-morin1992" class="csl-entry" role="listitem">
-———. 1992. <em>La Méthode, La Connaissance de La Connaissance, Tome
-3</em>. Seuil.
+Morin, E. (1992). <em>La méthode, la connaissance de la connaissance,
+tome 3</em>. Seuil.
 </div>
 <div id="ref-morin1995" class="csl-entry" role="listitem">
-———. 1995. <em>La Méthode, Tome 4 : Les Idées</em>. Seuil.
+Morin, E. (1995). <em>La méthode, tome 4 : Les idées</em>. Seuil.
 </div>
 <div id="ref-morin2001" class="csl-entry" role="listitem">
-———. 2001. <em>La Méthode, l’humanité de l’humanité, Tome 5 : L’identité
-Humaine</em>. Seuil.
+Morin, E. (2001). <em>La méthode, l’humanité de l’humanité, tome 5 :
+L’identité humaine</em>. Seuil.
 </div>
 <div id="ref-morin2006" class="csl-entry" role="listitem">
-———. 2006. <em>La Méthode : Tome 6, Ethique</em>. Points.
+Morin, E. (2006). <em>La méthode : Tome 6, ethique</em>. Points.
 </div>
 <div id="ref-nguyen2018" class="csl-entry" role="listitem">
-Nguyen, Gia-Hung. 2018. <span>“Modèles Neuronaux Pour La Recherche
-d’information: Approches Dirigées Par Les Ressources
-Sémantiques.”</span> PhD thesis. <a href="https://theses.hal.science/tel-02507902/document">https://theses.hal.science/tel-02507902/document</a>.
+Nguyen, G.-H. (2018, December 18). <em>Modèles neuronaux pour la
+recherche d’information: approches dirigées par les ressources
+sémantiques</em> (PhD thesis). Retrieved from <a href="https://theses.hal.science/tel-02507902/document">https://theses.hal.science/tel-02507902/document</a>
 </div>
 <div id="ref-pappa2023" class="csl-entry" role="listitem">
-Pappa, Anna, Samuel Szoniecky, Rocio Berenguer, Joël Huthwohl, Cécile
-Quach, and Arnaud Laborderie. 2023. <span>“52nd LIBER Annual
-Conference.”</span> In. Budapest. https://doi.org/<a href="https://doi.org/10.36820/LIBER.2023">https://doi.org/10.36820/LIBER.2023</a>.
+Pappa, A., Szoniecky, S., Berenguer, R., Huthwohl, J., Quach, C., &amp;
+Laborderie, A. (2023). 52nd LIBER Annual Conference. Budapest. Retrieved
+from <a href="https://liberconference.eu/wp-content/uploads/2023/06/LIBER_2023_conf_book_website_NEW.pdf">https://liberconference.eu/wp-content/uploads/2023/06/LIBER_2023_conf_book_website_NEW.pdf</a>
 </div>
 <div id="ref-parasie2019" class="csl-entry" role="listitem">
-Parasie, Sylvain, and François Dedieu. 2019. <span>“À quoi tient la
-crédibilité des données citoyennes ?.
-L<span>’</span>institutionnalisation des capteurs citoyens de pollution
-de l<span>’</span>air en Californie.”</span> <em>Revue
-d<span>’</span>anthropologie des connaissances</em> 13 (13-4). <a href="http://journals.openedition.org/rac/2554">http://journals.openedition.org/rac/2554</a>.
+Parasie, S., &amp; Dedieu, F. (2019). À quoi tient la crédibilité des
+données citoyennes ?. L<span>’</span>institutionnalisation des capteurs
+citoyens de pollution de l<span>’</span>air en Californie. <em>Revue
+d<span>’</span>anthropologie des connaissances</em>, <em>13</em>(13-4).
+Retrieved from <a href="http://journals.openedition.org/rac/2554">http://journals.openedition.org/rac/2554</a>
 </div>
 <div id="ref-quach2022" class="csl-entry" role="listitem">
-Quach, Cécile, Anna Papa, Rocio Berenguer, Samuel Szoniecky, Joël
-Huthwohl, Hugo Dendievel, and Arnaud Laborderie. 2022.
-<span>“LITTE<span>_</span>BOT, un robot conversationnel pour dialoguer
-avec des <span>œ</span>uvres littéraires, des personnages ou leur
-auteur.”</span> <a href="https://bnf.hypotheses.org/12976">https://bnf.hypotheses.org/12976</a>.
+Quach, C., Papa, A., Berenguer, R., Szoniecky, S., Huthwohl, J.,
+Dendievel, H., &amp; Laborderie, A. (2022, September 26).
+LITTE<span>_</span>BOT, un robot conversationnel pour dialoguer avec des
+<span>œ</span>uvres littéraires, des personnages ou leur auteur.
+Retrieved from <a href="https://bnf.hypotheses.org/12976">https://bnf.hypotheses.org/12976</a>
 </div>
 <div id="ref-reymond1996" class="csl-entry" role="listitem">
-Reymond, Henri, and Roger Brunet. 1996. <span>“Les sentiers de la
-géographie (II) : ébauche d’un carnet de route.”</span> <em>L’Espace
-géographique</em> 25 (1): 33–36. <a href="https://doi.org/10.3406/spgeo.1996.951">https://doi.org/10.3406/spgeo.1996.951</a>.
+Reymond, H., &amp; Brunet, R. (1996). Les sentiers de la géographie (II)
+: ébauche d’un carnet de route. <em>L’Espace géographique</em>,
+<em>25</em>(1), 33–36. Retrieved from <a href="https://www.persee.fr/doc/spgeo_0046-2497_1996_num_25_1_951">https://www.persee.fr/doc/spgeo_0046-2497_1996_num_25_1_951</a>
 </div>
 <div id="ref-rodighiero2021" class="csl-entry" role="listitem">
-Rodighiero, Dario. 2021. <em>Cartographie Des Affinités: Démocratiser La
-Visualisation Des Données</em>. Illustrated édition. Genève: Métis
+Rodighiero, D. (2021). <em>Cartographie des affinités: Démocratiser la
+visualisation des données</em> (Illustrated édition.). Genève: Métis
 Presses.
 </div>
 <div id="ref-rosenberg2013" class="csl-entry" role="listitem">
-Rosenberg, Daniel, and Anthony T. Grafton. 2013. <em>Cartographie Du
-Temps : Des Frises Chronologiques Aux Nouvelles Timelines</em>. Paris:
-Eyrolles.
+Rosenberg, D., &amp; Grafton, A. T. (2013). <em>Cartographie du temps :
+Des frises chronologiques aux nouvelles timelines</em>. Paris: Eyrolles.
 </div>
 <div id="ref-saintgirons2016" class="csl-entry" role="listitem">
-Saint Girons, Benoît. 2016. <em>Les Sens Du Tao - Comprendre Lao Zi Et
-Vivre Mieux</em>. Paris: ENTRELACS.
+Saint Girons, B. (2016). <em>Les sens du Tao - Comprendre Lao Zi et
+vivre mieux</em>. Paris: ENTRELACS.
 </div>
 <div id="ref-saleh2023" class="csl-entry" role="listitem">
-Saleh, Imad, Samuel Szoniecky, and Malek Ghenima. 2023. <em>5ème
-colloque Frontières Numériques</em>. <a href="https://hal.science/hal-04148454">https://hal.science/hal-04148454</a>.
+Saleh, I., Szoniecky, S., &amp; Ghenima, M. (2023). <em>5ème colloque
+Frontières Numériques</em>. Retrieved from <a href="https://hal.science/hal-04148454">https://hal.science/hal-04148454</a>
 </div>
 <div id="ref-serres1997" class="csl-entry" role="listitem">
-Serres, Michel. 1997. <em>Atlas</em>. Flammarion.
+Serres, M. (1997). <em>Atlas</em>. Flammarion.
 </div>
 <div id="ref-serres2009" class="csl-entry" role="listitem">
-Serres, Michel. 2009. <em>Ecrivains, Savants Et Philosophes Font Le Tour
-Du Monde</em>. Les Essais Du Pommier. Paris: Pommier.
+Serres, Michel. (2009). <em>Ecrivains, savants et philosophes font le
+tour du monde</em>. Les essais du pommier. Paris: Pommier.
 </div>
 <div id="ref-shneiderman1998" class="csl-entry" role="listitem">
-Shneiderman, Ben. 1998. <span>“Treemaps for Space-Constrained
-Visualization of Hierarchies.”</span> <a href="http://www.cs.umd.edu/hcil/treemap-history/">http://www.cs.umd.edu/hcil/treemap-history/</a>.
+Shneiderman, B. (1998). Treemaps for space-constrained visualization of
+hierarchies. Retrieved from <a href="http://www.cs.umd.edu/hcil/treemap-history/">http://www.cs.umd.edu/hcil/treemap-history/</a>
 </div>
 <div id="ref-stiegler2005" class="csl-entry" role="listitem">
-Stiegler, Bernard. 2005. <em>De La Misère Symbolique : Tome 2, La
-Catastrophe Du Sensible</em>. Editions Galilée.
+Stiegler, B. (2005). <em>De la misère symbolique : Tome 2, la
+catastrophe du sensible</em>. Editions Galilée.
 </div>
 <div id="ref-stransky2014" class="csl-entry" role="listitem">
-Stransky, Lenka, and Samuel Szoniecky. 2014. <span>“XIXe congrès de la
-SFSIC, Penser les techniques et les technologies.”</span> In. Université
-du Sud Toulon Var. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436</a>.
+Stransky, L., &amp; Szoniecky, S. (2014). XIXe congrès de la SFSIC,
+Penser les techniques et les technologies. Université du Sud Toulon Var.
+Retrieved from <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436</a>
 </div>
 <div id="ref-szoniecky2011" class="csl-entry" role="listitem">
-Szoniecky, Samuel. 2011. <span>“Proposition d’une Méthode Graphique Pour
-Le Filtrage Des Flux d’information.”</span> In. Bordeaux. <a href="http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes">http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes</a>.
+Szoniecky, S. (2011). Proposition d’une méthode graphique pour le
+filtrage des flux d’information. Bordeaux. Retrieved from <a href="http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes">http://www.sfsic.org/%C3%A9v%C3%A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes</a>
 </div>
 <div id="ref-szoniecky2012" class="csl-entry" role="listitem">
-———. 2012. <span>“Évaluation Et Conception d’un Langage Symbolique Pour
-l’intelligence Collective : Vers Un Langage Allégorique Pour Le
-Web.”</span> PhD thesis. <a href="http://tel.archives-ouvertes.fr/tel-00764457">http://tel.archives-ouvertes.fr/tel-00764457</a>.
+Szoniecky, S. (2012, December 7). <em>Évaluation et conception d’un
+langage symbolique pour l’intelligence collective : Vers un langage
+allégorique pour le web</em> (PhD thesis). Retrieved from <a href="http://tel.archives-ouvertes.fr/tel-00764457">http://tel.archives-ouvertes.fr/tel-00764457</a>
 </div>
 <div id="ref-szoniecky2020" class="csl-entry" role="listitem">
-———. 2020. <span>“Conception d<span>’</span>un crible pour mesurer
-collectivement les impacts écologiques de
-l<span>’</span>activité.”</span> <em>Les Cahiers du numerique</em> Vol.
-16 (2): 175–99. <a href="https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm">https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm</a>.
+Szoniecky, S. (2020). Conception d<span>’</span>un crible pour mesurer
+collectivement les impacts écologiques de l<span>’</span>activité.
+<em>Les Cahiers du numerique</em>, <em>Vol. 16</em>(2), 175–199.
+Retrieved from <a href="https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm">https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm</a>
 </div>
 <div id="ref-szoniecky2017" class="csl-entry" role="listitem">
-Szoniecky, Samuel, and Nasreddine BouhaÏ. 2017. <em>Collective
-Intelligence and Digital Archives: Towards Knowledge Ecosystems</em>.
-1st ed. Wiley-ISTE.
+Szoniecky, S., &amp; BouhaÏ, N. (2017). <em>Collective Intelligence and
+Digital Archives: Towards Knowledge Ecosystems</em> (1st ed.).
+Wiley-ISTE.
 </div>
 <div id="ref-thiault2022" class="csl-entry" role="listitem">
-Thiault, Florence, and Marie-Laure Malingre. 2022. <span>“Corpus
-d’enquêtes Sur Les Pratiques d’information Scientifique Des Chercheurs.
-Constitution Et Exploitation Des Données.”</span> <em>Revue Française
-Des Sciences de l’information Et de La Communication</em>, Data paper :
-Émergence d’une nouvelle donne scientifique, no. n°24 (January). <a href="https://hal.archives-ouvertes.fr/hal-03618819">https://hal.archives-ouvertes.fr/hal-03618819</a>.
+Thiault, F., &amp; Malingre, M.-L. (2022). Corpus d’enquêtes sur les
+pratiques d’information scientifique des chercheurs. Constitution et
+exploitation des données. <em>Revue française des sciences de
+l’information et de la communication</em>, Data paper : Émergence d’une
+nouvelle donne scientifique, (n°24). Retrieved from <a href="https://hal.archives-ouvertes.fr/hal-03618819">https://hal.archives-ouvertes.fr/hal-03618819</a>
 </div>
 <div id="ref-thibault2017" class="csl-entry" role="listitem">
-Thibault, Serge. 2017. <span>“Prétopologie et espaces habités.”</span>
-<em>Revue électronique des sciences humaines et sociales.</em>,
-September. <a href="https://www.espacestemps.net/articles/pretopologie-espaces-habites/">https://www.espacestemps.net/articles/pretopologie-espaces-habites/</a>.
+Thibault, S. (2017). Prétopologie et espaces habités. <em>Revue
+électronique des sciences humaines et sociales.</em> Retrieved from <a href="https://www.espacestemps.net/articles/pretopologie-espaces-habites/">https://www.espacestemps.net/articles/pretopologie-espaces-habites/</a>
 </div>
 <div id="ref-thom1975" class="csl-entry" role="listitem">
-Thom, R. 1975. <span>“D’un Modèle de La Science à Une Science Des
-Modèles.”</span> <em>Synthese: An International Journal for
-Epistemology, Methodology and Philosophy of Science</em> 31 (2): 359–74.
+Thom, R. (1975). D’un modèle de la science à une science des modèles.
+<em>Synthese: An International Journal for Epistemology, Methodology and
+Philosophy of Science</em>, <em>31</em>(2), 359–374.
 </div>
 <div id="ref-toumia2018" class="csl-entry" role="listitem">
-Toumia, Amri. 2018. <span>“Privacy Representation in the Internet of
-Things Using Pretopological Theory.”</span> In, 15. DTUC ’18. Paris,
-France: Association for Computing Machinery. <a href="https://doi.org/10.1145/3240117.3240134">https://doi.org/10.1145/3240117.3240134</a>.
+Toumia, A. (2018). Privacy representation in the internet of things
+using pretopological theory. DTUC ’18 (p. 15). Paris, France:
+Association for Computing Machinery. Retrieved from <a href="https://doi.org/10.1145/3240117.3240134">https://doi.org/10.1145/3240117.3240134</a>
 </div>
 <div id="ref-venn1866" class="csl-entry" role="listitem">
-Venn, John. 1866. <em>The Logic of Chance: An Essay on the Foundations
-and Province of the Theory of Probability, with Especial Reference to
-Its Application to Moral and Social Science</em>. Macmillan.
+Venn, J. (1866). <em>The logic of chance: An essay on the foundations
+and province of the theory of probability, with especial reference to
+its application to moral and social science</em>. Macmillan.
 </div>
 <div id="ref-vitalirosati2021" class="csl-entry" role="listitem">
-Vitali Rosati, Marcello. 2021. <span>“Ce Qui Pourrait Être Autrement:
-IEML Et Les Algorithmes Qui Pensent.”</span> <a href="http://blog.sens-public.org/marcellovitalirosati/cequipourrait/ieml.html">http://blog.sens-public.org/marcellovitalirosati/cequipourrait/ieml.html</a>.
+Vitali Rosati, M. (2021, April 4). Ce qui pourrait être autrement: IEML
+et les algorithmes qui pensent. Retrieved from <a href="http://blog.sens-public.org/marcellovitalirosati/cequipourrait/ieml.html">http://blog.sens-public.org/marcellovitalirosati/cequipourrait/ieml.html</a>
 </div>
 <div id="ref-zamora2003" class="csl-entry" role="listitem">
-Zamora, José M. 2003. <span>“La Chôra Après Platon.”</span> In, 16–32.
-Publication Univ Rouen Havre.
+Zamora, J. M. (2003). La chôra après platon (pp. 16–32). Publication
+Univ Rouen Havre.
 </div>
 <div id="ref-zreik2010" class="csl-entry" role="listitem">
-Zreik, Khaldoun. 2010. <em>Nouvelles Cartographies, Nouvelles Villes
+Zreik, K. (2010). <em>Nouvelles cartographies, nouvelles villes
 HyperUrbain.2</em>. Productions Europia.
 </div>
 <div id="ref-µ2015" class="csl-entry" role="listitem">
-µGroupe, Francis Edeline, and Jean-Marie Klinkenberg. 2015a.
-<em>Principia Semiotica : Aux Sources Du Sens</em>. Bruxelles: Les
-impressions nouvelles éditions.
+µG., Edeline, F., &amp; Klinkenberg, J.-M. (2015a). <em>Principia
+semiotica : Aux sources du sens</em>. Bruxelles: Les impressions
+nouvelles éditions.
 </div>
 <div id="ref-µ2015a" class="csl-entry" role="listitem">
-———. 2015b. <em>Principia Semiotica : Aux Sources Du Sens</em>.
-Bruxelles: Les impressions nouvelles éditions.
+µG., Edeline, F., &amp; Klinkenberg, J.-M. (2015b). <em>Principia
+semiotica : Aux sources du sens</em>. Bruxelles: Les impressions
+nouvelles éditions.
 </div>
 <div id="ref-µ2016" class="csl-entry" role="listitem">
-µGroupe, Francis Édeline, and Jean-Marie Klinkenberg. 2016. <span>“Du
-sens à l<span>’</span>action, de l<span>’</span>anasémiose à la
-catasémiose.”</span> <em>Corela. Cognition, représentation,
-langage</em>, no. HS-19 (June). <a href="https://doi.org/10.4000/corela.4540">https://doi.org/10.4000/corela.4540</a>.
+µG., Édeline, F., &amp; Klinkenberg, J.-M. (2016). Du sens à
+l<span>’</span>action, de l<span>’</span>anasémiose à la catasémiose.
+<em>Corela. Cognition, représentation, langage</em>, (HS-19). Retrieved
+from <a href="http://journals.openedition.org/corela/4540">http://journals.openedition.org/corela/4540</a>
 </div>
 </div>
 
@@ -891,10 +915,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -904,8 +945,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -917,7 +967,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -961,6 +1134,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -986,6 +1160,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1047,14 +1247,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./diffuser.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Diffuser le modèle écosystèmique onto-éthique</span></span>
+      <a href="./diffuser.html" class="pagination-link" aria-label="Diffuser le modèle écosystèmique onto-éthique">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Diffuser le modèle écosystèmique onto-éthique</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 

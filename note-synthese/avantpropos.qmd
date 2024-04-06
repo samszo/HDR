@@ -1,0 +1,25 @@
+# Avant-propos {#sec-avantpropos}
+
+Le présent document a été réalisé avec l'outil Quarto que nous avons utilisé dans la plateforme Visual Studio Code[^1]. A partir des sources écrites avec le langage markdown[^2] et accessibles dans le répertoire GitHub suivant https://github.com/samszo/HDR, cet outil nous permet de rendre accessible ce document sous différentes formes :
+
+[^1]: lien vers l'extension Quarto de Visual Studio Code : <https://quarto.org/docs/get-started/hello/vscode.html>
+
+[^2]: Lien vers une explication du langage : <https://docs.framasoft.org/fr/grav/markdown.html>
+
+-   sous la forme d'un fichier PDF : <https://samszo.github.io/HDR/>HDR-SamSzo.pdf
+
+-   sous la forme d'un fichier Word : <https://samszo.github.io/HDR/>HDR-SamSzo.docx
+
+-   sous la forme d'un site Web : <https://samszo.github.io/HDR/>
+
+En explorant ce milieu de connaissances, je vous propose de formaliser vos propres traces et d'exprimer vos points de vue en les rendant facilement accessible aux autres chercheurs dans un soucis d'ouverture et d'interopérabilité de la science. Pour ce faire, nous vous proposons deux solutions :
+
+-   en utilisant l'outil hypothes.is[^3] , vous pouvez annoter directement la version Web de ce travail
+
+-   en utilisant l'outil Zotero, vous pouvez annoter le fichier pdf[^4] et rendre accessibles vos ajouts directement dans le groupe Zotero suivant : <https://www.zotero.org/groups/5473429/hdr-samszo>
+
+[^3]: Lien vers l'inscription à hypothes.is : <https://web.hypothes.is/sales/>
+
+[^4]: Lien vers un tutorial pour annoter un pdf dans Zotero : <https://zotero.hypotheses.org/1129>
+
+Bonne exploration.

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svgCartoHexach0"
+   width="149.35181"
+   height="129.34245"
+   version="1.1"
+   sodipodi:docname="actants.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs39" />
+  <sodipodi:namedview
+     id="namedview39"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1697224"
+     inkscape:cx="381.28704"
+     inkscape:cy="328.71047"
+     inkscape:window-width="1728"
+     inkscape:window-height="966"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svgCartoHexach0" />
+  <g
+     class="gInit"
+     id="ch0_hexa_0_-1_-1_2"
+     transform="matrix(0.74247245,0,0,0.74247245,-36.694959,0.37123173)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon4"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     class="gInit"
+     id="ch0_hexa_0_-1_0_1"
+     transform="matrix(0.74247245,0,0,0.74247245,-36.694959,128.97123)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon5"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     class="gInit"
+     id="ch0_hexa_0_0_-2_2"
+     transform="matrix(2.2251574,0,0,2.2245334,74.675911,65.161692)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="50,86.60254 100,0 50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon8"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     class="gOccupe"
+     id="ch0_hexa_0_0_0_0"
+     transform="matrix(0.74247245,0,0,0.74247245,74.675911,193.27123)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon10"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     class="gInit"
+     id="ch0_hexa_0_1_-2_1"
+     transform="matrix(0.74247245,0,0,0.74247245,186.04678,0.37123173)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon13"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     class="gInit"
+     id="ch0_hexa_0_1_-1_0"
+     transform="matrix(0.74247245,0,0,0.74247245,186.04678,128.97123)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon14"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     class="gInit"
+     id="ch0_hexa_0_2_-2_0"
+     transform="matrix(2.2251574,0,0,2.2245334,74.675911,65.161692)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="-50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 50,-86.60254 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon17"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     class="gInit"
+     id="ch0_hexa_0_2_0_-2"
+     transform="matrix(0.74247245,0,0,0.74247245,75.432881,-64.255038)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="-50,86.60254 50,86.60254 100,0 50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 "
+       fill="#102040"
+       stroke="#a8acaf"
+       id="polygon19"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <polygon
+     points="50,86.60254 100,0 50,-86.60254 -50,-86.60254 -100,-1.2246468e-14 -50,86.60254 "
+     fill="rgba(26, 199, 194, 0.1)"
+     stroke="#000000"
+     stroke-width="0.1"
+     class="eHexaOut"
+     id="polygon20"
+     style="fill:none;stroke:#000000;stroke-opacity:1"
+     transform="matrix(0.74247245,0,0,0.74247245,74.675911,193.27123)" />
+  <g
+     class="gInit cpt79697"
+     id="ch0_espace_422811_79697_hexa_0_2_0_-2_2"
+     transform="matrix(0.74247245,0,0,0.74247245,74.675911,141.83123)"
+     style="fill:none;stroke:#000000;stroke-opacity:1">
+    <polygon
+       points="10,17.320508 20,0 10,-17.320508 -10,-17.320508 -20,-2.4492936e-15 -10,17.320508 "
+       fill="rgba(26, 199, 194, 0.1)"
+       stroke="#ffffff"
+       stroke-width="0.05"
+       id="polygon28"
+       style="fill:none;stroke:#000000;stroke-opacity:1" />
+  </g>
+  <g
+     id="g39"
+     transform="translate(-355.92025,-113.35099)">
+    <g
+       class="gInit"
+       id="ch0_hexa_0_0_-1_1"
+       transform="matrix(0.74247245,0,0,0.74247245,430.59616,178.02222)"
+       style="fill:none;stroke:#000000;stroke-opacity:1">
+      <polygon
+         points="-50,-86.60254 -100,-1.2246468e-14 -50,86.60254 50,86.60254 100,0 50,-86.60254 "
+         fill="#102040"
+         stroke="#a8acaf"
+         id="polygon9"
+         style="fill:none;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-family:Garamond;-inkscape-font-specification:Garamond;fill:none;stroke:#000000;stroke-opacity:1"
+       x="386.41647"
+       y="182.09448"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         x="386.41647"
+         y="182.09448">Université  Paris 8</tspan></text>
+  </g>
+</svg>

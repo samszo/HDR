@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Jardin des connaissances : Modélisation des écosystèmes de connaissances pour une écologie de l’information et de la communication - Cartographie d’un milieu de connaissances</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./principesCarto.html" rel="next">
+<link href="./intro.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cartoConnaissances.html">Cartographie d’un milieu de connaissances</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Jardin des connaissances : Modélisation des écosystèmes de connaissances pour une écologie de l’information et de la communication</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mémoire de synthèse en vue de l’Habilitation à diriger des recherches</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction générale</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./cartoConnaissances.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Cartographie d'un milieu de connaissances</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./principesCarto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Principes de cartographie des connaissances</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./positionnements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Positionnements</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./visees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visées scientifiques&nbsp;: échelles d’exploration et axes directionnels</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./frayages.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Frayages intellectuels&nbsp;: les étapes d’une pensée</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resultats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Rappel des résultats</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./modeliserConnaissances.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modéliser les connaissances à la limite du pays fertile</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./etatArtEpistemo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Etat de l’art épistémologique</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./problemesErgo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Problématiques ergonomiques</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./technoIntello.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Concevoir des technologies intellectives pour explorer les écosystème de connaissances</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./etatArtTI.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Etat de l’art</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./realisations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Réalisations</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./perspectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Perspectives et projet de recherche</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./analyserOntoEthique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Analyser l’onto-éthique des objets connectés</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capterGout.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Capter le choix des goûts véritables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./developper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Développer des outils pour cartographier les connaissances</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./diffuser.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Diffuser le modèle écosystèmique onto-éthique</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-part-cartoConnaissances" class="quarto-section-identifier">Cartographie d’un milieu de connaissances</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div id="exergue1" class="exergue">
+<p>«&nbsp;tous les systèmes de modélisation se valent,<br>
+tous sont acceptables,<br>
+mais uniquement dans la mesure<br>
+où leurs principes d’intelligibilité<br>
+renoncent à toute prétention universaliste&nbsp;»<br>
+<span class="citation" data-cites="guattari1989">(<a href="references.html#ref-guattari1989" role="doc-biblioref">Guattari 1989, 10</a>)</span></p>
+</div>
+<p>La démarche auto-réflexive de ce travail commence par une description de l’état actuel de mes recherches. Elle a pour ambition un dévoilement sincère des limites de ma pensée sous la forme d’une cartographie qui trace les frontières numériques <span class="citation" data-cites="saleh2023">(<a href="references.html#ref-saleh2023" role="doc-biblioref">Saleh, Szoniecky, and Ghenima 2023</a>)</span> de ce qui est important pour moi aujourd’hui, c’est-à-dire la valeur des rapports que j’entretiens entre ma subjectivité <span class="citation" data-cites="guattari1989">(<a href="references.html#ref-guattari1989" role="doc-biblioref">Guattari 1989</a>)</span> et mon objectivité <span class="citation" data-cites="badiou2018">(<a href="references.html#ref-badiou2018" role="doc-biblioref">Badiou 2018</a>)</span> et qui forme mon milieu de connaissances <span class="citation" data-cites="berque2009">(<a href="references.html#ref-berque2009" role="doc-biblioref">Berque 2009</a>)</span>.</p>
+<p>Cartographier c’est à la fois explorer, formaliser et guider. Tout commence par la découverte d’un lieu, par l’expérience d’un espace dont on va ensuite décrire les impressions qu’il produit suivant des règles convenues pour que d’autres puisses les retrouver après soi-même.</p>
+<p>Les espaces que nous décrivons sont des milieux, c’est à dire un tissu relationnel au sein duquel les connaissances existent, et sans lequel elles n’existeraient pas <span class="citation" data-cites="berque2009">(<a href="references.html#ref-berque2009" role="doc-biblioref">Berque 2009, 146</a>)</span>. Ce sont des espaces vivants qui évoluent sans cesse et nous transforment à chaque interaction que nous entretenons avec eux. Suivant le principe d’énaction <span class="citation" data-cites="maturana1994">(<a href="references.html#ref-maturana1994" role="doc-biblioref">Maturana and Varela 1994</a>)</span>, le couplage entre l’espace et l’auteur de sa description transforme à la fois l’espace et l’auteur. Cartographier c’est se connaître soi-même en modélisant le milieu de ses expériences et en réfléchissant aux transformations que cela produit.</p>
+<p>Peut-on modéliser toutes ses expériences pour les rendre accessibles&nbsp;? Sont-elles toutes modélisables&nbsp;? Accessibles&nbsp;? Même si les cartes utilisent des systèmes de coordonnées calculables et un vocabulaire formel abouti qui les rendent manipulables par des machines et donc potentiellement modélisables, il n’en reste pas moins que la cartographie procède d’une multitude de choix qui sélectionneront dans l’espace à modéliser ce qui sera effectivement dans la carte. Pour transmettre une expérience, il faut la réduire à un ensemble de signes et par la même la soumettre aux contraintes de ce qui les caractérisent&nbsp;: variabilité, associativité, équivocité <span class="citation" data-cites="deleuze1981">(<a href="references.html#ref-deleuze1981" role="doc-biblioref">Deleuze 1981</a>)</span>. La transformation de l’expérience en signe est fondamentalement incomplète. L’exhaustivité n’est qu’un leurre. Toutefois, la carte possède une dimension diagrammatique qui donne au signe une potentialité d’action à la manière d’une partition musicale <span class="citation" data-cites="stransky2014">(<a href="references.html#ref-stransky2014" role="doc-biblioref">Stransky and Szoniecky 2014</a>)</span>. La carte guide vers une expérience sans décrire toutes les connaissances auxquelles l’expérimentation donnera accès. Avec une carte, je sais où trouver une rivière poissonneuse mais pas si je vais effectivement pêcher des poissons et lesquels.</p>
+<p>Nous vous invitons à vous laisser guider par les cartographies que nous présentons en espérant que la pêche aux connaissances sera fructueuse pour vous, elle l’est déjà pour moi. Les cartographies que nous vous proposons décrivent mes connaissances en rapport avec mon métier d’enseignant chercheur et les pratiques informationnelles qu’il génère <span class="citation" data-cites="thiault2022">(<a href="references.html#ref-thiault2022" role="doc-biblioref">Thiault and Malingre 2022</a>)</span>. Nous suivons un processus d’exploration qui commence par préciser les principes cartographiques <a href="principesCarto.html"><span>Chapter&nbsp;1</span></a> utilisés. Le second chapitre de cette partie présente l’état actuel de mes positions scientifiques dans les sciences de l’information et de la communication et plus globalement dans les sciences humaines <a href="positionnements.html"><span>Chapter&nbsp;2</span></a>. Nous verrons ensuite dans un troisième chapitre quelles sont mes visées scientifiques <a href="visees.html"><span>Chapter&nbsp;3</span></a> par rapport à quatre échelles d’exploration : locale <a href="visees.html#sec-echelleLocale"><span>Section&nbsp;3.0.1</span></a>, globale <a href="visees.html#sec-echelleGlobale"><span>Section&nbsp;3.0.2</span></a>, sociale <a href="visees.html#sec-echelleSociale"><span>Section&nbsp;3.0.3</span></a> et conceptuelle <a href="visees.html#sec-echelleConcetuelle"><span>Section&nbsp;3.0.4</span></a>. Nous développerons ensuite ces perspectives scientifiques en suivant cinq axes de recherches&nbsp;:</p>
+<ul>
+<li>comprendre l’internet des objets <a href="visees.html#sec-axeIOT"><span>Section&nbsp;3.0.5</span></a>,</li>
+<li>concevoir une générativité générique <a href="visees.html#sec-axeGeneratif"><span>Section&nbsp;3.0.6</span></a>,</li>
+<li>formaliser le consensus par une éthique de la discussion <a href="visees.html#sec-axeFormaConsensus"><span>Section&nbsp;3.0.10</span></a>,</li>
+<li>designer les connaissances <a href="visees.html#sec-axeDesignConnaissances"><span>Section&nbsp;3.0.8</span></a>,</li>
+<li>développer l’intelligence collective <a href="visees.html#sec-axeIntelCo"><span>Section&nbsp;3.0.9</span></a>.</li>
+</ul>
+<p>Dans un quatrième chapitre, je présenterais les étapes de mon parcours intellectuel <a href="frayages.html"><span>Chapter&nbsp;4</span></a> à travers mes frayages intellectuelles <span class="citation" data-cites="citton2010">(<a href="references.html#ref-citton2010" role="doc-biblioref">Citton 2010</a>)</span> qui débutent avec l’histoire de l’art puis s’ancre dans les sciences de l’information et de la communication pour développer un projet de jardinage des connaissances qui mène à une théorisation des écosystèmes de connaissances et finalement à la mise en pratique d’une méthode de modélisation et d’analyse de l’information et de la communication. Le dernier chapitre de cette partie sera consacré à la présentation des résultats <a href="resultats.html"><span>Chapter&nbsp;5</span></a> de ce parcours en matière&nbsp;:</p>
+<ul>
+<li>d’utilisation de l’analogie écosystèmique <a href="resultats.html#sec-analogieEcosysteme"><span>Section&nbsp;5.0.1</span></a>,</li>
+<li>de modélisation d’une ontologie-éthique <a href="resultats.html#sec-modeleOntoEthique"><span>Section&nbsp;5.0.2</span></a>,</li>
+<li>de calcul de la complexité info-communicationnelle <a href="resultats.html#sec-complexiteExitentielle"><span>Section&nbsp;5.0.3</span></a>,</li>
+<li>de conception diagrammatique et de crible <a href="resultats.html#sec-diagrammesCribles"><span>Section&nbsp;5.0.4</span></a></li>
+<li>d’interaction avec des cartographies sémantiques <a href="resultats.html#sec-cartoSemantique"><span>Section&nbsp;5.0.5</span></a>,</li>
+<li>d’outillage pour les humanités numériques <a href="resultats.html#sec-protosHN"><span>Section&nbsp;5.0.6</span></a>.</li>
+</ul>
+<p>En explorant le milieu de connaissances que je vous propose, vous serez peut-être tenté d’y laisser vos propres traces. Si c’est le cas, vous pourrez le faire en utilisant un outil d’expression d’un point de vue comme «&nbsp;CartoAffect&nbsp;» que j’ai développé pour cartographier mon milieu de connaissances. Il suffit de vous rendre à cette page Web et/ou de télécharger l’application mobile. Une fois que vous vous serez identifié avec le compte qui vous a été fourni, vous pourrez participer à la cartographie d’un milieu de connaissances. Bonne exploration.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-badiou2018" class="csl-entry" role="listitem">
+Badiou, Alain. 2018. <em>L’immanence des vérités</em>. L’être et l’événement , 3; Ouvertures.
+</div>
+<div id="ref-berque2009" class="csl-entry" role="listitem">
+Berque, Augustin. 2009. <em>Ecoumène : Introduction à l’étude Des Milieux Humains</em>. Belin.
+</div>
+<div id="ref-citton2010" class="csl-entry" role="listitem">
+Citton, Yves. 2010. <span>“Biennale d<span>’</span>art Contemporain, Ateliers de Rennes.”</span> In, p.114–121. éd. Raphaëlle Jeune. <a href="http://www.lesateliersderennes.fr/sites/default/files/media/cequivientdenous.pdf">http://www.lesateliersderennes.fr/sites/default/files/media/cequivientdenous.pdf</a>.
+</div>
+<div id="ref-deleuze1981" class="csl-entry" role="listitem">
+Deleuze, Gilles. 1981. <span>“La Voix de Gilles Deleuze : 12- 17/03/81 - 1.”</span> <a href="http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151">http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151</a>.
+</div>
+<div id="ref-guattari1989" class="csl-entry" role="listitem">
+Guattari, Félix. 1989. <em>Cartographies Schizoanalytiques</em>. Galilée.
+</div>
+<div id="ref-maturana1994" class="csl-entry" role="listitem">
+Maturana, Humberto R., and Francisco J. Varela. 1994. <em>L’arbre de La Connaissance</em>. Paris: Editions Addison-Wesley France.
+</div>
+<div id="ref-saleh2023" class="csl-entry" role="listitem">
+Saleh, Imad, Samuel Szoniecky, and Malek Ghenima. 2023. <em>5ème colloque Frontières Numériques</em>. <a href="https://hal.science/hal-04148454">https://hal.science/hal-04148454</a>.
+</div>
+<div id="ref-stransky2014" class="csl-entry" role="listitem">
+Stransky, Lenka, and Samuel Szoniecky. 2014. <span>“XIXe congrès de la SFSIC, Penser les techniques et les technologies.”</span> In. Université du Sud Toulon Var. <a href="https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436">https://hal-univ-paris8.archives-ouvertes.fr/hal-01098436</a>.
+</div>
+<div id="ref-thiault2022" class="csl-entry" role="listitem">
+Thiault, Florence, and Marie-Laure Malingre. 2022. <span>“Corpus d’enquêtes Sur Les Pratiques d’information Scientifique Des Chercheurs. Constitution Et Exploitation Des Données.”</span> <em>Revue Française Des Sciences de l’information Et de La Communication</em>, Data paper : Émergence d’une nouvelle donne scientifique, no. n°24 (January). <a href="https://hal.archives-ouvertes.fr/hal-03618819">https://hal.archives-ouvertes.fr/hal-03618819</a>.
+</div>
+</div>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./intro.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction générale</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./principesCarto.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Principes de cartographie des connaissances</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

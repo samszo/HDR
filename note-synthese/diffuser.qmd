@@ -1,0 +1,17 @@
+# Diffuser le modèle écosystèmique onto-éthique {#sec-diffuser}
+
+## Publier un recueil des diagrammes
+
+A faire dans HAL
+
+## Publier les codes sources de modélisations
+
+A faire dans HAL
+
+## Animer un séminaire de recherche sur la modélisation des connaissances en sciences humaines
+
+Ce séminaire à pour vocation de sensibiliser à la pratique FAIR de la science en sensibilisant les chercheurs à la pratique de la modélisation des connaissances. Ouvert aux chercheurs voulant des recherches en humanités numériques existantes, ce séminaire permettra de diffuser les bonnes pratiques et outils efficaces pour les recherches en Humanités numériques.
+
+## Modéliser la complexité exitentielle d'écosystème de référence {#sec-modeliserEcosystemeReference}
+Ce travail sera mené dans le cadre du séminaire de recherche sur la modélisation des connaissances en sciences humaines et à une autre échelle dans les cours de Master sur le Web sémantique et ceux sur l'éthique des écosystèmes numériques.
+Nous prévoyons notamment de mener une recherche au long cours sur la modélisation existentielle de Wikipédia et ses évolutions de même qu'une analyse comparatives des bibliothèques universitaires de France puis du monde.

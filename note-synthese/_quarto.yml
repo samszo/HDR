@@ -1,0 +1,69 @@
+project:
+  type: book
+  output-dir: ../docs
+
+book:
+  title: "Habilitation à Diriger des Recherches : Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication"
+  subtitle: "Note de Synthèse"
+  author:
+    - name: Samuel Szoniecky
+      affiliation: Laboratoire Paragraphe - Université Paris 8
+      orcid: 0000-0002-7643-3342
+  date: "2024/04/02"
+  chapters:
+    - index.qmd
+    - remerciements.qmd 
+    - avantpropos.qmd 
+    - introduction.qmd  
+    - part: cartoConnaissances.qmd
+      chapters:
+        - principesCarto.qmd
+        - positionnements.qmd
+        - visees.qmd
+        - frayages.qmd
+        - resultats.qmd
+    - part: modeliserConnaissances.qmd
+      chapters:
+        - etatArtEpistemo.qmd
+        - problemesErgo.qmd
+    - part: technoIntello.qmd
+      chapters:
+        - etatArtTI.qmd
+        - realisations.qmd
+    - part: perspectives.qmd
+      chapters:
+        - analyserOntoEthique.qmd
+        - capterGout.qmd
+        - developper.qmd
+        - diffuser.qmd
+    - references.qmd
+
+bibliography: references.bib
+csl: apa-5th-edition.csl
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    comments:
+      hypothesis: true
+  docx:
+    toc: true
+    number-sections: true
+    number-depth: 4
+    highlight-style: github
+  pdf: 
+    documentclass: scrreprt
+    pdfengine: xelatex
+    papersize: A4    
+    geometry:
+          - top=30mm
+          - left=20mm
+          - heightrounded
+    fontfamily: libertinus    
+    toc: true
+    toc-depth: 4
+    toc-title: Table des matières
+#  include-in-header: before-body.tex   
+
+

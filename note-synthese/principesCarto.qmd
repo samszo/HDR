@@ -1,0 +1,568 @@
+::: {#exergue-PrincipesCarto1 .exergue}
+« Il faut demander aux algorithmes\
+de nous montrer\
+et la route,\
+et le paysage »\
+[@cardon2015, § 5]
+:::
+
+::: {#exergue-PrincipesCarto2 .exergue}
+« Le numérique est donc\
+à la fois ce qui est\
+autour de nous,\
+entre nous,\
+en nous »\
+[@bachimont2020]
+:::
+
+# Principes de cartographie des connaissances {#sec-principesCarto}
+
+Les principes de cartographie des connaissances que nous utilisons s'appuient sur des idées inspirées de nombreuses références @sec-positionnements à partir desquels nous concevons un design des connaissances et définissons des propriétés graphiques. Il va de soi, que d'autres références définiraient d'autres designs et d'autres propriétés graphiques. Il serait particulièrement intéressant d'analyser en quoi tel ou tel auteur utilise dans ses œuvres des images mentales spécifiques qui en font un plasticien de la pensée. Il nous semble évident que les idées de Descartes et Spinoza n'ont pas la même plasticité, de même celles d'Heidegger et Bachelard ou de Wittgenstein et Deleuze. L'absolu plasticité du numérique permettrait sans doute de montrer ces idées suivant des modes de représentation propres à chacun de ces auteurs afin de les comparer ou des les utiliser pour un design de connaissance spécifique. Nous avons fait ce travail dans les lignes suivantes pour construire notre design des connaissance à partir d'idées dont la plasticités nous semble particulièrement fertile.
+
+Le premier principe sur laquelle nous nous appuyons est celui que les connaissances se produisent suivant un cycle continu d'expériences dans le monde physique et dans le monde de la pensée. Entre les « physicalités » et les « intériorités » [@descola2005] , les « cycles de sémioses » [@µ2015]  canalisent nos perceptions par « anasémiose » pour discerner des informations que nous communiquons par « catasémiose » en donnant forme à l'agir : parler, lire, écrire, gesticuler, ne rien faire...
+
+![Cycle de la sémiose [@µ2015, p. 10]](media/100000010000048C000002D6F38927B016A358A1.png){#fig-cyclesemiose width="9.855cm" height="6.145cm"}
+
+Le second principe se base sur les travaux de [@hofstadter2013] pour qui l'analogie est le « moteur » qui relie le discernement et l'action en gardant le souvenir de cette relation qui devient à force de répétition, une manière d'être en prenant chez Deleuze la forme d'un « pli » qui est notre troisième principe  :
+
+> « L'opération de la perception constitue les plis dans l'âme, les plis dont la monade est tapissée du dedans ; mais ceux-ci ressemblent à une matière, qui doit dès lors s'organiser en replis extérieurs. » [@deleuze1988, p. 131]
+
+A la manière de deux miroirs qui plient la lumière en se reflétant l'un dans l'autre à l'infini, discernement et action se réfléchissent en pliant les flux d'information. Chaque pli décompose l'information en signes dont les signifiés plongent vers l'intériorité en stimulant l'intuition et dont les signifiants émergent vers des physicalités en stimulant l'expression.
+
+Entre discerner et agir, intuition et expression, c'est dans ce « milieu » qu'Augustin Berque décrit une « pulsation existentielle » mue par la « raison trajective » que nous prenons comme quatrième principe :
+
+> « la raison trajective, elle est en effet dans la pulsation existentielle qui, par la technique, déploie notre corps en monde sur la terre, et qui simultanément, par le symbole, reploie le monde en notre chair  »  [@berque2009, p. 402]
+
+Cette raison pilote la réflexion en modifiant l'inclinaison du pli vers le discernement de signifiés ou vers l'expression de signifiants. Elle procède de processus que nous contrôlons consciemment et d'autres plus imprévisibles et incontrôlables qui se produisent en fonction d'une multitudes de pliages et de leurs capacités à ce faire, ce défaire, ce bloquer suivant un cinquième principe celui du degrés de flexibilité [@clément2021].
+
+Les cycles de sémioses, les analogies, les plis, les pulsations existentielles, les degrés de flexibilité structurent et produisent nos connaissances tout au long de nos vies en développant trois pouvoirs fondamentaux : discerner, raisonner, agir. Notre hypothèse principale est qu'il est possible de cartographier ces connaissances en représentant les pliages et leurs dynamismes dans trois directions : vers l'intériorité (discerner), en boucles récursives (raisonner) et vers l'extérieur (agir). À chaque pulsation existentielle, à chaque événement de nos vies, à chaque pli, ces pouvoirs augmentent ou diminuent accentuant ainsi des rapports privilégiés, d'autres, plus secrets, et même certains qui nous restent inconnus. De ce point de vue, nous n'adoptons pas la conjecture au cœur des recherches en IA depuis 1955, formulée à l’occasion de séminaire d'été à Dartmouth par John McCarthy, Marvin Minksy, Claude Shannon et Nathaniel Rochester [@leveau-vallier2023, p. 39] qui prend comme principe que tous les aspects de l’intelligence peuvent être décrits avec une précision telle qu’une machine peut les simuler.
+
+Ainsi, la pulsation varie continuellement, elle est parfois instantanée par exemple quand on rit, elle peut aussi prendre beaucoup de temps quand un souvenir longtemps oublié émerge petit à petit ; elle devient un métier quand à force de pratiquer un geste particulier, celui-ci s'automatise. Ces pulsations se transforment parfois en bêtises ou en inconscience quand le pouvoir d'agir prend le pas sur les pouvoirs de discerner et de choisir en occultant leurs pliages potentiels. Suivant leurs fréquences, les pulsations existentielles forment des ondes dont la vitesse de propagation est fonction de leur longueur (distance séparant deux maxima consécutifs de l'amplitude entre physicalités et intériorité) et du milieu dans lequel elles se déploient. La catégorisation et l'analyse de ces ondes renvoient globalement à une réflexion sur la modélisation de l'esprit qui dépasse le cadre de ce propos mais que nous illustration par le diagramme suivant :
+
+![Dynamiques pulsations existentielles](images/localhost_samszo_HDR_pulsationsExistentielles.html.png){#fig-dynamiquesPulsationsExistentielles fig-align="center"}
+
+Les chapitres suivants explicitent comment à partir de ces cinq principes et de cette hypothèse principale, nous cartographions dans le Web @sec-cartoEnvWeb des connaissances qui se développent dans l'espace et le temps @sec-repSpatioTempo suivant les pulsations existentielles d'un actant @sec-espaceActant entre des espaces matériels @sec-espaceMateriels et conceptuels @sec-espaceConceptuels. Ces propositions sont le résultat d'un travail de recherche d'une dizaine d'années que nous présentons en détails dans @sec-part-modeliserConnaissances.
+
+## Cartographier dans un environnement Web {#sec-cartoEnvWeb}
+
+Un environnement Web se base avant tout sur une architecture Client / Serveur qui utilise le protocole HTTP pour organiser les échanges de données entre des machines et des utilisateurs via un navigateur [@balpe1996] cf. ci-dessous[^principescarto-1].
+
+[^principescarto-1]:
+    > cf. <https://samszo.univ-paris8.fr/conf_errance/cours_systeme-information-programation-internet/slide.html?diapo=5>
+
+![Architecture Client / Serveur](media/1000000100000708000005788D09F0CE68E86891.png){#fig-ArchitectureClientServeur width="8.269cm" height="6.253cm"}
+
+Nous ne ferons pas ici une analyse des technologiques de représentation des données [@andry2022; @fekete2015] préférant nous focaliser sur les outils et les méthodes que nous utilisons dans le cadre de ce travail pour cartographier nos connaissances. Nous ne détaillerons pas non plus tous les éléments qui composent notre environnement[^principescarto-2] mais uniquement les plus pertinents pour comprendre les principes de cartographie que nous avons mis en place dans ce travail pour gérer les données du coté serveur et naviguer dans leurs représentations du coté client.
+
+[^principescarto-2]:
+    > disponibles sur notre forge logicielle : <https://github.com/samszo>
+
+### Gérer les données sur les serveurs {#sec-gestDonneesServeurs}
+
+Les serveurs sont des machines qui fournissent des ressources via une requête spécifique sur une adresse unique dans un environnement Web. Le protocole HTTP définie les conditions d'adressage de ces requêtes et les éventuels paramètres qui lui sont associés. Il existe une multitude de solutions pour gérer les données à partir de ce protocole et des langages informatiques associés comme PHP, Python, Java... Pour nos travaux de recherche, nous avions fait le choix de développer sur nos serveurs, une boite à outils basée sur PHP et une base de données spécifique [@szoniecky2017, p. 141]. Pour des questions de maintenance de l'environnement, de facilités de développement et de diffusion des données de la recherche, nous avons abandonné cette solution pour utiliser depuis quelques années l'environnement Web proposé par le CMS Omeka S[^principescarto-3]. Cette solution de gestion des archives numériques offrent les fonctionnalités nécessaires pour modéliser une base de données spécifique respectant les principes du Linked Open Data[^principescarto-4] et les moyens de manipuler ces données avec des vocabulaires, des modèles de ressource, des modules et des thèmes spécifiques. Une fois maîtrisé les éléments de cet environnement, les données produites par les recherches deviennent accessibles, manipulables et interopérables[^principescarto-5].
+
+[^principescarto-3]:
+    > <https://omeka.org/s/>
+
+[^principescarto-4]:
+    > <https://www.w3.org/egov/wiki/Linked_Open_Data>
+
+[^principescarto-5]:
+    > Lien vers l'API Omeka S des données de ce travail : <https://samszo.univ-paris8.fr/omk/api>
+
+> « En utilisant aujourd'hui un tableur ou une base de données ad hoc pour stocker les données, non seulement on se prive de toute la richesse sémantique des LOD et de leur potentiel de traitement, mais encore on risque de ne pas pouvoir réutiliser l'information collectée. La communauté de recherche va ainsi continuer à parcourir mille fois le premier kilomètre, alors qu'une démarche collaborative de collecte de l'information, soutenue par des plateformes de recherche fondées sur les technologies sémantiques, permet de parcourir ensemble des milliers de kilomètres et de disposer, en très peu de temps et en faisant levier sur une curation collective des données, d'un graphe d'information de grande complexité, qualité et richesse. » [@beretta2023 § 15]
+
+Pour chaque projets de recherche et d'enseignement qui nécessitent de manipuler des données, nous avons développé des environnements Omeka S avec le cas échéant des modules et des thèmes spécifiques @sec-pratiquesOmk. Plus particulièrement, pour ce travail d'HDR, nous avons rassemblé dans un environnement Omeka S les informations concernant notre curriculum vitae et la veille informationnelle que nous menons depuis plus de quinze ans @sec-processusVeille.
+
+Pour ce faire, nous avons créé :
+
+-   2 vocabulaires spécifiques :
+
+    -   Jardin des connaissances : nous utilisons ce vocabulaire pour gérer la modélisation des existences informationnelles dans un écosystème de connaissances[^principescarto-6]
+    -   Formation Université Paris 8 : ce vocabulaire permet de modéliser l'architecture des enseignements dans l'enseignement supérieur[^principescarto-7]
+
+-   30 modèles de ressource[^principescarto-8] pour décrire les objets de recherche par exemple :
+
+    -   Évènement CV : utilisé pour décrire les événements d'un curriculum vitae
+    -   JDC Actant : utilisé pour décrire un actant dans un écosystème de connaissances
+
+-   4 modules spécifiques pour une gestion spécifique des données dans Omeka S:
+
+    -   Diigo Import : ce module permet d'importer les signets enregistrés dans une base de données Diigo y compris les copies d'écrans[^principescarto-9].
+    -   Zotero Import Plus : ce module[^principescarto-10] basé augmente le module Zotero Import pour importer les notes prises dans Zotero ainsi que les documents associés aux références bibliographiques.
+    -   JDC : ce module[^principescarto-11] fourni les interfaces nécessaires pour modéliser un écosystème de connaissances suivant une ontologie éthique @sec-modeleOntoEthique.
+    -   CartoAffect : ce module[^principescarto-12] permet de gérer les données pour la modélisation et la présentation des affects en relation avec un écosystème de connaissances.
+
+[^principescarto-6]:
+    > le vocubulaire au format rdf turtle : <https://raw.githubusercontent.com/samszo/Omeka-S-module-JDC/master/data/vocabularies/jdc.ttl>
+
+[^principescarto-7]:
+    > le vocubulaire au format rdf turtle : <https://raw.githubusercontent.com/samszo/Omeka-S-module-JDC/master/data/vocabularies/fup8.ttl>
+
+[^principescarto-8]:
+    > la liste exhaustive est ici : <https://samszo.univ-paris8.fr/omk/api/resource_templates>
+
+[^principescarto-9]:
+    > Dépôt du projet : <https://github.com/samszo/Omeka-S-module-DiigoImport>
+
+[^principescarto-10]:
+    > Dépôt du projet : <https://github.com/samszo/ZoteroImportPlus>
+
+[^principescarto-11]:
+    > Dépôt du projet : <https://github.com/samszo/Omeka-S-module-JDC>
+
+[^principescarto-12]:
+    > Dépôt du projet : <https://github.com/samszo/Omeka-S-module-CartoAffect>
+
+
+
+### Naviguer dans les représentations {#sec-naviguerRepresentations}
+
+La consultations de notre écosystème de connaissances se fait avec un navigateur Web comme Chrome ou Firefox et passe par des représentations que les utilisateurs explorent suivant les principes hypertextuels. Ces représentations consistent à mettre en relation des données avec un système de coordonnées cartésiennes qui possèdent 2 dimensions ( @fig-coor2D) ou 3 dimensions (@fig-coor2D ) . Ces coordonnées définissent des points qui sont associés pour former des lignes et des plans et ainsi disposer d'un vocabulaire graphique élémentaire [@kandinsky1991]. Toutefois, la réalisation de cartographie en 3 dimensions demande beaucoup de temps et des compétences dont nous ne disposons pas dans le contexte de ce travail (@sec-pulsaExi3D). Pour les graphiques que nous présenterons, nous avons donc décidé de n'utiliser que le système de coordonnées planaires. Il nous faut donc définir comment utiliser les 2 dimensions (x, y) pour représenter les multiples propriétés de nos données. On peut envisager de nombreuses solutions mais toutes ne seront pas compréhensibles ni facilement manipulables suivant les données et les échelles auxquelles on souhaite les représenter. Nous choisissons donc de multiplier les environnements graphiques en deux dimensions et de les interconnecter les uns avec les autres afin de former un écosystème graphique présentant de manière optimale les multiples propriétés que les données possèdent.
+
+[![Coordonnées cartésiennes : planaires](media/100019CC000029720000261A8EDA4DB42B40D384.svg){#fig-coor2D fig-align="center"}](https://commons.wikimedia.org/wiki/File:Rovinna_kartezska_soustava_souradnic.svg)
+
+[![Coordonnées cartésiennes : tridimensionnelles](media/10003C4200002F5F00002EF5D54C4825D5249FE4.svg){#fig-coor3D fig-align="center"}](https://commons.wikimedia.org/wiki/File:Rectangular_coordinates.svg)
+
+Dans ce contexte d'écosystème graphique [@aït-touati2019; @zreik2010], il est très important de disposer des moyens pour créer des graphiques à partir des données mais aussi de manière réciproque gérer les données à partir des graphiques en concevant des interactions riches entre les données, les graphiques et leurs utilisateurs afin d'effectuer les quatre actions fondamentales sur les données : Cread Read Update Delete (CRUD). Nous ne sommes pas dans une vision statique de la représentation des données comme pouvait l'être [@bertin1999] qui prenait comme principe que les graphiques devaient être imprimables. Ce qui compte aujourd'hui c'est la capacité qu'ont les systèmes de visualisation d'être manipulables pour créer les conditions d'une interprétation des données [@drucker2020] et l'expression d'une argumentation spécifique [@desfrichesdoria2021].
+
+C'est pourquoi nous avons choisi de travailler dans un environnement Web afin de créer dynamiquement des graphiques à partir d'un flux de données et surtout de rendre ces graphiques interactifs. L'autre choix important que nous avons fait est d'utiliser le langage graphique SVG[^principescarto-18] qui permet de manipuler chaque composant graphique de manière autonome [@fry2008]. Ainsi les points, les lignes et les plans disposent d'une autonomie en terme de propriétés graphiques, événementiels et informationnelles. Grâce à la librairie JavaScript D3.js[^principescarto-19] (Data Driven Document) nous pouvons gérer ces propriétés en pilotant les graphiques à partir des données ou à l'inverse les données à partir des graphiques.
+
+[^principescarto-18]:
+    > <https://developer.mozilla.org/en-US/docs/Web/SVG>
+
+[^principescarto-19]:
+    > [https://observablehq.com/\@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable#maps](https://observablehq.com/@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable#maps){.uri}
+
+Dans cette environnement Web très ouvert et fertile, les possibilités de dynamisme et d'interaction entre les données, les graphiques et leurs utilisateurs sont potentiellement infinies. Il convient donc de spécifier plus précisément les choix que nous avons fait pour cartographier nos connaissances.
+
+## Représentations spatio-temporelles {#sec-repSpatioTempo}
+
+Les premières informations à prendre en compte dans la cartographie des connaissances sont le temps et l'espace qui constituent une base fondamental de la recherche en sciences humaines : l'histoire et la géographie. Ce sont les données communes à toutes les analyses en sciences humaines  : quand ? Où ?
+
+### Cartographier la géographie {#sec-cartoGeo}
+
+Pour réfléchir sur ces informations les humains ont depuis longtemps développé des systèmes de représentations que ce soit pour le temps [@rosenberg2013; @domenget2017], l'espace [@béguin2017] ou la combinaisons des deux [@serres1997; @giacona2019; @aït-touati2019]. Nous ne rentrerons pas ici dans l'analyse de ces représentations cela dépasserais de loin notre propos qui est de présenter nos principes cartographiques. Nous renvoyons le lecteur curieux à la veille que nous faisons depuis plus de dix ans sur cette question[^principescarto-20].
+
+[^principescarto-20]:
+    > <https://www.diigo.com/user/luckysemiosis?query=%23spatiotempo>
+
+Sur notre Terre, les données spatiales sont définis par trois propriétés : une latitude, une longitude et une altitude. Les représentations des données géographiques sont aujourd'hui grandement aidées par les outils qui rendent disponibles pour les concepteurs les fonctionnalités nécessaires à la manipulation des cartes. Le principe de représentation est commun à tous ces outils : x = longitude, y = latitude. Ce qui diffère c'est le type de projection utilisé pour représenter les données suivant un point de vue particulier qui mettra l'accent sur une dimension spatiale. Les exemples ci-dessous montrent comment suivant le type de projection les représentations se transforment :
+
+|                                                                                                                                                             |                                                                                                                                                             |                                                                                                                                                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Jacques Bertin's 1953](media/10000000000003C0000001F4F33DE5F8AECF42B5.png){#fig-projBertin alt="Jacques Bertin's 1953" fig-align="center"} | ![Hammer retroazimuthal](media/10000000000003C0000001F46900D5D2AB4D8E23.png){#fig-projHammer alt="Hammer retroazimuthal" fig-align="center"} | ![Spherical Mercator](media/10000000000003C0000001F47F8100241BAEED66.png){#fig-projSphereMercator alt="Spherical Mercator" fig-align="center"} |
+| Jacques Bertin's 1953                                                                                                                                       | Hammer retroazimuthal                                                                                                                                       | Spherical Mercator                                                                                                                                            |
+
+: Exemples de projections géographiques[^principescarto-21] {#tbl-projGeo}
+
+[^principescarto-21]:
+    > <https://github.com/d3/d3-geo-projection>
+
+Dans notre cas, pour concevoir des cartes géographique en deux dimensions nous utilisons des librairies JavaScript Open Source comme leaflet.js[^principescarto-22] ou D3.js qui permettent de manipuler des données géographiques modéliser avec le format GeoJSON[^principescarto-23]. Voici par exemple la représentation géographique de mes collaborations dans le monde à partir de mes dépôts dans HAL[^principescarto-24] @sec-datavizActiChercheur :
+
+[^principescarto-22]:
+    > <https://leafletjs.com/>
+
+[^principescarto-23]:
+    > <https://fr.wikipedia.org/wiki/GeoJSON>
+
+[^principescarto-24]:
+    > <https://samszo.github.io/StatsHAL/world.html?q=Samuel%20Szoniecky>
+
+![Répartition des collaborations dans le monde](media/1000000100000391000001C9A8374D4BE530A8B5.png){#fig-collabMondeSamszo fig-align="center"}
+
+Cette carte montre les pays hors de la France où sont publiées mes textes scientifiques et les conférences auxquelles j'ai participées. Parallèlement aux données géographiques, la couleur des pays est proportionnelle au nombre de collaborations. Cette carte montre que mes collaborations se développent essentiellement avec des pays francophones et des pays de l'hémisphère nord.
+
+### Cartographier le temps {#sec-cartoTempo}
+
+Pour les informations historiques, nous avons besoin de gérer deux propriétés, une date de début et une date de fin. Notons que la durée n'est pas une propriété nécessaire puisqu'elle se calcule à partir de la différence entre la date de début et la date de fin. Nous posons comme principe qu'une date de fin nulle indique une durée en cours. La frise est sans doute la représentation la plus courante et la plus commode à réaliser puisqu'elle associe une coordonnée graphique avec une échelle de temps, le plus souvent x pour une représentation horizontal et parfois y lorsqu'elle est verticale. Dans notre enfance, nous avons tous réalisé des frises historiques, elles peuplent nos salles de classe et prolifèrent sur le Web[^principescarto-25]. Nous avons une compréhension évidente de la frise historique, de son fonctionnement et des informations qu'elle diffuse : événements ponctuels, périodes. Voici par exemple la représentation en frise historique de mon activité d'enseignant chercheur :
+
+[^principescarto-25]:
+    > <https://bit.ly/3r9ROUa>
+
+![Timeline des activités d'enseignant chercheur](media/10000001000005060000019591922F8EA1A9F073.png){#fig-timelineCvSamszo fig-align="center"}
+
+Cette frise historique[^principescarto-26] montre l'évolution de mes activités d'enseignant chercheur suivant plusieurs types d'activité. Comme les outils Web de visualisation des cartes géographiques, cette visualisation fourni des fonctions de zoom, de déplacement et d'hypertextualité pour faciliter la lecture des données qui si elles sont trop détaillées, ne sont plus visibles. Là encore, la cartographie des connaissances dans le Web est conçu comme un outils de navigation dans les données.
+
+[^principescarto-26]:
+    > Visualisation conçue à partir du modules Omeka S timeline (https://gitlab.com/Daniel-KM/Omeka-S-module-Timeline) que nous avons adapté à nos besoins.
+
+Les connaissances sont toujours en rapport avec l'espace et le temps mais nous posons comme hypothèse qu'entre les connaissances des physicalités et celles des intériorités, entre l'étendu et la pensée, l'espace et le temps n'ont pas les même modes de perceptions et d'expressions.
+
+> « La durée se dit en fonction des parties extensives et se mesure au temps pendant lequel ces parties appartiennent à l'essence. Mais l'essence en elle-même à une réalité ou une existence éternelle ; elle n'a pas de durée, ni de temps qui marque l'achèvement de cette durée. »[@deleuze1968, p. 291]
+
+Nous suivons sur ce point les principes spinozistes d'une modélisation ontologique corrélée à une éthique en définissant trois dimensions de l'existence corrélées avec trois genres de connaissance[^principescarto-27] @sec-modeleOntoEthique. Examinons maintenant comment nous définissons de nouveaux principes cartographiques à partir de ces propositions.
+
+[^principescarto-27]:
+    > <https://spinoza.fr/les-genres-de-connaissance-extrait-du-cours-de-gilles-deleuze/>
+
+## Espaces matériels : connaissances des chocs {#sec-espaceMateriels}
+
+A l'instar de [@bautier2016] nous pensons nécessaire « de prendre en compte la matérialité de la culture numérique ». Les technologies numériques véhiculent sans doute des idées de dématérialisation à travers des expériences de téléprésence, de virtualisation des échanges et d'autonomisation de la forme logique par rapport à la base matérielle. Mais peut-on encore parler de matière quand le contact avec l'événement se fait à travers des écrans, des réseaux, des milliers de kilomètres, des années, des algorithmes ?
+
+Quoi qu'il en soit de cette « dématérialisation », nos connaissances numériques passent nécessairement par une dimension matérielle car nous sommes nous même constitué de matière :
+
+> « La sémiose, loin d'être un phénomène sans lien avec le corps, tire son origine de celui-ci. Ce premier aspect de la corporéité du sens peut être qualifié de cognitif : le signe émerge de l'expérience, et ne saurait être étudié qu'à travers les interactions qu'il a avec son contexte » [@µ2016, p. 2]
+
+Les illusions que le numérique procure, tendent pour beaucoup à nous faire croire à la dématérialisation en simulant par exemple des univers immersifs où nous vivons d'autres actualités que celles de notre corps avec des avatars de toutes sortes [@amato2013]. Mais en dernière instance nous sommes matière et nous évoluons dans des espaces matériels. Sur ce point nous nous opposons au spiritualistes qui affirment « qu'il existe une substance spirituelle (l'âme ou l'esprit), indépendante de la matière, et qui serait, en l'homme, principe de vie ou d'action. » [@comte-sponville1998, § 12].
+
+Les interprétations par Deleuze de L'Étique de Spinoza décrive ces espaces matériels comme étant la première dimension de l'existence celle des « parties extensives » :
+
+> « Ces parties (corpora simplissima) \[...\] se définissent uniquement par leur déterminisme extérieur, et vont toujours par infinités ; \[...\] elles constituent la matière modale infiniment variée de l'existence." [@deleuze2003, p. 110]
+
+Entre l'infiniment grand et l'infiniment petit (cf. illustration ci dessous) les parties extensives sont observables et modélisables à toutes les échelles physiques de notre univers. Tout comme le choix d'une projection géographique reflète un point de vue particulier, celui des échelles de représentation contribue lui aussi à l'expression d'une subjectivité spécifique.
+
+![Échelle de l'univers - univers observable https://htwins.net/scale2/](media/10000001000003080000024F28EEAE4E22F24B62.png){#fig-echelleUnivers fig-align="center"}
+
+![Échelle de l'univers - limite de Plank https://htwins.net/scale2/](media/100000010000030F000001D7889CE02FB9E347F3.png){#fig-echelleUniversPlank fig-align="center"}
+
+Les parties extensives correspondent aux « physicalités » des milieux que nous habitons, elles en sont l'indispensable matérialité. Cette nécessité de la matière est corrélé à des connaissances, elles aussi nécessaires, celles du premier genre de connaissance : les idées inadéquates :
+
+> « L'idée inadéquate, c'est l'idée inexpressive et non expliquée : l'impression qui n'est pas encore expression, l'indication qui n'est pas encore explication. » [@deleuze1968, p. 136]
+
+Pour expliquer à quoi correspondent les connaissances du premier genre, Deleuze décrit dans un de ces cours l'expérience d'une personne au bord de la mer :
+
+> « Bien alors c'est quoi la connaissance du premier genre ? Eh bien allez, j'y vais, je me lance, je suis dans le premier genre de connaissance. Je me lance, je barbote, comme on dit. Qu'est-ce que ça veut dire barboter ? Barboter c'est tout simple, ça indique bien, on voit bien que c'est des rapports extrinsèques. Tantôt la vague me gifle, et tantôt elle m'emporte. Ça c'est des effets de choc. C'est des effets de choc, à savoir, je ne connais rien aux rapports qui se composent ou qui se décomposent, je reçois les effets de parties extrinsèques. Les parties qui m'appartiennent à moi, sont secouées, reçoivent un effet de choc des parties qui appartiennent à la vague. » [@deleuze1981]
+
+Donnons un autre exemple de ce premier genre de connaissance en vous invitant à faire l'expérience des parties extensives suivantes :
+
+![Parties extensives 1](media/10000001000001EB0000002F6C14D0CF44FAB1C7.png){#fig-partExt1 fig-align="center"}
+
+Sauf si vous connaissez le tamoul, le texte ci-dessous est pour vous comme un choc, vous ne connaissez rien des rapports qui se composent ou se décomposent, vous ne voyez que les parties extensives du texte. Pour être plus précis, vous pouvez tout de même discerner des rapports puisque vous savez que l'image est un texte composé de caractères qui composent des mots séparés par des espaces. Par contre, vous n'avez aucune idée des concepts présents dans le texte, vous avez connaissance des signifiants mais pas des signifiés[^principescarto-28]. D'une certaine manière vous êtes comme un OCR (optical character recognition) capable de reconnaître des caractères et des mots dans une image. Mais à l'inverse d'une machine numérique qui avant la reconnaissance du texte décompose l'image en une multitude de points ayant chacun leurs coordonnées cartésiennes et leurs propriétés de couleur, vous commencez par reconnaître le texte puis vous le décomposez en mots et en caractères. Cette différence entre la machine et l'humain dans le processus de connaissances est au cœur d'une problématique fondamentale de la gestion mécanique du sens :
+
+[^principescarto-28]:
+    > Précisons toutefois que l'humain est particulière efficace pour la paréidolie [@Dufort2015], ce qui lui permet de donner du sens à des formes ambiguës et donc de créer des signifiés quelles que soient les parties extensives qu'il discerne.
+
+> « il y a un conflit entre l'holisme du sens et le mécanisme de la syntaxe. Le sens d'un texte dépend de son contexte, le sens d'un paragraphe dépend aussi du texte dans lequel il s'intègre, le sens d'un mot du paragraphe qui le contient, etc. : le sens va du global au local, de la compréhension globale vers l'analyse. Or, le formalisme opère de manière inverse : le sens d'une formule logique se construit à partir du sens de ses parties, allant du local au global. » [@bachimont2011, § 11]
+
+Ce conflit est d'autant plus flagrant quand le même texte est présenté dans une écriture que vous connaissez (@fig-partExt2). Dans ce cas, vous ne faites plus la décomposition du texte en parties extensives le constituant mais vous accédez directement à sa signification car vous avez appris à lire, c'est-à-dire à discerner les compositions de rapports dans les parties extensives et vous accédez ainsi à un autre genre de connaissance celui des signifiants.
+
+![Parties extensives 2](media/10000001000000A500000033DA0B4C29741E4F62.png){#fig-partExt2 fig-align="center"}
+
+Notre principe de cartographie des espaces matériels consiste à les considérer uniquement en tant que physicalités composées de parties extensives modélisables par leurs propriétés physico-chimique : largeur, hauteur, profondeur, masse, couleur, atome, molécule... Par exemple, dans les espaces matériels un livre est considéré du point de vue de sa taille, son nombre de page, son poids, sa matière etc... Dans l'espace matériel, on ne prend pas en compte l'auteur ou la thématique du livre qui respectivement seront cartographiés comme actant (@sec-espaceActant) et comme élément d'un espace conceptuel (@sec-espaceConceptuels). Dans les espaces matériels les mots du livre sont des traces de couleur qui génère des connaissances de l'ordre des chocs ; c'est à dire une réaction entre des parties extensives celles de la trace et celles de nos capteurs biologiques ou artificiels. Notons que ces chocs en entraînent d'autres qui eu mêmes se propagent dans un phénomène d'accroissement de l'entropie constitutif de l'univers chaotique du premier genre de connaissances, celui des idées inadéquates qui se répandent sans fin par composition et décomposition :
+
+> « qu'est-ce que vous racontez là, mais alors cette nature, c'est un pur chaos ! Pourquoi c'est un pur chaos ? Parce que vous remarquerez que, chaque fois qu'un corps agit sur un autre, il y a toujours composition et décomposition à la fois. Ce n'est pas à ce niveau-là que je pourrais dire, il y a du bon et du mauvais. Pourquoi ? Parce qu'il y a forcément composition et décomposition, les deux l'un dans l'autre. » [@deleuze1981]
+
+Ces compositions et décompositions des corps les plus simples que sont les parties extensives sont modélisables suivant une hiérarchie de parties et de sous-parties. Par exemple le livre est décomposable en parties plus petites : page → paragraphe → phrase → mot → caractère. Ce même livre est aussi composable avec d'autres parties plus vastes : étagère → salle → bibliothèque. La modélisation des espaces matériels est une structure hiérarchiques qui potentiellement se compose jusqu'aux limites de l'univers observable (@fig-echelleUnivers) et se décompose jusqu'à l'infiniment petit de l'échelle de Plank (@fig-echelleUniversPlank) en passant par l'échelle de l'être humain (@fig-echelleHumain). Nous verrons plus loin combien le choix de l'échelle cartographique est primordial (@sec-illusionExhaustivite)
+
+![Échelle de l'univers - être humain](media/100000010000030E00000219C3ED261C6D514C78.png){#fig-echelleHumain fig-align="center"}
+
+Pour cartographier les espaces matériels en tant qu'ensemble des parties extensives définissables par leurs propriétés physico-chimique et leurs compositions vers l'infiniment grand et décompositions vers l'infiniment petit, nous optons pour un modèle de diagramme hiérarchique appelé « treemap » et proposé par [@shneiderman1998] qui se compose de rectangles imbriqués représentant un élément et ses sous parties et dont la taille des rectangles est proportionnelle à la valeur numérique d'une propriété, par exemple le nombre d'éléments que contient la sous partie .
+
+En utilisant l'objet TreeMap[^principescarto-29] de la librairie D3.js, nous avons implémenté ce modèle de diagramme dans un module JavaScript (@sec-jdcPhysiques) pour le rendre dynamique, interactif et ainsi représenter les espaces matériels que nous cartographions soit à partir de données existantes soit en les créant au fur et à mesure de l'exploration. Notons que pour faciliter la visualisation des dimensions physiques complexes, nous avons implémenté une navigation directe vers une partie ou une sous-partie et une navigation hiérarchique par zoom dans une partie et dé-zoom vers le parent. Par exemple, nous avons cartographié notre CV en utilisant ce modèle de diagramme avec comme paramètre de taille des rectangles la durée d'un événement :
+
+[^principescarto-29]:
+    > https://d3js.org/d3-hierarchy/treemap
+
+![Treemap d'un Curiculum Vitae](media/1000000100000521000002C4F34D431EF036AFFE.png){#fig-treeMapCv fig-align="center"}
+
+Dans le cas de ce diagramme, la durée d'un événement cumule l'ensemble des durées des événements qui le compose ce qui explique une durée de plusieurs centaines d'année pour le CV. D'autre part, cette durée exprime une période de travail et ne prend pas en compte les activités parallèles à l'inverse de la frise historique (@fig-timelineCvSamszo).
+
+Dans les espaces matériels les connaissances sont des chocs qui ne dure qu'un instant, celui du contact entre les parties extensives. On peut les dater plus ou moins précisément, ils peuvent se répéter encore et encore mais ils n'ont pas de durée. Ce qui dure c'est l'onde du choc qui se propage dans les physicalités et dans les intériorités des acteurs qui participent à l'événement ce qui génère d'autres chocs dans les espaces matériels et des connaissances d'un autre genre dans les espaces conceptuels.
+
+## Espaces conceptuels : connaissances des essences {#sec-espaceConceptuels}
+
+A l'opposé des espaces matériels-physiques et de la connaissance des chocs, nos connaissances se composent aussi dans nos intériorités :
+
+> « Par le terme vague d' "intériorité", il faut entendre une gamme de propriétés reconnues par tous les humains et recouvrant en partie ce que nous appelons d'ordinaire l'esprit, l'âme ou la conscience - intentionnalité, subjectivité, réflexivité, affect, aptitude à signifier ou à rêver. » [@descola2005, p. 168]
+
+Comment cartographier ces espaces de connaissances  ? Comment mesurer ces espaces ? Combien pèse une âme ?
+
+![La pesée des âmes dans le retable polyptyque du Jugement Dernier de Rogier van der Weyden aux Hospices de Beaune, 1443-1452, https://commons.wikimedia.org/w/index.php?curid=6028656](media/100000000000026C0000033BDE0C2A2E5F4A6C07.jpg){#fig-peseeAme fig-align="center"}
+
+La question du poids des âmes se pose depuis longtemps comme en témoigne l'iconographie de la pesée des âmes. La psychostasie, nom donné à cette activité de la pesée des âmes, touche historiquement les domaines de la théologie, de la philosophie et de l'éthique mais intéresse aussi les sciences de l'information et de la communication qui cherchent notamment des réponses sur la mesure, l'analyse et la critique de ces espaces informationnels immatériels qui ne sont pas mesurables de la même manière qu'une planche de bois ou qu'une récolte de fruit car ils ne sont pas soumis aux règles physiques de la matérialité tant qu'ils ne sont pas exprimées. Dès le passage de ces espaces intérieurs vers une forme d'expression quelle qu'elle soit (écrit, parole, clic sur un bouton...), ils se transforment en physicalités dont on pourra mesurer les paramètres physiques (hauteur, largeur, vitesse...). Ne peut-on mesurer ces intériorités qu'une fois exprimées par nos paroles, nos écrits, nos dessins, nos danses, nos activités corporelles... ?
+
+Il faut sans doute passer par une forme d'expression pour que les impressions dans nos intériorités soient communicables, même s'il existe des connaissances intérieures qui restent secrètes, non par choix de ne pas les exprimer mais par impossibilité de le faire soit parce qu'elles sont inconscientes, soit parce qu'elles relèvent d'une expérience incommunicable. Sans parler des connaissances mystiques qui n'existent que par le fait de les avoirs expérimenter ou non, pensons simplement aux connaissances qui émergent de nos intériorités à la lecture dans simple mot : aimer. Chacun d'entre nous expérimente la lecture de ce mot suivant ses propres histoires, ses états actuels et ses désirs ; ce que nous en communiquerons révélera ou non une partie de ces expériences que le mot aura fait résonner en nous. Nos intériorités sont le siège de nos subjectivités et des processus de signification que nous avons abordé en introduction de ce chapitre. Elles sont l'espace des élaborations sémiotiques qui transforment notre pouvoir de discernement en pouvoir d'agir. Mesurer les espaces conceptuels et avant tout un travail de réflexivité individuelle et de concentration sur cette dimension particulière de l'existence que nous ne pouvons explorer que dans la solitude de notre propre conscience. L'enjeu qui nous anime ici est de fournir aux explorateurs de ces espaces conceptuels des outils pour cartographier leurs explorations de manière à les rendre interopérable avec celles menées par d'autres.
+
+### Approches topologique de la cartographie des concepts {#sec-approcheTopologique}
+
+Dans le domaine des sciences cognitives, les espaces intérieurs ont été pensé par [@gärdenfors2001] comme des « espaces conceptuels » en complémentarité des approches symboliques qui modélisent les systèmes cognitifs avec des machines de Turing et des approches connexionnistes qui modélisent avec des réseaux de neurones artificiels. Cet auteur propose de modéliser les espaces conceptuels à partir d'une représentation topologique des similarités qualitatives. La modélisation des espaces conceptuels par des topologies est sans doute une perspective intéressante pour représenter ces espaces car elle permet de concevoir des espaces métriques à partir de la notion simple de voisinage. On peut considérer les concepts comme des points qui définissent un espace dans leurs rapports de voisinage avec d'autre concepts et calculer des distances entre ces points. Toute la difficulté est de définir les valeurs qui seront utilisées pour calculer la distance entre ces points. Gärdenfors propose d'utiliser des valeurs qualitatives pour calculer les distances par exemple les concepts de couleurs seront représentés dans une topologie dont les distances sont calculées suivants les qualités de nuance, d'intensité et de luminosité. L'avantage de cette proposition est de rendre pratiquement objectif la distance entre les concepts car celles-ci résultent d'une mesure physique. Mais de notre point vue, ces qualités font parties de la dimension matérielle que nous avons présentée plus haut (@sec-espaceMateriels), elles ne peuvent donc pas être utilisées pour modéliser les concepts qui dans notre modèle relève d'une autre dimension existentielle, celle des essences (@sec-modeleOntoEthique). Il est fondamental de préserver la multiplicité des points de vue à l'intérieur de ces espaces conceptuels et de ne pas les réduire à une mesure physique qui est la même pour tous, à tout moment, en tout lieu. Nous pensons que les espaces conceptuels sont propres à chaque individu; leur cartographie ne peut donc pas relever d'une mesure « universelle » liée à une métrologie physique. La distance qui sépare « aimer » de « haïr » n'est pas la même pour vous ou moi, pour hier, aujourd'hui et demain, ou suivant le lieu de mes rapports avec ces concepts. Nous verrons plus loin comment les dimensions existentielles des actants et des rapports nous permettent de cartographier ces fluctuations temporelles et spatiales (@sec-espaceActant) retenons juste pour le moment que les principes de cartographie des espaces conceptuels ne peuvent se baser sur une mesure matérielle car nous ne recherchons pas une mesure objective mais tout au contraire, l'expression d'une subjectivité.
+
+Contrairement à Gärdenfors, le langage IEML propose un « filet topologique » [@lévy2011, p. 257] dont les espaces métriques sont purement conceptuels puisque les rapports de voisinage sont définies suivant six concepts (être, signe, chose, actuel, virtuel, vide) associés à trois positions conceptuelles (substance, attribut, mode) sur six couches. Il en résulte un grille topologique très vaste : (6\*6\*6)^6^ soit 1,015599567×10¹⁴ positions possibles. Une infime partie de ces positions (3418[^principescarto-30]) ont été interprétées, classifiées et référencées par Pierre Lévy et ses équipes pour donner du sens à cette topologie et fournir un vocabulaire de base utilisable avec un éditeur dédié à ce langage[^principescarto-31]. Cette solution de cartographie des espaces conceptuels est élégante et très ambitieuse mais elle se confronte à plusieurs difficultés majeures. La première est qu'il n'est pas très facile de comprendre la complexité de ce langage et son utilité par rapport à des outils comme le moteur de recherche Google dont l'usage simplissime demande un effort minimal. IEML s'adresse à un public de spécialistes ayant des besoins très spécifiques et demande un investissement conséquent :
+
+[^principescarto-30]:
+    > Le chiffre correspond au nombre d'adresse définie dans le dictionnaire IEML à la date du 25/01/2023. Ce travail toujours entrain de se faire est consultable ici : https://github.com/plevyieml/ieml-language/
+
+[^principescarto-31]:
+    > L'éditeur IEML était accessible (https://dev.intlekt.io/) mais n'est plus accessible
+
+> «  IEML \[...\] force à faire un travail d'analyse et de définition des concepts utilisés et fait apparaître de possibles paralogismes dans un raisonnement. » [@vitalirosati2021].
+
+La deuxième difficulté porte sur l'usage de ce langage qui ne correspond pas aux habitudes du public de chercheurs auquel il est destiné. Ceux-ci travaillent généralement des textes dans lesquels la définition et la critique des concepts est une part importante mais le référencement de ces concepts par des thésaurus, des vocabulaires normalisés ou des langages formels est considéré comme un travail à la charge des documentalistes, des bibliothécaires ou des « ingénieurs sémantiques », nouveau métier que Pierre Lévy contribue à faire émerger. Le passage par un tiers en charge de traduire un texte écrit en langage naturel dans un langage sémantique comme IEML occasionne une nouvelle difficulté liée à l'économie du processus éditorial qui est déjà soumis à de forte pressions temporelles, financières et humaines. Une autre difficulté que nous avons expérimentée dans notre usage d'IEML depuis une dizaine d'années, est le manque de pérennité des outils mis à disposition pour gérer ce langage[^principescarto-32]. Cette difficulté inhérente à un travail de recherche « in progress » mais plus généralement aux langages informatiques qui évoluent au fil de temps rend délicat l'investissement important et constant que nécessite l'utilisation d'IEML Au final, ce magnifique projet mené par Pierre Lévy rejoint sans doute la liste des langues parfaites [@eco1994] et contribue en tout cas à faire avancer l'utopie d'un dialogue plus fécond entre les humains grâce aux machines.
+
+[^principescarto-32]:
+    > Pour un historique rapide des différentes implémentations : https://intlekt.io/histoire/
+
+### Modélisations prétopologiques des concepts {#sec-modelisationsPretopologique}
+
+Face à ces difficultés, nous proposons de concevoir la cartographie des espaces sémantiques à partir d'outils simples permettant à chacun de construire ses propres représentations conceptuelles et donc de maîtriser le sens de ces représentations. Pour ce faire, nous avons élaboré un outil de conception de cartes sémantiques qui s'appuie sur le principes de la prétopologie [@belmandt1993; @thibault2017; @toumia2018] pour manipuler des concepts et leurs relations.
+
+Les espaces conceptuels se prêtent particulièrement bien à la modélisation prétopologique car il correspondent à ces deux principes fondamentaux  :
+
+> « pretopology can be used to represent a system where the relation between an element and a set is not a simple aggregation of the individual relations to the members of the set. In this it is fundamentally different from a graph.
+
+> pretopology establishes one single relation between a particular element and a particular group. In this it is different from a multilayer network. » [@laborde2019, p. 28]
+
+Nos principes cartographiques utilisent les notions de base de la prétopologie pour guider l'utilisateur dans la construction d'une carte et pas uniquement pour représenter les résultats d'une analyse automatique comme peuvent le faire par exemple les outils de modélisation de graphes comme Gephi [@bastian2009]. L'idée principale de cette démarche est de construire pas à pas des espaces conceptuels relativement simples avec un protocole de formalisation les rendant compréhensibles, interopérables et calculables. Les choix nécessaires à la construction de la carte sont ceux du cartographe et pas ceux d'un algorithme qu'on bricole en jouant avec ses paramètres pour obtenir la représentation désirée. Avec l'outil que nous proposons, le cartographe maîtrise la signification de ces choix ce qui n'est pas toujours le cas quand on applique un algorithme sur une grande quantité de données. L'objectif est d'éviter que la carte serve uniquement d'illustration justifiant un discours par un « preuve » graphique mais soit le discours à part entière.
+
+Le processus de cartographie que nous proposons à partir d'une modélisation prétopologique consiste à définir un espace conceptuel en lui donnant un titre. Cet espace est représenté par une ellipse et par son titre. Dans un deuxième temps, cet espace est peuplé d'un ensemble d'éléments appartenant à l'espace. Par exemple, l'espace conceptuel que nous cartographions porte le titre de « humanités numériques », il se compose des éléments  : humains, machines, collaboration, efficace, biais, cognitifs...
+
+Dans un troisième temps, la modélisation prétopologique consiste à créer un ensemble de parties P(X) qui sont des sous-ensembles constitués avec une application d'adhérence qui s'applique aux éléments de l'ensemble.
+
+> « On appelle prétopologie sur X, toute application adh de P(X) dans P(X) qui vérifie :\
+> i - adh (ø) = ø\
+> ii - ∀A ∈ P(X), A ⊂ adh(A)\
+> (X, adh) est appelé espace prétopologique.\
+> adh est encore appelée adhérence. » [@dalud-vincent2017, p. 47]
+
+Dans notre cas, l'application d'adhérence consiste à « conceptualiser » les chaînes de caractères continues pour modéliser des sous-ensemble sous forme de mots  : P(X) = \[« humains », « machines », « collaboration », « efficace », « biais », « cognitifs »\]. Ces mots sont eux-aussi représentés par une ellipse et par un titre ce qui de manière fractale fait que chaque élément de l'ensemble est lui-même un ensemble disposant de propriétés et de méthodes utiles pour sa manipulation cartographique. De même, l'espace conceptuel « humanités numériques » peut-être utiliser comment élément d'un ensemble plus vaste par exemple « sciences humaines ».
+
+### Applications prétopologiques des concepts {#sec-applicationsPretopologique}
+
+Pour faciliter les manipulations de concepts nous travaillons à un dispositif de cartographie qui présente un espace dynamique et interactif dans lequel les cartographes pourront utiliser graphiquement les applications prétopologiques pour : créer un espace, le définir, créer des sous ensembles et le mettre en relation avec d'autres espaces suivant des applications prétopologiques spécifiques. Pour faciliter le positionnement des concepts les uns par rapport aux autres en évitant le chevauchement des titres, nous avons fait le choix d'utiliser une grille hexagonale comme le propose [@rodighiero2021] pour réaliser la carte des affinités d'un laboratoire de recherche ou comme nous l'avons expérimenté pour paramétrer le filtrage des flux d'informations [@szoniecky2011]. Une grille hexagonale permet de représenter les relations d'un élément avec vingt-quatre autres sans aucun chevauchement, ce qui peut paraître faible lorsqu'on pense à l'infinité des relations possibles entre les concepts mais qui offre l'avantage de contraindre la cartographie sémantique dans un espace relativement simple et donc facilement compréhensible. De plus, la construction fractale des rapports entre ensembles et éléments rend infini la possibilité d'expression puisque le regroupement des élément dans un ensemble crée la possibilité de représenter vingt-quatre nouveaux éléments. Pour des raisons d'ergonomie graphique et algorithmique, les espaces conceptuels sont structurés par une grille hexagonale  :
+
+> « L'hexagone permet de "paver" l'espace en un agencement sans fin, qui, potentiellement, permet de dessiner des réseaux infinis. \[...\] Choisir une grille hexagonale réduit le bruit numérique et facilite la lecture. » [@rodighiero2021, p. 76]
+
+Nous nous sommes inspiré des travaux d'Amit Patel[^principescarto-33] pour mettre en place une grille hexagonale et les fonctionnalités nécessaires pour les applications prétopologiques que nous avons codées dans une librairie JavaScript[^principescarto-34] et mises en application dans un module Omeka S (@sec-cartoAffect) afin de gérer les manipulations d'informations dans une base de données.
+
+[^principescarto-33]:
+    > Pour une explication des grilles hexagonales : <https://www.redblobgames.com/grids/hexagons/>\
+    > Pour une proposition d'implémentation algorithmique : <https://www.redblobgames.com/grids/hexagons/implementation.html>
+
+[^principescarto-34]:
+    > Le code est accessible ici : <https://github.com/samszo/HDR/docs/jdcCartoHexa.html>
+
+Une fois connecté à l'application de cartographie, la première action a effectuer est de charger une carte ou d'en crééer une. Lorsque l'on crée une carte, l'application propose une espace avec une grille hexagonale de rayon 2 avec positionné au centre de cette grille un concept "vide" qui lui aussi possède une grille hexagonal permettant ainsi e fractaliser la cartographie avec des grilles hexagonales incluant d'autres grille hexagonales etc. Notons que cette grille est créée par défaut avec un rayon de 2 mais qu'elle peut être étendue en déplaçant les bords de l'espace.
+
+![Cartographie conceptuel dans un espace hexagonal](images/localhost_samszo_HDR_docs_jdcCartoHexa.html.png){#fig-cartoHexa fig-align="center"}
+
+Les utilisateurs peuvent ensuite utiliser les applications d'adhérence que nous venons de présenter, qui consiste par exemple à « conceptualiser » un espace en lui donnant un titre. Il suffit de cliquer dans l'espace conceptuel pour choisir une position et faire apparaître un formulaire permettant de saisir le titre du concept. Il est important de pouvoir créer tous les concepts possibles à partir de n'importe qu'elle chaîne de caractères car une des difficultés bien connues dans l'usage des ontologies ou des vocabulaires formalisés est de trouver la « bonne » référence dans un ensemble souvent très vaste dont on ne connaît pas l'ensemble des références et surtout quand on ne trouve pas d'équivalent à ses propres habitudes linguistiques. C'est pourquoi, dans nos principes de cartographie des espaces conceptuels, l'expression des concepts est libre comme c'est le cas dans les folksonomies [@broudoux2012]. Toutefois, lors de la saisie du titre du concept, un processus d'auto-complétion du champ de saisie renvoie les concepts déjà enregistrée dans la base de données à partir de quelques lettres ; l'utilisateur est informé des concepts existants et peut donc choisir une référence que d'autres utilisateurs ont déjà utilisé ce qui permet de créer une interopérabilité formelle. Notons que cette interopérabilité ne présage pas d'un consensus sur le sens du concept, toutefois elle est grandement utile pour rassembler les différents acteurs qui l'utilise afin qu'il discute de leurs accords et divergences @sec-axeFormaConsensus.
+
+L'application « conceptualiser » enregistre dans une base de données Omeka S la position d'un concept défini par un actant ici et maintenant dans un espace conceptuel de référence en décomposant ces informations dans les propriétés suivantes :
+
+\- identifiant de la position
+
+\- titre de la position
+
+\- identifiant de l'espace de référence
+
+\- coordonnées de la position dans l'espace de référence
+
+\- identifiant de l'actant
+
+\- date du choix de la position
+
+\- lieu du choix de la position
+
+Décomposer l'actant, le concept et sa position a pour avantage de partager un concept commun avec d'autres utilisateurs tout en conservant le point de vue de l'actant sur ce concept. Ainsi, « aimer » et « haïr » peuvent être commun à plusieurs personnes mais la distance entre ces deux concepts peut varier suivant les individus, le temps, l'espace... Il y a donc une dé-corrélation entre le concept et ses usages. Le concept est virtuel, c'est une potentialité qui s'actualise dans une « action située » c'est à dire dans des usages ayant leurs propres spécificités (@actionSitue). De plus, l'enregistrement situé des étapes de construction de la carte rend accessible le processus créatif de son auteur.
+
+Cette définition minimale de l'espace prétopologique peut être enrichie par d'autres applications qui enrichissent l'espace de nouvelles propriété comme celui qui est à l'œuvre avec IEML. Cette activité purement conceptuelle consiste à affiner la cartographie en définissant des rapports entre les concepts à la manière de ce qui se fait lorsqu'on développe une ontologie [@bachimont2007] en utilisant par exemple des propriétés de relation issu du vocabulaire SKOS [@isaac2011].
+
+Dans notre cas, l'application « intérieur » va nous permettre de définir les espaces conceptuels à l'intérieur d'autres espaces conceptuels en suivant la définition :
+
+> « Soit une application i : P(E) → P(E) appelée intérieur et définie comme suit :\
+> ∀A, A ⊆ E l'intérieur de A, i(A) ⊆ E est telle que :\
+> -- i(A) = \[a(A^c^)\]^c^ (P1)\
+> -- i(A) ⊆ A (P2)\
+> avec A^c^ le complémentaire de A soit E − A. » [@levorato2008, p. 40]
+
+Pour utiliser cette application, il suffit de cliquer dans un des hexagones de la grille pour faire apparaitre un formulaire permettant de choisir un concept et les relations que ce concept entretient avec le concept dont il est un sous espace. Ces relations sont exprimées avec le vocabulaire des relations de SKOS[^principescarto-35] mais sans toutefois limiter les possibilités d'associations aux contraintes logiques. Par exemple, il est illogique que deux concepts possèdent à la fois une relation hiérarchique "plus spécifique" (skos:narrower) et une relation "plus générique" (skos:broader). Toutefois, il nous semble important de laisser la possibilité aux usagers d'exprimer ces relations illogiques afin de laisser une place aux incohérences et aux inventions poétiques.
+
+[^principescarto-35]:
+    > Pour une présentation des relations sémantiques dans SKOS : <https://www.w3.org/TR/skos-reference/#semantic-relations/>
+
+![Ajout d'un concept et de ses relations](images/localhost_samszo_HDR_docs_jdcCartoHexaAjoutCrible.html.png){#fig-cartoHexaAjoutConcept fig-align="center"}
+
+## L'actant : connaissances des dynamiques génératives {#sec-espaceActant}
+
+Entre la dimension des physicalités organisée en hiérarchies et celle des concepts organisée en topologies, la dimension des actants organise l'espace des connaissances à la fois sous la forme de topos et de chôra [@zamora2003; @derrida1997]. Topos et chôra sont deux manières complémentaires de définir l'espace soit pour le topos sous la forme d'une identité par exemple "Université Paris 8", soit pour la chôra en définissant ce que le lieu génère comme activités, ce que sont ses dynamiques génératives, par exemple dans le cas de Paris 8 : recherches et enseignements.
+
+> « la chôra \[...\] relèvent du monde sensible, non du monde intelligible. Inversement, la notion de topos, dans la mesure où elle concorde avec la logique de l'identité du sujet, relève moins de la sensibilité que de l'intelligibilité. » [@berque2009, p. 232].
+
+Il est curieux de voir que dans l'histoire, topos et chôra se sont développés à travers deux manières d'êtres au monde [@latour2012]. On pourrait par exemple voir d'un coté une vision occidentale du topos dont les modernistes sont les héritiers et qui plonge ces racines chez Platon, Aristote et que l'on trouve aussi dans la Bible où la première activité de l'homme est de nommer les vivants pour définir leur identité :
+
+> « 2.19 : L'Éternel Dieu forma de la terre tous les animaux des champs et tous les oiseaux du ciel, et il les fit venir vers l'homme, pour voir comment il les appellerait, et afin que tout être vivant portât le nom que lui donnerait l'homme.
+>
+> 2.20 : Et l'homme donna des noms à tout le bétail, aux oiseaux du ciel et à tous les animaux des champs » [@jérusalem1993, p.19].
+
+![Adam nomme les animaux](images/Adam_naming_animals_-_Moni_Ayou_Nikolaou_(Meteora).jpg){#fig-adamNomme fig-align="center"}
+
+Le topos fonde « en Occident la logique du tiers exclu » [@berque2009, p. 145] et caractérise les approches Naturalistes dont l'ambition est de décrire le monde de manière universelle [@descola2005]. Du coté de l'Orient, la taoïsme apporte quant à lui une approche de l'environement informationnel différente. Elle ne se base pas sur le nommage de l'identité mais sur l'expérience des flux informationnels, des dynamiques génératives qui caractérisent la chôra, comme en témoigne Lao Tseu six siècles avant notre ère dans les deux premiers paragraphes du Tao Te King où il insiste sur le caractère indicible du Tao :
+
+> «  1. Le tao exprimable n'est pas Le Tao. 2. Le nom énonçable n'est pas Le Nom. » [@saintgirons2016].
+
+L'opposition entre ces deux approches trouvent aujourd'hui une actualité flagrante entre une IA symbolique qui fonctionne par nommage très précis des identités informationnelles sous la forme d'ontologies et une IA connexionniste qui privilégie l'émergence de modèle par des cycles récurrents d'apprentissages [@masure2023]. Entre identité et dynamiqmes, les deux approches sont complémentaire notamment quand on cherche à modéliser les actants qui ne sont ni réductibles à leur identité ni à leurs activités. L'actant possède une identité qu'on défini basiquement par un nom et donc par une physicalité mais l'actant est aussi producteur d'activités et donc de dynamismes génératifs en créant des rapports entre des physicalités et des concepts (@sec-rapportsInstExis). Les actants sont topos de part les rapports qu'ils entretiennent avec les physicalités et chôra dans les processus internes d'émergence des connaissances intuitives issu des expériences de l'espace vécu. L'actant est donc le milieu de ces pulsations exitentielles que nous décrivions plus haut @fig-dynamiquesPulsationsExistentielles, il est le continuum entre les physicalités et les intériorités. Modéliser l'actant consiste donc à une double démarche à la fois de définition de son identité par des noms et de caractérisation des ces pouvoirs génératifs spécifiques (dicerner, raisonner, agir). En se sens la représentation de l'actant est à la fois topologique et chorématique[@reymond1996; @brandt2021].
+
+Pour représenter les actants, nous avons fait le choix de l'hexagone dont la forme est entre le rectangle qui représente les physicalités et le cercle qui représente les concepts. De plus, les six cotés de l'hexagone offrent une possibilité de trois plage de connexion vers le haut où sont représentées les physicalités et trois plages de connexion vers le bas où l'on trouve les concepts. L'hexagone est une forme qui peut être utilisée pour paver l'espace de manière fractale puisque l'intérieur de l'hexagone peut lui aussi être paver avec des hexagones (@fig-cartoHexa). A l'hexagone nous avons associé un cercle qui défini l'intériorité d'un actant (@fig-actantP8) ou de plusieurs actants qui se partagent la même intériorité par exemple dans le cadre d'une institution ou d'un groupe d'individu qui mettent en commun des concepts et des pouvoirs (@fig-actantP8-membres) ou dans le cas d'une modélisation global d'un écosystème qui possède sa propre intériorité composée de plusieurs actants ayant eux-même leurs propres intériorités (@fig-actantSonar).
+
+![Actant individuel](images/actantP8.svg){#fig-actantP8 fig-align="center" style="width:50%"}
+
+![Actants d'une communauté](images/actantP8-labos-ufr.svg){#fig-actantP8-membres fig-align="center" style="width:50%"}
+
+![Actants dans un écosystème](images/iceSonar.png){#fig-actantSonar fig-align="center" style="width:100%"}
+
+Un des autres grands intérets d'utiliser des structures hexagonales pour modéliser les actants de l'écosystème de connaissances vient du fait qu'il est possible de créer des formules logiques par positionnement des hexagones les uns par rapport aux autres. Voici par exemple comment utiliser des hexagones pour créer des diagrammes de Venn [@coumet2020; @venn1866]afin de modéliser l'intersection entre deux, trois et quatre ensembles d'actants :
+
+![Diagramme de Venn à 2 ensembles =\> 3 espaces hexagonaux](images/actantVenn2.svg){#fig-hexaVenn2 fig-align="center"}
+
+![Diagramme de Venn à 3 ensembles =\> 7 espaces hexagonaux](images/actantVenn3.svg){#fig-hexaVenn3 fig-align="center"}
+
+![Diagramme de Venn à 4 ensembles =\> 15 espaces hexagonaux](images/actantVenn4.svg){#fig-hexaVenn4 fig-align="center"}
+
+Chaque espace défini par les intersections renvoie un ensemble particulier d'actant, par exemple @fig-hexaVenn2 modélise les actants qui appartiennent à l'institution Verte, à l'institution Rouge et ceux qui sont à la fois dans l'une et dans l'autre. Les diagrammes de Venn sont très pratiques pour avoir une vision d'ensemble de toutes les possibilités d'inclusion de plusieurs ensembles. Toutefois, lorsque le nombre d'ensemble est supérieur à cinq, il devient difficile de lire correctement certain cas d'inclusion comme le montre @fig-hexaVenn4 et même très difficile de les représenter sous forme hexagonale. Dans le cas où les ensembles d'actant sont nombreux, il convient donc de trouver d'autres solutions graphiques pour représenter l'appartenance d'un actant à une institution, par exemple en représentant une autre dimension existentielle : les rapports.
+
+## Les rapports : connaissances des existences potentielles {#sec-rapportsInstExis}
+
+Les rapports sont la quatrième dimension de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances. Ils composent la dimension existentielle qui relie les trois autres dimensions, les connaissances et les espaces qui leurs sont associés : dimension physique, connaissances des chocs et espaces matériels hiérarchiques, dimension des concepts, connaissances des essences et espaces topologiques, dimension des actants, connaissances des dynamismes et espaces topographiques chorématiques. Les rapports définissent des espaces temporels, ils transforment une virtualité en actualité. Par exemple, je suis en tant qu'actant actuellement en rapport avec la physicalité de mon clavier et de mon écran qui produisent les concepts que vous lisez. Ces rapports, ne seront plus actuels quand à la fin de cette séance de travail je commencerais une autre activité. Moi en tant qu'actant, mon clavier en tant que physicalités et ce que j'ai écrit en tant que concepts, nous existons toujours comme potentialités de futurs rapports qui s'instancieront à une date et pour une période données. En d'autres termes, les trois dimensions physique, actant, concept créent des potentialités de rapports qui s'instancient ici et maintenant dans l'actualité d'une existence informationnelle.
+
+Pour modéliser des rapports le modèle hypertextuel basique : nœud - ancre - lien et depuis longtemps utilisé [@balpe1996] de même que le triplet RDF sujet - objet - prédicat [@gandon2012] que le W3C préconise pour modéliser des rapports logiques en RDF\[\^principecarto-37-1\]. Ils sont traditionnellement représentés sous la forme d'un graphe où le sujet et l'objet sont des entités et le prédicat un label décrivant le lien entre les deux entités : ![Visualisattion des triplets RDF](images/Schema_triplet.png){#fig-tripletRDF fig-align="center"}
+
+Nos principes de cartographie s'accomodent parfaitement de cette modélisation par triplet RDF mais nous faisons le choix d'un autre type de représentation qui reprend les recommandations du W3C avec le format « Open Annotation »[^principescarto-36] qui code de façon très simple les relations entre des ressources numériques afin de définir un point de vue particulier sur celles-ci. Suivant ce modèle une "annotation" est ce qui met en rapport un "body" à une "target". De notre point de vue, la modélisation du rapport est donc une "annotation" qui dans un ici et maintenant va mettre en relation deux ressources.
+
+[^principescarto-36]:
+    > cf. <http://www.openannotation.org/>
+
+![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation fig-align="center"}
+
+Les recherches menées en théories des graphes [@moretti2008] ont montré leur souplesse dans la capacité de mettre en relation des éléments hétérogènes les uns avec les autres où : \> « la réalité abordée est réduite à des symboles sans signification pour être soumise à des manipulations aveugles. » [@bachimont2020].
+
+Nous défendons ici une toute autre approche puisque la modélisation des rapports que nous proposons s'incrit dans une démarche où ne reduisons pas les objets que nous manipulons uniquement à des symboles mais nous les associons à une « organologie générale » [@stiegler2005] où chaque élément appartient à une dimension existentielle qui contraint les manières de le décrire et des le mettre en rapport avec d'autres. Potentiellement, il est possible de mettre en rapport n'importe quelle ressource avec n'importe quelles autres quel que soit la dimension existentielle à laquelle elle appartient. Notre modèle propose quatre dimensions existentielles et trois positions pour définir un rapport ce qui donne 4\*4\*4 = 64 possibilités de rapports. Toutefois, de notre point vue, ces 64 possibilités de rapport ne sont pas toutes cohérentes comme le résume le tableau suivant :
+
+![Cohérences des rapports](images/coherencesRapports.png){#fig-coherenceRapport fig-align="center"}
+
+On le voit, la majeur partie des relations sont pour nous incohérentes puisque sur 64 possibilités nous n'en retenons que 9. Insistons sur le fait que ces incohérences le sont de notre point vue et que d'autres personnes pourrait considérer que d'autres rapports sont possibles suivant leurs manières de penser les connaissances. C'est ici que se situe les débats scientifiques non pas au niveau des techniques informatiques ou de la justesse mathématique mais au niveau épistémologique. Nous avons fait le choix de limiter les possibilités aux cas qui correspondent à l'épistémologie que nous pratiquons @sec-principesCarto mais de nombreuses questions se posent : peut-on considérer comme sujet uniquement les actants et comme prédicat uniquement les concepts ? Les concepts peuvent-ils être des objets ? Les physicalités peuvent-elles êtres des prédicats ?
+
+Pour toutes ces questions, il convient de trouver des exemples précis dans la littérature ou dans la vie courante qui montre la cohérence ou non des rapports. Nous nous appuyons sur notre modèle @sec-modeleOntoEthique pour faire une séparation nette entre les actants comme milieu entre les dimensions des physicalités et des intériorités, entre les attributs de l'entendu et de la pensée. Nous posons comme principe de modélisation que l'objet est une physicalité, que le prédicat est un concept et que le sujet est un actant. Attention, ces restrictions n'empèchent pas de considérer une personnes comme un concept comme le fait par exemple la philosophie avec le personnage de l'idiot ou quand on parle de Napoléon en politique ou dans une fiction. De même, les physicalités peuvent être conceptualisés pour en parler en terme générique et pas spécifique, la physicalité banane dans la coupe à fruit sur la table, devient alors banane en tant que fruit jaune et allongée des zones tropicales. Il est toujours possible de modéliser une entité suivant un dimension particulière afin de s'interroger sur un point de vue spécifique. C'est ce qui et à l'oeuvre dans l'hypothèse Gaïa qui pense notre Terre non plus uniquement comme un ensemble de physicalités mais comme actant [@latour2015]. C'est aussi ce que font les poètes en transformant des concepts ou des émotions en actants autonomes. Globalement, la transformation d'une dimension physique ou conceptuelle en actant est un processus d'agentivité [@ingold; @hörl2012] qui est de la responsabilité du modélisateur dont les choix orientent explicitement ses analyses vers un mode d'existence spécifique :
+
+> « sujet et objet, loin d’être au début de la réflexion comme les deux crochets indispensables auxquels il convient d’attacher le hamac où va pouvoir somnoler le philosophe, ne sont que des effets assez tardifs d’une véritable histoire des modes d’existence » [@latour2009, p. 5]
+
+Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S "Annotation" développé par Daniel Berthereau[^principescarto-37] afin de créer des rapports entre des ressources physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en relation avec les autres dimension existentielles, par exemple pour qualifier le rapport avec un concept particulier, comme ceux proposés par la langage SKOS @fig-cartoHexaAjoutConcept.
+
+[^principescarto-37]:
+    > Accessible ici : <https://gitlab.com/Daniel-KM/Omeka-S-module-Annotate>
+
+Pour représenter les rapports dans nos diagrammes de visualisation des complexités existentielles, nous utilisons des lignes avec un début sous forme de cercle vert correspondant à l'objet, un milieu sous forme de carré blanc correspondant au sujet et une fin sous forme de flèche rouge correspondant au prédicat. Ce choix de représentation est motivé par la forme générique d'une existence informationnelle où le centre est occupé par l'actant qui dans nos contraintes de possibilité des rapports est toujours le sujet.
+
+![Visualisattion des rapports](images/localhost_samszo_HDR_jdcComplexityDiagramme.html.png){#fig-datavizRapport fig-align="center"}
+
+Les quatre dimensions de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances, sont autonomes quant à leur propriétés spécifiques et leur mode de représentation. Toutefois, ils convient de les utiliser ensemble pour obtenir une vision globale de l'écosystème. Pour cela, nous avons besoin d'un nouveau principe pour associer ces dimensions existentielles et les représenter : le crible.
+
+## Modéliser des cribles : vers une cartographie des subjectivités[^principescarto-38] {#sec-modeliserCrible}
+
+[^principescarto-38]: Ce chapitre reprend en les modifiant les chapitres consacrés au crible dans [@szoniecky2020]
+
+Définir des principes de cartographie et choisir des modèles efficaces ne suffisent pas pour modéliser un écosystème de connaissances respectueux des différents points de vue et de leurs évolutions. Il est aussi nécessaire de concevoir une méthodologie pour récolter des données dont on peut évaluer les dimensions objectives et subjectives, c'est-à-dire celles qui dépendent du choix d'un individu et celles qui utilisent des systèmes de référence reconnus. Pour reprendre les mots de Guattari, notre objectif est de concevoir des « cribles » afin de produire des données dont on peut discerner le subjectif et l'objectif :
+
+> «  dans tous les registres des cribles se constituent en interface entre 1) les virtualités virulentes du chaos, les proliférations stochastiques et 2) les potentialités actuelles dûment répertoriables et consolidables. » [@guattari1992, p. 140]
+
+Le crible filtre les flux d'informations dans un « fourmillement de petites inclinaisons » qui composent un « tissu de l’âme » [@deleuze2003] interface entre le monde et l’individu :
+
+> «  le monde entier n'est qu'une vitualité qui n'existe actuellement que dans les plis de l'âme qui l'exprime, l'âme opérant des déblis intérieurs par lequel elle se donne une représentation du monde incluse. » [@deleuze1988,p. 32]
+
+La notion de crible est particulièrement intéressante parce qu'elle fournit une analogie dont on peut faire une représentation dynamique et interactive dans le but de concevoir une application de modélisation des écosystèmes de connaissances. Pour cela, nous simplifierons la complexité des phénomènes de perception et d’expression que le crible met en œuvre en le comparant à une passoire dont les trous sont autant d’indicateurs définissables par une expression logique composée :
+
+-   d'un sujet = le flux d'information,
+
+-   d'un objet = l'indicateur
+
+-   d'un prédicat = l'opérateur de la sélection.
+
+Par exemple, dans le cas de l'ustensile de cuisine passoire, les trous du crible ont comme description :
+
+-   sujet = les pâtes qui cuisent dans l'eau,
+
+-   objet = être un fluide,
+
+-   prédicat = retient ce qui n'est pas l'objet.
+
+Les cribles que nous concevons utilisent ce même principe : une interface qui dans un premier temps retient le flux puis le discerne suivant les expressions qui criblent cette interface. Ce processus est fractal, en discernant le flux, le crible produit un flux qu'un autre crible peut discerner et ainsi de suite. À chaque passage du flux d'information par le crible, l'information se transforme en donnée c'est-à-dire en une information discernable. En disposant les cribles en couches successives, on forme un réseau d'expressions logiques dans lequel les flux d'information passent se transformant ainsi en données de plus en plus discernables. Cette description correspond tout a fait à un réseau de neurones artificielles (perceptron) que l'on peut associé en couche pour développer des systèmes d'apprentissage profond :
+
+![Réseaux de neurones [@nguyen2018]](images/reseaux-neurones.png){#reseauNeurones fig-align="center"}
+
+Pour mieux comprendre comment le crible opère en tant qu'interface, nous le décrivons à la lumière du cycle de la sémiose @fig-cyclesemiose. Le fonctionnement physiologique de la signification est un cycle continu entre d'un côté le « monde naturel » et une « élaboration sémiotique » à travers une interface et un processus d'anasémiose : « un enchaînement de modules, traduisant en impressions de continuum les phénomènes digitaux du monde » [@µ2015a]. Puis d'un autre côté, entre une élaboration sémiotique et le monde naturel à travers une interface et un processus de catasémiose défini comme une « série de traitements par des modules spécialisés, intermédiaires entre le traitement des informations par le cortex et les effectuations sur le monde » (Ibid.). De ce point de vue, le crible est l'interface qui transforme par un pouvoir de discernement (anasémiose) le monde naturel en élaboration sémiotique, elle-même transformée par le crible en pouvoir d'agir sur le monde (catasémiose). À l'expression « monde naturel » utilisée par [@µ2015a], nous préférons le concept de « physicalités » que propose [@descola2005] pour s'affranchir d'une vision trop « naturaliste » d'appréhender le monde. Selon cet anthropologue, la signification que nous donnons au monde se conçoit globalement comme la manière dont nous créons des relations entre des « physicalités » et des « intériorités ». Parmi les quatre grandes manières de créer ces relations au monde (naturalisme, animisme, totémisme et analogisme), l'analogisme nous intéresse particulièrement, car elle considère que le monde se compose en relation avec un chaos, mais plus encore que ce mode d'existence est celui du numérique et de l'Internet comme le souligne Michel Serres :
+
+> «  un océan vertigineux et des réseaux de relations toujours en train de multiplier leurs connexions définit en rigueur l'analogisme, mot qui résume et peint à merveille notre monde objectif, nos travaux cognitifs, nos rêves subjectifs ainsi que les collectifs qui naissent aujourd'hui et feront la politique du futur. » [@serres2009, p. 85]
+
+Pour donner du sens à ce monde de chaos, les cribles offrent des réseaux de correspondances facilitant le travail d'interprétation :
+
+> «  Rappelons que l’identification analogique repose sur la reconnaissance d’une discontinuité générale des intériorités et des physicalités aboutissant à un monde peuplé de singularités, un monde qui serait donc difficile à habiter et à penser en raison du foisonnement des différences qui le composent, si l’on ne s’efforçait de trouver entre les existants, comme entre les parties dont ils sont faits, des réseaux de correspondance permettant un cheminement interprétatif. » [@descola2006, p. 182]
+
+Concevoir un crible entre objectivité et subjectivité, monde naturel et délibération sémiotique, physicalités et intérioritéscf, consiste dans l'univers du numérique à définir une analogie pour modéliser les cohérences nécessaires à la récolte des données et à leurs interprétations. Le crible sujet – prédicat – objet est une structure trop simple et beaucoup trop plastique pour réduire suffisamment les « proliférations stochastiques », nous proposons d'enrichir cette structure avec des règles analogiques supplémentaires qui minimiseront les réseaux de correspondances et les chemins interprétatifs possibles.
+
+### Proposition d'un crible {#sec-propositionCrible}
+
+En partant de la structure sujet – prédicat – objet, nous proposons de concevoir un crible pour modéliser notre écosystème de connaissances en nous focalisant sur les références qui composent notre bibliographie. Globalement, l'analyste devra s'interroger sur les caractères génériques et spécifiques des niveaux de modélisation. Si tous les éléments qui composent un niveau sont ressemblants par rapport à un indicateur, ce niveau est spécifique, il n'est pas nécessaire de le détailler. Par contre, s'il existe des différences entre les éléments par rapport à un même indicateur, le niveau est générique, il convient alors de le détailler en niveaux spécifiques. Par exemple, si j'utilise l'indicateur « à comme mot numérique » et que tous les paragraphes d'un même chapitre respectent cet indicateur, le niveau chapitre est spécifique, il n'est pas nécessaire de le détailler en paragraphe. Dans le cas contraire, le niveau chapitre est générique, il convient de le détailler en paragraphe pour modéliser ceux qui respectent l'indicateur et ceux qui ne le respectent pas.
+
+Concernant, l'objet de notre structure basique de modélisation, nous le considérons uniquement comme la description des dimensions physiques et des matérialités @sec-espaceMateriels. L'objet se décrit de manière arborescente de façon à définir les parties qui composent un élément. Chaque branche donne des détails supplémentaires sur l'objet suivant la forme logique : élément (sujet) – a pour partie (prédicat) → sous partie (objet). Par exemple, dans le cas de notre bibliographie, un des objets de la modélisation est défini par : livre → chapitre → paragraphe → phrase → mot →caractère. Le choix des niveaux de détail est subjectif, il dépend de la finalité que le modélisateur donne à son travail. Par exemple, pour analyser cette écosystème, il n'est pas nécessaire de différencier chaque caractères de manière individuel, car il n'y aura pas de différence signifiante entre ces caractères. En revanche, connaître les mots apporte des informations intéressantes notamment concernant le nombre de fois qu'ils apparaissent, ou leurs usages en cooccurrence avec d'autres mots.
+
+Concernant le sujet de la structure sujet – prédicat – objet, nous proposons de contraindre les possibilités de sa définition aux auteurs des références @sec-espaceActant. Ces auteurs ne sont pas uniquement des individus, mais peuvent être aussi des collectifs suivant l'appartenance de ces auteurs à des groupes de recherche, des laboratoires, des universités, des pays dont ils sont citoyens. La description des sujets reprend le principe de modélisation arborescente où le lien entre les branches se fait suivant le prédicat « a pour partie », par exemple  : le chercheur X (sujet) a pour partie (prédicat) le laboratoire Y (objet). Là aussi, le choix du niveau sera soumis aux caractères générique et spécifique. Par exemple, il n'est sans doute pas nécessaire de spécifier les différents membres d'une université qui participent à la vie d'un laboratoire de recherche. En revanche, il est utile de préciser le nom des chercheurs qui ont participé à la rédaction d'un ouvrage car ils apportent un point de vue spécifique. Il est évident que nous ne réduisons pas les relations des acteurs uniquement à un rapport de partie et de sous partie, les relations entre les individus et les collectifs sont bien plus complexes, elles peuvent être par exemple hiérarchiques, familiales, amicales... Dans le crible que nous proposons cette spécificité des relations est décrite par une modélisation des rapports entre acteurs par exemple sous la forme : auteur 1 (sujet) collabore avec (prédicat) auteur 2 (objet).
+
+Concernant le prédicat de la structure logique que nous utilisons, il est défini par un concept @sec-espaceConceptuels qui prend la forme d'une périphrase plus ou moins complexe par exemple : « écrire », « lire », « participer à une conférence scientifique ». Le concept peut lui aussi être détaillé en utilisant par exemple la syntaxe SKOS pour définir une structuration des éléments conceptuels et de leurs relations. Notons que cette modélisation des concepts ne se représente pas uniquement sous la forme d'une arborescence, mais plutôt sous celle d'une topologie ou pour employer les termes de [@deleuze1980] d'un rhizome. Les structures topologiques étant plus souples, l'organisation des concepts en tant qu'espaces sémantiques est beaucoup plus plastique et ne se réduit pas à l'arbre, mais se représente avec une multitude de formes possibles. Il y a par exemple les diagrammes de Venn, les matrices, les radars, les nuages de tag, les repères à deux axes... Ces représentations définissent leurs propres systèmes de coordonnées et par la même des espaces sémantiques particuliers dans lesquels il est possible de se positionner. Ce principe de cartographie conceptuel est très utilisé pour définir un domaine de connaissance comme le fait par exemple David Mc Candless avec sa typologie des idées[^principescarto-39].
+
+[^principescarto-39]: lien vers le diagramme : <https://informationisbeautiful.net/visualizations/a-taxonomy-of-ideas/>
+
+![Taxonomie des idées](images/TaxonomyIdeas.png){#fig-TaxonomyIdeas fig-align="center"}
+
+Le crible est pour l'instant composé de trois dimensions correspondant au sujet, à l'objet et au prédicat de la formule logique basique. Chaque dimension est une collection d'éléments dont nous avons défini les caractéristiques essentielles. Il nous faut maintenant ajouter une quatrième dimension correspondant aux rapports @sec-sec-rapportsInstExis que ces éléments entretiennent les uns avec les autres. En effet, suivant notre hypothèse d'un univers chaotique – analogiste, toutes les relations entre objets, sujets et prédicats sont possibles, mais toutes ne sont pas exprimées, uniquement celles qui sont choisies pour la modélisation . Il est donc important de définir les rapports comme une des dimensions fondamentales puisqu'ils existent potentiellement, mais ne sont pas effectuées nécessairement @fig-contraintesRapports . Il y a une actualité des rapports, une temporalité des relations entre les éléments composant la formule sujet, objet et prédicat, il convient donc de modéliser celles-ci pour passer d'une signification potentielle du crible à une expression de cette signification. Les rapports sont l'expression temporelle des dynamismes du crible à la fois dans le présent, le passé et le futur. L'expressions d'un rapport se fait dans un présent dont on enregistre la date pour constituer un historique et simuler les évolutions. Par exemple, la formule : « il (sujet) annote (prédicat) un livre (objet) » est effectuée à des moments précis et suivant des répétitions particulières. Les rapports sont donc génératifs dans la mesure où ils créent une potentialité d'évolution non seulement dans leurs répétitions à l'identique, mais aussi dans leurs transformations par mutations des éléments les constituants. La formule « il (sujet) annote (prédicat) un livre (objet) » peut se transformer en « il (sujet) annote (prédicat) un article (objet) » ou en « il (sujet) écrit (prédicat) un livre (objet) ». Ce sera la modélisation qui limitera les évolutions du rapport en définissant les éléments qui composent les objets, les sujets et les prédicats.
+
+Le crible que nous proposons pour modéliser notre écosystème de connaissance est donc composé à partir de la formule logique sujet – objet – prédicat que nous avons décomposé en quatre dimensions possédant chacune leurs contraintes : - objet : éléments physiques structurés en arborescences, - sujet : éléments sociaux structurés en collectifs, - prédicat : éléments conceptuels structurés en topologies, - rapports : éléments temporels structurés en triplets.
+
+### Usages du crible {#sec-usageCrible}
+
+Le crible est à la fois un outil de lecture et d'écriture, il est utilisé comme grille d'analyse d'un contexte particulier (discerner) et en même temps comme système d'expression de ce contexte (agir). La problématique principale de modélisation d'un écosystème de connaissance @sec-part-cartoConnaissances, est celle de la récolte des données de manière à ce qu'elle soit tout à la fois facile pour des non-spécialistes et utile pour les experts. Utiliser un crible simplifie la récolte des données, car elle donne une signification très précise à une expression simple en positionnant cette expression dans la modélisation du crible qui par la même s'enrichit de nouvelles informations. Plus le crible sera utilisé, plus la modélisation du cible sera précise et plus l'expression à travers ce crible sera elle aussi précise ; dans la mesure où la signification du crible est comprise par ses utilisateurs. En proposant un crible sur la base de la formule sujet – objet – prédicat, nous facilitons sa compréhension par les utilisateurs qui retrouvent une expression simple et courante et renvoie à des questions basiques : qui ? = sujet, quoi ? = objet, comment ? = prédicat. Ces expressions sont de plus contextualisées par les contraintes que nous avons définies pour les quatre dimensions ce qui limite les interprétations possibles et par la même facilite leur compréhension. Cette proposition de crible facilite aussi le travail de récolte des données en le décomposant en tâche simples que l'on peut attribuer à des personnes ayant le temps et les connaissances nécessaires pour les faire. Par exemple, décrire qui sont les acteurs qui participent à une conférence demande de récolter la liste des participants, de la saisir en la mettant en relation avec l'écosystème. En revanche, répondre à une question sur l'importance d'une citation est à la portée de tous et peut se faire dans l'instant. On retrouve ici une polarisation des informations entre celles qui sont objectives, qui demandent du temps et des compétences particulières pour exprimer des données de références, et celles qui sont subjectives et s’expriment dans l'instant par un choix. Modéliser un écosystème de connaissances consiste donc à créer un système de références objectives dans lequel des individus exprimeront des choix subjectifs afin de créer des rapports dans le système de référence et répondre aux questions : Qui ? Quoi ? Comment ? En d'autres termes, une modélisation d'un écosystème produit un environnement relationnel par un dispositif de positionnement dans un système de référence.
+
+Concernant la position du « qui » dans un système de référence objectif, il est aujourd'hui grandement facilité par les mesures de positionnement géospatial comme le GPS ou les bases de données de références des personnes et des institutions comme ISNI (International Standard Name Identifier[^principescarto-40]) qui répondent automatiquement et objectivement à cette question sauf erreur de la machine, malveillance ou absence de données. Mais le « qui » est plus complexe et ne se réduit pas à ces positions. Par exemple, dans le cas d'un dispositif numérique, il renvoie au compte de l'utilisateur qui utilise l'application. Or ce compte indique juste le login utilisé pour se connecter à l'application, mais pas quelles personnes ou groupes de personnes l'utilisent. De plus, dans le cadre du RGPD, il devient nécessaire d'anonymiser ce compte et donc de limiter son objectivation à une simple référence. Sauf si l'utilisateur donne un consentement « libre, spécifique, éclairé et univoque »[^principescarto-41]. Dans ce cas, l'objectivation du « qui » devient potentiellement beaucoup plus précise, car elle peut être mise en relation avec des données sociologiques voir même physiologiques par exemple en enregistrant le rythme cardiaque ou l'activité cérébrale lors du processus de positionnement.
+
+[^principescarto-40]: lien vers le site de l'organisation : <https://isni.org/>
+
+[^principescarto-41]: lien vers les explications de la CNIL : <https://www.cnil.fr/fr/les-bases-legales/consentement>
+
+Concernant le positionnement du « quoi », là aussi il existe des bases de données de références qui composent le Linked Open Data (LOD) et permettent d'adresser des ressources de façon unique et pérenne. Dans le cas de notre exemple sur la modélisation de notre bibliographie, la base de données sémantique de la BNF[^principescarto-42] est particulièrement intéressante, car elle offre des références pérenne et détaillées pour les livres, les auteurs, les concepts. Dans ce cas, le positionnement du « quoi » est relativement complexe puisqu'il est extrêmement difficile de réduire une référence à une seul expression comme en témoigne les recherches sur le sens des documents[@lévy2023a; @bachimont2020]. Nous proposons d'utiliser une représentation simple du sens des texte en les représentant sous la forme de nuage de mots clefs où pour chaque mot l'utilisateur pourra augmenter ou diminuer l'importance suivant sont propre point de vue. Ce simple rapport, va générer potentiellement une multitude d'autres rapports, car les éléments qui le composent renvoient aux informations conservées dans la base de données comme celles en rapport avec la référence annotée ou celles de l'utilisateur dont on peut connaître les habitudes d'annotation voir le parcours scientifique. L'historique de ces informations et leur multiplication par le nombre d'utilisateurs créent une base de données très utile pour faire des analyses statistiques ou pour connaître les informations qui manquent et que d'autres utilisateurs peuvent ajouter en participant collectivement à l'enrichissement de cette base de données.
+
+[^principescarto-42]: lien vers l'explication de data.bnf.fr : <https://www.bnf.fr/fr/recuperer-les-donnees-de-la-bnf-selon-les-standards-du-web-semantique>
+
+## De la confiance dans les données : vers une cartographie des affects {#sec-confianceDonnees}
+
+Les hypothèses cartographiques que nous venons de poser, précise notre modèle de description et de représentation des connaissances à partir duquel nous produisons une foule de données qui, en référence aux principes basiques du RDF[^principescarto-43], sont composées d'un triplet sujet, objet et prédicat, par exemple : sujet=titre, objet=la vie devant soi, prédicat=est. Si on en croit les défenseurs du RDF et des technologies qui lui sont associé pour composer le Web Sémantique, cette formalisation de la connaissance en brique logiques élémentaires est sensée produire de la confiance comme en témoigne le fameux « Semantic Web Stack » :
+
+[^principescarto-43]:
+    > <https://www.w3.org/RDF/>
+
+![Semantic Web Stack, Par W3C https://commons.wikimedia.org/wiki/File:Semantic_Web_Stack.png](media/1000000100000258000002762CF3B23905723B38.png){#fig-semanticWebStack}
+
+Toutefois, il nous semble que la confiance est toute relative puisque celle-ci relève d'avantage d'un pari que d'un calcul logique :
+
+> « La confiance se définit donc comme un pari sur les comportements attendus. Le pari réunit en effet les deux caractéristiques majeures de la confiance : la relation à l'action \[...\], et la relation à un futur qui n'est pas encore, mais qui est appréhendé sous la catégorie des comportements attendus. » [@hunyadi2020, p. 29]
+
+A l'heure où la confiance dans les informations est mis à mal par les phénomènes de dé-information [@bourassa2019], il convient d'introduire pour chaque données une évaluation qui précise qu'elle est le niveau de confiance qu'une personne donne à une donnée afin de stimuler son esprit critique [@desfrichesdoria2021a] en contrecarrant ses penchants naturels :
+
+> « ... le devenir-libidinal de l'individu guidé par le principe de commodité l'engage à faire l'économie de la confiance elles-même. Partout où il le peut, et partout où cela lui est proposé, il tend à préférer la sécurité assurantielle au pari de confiance. » [@hunyadi2020a, p. 225]
+
+Plus encore, cette évaluation de la confiance se place dans un objectif plus large qui consiste à cartographier la réception [@jauss1978a] d'un corpus ou pour employer les mots de Bruno Latour de définir les modes d'existences qui sont en jeu [@latour2012a]. L'ambition est de développer un écosystème de connaissances qui présente non seulement des données mais aussi un point de vue réflexif sur celles-ci. Pour ce faire, nous avons élaborer un dispositif numérique pour cartographier les affects [@citton2008b] d'un collectif par une captation de la subjectivité des individus qui la compose. Ce dispositif consiste à fournir aux individus le moyen d'enregistrer la valeur des données qu'ils consultent. Ainsi, chaque élément du triplet logique RDF qui compose une donnée, est potentiellement valorisé par la subjectivité propre à chaque individu au moment de sa consultation. Pour dire autrement, le dispositif de cartographie des affects capte la « pulsation existentielle » [@berque2009a], le pli, qu'un individu effectue face à une donnée particulière.
+
+Nous avons donc un pli modélisé par le dispositif numérique qui enregistre le rapport qu'un individu @sec-espaceActant exprime entre une donnée du corpus @sec-espaceMateriels et une valeur subjective. Cette dernière pourrait être simplement le concept de confiance que l'individu considère comme présente en cochant une case ou absente en laissant la case décoché. Pour fournir une valeur plus subtile, la case à cocher est remplacée par un curseur qui détermine l'importance de la confiance sur une échelle de 0 à 100. Pour être plus précis et en adéquation avec les propositions qu'Yves Citton avancent pour réaliser une cartographie des affects à partir des principes de Spinoza et Tarde [@citton2008a] nous remplaçons l'unique concept de confiance par un crible @sec-modeliserCrible qui décompose la valeur en trois registres :
+
+-   les « valeurs-utilités » qui définissent l’offre et la demande
+
+-   les « valeurs-vérités » qui mesurent les gains en connaissances et plus largement les phénomènes de croyances, de confiance, les attentes
+
+-   les « valeurs-beautés » qui définissent le champ esthétique au sens de tout ce qui transforme nos goûts et nos sensibilités.
+
+Ces positionnements sur l’importance des valeurs définissent des points de vue particuliers et des fluctuations temporelles suivant le moment de leurs expressions. Par exemple, l'évaluation d'une activité peut évoluer suivant que ses finalités sont accomplies ou non. Si j'annote une citation pour le plaisir de la découverte et de l'échange, mais qu’une fois sur deux le plaisir n’est pas là, ce critère devient moins pertinent alors que celui de la pertinence de la citation ne change pas. Petit à petit un équilibre se met en place entre l’importance des valeurs et leurs pertinences dans l’activité.
+
+Le dispositif numérique de cartographie des affects a été implémenté dans un formulaire que l'utilisateur peut activé en cliquant sur une icône dédiée. Il présente le crible conceptuel soit sous la forme d'une liste de curseurs permettant d'évaluer individuellement l'importance de chaque concept soit sous la forme d'une cartographie sémantique qui présente un espace coloré qui enregistre en un clic l'importance des concepts relativement les uns par rapport aux autres.
+
+Nous avons évalué avec ce dispositif le corpus de nos positionnements scientifiques @sec-positionnements. Les données que nous avons récoltés proviennent de nos propres évaluations, il nous faut maintenant mettre à disposition le corpus et les outils de cartographie associés pour récolter des données multipliant les points de vue. Afin que cette modélisation exprime un point de vue collectif, nous proposons de prendre en compte une pondération sociale des positionnements individuels suivant les principes avancé par Tarde et repris par Citton en pondérant les registres de valeurs avec trois paramètres :
+
+> «  - a) le nombre de ceux qui adhèrent à la conception de l'utilité, de la vérité ou de la beauté valorisant (ou condamnant) un objet ou une pratique donnée ;
+>
+> -   b\) le poids social de ces adhérents, selon leur statut, leur fonction, leur prestige, leur notoriété et tout ce qui détermine la capacité d'entraînement dont bénéficie leur jugement sur le jugement général du public ; et
+>
+> -   c\) l'intensité de l'adhérence avec laquelle les partisans de cet objet ou de cette pratique sont prêts à en défendre et à en promouvoir les mérites.
+>
+> » [@citton2008a, p. 64]
+
+Il découle de ce calibrage collectif des données une plus grande crédibilité qui ne vient pas d'une validité objective, mais se construit auprès d’un ensemble d’acteurs au sein d’une communauté dans laquelle la mesure prend sens [@parasie2019, p. 5]. Par la même, le projet d'une construction collective de la confiance se développe.
+
+Les enjeux sont de concevoir et d'expérimenter une méthode générique d'exploration des écosystèmes de connaissances basée sur la modélisation d'existences informationnelles représentant chacune une manière d'être dans ces écosystèmes @sec-axeDesignConnaissances.

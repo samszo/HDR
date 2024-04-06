@@ -1,0 +1,51 @@
+---
+    toc: true
+    toc-depth: 4
+---
+
+# Introduction générale : Cartographie d'un milieu de connaissances {#sec-part-cartoConnaissances}
+
+::: {#exergue1 .exergue}
+« tous les systèmes de modélisation se valent,\
+tous sont acceptables,\
+mais uniquement dans la mesure\
+où leurs principes d'intelligibilité\
+renoncent à toute prétention universaliste »\
+[@guattari1989, p. 10]
+:::
+
+::: {#exergue1 .exergue}
+« La vision magique du monde\
+est celle d'un univers de puissances\
+qui, virtuelles,\
+ne tendent qu'à devenir actuelles. »\
+[@thom1975 p. 362]
+:::
+
+
+La démarche auto-réflexive de ce travail commence par une description de l'état actuel de mes recherches. Elle a pour ambition un dévoilement sincère des limites de ma pensée sous la forme d'une cartographie qui trace les frontières numériques [@saleh2023] de ce qui est important pour moi aujourd'hui, c'est-à-dire la valeur des rapports que j'entretiens entre ma subjectivité [@guattari1989] et mon objectivité [@badiou2018] et qui forme mon milieu de connaissances [@berque2009].
+
+Cartographier c'est à la fois explorer, formaliser et guider. Tout commence par la découverte d'un lieu, par l'expérience d'un espace dont on va ensuite décrire les impressions qu'il produit suivant des règles convenues pour que d'autres puisses les retrouver après soi-même.
+
+Les espaces que nous décrivons sont des milieux, c'est à dire un tissu relationnel au sein duquel les connaissances existent, et sans lequel elles n'existeraient pas [@berque2009, p. 146]. Ce sont des espaces vivants qui évoluent sans cesse et nous transforment à chaque interaction que nous entretenons avec eux[@aït-touati2019]. Suivant le principe d'énaction [@maturana1994], le couplage entre l'espace et l'auteur de sa description transforme à la fois l'espace et l'auteur. Cartographier c'est se connaître soi-même en modélisant le milieu de ses expériences et en réfléchissant aux transformations que cela produit.
+
+Peut-on modéliser toutes ses expériences pour les rendre accessibles ? Sont-elles toutes modélisables ? Accessibles ? Même si les cartes utilisent des systèmes de coordonnées calculables et un vocabulaire formel abouti qui les rendent manipulables par des machines et donc potentiellement modélisables, il n'en reste pas moins que la cartographie procède d'une multitude de choix qui sélectionneront dans l'espace à modéliser ce qui sera effectivement dans la carte. Pour transmettre une expérience, il faut la réduire à un ensemble de signes et par la même la soumettre aux contraintes de ce qui les caractérisent : variabilité, associativité, équivocité [@deleuze1981]. La transformation de l'expérience en signe est fondamentalement incomplète. L'exhaustivité n'est qu'un leurre. Toutefois, la carte possède une dimension diagrammatique qui donne au signe une potentialité d'action à la manière d'une partition musicale [@stransky2014]. La carte guide vers une expérience sans décrire toutes les connaissances auxquelles l'expérimentation donnera accès. Avec une carte, je sais où trouver une rivière poissonneuse mais pas si je vais effectivement pêcher des poissons et lesquels.
+
+Nous vous invitons à vous laisser guider par les cartographies que nous présentons en espérant que la pêche aux connaissances sera fructueuse pour vous, elle l'est déjà pour moi. Les cartographies que nous vous proposons décrivent mes connaissances en rapport avec mon métier d'enseignant chercheur et les pratiques informationnelles qu'il génère [@thiault2022]. Nous suivons un processus d'exploration qui commence par préciser les principes cartographiques @sec-principesCarto utilisés. Le second chapitre de cette partie présente l'état actuel de mes positions scientifiques dans les sciences de l'information et de la communication et plus globalement dans les sciences humaines @sec-positionnements. Nous verrons ensuite dans un troisième chapitre quelles sont mes visées scientifiques @sec-visees par rapport à quatre échelles d'exploration : locale @sec-echelleLocale, globale @sec-echelleGlobale, sociale @sec-echelleSociale et conceptuelle @sec-echelleConcetuelle. Nous développerons ensuite ces perspectives scientifiques en suivant cinq axes de recherches :
+
+-   comprendre l'internet des objets @sec-axeIOT,
+-   concevoir une générativité générique @sec-axeGeneratif,
+-   formaliser le consensus par une éthique de la discussion @sec-axeFormaConsensus,
+-   designer les connaissances @sec-axeDesignConnaissances,
+-   développer l'intelligence collective @sec-axeIntelCo.
+
+Dans un quatrième chapitre, je présenterais les étapes de mon parcours intellectuel @sec-frayages à travers mes frayages intellectuelles [@citton2010] qui débutent avec l'histoire de l'art puis s'ancre dans les sciences de l'information et de la communication pour développer un projet de jardinage des connaissances qui mène à une théorisation des écosystèmes de connaissances et finalement à la mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication. Le dernier chapitre de cette partie sera consacré à la présentation des résultats @sec-resultats de ce parcours en matière :
+
+-   d'utilisation de l'analogie écosystèmique @sec-analogieEcosysteme,
+-   de modélisation d'une ontologie-éthique @sec-modeleOntoEthique,
+-   de calcul de la complexité info-communicationnelle @sec-complexiteExitentielle,
+-   de conception diagrammatique et de crible @sec-diagrammesCribles
+-   d'interaction avec des cartographies sémantiques @sec-cartoSemantique,
+-   d'outillage pour les humanités numériques @sec-protosHN.
+
+En explorant le milieu de connaissances que je vous propose, vous serez peut-être tenté d'y laisser vos propres traces. Si c'est le cas, vous pourrez le faire en utilisant un outil d'expression d'un point de vue comme « CartoAffect » que j'ai développé pour cartographier mon milieu de connaissances. Il suffit de vous rendre à cette page Web et/ou de télécharger l'application mobile. Une fois que vous vous serez identifié avec le compte qui vous a été fourni, vous pourrez participer à la cartographie d'un milieu de connaissances. Bonne exploration.

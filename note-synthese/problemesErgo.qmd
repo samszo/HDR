@@ -1,0 +1,24 @@
+## Problématiques ergonomiques {#sec-problemesErgo}
+
+### Comment explorer le corpus de l'autre ?
+
+Problématique fondamentale des ontologies
+
+Le cas IEML
+
+### Mathématisation des sciences humaines
+
+« De nombreuses traditions philosophiques continentales reposent en effet sur une disjonction de la connaissance techno-scientifique et de la pensée du sens de l'être. Comme l'affirmait Heidegger: die Wissenschaft denkt nicht. Ces traditions restent en grande partie dominées par une interprétation péjorative de la nature instrumentale et pragmatiste de la science. Elles lui dénie tout sens et toute valeur intrinsèques. Ce faisant, elles l'excluent de toute téléologie émancipatrice. Par contrecoup, les disciplines interprétatives se retrouvent investies de la responsabilité historique de fabriquer du sens et d'en conférer à ce qui n'en possède pas de soi-même au moyen d'une démiurgie herméneutique qui inverse l'ordre des valeurs. Mais, rejetant la science, donc la maîtrise, elles ne possèdent plus dès lors pour ce faire que le véhicule magique de la narrativité. Elles ne peuvent plus qu'identifier l'évolution historique à ce que Jean François Lyotard a appelé des "grands récits" téléologiques d'émancipation et de libération. Elles aliènent les consciences dans l'hétéronomie des mythes de l'espérance. Le siècle a montré quel est le prix inéluctable de cette manipulation de l'imaginaire (du principe de plaisir politique) : la terreur.» (Petitot, 1998) p. 16
+
+Prétopologie
+
+« Definition 2.14. ∀A ∈ ℘(U), we call the rim of A, denoted b(A), the function: b(A) = {x ∈ A \| ∀B ∈ B(x), B ∩ AC , ú} Definition 2.15. ∀A ∈ ℘(U), we call the girdle of A, denoted o(A), the function: o(A) = {x ∈ AC \| ∀B ∈ B(x), B ∩ A , ú} Definition 2.16. ∀A ∈ ℘(U), we call the frontier of A, denoted f (A), the function: f (A) = {x ∈ U \| ∀B ∈ B(x), B ∩ A , ú ∧ B ∩ AC , ú} Definition 2.17. ∀A ∈ ℘(U), we call the derivative of A, denoted d(A), the function: d(A) = {x ∈ U \| ∀B ∈ B(x), (B − {x}) ∩ A , ú} Definition 2.18. ∀A ∈ ℘(U), we call the coherence of A, denoted c(A), the function: c(A) = {x ∈ A \| ∀B ∈ B(x), (B − {x}) ∩ A , ú} Definition 2.19. ∀A ∈ ℘(U), we call the exterior of A, denoted e(A), the function: e(A) = {x ∈ U \| ∃B ∈ B(x), B ⊂ AC } » (Laborde, 2019, p. 25)
+
+### Comment rendre convivial la compréhension des milieux complexes
+
+Comparaison entre le cycle de la dataviz et La mutiplication des cycles du papillon : œuf, larve, chrysalide, imago...
+
+![\
+Illustration 22: Ecosystème de la visualisation de données (Card & al. 1999)](media/100000010000049D000001B4653BE7F72C3CCD80.png){width="17cm" height="6.276cm"}
+
+« Cette existence d'une polarité perceptive joue un rôle prépondérant dans la ségrégation des unités perceptives \[...\]. Le sujet perçoit de manière à s'orienter par rapport au monde \[...\]. Percevoir c'est \[...\] organiser, maintenir ou inventer une organisation. Il ne suffit pas de dire que la perception consiste à saisir des touts organisés ; en fait, elle est l'acte qui organise des touts ; elle introduit l'organisation en reliant analogiquement les formes contenues dans le sujet aux signaux reçus : percevoir est retenir la plus grande quantité de signaux possible dans les formes les plus ancrées dans le sujet ; ce n'est pas seulement saisir des formes ou enregistrer des données multiples juxtaposées ou successives Percevoir consiste à élever l'information du système formé par le sujet et le champ dans lequel il s'oriente. \[...\] C'est en s'orientant dans (une) situation que le sujet peut ramener à l'unité les aspects de l'hétérogénéité qualitative et intensive, opérer la synthèse du divers homogène. (Simondon Gilbert (1989), L'individuation psychique et collective, Paris, Aubier., p. 89-90) » cité par (Quéré, 2020, paragr. 66)
