@@ -3,7 +3,7 @@
     window.wordstream = function (svg, data, config) {
         d3.wordstreamLayout = function () {
             let data = [],
-                size = [1200, 500],
+                size = [2400, 1000],
                 maxFontSize = 24,
                 minFontSize = 10,
                 font = "Arial",
@@ -14,7 +14,8 @@
                 canvas = cloudCanvas,
                 curve = d3.curveMonotoneX,
                 categories = [],
-                topWord = 10;
+                topWord = 10,
+                fct = false;
             let wordstream = {};
 
             let cloudRadians = Math.PI / 180, toDegree = 180 / Math.PI,
@@ -631,8 +632,10 @@
                 tickFont = config.tickFont,
                 legendFont = config.legendFont,
                 curve = config.curve;
+                fct = config.fct;
 
-            const color = d3.scaleSequential(d3.interpolateSpectral).domain([0, Object.keys(data[0].words).length-1]);
+            //const color = d3.scaleSequential(d3.interpolateSpectral).domain([0, Object.keys(data[0].words).length-1]);
+            const color = d3.scaleOrdinal(d3.schemeCategory10).domain([0, Object.keys(data[0].words).length-1]);
             const axisPadding = 10;
             const legendOffset = 12;
             const margins = {left: 20, top: 20, right: 10, bottom: 30};
@@ -831,7 +834,7 @@
             });
             //Click
             mainGroup.selectAll('.textData').on('click', function (e,d) {
-                showModal(d);
+                if(fct && fct.nodeClick)fct.nodeClick(e,d);
                 //gestion du zoom
                 let contTrans = container.attr('transform');
                 container.attr('transform','');
@@ -930,6 +933,9 @@
             let legendNodes = legendGroup.selectAll('g').data(boxes.topics).enter().append('g')
                 .attr('transform', function (d, i) {
                     return 'translate(' + legendFont + ',' + (i * legendFont*1.5) + ')';
+                })
+                .on('click',(e,d)=>{
+                    if(fct && fct.legendClick)fct.legendClick(e,d);
                 });
             legendNodes.append('circle')
                 .attr("r", legendFont/2)
@@ -960,14 +966,6 @@
                     .attr('font-size', tickFont);
             }
 
-            function showModal(d){
-                /*
-                config.m.setBody('<h3 class="text-white bg-dark">'+d.d.title_s[0]+'</h3>'
-                +'<iframe class="fiche" src="'+d.d.uri_s+'"/>');
-                config.m.setBoutons([{'name':"Close"}]);                
-                config.m.show();    
-                */
-            }
             function styleGridlineNodes(gridlineNodes) {
                 gridlineNodes.selectAll('.domain')
                     .attr("fill", "none")

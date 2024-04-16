@@ -1,4 +1,5 @@
 import {appUrl} from './appUrl.js';
+import {modal} from './modal.js';
 export class streamWords {
     constructor(params) {
         var me = this;
@@ -6,6 +7,12 @@ export class streamWords {
         this.cont = params.cont ? params.cont : d3.select("#canvas");
         this.urlData = params.urlData ? params.urlData : false;
         this.data = params.data ? params.data : false;
+        this.fct = params.fct ? params.fct : false;
+        this.cat = params.cat ? params.cat : false;
+        this.aUrl = params.aUrl ? params.aUrl : false;
+        this.noWords = params.noWords ? params.noWords : ['Lucky Semiosis','Collectif','Samuel Szoniecky'];            
+        this.noWordsPart = params.noWordsPart ? params.noWordsPart : [];//['GitHub'];            
+        this.replaceWords = params.replaceWords ? params.replaceWords : [['GitHub User : ','']];            
         const width = params.width ? params.width : 600;
         const height = params.height ? params.height : 600;
         const config = {
@@ -15,67 +22,89 @@ export class streamWords {
             tickFont: 12,
             legendFont: 12,
             curve: d3.curveMonotoneX,
-            topWord: 100
-        };
+            topWord: 100,
+            fct:{'nodeClick':showItem,'legendClick':showCat}
+            };
+        const m=new modal({'size':'modal-lg'}); 
         let dataForVis = [], authors=[], words=[], svg,
             margins = {t:10,b:10,l:10,r:10},
-            dateField= 'publicationDate_s',
-            pUrl = new appUrl({'url':new URL(me.urlData)}),
-            q = pUrl.params && pUrl.params.has('q') ? pUrl.params.get('q') : 'authIdHal_s:samuel-szoniecky',
-            fq = pUrl.params && pUrl.params.has('fq') ? "&fq="+pUrl.params.get('fq') : '',//'publicationDate_s:[2000 TO 2023]',
-            uri = "https://api.archives-ouvertes.fr/search/?q="+q+fq
-                + "&rows=" + (pUrl.params.has('rows') ? +pUrl.params.get('rows') : "10000")
-                +"&fl=authIdHal_s,keyword_s,title_s,docid,uri_s,producedDate_s,publicationDate_s"
-                +"&sort="+dateField+" asc";
-        
+            nivs, mNoeud = m.add('modalStreamNode');
+
         this.init = function () {
             setData();
         }
 
         function setData(){
             showLoader();       
-            me.cont.select('svg').remove();
-            d3.json(uri).then(data=>{
+            d3.json(me.urlData).then(data=>{
                 console.log(data);
-                dataForVis = getDataForVis(data.response.docs);
-                let w = width-margins.l-margins.r, h = height - margins.t - margins.b;
-                me.cont
-                    .style("max-width", w + "px")
-                    .style("background-color","white");
-                svg = me.cont.append('svg').attr("id", "mainSVG")    
-                svg.attr("width", Math.max(120 * dataForVis.length, w))
-                svg.attr("height", Math.max(200 * Object.keys(dataForVis[0].words).length, h));
-            
-                wordstream(svg, dataForVis, config);
-                hideLoader();
-            
+                me.data = data;
+                dataForVis = getDataForVis(data);                
+                console.log(dataForVis);
+                if(me.cat)me.changeCat(me.cat)
+                else createStream(dataForVis);
             });            
+        }
+        function createStream(data){
+            let w = width-margins.l-margins.r, h = height - margins.t - margins.b;
+            me.cont
+                .style("max-width", w + "px")
+                .style("background-color","white");
+            me.cont.select('svg').remove();
+            svg = me.cont.append('svg').attr("id", "mainSVG")    
+            svg.attr("width", Math.max(120 * data.length, w))
+            svg.attr("height", Math.max(200 * Object.keys(data[0].words).length, h));
+            wordstream(svg, data, config);
+            hideLoader(true);
         }
 
         function getDataForVis(data){
             dataForVis=[];
+            //calcul le coéfficient de fréquence
+            nivs = d3.extent(data.rapports.map(d=>d.niv));
             //regroupement par année
-            //regroupement par année
-            let g = d3.group(data, d => d[dateField].split('-')[0]),
+            data.rapports.forEach(d=>d.an=parseInt(d.date.split('-')[0]));
+            data.rapports.sort((a, b) => a.an - b.an);
+            let g = d3.group(data.rapports, d => d.an),
             //création des catégories
-            typeCat = 'keywords & authors',//"words for each author"
+            typeCat = "actants",//'keywords & authors',//"words for each author"
             wCat = getWordCat(data,typeCat);
             g.forEach((docs,date)=>{
                 let o = {'date':date,'words':JSON.parse(JSON.stringify(wCat)),'docs':[]};
                 docs.forEach(d=>{
                     o.docs.push(d);
-                    if(!d.authIdHal_s)d.authIdHal_s=["No IdHal"];
                     switch (typeCat) {
                         case "words for each author":
                             d.authIdHal_s.forEach(ka=>{
                                 getKeywords(d,o,'keywords for '+ka);
                             })                    
                             break;            
+                        case "actants":
+                            let topic;
+                            //création du topic suivant la propriété
+                            switch (d.idCpt) {
+                                //case 6://Contributor  
+                                case 325://participant
+                                case 61://list of contributors  
+                                    topic = 'projets';    
+                                    break;
+                                default:
+                                    if(d.niv==0)topic ='publications';
+                                    else if(d.typeDate=='dcterms:date') topic ='références'
+                                    else if(d.typeDate=="dcterms:dateSubmitted") topic ='annotations';
+                                    else topic = 'inclassables'
+                                    /*trop groumand
+                                    else topic = data.docs.filter(c=>c.id==d.idDoc)[0].class;
+                                    */
+                                    break;
+                            }
+                            if(topic)getAuthors(d,o,topic);
+                            break;            
                         case "keywords & authors":
                         default:
                             getKeywords(d,o,'keywords');
                             getAuthors(d,o);
-                            break;
+                            break;                            
                     }
                 })
                 dataForVis.push(o)
@@ -83,38 +112,39 @@ export class streamWords {
             return dataForVis;
         }
         function getKeywords(d,o,k){
-            if(d.keyword_s) d.keyword_s.forEach(kw=>{
-                if(kw)setWord(kw,o,k,d,3)
-            });
-            let ekw = nlp(cleanText(d.title_s.join())),
-            terms = ekw.terms().json();
-            terms.forEach(t=>{
-                if(t.text)setWord(t.text,o,k,d);
-            })    
+            let doc = me.data.docs.filter(f=>f.id==d.idDoc)[0];
+            if(!doc.kw){
+                doc.kw = nlp(cleanText(doc.title)).terms().json();
+            }            
+            doc.kw.forEach(t=>{                
+                //exclusion des nombres
+                if(t.text && isNaN(t.text))setWord(t.text,o,k,d,nivs[1]-d.niv);
+            })            
+            let cpt = me.data.concepts.filter(f=>f.id==d.idCpt)[0];
+            //exclusion des propriétés
+            if(cpt.class!='property')setWord(cpt.title,o,k,d,3*(nivs[1]-d.niv));    
         }
-        function getAuthors(d,o){
-            let fi, frq = 6, k = o.date, a;
-            if(!d.authIdHal_s){
-                ka = 'No IdHal';
-                fi = authors.findIndex(d=>d==ka);
-                if(fi<0){
-                    authors.push(ka);
-                    fi = (authors.length-1);
-                }
-                o.words['authors'].push({frequency: frq,id: k+"_"+ka+"_"+fi,text:ka,topic:'authors','d':d})
+        function getAuthors(d,o,t='authors'){
+            let exclude=false, fi, 
+                frq = 1,//6*(nivs[1]-d.niv), 
+                k = o.date, a,
+                act = me.data.actants.filter(f=>f.id==d.idAct)[0];
+            //exclusion de luckysemiosis & Samuel Szoniecky...            
+            if(me.noWords.includes(act.title))return;
+            //exclusion des Github : user
+            me.noWordsPart.forEach(wp=>{
+                if(act.title.includes(wp) && !exclude)exclude=true;
+            })
+            if(exclude)return;            
+            //remplace des expressions
+            me.replaceWords.forEach(rw=>act.title=act.title.replace(rw[0],rw[1]));
+                        
+            a = o.words[t].filter(d=>d.text==act.title);
+            if(a.length==0){
+                o.words[t].push({frequency: frq,id: act.id,text:act.title,topic:t,'d':[d]})
             }else{
-                d.authIdHal_s.forEach(ka=>{
-                    a = o.words['authors'].filter(d=>d.text==ka);
-                    if(a.length==0){
-                        fi = authors.findIndex(d=>d==ka);
-                        if(fi<0){
-                            authors.push(ka);
-                            fi = (authors.length-1);
-                        }
-                        o.words['authors'].push({frequency: frq,id: k+"_"+ka+"_"+fi,text:ka,topic:'authors','d':d})
-                    }else
-                        a[0].frequency = a[0].frequency+1;
-                })
+                a[0].frequency += frq;
+                a[0].d.push(d);
             }
         }
         
@@ -131,6 +161,15 @@ export class streamWords {
                         });
                     });
                     break;    
+                case "actants":
+                    w = {'publications':[],'projets':[],'références':[],'annotations':[]};//,'inclassables':[]};
+                    /*trop gourmand
+                    cat = d3.group(data.docs, d => d.class);            
+                    cat.forEach((v,k)=>{
+                        if(!w[k])w[k]=[];
+                    });
+                    */
+                    break;
                 case "keywords & authors":
                 default:
                     w = {'keywords':[],'authors':[]};
@@ -168,7 +207,66 @@ export class streamWords {
             }else
                 aw[0].frequency = aw[0].frequency+(1*p);
         }                                                          
- 
+        this.changeCat = function(cat){
+            showLoader();       
+            let dataCat = [];
+            dataForVis.forEach(d=>{
+                let nD = JSON.parse(JSON.stringify(d));
+                for (const k in nD.words) {
+                    if(k!=cat)nD.words[k]=[];
+                }
+                if(nD.words[cat].length)dataCat.push(nD);
+            })
+            createStream(dataCat);
+        }
+        function showCat(e,d){
+            console.log(d);
+        }
+        function showItem(e,d){
+            let idItem = "";
+            switch (d.topic) {
+                case "authors":
+                case "co-auteur":
+                case "publications":
+                case "références":
+                case "annotations":
+                case "inclassables":
+                case "projets":
+                        idItem = d.d.idAct                    
+                    break;            
+                case "keywords":
+                    idItem = d.d.idCpt                    
+                    break;                                
+            }
+            mNoeud.s.select('#streamNodeTitre').text(d.text+' : '+d.d[0].date);
+            let docs = [], doublons=[];
+            d.d.forEach(dd=>{
+                if(!doublons[dd.idDoc]){
+                    docs.push(me.data.docs.filter(doc=>doc.id==dd.idDoc)[0]);
+                    doublons[dd.idDoc]=true;
+                }
+            })
+            mNoeud.s.select('#streamNodeTab').selectAll('li').remove();
+            mNoeud.s.select('#streamNodeTab').selectAll('li').data(docs).enter()
+                .append('li').attr('class',"nav-item").attr('role',"presentation")
+                    .append('button').attr('class',(doc,i)=>i==0 ? "nav-link active" : "nav-link")
+                    .attr('id',doc=>'node'+doc.id)
+                    .attr('data-bs-toggle',"tab")
+                    .attr('data-bs-target',doc=>'#node'+doc.id+"-pane")
+                    .attr('type',"button").attr('type',"button")
+                    .attr('role',"tab").attr('aria-controls',doc=>'node'+doc.id+"-pane")
+                    .attr('aria-selected',(doc,i)=>i==0?'true':'false').text(doc=>doc.title);
+            mNoeud.s.select('#streamNodeTabContent').selectAll('div').remove();
+            mNoeud.s.select('#streamNodeTabContent').selectAll('div').data(docs).enter()
+                .append('div').attr("class",(doc,i)=>i==0?"tab-pane fade show active":"tab-pane fade")
+                .attr('id',doc=>'node'+doc.id+"-pane")
+                .attr('role',"tabpanel").attr('aria-labelledby',doc=>'node'+doc.id)
+                .attr('tabindex',(doc,i)=>i).html(doc=>{
+                    return '<iframe class="fiche" src="../../omk/s/fiches/item/'+doc.id+'"/>'
+                });
+            mNoeud.m.show();
+        }
+
         this.init();    
     }
 }

@@ -117,3 +117,27 @@ export let modalAddCrible = `
     </div>
     </div>
 `;
+
+//ajoute la modal pour afficher les infos node stream
+export let modalStreamNode = `
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header text-bg-warning">
+                <h5 id="streamNodeTitre" class="modal-title">Changer le concept :</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-bg-dark">                            
+
+
+                <ul class="nav nav-tabs" id="streamNodeTab" role="tablist">
+                </ul>
+                <div class="tab-content" id="streamNodeTabContent">
+                </div>            
+
+
+            </div>
+            <div class="modal-footer text-bg-warning">
+            </div>
+        </div>
+    </div>
+`;

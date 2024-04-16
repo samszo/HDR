@@ -12,6 +12,10 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/handsontable.full.min.js"></script>
     <script src="assets/js/wordstream.v7.js"></script>
+    <script src="https://unpkg.com/compromise"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stopword/dist/stopword.umd.min.js"></script>
+
+
     <link href="assets/css/bootstrap5.3.min.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
     <link href="assets/css/all.min.css" rel="stylesheet">
@@ -46,20 +50,21 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
-                                        <i class="fa-solid fa-file-export"></i>
-                                        <span id="selectExport">Choose an export</span>
+                                        <i class="fa-solid fa-people-group"></i>
+                                        <span id="selectRoleActors">Choose the role of the actors</span>
                                     </a>
-                                    <ul id="ddExport" class="dropdown-menu">
+                                    <ul id="ddSelectRoleActors" class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">publications</a></li>                                        
+                                        <li><a class="dropdown-item" href="#">projets</a></li> 
+                                        <li><a class="dropdown-item" href="#">annotations</a></li>                                                                               
+                                        <li><a class="dropdown-item" href="#">références</a></li>                                        
+                                        <!--<li><a class="dropdown-item" href="#">inclassables</a></li>-->                                        
                                     </ul>
                                 </li>
                                 <li class="d-flex">
                                     <input id="iptQuery" class="form-control me-2" placeholder="Query"
                                         aria-label="Query">
-                                    <button id="btnQuery" class="btn btn-outline-success">Search</button>
-                                </li>
-                                <li class="d-flex ms-2">
-                                    <input id="iptUrl" class="form-control me-2" placeholder="URL" aria-label="URL">
-                                    <button id="btnUrl" class="btn btn-outline-success">Load</button>
+                                    <button id="btnQuery" class="btn btn-outline-success"><i class="fa-solid fa-arrows-rotate"></i></button>
                                 </li>
                             </ul>
                         </div>
@@ -73,64 +78,8 @@
         <main id='mainContent' class="px-3">
 
             <div class="container-fluid text-center">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="accordion" data-bs-theme="dark" id="accordionJDC">
-                            <div class="accordion-item text-white bg-dark">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        id="complexityTitle" data-bs-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                        Complexity of database
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    data-bs-parent="#accordionJDC">
-                                    <div class="accordion-body">
-                                        <div id="contentInfos">
-                                        </div>
-                                        <div id="contentTots"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item text-white bg-dark">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Complexity details
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionJDC">
-                                    <div class="accordion-body">
-                                        <div id="contentDetails">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item text-white bg-dark">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">
-                                        Resource list
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionJDC">
-                                    <div class="accordion-body">
-                                        <div id="contentResources">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-8" id="contentChart">
-                    </div>
-                </div>
+                <div class="row" id="contentChart">
+                </div>                
             </div>
         </main>
 
@@ -176,15 +125,16 @@
         import {streamWords} from './modules/streamWords.js';
         import {posiColor} from './modules/posiColor.js';
 
-        let urlApiOmk = '../../omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getStream&',
-            urlStreamTot = 'assets/data/complexityTotal.json',
-            dataTots, dataFreq, dataDetails,
+        let urlApiOmk = '../../omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getStream&id=',
+            urlDataDefault = 'assets/data/streamPersonnes.json',
+            dataDetails, sw, 
             m=new modal({'size':'modal-lg'}), hotRes, hotCpx, 
-            aUrl = new appUrl({'url':new URL(document.location)}),
-            rectAccordion = d3.select('#accordionJDC').node().getBoundingClientRect(),
+            aUrl = new appUrl({'url':new URL(document.location),
+                'tgtIn':d3.select('#iptQuery').node()
+            }),
             rectFooter = d3.select('footer').node().getBoundingClientRect(),
             rectHeader = d3.select('header').node().getBoundingClientRect(),
-            rectChart = d3.select('#contentChart').node().getBoundingClientRect(),
+            rectDiag = d3.select('#contentChart').node().getBoundingClientRect(),
             pc, cpx, cpxDB;
 
         /*
@@ -192,102 +142,32 @@
             {'id':1,'name':'Toutes les données'},
         ],'name',exportData);
         */
-
+        d3.select("#ddSelectRoleActors").selectAll('li').on('click',e=>{
+            if(sw)sw.changeCat(e.currentTarget.innerText);
+            aUrl.change('cat',e.currentTarget.innerText);
+        })
+        
         d3.select("#btnQuery").on('click',e=>{
             let q = d3.select("#iptQuery").node().value; 
-            getData(urlApiOmk+q);
+            setDiag(urlApiOmk+q);
         })
         d3.select("#btnUrl").on('click',e=>{
             let u = d3.select("#iptUrl").node().value; 
-            getData(u);
+            setDiag(u);
         })
-        d3.select("#logoPage").on('click',e=>{
-            aUrl.changes([{'k':'id','v':0}]);
-            d3.select('#contentChart').selectAll('svg').remove();
-            getTots();
-        })
-                
+           
+        if(aUrl.params && aUrl.params.has('id'))
+            setDiag(urlApiOmk+aUrl.params.get('id'));
+        else
+            setDiag(urlDataDefault);
 
-        const myCollapsible = document.getElementById('accordionJDC')
-        myCollapsible.addEventListener('shown.bs.collapse', event => {
-            if(event.target.id=="collapseThree"){
-                hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx);
-            }
-            if(event.target.id=="collapseFour"){
-                hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes);
-            }
-        })
-
-        getTots();
-
-                
-        function getTots(url){
-            showLoader();
-            Promise.all([d3.json(urlComplexityTot),d3.json(urlComplexityFrequency)]).then(function(responses) {
-                dataTots = responses[0], dataFreq=responses[1];
-                pc = new posiColor({'data':dataFreq,'cont':d3.select('#contentTots')
-                    //,'pVal':'maxCpx','pLib':'dim', 'frequency':false
-                    , 'pVal':'cpx','pLib':'dim', 'pFreq':'nbCpx','frequency':true
-                    , 'interpolates':{
-                        'Existence':d3.interpolateViridis,
-                        'Physique':d3.interpolatePlasma,
-                        'Actant':d3.interpolatePlasma,
-                        'Concept':d3.interpolatePlasma,
-                        'Rapport':d3.interpolateYlOrRd
-                    }
-                    ,'width':rectAccordion.width,'height':400});   
-                    //getData(urlApiOmk+'id=299743');                
-                    cpxDB = new jdcComplexeDatabase({
-                        //'data':dataTots.filter(d=>d.dim=='Existence')
-                        'data':dataFreq, 'tots':dataTots
-                        ,'cont':d3.select('#contentChart')
-                        ,'pValX':'cpx','pLibX':'Complexité'
-                        ,'pValY':'nbCpx','pLibY':"nombre d'existence"
-                        ,'pc':pc
-                        ,'width':rectChart.width
-                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});                        
-                if(aUrl.params && aUrl.params.has('id'))
-                    getData(urlApiOmk+'id='+aUrl.params.get('id'));
-                hideLoader();
-            }).catch(error => {
-                m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
-                +error);
-                m.setBoutons([{'name':"Close"}]);                
-                m.show();    
-                hideLoader();
-                console.error('There was an error!', error);
-            });                            
-        }
-
-
-        function getData(url){
-            showLoader();
-            d3.json(url)
-                .then(data=>{
-                    console.log(data);
-                    //vérifie si les data viennent d'un bulkexport
-                    if(!data.infos)dataDetails=data[0];
-                    else dataDetails=data;
-                    let cont = d3.select('#contentChart');
-                    cont.select("svg").remove();
-                    cpx = new jdcComplexe({'data':dataDetails,'cont':cont
-                        ,'colors':pc.colors
-                        ,'legend':pc
-                        ,'width':rectChart.width
-                        ,'height':rectFooter.top-rectFooter.height-rectHeader.bottom});
-                    hotCpx = setTable(dataDetails.csv,d3.select('#contentDetails'),hotCpx,false);
-                    hotRes = setTable(dataDetails.infos.resources,d3.select('#contentResources'), hotRes,true);
-                    setDetails();
-                    hideLoader(true);
-                })
-                .catch(error => {
-                    m.setBody('<h3 class="text-white bg-dark">ERROR</h3>'
-                    +error);
-                    m.setBoutons([{'name':"Close"}]);                
-                    m.show();    
-                    hideLoader(true);
-                    console.error('There was an error!', error);
-                });                
+        function setDiag(url){
+            sw = new streamWords({
+                'aUrl':aUrl,
+                'cont':d3.select('#contentChart'),'urlData':url,
+                'width':rectDiag.width*2,'height':(rectFooter.top-rectHeader.bottom)*2.5,
+                'cat':aUrl.params.get('cat')
+                });
         }
 
         function setDetails(){
@@ -337,7 +217,7 @@
                             },
                             callback(key, s, e) { // Callback for specific option
                                 let r = this.getDataAtRow(s[0].start.row);
-                                getData(urlApiOmk+'id='+r[1]);
+                                setDiag(urlApiOmk+'id='+r[1]);
                             }
                           }
                         }
