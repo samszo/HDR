@@ -9,16 +9,16 @@ book:
     - name: Samuel Szoniecky
       affiliation: Laboratoire Paragraphe - Université Paris 8
       orcid: 0000-0002-7643-3342
-  date: "2024/04/02"
+  date: "2024/04/17"
   chapters:
     - index.qmd
     - remerciements.qmd 
-    - avantpropos.qmd 
-    - introduction.qmd  
+    - avantpropos.qmd
+    - introduction.qmd 
     - part: cartoConnaissances.qmd
       chapters:
-        - principesCarto.qmd
         - positionnements.qmd
+        - principesCarto.qmd
         - visees.qmd
         - frayages.qmd
         - resultats.qmd
