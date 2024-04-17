@@ -22,14 +22,17 @@
                 cw = 1 << 12,
                 ch = 1 << 12;
 
-            let maxSud, minSud, maxFreq, minFreq;
+            let maxSud, minSud, maxFreq, minFreq, nbWords=0;
 
             wordstream.boxes = function () {
                 data.forEach(d => {
                     categories.forEach(topic => {
-                        d.words[topic].splice(topWord)
+                        d.words[topic].splice(topWord);
+                        nbWords+=d.words[topic].length;
                     })
                 });
+                if(fct && fct.showProcess)fct.showProcess('nbWords',nbWords);
+
                 let boxWidth = size[0] / data.length;
                 buildFontScale(data);
                 buildFrequencyScale(data);
@@ -43,18 +46,25 @@
                     let innerBoxes = boxes.innerBoxes[topic];
                     let layer = boxes.layers[tc];
                     //Place
+                    let nbPlace = 0;
                     for (let bc = 0; bc < boxes.data.length; bc++) {
                         let words = boxes.data[bc].words[topic];
                         let n = words.length;
                         let innerBox = innerBoxes[bc];
+                        let nbPlaceDate = 0;
                         board.boxWidth = innerBox.width;
                         board.boxHeight = innerBox.height;
                         board.boxX = innerBox.x;
                         board.boxY = innerBox.y;
+                        if(fct && fct.showProcess)fct.showProcess(topic+':'+boxes.data[bc].date+':total',n);
                         for (let i = 0; i < n; i++) {
-                            place(words[i], board);
+                            nbPlaceDate += place(words[i], board);
                         }
-                    }
+                        nbPlace+=nbPlaceDate;
+                        if(fct && fct.showProcess)fct.showProcess(topic+':'+boxes.data[bc].date+':placed',nbPlaceDate);
+                    }                    
+                    if(fct && fct.showProcess)fct.showProcess(topic+':total',nbPlace);
+
                 }
                 return boxes;
             };
@@ -183,6 +193,7 @@
             }
 
             function place(word, board) {
+                //if(fct && fct.showProcess)fct.showProcess('place',word);
                 let bw = board.width,
                     bh = board.height,
                     maxDelta = ~~Math.sqrt((board.boxWidth * board.boxWidth) + (board.boxHeight * board.boxHeight)),
@@ -199,8 +210,10 @@
                     dx = ~~dxdy[0];
                     dy = ~~dxdy[1];
 
-                    if (Math.max(Math.abs(dx), Math.abs(dy)) >= (maxDelta))
+                    if (Math.max(Math.abs(dx), Math.abs(dy)) >= (maxDelta)){
+                        return 0;
                         break;
+                    }
 
                     word.x = startX + dx;
                     word.y = startY + dy;
@@ -210,6 +223,8 @@
                     if (!cloudCollide(word, board)) {
                         placeWordToBoard(word, board);
                         word.placed = true;
+                        //if(fct && fct.showProcess)fct.showProcess('placed',word);
+                        return 1;
                         break;
                     }
                 }
@@ -563,6 +578,9 @@
             //#endregion
             //Exporting the functions to set configuration data
             //#region setter/getter functions
+            wordstream.fct = function (_) {
+                return arguments.length ? (fct = _, wordstream) : fct;
+            }
             wordstream.curve = function (_) {
                 return arguments.length ? (curve = _, wordstream) : curve;
             }
@@ -631,7 +649,7 @@
                 topWord = config.topWord,
                 tickFont = config.tickFont,
                 legendFont = config.legendFont,
-                curve = config.curve;
+                curve = config.curve,
                 fct = config.fct;
 
             //const color = d3.scaleSequential(d3.interpolateSpectral).domain([0, Object.keys(data[0].words).length-1]);
@@ -674,6 +692,7 @@
                 .categories(categories)
                 .topWord(topWord)
                 .curve(curve)
+                .fct(fct)
             ;
             let boxes = ws.boxes();
             maxFreq = ws.maxFreq();

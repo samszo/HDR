@@ -16,17 +16,16 @@ export class streamWords {
         const width = params.width ? params.width : 600;
         const height = params.height ? params.height : 600;
         const config = {
-            topWord: 40,
             minFont: 12,
             maxFont: 25,
             tickFont: 12,
             legendFont: 12,
             curve: d3.curveMonotoneX,
-            topWord: 100,
-            fct:{'nodeClick':showItem,'legendClick':showCat}
+            topWord: 1000,
+            fct:{'nodeClick':showItem,'legendClick':showCat,'showProcess':showProcess}
             };
         const m=new modal({'size':'modal-lg'}); 
-        let dataForVis = [], authors=[], words=[], svg,
+        let dataForVis = [], authors=[], words=[], svg, wCat,
             margins = {t:10,b:10,l:10,r:10},
             nivs, mNoeud = m.add('modalStreamNode');
 
@@ -46,14 +45,19 @@ export class streamWords {
             });            
         }
         function createStream(data){
-            let w = width-margins.l-margins.r, h = height - margins.t - margins.b;
+            let w = width-margins.l-margins.r, h = height - margins.t - margins.b, maxH=0;
             me.cont
                 .style("max-width", w + "px")
                 .style("background-color","white");
             me.cont.select('svg').remove();
-            svg = me.cont.append('svg').attr("id", "mainSVG")    
-            svg.attr("width", Math.max(120 * data.length, w))
-            svg.attr("height", Math.max(200 * Object.keys(data[0].words).length, h));
+            svg = me.cont.append('svg').attr("id", "mainSVG");    
+            svg.attr("width", Math.max(120 * data.length, w));
+            //calcul la hauteur maximale
+            let cats = Object.keys(data[0].words);
+            data.forEach(d=>{
+                cats.forEach(c=>maxH=d.words[c].length>maxH?d.words[c].length:maxH);                
+            })
+            svg.attr("height", 2*Math.max(maxH, h));
             wordstream(svg, data, config);
             hideLoader(true);
         }
@@ -67,7 +71,7 @@ export class streamWords {
             data.rapports.sort((a, b) => a.an - b.an);
             let g = d3.group(data.rapports, d => d.an),
             //création des catégories
-            typeCat = "actants",//'keywords & authors',//"words for each author"
+            typeCat = "actants";//'keywords & authors',//"words for each author"
             wCat = getWordCat(data,typeCat);
             g.forEach((docs,date)=>{
                 let o = {'date':date,'words':JSON.parse(JSON.stringify(wCat)),'docs':[]};
@@ -109,8 +113,23 @@ export class streamWords {
                 })
                 dataForVis.push(o)
             })
+            //trier les résultats 
+            sortDataForViz('frequency')
             return dataForVis;
         }
+
+        function sortDataForViz(champ, dir='desc'){
+
+            dataForVis.forEach(d=>{
+                for (const k in d.words) {
+                    d.words[k].sort((a, b) => {
+                        return dir=='desc' ? b[champ] - a[champ] : a[champ] - b[champ];
+                    });
+                }
+            })
+
+        }
+
         function getKeywords(d,o,k){
             let doc = me.data.docs.filter(f=>f.id==d.idDoc)[0];
             if(!doc.kw){
@@ -222,6 +241,10 @@ export class streamWords {
         function showCat(e,d){
             console.log(d);
         }
+        function showProcess(process,param){
+            console.log(process,param);
+        }
+        
         function showItem(e,d){
             let idItem = "";
             switch (d.topic) {
