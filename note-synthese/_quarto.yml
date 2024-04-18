@@ -15,9 +15,11 @@ book:
     - remerciements.qmd 
     - avantpropos.qmd
     - introduction.qmd 
-    - part: cartoConnaissances.qmd
+    - part: parcours.qmd
       chapters:
         - positionnements.qmd
+    - part: cartoConnaissances.qmd
+      chapters:
         - principesCarto.qmd
         - visees.qmd
         - frayages.qmd

@@ -103,9 +103,7 @@ Le projet LITTE_BOT [@quach2022; @pappa2023] consiste en la création d'un chatb
 
 L'objectif était de créer un chatbot ouvert capable d'incarner le Dom Juan de Molière. Le défi technique était de créer une base de données suffisamment grande pour entraîner le modèle de langage séquence à séquence. Les modèles linguistiques actuels sont formés avec des corpus contemporains. Pour notre projet, nous devions construire de toutes pièces une base de données qui permettrait à une intelligence artificielle d'imiter le Dom Juan de Molière, de parler le français du XVIIe siècle et de comprendre le français actuel parlé par son interlocuteur.
 
-La base de données pour la formation du chatbot est non seulement indispensable, mais aussi la partie la plus importante de ce projet. Dans un premier temps, j'ai travaillé sur l'analyse sémantique du corpus Molière disponible sur Gallica grâce à un précédent partenariat de recherche entre la BnF et le laboratoire OBVIL de la Sorbonne. La mise à disposition de ce corpus des textes de Molière dans un format manipulable par des machines (<https://obvil.sorbonne-universite.fr/corpus/moliere/moliere>) permet d’envisager de multiple réutilisation de ces textes pour des usages innovants. Par exemple, l’Obvil analyse les relations entre les personnages d’une pièce de théâtre pour visualiser l’importance de leurs relations :
-
-![Obvil : représentation des relations entre personnages](images/obvil_corpus_moliere_moliere_dom-juan-1682.png){#fig_obvilDonJuan}
+La base de données pour la formation du chatbot est non seulement indispensable, mais aussi la partie la plus importante de ce projet. Dans un premier temps, j'ai travaillé sur l'analyse sémantique du corpus Molière disponible sur Gallica grâce à un précédent partenariat de recherche entre la BnF et le laboratoire OBVIL de la Sorbonne. La mise à disposition de ce corpus des textes de Molière dans un format manipulable par des machines (<https://obvil.sorbonne-universite.fr/corpus/moliere/moliere>) permet d’envisager de multiple réutilisation de ces textes pour des usages innovants.
 
 Pour ce projet nous avons analysé la structure du corpus (pièces de théâtre, actes, scènes, répliques, phrases, mots-clés) pour créer des éléments dans une base de données Omeka S correspondant à chacune de ces structures et à leurs relations. Pour ce faire nous avons développé un module générique [^3] d'importation des pages HTML qui à partir d'un fichier de configuration[^4] sélectionne les éléments de la page et les enregistre dans la base Omeka S en détaillant leurs relations. Nous avons importer toutes [^5] pour obtenir une base de plus de 100 000 items. Ce travail d'hypertrextualisation permet d'explorer la base de données et d'enrichir les éléments qui la compose et dont voici la représentation :
 
@@ -119,9 +117,33 @@ Nous souhaitions travailler précisément les répliques du théâtre de Molièr
 
 Cette pratique de la scénarisation des chabots reste aujourd'hui la plus répandue car elle permet de maîtriser précisément le processus de dialogue entre les utilisateurs et les bots. Comme le confirme les indexations manuelles par micro-tâches faites pour rendre ChatGPT opérationnel ou le chatbot Chomsky VS Comsky
 
-### Projet Polemika[^6]
+### Projet CoCult
 
-[^6]: Ce paragraphe est issu du rapport final du projet
+Ce projet réalisé dans le cadre de l'Université Européenne EURUA s'est déroulé entre septembre 2022 et juin 20023 en collaboration avec une équipe de l'Université de Roskilde (Danemark) coordonnée par Katia Dupret, une équipe de l'université de la mer Egée coordonnée par George Caridakis, une équipe du CNIS (Centre Numérique d’Innovation Sociale) sous la responsabilité de Chloé Lemeunier et une équipe du laboratoire Paragraphe composée d'Everardo Reyes et moi même.
+
+Les problématiques de ce projet sont fondés sur les questions socioculturelles critiques liées à la migration et l'insécurité économique à laquelle sont confrontés les centres-villes contemporains, exprimée à travers manifestations de crise stupéfiantes. Cela a entraîné de graves perturbations dans le fonctionnement de la société se traduisant par de nombreux impacts humains, économiques et culturels pertes et impacts, liés à des domaines tels que la gestion des risques de catastrophe et réponse à la crise.
+
+Le nord de Paris (localisation de l'université Paris 8) et la mer Égée îles (en particulier Mytilène, siège du Département d'informatique culturelle) présentent des populations multiculturelles. La population locale du nord de Paris est enrichi par de multiples communautés qui partagent des points communs culturels, tandis que le Les îles de la mer Égée ont accueilli d’importants groupes d’immigrants ces dernières années. Même si ces groupes de population ont souvent des opportunités limitées dans des domaines tels que l'éducation, le travail et la santé, les efforts des gouvernements et des ONG ont amélioré leur inclusion dans ces domaines critiques. Mais d'autres domaines, comme patrimoine culturel, ne sont souvent pas abordés en première ligne lorsqu'il s'agit de traiter facteurs socio-économiques défavorables. Les deux départements de l'alliance entretiennent des liens étroits avec le patrimoine culturel et croient qu'il existe un potentiel inexploité pour promouvoir l'accès à la diversité culturelle et s’appuyer sur la résilience culturelle. Le patrimoine culturel est pour nous une valeur qui peut contribuer à enrichir le capital social et à créer un sentiment d’appartenance individuelle et collective l’appartenance, qui contribue à maintenir la cohésion sociale et territoriale. Ainsi, le patrimoine culturel peut jouer un rôle important en tant qu’élément décisif des stratégies de développement dans des domaines socialement critiques et des groupes ayant des opportunités limitées ne devraient pas être exclu de. En outre, l’innovation est considérée comme le premier domaine concernant le effets d’entraînement de la culture et de la participation culturelle, alimentés par de fortes incitations sociales des communautés participantes. Partant de ces prémisses, l'objet du projet Communautés de Communs Culturels de Paris et Mytilène. Le projet CoCult consiste à identifier les voies et méthodes afin de mieux comprendre les pratiques culturelles de ces communautés de pratique et de leurs membres. L'objectif est d'étudier les manières possibles par lesquelles les groupes culturels pourraient enrichir leur expérience locale, mais documentent également leurs propres traits et expressions culturels via des actions participatives. Durant la courte période de ce projet, nous avons réalisé une approche préliminaire de la principale question de recherche sur l'étude du patrimoine culturel à travers la pratiques des médias numériques des minorités et des communautés. Les partenaires collaborateurs, ainsi que la participation des acteurs locaux Les ONG et autres parties prenantes externes identifient les méthodologies en ce qui concerne :
+
+-   les opportunités culturelles offertes aux populations qui ne connaissent pas la situation locale mais résidant dans la région
+
+-   la participation collaborative de ces populations par des techniques de crowdsourcing
+
+Nous avons par exemple étudié le partage des points de vue des immigrants et des photos liées à des objets du patrimoine culturel. Pour ce faire nous avons expériementé deux outils PhotoMap[^6] et HistoryPin[^7]. Les tests que nous avons réalisés avec ses deux outils nous ont incités à concevoir des dispositifs numériques plus adaptés au partage de points de vue sur le patrimoine d'un territoire. Nous avons également abordé l’importance d’utiliser un environnement open source dédié aux Linked Open Data. Après les ateliers, nous avons commencé à réfléchir à de tels outils et nous avons développé un prototype avec des technologies basées sur le Web et le système de gestion de contenus Omeka S comme principal point de stockage de données[^8].
+
+[^6]: lien vers l'application : <https://play.google.com/store/apps/details?id=com.levionsoftware.instagram_map&hl=fr&gl=US>
+
+[^7]: Lien vers l'application : <https://www.historypin.org/en/>
+
+[^8]: Le code de l'application est accessible ici : <https://github.com/samszo/cocult> , le prototype est testable ici :
+
+![CoCult : Dispositif de partage de points vue géolocalisés](images/artnum.univ-paris8.fr_cocult_tags.html.png){#fig-cocult}
+
+La figure ci-dessus montre une interface utilisateur en cours de réalisation. La partie droite montre ou se situe la photographie sur la carte. Sur le côté gauche, des annotations basées sur une liste prédéfinie de sentiments sont placées sur la photographie.
+
+### Projet Polemika[^9]
+
+[^9]: Ce paragraphe est issu du rapport final du projet
 
 Polemika a été financé par les Trophées franciliens de l'innovation numérique dans le supérieur (Trophées EdTech) et l’EUR ARTeC (Ecole Universitaire de Recherche). Ce projet visait à développer un générateur automatique d’arguments pour l’éducation à l’esprit critique. S’appuyant sur des travaux menés au laboratoire Paragraphe [@balpe2002; @szoniecky; @szoniecky2012a] sur un générateur automatique de texte, nous disposions d'une infrastructure pré-existante, pour la génération automatique de structures textuelles. Partant du constat de la généralisation du phénomène des fake news, et dans le contexte numérique Polemika vise à générer des contre-arguments mais aussi de l’absurde, des caricatures, des exagérations, voire des fake news, afin de travailler les compétences d’esprit critique par la pratique, de manière ludique et interactive. Une des hypothèses consiste à observer si à travers la répétition de la mise en œuvre d’opérations de prise de distance, de prise de recul lors de la confrontation itérative à des énoncés plausibles, mais faux, ou à des énoncés absurdes ou caricaturaux, générés par Polemika, on parviendrait à augmenter la qualité des critiques réalisées sur les énoncés, mais également à diminuer l’impact émotionnel, à travers un processus « d’habituation » et d’éducation, qui vise à porter les publics à aller vérifier l’information plutôt que de commencer par réagir émotionnellement.
 
@@ -233,9 +255,9 @@ Ce processus de catégorisation utilise un jeu sérieux pour capter les émotion
 Catégorisation émotionnelle
 :::
 
-### Projet Arcanes[^7]
+### Projet Arcanes[^10]
 
-[^7]: Ce chapitre est issu de la demande de subvention CRSH
+[^10]: Ce chapitre est issu de la demande de subvention CRSH
 
 Le projet vise à étudier les régimes d’authenticité prenant place dans une ère de post-vérité, soit les transformations des systèmes de vérité, d’autorité et de légitimité à l’œuvre dans les dynamiques de médiations contemporaines. Les objets de recherche visés, abordés de façon intermédiale, sont situés à la fois dans la sphère des « arts trompeurs «, soit des arts recourant à la fois aux pratiques illusionnistes et aux modes fictionnels en utilisant des stratégies de tromperie, et dans celui des techniques de persuasion ou de manipulation intervenant dans l’espace communicationnel actuel. Les deux modes activent les « puissances du faux » . Ils suscitent des imaginaires sociaux qu’il s’agira d’étudier en les mettant en relation pour mieux en exposer les rouages. 
 
@@ -267,23 +289,23 @@ Depuis une quinzaine d'années, je mène un veille active pour à la fois trouve
 
 La première étape de ce processus de veille consiste à sélectionner des sources d'informations qui me semble pertinentes pour explorer un domaine de connaissances. Pour ce faire, j'utilise principalement deux types de sources : des e-mails et des flux RSS.
 
-J'utilise les e-mails pour recevoir périodiquement des informations soit en m'abonnant à des newsletters[^8] et des forums[^9], soit en utilisant le services d'alertes proposé par Google, Google Scholar et HAL[^10]. Pour les alertes, j'en ai paramétré une cinquantaine portant soit sur des noms de chercheur soit sur des concepts. La veille sur les noms de chercheur permet de connaître les nouvelles publications de cette personne mais aussi comment il est cité par d'autres chercheurs. Les alertes sur les concepts donne une bonne idée de l'activité informationnelle dans un domaine. J'utilise aussi le service de CAIRN pour recevoir automatiquement les nouvelles parutions des revues scientifiques qui m'intéresse.
-
-[^8]:
-    > Liste des newsletters : https://bit.ly/3KhDwY9
-
-[^9]:
-    > Liste des forums : https://bit.ly/44KPfGX
-
-[^10]:
-    > Liste des alertes : https://bit.ly/3KgkSjz
-
-Pour consulter les flux RSS[^11] que j'ai sélectionnés, j'utilise l'agrégateur de flux Netvibes[^12] qui permet une lecture rapide des flux à partir du titre des articles. Notons que la durée de vie d'un flux RSS est relativement limité puisque sur le 180 flux que j'ai sélectionnés plus de la moitiés ne sont plus opérationnels. Par exemple, le site d'Amazon ne met plus à disposition de flux RSS pour suivre les parutions d'ouvrage dans un domaine spécifique.
+J'utilise les e-mails pour recevoir périodiquement des informations soit en m'abonnant à des newsletters[^11] et des forums[^12], soit en utilisant le services d'alertes proposé par Google, Google Scholar et HAL[^13]. Pour les alertes, j'en ai paramétré une cinquantaine portant soit sur des noms de chercheur soit sur des concepts. La veille sur les noms de chercheur permet de connaître les nouvelles publications de cette personne mais aussi comment il est cité par d'autres chercheurs. Les alertes sur les concepts donne une bonne idée de l'activité informationnelle dans un domaine. J'utilise aussi le service de CAIRN pour recevoir automatiquement les nouvelles parutions des revues scientifiques qui m'intéresse.
 
 [^11]:
-    > Liste des flux RSS : https://bit.ly/3Yd9Z7V
+    > Liste des newsletters : https://bit.ly/3KhDwY9
 
 [^12]:
+    > Liste des forums : https://bit.ly/44KPfGX
+
+[^13]:
+    > Liste des alertes : https://bit.ly/3KgkSjz
+
+Pour consulter les flux RSS[^14] que j'ai sélectionnés, j'utilise l'agrégateur de flux Netvibes[^15] qui permet une lecture rapide des flux à partir du titre des articles. Notons que la durée de vie d'un flux RSS est relativement limité puisque sur le 180 flux que j'ai sélectionnés plus de la moitiés ne sont plus opérationnels. Par exemple, le site d'Amazon ne met plus à disposition de flux RSS pour suivre les parutions d'ouvrage dans un domaine spécifique.
+
+[^14]:
+    > Liste des flux RSS : https://bit.ly/3Yd9Z7V
+
+[^15]:
     > https://www.netvibes.com/
 
 ### Filtrer les informations {#sec-filtrerInfos}
@@ -292,30 +314,30 @@ La deuxième étape du processus de veille consiste à filtrer les informations 
 
 ### Annoter les références {#sec-annoterReference}
 
-L'étape d'annotation des références est très importante car elle consiste à enregistrer les informations pour enrichir ma base de connaissances. Pour effectuer cette troisième étape du processus, j'utilise deux outils complémentaires. Pour ce qui concerne les données bibliographiques non numérisées, j'ai fait le choix de Zotero pour enregistrer les références de la données et les annoter avec une liste de mots clefs et des citations du document dans des notes. Notons que Zotero ajoute automatiquement des mots clefs lorsque ceux-ci sont précisés dans les métadonnées du document. Concernant les données du Web, j'utilise l'outil d'annotation Diigo[^13] pour non seulement enregistrer l'URL d'un document Web mais aussi le décrire avec des mots clefs, surligner avec différentes couleurs une partie du document pour l'extraire et la commenter, faire des copies d'écran pour conserver une partie de la page visualisée.
+L'étape d'annotation des références est très importante car elle consiste à enregistrer les informations pour enrichir ma base de connaissances. Pour effectuer cette troisième étape du processus, j'utilise deux outils complémentaires. Pour ce qui concerne les données bibliographiques non numérisées, j'ai fait le choix de Zotero pour enregistrer les références de la données et les annoter avec une liste de mots clefs et des citations du document dans des notes. Notons que Zotero ajoute automatiquement des mots clefs lorsque ceux-ci sont précisés dans les métadonnées du document. Concernant les données du Web, j'utilise l'outil d'annotation Diigo[^16] pour non seulement enregistrer l'URL d'un document Web mais aussi le décrire avec des mots clefs, surligner avec différentes couleurs une partie du document pour l'extraire et la commenter, faire des copies d'écran pour conserver une partie de la page visualisée.
 
-[^13]:
+[^16]:
     > https://www.diigo.com/index
 
 En terme d'indexation, cette étape d'annotation enregistre les rapports entre des informations physiques concernant les références d'un document et de ses parties, des informations conceptuelles à travers les mots clefs utilisés, des informations sur l'actant qui fait l'annotation à un moment donnée.
 
 ### Utiliser les annotations {#sec-utiliserAnnotations}
 
-L'usage le plus fréquent que je fais des annotations consiste à référencer nos écrits scientifiques en utilisant des URLs ou des données bibliographiques que j'intégre directement dans le texte grâce au connecteur Zotero[^14], comme c'est le cas dans ce travail. Les références enregistrées dans ma base de connaissances se retrouvent facilement en faisant une recherche par mot clef ou en plein texte. Les résultats de ces recherches donnent une liste de documents dont les annotations font office de résumé. En visualisant les mots clefs utilisés et les parties sélectionnées, il n'est plus nécessaire de consulter l'intégralité du document. Par exemple, voici la page d'annotation d'un article dans Diigo :
+L'usage le plus fréquent que je fais des annotations consiste à référencer nos écrits scientifiques en utilisant des URLs ou des données bibliographiques que j'intégre directement dans le texte grâce au connecteur Zotero[^17], comme c'est le cas dans ce travail. Les références enregistrées dans ma base de connaissances se retrouvent facilement en faisant une recherche par mot clef ou en plein texte. Les résultats de ces recherches donnent une liste de documents dont les annotations font office de résumé. En visualisant les mots clefs utilisés et les parties sélectionnées, il n'est plus nécessaire de consulter l'intégralité du document. Par exemple, voici la page d'annotation d'un article dans Diigo :
 
-[^14]:
+[^17]:
     > https://tutos.bu.univ-rennes2.fr/c.php?g=686436&p=4906338
 
 ![Article annoté dans Diigo](media/10000001000003A4000002648983E64502CE7461.png){#fig-annotationDiigo fig-align="center"}
 
-Cette copie d'écran montre les parties de l'article que j'ai sélectionnées (marge jaune) et les notes que j'ai prises pour la sélection (marge grise). En ce référent à cette page d'annotation, il est pratique de retrouver rapidement ce qui m'a semblé pertinent et pourquoi[^15].
+Cette copie d'écran montre les parties de l'article que j'ai sélectionnées (marge jaune) et les notes que j'ai prises pour la sélection (marge grise). En ce référent à cette page d'annotation, il est pratique de retrouver rapidement ce qui m'a semblé pertinent et pourquoi[^18].
 
-[^15]:
+[^18]:
     > J'ai testé avec plusieurs groupes d'étudiants, l'association d'une couleur de surlignage avec une signification particulière : vert = je suis d'accord, rouge = je ne suis pas d'accord, jaune = je ne comprend pas et bleu = référence. L'expérience est toujours en cours et les résultats seront bientôt publiés.
 
-Un autre usage particulièrement intéressant des annotations est la conservation des références qui ne sont plus accessibles en ligne et qui représente dans notre corpus plus de 10 % des URL (cf. ci-dessous). Lorsque nous importons les annotations Web depuis Diigo vers ma de base de connaissances Omeka S @sec-importDiigo, je teste la validité de l'URL et enregistre son statut[^16] ce qui permet de savoir quelles URL sont obsolètes :
+Un autre usage particulièrement intéressant des annotations est la conservation des références qui ne sont plus accessibles en ligne et qui représente dans notre corpus plus de 10 % des URL (cf. ci-dessous). Lorsque nous importons les annotations Web depuis Diigo vers ma de base de connaissances Omeka S @sec-importDiigo, je teste la validité de l'URL et enregistre son statut[^19] ce qui permet de savoir quelles URL sont obsolètes :
 
-[^16]:
+[^19]:
     > https://samszo.univ-paris8.fr/omk/api/references?metadata\[serverStatus\]=schema:serverStatus
 
 ![Répartition de la classe des statuts pour les URL dans Diigo](media/10000001000001E6000001FDFBA335D820BED6E2.png){#fig-statutUrlDiigo fig-align="center"}
@@ -326,15 +348,15 @@ De manière plus expérimentale, nous utilisons ces annotations pour développer
 
 ### Diffuser les annotations {#sec-diffuserAnnotations}
 
-Ce travail d'annotation et de sélection de citation me fourni une base de connaissances de plus de 1 400 références bibliographiques et plus de 19 000 références Web qui sont indexées par plus de 6 000 concepts. L'ensemble de ces données sont accessibles soit sur les Zotero pour les références bibliographiques[^17], soit sur Diigo pour les références Web[^18], soit directement dans mon site Omeka S dans un format HTML pour naviguer dans la base de données ou en JSON[^19] pour analyser les données avec des algorithmes.
+Ce travail d'annotation et de sélection de citation me fourni une base de connaissances de plus de 1 400 références bibliographiques et plus de 19 000 références Web qui sont indexées par plus de 6 000 concepts. L'ensemble de ces données sont accessibles soit sur les Zotero pour les références bibliographiques[^20], soit sur Diigo pour les références Web[^21], soit directement dans mon site Omeka S dans un format HTML pour naviguer dans la base de données ou en JSON[^22] pour analyser les données avec des algorithmes.
 
-[^17]:
+[^20]:
     > https://www.zotero.org/luckysemiosis/library
 
-[^18]:
+[^21]:
     > https://www.diigo.com/user/luckysemiosis
 
-[^19]:
+[^22]:
     > https://samszo.univ-paris8.fr/omk/api/items?item_set_id=1&item_set_id=4
 
 ### Réfléchir le processus {#sec-reflechirProcessus}
@@ -351,18 +373,18 @@ Entre l'automatisation du processus et les choix manuels, il convient donc de pr
 
 ## Cartographie existentielle de mon écosystème de connaissances
 
-A partir du processus de veille que nous venons de décrire, j'ai constitué une base de connaissances qui reflète de manière très précise mon environnement scientifique et intellectuel. Pour faciliter le traitement des données de cette environnement nous les avons centralisées dans Omeka S qui représente une base de données SQL de 75 tables peuplées par plus de 2 000 000 de lignes[^20]. Le graphique ci-dessous présente la répartition des objets disponibles dans cet écosystème suivant leur classe[^21] :
+A partir du processus de veille que nous venons de décrire, j'ai constitué une base de connaissances qui reflète de manière très précise mon environnement scientifique et intellectuel. Pour faciliter le traitement des données de cette environnement nous les avons centralisées dans Omeka S qui représente une base de données SQL de 75 tables peuplées par plus de 2 000 000 de lignes[^23]. Le graphique ci-dessous présente la répartition des objets disponibles dans cet écosystème suivant leur classe[^24] :
 
-[^20]: L'ensemble de ces données sont accessibles via l'API de Omeka S sous un format RDF-JSON utilisé pour l'interopérabilité entre les machines mais aussi via des représentations dédiées à la navigation à l'intérieur de cet écosystème.
+[^23]: L'ensemble de ces données sont accessibles via l'API de Omeka S sous un format RDF-JSON utilisé pour l'interopérabilité entre les machines mais aussi via des représentations dédiées à la navigation à l'intérieur de cet écosystème.
 
-[^21]:
+[^24]:
     > Les données de ce graphique et d'autres statistiques sont disponibles ici : \<omkStats.html\>
 
 ![Répartition des classes par nombre d'objet dans l'écosystème](media/100000010000023E0000017E87A6A293BEC71C5E.png){#fig-repartitionClass width="11.09cm" height="7.378cm"}
 
-Le graphique montre que les deux tiers des objets dans l'écosystème sont des annotations (61 120 = 60 %) qui créent un rapport entre un document, un actant et un concept. Nous retrouvons ici le 4 dimensions du modèle que nous utilisons pour modéliser les connaissances (@sec-modeleOntoEthique) : document, actant, concept, rapport. Plus précisément, la dimension physique (documentaire) est composée essentiellement de pages Web (19 491 items = 19 %[^22]), des citations (8 994 = 9 %), de médias (3 427 = 3 %), des notes (1 488 = 1 %) et des livres (568 = 1 %) issues de notre processus de veille. Les autres dimensions de l'écosystème sont les concepts (6 266 = 6 %) et les personnes (1 898 = 2 %) associées aux actants (500 = 0,5 %). Le graphique ci-dessous montre cette répartition des objets suivant les dimension existentielles :
+Le graphique montre que les deux tiers des objets dans l'écosystème sont des annotations (61 120 = 60 %) qui créent un rapport entre un document, un actant et un concept. Nous retrouvons ici le 4 dimensions du modèle que nous utilisons pour modéliser les connaissances (@sec-modeleOntoEthique) : document, actant, concept, rapport. Plus précisément, la dimension physique (documentaire) est composée essentiellement de pages Web (19 491 items = 19 %[^25]), des citations (8 994 = 9 %), de médias (3 427 = 3 %), des notes (1 488 = 1 %) et des livres (568 = 1 %) issues de notre processus de veille. Les autres dimensions de l'écosystème sont les concepts (6 266 = 6 %) et les personnes (1 898 = 2 %) associées aux actants (500 = 0,5 %). Le graphique ci-dessous montre cette répartition des objets suivant les dimension existentielles :
 
-[^22]:
+[^25]:
     > Liste complète des pages Web : <https://bit.ly/3Qj1NRm>
 
 ![Répartition des objets par dimension existentielle](media/100000010000021900000181A00CD43E3311E6DF.png){#fig-repartitionDimExi width="11.185cm" height="8.019cm"}
@@ -379,13 +401,13 @@ Il reste encore de nombreuses travaux de recherche à faire sur cet écosystème
 
 L'écosystème de connaissances que j'ai constitué à partir de mon travail de chercheur et d'enseignant compte plus de 2 000 personnes. Parmi cette foule, j'entretiens des rapports très différents avec chacune des personnes, certaines sont des amies, d'autres des collègues ou des auteurs que j'ai lu sans jamais les rencontrés... De plus, ces rapports évoluent dans le temps au fil des rencontre intellectuelles et amicales. Pour décrire ces relations, nous pourrions nous inspirer des propositions de Gabrielle Tarde [@citton2008] pour réaliser une économie des affects à partir de trois registres : les « valeurs-utilités », les « valeurs-vérités » et les « valeurs-beautés. Nous verrons en détails @sec-confianceDonnees comment à partir de ces propositions concevoir une cartographie des affects mais il est difficile d'appliquer cette méthode ici, sans potentiellement créer des difficultés dans les relations que j'entretiens avec ces personnes. En effet, que dire à un ou une collègue qui me demande pourquoi les "valeurs" que je lui attribue sont moindres que celle d'un ou d'une autre ? Pour éviter ce type de situation, je n'applique pas cette méthode ici car elle exacerbe trop ma subjective mais je privilégie une approche plus objective en analysant la place de ces personnes dans mon écosystème de connaissances.
 
-Premièrement, nous allons examiner l'importance de ces personnes dans mon écosystème de connaissances à partir d'un WordsStream[^23] . Ce diagramme montre comment l'importance des items d'une catégorie évolue dans le temps. Dans notre écosystème, cette importance est calculée par le nombre de fois qu'une personne est en rapport avec une existence de l'écosystème[^24]. Nous avons catégorisé ces existences suivant les quatre dimensions de notre modèle[^25] (actants = 2 000, concepts = 822, document = 1214, rapports = 11 777) puis nous avons regroupé les rapports en 4 groupes :
+Nous allons examiner l'importance de ces personnes dans mon écosystème de connaissances à partir d'un WordsStream[^26] . Ce diagramme montre comment l'importance des items d'une catégorie évolue dans le temps. Dans notre écosystème, cette importance est calculée par le nombre de fois qu'une personne est en rapport avec une existence de l'écosystème[^27]. Nous avons catégorisé ces existences suivant les quatre dimensions de notre modèle[^28] (actants, concepts, document, rapports) puis nous avons regroupé les plus de 12 000 rapports en 4 groupes :
 
-[^23]: Nous avons adapté ce diagramme proposé originalement par [Huyen Nguyen](https://github.com/huyen-nguyen) <https://github.com/iDataVisualizationLab/WordStream> pour mieux piloter les données et leurs visualisations. Le code du module que nous avons développé est ici : <https://github.com/samszo/HDR/blob/main/docs/modules/streamWords.js>
+[^26]: Nous avons adapté ce diagramme proposé originalement par [Huyen Nguyen](https://github.com/huyen-nguyen) <https://github.com/iDataVisualizationLab/WordStream> pour mieux piloter les données et leurs visualisations. Le code du module que nous avons développé est ici : <https://github.com/samszo/HDR/blob/main/docs/modules/streamWords.js>
 
-[^24]: Les données de calcul sont accessibles ici : <http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getStream&id=61225>
+[^27]: Les données de calcul sont accessibles ici : <http://localhost/samszo/omk/s/cartoaffect/page/ajax?json=1&helper=JDC&action=getStream&id=61225>
 
-[^25]: l'algorithme de classification est disponible ici : <https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L234>
+[^28]: l'algorithme de classification est disponible ici : <https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L234>
 
 -   les personnes qui sont co-auteur de mes publications (bleu)
 
@@ -395,25 +417,25 @@ Premièrement, nous allons examiner l'importance de ces personnes dans mon écos
 
 -   les auteurs des références pour lesquelles j'ai fait des annotations (orange).
 
-Le diagramme obtenu représente l'évolution dans le temps de l'importance des personnes dans ces 4 catégories :
+Le diagramme obtenu représente l'évolution de l'importance des personnes dans ces 4 catégories :
 
 ![Evolution de l'importance des personnes de l'écosystème](images/localhost_samszo_HDR_docs_jdcStreamTot.png){#fig-wordstreamTot fig-align="center"}
 
 L'image ci-dessus montre la totalité du diagramme pour les quatre catégories. Cette représentation ne permet pas de voir les détails que nous traiterons plus loin mais révèle tout de même quelques points important :
 
--   les références bibliographiques de mon écosystème de connaissances couvre une grand période temporelle (1515 - 2024) mais principalement le XXIème siècle. Toutefois, il faudrait corriger les données en prenant en compte non pas la date de publication de la référence bibliographique mais la date de création par l'auteur. Par exemple, la référence bibliographique [@peirce2003] possède une date de publication en 2003 mais les écrits de Peirce regroupés dans ce volume ont été produits après 1880 et avant 1914. Nous n'avons pas pour l'instant ces données pour l'ensemble de nos références bibliographiques mais nous pourrions les calculer à partir des dates de naissance et de mort des auteur. Ce travail reste à faire.
+-   les références bibliographiques de mon écosystème de connaissances couvrent une grande période temporelle (1515 - 2024) mais principalement le XXIème siècle. Toutefois, il faudrait corriger les données en prenant en compte non pas la date de publication de la référence bibliographique mais la date de création par l'auteur. Par exemple, la référence bibliographique [@peirce2003] possède une date de publication en 2003 mais les écrits de Peirce regroupés dans ce volume ont été produits après 1880 et avant 1914. Nous n'avons pas pour l'instant ces données pour l'ensemble de nos références bibliographiques mais nous pourrions les calculer à partir des dates de naissance et de mort des auteur. Ce travail reste à faire.
 
--   On note une baisse de l'importance du flux en 2012 et en 2020. La première date correspond à une activité importante de recherche de 2009 à 2012 lié à la thèse puis à sa rédaction et la seconde à la crise du COVID.
+-   On note une baisse de l'importance du flux en 2012 et en 2020. La première date correspond à une baisse de l'activité de recherche lié à la rédaction de la thèse et la seconde correspond à la crise du COVID.
 
 -   La part des publications (bleu) est très petite par rapport aux autres. Ceci correspond tout à fait au principes de référencement des sources dans une publication universitaire puisque pour un article publié, il y a en moyenne une dizaine de références.
 
 [![Evolution des co-auteurs de mes publications](images/localhost_samszo_HDR_docs_jdcStreamPublications.png){#fig-wordstreamPublications fig-align="center"}](http://localhost/samszo/HDR/docs/jdcStream.html?cat=publications)
 
-En regardant plus en détail les co-auteurs de mes publications @fig-wordstreamPublications , on distingue que la majeure partie des co-auteurs sont des collègues du laboratoire Paragraphe même si depuis 2022 je collabore davantage avec des collègues venant d'autres institutions notamment en lien avec les projets de l'EUR ArTec[^26] et de l'Université Européenne EURUA[^27]
+En regardant plus en détail les co-auteurs de mes publications @fig-wordstreamPublications , on distingue que la majeure partie des co-auteurs sont des collègues du laboratoire Paragraphe même si depuis 2022 je collabore davantage avec des collègues venant d'autres institutions notamment en lien avec les projets Arcanes @sec-projetArcanes, ceux de l'EUR ArTec[^29] @sec-projetLitteBot et ceux de l'Université Européenne EURUA[^30] @sec-projetCocult
 
-[^26]: lien vers le site : <https://eur-artec.fr/>
+[^29]: lien vers le site : <https://eur-artec.fr/>
 
-[^27]: lien vers le site : <https://erua-eui.eu/>
+[^30]: lien vers le site : <https://erua-eui.eu/>
 
 [![Evolution des personnes participants aux projets](images/localhost_samszo_HDR_docs_jdcStreamProjet.png){#fig-wordstreamProjet fig-align="center"}](http://localhost/samszo/HDR/docs/jdcStream.html?cat=projets)
 
@@ -425,6 +447,6 @@ Le diagramme ci-dessus @fig-wordstreamAnnotations montre l'évolution de l'impor
 
 ![Annotations d'un livre](images/annotationsLivre.jpeg){#fig-annotationsLivre fig-align="center"}
 
-Même si ce diagramme n'est pas exhaustif, il montre les personnes les plus importantes de mon parcours intellectuel. Ces personnes ne sont pas toutes spécialistes des sciences de l'informations et de la communication mais m'ont apportés des notions éclairantes pour mon travail de recherche. Je pense notamment à Gilles Deleuze que je lis depuis une trentaine d'années et que j'écoute[^28] régulièrement. Grâce à lui, notamment à travers ses interprétations de Spinoza et plus particulièrement de l'éthique, j'ai trouvé les bases théoriques du modèle d'écosystème de connaissances que j'utilise dans mes recherche
+Même si ce diagramme n'est pas exhaustif, il montre les personnes les plus importantes de mon parcours intellectuel. Ces personnes ne sont pas toutes spécialistes des sciences de l'informations et de la communication mais m'ont apportés des notions éclairantes pour mon travail de recherche. Je pense notamment à Gilles Deleuze que je lis depuis une trentaine d'années et que j'écoute[^31] régulièrement. Grâce à lui, j'ai trouvé les bases théoriques du modèle d'écosystème de connaissances que j'utilise dans mes recherches notamment à travers ses interprétations de Spinoza et plus particulièrement de l'éthique.
 
-[^28]: Lien vers le site des cours de Deleuze : <http://www2.univ-paris8.fr/deleuze/>
+[^31]: Lien vers le site des cours de Deleuze : <http://www2.univ-paris8.fr/deleuze/>
