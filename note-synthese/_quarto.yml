@@ -64,8 +64,12 @@ format:
           - heightrounded
     fontfamily: libertinus    
     toc: true
+    lof: true
+    lot: true
     toc-depth: 4
     toc-title: Table des matières
+    lof-title: Liste des figures
+    lot-title: Liste des tables
 #  include-in-header: before-body.tex   
 
 
