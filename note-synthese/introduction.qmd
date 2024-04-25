@@ -28,19 +28,21 @@ Les cartes utilisent des systèmes de coordonnées calculables et un vocabulaire
 
 ## Plan du volume {#sec-planVolume}
 Ce volume de mon HDR présente mes connaissances en rapport avec mon métier d'enseignant chercheur et les pratiques informationnelles qu'il génère [@thiault2022].
-Nous suivons un processus d'exploration qui commence par une première partie qui présente les étapes de mon parcours intellectuel @sec-positionnements à travers mes frayages intellectuelles [@citton2010] qui débutent avec l'histoire de l'art puis s'ancre dans les sciences de l'information et de la communication pour développer un projet de design des connaissances qui mène à une théorisation des écosystèmes de connaissances et finalement à la mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication. Ce chapitre présente l'état actuel de mes positions scientifiques dans les sciences de l'information et de la communication à partir d'une veille informationnelle dont nous détaillerons le processus et les résultats. 
 
-Nous verrons ensuite dans une deuxième partie consacrée à la cartographie des connaissances les résultats de mes recherches en matière :
+Nous suivons un processus d'exploration qui commence par une première partie qui présente les étapes de mon parcours intellectuel @sec-positionnements à travers mes frayages intellectuelles [@citton2010] qui débutent avec l'histoire de l'art puis s'ancre dans les sciences de l'information et de la communication pour développer un projet de design des connaissances qui mène à une théorisation des écosystèmes de connaissances et finalement à la mise en pratique d'une méthode de modélisation et d'analyse de l'information et de la communication. Ce chapitre présente :
+-   mes parcours initiaux @sec-parcoursinitiaux
+-   mon parcours en Sciences de l'information et de la communication @sec-posiSIC
+-   mes processus de veille pour créer un écosystème de connaissances @sec-processusVeille
+-   la cartographie de mon écosystème de connaissances @sec-cartoEcoCon
+-   Les personnes de mon écosystème de connaissances @sec-personneEcoCon
 
--   de principes de cartographie @sec-principesCarto,
--   d'utilisation de l'analogie écosystèmique @sec-analogieEcosysteme,
--   de modélisation d'une ontologie-éthique @sec-modeleOntoEthique,
--   de calcul de la complexité info-communicationnelle @sec-complexiteExitentielle,
--   de conception diagrammatique et de crible @sec-diagrammesCribles
--   d'interaction avec des cartographies sémantiques @sec-cartoSemantique,
--   d'outillage pour les humanités numériques @sec-protosHN.
+Nous verrons ensuite dans une deuxième partie consacrée à la cartographie des connaissances les résultats de mes recherches qui m'ont conduit à définir des principes à la fois théoriques et pratiques en matière :
 
-Le troisième partie de ce volume est consacré à mes visées scientifiques @sec-visees que nous développerons en suivant cinq axes de recherches :
+-   de modélisation des connaissances @sec-principesTheo,
+-   de cartographie des connaissances @sec-principesCarto,
+-   de conception des technologies intellectuelles @sec-part-technoIntello.
+
+Le troisième partie de ce volume est consacrée à mes visées scientifiques @sec-visees que nous développerons en suivant cinq axes de recherches :
 
 -   comprendre l'internet des objets @sec-axeIOT,
 -   concevoir une générativité générique @sec-axeGeneratif,

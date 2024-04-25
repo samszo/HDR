@@ -358,7 +358,7 @@ Troisièmement, il donne une représentation d'une subjectivité et de ces évol
 
 Entre l'automatisation du processus et les choix manuels, il convient donc de pratiquer le bon équilibre entre alléger le travail et construire son esprit critique @sec-part-technoIntello.
 
-## Cartographie existentielle de mon écosystème de connaissances
+## Cartographie de mon écosystème de connaissances {#sec-cartoEcoCon}
 
 A partir du processus de veille que nous venons de décrire, j'ai constitué une base de connaissances qui reflète de manière très précise mon environnement scientifique et intellectuel. Pour faciliter le traitement des données de cette environnement nous les avons centralisées dans Omeka S qui représente une base de données SQL de 75 tables peuplées par plus de 2 000 000 de lignes[^positionnements-23]. Le graphique ci-dessous présente la répartition des objets disponibles dans cet écosystème suivant leur classe[^positionnements-24] :
 

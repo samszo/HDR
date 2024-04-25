@@ -1,7 +1,13 @@
----
-    toc: true
-    toc-depth: 4
----
+
+"La fabrication d'un outil est donc le premier exemple d'un processus mental de modélisation dont le résultat matériel, l'instrument, est un corps solide dont la forme a été dictée par des exigences dynamiques, celles de l'action de l'instrument sur son objet. En ce sens, l'outil n'est guère qu'un verbe solidifié." p. 362
+::: {#exergue-PrincipesCarto1 .exergue}
+« l'outil n'est guère\
+qu'un verbe solidifié »\
+
+[@cardon2015, § 5]
+:::
+
+
 # Concevoir des technologies intellectives pour explorer les écosystème de connaissances {#sec-part-technoIntello}
 
 ## Introduction
