@@ -1,18 +1,11 @@
-
-"La fabrication d'un outil est donc le premier exemple d'un processus mental de modélisation dont le résultat matériel, l'instrument, est un corps solide dont la forme a été dictée par des exigences dynamiques, celles de l'action de l'instrument sur son objet. En ce sens, l'outil n'est guère qu'un verbe solidifié." p. 362
-::: {#exergue-PrincipesCarto1 .exergue}
+::: {#exergue-PrincipesCarto1 .exergue} 
 « l'outil n'est guère\
 qu'un verbe solidifié »\
-
-[@cardon2015, § 5]
-:::
-
+[@thom1975, p. 362] :::
 
 # Concevoir des technologies intellectives pour explorer les écosystème de connaissances {#sec-part-technoIntello}
 
 ## Introduction
-
-"La fabrication d'un outil est donc le premier exemple d'un processus mental de modélisation dont le résultat matériel, l'instrument, est un corps solide dont la forme a été dictée par des exigences dynamiques, celles de l'action de l'instrument sur son objet. En ce sens, l'outil n'est guère qu'un verbe solidifié." (Thom, 1975) p. 362
 
 A la manière des sciences dures pour lesquelles les chercheurs bricolent les outils nécessaires à leurs travaux, les sciences humaines disposent elles aussi d'outils spécifiques pour leurs pratiques. Comme en témoigne les listes mises en place par l'ENS pour recenser les outils numériques utilisés par les chercheurs. Toutefois, la particularités de notre approche consiste à développer nos propres outils.
 
@@ -21,4 +14,3 @@ Les avantages d'une telle pratique sont d'avoir à disposition des outils qui r�
 Les inconvénients de ce type d'approche sont nombreux. Tout d'abord, il faut savoir concevoir, développer et tester un environnement numérique de travail. En d'autre termes, il faut savoir et aimer coder, ce qui n'est pas le cas chez beaucoup de collègues. Ensuite, il faut avoir le temps de se consacrer à cette pratique et accepter que les résultats ne sont pas toujours à la hauteurs des ambitions du départ. Enfin, il peut arriver que les outils répondent uniquement à nos propres besoins et pas à ceux d'une communautés plus large.
 
 Quoi qu'il en soit, il est pour nous toujours aussi stimulant d'inventer de nouveaux outils pour répondre à nos besoins de recherche et par la même les renouveler par la confrontation avec des questions que nous n'avions pas prévues. De plus, ces pratiques de la conception, du développement et du test, nous permettent de transmettre aux étudiants des manières de faire efficaces e les confrontant à des problématiques complexes en prise avec l'actualité technique. Il nous semble que l'humanisme numérique passe par cette confrontation avec les arcanes des machines numériques pour mieux comprendre ce qu'elles sont ou pas.
-
