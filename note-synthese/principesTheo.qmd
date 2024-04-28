@@ -1,18 +1,16 @@
 ::: {#exergue-PrincipesCarto1 .exergue}
-« Il faut demander aux algorithmes\
-de nous montrer\
-et la route,\
-et le paysage »\
-[@cardon2015, § 5]
+« organiser le dialogue avec la Nature\
+en tissant inlassablement\
+le filet des énoncés\
+pour en resserrer la maille »\
+[@callon2013, § 37]
 :::
 
 ::: {#exergue-PrincipesCarto2 .exergue}
-« Le numérique est donc\
-à la fois ce qui est\
-autour de nous,\
-entre nous,\
-en nous »\
-[@bachimont2020]
+« Il y a partout des forces\
+qui constituent\
+des micro-cerveaux. »\
+[@deleuze2005, p. 200]
 :::
 
 # Principes théoriques de modélisation des connaissances {#sec-principesTheo}
@@ -21,9 +19,11 @@ Depuis une trentaine d'années, je m'intéresse à la modélisation des données
 
 [^principestheo-1]: Cf. <https://fr.wikipedia.org/wiki/HyperCard>
 
-![Modèle de manipulation des informations](images/fluxDataViz.png){#FluxDataViz fig-align="center" width="814"}
+![Ecosystème de manipulation des informations](images/fluxDataViz.png){#FluxDataViz fig-align="center" width="814"}
 
-De plus, au même moment, mes recherches sur John Cage m'ont sensibilisées à deux approches opposées de ces relations entre données, représentations et manipulations. A travers les débats qui ont animées les rencontres entre John Cage et Pierre Boulez [@boulez1975], j'ai compris que les approches du hasard pour Boulez et de la chance pour Cage étaient symptomatiques d'un usage opposé des possibilités ouvertes par les ordinateurs pour la manipulations des connaissances. D'un coté Boulez soutient l'idée de :
+De plus, au même moment, mes recherches sur John Cage m'ont sensibilisées à deux approches opposées de ces relations entre données, représentations et manipulations. A travers les débats qui ont animées les rencontres entre John Cage et Pierre Boulez [@boulez1975], j'ai compris que les approches du hasard pour Boulez et de la chance pour Cage étaient symptomatiques d'un usage opposé des possibilités ouvertes par les ordinateurs pour la manipulations des connaissances.
+
+D'un coté Boulez soutient l'idée de :
 
 > « "hasard dirigé" pour parvenir à une complète négation du hasard qu'il nomme "le hasard absorbé" et qui garantit selon lui "la sur puissance du compositeur" »[@cazenave2006]
 
@@ -31,15 +31,45 @@ De l'autre coté, Cage utilise les possibilités aléatoires de l'informatique p
 
 > « trouver une façon d'écrire qui, tout en partant d'idées, ne soit pas un discours sur elles : ou ne soit pas sur des idées mais les produise » [@scottlee1998, p. 307]
 
-Entre ces deux approches, il n'est pas nécessaire de choisir mais plutôt de trouver comment les associées. L'approche de Boulez a montré l'efficacité d'une "sur puissance" pour construire des institutions de recherche comme l'IRCAM ou de diffusion de la musique comme la cité de la Musique. L'approche de Cage quant à elle, continue de questionner nos égos avec par exemple l'oeuvre musicale "As Slow as Possible" qui devrait se terminer en l'année 2640[^principestheo-2]. Ce qui rapproche les deux deux créateurs c'est la volonté de définir un protocole [@sauret2020], c'est à dire de définir les règles d'information et de communication dans un processus de création. Ce qui les oppose c'est la place qu'ils donnent à l'ordinateur pour faire des choix dans les étapes du protocoles : Boulez contraint le plus possible les choix de la machine alors que Cage laisse la machine choisir. Ces débats entre c'est deux approches est d'une extrême actualité à l'heure où nous cherchons à concilier les approches des IA symbolique et connexioniste. D’un côté, une intelligence artificielle connexionniste qui utilise l’apprentissage machine pour choisir automatiquement des modèles à partir de très grandes quantités de données. De l’autre, une approche symbolique qui modélise des espaces sémantiques pensés par des humains pour contraindre les choix de la machine. Là où le connexionnisme produit des modèles impensables par les humains car trop complexes, l’approche symbolique organise cet "abîme réflexif" [@ertzscheid2023] de manière à le rendre plus compréhensible et pilotable par des humains.
+Entre ces deux approches, il n'est pas nécessaire de choisir mais plutôt de trouver comment les associées. L'approche de Boulez a montré l'efficacité d'une "sur puissance" pour construire des institutions de recherche comme l'IRCAM ou de diffusion de la musique comme la cité de la Musique. L'approche de Cage quant à elle, continue de questionner nos égos avec par exemple l'oeuvre musicale "As Slow as Possible" qui devrait se terminer en l'année 2640[^principestheo-2]. Ce qui rapproche les deux deux créateurs c'est la volonté de définir un protocole [@sauret2020], c'est à dire de définir des règles d'information et de communication dans un processus de création. Ce qui les oppose c'est la place qu'ils donnent à l'ordinateur pour faire des choix dans les étapes du protocoles : Boulez contraint le plus possible les choix de la machine alors que Cage laisse la machine choisir. Ces débats entre c'est deux approches est d'une extrême actualité à l'heure où nous cherchons à concilier les approches des IA symbolique et connexioniste. D’un côté, une intelligence artificielle connexionniste qui utilise l’apprentissage machine pour choisir automatiquement des modèles à partir de très grandes quantités de données. De l’autre, une approche symbolique qui modélise des espaces sémantiques pensés par des humains pour contraindre les choix de la machine. Là où le connexionnisme produit des modèles impensables par les humains car trop complexes, l’approche symbolique organise cet "abîme réflexif" [@ertzscheid2023] de manière à le rendre plus compréhensible et pilotable par des humains.
 
 [^principestheo-2]: Voir la cérémonie du changement de note : <https://www.youtube.com/watch?v=_3BBgQPuPI0>
 
-Le premier principe sur laquelle nous nous appuyons est celui que les connaissances se produisent suivant un cycle continu d'expériences dans le monde physique et dans le monde de la pensée. Entre les « physicalités » et les « intériorités » [@descola2005] , les « cycles de sémioses » [@µ2015]  canalisent nos perceptions par « anasémiose » pour discerner des informations que nous communiquons par « catasémiose » en donnant forme à l'agir : parler, lire, écrire, gesticuler, ne rien faire...
+Au cours de nos expériences professionnelles comme ingénieur informatique puis comme chef de projet et architecte de l'information, nous avons pratiqué l'approche "boulézienne" de modélisation des connaissances en utilisant des bases de données relationnelles [@saleh1992] et des interfaces de gestion orientée vers un travail bureautique. Dans le monde de l'entreprise, il faut contraindre le plus possible les données et leur manipulation pour optimiser les traitements et réduire le plus possible l'amgbiguité de l'information et de la communication. Cette approche trouve sont aboutissement dans les "systèmes experts" piloté par des ontologies et des IA symboliques. J'ai montré dans ma thèse [@szoniecky2012, p. 61-71] les limites formelles de cette approches de modélisation des connaissances notamment parce que :
+
+> « Son efficacité repose principalement sur une vision réductrice et fermée des pratiques cognitives, des situations d'échange transactionnel, des processus réels de travail, des différenciations dans les phénomènes essentiels de recherche, de navigation et d'écriture- lecture. » [@juanals2010, p. 52]
+
+Ces limites sont contrebalancées par le fait que ces approches possèdent une dimension sociale incontournable à cause :
+
+-   du consensus nécessaire à leur élaboration,
+
+-   de leurs adoptions qui lient les individus à la société,
+
+-   du développement des systèmes symboliques vecteurs de nouvelles sociabilités
+
+Toujours dans notre thèse, nous montrions comment cette dimension sociale de la modélisation des connaissances pouvait être développée dans des processus d'intelligence collective basés sur une écosystèmique de l'information et de la communication. Nous montrerons dans le chapitre suivant comment ces processus s'appuient sur une cartographie des connaissances @sec-principesCarto, mais décrivons maintenant plus en détail les principes théoriques que nous utilisons pour modéliser les écosystèmes des connaissances.
+
+## Principes fondamentaux d'information-communication
+
+A l'inverse du modèle d'architecture de la perception que propose Yan LeCun [@lecun], un des "techno-papes" de l'IA connexionniste, dont la représentation visuelle @fig-architecturPerceptionLecun symbolise parfaitement la disproportion entre son cerveau est notre planète, nous ne considérons pas la perception uniquement à travers une cervelle dont la transcendance extérieure à son environnement exerce son pouvoir sur un objet. Pour nous, l'information et la communication est un processus qui se déploie dans un écosystème complexe [@lévy1990; @maturana1994; @bateson2008; @morin1995] qui émerge de l'auto-poïèse et de l'auto-organisation, où la moindre particule possède un cerveau et qui constitue une noosphère :
+
+> « La sphère noologique, constituée par l’ensemble des phénomènes dits spirituels,est un très riche univers qui comprend idées, théories, philosophies, mythes, fantasmes, rêves. \[...\] Ce ne sont pas des “choses de l’esprit”. Ils sont la vie de l’esprit. Ce sont des êtres d’un type nouveau, des existants informationnels \[...\] ils sont capables de se multiplier en puisant de la néguentropie dans les cerveaux humains, et, à travers eux, dans la culture qui les irrigue ;nos esprits et plus largement nos cultures sont les écosystèmes où ils trouvent,non seulement aliment, mais chance, risque. » [@morin1981, p. 340]
+
+![Architecture de la perception par Yan Lecun](images/LeCunArchitecturePerceptionAction.jpg){#fig-architecturPerceptionLecun fig-align="center" width="533"}
+
+A partir de cette approche, nous établissons des principes fondamentaux dont les premiers reprennent ceux de la complexité :
+
+-   **principe dialogique** : « L’association complexe (complémentaire/concurrente/antagoniste) d’instances, nécessaires ensemble à l’existence, au fonctionnement et au développement d’un phénomène organisé. » [@morin1992, p. 98]
+
+-   **principe récursif** : « Un processus où les effets ou produits sont en même temps causateurs et producteurs dans le processus lui-même, et où les états finaux sont nécessaires à la génération des états initiaux. » [@morin1992, p. 101]
+
+-   **principe hologrammatique** : « Le tout est d’une certaine façon inclus (engrammé) dans la partie qui est incluse dans le tout. L’organisation complexe du tout (holos) nécessite l’inscription (engramme) du tout (hologramme) en chacune de ses parties pourtant singulières ; ainsi, la complexité organisationnelle du tout nécessite la complexité organisationnelle des parties, laquelle nécessite récursivement la complexité organisationnelle du tout. » [@morin1992, p. 102]
+
+A ces principes de complexité, nous ajoutons d'autres principes dont le premier sur laquelle nous nous appuyons est celui que les connaissances se produisent suivant un cycle continu d'expériences dans le monde physique et dans le monde de la pensée. Entre les « physicalités » et les « intériorités » [@descola2005] , les « cycles de sémioses » [@µ2015]  canalisent nos perceptions par « anasémiose » pour discerner des informations que nous communiquons par « catasémiose » en donnant forme à l'agir : parler, lire, écrire, gesticuler, ne rien faire...
 
 ![Cycle de la sémiose [@µ2015, p. 10]](media/100000010000048C000002D6F38927B016A358A1.png){#fig-cyclesemiose fig-align="center" width="482"}
 
-Le second principe se base sur les travaux de [@hofstadter2013] pour qui l'analogie est le « moteur » qui relie le discernement et l'action en gardant le souvenir de cette relation qui devient à force de répétition, une manière d'être en prenant chez Deleuze la forme d'un « pli » qui est notre troisième principe  :
+Le second principe se base sur les travaux de [@hofstadter2013] pour qui l'analogie est le « moteur » qui relie le discernement et l'action en gardant le souvenir de cette relation qui devient à force de répétition, une manière d'être et selon Deleuze la forme d'un « pli » qui est notre troisième principe  :
 
 > « L'opération de la perception constitue les plis dans l'âme, les plis dont la monade est tapissée du dedans ; mais ceux-ci ressemblent à une matière, qui doit dès lors s'organiser en replis extérieurs. » [@deleuze1988, p. 131]
 
@@ -55,25 +85,13 @@ Les cycles de sémioses, les analogies, les plis, les pulsations existentielles,
 
 Ainsi, la pulsation varie continuellement, elle est parfois instantanée par exemple quand on rit, elle peut aussi prendre beaucoup de temps quand un souvenir longtemps oublié émerge petit à petit ; elle devient un métier quand à force de pratiquer un geste particulier, celui-ci s'automatise. Ces pulsations se transforment parfois en bêtises ou en inconscience quand le pouvoir d'agir prend le pas sur les pouvoirs de discerner et de choisir en occultant leurs pliages potentiels. Suivant leurs fréquences, les pulsations existentielles forment des ondes dont la vitesse de propagation est fonction de leur longueur (distance séparant deux maxima consécutifs de l'amplitude entre physicalités et intériorité) et du milieu dans lequel elles se déploient. La catégorisation et l'analyse de ces ondes renvoient globalement à une réflexion sur la modélisation de l'esprit qui dépasse le cadre de ce propos mais que nous illustration par le diagramme suivant :
 
-![Dynamiques pulsations existentielles](images/localhost_samszo_HDR_pulsationsExistentielles.html.png){#fig-dynamiquesPulsationsExistentielles fig-align="center" width="463"}
+![Dynamiques des pulsations existentielles](images/localhost_samszo_HDR_pulsationsExistentielles.html.png){#fig-dynamiquesPulsationsExistentielles fig-align="center" width="463"}
 
-### L'analogie écosystèmique {#sec-analogieEcosysteme}
+L'ensemble de l'opération décrite par Spinoza présente quatre moments : 1°) joie passive qui augmente notre puissance d'agir, d'où découlent des désirs ou des passions, en fonction d'une idée encore inadéquate ; 2°) a la faveur de ces passions joyeuses, formation d'une notion commune (idée adéquate) ; 3°) Joie active, qui suit de cette notion commune et qui s'explique par notre puissance d'agir ; 4°) Cette joie active s'ajoute à la joie passive, mais remplace les désirs-passions qui naissaient de celle-ci pas des désirs qui appartiennent à la raison, et qui sont de véritables actions. Ainsi se réalise le programme de Spinoza : non pas supprimer toute passion, mais à la faveur de la passion joyeuse, faire que les passions n'occupent plus que la plus petite partie de nous-même et que notre pouvoir d'être affecté soit rempli par un maximum d'affections actives." (Deleuze, 1968, p. 264)
 
-« Les scientifiques ne se contentent pas de lire le grand livre de la Nature ; ils le déchiffrent, le décodent, le transcrivent, le traduisent en une foule d'énoncés inscrits dans des argumentations qui se coulent dans des récits. Mettre l'univers en mots est la tâche essentielle du scientifique. » § 35 Callon 2013
+## Méta-modèle pour une ontologie - éthique {#sec-modeleOntoEthique}
 
-#### Tissage des connaissances
-
-« c'est aux scientifiques et à eux seuls que revient l'écrasante tâche d'organiser le dialogue avec la Nature en tissant inlassablement le filet des énoncés pour en resserrer la maille » § 37 Callon 2013
-
-## Modèle pour une ontologie -- éthique {#sec-modeleOntoEthique}
-
-"Une théorie des modèles (comme l'est la théorie des catastrophes) sera un générateur de modèles qualitatifs, tout comme une loi physique est génératrice de modèles quantitatifs." (Thom, 1975) p. 372
-
-"Il ne fait aucun doute qu'une telle théorie générale des 'Gestalten', une 'Morphologie Générale', ne serait d'un intêret épistémologique fondamental." (Thom, 1975) p. 372
-
-A l'inverse du modèle de Yan LeCun [@lecun]
-
-![](images/LeCunArchitecturePerceptionAction.jpg)
+A partir des principes que nous venons du définir nous élaborons un méta-modèle conçu comme "un générateur de modèles qualitatifs" [@thom1975, p. 372] pour nos analyses de l'information et la communication. Ce modèle s'appuie sur une corrélation entre des dimensions existentielles et des genres de connaissances.
 
 ### Dimensions matérielles : connaissances des chocs {#sec-dimensionMateriels}
 
@@ -171,7 +189,7 @@ Dans un troisième temps, la modélisation prétopologique consiste à créer un
 
 Dans notre cas, l'application d'adhérence consiste à « conceptualiser » les chaînes de caractères continues pour modéliser des sous-ensemble sous forme de mots  : P(X) = \[« humains », « machines », « collaboration », « efficace », « biais », « cognitifs »\]. Ces mots sont eux-aussi représentés par une ellipse et par un titre ce qui de manière fractale fait que chaque élément de l'ensemble est lui-même un ensemble disposant de propriétés et de méthodes utiles pour sa manipulation cartographique. De même, l'espace conceptuel « humanités numériques » peut-être utiliser comment élément d'un ensemble plus vaste par exemple « sciences humaines ».
 
-### L'actant : connaissances des dynamiques génératives {#sec-dimensionActant}
+### Dimension des actants : connaissances des dynamiques génératives {#sec-dimensionActant}
 
 Entre la dimension des physicalités organisée en hiérarchies et celle des concepts organisée en topologies, la dimension des actants organise les connaissances à la fois sous la forme de topos et de chôra [@zamora2003; @derrida1997]. Topos et chôra sont deux manières complémentaires de définir l'espace soit pour le topos sous la forme d'une identité par exemple "Université Paris 8", soit pour la chôra en définissant ce que le lieu génère comme activités, ce que sont ses dynamiques génératives, par exemple dans le cas de Paris 8 : recherches et enseignements.
 
@@ -191,17 +209,11 @@ Le topos fonde « en Occident la logique du tiers exclu » [@berque2009, p. 145
 
 L'opposition entre ces deux approches trouvent aujourd'hui une actualité flagrante entre une IA symbolique qui fonctionne par nommage très précis des identités informationnelles sous la forme d'ontologies et une IA connexionniste qui privilégie l'émergence de modèle par des cycles récurrents d'apprentissages [@masure2023]. Entre identité et dynamiqmes, les deux approches sont complémentaire notamment quand on cherche à modéliser les actants qui ne sont ni réductibles à leur identité ni à leurs activités. L'actant possède une identité qu'on défini basiquement par un nom et donc par une physicalité mais l'actant est aussi producteur d'activités et donc de dynamismes génératifs en créant des rapports entre des physicalités et des concepts (@sec-rapportsInstExis). Les actants sont topos de part les rapports qu'ils entretiennent avec les physicalités et chôra dans les processus internes d'émergence des connaissances intuitives issu des expériences de l'espace vécu. L'actant est donc le milieu de ces pulsations exitentielles que nous décrivions plus haut @fig-dynamiquesPulsationsExistentielles, il est le continuum entre les physicalités et les intériorités. Modéliser l'actant consiste donc à une double démarche à la fois de définition de son identité par des noms et de caractérisation des ces pouvoirs génératifs spécifiques (dicerner, raisonner, agir). En se sens la représentation de l'actant est à la fois topologique et chorématique[@reymond1996; @brandt2021].
 
-### Les rapports : connaissances des existences potentielles {#sec-dimensionRapports}
+### Dimension des rapports : connaissances des existences potentielles {#sec-dimensionRapports}
 
 Les rapports sont la quatrième dimension de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances. Ils composent la dimension existentielle qui relie les trois autres dimensions, les connaissances et les espaces qui leurs sont associés : dimension physique, connaissances des chocs et espaces matériels hiérarchiques, dimension des concepts, connaissances des essences et espaces topologiques, dimension des actants, connaissances des dynamismes et espaces topographiques chorématiques. Les rapports définissent des espaces temporels, ils transforment une virtualité en actualité. Par exemple, je suis en tant qu'actant actuellement en rapport avec la physicalité de mon clavier et de mon écran qui produisent les concepts que vous lisez. Ces rapports, ne seront plus actuels quand à la fin de cette séance de travail je commencerais une autre activité. Moi en tant qu'actant, mon clavier en tant que physicalités et ce que j'ai écrit en tant que concepts, nous existons toujours comme potentialités de futurs rapports qui s'instancieront à une date et pour une période données. En d'autres termes, les trois dimensions physique, actant, concept créent des potentialités de rapports qui s'instancient ici et maintenant dans l'actualité d'une existence informationnelle.
 
-## Expérimentation des connaissances par l'existence des affects
-
-L'ensemble de l'opération décrite par Spinoza présente quatre moments : 1°) joie passive qui augmente notre puissance d'agir, d'où découlent des désirs ou des passions, en fonction d'une idée encore inadéquate ; 2°) a la faveur de ces passions joyeuses, formation d'une notion commune (idée adéquate) ; 3°) Joie active, qui suit de cette notion commune et qui s'explique par notre puissance d'agir ; 4°) Cette joie active s'ajoute à la joie passive, mais remplace les désirs-passions qui naissaient de celle-ci pas des désirs qui appartiennent à la raison, et qui sont de véritables actions. Ainsi se réalise le programme de Spinoza : non pas supprimer toute passion, mais à la faveur de la passion joyeuse, faire que les passions n'occupent plus que la plus petite partie de nous-même et que notre pouvoir d'être affecté soit rempli par un maximum d'affections actives." (Deleuze, 1968, p. 264)
-
-#### Pouvoirs de discernement, de choisir et d'agir
-
-### La complexité existentielle[^principestheo-7] {#sec-complexiteExitentielle}
+## La complexité existentielle[^principestheo-7] {#sec-complexiteExitentielle}
 
 [^principestheo-7]:
     > Nous ne présenterons pas ici les relations de ce travail avec les recherches en informatique théorique sur la complexité algorithmique (Perrot, 2022)
