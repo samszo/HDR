@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Habilitation à Diriger des Recherches : Modélisation des écosystèmes de connaissances pour une écologie de l’information et de la communication - 2&nbsp; Principes théoriques de modélisation des connaissances</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./principesCarto.html" rel="next">
+<link href="./cartoConnaissances.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cartoConnaissances.html">Cartographie d’un milieu de connaissances</a></li><li class="breadcrumb-item"><a href="./principesTheo.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Principes théoriques de modélisation des connaissances</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Habilitation à Diriger des Recherches : Modélisation des écosystèmes de connaissances pour une écologie de l’information et de la communication</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mémoire de synthèse en vue de l’Habilitation à diriger des recherches</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./remerciements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Remerciements</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./avantpropos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Avant-propos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction générale</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./parcours.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Parcours académique</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./positionnements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Positionnements</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./cartoConnaissances.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cartographie d'un milieu de connaissances</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./principesTheo.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Principes théoriques de modélisation des connaissances</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./principesCarto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Principes de cartographie des connaissances</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./technoIntello.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Concevoir des technologies intellectives pour explorer les écosystème de connaissances</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./perspectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Perspectives et projet de recherche</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./visees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Perspectives scientifiques&nbsp;: échelles d’exploration et axes d’expérimentation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./analyserOntoEthique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Analyser l’onto-éthique des objets connectés</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capterGout.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Capter le choix des goûts véritables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./developper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Développer des outils pour cartographier les connaissances</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./diffuser.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Diffuser le modèle écosystèmique onto-éthique</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#principes-fondamentaux-dinformation-communication" id="toc-principes-fondamentaux-dinformation-communication" class="nav-link active" data-scroll-target="#principes-fondamentaux-dinformation-communication"><span class="header-section-number">2.1</span> Principes fondamentaux d’information-communication</a></li>
+  <li><a href="#sec-modeleOntoEthique" id="toc-sec-modeleOntoEthique" class="nav-link" data-scroll-target="#sec-modeleOntoEthique"><span class="header-section-number">2.2</span> Méta-modèle pour une ontologie - éthique</a>
+  <ul class="collapse">
+  <li><a href="#sec-dimensionMateriels" id="toc-sec-dimensionMateriels" class="nav-link" data-scroll-target="#sec-dimensionMateriels"><span class="header-section-number">2.2.1</span> Dimensions matérielles&nbsp;: connaissances des chocs</a></li>
+  <li><a href="#sec-dimensionConceptuels" id="toc-sec-dimensionConceptuels" class="nav-link" data-scroll-target="#sec-dimensionConceptuels"><span class="header-section-number">2.2.2</span> Dimensions conceptuels&nbsp;: connaissances des essences</a></li>
+  <li><a href="#sec-dimensionActant" id="toc-sec-dimensionActant" class="nav-link" data-scroll-target="#sec-dimensionActant"><span class="header-section-number">2.2.3</span> Dimension des actants : connaissances des dynamiques génératives</a></li>
+  <li><a href="#sec-dimensionRapports" id="toc-sec-dimensionRapports" class="nav-link" data-scroll-target="#sec-dimensionRapports"><span class="header-section-number">2.2.4</span> Dimension des rapports : connaissances des existences potentielles</a></li>
+  </ul></li>
+  <li><a href="#sec-complexiteExitentielle" id="toc-sec-complexiteExitentielle" class="nav-link" data-scroll-target="#sec-complexiteExitentielle"><span class="header-section-number">2.3</span> La complexité existentielle</a>
+  <ul class="collapse">
+  <li><a href="#sec-illusionExhaustivite" id="toc-sec-illusionExhaustivite" class="nav-link" data-scroll-target="#sec-illusionExhaustivite"><span class="header-section-number">2.3.1</span> Aux limites de l’exhaustibvité</a></li>
+  <li><a href="#sec-diagrammesCribles" id="toc-sec-diagrammesCribles" class="nav-link" data-scroll-target="#sec-diagrammesCribles"><span class="header-section-number">2.3.2</span> Diagrammes et cribles conceptuels</a></li>
+  <li><a href="#sec-cartoSemantique" id="toc-sec-cartoSemantique" class="nav-link" data-scroll-target="#sec-cartoSemantique"><span class="header-section-number">2.3.3</span> Interaction par cartographie sémantique</a></li>
+  <li><a href="#sec-protosHN" id="toc-sec-protosHN" class="nav-link" data-scroll-target="#sec-protosHN"><span class="header-section-number">2.3.4</span> Conception de prototypes pour les humanités numériques</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cartoConnaissances.html">Cartographie d’un milieu de connaissances</a></li><li class="breadcrumb-item"><a href="./principesTheo.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Principes théoriques de modélisation des connaissances</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-principesTheo" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Principes théoriques de modélisation des connaissances</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="exergue-PrincipesCarto1" class="exergue">
+<p>«&nbsp;organiser le dialogue avec la Nature<br>
+en tissant inlassablement<br>
+le filet des énoncés<br>
+pour en resserrer la maille&nbsp;»<br>
+<span class="citation" data-cites="callon2013">(<a href="references.html#ref-callon2013" role="doc-biblioref">Callon, 2013, sec. 37</a>)</span></p>
+</div>
+<div id="exergue-PrincipesCarto2" class="exergue">
+<p>«&nbsp;Il y a partout des forces<br>
+qui constituent<br>
+des micro-cerveaux.&nbsp;»<br>
+<span class="citation" data-cites="deleuze2005">(<a href="references.html#ref-deleuze2005" role="doc-biblioref">Deleuze &amp; Guattari, 2005, p. 200</a>)</span></p>
+</div>
+<p>Depuis une trentaine d’années, je m’intéresse à la modélisation des données et plus particulièrement à la question de savoir comment cette modélisation est utile pour créer les conditions de l’expérimentation des connaissances. Dès mes travaux en maîtrise d’histoire de l’art (1994), je me suis familiarisé à la création de base de données qui pour moi à cette époque, prenaient la forme d’un simple tableur. Puis en DEA (1995), je me suis familiarisé avec le logicielle Hypercard<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> pour transformer mes bases de données en collections de fiches hypertextuelles <span class="citation" data-cites="deuff2019">(<a href="references.html#ref-deuff2019" role="doc-biblioref">Deuff, 2019</a>)</span> et surtout en interfaces dynamiques et interactives. Ce passage du tableur à Hypercard m’a fait comprendre les relations intimes entre les données, leurs représentations et leurs manipulations que <span class="citation" data-cites="card1999">(<a href="references.html#ref-card1999" role="doc-biblioref">Card, Mackinlay, &amp; Shneiderman, 1999</a>)</span> a bien schématisé :</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fluxDataViz.png" class="img-fluid figure-img" width="814"></p>
+<figcaption>Ecosystème de manipulation des informations</figcaption>
+</figure>
+</div>
+<p>De plus, au même moment, mes recherches sur John Cage m’ont sensibilisées à deux approches opposées de ces relations entre données, représentations et manipulations. A travers les débats qui ont animées les rencontres entre John Cage et Pierre Boulez <span class="citation" data-cites="boulez1975">(<a href="references.html#ref-boulez1975" role="doc-biblioref">Boulez, 1975</a>)</span>, j’ai compris que les approches du hasard pour Boulez et de la chance pour Cage étaient symptomatiques d’un usage opposé des possibilités ouvertes par les ordinateurs pour la manipulations des connaissances.</p>
+<p>D’un coté Boulez soutient l’idée de :</p>
+<blockquote class="blockquote">
+<p>«&nbsp;“hasard dirigé”&nbsp;pour parvenir à une complète négation du hasard qu’il nomme “le hasard absorbé” et qui garantit selon lui “la sur puissance du compositeur”&nbsp;»<span class="citation" data-cites="cazenave2006">(<a href="references.html#ref-cazenave2006" role="doc-biblioref">Cazenave, 2006</a>)</span></p>
+</blockquote>
+<p>De l’autre coté, Cage utilise les possibilités aléatoires de l’informatique pour se dégager des puissances de son égo et parvenir à :</p>
+<blockquote class="blockquote">
+<p>«&nbsp;trouver une façon d’écrire qui, tout en partant d’idées, ne soit pas un discours sur elles : ou ne soit pas sur des idées mais les produise » <span class="citation" data-cites="scottlee1998">(<a href="references.html#ref-scottlee1998" role="doc-biblioref">Scott Lee, 1998, p. 307</a>)</span></p>
+</blockquote>
+<p>Entre ces deux approches, il n’est pas nécessaire de choisir mais plutôt de trouver comment les associées. L’approche de Boulez a montré l’efficacité d’une “sur puissance” pour construire des institutions de recherche comme l’IRCAM ou de diffusion de la musique comme la cité de la Musique. L’approche de Cage quant à elle, continue de questionner nos égos avec par exemple l’oeuvre musicale “As Slow as Possible” qui devrait se terminer en l’année 2640<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Ce qui rapproche les deux deux créateurs c’est la volonté de définir un protocole <span class="citation" data-cites="sauret2020">(<a href="references.html#ref-sauret2020" role="doc-biblioref">Sauret, 2020</a>)</span>, c’est à dire de définir des règles d’information et de communication dans un processus de création. Ce qui les oppose c’est la place qu’ils donnent à l’ordinateur pour faire des choix dans les étapes du protocoles : Boulez contraint le plus possible les choix de la machine alors que Cage laisse la machine choisir. Ces débats entre c’est deux approches est d’une extrême actualité à l’heure où nous cherchons à concilier les approches des IA symbolique et connexioniste. D’un côté, une intelligence artificielle connexionniste qui utilise l’apprentissage machine pour choisir automatiquement des modèles à partir de très grandes quantités de données. De l’autre, une approche symbolique qui modélise des espaces sémantiques pensés par des humains pour contraindre les choix de la machine. Là où le connexionnisme produit des modèles impensables par les humains car trop complexes, l’approche symbolique organise cet “abîme réflexif” <span class="citation" data-cites="ertzscheid2023">(<a href="references.html#ref-ertzscheid2023" role="doc-biblioref">Ertzscheid, 2023</a>)</span> de manière à le rendre plus compréhensible et pilotable par des humains.</p>
+<p>Au cours de nos expériences professionnelles comme ingénieur informatique puis comme chef de projet et architecte de l’information, nous avons pratiqué l’approche “boulézienne” de modélisation des connaissances en utilisant des bases de données relationnelles <span class="citation" data-cites="saleh1992">(<a href="references.html#ref-saleh1992" role="doc-biblioref">Saleh, 1992</a>)</span> et des interfaces de gestion orientée vers un travail bureautique. Dans le monde de l’entreprise, il faut contraindre le plus possible les données et leur manipulation pour optimiser les traitements et réduire le plus possible l’amgbiguité de l’information et de la communication. Cette approche trouve sont aboutissement dans les “systèmes experts” piloté par des ontologies et des IA symboliques. J’ai montré dans ma thèse <span class="citation" data-cites="szoniecky2012">(<a href="references.html#ref-szoniecky2012" role="doc-biblioref">Szoniecky, 2012, pp. 61–71</a>)</span> les limites formelles de cette approches de modélisation des connaissances notamment parce que :</p>
+<blockquote class="blockquote">
+<p>« Son efficacité repose principalement sur une vision réductrice et fermée des pratiques cognitives, des situations d’échange transactionnel, des processus réels de travail, des différenciations dans les phénomènes essentiels de recherche, de navigation et d’écriture- lecture. » <span class="citation" data-cites="juanals2010">(<a href="references.html#ref-juanals2010" role="doc-biblioref">Juanals &amp; Noyer, 2010, p. 52</a>)</span></p>
+</blockquote>
+<p>Ces limites sont contrebalancées par le fait que ces approches possèdent une dimension sociale incontournable à cause :</p>
+<ul>
+<li><p>du consensus nécessaire à leur élaboration,</p></li>
+<li><p>de leurs adoptions qui lient les individus à la société,</p></li>
+<li><p>du développement des systèmes symboliques vecteurs de nouvelles sociabilités</p></li>
+</ul>
+<p>Toujours dans notre thèse, nous montrions comment cette dimension sociale de la modélisation des connaissances pouvait être développée dans des processus d’intelligence collective basés sur une écosystèmique de l’information et de la communication. Nous montrerons dans le chapitre suivant comment ces processus s’appuient sur une cartographie des connaissances <a href="principesCarto.html" class="quarto-xref"><span>Chapter 3</span></a>, mais décrivons maintenant plus en détail les principes théoriques que nous utilisons pour modéliser les écosystèmes des connaissances.</p>
+<section id="principes-fondamentaux-dinformation-communication" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="principes-fondamentaux-dinformation-communication"><span class="header-section-number">2.1</span> Principes fondamentaux d’information-communication</h2>
+<p>A l’inverse du modèle d’architecture de la perception que propose Yan LeCun <span class="citation" data-cites="lecun">(<a href="references.html#ref-lecun" role="doc-biblioref">LeCun, n.d.</a>)</span>, un des “techno-papes” de l’IA connexionniste, dont la représentation visuelle <a href="#fig-architecturPerceptionLecun" class="quarto-xref">Figure&nbsp;<span>2.1</span></a> symbolise parfaitement la disproportion entre son cerveau est notre planète, nous ne considérons pas la perception uniquement à travers une cervelle dont la transcendance extérieure à son environnement exerce son pouvoir sur un objet. Pour nous, l’information et la communication est un processus qui se déploie dans un écosystème complexe <span class="citation" data-cites="lévy1990 maturana1994 bateson2008 morin1995">(<a href="references.html#ref-bateson2008" role="doc-biblioref">Bateson, 2008</a>; <a href="references.html#ref-lévy1990" role="doc-biblioref">Lévy, 1990</a>; <a href="references.html#ref-maturana1994" role="doc-biblioref">Maturana &amp; Varela, 1994</a>; <a href="references.html#ref-morin1995" role="doc-biblioref">Morin, 1995</a>)</span> qui émerge de l’auto-poïèse et de l’auto-organisation, où la moindre particule possède un cerveau et qui constitue une noosphère :</p>
+<blockquote class="blockquote">
+<p>« La sphère noologique, constituée par l’ensemble des phénomènes dits spirituels,est un très riche univers qui comprend idées, théories, philosophies, mythes, fantasmes, rêves. […] Ce ne sont pas des “choses de l’esprit”. Ils sont la vie de l’esprit. Ce sont des êtres d’un type nouveau, des existants informationnels […] ils sont capables de se multiplier en puisant de la néguentropie dans les cerveaux humains, et, à travers eux, dans la culture qui les irrigue ;nos esprits et plus largement nos cultures sont les écosystèmes où ils trouvent,non seulement aliment, mais chance, risque. » <span class="citation" data-cites="morin1981">(<a href="references.html#ref-morin1981" role="doc-biblioref">Morin, 1981, p. 340</a>)</span></p>
+</blockquote>
+<div id="fig-architecturPerceptionLecun" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-architecturPerceptionLecun-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/LeCunArchitecturePerceptionAction.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="533">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-architecturPerceptionLecun-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: Architecture de la perception par Yan Lecun
+</figcaption>
+</figure>
+</div>
+<p>A partir de cette approche, nous établissons des principes fondamentaux dont les premiers reprennent ceux de la complexité :</p>
+<ul>
+<li><p><strong>principe dialogique</strong> : « L’association complexe (complémentaire/concurrente/antagoniste) d’instances, nécessaires ensemble à l’existence, au fonctionnement et au développement d’un phénomène organisé. » <span class="citation" data-cites="morin1992">(<a href="references.html#ref-morin1992" role="doc-biblioref">Morin, 1992, p. 98</a>)</span></p></li>
+<li><p><strong>principe récursif</strong> : « Un processus où les effets ou produits sont en même temps causateurs et producteurs dans le processus lui-même, et où les états finaux sont nécessaires à la génération des états initiaux. » <span class="citation" data-cites="morin1992">(<a href="references.html#ref-morin1992" role="doc-biblioref">Morin, 1992, p. 101</a>)</span></p></li>
+<li><p><strong>principe hologrammatique</strong> : « Le tout est d’une certaine façon inclus (engrammé) dans la partie qui est incluse dans le tout. L’organisation complexe du tout (holos) nécessite l’inscription (engramme) du tout (hologramme) en chacune de ses parties pourtant singulières ; ainsi, la complexité organisationnelle du tout nécessite la complexité organisationnelle des parties, laquelle nécessite récursivement la complexité organisationnelle du tout. » <span class="citation" data-cites="morin1992">(<a href="references.html#ref-morin1992" role="doc-biblioref">Morin, 1992, p. 102</a>)</span></p></li>
+</ul>
+<p>A ces principes de complexité, nous ajoutons d’autres principes dont le premier sur laquelle nous nous appuyons est celui que les connaissances se produisent suivant un cycle continu d’expériences dans le monde physique et dans le monde de la pensée. Entre les «&nbsp;physicalités&nbsp;» et les «&nbsp;intériorités&nbsp;» <span class="citation" data-cites="descola2005">(<a href="references.html#ref-descola2005" role="doc-biblioref">Descola, 2005</a>)</span> , les «&nbsp;cycles de sémioses&nbsp;» <span class="citation" data-cites="µ2015">(<a href="references.html#ref-µ2015" role="doc-biblioref">µ, Edeline, &amp; Klinkenberg, 2015</a>)</span>&nbsp; canalisent nos perceptions par «&nbsp;anasémiose&nbsp;» pour discerner des informations que nous communiquons par «&nbsp;catasémiose&nbsp;» en donnant forme à l’agir : parler, lire, écrire, gesticuler, ne rien faire…</p>
+<div id="fig-cyclesemiose" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cyclesemiose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/100000010000048C000002D6F38927B016A358A1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="482">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cyclesemiose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.2: Cycle de la sémiose <span class="citation" data-cites="µ2015">(<a href="references.html#ref-µ2015" role="doc-biblioref">µ et al., 2015, p. 10</a>)</span>
+</figcaption>
+</figure>
+</div>
+<p>Le second principe se base sur les travaux de <span class="citation" data-cites="hofstadter2013">(<a href="references.html#ref-hofstadter2013" role="doc-biblioref">Hofstadter &amp; Sander, 2013</a>)</span> pour qui l’analogie est le «&nbsp;moteur&nbsp;» qui relie le discernement et l’action en gardant le souvenir de cette relation qui devient à force de répétition, une manière d’être et selon Deleuze la forme d’un «&nbsp;pli&nbsp;» qui est notre troisième principe &nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;L’opération de la perception constitue les plis dans l’âme, les plis dont la monade est tapissée du dedans ; mais ceux-ci ressemblent à une matière, qui doit dès lors s’organiser en replis extérieurs.&nbsp;» <span class="citation" data-cites="deleuze1988">(<a href="references.html#ref-deleuze1988" role="doc-biblioref">Deleuze, 1988, p. 131</a>)</span></p>
+</blockquote>
+<p>A la manière de deux miroirs qui plient la lumière en se reflétant l’un dans l’autre à l’infini, discernement et action se réfléchissent en pliant les flux d’information. Chaque pli décompose l’information en signes dont les signifiés plongent vers l’intériorité en stimulant l’intuition et dont les signifiants émergent vers des physicalités en stimulant l’expression.</p>
+<p>Entre discerner et agir, intuition et expression, c’est dans ce «&nbsp;milieu&nbsp;» qu’Augustin Berque décrit une «&nbsp;pulsation existentielle&nbsp;» mue par la «&nbsp;raison trajective&nbsp;» que nous prenons comme quatrième principe :</p>
+<blockquote class="blockquote">
+<p>«&nbsp;la raison trajective, elle est en effet dans la pulsation existentielle qui, par la technique, déploie notre corps en monde sur la terre, et qui simultanément, par le symbole, reploie le monde en notre chair &nbsp;»&nbsp; <span class="citation" data-cites="berque2009">(<a href="references.html#ref-berque2009" role="doc-biblioref">Berque, 2009, p. 402</a>)</span></p>
+</blockquote>
+<p>Cette raison pilote la réflexion en modifiant l’inclinaison du pli vers le discernement de signifiés ou vers l’expression de signifiants. Elle procède de processus que nous contrôlons consciemment et d’autres plus imprévisibles et incontrôlables qui se produisent en fonction d’une multitudes de pliages et de leurs capacités à ce faire, ce défaire, ce bloquer suivant un cinquième principe celui du degrés de flexibilité <span class="citation" data-cites="clément2021">(<a href="references.html#ref-clément2021" role="doc-biblioref">Clément, 2021</a>)</span>.</p>
+<p>Les cycles de sémioses, les analogies, les plis, les pulsations existentielles, les degrés de flexibilité structurent et produisent nos connaissances tout au long de nos vies en développant trois pouvoirs fondamentaux&nbsp;: discerner, raisonner, agir. Notre hypothèse principale est qu’il est possible de cartographier ces connaissances en représentant les pliages et leurs dynamismes dans trois directions&nbsp;: vers l’intériorité (discerner), en boucles récursives (raisonner) et vers l’extérieur (agir). À chaque pulsation existentielle, à chaque événement de nos vies, à chaque pli, ces pouvoirs augmentent ou diminuent accentuant ainsi des rapports privilégiés, d’autres, plus secrets, et même certains qui nous restent inconnus. De ce point de vue, nous n’adoptons pas la conjecture au cœur des recherches en IA depuis 1955, formulée à l’occasion de séminaire d’été à Dartmouth par John McCarthy, Marvin Minksy, Claude Shannon et Nathaniel Rochester <span class="citation" data-cites="leveau-vallier2023">(<a href="references.html#ref-leveau-vallier2023" role="doc-biblioref">Leveau-Vallier, 2023, p. 39</a>)</span> qui prend comme principe que tous les aspects de l’intelligence peuvent être décrits avec une précision telle qu’une machine peut les simuler.</p>
+<p>Ainsi, la pulsation varie continuellement, elle est parfois instantanée par exemple quand on rit, elle peut aussi prendre beaucoup de temps quand un souvenir longtemps oublié émerge petit à petit&nbsp;; elle devient un métier quand à force de pratiquer un geste particulier, celui-ci s’automatise. Ces pulsations se transforment parfois en bêtises ou en inconscience quand le pouvoir d’agir prend le pas sur les pouvoirs de discerner et de choisir en occultant leurs pliages potentiels. Suivant leurs fréquences, les pulsations existentielles forment des ondes dont la vitesse de propagation est fonction de leur longueur (distance séparant deux maxima consécutifs de l’amplitude entre physicalités et intériorité) et du milieu dans lequel elles se déploient. La catégorisation et l’analyse de ces ondes renvoient globalement à une réflexion sur la modélisation de l’esprit qui dépasse le cadre de ce propos mais que nous illustration par le diagramme suivant :</p>
+<div id="fig-dynamiquesPulsationsExistentielles" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dynamiquesPulsationsExistentielles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/localhost_samszo_HDR_pulsationsExistentielles.html.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="463">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dynamiquesPulsationsExistentielles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.3: Dynamiques des pulsations existentielles
+</figcaption>
+</figure>
+</div>
+<p>L’ensemble de l’opération décrite par Spinoza présente quatre moments : 1°) joie passive qui augmente notre puissance d’agir, d’où découlent des désirs ou des passions, en fonction d’une idée encore inadéquate ; 2°) a la faveur de ces passions joyeuses, formation d’une notion commune (idée adéquate) ; 3°) Joie active, qui suit de cette notion commune et qui s’explique par notre puissance d’agir ; 4°) Cette joie active s’ajoute à la joie passive, mais remplace les désirs-passions qui naissaient de celle-ci pas des désirs qui appartiennent à la raison, et qui sont de véritables actions. Ainsi se réalise le programme de Spinoza : non pas supprimer toute passion, mais à la faveur de la passion joyeuse, faire que les passions n’occupent plus que la plus petite partie de nous-même et que notre pouvoir d’être affecté soit rempli par un maximum d’affections actives.” (Deleuze, 1968, p.&nbsp;264)</p>
+</section>
+<section id="sec-modeleOntoEthique" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-modeleOntoEthique"><span class="header-section-number">2.2</span> Méta-modèle pour une ontologie - éthique</h2>
+<p>A partir des principes que nous venons du définir nous élaborons un méta-modèle conçu comme “un générateur de modèles qualitatifs” <span class="citation" data-cites="thom1975">(<a href="references.html#ref-thom1975" role="doc-biblioref">Thom, 1975, p. 372</a>)</span> pour nos analyses de l’information et la communication. Ce modèle s’appuie sur une corrélation entre des dimensions existentielles et des genres de connaissances.</p>
+<section id="sec-dimensionMateriels" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="sec-dimensionMateriels"><span class="header-section-number">2.2.1</span> Dimensions matérielles&nbsp;: connaissances des chocs</h3>
+<p>A l’instar de <span class="citation" data-cites="bautier2016">(<a href="references.html#ref-bautier2016" role="doc-biblioref">Bautier, 2016</a>)</span> nous pensons nécessaire «&nbsp;de prendre en compte la matérialité de la culture numérique&nbsp;». Les technologies numériques véhiculent sans doute des idées de dématérialisation à travers des expériences de téléprésence, de virtualisation des échanges et d’autonomisation de la forme logique par rapport à la base matérielle. Mais peut-on encore parler de matière quand le contact avec l’événement se fait à travers des écrans, des réseaux, des milliers de kilomètres, des années, des algorithmes&nbsp;?</p>
+<p>Quoi qu’il en soit de cette «&nbsp;dématérialisation&nbsp;», nos connaissances numériques passent nécessairement par une dimension matérielle car nous sommes nous même constitué de matière&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;La sémiose, loin d’être un phénomène sans lien avec le corps, tire son origine de celui-ci. Ce premier aspect de la corporéité du sens peut être qualifié de cognitif : le signe émerge de l’expérience, et ne saurait être étudié qu’à travers les interactions qu’il a avec son contexte&nbsp;» <span class="citation" data-cites="µ2016">(<a href="references.html#ref-µ2016" role="doc-biblioref">µ, Édeline, &amp; Klinkenberg, 2016, p. 2</a>)</span></p>
+</blockquote>
+<p>Les illusions que le numérique procure, tendent pour beaucoup à nous faire croire à la dématérialisation en simulant par exemple des univers immersifs où nous vivons d’autres actualités que celles de notre corps avec des avatars de toutes sortes <span class="citation" data-cites="amato2013">(<a href="references.html#ref-amato2013" role="doc-biblioref">Amato &amp; Perény, 2013</a>)</span>. Mais en dernière instance nous sommes matière et nous évoluons dans des espaces matériels. Sur ce point nous nous opposons au spiritualistes qui affirment «&nbsp;qu’il existe une substance spirituelle (l’âme ou l’esprit), indépendante de la matière, et qui serait, en l’homme, principe de vie ou d’action.&nbsp;» <span class="citation" data-cites="comte-sponville1998">(<a href="references.html#ref-comte-sponville1998" role="doc-biblioref">Comte-Sponville, 1998, sec. 12</a>)</span>.</p>
+<p>Les interprétations par Deleuze de L’Étique de Spinoza décrive ces espaces matériels comme étant la première dimension de l’existence celle des «&nbsp;parties extensives&nbsp;»&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;Ces parties (corpora simplissima) […] se définissent uniquement par leur déterminisme extérieur, et vont toujours par infinités ; […] elles constituent la matière modale infiniment variée de l’existence.” <span class="citation" data-cites="deleuze2003">(<a href="references.html#ref-deleuze2003" role="doc-biblioref">Deleuze, 2003, p. 110</a>)</span></p>
+</blockquote>
+<p>Entre l’infiniment grand et l’infiniment petit (cf.&nbsp;illustration ci dessous) les parties extensives sont observables et modélisables à toutes les échelles physiques de notre univers. Tout comme le choix d’une projection géographique reflète un point de vue particulier, celui des échelles de représentation contribue lui aussi à l’expression d’une subjectivité spécifique.</p>
+<div id="fig-echelleUnivers" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-echelleUnivers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/10000001000003080000024F28EEAE4E22F24B62.png" class="quarto-figure quarto-figure-center figure-img" height="200">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-echelleUnivers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.4: Échelle de l’univers - univers observable https://htwins.net/scale2/
+</figcaption>
+</figure>
+</div>
+<div id="fig-echelleUniversPlank" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-echelleUniversPlank-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/100000010000030F000001D7889CE02FB9E347F3.png" class="quarto-figure quarto-figure-center figure-img" height="200">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-echelleUniversPlank-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.5: Échelle de l’univers - limite de Plank https://htwins.net/scale2/
+</figcaption>
+</figure>
+</div>
+<p>Les parties extensives correspondent aux «&nbsp;physicalités&nbsp;» des milieux que nous habitons, elles en sont l’indispensable matérialité. Cette nécessité de la matière est corrélé à des connaissances, elles aussi nécessaires, celles du premier genre de connaissance&nbsp;: les idées inadéquates&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;L’idée inadéquate, c’est l’idée inexpressive et non expliquée : l’impression qui n’est pas encore expression, l’indication qui n’est pas encore explication.&nbsp;» <span class="citation" data-cites="deleuze1968">(<a href="references.html#ref-deleuze1968" role="doc-biblioref">Deleuze, 1968, p. 136</a>)</span></p>
+</blockquote>
+<p>Pour expliquer à quoi correspondent les connaissances du premier genre, Deleuze décrit dans un de ces cours l’expérience d’une personne au bord de la mer&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;Bien alors c’est quoi la connaissance du premier genre ? Eh bien allez, j’y vais, je me lance, je suis dans le premier genre de connaissance. Je me lance, je barbote, comme on dit. Qu’est-ce que ça veut dire barboter ? Barboter c’est tout simple, ça indique bien, on voit bien que c’est des rapports extrinsèques. Tantôt la vague me gifle, et tantôt elle m’emporte. Ça c’est des effets de choc. C’est des effets de choc, à savoir, je ne connais rien aux rapports qui se composent ou qui se décomposent, je reçois les effets de parties extrinsèques. Les parties qui m’appartiennent à moi, sont secouées, reçoivent un effet de choc des parties qui appartiennent à la vague.&nbsp;» <span class="citation" data-cites="deleuze1981">(<a href="references.html#ref-deleuze1981" role="doc-biblioref">Deleuze, 1981</a>)</span></p>
+</blockquote>
+<p>Donnons un autre exemple de ce premier genre de connaissance en vous invitant à faire l’expérience des parties extensives suivantes&nbsp;:</p>
+<div id="fig-partExt1" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-partExt1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/10000001000001EB0000002F6C14D0CF44FAB1C7.png" class="quarto-figure quarto-figure-center figure-img" width="491" height="200">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-partExt1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.6: Parties extensives 1
+</figcaption>
+</figure>
+</div>
+<p>Sauf si vous connaissez le tamoul, le texte ci-dessous est pour vous comme un choc, vous ne connaissez rien des rapports qui se composent ou se décomposent, vous ne voyez que les parties extensives du texte. Pour être plus précis, vous pouvez tout de même discerner des rapports puisque vous savez que l’image est un texte composé de caractères qui composent des mots séparés par des espaces. Par contre, vous n’avez aucune idée des concepts présents dans le texte, vous avez connaissance des signifiants mais pas des signifiés<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. D’une certaine manière vous êtes comme un OCR (optical character recognition) capable de reconnaître des caractères et des mots dans une image. Mais à l’inverse d’une machine numérique qui avant la reconnaissance du texte décompose l’image en une multitude de points ayant chacun leurs coordonnées cartésiennes et leurs propriétés de couleur, vous commencez par reconnaître le texte puis vous le décomposez en mots et en caractères. Cette différence entre la machine et l’humain dans le processus de connaissances est au cœur d’une problématique fondamentale de la gestion mécanique du sens&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;il y a un conflit entre l’holisme du sens et le mécanisme de la syntaxe. Le sens d’un texte dépend de son contexte, le sens d’un paragraphe dépend aussi du texte dans lequel il s’intègre, le sens d’un mot du paragraphe qui le contient, etc. : le sens va du global au local, de la compréhension globale vers l’analyse. Or, le formalisme opère de manière inverse : le sens d’une formule logique se construit à partir du sens de ses parties, allant du local au global.&nbsp;» <span class="citation" data-cites="bachimont2011">(<a href="references.html#ref-bachimont2011" role="doc-biblioref">Bachimont et al., 2011, sec. 11</a>)</span></p>
+</blockquote>
+<p>Ce conflit est d’autant plus flagrant quand le même texte est présenté dans une écriture que vous connaissez (<a href="#fig-partExt2" class="quarto-xref">Figure&nbsp;<span>2.7</span></a>). Dans ce cas, vous ne faites plus la décomposition du texte en parties extensives le constituant mais vous accédez directement à sa signification car vous avez appris à lire, c’est-à-dire à discerner les compositions de rapports dans les parties extensives et vous accédez ainsi à un autre genre de connaissance celui des signifiants.</p>
+<div id="fig-partExt2" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-partExt2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/10000001000000A500000033DA0B4C29741E4F62.png" class="quarto-figure quarto-figure-center figure-img" width="165" height="200">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-partExt2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.7: Parties extensives 2
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-dimensionConceptuels" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="sec-dimensionConceptuels"><span class="header-section-number">2.2.2</span> Dimensions conceptuels&nbsp;: connaissances des essences</h3>
+<p>A l’opposé des espaces matériels-physiques et de la connaissance des chocs, nos connaissances se composent aussi dans nos intériorités&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;Par le terme vague d’ “intériorité”, il faut entendre une gamme de propriétés reconnues par tous les humains et recouvrant en partie ce que nous appelons d’ordinaire l’esprit, l’âme ou la conscience - intentionnalité, subjectivité, réflexivité, affect, aptitude à signifier ou à rêver.&nbsp;» <span class="citation" data-cites="descola2005">(<a href="references.html#ref-descola2005" role="doc-biblioref">Descola, 2005, p. 168</a>)</span></p>
+</blockquote>
+<p>Comment cartographier ces espaces de connaissances &nbsp;? Comment mesurer ces espaces&nbsp;? Combien pèse une âme&nbsp;?</p>
+<div id="fig-peseeAme" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-peseeAme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/100000000000026C0000033BDE0C2A2E5F4A6C07.jpg" class="quarto-figure quarto-figure-center figure-img" height="300">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-peseeAme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.8: La pesée des âmes dans le retable polyptyque du Jugement Dernier de Rogier van der Weyden aux Hospices de Beaune, 1443-1452, https://commons.wikimedia.org/w/index.php?curid=6028656
+</figcaption>
+</figure>
+</div>
+<p>La question du poids des âmes se pose depuis longtemps comme en témoigne l’iconographie de la pesée des âmes. La psychostasie, nom donné à cette activité de mesurer le poids des âmes, touche historiquement les domaines de la théologie, de la philosophie et de l’éthique mais intéresse aussi les sciences de l’information et de la communication qui cherchent notamment des réponses sur les conditions de la mesure, l’analyse et la critique de ces espaces informationnels immatériels qui ne sont pas mesurables de la même manière qu’une planche de bois ou que de nombre de livres qui sont rangée dessus car ils ne sont pas soumis aux règles physiques de la matérialité tant qu’ils ne sont pas exprimées. Dès le passage de ces espaces intérieurs vers une forme d’expression quelle qu’elle soit (écrit, parole, clic sur un bouton…), ils se transforment en physicalités dont on pourra mesurer les paramètres physiques (hauteur, largeur, vitesse…). Ne peut-on mesurer ces intériorités qu’une fois exprimées par nos paroles, nos écrits, nos dessins, nos danses, nos activités corporelles…&nbsp;?</p>
+<p>Il faut sans doute passer par une forme d’expression pour que les impressions dans nos intériorités soient communicables, même s’il existe des connaissances intérieures qui restent secrètes, non par choix de ne pas les exprimer mais par impossibilité de le faire soit parce qu’elles sont inconscientes, soit parce qu’elles relèvent d’une expérience incommunicable. Sans parler des connaissances mystiques qui n’existent que par le fait de les avoirs expérimentées ou non, pensons simplement aux connaissances qui émergent de nos intériorités à la lecture dans simple mot&nbsp;: aimer. Chacun d’entre nous expérimente la lecture de ce mot suivant ses propres histoires, ses états actuels et ses désirs&nbsp;; ce que nous en communiquerons révélera ou non une partie de ces expériences que le mot aura fait résonner en nous. Nos intériorités sont le siège de nos subjectivités et des processus de signification que nous avons abordé en introduction de ce chapitre. Elles sont l’espace des élaborations sémiotiques qui transforment notre pouvoir de discernement en pouvoir d’agir. Mesurer les espaces conceptuels et avant tout un travail de réflexivité individuelle et de concentration sur cette dimension particulière de l’existence que nous ne pouvons explorer que dans la solitude de notre propre conscience. L’enjeu qui nous anime ici est de fournir aux explorateurs de ces espaces conceptuels des outils pour cartographier leurs explorations de manière à les rendre interopérable avec celles menées par d’autres.</p>
+<section id="sec-approcheTopologique" class="level4" data-number="2.2.2.1">
+<h4 data-number="2.2.2.1" class="anchored" data-anchor-id="sec-approcheTopologique"><span class="header-section-number">2.2.2.1</span> Approches topologique de la modélisation des concepts</h4>
+<p>Dans le domaine des sciences cognitives, les espaces intérieurs ont été pensé par <span class="citation" data-cites="gärdenfors2001">(<a href="references.html#ref-gärdenfors2001" role="doc-biblioref">Gärdenfors, 2001</a>)</span> comme des «&nbsp;espaces conceptuels&nbsp;» en complémentarité des approches symboliques qui modélisent les systèmes cognitifs avec des machines de Turing et des approches connexionnistes qui modélisent avec des réseaux de neurones artificiels. Cet auteur propose de modéliser les espaces conceptuels à partir d’une représentation topologique des similarités qualitatives. La modélisation des espaces conceptuels par des topologies est sans doute une perspective intéressante pour représenter ces espaces car elle permet de concevoir des espaces métriques à partir de la notion simple de voisinage. On peut considérer les concepts comme des points qui définissent un espace dans leurs rapports de voisinage avec d’autre concepts et calculer des distances entre ces points. Toute la difficulté est de définir les valeurs qui seront utilisées pour calculer la distance entre ces points. Gärdenfors propose d’utiliser des valeurs qualitatives pour calculer les distances par exemple les concepts de couleurs seront représentés dans une topologie dont les distances sont calculées suivants les qualités de nuance, d’intensité et de luminosité. L’avantage de cette proposition est de rendre pratiquement objectif la distance entre les concepts car celles-ci résultent d’une mesure physique. Mais de notre point vue, ces qualités font parties de la dimension matérielle que nous avons présentée plus haut (<span class="quarto-unresolved-ref">?sec-espaceMateriels</span>), elles ne peuvent donc pas être utilisées pour modéliser les concepts qui dans notre modèle relève d’une autre dimension existentielle, celle des essences (<a href="#sec-modeleOntoEthique" class="quarto-xref"><span>Section 2.2</span></a>). Il est fondamental de préserver la multiplicité des points de vue à l’intérieur de ces espaces conceptuels et de ne pas les réduire à une mesure physique qui est la même pour tous, à tout moment, en tout lieu. Nous pensons que les espaces conceptuels sont propres à chaque individu; leur cartographie ne peut donc pas relever d’une mesure «&nbsp;universelle&nbsp;» liée à une métrologie physique. La distance qui sépare «&nbsp;aimer&nbsp;» de «&nbsp;haïr&nbsp;» n’est pas la même pour vous ou moi, pour hier, aujourd’hui et demain, ou suivant le lieu de mes rapports avec ces concepts. Nous verrons plus loin comment les dimensions existentielles des actants et des rapports nous permettent de cartographier ces fluctuations temporelles et spatiales (<a href="principesCarto.html#sec-espaceActant" class="quarto-xref"><span>Section 3.5</span></a>) retenons juste pour le moment que les principes de cartographie des espaces conceptuels ne peuvent se baser sur une mesure matérielle car nous ne recherchons pas une mesure objective mais tout au contraire, l’expression d’une subjectivité.</p>
+<p>Contrairement à Gärdenfors, le langage IEML propose un «&nbsp;filet topologique&nbsp;» <span class="citation" data-cites="lévy2011">(<a href="references.html#ref-lévy2011" role="doc-biblioref">Lévy, 2011, p. 257</a>)</span> dont les espaces métriques sont purement conceptuels puisque les rapports de voisinage sont définies suivant six concepts (être, signe, chose, actuel, virtuel, vide) associés à trois positions conceptuelles (substance, attribut, mode) sur six couches. Il en résulte un grille topologique très vaste&nbsp;: (6*6*6)<sup>6</sup> soit 1,015599567×10¹⁴ positions possibles. Une infime partie de ces positions (3418<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>) ont été interprétées, classifiées et référencées par Pierre Lévy et ses équipes pour donner du sens à cette topologie et fournir un vocabulaire de base utilisable avec un éditeur dédié à ce langage<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. Cette solution de cartographie des espaces conceptuels est élégante et très ambitieuse mais elle se confronte à plusieurs difficultés majeures. La première est qu’il n’est pas très facile de comprendre la complexité de ce langage et son utilité par rapport à des outils comme le moteur de recherche Google dont l’usage simplissime demande un effort minimal. IEML s’adresse à un public de spécialistes ayant des besoins très spécifiques et demande un investissement conséquent :</p>
+<blockquote class="blockquote">
+<p>«&nbsp; IEML […] force à faire un travail d’analyse et de définition des concepts utilisés et fait apparaître de possibles paralogismes dans un raisonnement.&nbsp;» <span class="citation" data-cites="vitalirosati2021">(<a href="references.html#ref-vitalirosati2021" role="doc-biblioref">Vitali Rosati, 2021</a>)</span>.</p>
+</blockquote>
+<p>La deuxième difficulté porte sur l’usage de ce langage qui ne correspond pas aux habitudes du public de chercheurs auquel il est destiné. Ceux-ci travaillent généralement des textes dans lesquels la définition et la critique des concepts est une part importante mais le référencement de ces concepts par des thésaurus, des vocabulaires normalisés ou des langages formels est considéré comme un travail à la charge des documentalistes, des bibliothécaires ou des «&nbsp;ingénieurs sémantiques&nbsp;», nouveau métier que Pierre Lévy contribue à faire émerger. Le passage par un tiers en charge de traduire un texte écrit en langage naturel dans un langage sémantique comme IEML occasionne une nouvelle difficulté liée à l’économie du processus éditorial qui est déjà soumis à de forte pressions temporelles, financières et humaines. Une autre difficulté que nous avons expérimentée dans notre usage d’IEML depuis une dizaine d’années, est le manque de pérennité des outils mis à disposition pour gérer ce langage<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Cette difficulté inhérente à un travail de recherche «&nbsp;in progress&nbsp;» mais plus généralement aux langages informatiques qui évoluent au fil de temps rend délicat l’investissement important et constant que nécessite l’utilisation d’IEML Au final, ce magnifique projet mené par Pierre Lévy rejoint sans doute la liste des langues parfaites <span class="citation" data-cites="eco1994">(<a href="references.html#ref-eco1994" role="doc-biblioref">Eco, 1994</a>)</span> et contribue en tout cas à faire avancer l’utopie d’un dialogue plus fécond entre les humains grâce aux machines.</p>
+</section>
+<section id="sec-modelisationsPretopologique" class="level4" data-number="2.2.2.2">
+<h4 data-number="2.2.2.2" class="anchored" data-anchor-id="sec-modelisationsPretopologique"><span class="header-section-number">2.2.2.2</span> Modélisations prétopologiques des concepts</h4>
+<p>Face à ces difficultés, nous proposons de concevoir la cartographie des espaces sémantiques à partir d’outils simples permettant à chacun de construire ses propres représentations conceptuelles et donc de maîtriser le sens de ces représentations. Pour ce faire, nous avons élaboré un outil de conception de cartes sémantiques qui s’appuie sur le principes de la prétopologie <span class="citation" data-cites="belmandt1993 thibault2017 toumia2018">(<a href="references.html#ref-belmandt1993" role="doc-biblioref">Belmandt, 1993</a>; <a href="references.html#ref-thibault2017" role="doc-biblioref">Thibault, 2017</a>; <a href="references.html#ref-toumia2018" role="doc-biblioref">Toumia, 2018</a>)</span> pour manipuler des concepts et leurs relations.</p>
+<p>Les espaces conceptuels se prêtent particulièrement bien à la modélisation prétopologique car il correspondent à ces deux principes fondamentaux &nbsp;:</p>
+<blockquote class="blockquote">
+<p>« pretopology can be used to represent a system where the relation between an element and a set is not a simple aggregation of the individual relations to the members of the set. In this it is fundamentally different from a graph.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>pretopology establishes one single relation between a particular element and a particular group. In this it is different from a multilayer network. » <span class="citation" data-cites="laborde2019">(<a href="references.html#ref-laborde2019" role="doc-biblioref">Laborde, 2019, p. 28</a>)</span></p>
+</blockquote>
+<p>Nos principes de modélisation utilisent les notions de base de la prétopologie pour guider l’utilisateur dans la construction d’une carte et pas uniquement pour représenter les résultats d’une analyse automatique comme peuvent le faire par exemple les outils de modélisation de graphes comme Gephi <span class="citation" data-cites="bastian2009">(<a href="references.html#ref-bastian2009" role="doc-biblioref">Bastian, Heymann, &amp; Jacomy, 2009</a>)</span>. L’idée principale de cette démarche est de construire pas à pas des modèles conceptuels relativement simples avec un protocole de formalisation les rendant compréhensibles, interopérables et calculables. Les choix nécessaires à la construction de ces modèles sont ceux du modélisateur et pas ceux d’un algorithme qu’on bricole en jouant avec ses paramètres pour obtenir la représentation désirée. Avec les principes que nous proposons, le modélisateur maîtrise la signification de ces choix ce qui n’est pas toujours le cas quand on applique un algorithme sur une grande quantité de données. L’objectif est d’éviter que le modèle serve uniquement d’illustration justifiant un discours par un «&nbsp;preuve&nbsp;» formelle mais soit le discours à part entière.</p>
+<p>Le processus de cartographie que nous proposons à partir d’une modélisation prétopologique consiste à définir un espace conceptuel en lui donnant un titre. Cet espace est représenté par une ellipse et par son titre. Dans un deuxième temps, cet espace est peuplé d’un ensemble d’éléments appartenant à l’espace. Par exemple, l’espace conceptuel que nous cartographions porte le titre de «&nbsp;humanités numériques&nbsp;», il se compose des éléments &nbsp;: humains, machines, collaboration, efficace, biais, cognitifs…</p>
+<p>Dans un troisième temps, la modélisation prétopologique consiste à créer un ensemble de parties P(X) qui sont des sous-ensembles constitués avec une application d’adhérence qui s’applique aux éléments de l’ensemble.</p>
+<blockquote class="blockquote">
+<p>«&nbsp;On appelle prétopologie sur X, toute application adh de P(X) dans P(X) qui vérifie&nbsp;:<br>
+i - adh (ø) = ø<br>
+ii - ∀A ∈ P(X), A ⊂ adh(A)<br>
+(X, adh) est appelé espace prétopologique.<br>
+adh est encore appelée adhérence.&nbsp;» <span class="citation" data-cites="dalud-vincent2017">(<a href="references.html#ref-dalud-vincent2017" role="doc-biblioref">Dalud-Vincent, 2017, p. 47</a>)</span></p>
+</blockquote>
+<p>Dans notre cas, l’application d’adhérence consiste à «&nbsp;conceptualiser&nbsp;» les chaînes de caractères continues pour modéliser des sous-ensemble sous forme de mots &nbsp;: P(X) = [«&nbsp;humains&nbsp;», «&nbsp;machines&nbsp;», «&nbsp;collaboration&nbsp;», «&nbsp;efficace&nbsp;», «&nbsp;biais&nbsp;», «&nbsp;cognitifs&nbsp;»]. Ces mots sont eux-aussi représentés par une ellipse et par un titre ce qui de manière fractale fait que chaque élément de l’ensemble est lui-même un ensemble disposant de propriétés et de méthodes utiles pour sa manipulation cartographique. De même, l’espace conceptuel «&nbsp;humanités numériques&nbsp;» peut-être utiliser comment élément d’un ensemble plus vaste par exemple «&nbsp;sciences humaines&nbsp;».</p>
+</section>
+</section>
+<section id="sec-dimensionActant" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="sec-dimensionActant"><span class="header-section-number">2.2.3</span> Dimension des actants : connaissances des dynamiques génératives</h3>
+<p>Entre la dimension des physicalités organisée en hiérarchies et celle des concepts organisée en topologies, la dimension des actants organise les connaissances à la fois sous la forme de topos et de chôra <span class="citation" data-cites="zamora2003 derrida1997">(<a href="references.html#ref-derrida1997" role="doc-biblioref">Derrida, 1997</a>; <a href="references.html#ref-zamora2003" role="doc-biblioref">Zamora, 2003</a>)</span>. Topos et chôra sont deux manières complémentaires de définir l’espace soit pour le topos sous la forme d’une identité par exemple “Université Paris 8”, soit pour la chôra en définissant ce que le lieu génère comme activités, ce que sont ses dynamiques génératives, par exemple dans le cas de Paris 8 : recherches et enseignements.</p>
+<blockquote class="blockquote">
+<p>«&nbsp;la chôra […] relèvent du monde sensible, non du monde intelligible. Inversement, la notion de topos, dans la mesure où elle concorde avec la logique de l’identité du sujet, relève moins de la sensibilité que de l’intelligibilité.&nbsp;» <span class="citation" data-cites="berque2009">(<a href="references.html#ref-berque2009" role="doc-biblioref">Berque, 2009, p. 232</a>)</span>.</p>
+</blockquote>
+<p>Il est curieux de voir que dans l’histoire, topos et chôra se sont développés à travers deux manières d’êtres au monde <span class="citation" data-cites="latour2012">(<a href="references.html#ref-latour2012" role="doc-biblioref">Latour, 2012</a>)</span>. On pourrait par exemple voir d’un coté une vision occidentale du topos dont les modernistes sont les héritiers et qui plonge ces racines chez Platon, Aristote et que l’on trouve aussi dans la Bible où la première activité de l’homme est de nommer les vivants pour définir leur identité :</p>
+<blockquote class="blockquote">
+<p>«&nbsp;2.19 : L’Éternel Dieu forma de la terre tous les animaux des champs et tous les oiseaux du ciel, et il les fit venir vers l’homme, pour voir comment il les appellerait, et afin que tout être vivant portât le nom que lui donnerait l’homme.</p>
+<p>2.20 : Et l’homme donna des noms à tout le bétail, aux oiseaux du ciel et à tous les animaux des champs » <span class="citation" data-cites="jérusalem1993">(<a href="references.html#ref-jérusalem1993" role="doc-biblioref">Jérusalem, 1993, p. 19</a>)</span>.</p>
+</blockquote>
+<div id="fig-adamNomme" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-adamNomme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Adam_naming_animals_-_Moni_Ayou_Nikolaou_(Meteora).jpg" class="quarto-figure quarto-figure-center figure-img" height="200">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-adamNomme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.9: Adam nomme les animaux
+</figcaption>
+</figure>
+</div>
+<p>Le topos fonde « en Occident la logique du tiers exclu&nbsp;» <span class="citation" data-cites="berque2009">(<a href="references.html#ref-berque2009" role="doc-biblioref">Berque, 2009, p. 145</a>)</span> et caractérise les approches Naturalistes dont l’ambition est de décrire le monde de manière universelle <span class="citation" data-cites="descola2005">(<a href="references.html#ref-descola2005" role="doc-biblioref">Descola, 2005</a>)</span>. Du coté de l’Orient, la taoïsme apporte quant à lui une approche de l’environement informationnel différente. Elle ne se base pas sur le nommage de l’identité mais sur l’expérience des flux informationnels, des dynamiques génératives qui caractérisent la chôra, comme en témoigne Lao Tseu six siècles avant notre ère dans les deux premiers paragraphes du Tao Te King où il insiste sur le caractère indicible du Tao :</p>
+<blockquote class="blockquote">
+<p>«&nbsp; 1. Le tao exprimable n’est pas Le Tao. 2. Le nom énonçable n’est pas Le Nom. » <span class="citation" data-cites="saintgirons2016">(<a href="references.html#ref-saintgirons2016" role="doc-biblioref">Saint Girons, 2016</a>)</span>.</p>
+</blockquote>
+<p>L’opposition entre ces deux approches trouvent aujourd’hui une actualité flagrante entre une IA symbolique qui fonctionne par nommage très précis des identités informationnelles sous la forme d’ontologies et une IA connexionniste qui privilégie l’émergence de modèle par des cycles récurrents d’apprentissages <span class="citation" data-cites="masure2023">(<a href="references.html#ref-masure2023" role="doc-biblioref">Masure, 2023</a>)</span>. Entre identité et dynamiqmes, les deux approches sont complémentaire notamment quand on cherche à modéliser les actants qui ne sont ni réductibles à leur identité ni à leurs activités. L’actant possède une identité qu’on défini basiquement par un nom et donc par une physicalité mais l’actant est aussi producteur d’activités et donc de dynamismes génératifs en créant des rapports entre des physicalités et des concepts (<a href="principesCarto.html#sec-rapportsInstExis" class="quarto-xref"><span>Section 3.6</span></a>). Les actants sont topos de part les rapports qu’ils entretiennent avec les physicalités et chôra dans les processus internes d’émergence des connaissances intuitives issu des expériences de l’espace vécu. L’actant est donc le milieu de ces pulsations exitentielles que nous décrivions plus haut <a href="#fig-dynamiquesPulsationsExistentielles" class="quarto-xref">Figure&nbsp;<span>2.3</span></a>, il est le continuum entre les physicalités et les intériorités. Modéliser l’actant consiste donc à une double démarche à la fois de définition de son identité par des noms et de caractérisation des ces pouvoirs génératifs spécifiques (dicerner, raisonner, agir). En se sens la représentation de l’actant est à la fois topologique et chorématique<span class="citation" data-cites="reymond1996 brandt2021">(<a href="references.html#ref-brandt2021" role="doc-biblioref">Brandt, 2021</a>; <a href="references.html#ref-reymond1996" role="doc-biblioref">Reymond &amp; Brunet, 1996</a>)</span>.</p>
+</section>
+<section id="sec-dimensionRapports" class="level3" data-number="2.2.4">
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="sec-dimensionRapports"><span class="header-section-number">2.2.4</span> Dimension des rapports : connaissances des existences potentielles</h3>
+<p>Les rapports sont la quatrième dimension de l’existence que nous utilisons pour modéliser les écosystèmes de connaissances. Ils composent la dimension existentielle qui relie les trois autres dimensions, les connaissances et les espaces qui leurs sont associés : dimension physique, connaissances des chocs et espaces matériels hiérarchiques, dimension des concepts, connaissances des essences et espaces topologiques, dimension des actants, connaissances des dynamismes et espaces topographiques chorématiques. Les rapports définissent des espaces temporels, ils transforment une virtualité en actualité. Par exemple, je suis en tant qu’actant actuellement en rapport avec la physicalité de mon clavier et de mon écran qui produisent les concepts que vous lisez. Ces rapports, ne seront plus actuels quand à la fin de cette séance de travail je commencerais une autre activité. Moi en tant qu’actant, mon clavier en tant que physicalités et ce que j’ai écrit en tant que concepts, nous existons toujours comme potentialités de futurs rapports qui s’instancieront à une date et pour une période données. En d’autres termes, les trois dimensions physique, actant, concept créent des potentialités de rapports qui s’instancient ici et maintenant dans l’actualité d’une existence informationnelle.</p>
+</section>
+</section>
+<section id="sec-complexiteExitentielle" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-complexiteExitentielle"><span class="header-section-number">2.3</span> La complexité existentielle<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></h2>
+<p>Nous reprenons ici les chapitres consacrées à cette problématique que nous avons publié en anglais dans (Szoniecky, 2018) en les corrigeant et les complétant de nouvelles propositions.</p>
+<p>A partir des principes de modélisation que nous avons définis (<a href="#anchor-18">1.5.2</a> <a href="#anchor-18">Modèle pour une ontologie – éthique</a> p.&nbsp;<a href="#anchor-18">51</a>, il est possible de calculer la complexité d’un écosystème de connaissances suivant des règles génériques qui s’appliquent quels que soient les éléments qui compose l’écosystème concernés. La comparaison entre ces écosystèmes devient dès lors possible afin d’évaluer leurs étendues dans les connaissances et le degrés de précision de celles ci. Insistons toutefois sur le caractère relatif de ces modélisations et des mesures de complexité qui en découlent. Il est illusoire de défendre l’idée que la modélisation puisse être exhaustive, elle relève toujours de la subjectivité de l’analyse qui choisi d’intégrer tel ou tel élément dans le modèle. Dès lors, ce qui est important c’est de pouvoir évaluer la complexité du modèle et de créer les conditions de son interopérabilité et de sa réfutabilité.</p>
+<section id="calculer-la-complexité-existentielle" class="level4" data-number="2.3.0.1">
+<h4 data-number="2.3.0.1" class="anchored" data-anchor-id="calculer-la-complexité-existentielle"><span class="header-section-number">2.3.0.1</span> Calculer la complexité existentielle</h4>
+<p>La complexité d’un écosystème de connaissances est calculée à partir des existences informationnelles qui le composent en faisant la somme de ces existences et des éléments qui composent ses quatre dimensions &nbsp;: physique, acteur, concept et rapport. Suivant le principe de modélisation fractale que nous appliquons, les éléments de chaque dimension se composent eux-même d’existences informationnelles bâties sur le même modèle à quatre dimension. De ce fait, la complexité d’une existence augmente suivant la complexité des éléments qui la compose. Une simple somme des éléments qui composent l’écosystème n’est donc pas suffisante pour exprimer sa complexité puisqu’elle n’indique pas par exemple les niveaux de modélisation entre élément et sous partie qui la compose. De ce fait, Le calcul de la complexité existentielle doit être pondéré par les niveaux de modélisation de chaque élément. Par exemple, la modélisation de l’existence informationnelle de notre planète par la seule dimension conceptuelle «&nbsp;Terre&nbsp;» est bien moins moins complexe qu’une modélisation de cette existence qui inclus l’ensemble des existences «&nbsp;continents&nbsp;» qui la compose. Pour calculer cette différence de complexité, nous proposons de multiplier le nombre d’élément de chaque dimension par le niveau de modélisation. Dans le cas d’une modélisation «&nbsp;Terre&nbsp;», nous obtenons la complexité &nbsp;: 1</p>
+<ul>
+<li><p>«&nbsp;Terre&nbsp;»&nbsp;: niveau 1&nbsp;: 1 élément&nbsp; =&gt; complexité = 1 * 1 = 1</p>
+<p>Si nous ajoutons à cette modélisation les «&nbsp;continents&nbsp;», nous obtenons la complexité 1+14 = 15&nbsp;:</p></li>
+<li><p>«&nbsp;Terre&nbsp;»&nbsp;: niveau 1&nbsp;: 1 élément&nbsp; =&gt; complexité = 1 * 1 = 1</p>
+<p>+</p></li>
+<li><p>«&nbsp;Afrique&nbsp;», «&nbsp;Amérique du nord&nbsp;», «&nbsp;Amérique du sud&nbsp;», «&nbsp;Antartique&nbsp;», «&nbsp;Artique&nbsp;», «&nbsp;Asie&nbsp;», «&nbsp;Europe&nbsp;»&nbsp;: niveau 2&nbsp;: 7 éléments =&gt; complexité = 2 * 7 = 14</p></li>
+</ul>
+<p>Pour faciliter ces calculs, nous avons développer un algorithme pour Omeka S<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> qui utilise les informations de la base de données pour calculer la complexité d’une ou de plusieurs existences suivant le principe qu’une ressource Omeka S est une existence. Cette algorithme se compose de deux parties, une première qui calcule pour une ressource le nombre d’élément de chaque dimension et une deuxième qui calcule la complexité à partir de ce dénombrement.</p>
+<p>L’étape du dénombrement calcule pour chaque ressource le nombre d’élément de la dimension existentielle correspondant à la classe<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> de cette ressource. Puis incrémente le nombre d’actant pour chaque propriétaire («&nbsp;owner&nbsp;») de la ressource. Pour chaque propriété qui décrit cette ressource, l’algorithme incrémente premièrement le nombre de concept (une propriété est définie par une «&nbsp;rdf:Property&nbsp;» dans un vocabulaire spécifique)&nbsp;; deuxièmement le nombre d’élément physique pour chaque valeur de la propriété puisque dans Omeka S, la propriété d’une ressource a une cardinalité 0-n.&nbsp;Dans le cas où une valeur de propriété est une relation vers une autre ressource, le calcul de complexité s’applique récursivement à cette ressource en augmentant le niveau de modélisation dans la limite de n+1 niveau (pour une explication de ce choix cf.&nbsp;<a href="#anchor-65">1.5.3.3</a> <a href="#anchor-65">Différence entre complexité et maillage du réseau</a> p.&nbsp;<a href="#anchor-65">55</a>). Parallèlement au comptage des éléments des dimensions physique, actant et concept, l’algorithme incrémente la dimension des rapports en suivant le modèle logique sujet, objet, prédicat dont nous avons montrer l’intérêt pour un processus de modélisation dans (Szoniecky, 2020) et que nous détaillons plus loin (<a href="#anchor-66">1.5.4</a> <a href="#anchor-66">Diagrammes et cribles conceptuels</a> p.&nbsp;<a href="#anchor-66">55</a>). Dans le cas de cet algorithme, les valeurs des sujets, objets et prédicats sont définies avec les règles suivantes&nbsp;:</p>
+<ul>
+<li><p>Pour chaque ressource&nbsp;:</p>
+<ul>
+<li><p>sujet = dimension existentielle de la ressource, objet = Concept, prédicat = properties, nombre de rapport = nombre de propriété</p></li>
+<li><p>sujet = dimension existentielle de la ressource, objet = Physique, prédicat = values, nombre de rapport = nombre de valeur pour l’ensemble des propriétés de la ressources</p></li>
+<li><p>Pour chaque propriétaire</p>
+<ul>
+<li>sujet = dimension existentielle de la ressource, objet = Actant, prédicat = owner, nombre de rapport = 1</li>
+</ul></li>
+<li><p>Pour chaque valeur de type ressource</p>
+<ul>
+<li>sujet = dimension existentielle de la ressource, objet = dimension existentielle de la valeur, prédicat = propriété de cette valeur, nombre de rapport = 1</li>
+</ul></li>
+<li><p>Pour chaque valeur de type URI</p>
+<ul>
+<li>sujet = dimension existentielle de la ressource, objet = Physique, prédicat = uri, nombre de rapport = 1</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Suite à cette étape de dénombrement, la deuxième partie de l’algorithme consiste à multiplier pour chaque ressource le nombre d’élément de chaque dimension existentielle par le niveau de la ressource dans le processus de modélisation. Puis de cumuler les résultats pour obtenir la complexité d’un ensemble de ressource. Au final le calcul de la complexité produit l’objet avec les propriétés suivantes&nbsp;:</p>
+<ul>
+<li><p>infos</p>
+<ul>
+<li><p>date : date du calcul de la complexité</p></li>
+<li><p>resources<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> : liste des ressources impliquée dans le calcul avec les informations&nbsp;:</p>
+<ul>
+<li>type : le type de ressource omeka S&nbsp;= items, item set, media, annotations</li>
+<li>id : l’identifiant</li>
+<li>title : le titre</li>
+<li>class : la classe</li>
+<li>complexity : la complexité calculée</li>
+<li>d : la dimension existentielle = Physique, Actant, Concept, Rapport</li>
+<li>n : les niveaux de modélisation pris en compte pour cette ressource</li>
+<li>details<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></li>
+</ul></li>
+</ul></li>
+<li><p>params : affiche les paramètres passés à l’algorithme</p></li>
+<li><p>Pour les dimensions Physique, Actant, Concept : résultats du calcul pour la dimension avec les informations&nbsp;:</p>
+<ul>
+<li><p>details : liste les niveaux de modélisation, avec le nombre d’élément et la complexité du niveau</p></li>
+<li><p>totals : affiche le résultat total de la dimension&nbsp;:</p>
+<ul>
+<li>nbNiv : le nombre de niveau de modélisation qui dans cette version de l’algorithme est toujours égal à 2</li>
+<li>nivMin : le niveau minimum de modélisation de la dimension &nbsp;: 1 ou 2</li>
+<li>nivMax : le niveau maximum de modélisation de la dimension&nbsp;: 2</li>
+<li>nb : le nombre d’élément dans la dimension</li>
+<li>c : la complexité de cette dimension</li>
+</ul></li>
+</ul></li>
+<li><p>Pour la dimension Rapport : résultats du calcul pour la dimension avec les informations&nbsp;:</p>
+<ul>
+<li><p>details : liste des rapports avec les informations&nbsp;:</p>
+<ul>
+<li>ns : niveau de modélisation du sujet</li>
+<li>no : niveau de modélisation de l’objet</li>
+<li>s : dimension existentielle du sujet</li>
+<li>o : dimension existentielle de l’objet</li>
+<li>p : prédicat du rapport</li>
+<li>nb : nombre de rapport ayant les mêmes ns, no, s, o, p</li>
+<li>c : complexité du niveau</li>
+</ul></li>
+<li><p>totals : affiche le résultat total de la dimension&nbsp;:</p>
+<ul>
+<li>nbNiv : le nombre de niveau de modélisation qui dans cette version de l’algorithme est toujours égal à 2</li>
+<li>nivMin : le niveau minimum de modélisation de la dimension &nbsp;: 1 ou 2</li>
+<li>nivMax : le niveau maximum de modélisation de la dimension&nbsp;: 2</li>
+<li>nb : le nombre d’élément dans la dimension</li>
+<li>c : la complexité de cette dimension</li>
+</ul></li>
+</ul></li>
+<li><p>totals : affiche le résultat totaux des ressources calculées&nbsp;:</p>
+<ul>
+<li>nbNiv : le nombre de niveau de modélisation qui dans cette version de l’algorithme est toujours égal à 2</li>
+<li>nivMin : le niveau minimum de modélisation &nbsp;: 1 ou 2</li>
+<li>nivMax : le niveau maximum de modélisation : 2</li>
+<li>nb : le nombre d’élément</li>
+<li>c : la complexité</li>
+</ul></li>
+</ul>
+<p>Les données fournies par l’algorithme permettent de vérifier les calculs et de les utiliser pour faire d’autres traitements par exemple pour les représenter graphiquement et naviguer dans les résultats.</p>
+</section>
+<section id="représenter-la-complexité-existentielle" class="level4" data-number="2.3.0.2">
+<h4 data-number="2.3.0.2" class="anchored" data-anchor-id="représenter-la-complexité-existentielle"><span class="header-section-number">2.3.0.2</span> Représenter la complexité existentielle</h4>
+<p>Afin de rendre plus explicite, la complexité d’un écosystème de connaissance et des existences qui le peuplent, nous avons conçu et développé une application de visualisation et de manipulation des calculs de complexité existentielle.</p>
+<p>Par exemple, reprenons la modélisation de la Figure 4.2., Chromecast est considéré comme une dimension physique composé de trois sous partie&nbsp;: le cordon d’alimentation, le boitier électronique et le câble HDMI. Cette modélisation ne prend pas en compte les dimensions d’acteur, de concept et de rapport. Ce modèle a une complexité de 7 que nous détaillons dans le tableau ci-dessous&nbsp;:</p>
+</section>
+<section id="différence-entre-complexité-et-maillage-du-réseau" class="level4" data-number="2.3.0.3">
+<h4 data-number="2.3.0.3" class="anchored" data-anchor-id="différence-entre-complexité-et-maillage-du-réseau"><span class="header-section-number">2.3.0.3</span> Différence entre complexité et maillage du réseau</h4>
+<p>Il est important de comprendre que le calcul de la complexité d’une existence ne prend pas en compte l’intégralité du réseau informationnel dont fait partie cette existence mais uniquement . Nous avons fait le choix pour simplifier lecalcule dea complexité d’une existence mais uniquement les informations</p>
+<p>Par exemple, la citation suivante possède une complexité de 231 dans notre écosystème de connaissance :</p>
+<blockquote class="blockquote">
+<p>«&nbsp;le tout est d’une certaine façon inclus (engrammé) dans la partie qui est incluse dans le tout. L’organisation complexe du tout (holos) nécessité l’inscription (engramme) du tout (hologramme) en chacune de ses parties pourtant singulières ; ainsi, la complexité organisationnelle du tout nécessite la complexité organisationnelle des parties, laquelle nécessite récursivement la complexité organisationnelle du tout. »&nbsp;<span class="citation" data-cites="morin1992">(<a href="references.html#ref-morin1992" role="doc-biblioref">Morin, 1992, p. 102</a>)</span></p>
+</blockquote>
+<p>Cette complexité peut se représenter par le diagramme suivant :</p>
+<div id="fig-ComplexityCita" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ComplexityCita-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/localhost_samszo_HDR_jdcComplexityCita.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ComplexityCita-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.10: Diagramme de complexité d’une citation
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="comparer-des-points-de-vue-interprétatif" class="level4" data-number="2.3.0.4">
+<h4 data-number="2.3.0.4" class="anchored" data-anchor-id="comparer-des-points-de-vue-interprétatif"><span class="header-section-number">2.3.0.4</span> Comparer des points de vue interprétatif</h4>
+<p>les dimensions existentielle,</p>
+<p>le temps,</p>
+<p>par rapport à un objectif</p>
+</section>
+<section id="sec-illusionExhaustivite" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="sec-illusionExhaustivite"><span class="header-section-number">2.3.1</span> Aux limites de l’exhaustibvité</h3>
+</section>
+<section id="sec-diagrammesCribles" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="sec-diagrammesCribles"><span class="header-section-number">2.3.2</span> Diagrammes et cribles conceptuels</h3>
+<p>«&nbsp;Très souvent les marques involontaires sont beaucoup plus profondément suggestives que les autres, et c’est à ce moment-là que vous sentez que toute espèce de chose peut arriver.&nbsp;» (Voss, 2019, § 16) Cité dans (Deleuze, 2002, p.&nbsp;94, note de la p.&nbsp;87).</p>
+<p>“Le diagramme, pour ainsi dire, provoque d’abord le désordre et le chaos, en jetant pêle-mêle un régime significatif déjà existant, un ordre sémantico-syntaxique et une organisation optique, pour en tirer une clarté et une précision nouvelles. Cette clarté et cette précision n’appartiennent toutefois pas à une logique de représentation avec ses catégories d’identité, de ressemblance, d’analogie et d’opposition, mais à une « logique de la sensation ».” (Voss, 2019, § 21)</p>
+<p>«&nbsp;L’arbre n’est pas seulement un signe, il est le signe des signes, le diagramme des diagrammes, celui qui est le mieux en prise avec le réel et son devenir. Qu’il s’incarne dans des images matérielles, des images mentales ou des images métaphoriques, il affirme sa puissance organisatrice dans tous les domaines depuis les débuts de la pensée moderne jusqu’à l’ère numérique.&nbsp;» (Dahan-Gaida, 2020)§ 37</p>
+<p>Les plateaux sont des multiplicités qui s’interconnectent par des ramifications rhizomatiques, qui posent que l’écrit n’est plus un signifié, mais un arpentage et une cartographie. C’est l’objet de la philosophie que de construire des réseaux qui relient les idées et produisent les concepts. De là, l’importance des lieux synaptiques qui sont à la charnière des strates et des couches géologiques, des niveaux et des plans que composent le savoir et le monde. Les surfaces sont toujours entaillées de modifications de reliefs que le rhizome restitue. L’Être n’est plus l’Être en tant qu’Être mais l’Être en tant qu’Être en un lieu. Le topos est le plan d’immanence sur lequel se développe la réflexion sur la philosophie des sciences. L’ontologie se mue en une onto-(po)-logie ou ontologie toposique. p.&nbsp;156</p>
+<p>Jedrzejewski, F., 2007. Diagrammes et Catégories (Philosophie). Université Paris-Diderot - Paris VII, Paris.</p>
+<p>Ces cribles auront pour objectif Avant d’utiliser ce crible conceptuel, il faut tout d’abord définir «&nbsp;sur quoi&nbsp;» porte l’analyse qu’elle est sont objet qu’elles sont les «&nbsp;potentialités actuelles dûment répertoriables&nbsp;» . Dans l’étude de (Wolff &amp; al.&nbsp;2017) la grille d’analyse CPL porte sur des plateformes informatiques mais nous pouvons aussi l’utiliser sur toutes autres données voir même sur CPL.</p>
+<p>Pour illustrer notre propos nous prendrons l’exemple des plateformes pour mesurer et préserver la biodiversité. Afin de répondre aux obligations légales des entreprises qui depuis la loi sur les «&nbsp;Nouvelles Régulations économiques&nbsp;» de 2002, doivent informer sur «&nbsp;les mesures prises pour préserver ou développer la biodiversité&nbsp;» (décret n°&nbsp;2012-557). De nombreuses plateformes sont apparues pour aider les entreprises à respecter la loi, toutefois l’usage de ces outils pose de nombreuses questions notamment concernant&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;d’une part la question des hypothèses sur lesquelles reposent ces outils, qui peuvent être contestables scientifiquement ou socialement du fait du système de valeurs sur lequel ils s’appuient, et d’autre part la question de leur efficacité en termes de modification des représentations de l’environnement et,&nbsp;in fine, d’une meilleure prise en compte des questions environnementales dans les décisions.&nbsp;» (Wolff &amp; al.&nbsp;2017)</p>
+</blockquote>
+<p>Les problèmes relèvent principalement du «&nbsp;système du valeur&nbsp;» qui sous-tend la conception des plateformes et influent sur la production des données. Pour évaluer ces plateformes (Wolff &amp; al.&nbsp;2017) ont utilisé un crible conceptuel pour mesurer la qualité des données sur trois aspects&nbsp;: la crédibilité, la pertinence et la légitimité (CPL). Leur étude s’appuie sur une méthode d’évaluation robuste qui révèlent les stratégies des acteurs de l’entreprise face à la préservation de l’environnement. Cette méthode offre un radar conceptuel pour positionner trois exigences fortes, complémentaires et indispensables à la conception d’un outil d’évaluation des impacts environnementaux de l’activité. Plus globalement, il offre un moyen simple permettant à chacun de positionner un point de vue par rapport à une données environnementale.</p>
+<p>comme la grille CPL. Le diagramme ci-dessous (Figure 1), illustre comment utiliser ce crible conceptuel dans une carte sémantique où chacun pourra par un simple clic situer son point de<img src="media/1000000100000531000004ADCDEC4EC1C68E3B55.png" style="width:8.992cm;height:8.026cm"> vue&nbsp;:</p>
+<p><br>
+Figure <em>1</em>. <em>Crible conceptuel CPL</em></p>
+<p>La Figure 1 ci-dessus montre le résultat de plusieurs positionnements. L’application pour téléphone mobile avec laquelle sont fait ces positionnements, enregistre des données sur : quand, où et qui.</p>
+<p>Les données de positionnement spatiales et temporelles ne posent pas de problème particulier au niveau de leur objectivité car sauf erreur de la machine ou malveillance, elles font références à des normes de mesure, celles du GPS pour le «&nbsp;où&nbsp;» et celles des horloges mondiales pour le «&nbsp;quand&nbsp;».</p>
+<section id="exemples-de-cribles-conceptuels" class="level4" data-number="2.3.2.1">
+<h4 data-number="2.3.2.1" class="anchored" data-anchor-id="exemples-de-cribles-conceptuels"><span class="header-section-number">2.3.2.1</span> Exemples de cribles conceptuels</h4>
+<section id="qualification-du-réel" class="level5" data-number="2.3.2.1.1">
+<h5 data-number="2.3.2.1.1" class="anchored" data-anchor-id="qualification-du-réel"><span class="header-section-number">2.3.2.1.1</span> Qualification du réel</h5>
+<p>«&nbsp;</p>
+<ul>
+<li>Le singulier&nbsp;: ce que l’on rencontre est un événement, une rupture par rapport à ce qui existait avant, et est proprement incomparable à tout ce qui l’entoure et ce que nous connaissons. Le singulier est un absolu, il impose à nous sa singularité. Répondre à ce singulier force à innover, à l’intégrer dans notre réalité alors qu’il la déborde.&nbsp;</li>
+<li>Le récurrent&nbsp;: ce que l’on rencontre a déjà eu lieu&nbsp;; contrairement au singulier, le récurrent passe quasiment inaperçu, il ne fait pas événement mais conditionnement, il est à la source de nos habitudes.</li>
+<li>Le typique&nbsp;: le réel se manifeste à travers un objet ou une situation qui incarne selon nous un comportement à adopter. Le typique renvoie au lieu commun&nbsp;: quand on rencontre tel ou tel objet, on ne se pose pas de question, on agit de telle ou telle manière.</li>
+<li>Le particulier&nbsp;: le réel se manifeste comme le spécifique d’une règle ou catégorie générale. La réponse adoptée est celle qui est commandée par la catégorie qui le subsume.</li>
+<li>Enfin, l’instance est le réel correspondant à un type formel, ce qui se laisse enrôler dans un axiome ou une règle calculatoire ou logique. C’est le niveau des définitions implicites de Hilbert&nbsp;: on ne sait pas ce qu’est un ensemble, c’est ce qui se comporte comme les axiomes de Zermelo – Fraenkel avec l’axiome du choix (ZFC)&nbsp;; de même on ne sait pas ce qu’est un nombre entier, mais c’est ce qui se comporte selon les axiomes de Peano. Dans cette optique, traiter ce qui arrive comme un instance revient à lui appliquer les règles ou axiomes régissant son comportement.&nbsp;» https://intelligibilite-numerique.numerev.com/manifeste</li>
+</ul>
+</section>
+<section id="les-valeurs-selon-gabriel-tarde" class="level5" data-number="2.3.2.1.2">
+<h5 data-number="2.3.2.1.2" class="anchored" data-anchor-id="les-valeurs-selon-gabriel-tarde"><span class="header-section-number">2.3.2.1.2</span> Les valeurs selon Gabriel Tarde</h5>
+<p>Pour être plus précis et en adéquation avec les propositions qu’Yves Citton avancent pour réaliser une cartographie des affects à partir des principes de Spinoza et Tarde (Citton, 2008) nous remplaçons l’unique concept de confiance par un crible conceptuel (<a href="#anchor-13">1.1.4Espaces conceptuels&nbsp;: connaissances des essences</a> p.&nbsp;<a href="#anchor-13">26</a>) qui décompose la valeur en trois registres&nbsp;:</p>
+<p>- les « valeurs-utilités » qui définissent l’offre et la demande</p>
+<p>- les « valeurs-vérités » qui mesurent les gains en connaissances et plus largement les phénomènes de croyances, de confiance, les attentes</p>
+<p>- les « valeurs-beautés » qui définissent le champ esthétique au sens de tout ce qui transforme nos goûts et nos sensibilités.</p>
+</section>
+</section>
+</section>
+<section id="sec-cartoSemantique" class="level3" data-number="2.3.3">
+<h3 data-number="2.3.3" class="anchored" data-anchor-id="sec-cartoSemantique"><span class="header-section-number">2.3.3</span> Interaction par cartographie sémantique</h3>
+<p>(repris de Szoniecky &amp; Toumia 2019)</p>
+<p>C’est à partir de cette traduction analogique que nous proposons une représentation dynamique et interactive du pouvoir d’agir sous forme de cartographie sémantique que nous définissons comme des interfaces dynamiques et interactives composées :</p>
+<p>• d’un système de coordonnées conceptuelles pour formaliser une expression interopérable</p>
+<p>• d’une projection des concepts dans un vocabulaire graphique pour visualiser des expressions</p>
+<p>• de dispositifs d’interactions avec l’utilisateur (click, drag &amp; drop, capture de gestes, etc.) pour manipuler des expressions</p>
+<p>Ces cartographies prennent comme vocabulaires graphiques ceux des cartographies géographiques, des plans d’habitations ou toute autre forme graphique comme des étoiles, des icônes, des dessins, des schémas, etc. Ce qui importe c’est la capacité de la cartographie de rendre explicite, affordant, les interactions des utilisateurs avec le vocabulaire graphique et la projection de ces interactions dans quatre systèmes de coordonnées :</p>
+<p>• espaces matériels</p>
+<p>• espaces conceptuels</p>
+<p>• réseaux d’acteurs</p>
+<p>• temporalités.</p>
+<p>Le passage par ces systèmes de coordonnés permet de formaliser l’expression pour la rendre interopérable avec d’autres expressions. Ainsi l’interprétation passe par le positionnement de l’utilisateur dans ces quatre systèmes de coordonnées. Positions que l’on peut calculer automatiquement par exemple dans l’espace matériel grâce au GPS ou dans la temporalité́ grâce à la synchronisation des horloges mondiales. En revanche, les positionnements dans le réseau des acteurs et dans les espaces conceptuels nécessitent des interactions avec l’utilisateur.</p>
+</section>
+<section id="sec-protosHN" class="level3" data-number="2.3.4">
+<h3 data-number="2.3.4" class="anchored" data-anchor-id="sec-protosHN"><span class="header-section-number">2.3.4</span> Conception de prototypes pour les humanités numériques</h3>
+<p>Concevoir des outils est un travail long qui demande de bien comprendre les usages particuliers d’un domaine pour en extraire une généricité opératoire dont l’outil sera la mise en forme. Mais cette capacité à formaliser dans un artefact une solution pour améliorer une activité ne suffit pas à faire un outil, il faut aussi comme la bien montré Leroi Gourhan que cette forme soit adoptée par une communauté d’utilisateur et cela même si la solution proposée n’est pas la plus adéquate&nbsp;:</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-amato2013" class="csl-entry" role="listitem">
+Amato, A. E., &amp; Perény, É. (2013). <em>Les avatars jouables des mondes numériques&nbsp;: Théories, terrains et témoignages de pratiques interactives</em>. Lavoisier.
+</div>
+<div id="ref-bachimont2011" class="csl-entry" role="listitem">
+Bachimont, B., Gandon, F., Poupeau, G., Vatant, B., Troncy, R., Pouyllau, S., Martinez, R., et al. (2011). Enjeux et technologies : des données au sens. <em>Documentaliste-Sciences de l’Information</em>, <em>48</em>(4), 24–41. Retrieved from <a href="http://www.cairn.info/article.php?ID_ARTICLE=DOCSI_484_0024">http://www.cairn.info/article.php?ID_ARTICLE=DOCSI_484_0024</a>
+</div>
+<div id="ref-bastian2009" class="csl-entry" role="listitem">
+Bastian, M., Heymann, S., &amp; Jacomy, M. (2009). Gephi : An Open Source Software for Exploring and Manipulating Networks. International AAAI Conference on Weblogs and Social Media. Retrieved from <a href="https://gephi.org/publications/gephi-bastian-feb09.pdf">https://gephi.org/publications/gephi-bastian-feb09.pdf</a>
+</div>
+<div id="ref-bateson2008" class="csl-entry" role="listitem">
+Bateson, G. (2008). Crise dans l’écologie de l’esprit (édition revue et corrigée.). Seuil.
+</div>
+<div id="ref-bautier2016" class="csl-entry" role="listitem">
+Bautier, R. (2016). Un principium équivoque pour les sciences de l<span>’</span>information et de la communication ? <em>Questions de communication</em>, (29), 145–158. Retrieved from <a href="http://journals.openedition.org/questionsdecommunication/10442">http://journals.openedition.org/questionsdecommunication/10442</a>
+</div>
+<div id="ref-belmandt1993" class="csl-entry" role="listitem">
+Belmandt, Z. (1993). <em>Manuel de prétopologie et ses applications. Sciences humaines et sociales, réseaux, jeux, reconnaissance des formes, processus et modèles, classification, imagerie, mathématiques</em>. Paris: Hermes Science Publications.
+</div>
+<div id="ref-berque2009" class="csl-entry" role="listitem">
+Berque, A. (2009). <em>Ecoumène : Introduction à l’étude des milieux humains</em>. Belin.
+</div>
+<div id="ref-boulez1975" class="csl-entry" role="listitem">
+Boulez, P. (1975). <em>Par volonte et par hasard</em>. Seuil.
+</div>
+<div id="ref-brandt2021" class="csl-entry" role="listitem">
+Brandt, P. A. (2021). De la chorématique. Les dynamiques de l<span>’</span>espace vécu. <em>Revista Acta Semiotica</em>. Retrieved from <a href="https://revistas.pucsp.br/index.php/actasemiotica/article/view/54143">https://revistas.pucsp.br/index.php/actasemiotica/article/view/54143</a>
+</div>
+<div id="ref-callon2013" class="csl-entry" role="listitem">
+Callon, M. (2013). Quatre modèles pour décrire la dynamique de la science. In M. Akrich &amp; B. Latour (Eds.), Sciences sociales (pp. 201–251). Paris: Presses des Mines. Retrieved from <a href="http://books.openedition.org/pressesmines/1199">http://books.openedition.org/pressesmines/1199</a>
+</div>
+<div id="ref-card1999" class="csl-entry" role="listitem">
+Card, S. K., Mackinlay, J. D., &amp; Shneiderman, B. (1999). Readings in information visualization. In S. K. Card, J. D. Mackinlay, &amp; B. Shneiderman (Eds.), (p. 579581). San Francisco, CA, USA: Morgan Kaufmann Publishers Inc. Retrieved from <a href="http://dl.acm.org/citation.cfm?id=300679.300826">http://dl.acm.org/citation.cfm?id=300679.300826</a>
+</div>
+<div id="ref-cazenave2006" class="csl-entry" role="listitem">
+Cazenave, C. (2006). Le coup de dé ou l’affirmation du hasard. Hermann.
+</div>
+<div id="ref-clément2021" class="csl-entry" role="listitem">
+Clément, E. (2021). <em>La flexibilité cognitive: Pierre angulaire de l’apprentissage</em>. ISTE éditions.
+</div>
+<div id="ref-comte-sponville1998" class="csl-entry" role="listitem">
+Comte-Sponville, A. (1998). 3. Qu’est-ce que le matérialisme ? <em>Une éducation philosophique</em>, Perspectives critiques, <em>7e éd.</em>, 86–111. Retrieved from <a href="https://www.cairn.info/education-philosophique--9782130458975-page-86.htm">https://www.cairn.info/education-philosophique--9782130458975-page-86.htm</a>
+</div>
+<div id="ref-dalud-vincent2017" class="csl-entry" role="listitem">
+Dalud-Vincent, M. (2017). Une autre manière de modéliser les réseaux sociaux. Applications à l<span>’</span>étude de co-publications. <em>Nouvelles perspectives en sciences sociales</em>, <em>12</em>(2), 41–68. Retrieved from <a href="https://www.erudit.org/fr/revues/npss/2009-v4-n2-npss03175/1040904ar/">https://www.erudit.org/fr/revues/npss/2009-v4-n2-npss03175/1040904ar/</a>
+</div>
+<div id="ref-deleuze1968" class="csl-entry" role="listitem">
+Deleuze, G. (1968). <em>Spinoza et le problème de l’expression</em>. Arguments (éditions de minuit. Paris: Éditions de Minuit.
+</div>
+<div id="ref-deleuze1981" class="csl-entry" role="listitem">
+Deleuze, G. (1981, March 17). La voix de gilles deleuze : 12- 17/03/81 - 1. Retrieved from <a href="http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151">http://www2.univ-paris8.fr/deleuze/article.php3?id_article=151</a>
+</div>
+<div id="ref-deleuze1988" class="csl-entry" role="listitem">
+Deleuze, G. (1988). <em>Le pli</em>. Editions de Minuit.
+</div>
+<div id="ref-deleuze2003" class="csl-entry" role="listitem">
+Deleuze, G. (2003). <em>Spinoza. : Philosophie pratique</em> ([Nouv. éd.].). Editions de Minuit.
+</div>
+<div id="ref-deleuze2005" class="csl-entry" role="listitem">
+Deleuze, G., &amp; Guattari, F. (2005). <em>Qu’est-ce que la philosophie ?</em> Les Editions de Minuit.
+</div>
+<div id="ref-derrida1997" class="csl-entry" role="listitem">
+Derrida, J. (1997). <em>Chora l works: Jacques derrida and peter eisenman</em>. Monacelli Press.
+</div>
+<div id="ref-descola2005" class="csl-entry" role="listitem">
+Descola, Philippe. (2005). <em>Par-delà nature et culture</em>. Paris: NRF : Gallimard.
+</div>
+<div id="ref-deuff2019" class="csl-entry" role="listitem">
+Deuff, O. L. (2019). La fiche entre économie informationnelle et attentionnelle the index card between informational and attentional economy.
+</div>
+<div id="ref-dufort2015" class="csl-entry" role="listitem">
+Dufort, D., Tajariol, F., &amp; Roxin, I. (2015). ‪Jeux pervasifs culturels : conception d<span>’</span>un outil descriptif et taxonomique‪. <em>Questions de communication</em>, <em>28</em>(2), 19–41. Retrieved from <a href="https://www.cairn.info/revue-questions-de-communication-2015-2-page-19.htm">https://www.cairn.info/revue-questions-de-communication-2015-2-page-19.htm</a>
+</div>
+<div id="ref-eco1994" class="csl-entry" role="listitem">
+Eco, U. (1994). <em>La recherche de la langue parfaite dans la culture européenne</em>. Paris: Seuil.
+</div>
+<div id="ref-ertzscheid2023" class="csl-entry" role="listitem">
+Ertzscheid, O. (2023, January 2). GPT-3 : c’est toi le Chat. Retrieved from <a href="https://affordance.framasoft.org/2023/01/gpt-3-cest-toi-le-chat/">https://affordance.framasoft.org/2023/01/gpt-3-cest-toi-le-chat/</a>
+</div>
+<div id="ref-gärdenfors2001" class="csl-entry" role="listitem">
+Gärdenfors, P. (2001). Les espaces conceptuels. <em>Intellectica</em>, <em>32</em>(1), 185–205. Retrieved from <a href="https://www.persee.fr/doc/intel_0769-4113_2001_num_32_1_1617">https://www.persee.fr/doc/intel_0769-4113_2001_num_32_1_1617</a>
+</div>
+<div id="ref-hofstadter2013" class="csl-entry" role="listitem">
+Hofstadter, D., &amp; Sander, E. (2013). <em>L’analogie : Coeur de la pensée</em>. Odile Jacob.
+</div>
+<div id="ref-jérusalem1993" class="csl-entry" role="listitem">
+Jérusalem, E. biblique de. (1993). <em>La Bible de Jérusalem : La Sainte Bible</em> (Nouvelle édition.). Paris: Desclée de Brouwer.
+</div>
+<div id="ref-juanals2010" class="csl-entry" role="listitem">
+Juanals, B., &amp; Noyer, J.-M. (2010). De l’émergence de nouvelles technologies intellectuelles. Hermes Science Publications.
+</div>
+<div id="ref-laborde2019" class="csl-entry" role="listitem">
+Laborde, J. (2019, April 2). <em>Pretopology, a mathematical tool for structuring complex systems : methods, algorithms and applications</em> (PhD thesis). Retrieved from <a href="https://tel.archives-ouvertes.fr/tel-02637029">https://tel.archives-ouvertes.fr/tel-02637029</a>
+</div>
+<div id="ref-latour2012" class="csl-entry" role="listitem">
+Latour, B. (2012). <em>Enquêtes sur les modes d’existence : Une anthropologie des modernes</em>. Paris: Editions La Découverte.
+</div>
+<div id="ref-lecun" class="csl-entry" role="listitem">
+LeCun, Y. (n.d.). A vision to make AI systems learn and reason like animals and humans. Retrieved from <a href="https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/">https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/</a>
+</div>
+<div id="ref-leveau-vallier2023" class="csl-entry" role="listitem">
+Leveau-Vallier, A. (2023, January 27). <em>Intelligence artificielle et intuition</em> (PhD thesis). Retrieved from <a href="https://hal.science/tel-04015572/document">https://hal.science/tel-04015572/document</a>
+</div>
+<div id="ref-lévy1990" class="csl-entry" role="listitem">
+Lévy, P. (1990). <em>Les technologies de l’intelligence l’avenir de la pensée à l’ère informatique</em>. Points sciences (Edition la découverte.). Paris.
+</div>
+<div id="ref-lévy2011" class="csl-entry" role="listitem">
+Lévy, P. (2011). <em>La sphère sémantique : Tome 1, computation, cognition, économie de l’information</em>. Hermes Science Publications.
+</div>
+<div id="ref-masure2023" class="csl-entry" role="listitem">
+Masure, A. (2023). <em>Design sous artifice : la création au risque du machine learning</em> (Illustrated édition.). Head Publishing.
+</div>
+<div id="ref-maturana1994" class="csl-entry" role="listitem">
+Maturana, H. R., &amp; Varela, F. J. (1994). <em>L’arbre de la connaissance</em>. Paris: Editions Addison-Wesley France.
+</div>
+<div id="ref-morin1981" class="csl-entry" role="listitem">
+Morin, E. (1981). <em>La méthode, tome 1</em>. Seuil.
+</div>
+<div id="ref-morin1992" class="csl-entry" role="listitem">
+Morin, E. (1992). <em>La méthode, la connaissance de la connaissance, tome 3</em>. Seuil.
+</div>
+<div id="ref-morin1995" class="csl-entry" role="listitem">
+Morin, E. (1995). <em>La méthode, tome 4 : Les idées</em>. Seuil.
+</div>
+<div id="ref-reymond1996" class="csl-entry" role="listitem">
+Reymond, H., &amp; Brunet, R. (1996). Les sentiers de la géographie (II) : ébauche d’un carnet de route. <em>L’Espace géographique</em>, <em>25</em>(1), 33–36. Retrieved from <a href="https://www.persee.fr/doc/spgeo_0046-2497_1996_num_25_1_951">https://www.persee.fr/doc/spgeo_0046-2497_1996_num_25_1_951</a>
+</div>
+<div id="ref-saintgirons2016" class="csl-entry" role="listitem">
+Saint Girons, B. (2016). <em>Les sens du Tao - Comprendre Lao Zi et vivre mieux</em>. Paris: ENTRELACS.
+</div>
+<div id="ref-saleh1992" class="csl-entry" role="listitem">
+Saleh, I. (1992). <em>Les Bases de données avancées</em>. Paris: Hermes Sciences Publicat.
+</div>
+<div id="ref-sauret2020" class="csl-entry" role="listitem">
+Sauret, N. (2020, November 20). <em>De la revue au collectif : La conversation comme dispositif d<span>’</span>éditorialisation des communautés savantes en lettres et sciences humaines</em> (PhD thesis). Retrieved from <a href="https://theses.fr/2020PA100146">https://theses.fr/2020PA100146</a>
+</div>
+<div id="ref-scottlee1998" class="csl-entry" role="listitem">
+Scott Lee, J. (1998). Par delà la mimêsis : Mallarmé, boulez et cage. <em>Revue esthétique</em>, (numéro 13-14-15), 295–311.
+</div>
+<div id="ref-szoniecky2012" class="csl-entry" role="listitem">
+Szoniecky, S. (2012, December 7). <em>Évaluation et conception d’un langage symbolique pour l’intelligence collective : Vers un langage allégorique pour le web</em> (PhD thesis). Retrieved from <a href="http://tel.archives-ouvertes.fr/tel-00764457">http://tel.archives-ouvertes.fr/tel-00764457</a>
+</div>
+<div id="ref-thibault2017" class="csl-entry" role="listitem">
+Thibault, S. (2017). Prétopologie et espaces habités. <em>Revue électronique des sciences humaines et sociales.</em> Retrieved from <a href="https://www.espacestemps.net/articles/pretopologie-espaces-habites/">https://www.espacestemps.net/articles/pretopologie-espaces-habites/</a>
+</div>
+<div id="ref-thom1975" class="csl-entry" role="listitem">
+Thom, R. (1975). D’un modèle de la science à une science des modèles. <em>Synthese: An International Journal for Epistemology, Methodology and Philosophy of Science</em>, <em>31</em>(2), 359–374.
+</div>
+<div id="ref-toumia2018" class="csl-entry" role="listitem">
+Toumia, A. (2018). Privacy representation in the internet of things using pretopological theory. DTUC ’18 (p. 15). Paris, France: Association for Computing Machinery. Retrieved from <a href="https://doi.org/10.1145/3240117.3240134">https://doi.org/10.1145/3240117.3240134</a>
+</div>
+<div id="ref-vitalirosati2021" class="csl-entry" role="listitem">
+Vitali Rosati, M. (2021, April 4). Ce qui pourrait être autrement: IEML et les algorithmes qui pensent. Retrieved from <a href="http://blog.sens-public.org/marcellovitalirosati/cequipourrait/ieml.html">http://blog.sens-public.org/marcellovitalirosati/cequipourrait/ieml.html</a>
+</div>
+<div id="ref-zamora2003" class="csl-entry" role="listitem">
+Zamora, J. M. (2003). La chôra après platon (pp. 16–32). Publication Univ Rouen Havre.
+</div>
+<div id="ref-µ2015" class="csl-entry" role="listitem">
+µG., Edeline, F., &amp; Klinkenberg, J.-M. (2015). <em>Principia semiotica : Aux sources du sens</em>. Bruxelles: Les impressions nouvelles éditions.
+</div>
+<div id="ref-µ2016" class="csl-entry" role="listitem">
+µG., Édeline, F., &amp; Klinkenberg, J.-M. (2016). Du sens à l<span>’</span>action, de l<span>’</span>anasémiose à la catasémiose. <em>Corela. Cognition, représentation, langage</em>, (HS-19). Retrieved from <a href="http://journals.openedition.org/corela/4540">http://journals.openedition.org/corela/4540</a>
+</div>
+</div>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Cf. <a href="https://fr.wikipedia.org/wiki/HyperCard" class="uri">https://fr.wikipedia.org/wiki/HyperCard</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Voir la cérémonie du changement de note : <a href="https://www.youtube.com/watch?v=_3BBgQPuPI0" class="uri">https://www.youtube.com/watch?v=_3BBgQPuPI0</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>&nbsp;Précisons toutefois que l’humain est particulière efficace pour la paréidolie <span class="citation" data-cites="dufort2015">(<a href="references.html#ref-dufort2015" role="doc-biblioref">Dufort, Tajariol, &amp; Roxin, 2015</a>)</span>, ce qui lui permet de donner du sens à des formes ambiguës et donc de créer des signifiés quelles que soient les parties extensives qu’il discerne.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>&nbsp;Le chiffre correspond au nombre d’adresse définie dans le dictionnaire IEML à la date du 25/01/2023. Ce travail toujours entrain de se faire est consultable ici&nbsp;: https://github.com/plevyieml/ieml-language/<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>&nbsp;L’éditeur IEML était accessible (https://dev.intlekt.io/) mais n’est plus accessible<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>&nbsp;Pour un historique rapide des différentes implémentations&nbsp;: https://intlekt.io/histoire/<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><blockquote class="blockquote">
+<p>Nous ne présenterons pas ici les relations de ce travail avec les recherches en informatique théorique sur la complexité algorithmique (Perrot, 2022)</p>
+</blockquote>
+<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn8"><blockquote class="blockquote">
+<p>Cette algorithme est utilisable directement avec une API pour un petit nombre d’élément ou avec un «&nbsp;Writer&nbsp;» pour le module Bulk Export développé par Daniel Bertherau (https://gitlab.com/Daniel-KM/Omeka-S-module-BulkExport). Le code de l’algorithme est disponible ici&nbsp;: <a href="https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L169" class="uri">https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L169</a><br>
+le writer ici :https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/Writer/AbstractComplexityWriter.php</p>
+</blockquote>
+<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn9"><blockquote class="blockquote">
+<p>La liste des correspondance est disponible ici&nbsp;: https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L39</p>
+</blockquote>
+<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn10"><blockquote class="blockquote">
+<p>Cette information n’est présente que dans les calculs via l’API mais pas avec le module Export</p>
+</blockquote>
+<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn11"><blockquote class="blockquote">
+<p>Cette information n’est présente que pour les ressource de niveau 1 dans les calculs via l’API mais pas avec le module Export</p>
+</blockquote>
+<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./cartoConnaissances.html" class="pagination-link" aria-label="Cartographie d'un milieu de connaissances">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Cartographie d’un milieu de connaissances</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./principesCarto.html" class="pagination-link" aria-label="Principes de cartographie des connaissances">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Principes de cartographie des connaissances</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
