@@ -145,9 +145,14 @@ export class streamWords {
         }
         function getAuthors(d,o,t='authors'){
             let exclude=false, fi, 
-                frq = 1,//6*(nivs[1]-d.niv), 
                 k = o.date, a,
-                act = me.data.actants.filter(f=>f.id==d.idAct)[0];
+                doc = me.data.docs.filter(f=>f.id==d.idDoc)[0],
+                act = me.data.actants.filter(f=>f.id==d.idAct)[0],
+                /*pondère la fréquence par la complexité
+                ATTENTION cela met en avant les publication avec beaucoup de co-auteurs
+                frq = parseInt(doc.cpx);
+                */
+                frq = 1;//6*(nivs[1]-d.niv);
             //exclusion de luckysemiosis & Samuel Szoniecky...            
             if(me.noWords.includes(act.title))return;
             //exclusion des Github : user

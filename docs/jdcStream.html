@@ -12,6 +12,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/handsontable.full.min.js"></script>
     <script src="assets/js/wordstream.v7.js"></script>
+    <script src="assets/js/d3-simple-slider.min.js"></script>    
     <script src="https://unpkg.com/compromise"></script>
     <script src="https://cdn.jsdelivr.net/npm/stopword/dist/stopword.umd.min.js"></script>
 
@@ -65,6 +66,10 @@
                                     <input id="iptQuery" class="form-control me-2" placeholder="Query"
                                         aria-label="Query">
                                     <button id="btnQuery" class="btn btn-outline-success"><i class="fa-solid fa-arrows-rotate"></i></button>
+                                </li>
+                                <li class="d-flex">
+                                    <div class="col-sm-2"><p id="value-H"></p></div>
+                                    <div class="col-sm"><div id="slider-H"></div></div>
                                 </li>
                             </ul>
                         </div>
@@ -136,6 +141,29 @@
             rectHeader = d3.select('header').node().getBoundingClientRect(),
             rectDiag = d3.select('#contentChart').node().getBoundingClientRect(),
             pc, cpx, cpxDB;
+
+        //gestion des sliders
+        var data = [0, 10, 100, 1000];
+        var sliderSimple = d3
+            .sliderBottom()
+            .min(d3.min(data))
+            .max(d3.max(data))
+            .width(300)
+            .tickFormat(d3.format('.2%'))
+            .ticks(5)
+            .default(0.015)
+            .on('onchange', (val) => {
+                d3.select('value-H').text(d3.format('.2%')(val));
+            });
+        var gSimple = d3
+            .select('#slider-H')
+            .append('svg')
+            .attr('width', 300)
+            .attr('height', 50)
+            .append('g')
+            .attr('transform', 'translate(30,30)');
+        gSimple.call(sliderSimple);
+     
 
         /*
         setMenu('#ddExport',[
