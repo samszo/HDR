@@ -52,7 +52,7 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         <i class="fa-solid fa-people-group"></i>
-                                        <span id="selectRoleActors">Choose the role of the actors</span>
+                                        <span id="selectRoleActors">Role of the actors</span>
                                     </a>
                                     <ul id="ddSelectRoleActors" class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">publications</a></li>                                        
@@ -68,8 +68,7 @@
                                     <button id="btnQuery" class="btn btn-outline-success"><i class="fa-solid fa-arrows-rotate"></i></button>
                                 </li>
                                 <li class="d-flex">
-                                    <div class="col-sm-2"><p id="value-H"></p></div>
-                                    <div class="col-sm"><div id="slider-H"></div></div>
+                                    <button id="btnStreamParams" class="btn btn-outline-success"><i class="fa-solid fa-sliders"></i></button>
                                 </li>
                             </ul>
                         </div>
@@ -142,29 +141,6 @@
             rectDiag = d3.select('#contentChart').node().getBoundingClientRect(),
             pc, cpx, cpxDB;
 
-        //gestion des sliders
-        var data = [0, 10, 100, 1000];
-        var sliderSimple = d3
-            .sliderBottom()
-            .min(d3.min(data))
-            .max(d3.max(data))
-            .width(300)
-            .tickFormat(d3.format('.2%'))
-            .ticks(5)
-            .default(0.015)
-            .on('onchange', (val) => {
-                d3.select('value-H').text(d3.format('.2%')(val));
-            });
-        var gSimple = d3
-            .select('#slider-H')
-            .append('svg')
-            .attr('width', 300)
-            .attr('height', 50)
-            .append('g')
-            .attr('transform', 'translate(30,30)');
-        gSimple.call(sliderSimple);
-     
-
         /*
         setMenu('#ddExport',[
             {'id':1,'name':'Toutes les données'},
@@ -183,6 +159,10 @@
             let u = d3.select("#iptUrl").node().value; 
             setDiag(u);
         })
+        d3.select("#btnStreamParams").on('click',e=>{
+            if(sw)sw.showParams();
+        })
+        
            
         if(aUrl.params && aUrl.params.has('id'))
             setDiag(urlApiOmk+aUrl.params.get('id'));

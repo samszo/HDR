@@ -141,3 +141,28 @@ export let modalStreamNode = `
         </div>
     </div>
 `;
+
+//ajoute la modal pour paramétrer le stream
+export let modalStreamParams = `
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header text-bg-warning">
+                <h5 class="modal-title">Stream Words Parameters</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-bg-dark">                            
+                <div class="row">
+                    <div class="col-2">
+                        <label class="form-label">Heigth = </label>
+                        <label id="value-H" class="form-label"></label>
+                    </div>
+                    <div class="col-10">
+                        <div id="slider-H"></div>
+                    </div>
+                </div>                                        
+            </div>
+            <div class="modal-footer text-bg-warning">
+            </div>
+        </div>
+    </div>
+`;

@@ -26,8 +26,9 @@ export class streamWords {
             };
         const m=new modal({'size':'modal-lg'}); 
         let dataForVis = [], authors=[], words=[], svg, wCat,
-            margins = {t:10,b:10,l:10,r:10},
-            nivs, mNoeud = m.add('modalStreamNode');
+            margins = {t:10,b:10,l:10,r:10}, nivs, 
+            mNoeud = m.add('modalStreamNode'),
+            mParams = m.add('modalStreamParams');
 
         this.init = function () {
             setData();
@@ -294,6 +295,61 @@ export class streamWords {
                 });
             mNoeud.m.show();
         }
+
+        this.showParams = function(){
+            //gestion des sliders
+            var data = [0, 10, 100, 1000];
+            var sliderSimple = d3
+                .sliderBottom()
+                .min(d3.min(data))
+                .max(d3.max(data))
+                .width(600)
+                //.tickFormat(d3.format('.2%'))
+                .ticks(5)
+                .default(10)
+                .on('onchange', (val) => {
+                    mParams.s.select('#value-H').text(parseInt(val));
+                });
+            var gSimple = d3
+                .select('#slider-H')
+                .append('svg')
+                .attr('width', "100%")
+                .attr('height', 100)
+                .append('g')
+                .attr('transform', 'translate(30,30)');
+            gSimple.call(sliderSimple);
+                 
+            /*
+            mNoeud.s.select('#streamNodeTitre').text(d.text+' : '+d.d[0].date);
+            let docs = [], doublons=[];
+            d.d.forEach(dd=>{
+                if(!doublons[dd.idDoc]){
+                    docs.push(me.data.docs.filter(doc=>doc.id==dd.idDoc)[0]);
+                    doublons[dd.idDoc]=true;
+                }
+            })
+            mNoeud.s.select('#streamNodeTab').selectAll('li').remove();
+            mNoeud.s.select('#streamNodeTab').selectAll('li').data(docs).enter()
+                .append('li').attr('class',"nav-item").attr('role',"presentation")
+                    .append('button').attr('class',(doc,i)=>i==0 ? "nav-link active" : "nav-link")
+                    .attr('id',doc=>'node'+doc.id)
+                    .attr('data-bs-toggle',"tab")
+                    .attr('data-bs-target',doc=>'#node'+doc.id+"-pane")
+                    .attr('type',"button").attr('type',"button")
+                    .attr('role',"tab").attr('aria-controls',doc=>'node'+doc.id+"-pane")
+                    .attr('aria-selected',(doc,i)=>i==0?'true':'false').text(doc=>doc.title);
+            mNoeud.s.select('#streamNodeTabContent').selectAll('div').remove();
+            mNoeud.s.select('#streamNodeTabContent').selectAll('div').data(docs).enter()
+                .append('div').attr("class",(doc,i)=>i==0?"tab-pane fade show active":"tab-pane fade")
+                .attr('id',doc=>'node'+doc.id+"-pane")
+                .attr('role',"tabpanel").attr('aria-labelledby',doc=>'node'+doc.id)
+                .attr('tabindex',(doc,i)=>i).html(doc=>{
+                    return '<iframe class="fiche" src="../../omk/s/fiches/item/'+doc.id+'"/>'
+                });
+            */
+            mParams.m.show();
+        }        
+        
 
         this.init();    
     }
