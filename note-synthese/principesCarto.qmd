@@ -175,6 +175,26 @@ Dans les espaces matériels les connaissances sont des chocs qui ne dure qu'un i
 
 ## Espaces conceptuels : représenter des topologies {#sec-espaceConceptuels}
 
+Les espaces conceptuels se prêtent particulièrement bien à la modélisation prétopologique car il correspondent à ces deux principes fondamentaux  :
+
+> « pretopology can be used to represent a system where the relation between an element and a set is not a simple aggregation of the individual relations to the members of the set. In this it is fundamentally different from a graph.
+
+> pretopology establishes one single relation between a particular element and a particular group. In this it is different from a multilayer network. » [@laborde2019, p. 28]
+
+Nos principes de modélisation utilisent les notions de base de la prétopologie pour guider l'utilisateur dans la construction d'une carte et pas uniquement pour représenter les résultats d'une analyse automatique comme peuvent le faire par exemple les outils de modélisation de graphes comme Gephi [@bastian2009]. L'idée principale de cette démarche est de construire pas à pas des modèles conceptuels relativement simples avec un protocole de formalisation les rendant compréhensibles, interopérables et calculables. Les choix nécessaires à la construction de ces modèles sont ceux du modélisateur et pas ceux d'un algorithme qu'on bricole en jouant avec ses paramètres pour obtenir la représentation désirée. Avec les principes que nous proposons, le modélisateur maîtrise la signification de ces choix ce qui n'est pas toujours le cas quand on applique un algorithme sur une grande quantité de données. L'objectif est d'éviter que le modèle serve uniquement d'illustration justifiant un discours par un « preuve » formelle mais soit le discours à part entière.
+
+Le processus de cartographie que nous proposons à partir d'une modélisation prétopologique consiste à définir un espace conceptuel en lui donnant un titre. Cet espace est représenté par une ellipse et par son titre. Dans un deuxième temps, cet espace est peuplé d'un ensemble d'éléments appartenant à l'espace. Par exemple, l'espace conceptuel que nous cartographions porte le titre de « humanités numériques », il se compose des éléments  : humains, machines, collaboration, efficace, biais, cognitifs...
+
+Dans un troisième temps, la modélisation prétopologique consiste à créer un ensemble de parties P(X) qui sont des sous-ensembles constitués avec une application d'adhérence qui s'applique aux éléments de l'ensemble.
+
+> « On appelle prétopologie sur X, toute application adh de P(X) dans P(X) qui vérifie :\
+> i - adh (ø) = ø\
+> ii - ∀A ∈ P(X), A ⊂ adh(A)\
+> (X, adh) est appelé espace prétopologique.\
+> adh est encore appelée adhérence. » [@dalud-vincent2017, p. 47]
+
+Dans notre cas, l'application d'adhérence consiste à « conceptualiser » les chaînes de caractères continues pour modéliser des sous-ensemble sous forme de mots  : P(X) = \[« humains », « machines », « collaboration », « efficace », « biais », « cognitifs »\]. Ces mots sont eux-aussi représentés par une ellipse et par un titre ce qui de manière fractale fait que chaque élément de l'ensemble est lui-même un ensemble disposant de propriétés et de méthodes utiles pour sa manipulation cartographique. De même, l'espace conceptuel « humanités numériques » peut-être utiliser comment élément d'un ensemble plus vaste par exemple « sciences humaines ».
+
 Pour faciliter la manipulation des dimensions conceptuelles @sec-dimensionConceptuels nous travaillons à un dispositif de cartographie qui présente un espace dynamique et interactif dans lequel les cartographes pourront utiliser graphiquement les applications prétopologiques @sec-modelisationsPretopologique pour : créer un espace, le définir, créer des sous ensembles et le mettre en relation avec d'autres espaces suivant des applications prétopologiques spécifiques. Pour faciliter le positionnement des concepts les uns par rapport aux autres en évitant le chevauchement des titres, nous avons fait le choix d'utiliser une grille hexagonale comme le propose [@rodighiero2021] pour réaliser la carte des affinités d'un laboratoire de recherche ou comme nous l'avons expérimenté pour paramétrer le filtrage des flux d'informations [@szoniecky2011]. Une grille hexagonale permet de représenter les relations d'un élément avec vingt-quatre autres sans aucun chevauchement, ce qui peut paraître faible lorsqu'on pense à l'infinité des relations possibles entre les concepts mais qui offre l'avantage de contraindre la cartographie sémantique dans un espace relativement simple et donc facilement compréhensible. De plus, la construction fractale des rapports entre ensembles et éléments rend infini la possibilité d'expression puisque le regroupement des élément dans un ensemble crée la possibilité de représenter vingt-quatre nouveaux éléments. Pour des raisons d'ergonomie graphique et algorithmique, les espaces conceptuels sont structurés par une grille hexagonale  :
 
 > « L'hexagone permet de "paver" l'espace en un agencement sans fin, qui, potentiellement, permet de dessiner des réseaux infinis. \[...\] Choisir une grille hexagonale réduit le bruit numérique et facilite la lecture. » [@rodighiero2021, p. 76]

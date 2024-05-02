@@ -30,6 +30,7 @@ book:
         - capterGout.qmd
         - developper.qmd
         - diffuser.qmd
+    - conclusion.qmd
     - references.qmd
 
 bibliography: references.bib

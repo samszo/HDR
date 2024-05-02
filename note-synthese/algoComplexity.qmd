@@ -1,0 +1,61 @@
+
+```{mermaid}
+%%| echo: false
+%%| label: fig-algoComplexity
+%%| fig-cap: "Calculer les complexités"
+%%| fig-height: 100px
+%%| 
+flowchart TD
+    cpxExi[Calculer la complexité d'une existence] -->exiExist{Le calcul est déjà fait ?}
+    exiExist -->|Oui| cpxFin
+    exiExist -->|Non| niv1{Niveau = 1 ?}
+    niv1 -->|Oui| initCumul[Initialisation des cumuls]
+    niv1 -->|Non| getDim[Défini la dimension]
+    initCumul --> getDim
+    getDim -->incDim[Incrémente le nombre d'existence 
+        de cette dimension]
+    incDim --> incExi{Ajoute le nombre}
+    incExi-->|de propriété| incCptProp[au nombre de concept]
+    incCptProp --> incRapProp[au nombre de rapport
+        entre actant et concept]
+    incExi-->|de valeur| incPhyVal[au nombre de physique]
+    incPhyVal --> incRapVal[au nombre de rapport 
+        entre actant et physique]
+    incExi-->|de propriétaire| incActProp[au nombre d'actant]
+    incActProp --> incRapVal[au nombre de rapport 
+        entre actant et physique]
+    incExi-->|d'URI| incActUri[au nombre de rapport 
+        entre actant et physique]
+    incRapVal --> traitExistRes{Niveau = 1 ?}
+    incRapProp --> traitExistRes
+    incActUri --> traitExistRes
+    traitExistRes -->|Oui| exiA[l'existence a des]
+    traitExistRes -->|Non| cpxFin
+    exiA -->exiResExt{ressources 
+        externes ?}
+    exiA -->exiResInt{ressources 
+        internes ?}    
+    exiA -->exiResMedia{médias ?}    
+    exiA -->exiResAnno{annotations ?}    
+    traitExistRes -->|Oui|exiResCol{Est une collection ?}    
+    exiResExt-->|Oui| traitRes
+    exiResInt-->|Oui| traitRes
+    exiResMedia-->|Oui| traitRes
+    exiResAnno-->|Oui| traitRes
+    exiResCol-->|Oui| traitRes
+    nivMaxRes-->|Oui|calcCpx
+    subgraph traitRes[Pour chaque ressource]
+        getDimRes[Défini la dimension]
+        getDimRes-->incRapRes[Incrémente le nombre
+        de rapport entre
+        l'actant, la dimension de la ressource 
+        et la propriété qui lie 
+        la ressource à l'existence]
+        incRapRes --> nivMaxRes{Niveau max ?}
+        nivMaxRes -->|Non| getStat[Calculer les stats]
+        getStat--> cpxRes[Calculer la complexité]
+    end
+    cpxExi --- cpxRes
+    cpxRes -->calcCpx[Cumul des complexités]
+    calcCpx-->saveCpx[Enregistre la complexité]
+    saveCpx-->cpxFin[Fin]
