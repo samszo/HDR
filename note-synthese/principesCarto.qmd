@@ -23,25 +23,25 @@ Les chapitres suivants explicitent comment à partir de ces références, de ces
 
 ## Cartographier dans un environnement Web {#sec-cartoEnvWeb}
 
-Un environnement Web se base avant tout sur une architecture Client / Serveur qui utilise le protocole HTTP pour organiser les échanges de données entre des machines et des utilisateurs via un navigateur [@balpe1996] cf. ci-dessous[^principescarto-1].
+Un environnement Web se base avant tout sur une architecture Client / Serveur qui utilise le protocole HTTP pour organiser les échanges de données entre des machines et des utilisateurs via un navigateur [@balpe1996] cf. ci-dessous[^1].
 
-[^principescarto-1]:  Cf. <https://samszo.univ-paris8.fr/conf_errance/cours_systeme-information-programation-internet/slide.html?diapo=5>
+[^1]:  Cf. <https://samszo.univ-paris8.fr/conf_errance/cours_systeme-information-programation-internet/slide.html?diapo=5>
 
 ![Architecture Client / Serveur](media/1000000100000708000005788D09F0CE68E86891.png){#fig-ArchitectureClientServeur fig-align="center" height="200"}
 
-Nous ne ferons pas ici une analyse des technologiques de représentation des données [@andry2022; @fekete2015] préférant nous focaliser sur les outils et les méthodes que nous utilisons dans le cadre de ce travail pour cartographier nos connaissances. Nous ne détaillerons pas non plus tous les éléments qui composent notre environnement[^principescarto-2] mais uniquement les plus pertinents pour comprendre les principes de cartographie que nous avons mis en place dans ce travail pour gérer les données du coté serveur et naviguer dans leurs représentations du coté client.
+Nous ne ferons pas ici une analyse des technologiques de représentation des données [@andry2022; @fekete2015] préférant nous focaliser sur les outils et les méthodes que nous utilisons dans le cadre de ce travail pour cartographier nos connaissances. Nous ne détaillerons pas non plus tous les éléments qui composent notre environnement[^2] mais uniquement les plus pertinents pour comprendre les principes de cartographie que nous avons mis en place dans ce travail pour gérer les données du coté serveur et naviguer dans leurs représentations du coté client.
 
-[^principescarto-2]:  Disponibles sur notre forge logicielle : <https://github.com/samszo>
+[^2]:  Disponibles sur notre forge logicielle : <https://github.com/samszo>
 
 ### Gérer les données sur les serveurs {#sec-gestDonneesServeurs}
 
-Les serveurs sont des machines qui fournissent des ressources via une requête spécifique sur une adresse unique dans un environnement Web. Le protocole HTTP définie les conditions d'adressage de ces requêtes et les éventuels paramètres qui lui sont associés. Il existe une multitude de solutions pour gérer les données à partir de ce protocole et des langages informatiques associés comme PHP, Python, Java... Pour nos travaux de recherche, nous avions fait le choix de développer sur nos serveurs, une boite à outils basée sur PHP et une base de données spécifique [@szoniecky2017, p. 141]. Pour des questions de maintenance de l'environnement, de facilités de développement et de diffusion des données de la recherche, nous avons abandonné cette solution pour utiliser depuis quelques années l'environnement Web proposé par le CMS Omeka S[^principescarto-3]. Cette solution de gestion des archives numériques offrent les fonctionnalités nécessaires pour modéliser une base de données spécifique respectant les principes du Linked Open Data[^principescarto-4] et les moyens de manipuler ces données avec des vocabulaires, des modèles de ressource, des modules et des thèmes spécifiques. Une fois maîtrisé les éléments de cet environnement, les données produites par les recherches deviennent accessibles, manipulables et interopérables[^principescarto-5].
+Les serveurs sont des machines qui fournissent des ressources via une requête spécifique sur une adresse unique dans un environnement Web. Le protocole HTTP définie les conditions d'adressage de ces requêtes et les éventuels paramètres qui lui sont associés. Il existe une multitude de solutions pour gérer les données à partir de ce protocole et des langages informatiques associés comme PHP, Python, Java... Pour nos travaux de recherche, nous avions fait le choix de développer sur nos serveurs, une boite à outils basée sur PHP et une base de données spécifique [@szoniecky2017, p. 141]. Pour des questions de maintenance de l'environnement, de facilités de développement et de diffusion des données de la recherche, nous avons abandonné cette solution pour utiliser depuis quelques années l'environnement Web proposé par le CMS Omeka S[^3]. Cette solution de gestion des archives numériques offrent les fonctionnalités nécessaires pour modéliser une base de données spécifique respectant les principes du Linked Open Data[^4] et les moyens de manipuler ces données avec des vocabulaires, des modèles de ressource, des modules et des thèmes spécifiques. Une fois maîtrisé les éléments de cet environnement, les données produites par les recherches deviennent accessibles, manipulables et interopérables[^5].
 
-[^principescarto-3]:  <https://omeka.org/s/>
+[^3]:  <https://omeka.org/s/>
 
-[^principescarto-4]:  <https://www.w3.org/egov/wiki/Linked_Open_Data>
+[^4]:  <https://www.w3.org/egov/wiki/Linked_Open_Data>
 
-[^principescarto-5]:  Lien vers l'API Omeka S des données de ce travail : <https://samszo.univ-paris8.fr/omk/api>
+[^5]:  Lien vers l'API Omeka S des données de ce travail : <https://samszo.univ-paris8.fr/omk/api>
 
 > « En utilisant aujourd'hui un tableur ou une base de données ad hoc pour stocker les données, non seulement on se prive de toute la richesse sémantique des LOD et de leur potentiel de traitement, mais encore on risque de ne pas pouvoir réutiliser l'information collectée. La communauté de recherche va ainsi continuer à parcourir mille fois le premier kilomètre, alors qu'une démarche collaborative de collecte de l'information, soutenue par des plateformes de recherche fondées sur les technologies sémantiques, permet de parcourir ensemble des milliers de kilomètres et de disposer, en très peu de temps et en faisant levier sur une curation collective des données, d'un graphe d'information de grande complexité, qualité et richesse. » [@beretta2023 § 15]
 
@@ -51,34 +51,34 @@ Pour ce faire, nous avons créé :
 
 -   2 vocabulaires spécifiques :
 
-    -   Jardin des connaissances : nous utilisons ce vocabulaire pour gérer la modélisation des existences informationnelles dans un écosystème de connaissances[^principescarto-6]
-    -   Formation Université Paris 8 : ce vocabulaire permet de modéliser l'architecture des enseignements dans l'enseignement supérieur[^principescarto-7]
+    -   Jardin des connaissances : nous utilisons ce vocabulaire pour gérer la modélisation des existences informationnelles dans un écosystème de connaissances[^6]
+    -   Formation Université Paris 8 : ce vocabulaire permet de modéliser l'architecture des enseignements dans l'enseignement supérieur[^7]
 
--   30 modèles de ressource[^principescarto-8] pour décrire les objets de recherche par exemple :
+-   30 modèles de ressource[^8] pour décrire les objets de recherche par exemple :
 
     -   Évènement CV : utilisé pour décrire les événements d'un curriculum vitae
     -   JDC Actant : utilisé pour décrire un actant dans un écosystème de connaissances
 
 -   4 modules spécifiques pour une gestion spécifique des données dans Omeka S:
 
-    -   Diigo Import : ce module permet d'importer les signets enregistrés dans une base de données Diigo y compris les copies d'écrans[^principescarto-9].
-    -   Zotero Import Plus : ce module[^principescarto-10] basé augmente le module Zotero Import pour importer les notes prises dans Zotero ainsi que les documents associés aux références bibliographiques.
-    -   JDC : ce module[^principescarto-11] fourni les interfaces nécessaires pour modéliser un écosystème de connaissances suivant une ontologie éthique @sec-modeleOntoEthique.
-    -   CartoAffect : ce module[^principescarto-12] permet de gérer les données pour la modélisation et la présentation des affects en relation avec un écosystème de connaissances.
+    -   Diigo Import : ce module permet d'importer les signets enregistrés dans une base de données Diigo y compris les copies d'écrans[^9].
+    -   Zotero Import Plus : ce module[^10] basé augmente le module Zotero Import pour importer les notes prises dans Zotero ainsi que les documents associés aux références bibliographiques.
+    -   JDC : ce module[^11] fourni les interfaces nécessaires pour modéliser un écosystème de connaissances suivant une ontologie éthique @sec-modeleOntoEthique.
+    -   CartoAffect : ce module[^12] permet de gérer les données pour la modélisation et la présentation des affects en relation avec un écosystème de connaissances.
 
-[^principescarto-6]:  Le vocubulaire au format rdf turtle : <https://raw.githubusercontent.com/samszo/Omeka-S-module-JDC/master/data/vocabularies/jdc.ttl>
+[^6]:  Le vocubulaire au format rdf turtle : <https://raw.githubusercontent.com/samszo/Omeka-S-module-JDC/master/data/vocabularies/jdc.ttl>
 
-[^principescarto-7]:  Le vocubulaire au format rdf turtle : <https://raw.githubusercontent.com/samszo/Omeka-S-module-JDC/master/data/vocabularies/fup8.ttl>
+[^7]:  Le vocubulaire au format rdf turtle : <https://raw.githubusercontent.com/samszo/Omeka-S-module-JDC/master/data/vocabularies/fup8.ttl>
 
-[^principescarto-8]:  La liste exhaustive est ici : <https://samszo.univ-paris8.fr/omk/api/resource_templates>
+[^8]:  La liste exhaustive est ici : <https://samszo.univ-paris8.fr/omk/api/resource_templates>
 
-[^principescarto-9]:  Dépôt du projet : <https://github.com/samszo/Omeka-S-module-DiigoImport>
+[^9]:  Dépôt du projet : <https://github.com/samszo/Omeka-S-module-DiigoImport>
 
-[^principescarto-10]:  Dépôt du projet : <https://github.com/samszo/ZoteroImportPlus>
+[^10]:  Dépôt du projet : <https://github.com/samszo/ZoteroImportPlus>
 
-[^principescarto-11]:  Dépôt du projet : <https://github.com/samszo/Omeka-S-module-JDC>
+[^11]:  Dépôt du projet : <https://github.com/samszo/Omeka-S-module-JDC>
 
-[^principescarto-12]:  Dépôt du projet : <https://github.com/samszmeka-S-module-CartoAffect>
+[^12]:  Dépôt du projet : <https://github.com/samszmeka-S-module-CartoAffect>
 
 ### Naviguer dans les représentations {#sec-naviguerRepresentations}
 
@@ -90,11 +90,11 @@ La consultations de notre écosystème de connaissances se fait avec un navigate
 
 Dans ce contexte d'écosystème graphique [@aït-touati2019; @zreik2010], il est très important de disposer des moyens pour créer des graphiques à partir des données mais aussi de manière réciproque gérer les données à partir des graphiques en concevant des interactions riches entre les données, les graphiques et leurs utilisateurs afin d'effectuer les quatre actions fondamentales sur les données : Cread Read Update Delete (CRUD). Nous ne sommes pas dans une vision statique de la représentation des données comme pouvait l'être [@bertin1999] qui prenait comme principe que les graphiques devaient être imprimables. Ce qui compte aujourd'hui c'est la capacité qu'ont les systèmes de visualisation d'être manipulables pour créer les conditions d'une interprétation des données [@drucker2020] et l'expression d'une argumentation spécifique [@desfrichesdoria2021].
 
-C'est pourquoi nous avons choisi de travailler dans un environnement Web afin de créer dynamiquement des graphiques à partir d'un flux de données et surtout de rendre ces graphiques interactifs. L'autre choix important que nous avons fait est d'utiliser le langage graphique SVG[^principescarto-13] qui permet de manipuler chaque composant graphique de manière autonome [@fry2008]. Ainsi les points, les lignes et les plans disposent d'une autonomie en terme de propriétés graphiques, événementiels et informationnelles. Grâce à la librairie JavaScript D3.js[^principescarto-14] (Data Driven Document) nous pouvons gérer ces propriétés en pilotant les graphiques à partir des données ou à l'inverse les données à partir des graphiques.
+C'est pourquoi nous avons choisi de travailler dans un environnement Web afin de créer dynamiquement des graphiques à partir d'un flux de données et surtout de rendre ces graphiques interactifs. L'autre choix important que nous avons fait est d'utiliser le langage graphique SVG[^13] qui permet de manipuler chaque composant graphique de manière autonome [@fry2008]. Ainsi les points, les lignes et les plans disposent d'une autonomie en terme de propriétés graphiques, événementiels et informationnelles. Grâce à la librairie JavaScript D3.js[^14] (Data Driven Document) nous pouvons gérer ces propriétés en pilotant les graphiques à partir des données ou à l'inverse les données à partir des graphiques.
 
-[^principescarto-13]:  <https://developer.mozilla.org/en-US/docs/Web/SVG>
+[^13]:  <https://developer.mozilla.org/en-US/docs/Web/SVG>
 
-[^principescarto-14]:  [https://observablehq.com/\@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable#maps](https://observablehq.com/@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable#maps){.uri}
+[^14]:  [https://observablehq.com/\@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable#maps](https://observablehq.com/@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable#maps){.uri}
 
 Dans cette environnement Web très ouvert et fertile, les possibilités de dynamisme et d'interaction entre les données, les graphiques et leurs utilisateurs sont potentiellement infinies. Il convient donc de spécifier plus précisément les choix que nous avons fait pour cartographier nos connaissances.
 
@@ -104,28 +104,28 @@ Les premières informations à prendre en compte dans la cartographie des connai
 
 ### Cartographier la géographie {#sec-cartoGeo}
 
-Pour réfléchir sur ces informations les humains ont depuis longtemps développé des systèmes de représentations que ce soit pour le temps [@rosenberg2013; @domenget2017], l'espace [@béguin2017] ou la combinaisons des deux [@serres1997; @giacona2019; @aït-touati2019]. Nous ne rentrerons pas ici dans l'analyse de ces représentations cela dépasserais de loin notre propos qui est de présenter nos principes cartographiques. Nous renvoyons le lecteur curieux à la veille que nous faisons depuis plus de dix ans sur cette question[^principescarto-15].
+Pour réfléchir sur ces informations les humains ont depuis longtemps développé des systèmes de représentations que ce soit pour le temps [@rosenberg2013; @domenget2017], l'espace [@béguin2017] ou la combinaisons des deux [@serres1997; @giacona2019; @aït-touati2019]. Nous ne rentrerons pas ici dans l'analyse de ces représentations cela dépasserais de loin notre propos qui est de présenter nos principes cartographiques. Nous renvoyons le lecteur curieux à la veille que nous faisons depuis plus de dix ans sur cette question[^15].
 
-[^principescarto-15]:  <https://www.diigo.com/user/luckysemiosis?query=%23spatiotempo>
+[^15]:  <https://www.diigo.com/user/luckysemiosis?query=%23spatiotempo>
 
 Sur notre Terre, les données spatiales sont définis par trois propriétés : une latitude, une longitude et une altitude. Les représentations des données géographiques sont aujourd'hui grandement aidées par les outils qui rendent disponibles pour les concepteurs les fonctionnalités nécessaires à la manipulation des cartes. Le principe de représentation est commun à tous ces outils : x = longitude, y = latitude. Ce qui diffère c'est le type de projection utilisé pour représenter les données suivant un point de vue particulier qui mettra l'accent sur une dimension spatiale. Les exemples ci-dessous montrent comment suivant le type de projection les représentations se transforment :
 
-|                                                                                                                                                                          |                                                                                                                                                                          |                                                                                                                                                                            |
+|                                                                                                                                                           |                                                                                                                                                           |                                                                                                                                                             |
 |------------------------|------------------------|------------------------|
 | ![Jacques Bertin's 1953](media/10000000000003C0000001F4F33DE5F8AECF42B5.png){#fig-projBertin alt="Jacques Bertin's 1953" fig-align="center" heigth="100"} | ![Hammer retroazimuthal](media/10000000000003C0000001F46900D5D2AB4D8E23.png){#fig-projHammer alt="Hammer retroazimuthal" fig-align="center" heigth="100"} | ![Spherical Mercator](media/10000000000003C0000001F47F8100241BAEED66.png){#fig-projSphereMercator alt="Spherical Mercator" fig-align="center" heigth="100"} |
-| Jacques Bertin's 1953                                                                                                                                                    | Hammer retroazimuthal                                                                                                                                                    | Spherical Mercator                                                                                                                                                         |
+| Jacques Bertin's 1953                                                                                                                                     | Hammer retroazimuthal                                                                                                                                     | Spherical Mercator                                                                                                                                          |
 
-: Exemples de projections géographiques[^principescarto-16] {#tbl-projGeo}
+: Exemples de projections géographiques[^16] {#tbl-projGeo}
 
-[^principescarto-16]:  <https://github.com/d3/d3-geo-projection>
+[^16]:  <https://github.com/d3/d3-geo-projection>
 
-Dans notre cas, pour concevoir des cartes géographique en deux dimensions nous utilisons des librairies JavaScript Open Source comme leaflet.js[^principescarto-17] ou D3.js qui permettent de manipuler des données géographiques modéliser avec le format GeoJSON[^principescarto-18]. Voici par exemple la représentation géographique de mes collaborations dans le monde à partir de mes dépôts dans HAL[^principescarto-19] @sec-datavizActiChercheur :
+Dans notre cas, pour concevoir des cartes géographique en deux dimensions nous utilisons des librairies JavaScript Open Source comme leaflet.js[^17] ou D3.js qui permettent de manipuler des données géographiques modéliser avec le format GeoJSON[^18]. Voici par exemple la représentation géographique de mes collaborations dans le monde à partir de mes dépôts dans HAL[^19] @sec-datavizActiChercheur :
 
-[^principescarto-17]:  <https://leafletjs.com/>
+[^17]:  <https://leafletjs.com/>
 
-[^principescarto-18]:  <https://fr.wikipedia.org/wiki/GeoJSON>
+[^18]:  <https://fr.wikipedia.org/wiki/GeoJSON>
 
-[^principescarto-19]:  <https://samszo.github.io/StatsHAL/world.html?q=Samuel%20Szoniecky>
+[^19]:  <https://samszo.github.io/StatsHAL/world.html?q=Samuel%20Szoniecky>
 
 ![Répartition des collaborations dans le monde](media/1000000100000391000001C9A8374D4BE530A8B5.png){#fig-collabMondeSamszo fig-align="center" width="600"}
 
@@ -133,23 +133,23 @@ Cette carte montre les pays hors de la France où sont publiées mes textes scie
 
 ### Cartographier le temps {#sec-cartoTempo}
 
-Pour les informations historiques, nous avons besoin de gérer deux propriétés, une date de début et une date de fin. Notons que la durée n'est pas une propriété nécessaire puisqu'elle se calcule à partir de la différence entre la date de début et la date de fin. Nous posons comme principe qu'une date de fin nulle indique une durée en cours. La frise est sans doute la représentation la plus courante et la plus commode à réaliser puisqu'elle associe une coordonnée graphique avec une échelle de temps, le plus souvent x pour une représentation horizontal et parfois y lorsqu'elle est verticale. Dans notre enfance, nous avons tous réalisé des frises historiques, elles peuplent nos salles de classe et prolifèrent sur le Web[^principescarto-20]. Nous avons une compréhension évidente de la frise historique, de son fonctionnement et des informations qu'elle diffuse : événements ponctuels, périodes. Voici par exemple la représentation en frise historique de mon activité d'enseignant chercheur :
+Pour les informations historiques, nous avons besoin de gérer deux propriétés, une date de début et une date de fin. Notons que la durée n'est pas une propriété nécessaire puisqu'elle se calcule à partir de la différence entre la date de début et la date de fin. Nous posons comme principe qu'une date de fin nulle indique une durée en cours. La frise est sans doute la représentation la plus courante et la plus commode à réaliser puisqu'elle associe une coordonnée graphique avec une échelle de temps, le plus souvent x pour une représentation horizontal et parfois y lorsqu'elle est verticale. Dans notre enfance, nous avons tous réalisé des frises historiques, elles peuplent nos salles de classe et prolifèrent sur le Web[^20]. Nous avons une compréhension évidente de la frise historique, de son fonctionnement et des informations qu'elle diffuse : événements ponctuels, périodes. Voici par exemple la représentation en frise historique de mon activité d'enseignant chercheur :
 
-[^principescarto-20]:  <https://bit.ly/3r9ROUa>
+[^20]:  <https://bit.ly/3r9ROUa>
 
 ![Timeline des activités d'enseignant chercheur](media/10000001000005060000019591922F8EA1A9F073.png){#fig-timelineCvSamszo fig-align="center" width="953"}
 
-Cette frise historique[^principescarto-21] montre l'évolution de mes activités d'enseignant chercheur suivant plusieurs types d'activité. Comme les outils Web de visualisation des cartes géographiques, cette visualisation fourni des fonctions de zoom, de déplacement et d'hypertextualité pour faciliter la lecture des données qui si elles sont trop détaillées, ne sont plus visibles. Là encore, la cartographie des connaissances dans le Web est conçu comme un outils de navigation dans les données.
+Cette frise historique[^21] montre l'évolution de mes activités d'enseignant chercheur suivant plusieurs types d'activité. Comme les outils Web de visualisation des cartes géographiques, cette visualisation fourni des fonctions de zoom, de déplacement et d'hypertextualité pour faciliter la lecture des données qui si elles sont trop détaillées, ne sont plus visibles. Là encore, la cartographie des connaissances dans le Web est conçu comme un outils de navigation dans les données.
 
-[^principescarto-21]:  Visualisation conçue à partir du modules Omeka S timeline (https://gitlab.com/Daniel-KM/Omeka-S-module-Timeline) que nous avons adapté à nos besoins.
+[^21]:  Visualisation conçue à partir du modules Omeka S timeline (https://gitlab.com/Daniel-KM/Omeka-S-module-Timeline) que nous avons adapté à nos besoins.
 
 Les connaissances sont toujours en rapport avec l'espace et le temps mais nous posons comme hypothèse qu'entre les connaissances des physicalités et celles des intériorités, entre l'étendu et la pensée, l'espace et le temps n'ont pas les même modes de perceptions et d'expressions.
 
 > « La durée se dit en fonction des parties extensives et se mesure au temps pendant lequel ces parties appartiennent à l'essence. Mais l'essence en elle-même à une réalité ou une existence éternelle ; elle n'a pas de durée, ni de temps qui marque l'achèvement de cette durée. »[@deleuze1968, p. 291]
 
-Nous suivons sur ce point les principes spinozistes d'une modélisation ontologique corrélée à une éthique en définissant trois dimensions de l'existence corrélées avec trois genres de connaissance[^principescarto-22] @sec-modeleOntoEthique. Examinons maintenant comment nous définissons de nouveaux principes cartographiques à partir de ces propositions.
+Nous suivons sur ce point les principes spinozistes d'une modélisation ontologique corrélée à une éthique en définissant trois dimensions de l'existence corrélées avec trois genres de connaissance[^22] @sec-modeleOntoEthique. Examinons maintenant comment nous définissons de nouveaux principes cartographiques à partir de ces propositions.
 
-[^principescarto-22]:  <https://spinoza.fr/les-genres-de-connaissance-extrait-du-cours-de-gilles-deleuze/>
+[^22]:  <https://spinoza.fr/les-genres-de-connaissance-extrait-du-cours-de-gilles-deleuze/>
 
 ## Espaces matériels : représenter des hiérarchies {#sec-espaceMaterielsCarto}
 
@@ -163,9 +163,9 @@ Ces compositions et décompositions des corps les plus simples que sont les part
 
 Pour cartographier les espaces matériels en tant qu'ensemble des parties extensives définissables par leurs propriétés physico-chimique et leurs compositions vers l'infiniment grand et décompositions vers l'infiniment petit, nous optons pour un modèle de diagramme hiérarchique appelé « treemap » et proposé par [@shneiderman1998] qui se compose de rectangles imbriqués représentant un élément et ses sous parties et dont la taille des rectangles est proportionnelle à la valeur numérique d'une propriété, par exemple le nombre d'éléments que contient la sous partie .
 
-En utilisant l'objet TreeMap[^principescarto-24] de la librairie D3.js, nous avons implémenté ce modèle de diagramme dans un module JavaScript (@sec-jdcPhysiques) pour le rendre dynamique, interactif et ainsi représenter les espaces matériels que nous cartographions soit à partir de données existantes soit en les créant au fur et à mesure de l'exploration. Notons que pour faciliter la visualisation des dimensions physiques complexes, nous avons implémenté une navigation directe vers une partie ou une sous-partie et une navigation hiérarchique par zoom dans une partie et dé-zoom vers le parent. Par exemple, nous avons cartographié notre CV en utilisant ce modèle de diagramme avec comme paramètre de taille des rectangles la durée d'un événement :
+En utilisant l'objet TreeMap[^23] de la librairie D3.js, nous avons implémenté ce modèle de diagramme dans un module JavaScript (@sec-jdcPhysiques) pour le rendre dynamique, interactif et ainsi représenter les espaces matériels que nous cartographions soit à partir de données existantes soit en les créant au fur et à mesure de l'exploration. Notons que pour faciliter la visualisation des dimensions physiques complexes, nous avons implémenté une navigation directe vers une partie ou une sous-partie et une navigation hiérarchique par zoom dans une partie et dé-zoom vers le parent. Par exemple, nous avons cartographié notre CV en utilisant ce modèle de diagramme avec comme paramètre de taille des rectangles la durée d'un événement :
 
-[^principescarto-24]:  https://d3js.org/d3-hierarchy/treemap
+[^23]:  https://d3js.org/d3-hierarchy/treemap
 
 ![Treemap d'un Curiculum Vitae](media/1000000100000521000002C4F34D431EF036AFFE.png){#fig-treeMapCv fig-align="center" height="200"}
 
@@ -199,12 +199,12 @@ Pour faciliter la manipulation des dimensions conceptuelles @sec-dimensionConcep
 
 > « L'hexagone permet de "paver" l'espace en un agencement sans fin, qui, potentiellement, permet de dessiner des réseaux infinis. \[...\] Choisir une grille hexagonale réduit le bruit numérique et facilite la lecture. » [@rodighiero2021, p. 76]
 
-Nous nous sommes inspiré des travaux d'Amit Patel[^principescarto-28] pour mettre en place une grille hexagonale et les fonctionnalités nécessaires pour les applications prétopologiques que nous avons codées dans une librairie JavaScript[^principescarto-29] et mises en application dans un module Omeka S (@sec-cartoAffect) afin de gérer les manipulations d'informations dans une base de données.
+Nous nous sommes inspiré des travaux d'Amit Patel[^24] pour mettre en place une grille hexagonale et les fonctionnalités nécessaires pour les applications prétopologiques que nous avons codées dans une librairie JavaScript[^25] et mises en application dans un module Omeka S (@sec-cartoAffect) afin de gérer les manipulations d'informations dans une base de données.
 
-[^principescarto-28]:  Pour une explication des grilles hexagonales : <https://www.redblobgames.com/grids/hexagons/>\
+[^24]:  Pour une explication des grilles hexagonales : <https://www.redblobgames.com/grids/hexagons/>\
     \> Pour une proposition d'implémentation algorithmique : <https://www.redblobgames.com/grids/hexagons/implementation.html>
 
-[^principescarto-29]:  Le code est accessible ici : <https://github.com/samszo/HDR/docs/jdcCartoHexa.html>
+[^25]:  Le code est accessible ici : <https://github.com/samszo/HDR/docs/jdcCartoHexa.html>
 
 Une fois connecté à l'application de cartographie, la première action a effectuer est de charger une carte ou d'en crééer une. Lorsque l'on crée une carte, l'application propose une espace avec une grille hexagonale de rayon 2 avec positionné au centre de cette grille un concept "vide" qui lui aussi possède une grille hexagonal permettant ainsi e fractaliser la cartographie avec des grilles hexagonales incluant d'autres grille hexagonales etc. Notons que cette grille est créée par défaut avec un rayon de 2 mais qu'elle peut être étendue en déplaçant les bords de l'espace.
 
@@ -240,9 +240,9 @@ Dans notre cas, l'application « intérieur » va nous permettre de définir l
 > -- i(A) ⊆ A (P2)\
 > avec A^c^ le complémentaire de A soit E − A. » [@levorato2008, p. 40]
 
-Pour utiliser cette application, il suffit de cliquer dans un des hexagones de la grille pour faire apparaitre un formulaire permettant de choisir un concept et les relations que ce concept entretient avec le concept dont il est un sous espace. Ces relations sont exprimées avec le vocabulaire des relations de SKOS[^principescarto-30] mais sans toutefois limiter les possibilités d'associations aux contraintes logiques. Par exemple, il est illogique que deux concepts possèdent à la fois une relation hiérarchique "plus spécifique" (skos:narrower) et une relation "plus générique" (skos:broader). Toutefois, il nous semble important de laisser la possibilité aux usagers d'exprimer ces relations illogiques afin de laisser une place aux incohérences et aux inventions poétiques.
+Pour utiliser cette application, il suffit de cliquer dans un des hexagones de la grille pour faire apparaitre un formulaire permettant de choisir un concept et les relations que ce concept entretient avec le concept dont il est un sous espace. Ces relations sont exprimées avec le vocabulaire des relations de SKOS[^26] mais sans toutefois limiter les possibilités d'associations aux contraintes logiques. Par exemple, il est illogique que deux concepts possèdent à la fois une relation hiérarchique "plus spécifique" (skos:narrower) et une relation "plus générique" (skos:broader). Toutefois, il nous semble important de laisser la possibilité aux usagers d'exprimer ces relations illogiques afin de laisser une place aux incohérences et aux inventions poétiques.
 
-[^principescarto-30]:  Pour une présentation des relations sémantiques dans SKOS : <https://www.w3.org/TR/skos-reference/#semantic-relations/>
+[^26]:  Pour une présentation des relations sémantiques dans SKOS : <https://www.w3.org/TR/skos-reference/#semantic-relations/>
 
 ![Ajout d'un concept et de ses relations](images/localhost_samszo_HDR_docs_jdcCartoHexaAjoutCrible.html.png){#fig-cartoHexaAjoutConcept fig-align="center" height="200"}
 
@@ -270,9 +270,9 @@ Chaque espace défini par les intersections renvoie un ensemble particulier d'ac
 
 Pour représenter la dimension des rapports @sec-dimensionRapports le modèle hypertextuel basique : nœud - ancre - lien et depuis longtemps utilisé [@balpe1996] de même que le triplet RDF sujet - objet - prédicat [@gandon2012] que le W3C préconise pour modéliser des rapports logiques en RDF\[\^principecarto-37-1\]. Ils sont traditionnellement représentés sous la forme d'un graphe où le sujet et l'objet sont des entités et le prédicat un label décrivant le lien entre les deux entités : ![Visualisattion des triplets RDF](images/Schema_triplet.png){#fig-tripletRDF fig-align="center" height="200"}
 
-Nos principes de cartographie s'accomodent parfaitement de cette modélisation par triplet RDF mais nous faisons le choix d'un autre type de représentation qui reprend les recommandations du W3C avec le format « Open Annotation »[^principescarto-31] qui code de façon très simple les relations entre des ressources numériques afin de définir un point de vue particulier sur celles-ci. Suivant ce modèle une "annotation" est ce qui met en rapport un "body" à une "target". De notre point de vue, la modélisation du rapport est donc une "annotation" qui dans un ici et maintenant va mettre en relation deux ressources.
+Nos principes de cartographie s'accomodent parfaitement de cette modélisation par triplet RDF mais nous faisons le choix d'un autre type de représentation qui reprend les recommandations du W3C avec le format « Open Annotation »[^27] qui code de façon très simple les relations entre des ressources numériques afin de définir un point de vue particulier sur celles-ci. Suivant ce modèle une "annotation" est ce qui met en rapport un "body" à une "target". De notre point de vue, la modélisation du rapport est donc une "annotation" qui dans un ici et maintenant va mettre en relation deux ressources.
 
-[^principescarto-31]:  Cf. <http://www.openannotation.org/>
+[^27]:  Cf. <http://www.openannotation.org/>
 
 ![Web Annotation Data Model https://www.w3.org/TR/annotation-model/](media/10000001000002C2000001965EFA665F8AB6D163.png){#fig-webAnnotation fig-align="center" height="200"}
 
@@ -294,9 +294,9 @@ On peut tenter de répondre à ces questions en trouvant des exemples précis da
 
 > « sujet et objet, loin d’être au début de la réflexion comme les deux crochets indispensables auxquels il convient d’attacher le hamac où va pouvoir somnoler le philosophe, ne sont que des effets assez tardifs d’une véritable histoire des modes d’existence » [@latour2009, p. 5]
 
-Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S "Annotation" développé par Daniel Berthereau[^principescarto-32] afin de créer des rapports entre des ressources physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en relation avec les autres dimension existentielles, par exemple pour qualifier le rapport avec un concept particulier, comme ceux proposés par la langage SKOS @fig-cartoHexaAjoutConcept.
+Pour gérer, ces informations dans la base de données nous avons utilisé le module Omeka S "Annotation" développé par Daniel Berthereau[^28] afin de créer des rapports entre des ressources physiques, actants et concepts. Notons que cette modélisation est elle aussi fractale puisque un rapport en tant que ressource peut être en relation avec les autres dimension existentielles, par exemple pour qualifier le rapport avec un concept particulier, comme ceux proposés par la langage SKOS @fig-cartoHexaAjoutConcept.
 
-[^principescarto-32]:  Accessible ici : <https://gitlab.com/Daniel-KM/Omeka-S-module-Annotate>
+[^28]:  Accessible ici : <https://gitlab.com/Daniel-KM/Omeka-S-module-Annotate>
 
 Pour représenter les rapports dans nos diagrammes de visualisation des complexités existentielles, nous utilisons des lignes avec un début sous forme de cercle vert correspondant à l'objet, un milieu sous forme de carré blanc correspondant au sujet et une fin sous forme de flèche rouge correspondant au prédicat. Ce choix de représentation est motivé par la forme générique d'une existence informationnelle où le centre est occupé par l'actant qui dans nos contraintes de possibilité des rapports est toujours le sujet.
 
@@ -304,9 +304,9 @@ Pour représenter les rapports dans nos diagrammes de visualisation des complexi
 
 Nous venons de décrire comment représenter les quatre dimensions de l'existence que nous utilisons pour modéliser les écosystèmes de connaissances. Ces modélisations sont autonomes quant à leur propriétés spécifiques et leur mode de représentation. Toutefois, ils convient de les utiliser ensemble pour obtenir une vision globale de l'écosystème. Pour cela, nous avons besoin d'un nouveau principe pour associer ces dimensions existentielles et les représenter : le crible.
 
-## Modéliser des cribles : vers une cartographie des subjectivités[^principescarto-33] {#sec-modeliserCrible}
+## Modéliser des cribles : vers une cartographie des subjectivités[^29] {#sec-modeliserCrible}
 
-[^principescarto-33]:  Ce chapitre reprend en les modifiant les chapitres consacrés au crible dans [@szoniecky2020]
+[^29]:  Ce chapitre reprend en les modifiant les chapitres consacrés au crible dans [@szoniecky2020]
 
 Définir des principes de cartographie et choisir des modèles efficaces ne suffisent pas pour modéliser un écosystème de connaissances respectueux des différents points de vue et de leurs évolutions. Il est aussi nécessaire de concevoir une méthodologie pour récolter des données dont on peut évaluer les dimensions objectives et subjectives, c'est-à-dire celles qui dépendent du choix d'un individu et celles qui utilisent des systèmes de référence reconnus. Pour reprendre les mots de Guattari, notre objectif est de concevoir des « cribles » afin de produire des données dont on peut discerner le subjectif et l'objectif :
 
@@ -354,9 +354,9 @@ Concernant, l'objet de notre structure basique de modélisation, nous le consid�
 
 Concernant le sujet de la structure sujet – prédicat – objet, nous proposons de contraindre les possibilités de sa définition aux auteurs des références @sec-espaceActant. Ces auteurs ne sont pas uniquement des individus, mais peuvent être aussi des collectifs suivant l'appartenance de ces auteurs à des groupes de recherche, des laboratoires, des universités, des pays dont ils sont citoyens. La description des sujets reprend le principe de modélisation arborescente où le lien entre les branches se fait suivant le prédicat « a pour partie », par exemple  : le chercheur X (sujet) a pour partie (prédicat) le laboratoire Y (objet). Là aussi, le choix du niveau sera soumis aux caractères générique et spécifique. Par exemple, il n'est sans doute pas nécessaire de spécifier les différents membres d'une université qui participent à la vie d'un laboratoire de recherche. En revanche, il est utile de préciser le nom des chercheurs qui ont participé à la rédaction d'un ouvrage car ils apportent un point de vue spécifique. Il est évident que nous ne réduisons pas les relations des acteurs uniquement à un rapport de partie et de sous partie, les relations entre les individus et les collectifs sont bien plus complexes, elles peuvent être par exemple hiérarchiques, familiales, amicales... Dans le crible que nous proposons cette spécificité des relations est décrite par une modélisation des rapports entre acteurs par exemple sous la forme : auteur 1 (sujet) collabore avec (prédicat) auteur 2 (objet).
 
-Concernant le prédicat de la structure logique que nous utilisons, il est défini par un concept @sec-espaceConceptuels qui prend la forme d'une périphrase plus ou moins complexe par exemple : « écrire », « lire », « participer à une conférence scientifique ». Le concept peut lui aussi être détaillé en utilisant par exemple la syntaxe SKOS pour définir une structuration des éléments conceptuels et de leurs relations. Notons que cette modélisation des concepts ne se représente pas uniquement sous la forme d'une arborescence, mais plutôt sous celle d'une topologie ou pour employer les termes de [@deleuze1980] d'un rhizome. Les structures topologiques étant plus souples, l'organisation des concepts en tant qu'espaces sémantiques est beaucoup plus plastique et ne se réduit pas à l'arbre, mais se représente avec une multitude de formes possibles. Il y a par exemple les diagrammes de Venn, les matrices, les radars, les nuages de tag, les repères à deux axes... Ces représentations définissent leurs propres systèmes de coordonnées et par la même des espaces sémantiques particuliers dans lesquels il est possible de se positionner. Ce principe de cartographie conceptuel est très utilisé pour définir un domaine de connaissance comme le fait par exemple David Mc Candless avec sa typologie des idées[^principescarto-34].
+Concernant le prédicat de la structure logique que nous utilisons, il est défini par un concept @sec-espaceConceptuels qui prend la forme d'une périphrase plus ou moins complexe par exemple : « écrire », « lire », « participer à une conférence scientifique ». Le concept peut lui aussi être détaillé en utilisant par exemple la syntaxe SKOS pour définir une structuration des éléments conceptuels et de leurs relations. Notons que cette modélisation des concepts ne se représente pas uniquement sous la forme d'une arborescence, mais plutôt sous celle d'une topologie ou pour employer les termes de [@deleuze1980] d'un rhizome. Les structures topologiques étant plus souples, l'organisation des concepts en tant qu'espaces sémantiques est beaucoup plus plastique et ne se réduit pas à l'arbre, mais se représente avec une multitude de formes possibles. Il y a par exemple les diagrammes de Venn, les matrices, les radars, les nuages de tag, les repères à deux axes... Ces représentations définissent leurs propres systèmes de coordonnées et par la même des espaces sémantiques particuliers dans lesquels il est possible de se positionner. Ce principe de cartographie conceptuel est très utilisé pour définir un domaine de connaissance comme le fait par exemple David Mc Candless avec sa typologie des idées[^30].
 
-[^principescarto-34]:  Lien vers le diagramme : <https://informationisbeautiful.net/visualizations/a-taxonomy-of-ideas/>
+[^30]:  Lien vers le diagramme : <https://informationisbeautiful.net/visualizations/a-taxonomy-of-ideas/>
 
 ![Taxonomie des idées](images/TaxonomyIdeas.png){#fig-TaxonomyIdeas fig-align="center" width="422"}
 
@@ -368,21 +368,21 @@ Le crible que nous proposons pour modéliser notre écosystème de connaissance 
 
 Le crible est à la fois un outil de lecture et d'écriture, il est utilisé comme grille d'analyse d'un contexte particulier (discerner) et en même temps comme système d'expression de ce contexte (agir). La problématique principale de modélisation d'un écosystème de connaissance @sec-part-cartoConnaissances, est celle de la récolte des données de manière à ce qu'elle soit tout à la fois facile pour des non-spécialistes et utile pour les experts. Utiliser un crible simplifie la récolte des données, car elle donne une signification très précise à une expression simple en positionnant cette expression dans la modélisation du crible qui par la même s'enrichit de nouvelles informations. Plus le crible sera utilisé, plus la modélisation du cible sera précise et plus l'expression à travers ce crible sera elle aussi précise ; dans la mesure où la signification du crible est comprise par ses utilisateurs. En proposant un crible sur la base de la formule sujet – objet – prédicat, nous facilitons sa compréhension par les utilisateurs qui retrouvent une expression simple et courante et renvoie à des questions basiques : qui ? = sujet, quoi ? = objet, comment ? = prédicat. Ces expressions sont de plus contextualisées par les contraintes que nous avons définies pour les quatre dimensions ce qui limite les interprétations possibles et par la même facilite leur compréhension. Cette proposition de crible facilite aussi le travail de récolte des données en le décomposant en tâche simples que l'on peut attribuer à des personnes ayant le temps et les connaissances nécessaires pour les faire. Par exemple, décrire qui sont les acteurs qui participent à une conférence demande de récolter la liste des participants, de la saisir en la mettant en relation avec l'écosystème. En revanche, répondre à une question sur l'importance d'une citation est à la portée de tous et peut se faire dans l'instant. On retrouve ici une polarisation des informations entre celles qui sont objectives, qui demandent du temps et des compétences particulières pour exprimer des données de références, et celles qui sont subjectives et s’expriment dans l'instant par un choix. Modéliser un écosystème de connaissances consiste donc à créer un système de références objectives dans lequel des individus exprimeront des choix subjectifs afin de créer des rapports dans le système de référence et répondre aux questions : Qui ? Quoi ? Comment ? En d'autres termes, une modélisation d'un écosystème produit un environnement relationnel par un dispositif de positionnement dans un système de référence.
 
-Concernant la position du « qui » dans un système de référence objectif, il est aujourd'hui grandement facilité par les mesures de positionnement géospatial comme le GPS ou les bases de données de références des personnes et des institutions comme ISNI (International Standard Name Identifier[^principescarto-35]) qui répondent automatiquement et objectivement à cette question sauf erreur de la machine, malveillance ou absence de données. Mais le « qui » est plus complexe et ne se réduit pas à ces positions. Par exemple, dans le cas d'un dispositif numérique, il renvoie au compte de l'utilisateur qui utilise l'application. Or ce compte indique juste le login utilisé pour se connecter à l'application, mais pas quelles personnes ou groupes de personnes l'utilisent. De plus, dans le cadre du RGPD, il devient nécessaire d'anonymiser ce compte et donc de limiter son objectivation à une simple référence. Sauf si l'utilisateur donne un consentement « libre, spécifique, éclairé et univoque »[^principescarto-36]. Dans ce cas, l'objectivation du « qui » devient potentiellement beaucoup plus précise, car elle peut être mise en relation avec des données sociologiques voir même physiologiques par exemple en enregistrant le rythme cardiaque ou l'activité cérébrale lors du processus de positionnement.
+Concernant la position du « qui » dans un système de référence objectif, il est aujourd'hui grandement facilité par les mesures de positionnement géospatial comme le GPS ou les bases de données de références des personnes et des institutions comme ISNI (International Standard Name Identifier[^31]) qui répondent automatiquement et objectivement à cette question sauf erreur de la machine, malveillance ou absence de données. Mais le « qui » est plus complexe et ne se réduit pas à ces positions. Par exemple, dans le cas d'un dispositif numérique, il renvoie au compte de l'utilisateur qui utilise l'application. Or ce compte indique juste le login utilisé pour se connecter à l'application, mais pas quelles personnes ou groupes de personnes l'utilisent. De plus, dans le cadre du RGPD, il devient nécessaire d'anonymiser ce compte et donc de limiter son objectivation à une simple référence. Sauf si l'utilisateur donne un consentement « libre, spécifique, éclairé et univoque »[^32]. Dans ce cas, l'objectivation du « qui » devient potentiellement beaucoup plus précise, car elle peut être mise en relation avec des données sociologiques voir même physiologiques par exemple en enregistrant le rythme cardiaque ou l'activité cérébrale lors du processus de positionnement.
 
-[^principescarto-35]:  Lien vers le site de l'organisation : <https://isni.org/>
+[^31]:  Lien vers le site de l'organisation : <https://isni.org/>
 
-[^principescarto-36]:  Lien vers les explications de la CNIL : <https://www.cnil.fr/fr/les-bases-legales/consentement>
+[^32]:  Lien vers les explications de la CNIL : <https://www.cnil.fr/fr/les-bases-legales/consentement>
 
-Concernant le positionnement du « quoi », là aussi il existe des bases de données de références qui composent le Linked Open Data (LOD) et permettent d'adresser des ressources de façon unique et pérenne. Dans le cas de notre exemple sur la modélisation de notre bibliographie, la base de données sémantique de la BNF[^principescarto-37] est particulièrement intéressante, car elle offre des références pérenne et détaillées pour les livres, les auteurs, les concepts. Dans ce cas, le positionnement du « quoi » est relativement complexe puisqu'il est extrêmement difficile de réduire une référence à une seul expression comme en témoigne les recherches sur le sens des documents[@lévy2023a; @bachimont2020]. Nous proposons d'utiliser une représentation simple du sens des texte en les représentant sous la forme de nuage de mots clefs où pour chaque mot l'utilisateur pourra augmenter ou diminuer l'importance suivant sont propre point de vue. Ce simple rapport, va générer potentiellement une multitude d'autres rapports, car les éléments qui le composent renvoient aux informations conservées dans la base de données comme celles en rapport avec la référence annotée ou celles de l'utilisateur dont on peut connaître les habitudes d'annotation voir le parcours scientifique. L'historique de ces informations et leur multiplication par le nombre d'utilisateurs créent une base de données très utile pour faire des analyses statistiques ou pour connaître les informations qui manquent et que d'autres utilisateurs peuvent ajouter en participant collectivement à l'enrichissement de cette base de données.
+Concernant le positionnement du « quoi », là aussi il existe des bases de données de références qui composent le Linked Open Data (LOD) et permettent d'adresser des ressources de façon unique et pérenne. Dans le cas de notre exemple sur la modélisation de notre bibliographie, la base de données sémantique de la BNF[^33] est particulièrement intéressante, car elle offre des références pérenne et détaillées pour les livres, les auteurs, les concepts. Dans ce cas, le positionnement du « quoi » est relativement complexe puisqu'il est extrêmement difficile de réduire une référence à une seul expression comme en témoigne les recherches sur le sens des documents[@lévy2023a; @bachimont2020]. Nous proposons d'utiliser une représentation simple du sens des texte en les représentant sous la forme de nuage de mots clefs où pour chaque mot l'utilisateur pourra augmenter ou diminuer l'importance suivant sont propre point de vue. Ce simple rapport, va générer potentiellement une multitude d'autres rapports, car les éléments qui le composent renvoient aux informations conservées dans la base de données comme celles en rapport avec la référence annotée ou celles de l'utilisateur dont on peut connaître les habitudes d'annotation voir le parcours scientifique. L'historique de ces informations et leur multiplication par le nombre d'utilisateurs créent une base de données très utile pour faire des analyses statistiques ou pour connaître les informations qui manquent et que d'autres utilisateurs peuvent ajouter en participant collectivement à l'enrichissement de cette base de données.
 
-[^principescarto-37]:  Lien vers l'explication de data.bnf.fr : <https://www.bnf.fr/fr/recuperer-les-donnees-de-la-bnf-selon-les-standards-du-web-semantique>
+[^33]:  Lien vers l'explication de data.bnf.fr : <https://www.bnf.fr/fr/recuperer-les-donnees-de-la-bnf-selon-les-standards-du-web-semantique>
 
 ## De la confiance dans les données : vers une cartographie des affects {#sec-confianceDonnees}
 
-Les hypothèses cartographiques que nous venons de poser, précise notre modèle de description et de représentation des connaissances à partir duquel nous produisons une foule de données qui, en référence aux principes basiques du RDF[^principescarto-38], sont composées d'un triplet sujet, objet et prédicat, par exemple : sujet=titre, objet=la vie devant soi, prédicat=est. Si on en croit les défenseurs du RDF et des technologies qui lui sont associé pour composer le Web Sémantique, cette formalisation de la connaissance en brique logiques élémentaires est sensée produire de la confiance comme en témoigne le fameux « Semantic Web Stack » :
+Les hypothèses cartographiques que nous venons de poser, précise notre modèle de description et de représentation des connaissances à partir duquel nous produisons une foule de données qui, en référence aux principes basiques du RDF[^34], sont composées d'un triplet sujet, objet et prédicat, par exemple : sujet=titre, objet=la vie devant soi, prédicat=est. Si on en croit les défenseurs du RDF et des technologies qui lui sont associé pour composer le Web Sémantique, cette formalisation de la connaissance en brique logiques élémentaires est sensée produire de la confiance comme en témoigne le fameux « Semantic Web Stack » :
 
-[^principescarto-38]:  <https://www.w3.org/RDF/>
+[^34]:  <https://www.w3.org/RDF/>
 
 ![Semantic Web Stack, Par W3C https://commons.wikimedia.org/wiki/File:Semantic_Web_Stack.png](media/1000000100000258000002762CF3B23905723B38.png){#fig-semanticWebStack fig-align="center" width="285"}
 
