@@ -15,9 +15,9 @@ des micro-cerveaux. »\
 
 # Principes théoriques de modélisation des connaissances {#sec-principesTheo}
 
-Depuis une trentaine d'années, je m'intéresse à la modélisation des données et plus particulièrement à la question de savoir comment cette modélisation est utile pour créer les conditions de l'expérimentation des connaissances. Dès mes travaux en maîtrise d'histoire de l'art (1994), je me suis familiarisé à la création de base de données qui pour moi à cette époque, prenaient la forme d'un simple tableur. Puis en DEA (1995), j'ai découvert avec le logicielle Hypercard[^1] comment transformer mes tableurs en collections de fiches hypertextuelles [@deuff2019] et surtout en interfaces dynamiques et interactives. Ce passage à Hypercard m'a fait comprendre les relations intimes entre les données, leurs représentations et leurs manipulations que [@card1999] a bien schématisé :
+Depuis une trentaine d'années, je m'intéresse à la modélisation des données et plus particulièrement à la question de savoir comment cette modélisation est utile pour créer les conditions de l'expérimentation des connaissances. Dès mes travaux en maîtrise d'histoire de l'art (1994), je me suis familiarisé à la création de base de données qui pour moi à cette époque, prenaient la forme d'un simple tableur. Puis en DEA (1995), j'ai découvert avec le logicielle Hypercard[^principestheo-1] comment transformer mes tableurs en collections de fiches hypertextuelles [@deuff2019] et surtout en interfaces dynamiques et interactives. Ce passage à Hypercard m'a fait comprendre les relations intimes entre les données, leurs représentations et leurs manipulations que [@card1999] a bien schématisé :
 
-[^1]: Cf. <https://fr.wikipedia.org/wiki/HyperCard>
+[^principestheo-1]: Cf. <https://fr.wikipedia.org/wiki/HyperCard>
 
 ![Ecosystème de manipulation des informations](images/fluxDataViz.png){#FluxDataViz fig-align="center" width="814"}
 
@@ -31,9 +31,9 @@ De l'autre coté, Cage utilise les possibilités aléatoires de l'informatique p
 
 > « trouver une façon d'écrire qui, tout en partant d'idées, ne soit pas un discours sur elles : ou ne soit pas sur des idées mais les produise »œ [@scottlee1998, p. 307]
 
-Entre ces deux approches, il n'est pas nécessaire de choisir mais plutôt de trouver comment les associées. L'approche de Boulez a montré l'efficacité d'une "sur puissance" pour construire des institutions de recherche comme l'IRCAM ou de diffusion de la musique comme la cité de la Musique. L'approche de Cage quant à elle, continue de questionner nos égos avec par exemple l'oeuvre musicale "As Slow as Possible" qui devrait se terminer en l'année 2640[^2]. Ce qui rapproche les deux deux créateurs c'est la volonté de définir un protocole [@sauret2020], c'est à dire de définir des règles d'information et de communication dans un processus de création. Ce qui les oppose c'est la place qu'ils donnent à l'ordinateur pour faire des choix dans les étapes du protocoles : Boulez contraint le plus possible les choix de la machine alors que Cage laisse la machine choisir. Ces débats entre c'est deux approches est d'une extrême actualité à l'heure où nous cherchons à concilier les approches des IA symbolique et connexioniste. D’un côté, une intelligence artificielle connexionniste qui utilise l’apprentissage machine pour choisir automatiquement des modèles à partir de très grandes quantités de données. De l’autre, une approche symbolique qui modélise des espaces sémantiques pensés par des humains pour contraindre les choix de la machine. Là où le connexionnisme produit des modèles impensables par les humains car trop complexes, l’approche symbolique organise cet "abîme réflexif" [@ertzscheid2023] de manière à le rendre plus compréhensible et pilotable par des humains.
+Entre ces deux approches, il n'est pas nécessaire de choisir mais plutôt de trouver comment les associées. L'approche de Boulez a montré l'efficacité d'une "sur puissance" pour construire des institutions de recherche comme l'IRCAM ou de diffusion de la musique comme la cité de la Musique. L'approche de Cage quant à elle, continue de questionner nos égos avec par exemple l'oeuvre musicale "As Slow as Possible" qui devrait se terminer en l'année 2640[^principestheo-2]. Ce qui rapproche les deux deux créateurs c'est la volonté de définir un protocole [@sauret2020], c'est à dire de définir des règles d'information et de communication dans un processus de création. Ce qui les oppose c'est la place qu'ils donnent à l'ordinateur pour faire des choix dans les étapes du protocoles : Boulez contraint le plus possible les choix de la machine alors que Cage laisse la machine choisir. Ces débats entre c'est deux approches est d'une extrême actualité à l'heure où nous cherchons à concilier les approches des IA symbolique et connexioniste. D’un côté, une intelligence artificielle connexionniste qui utilise l’apprentissage machine pour choisir automatiquement des modèles à partir de très grandes quantités de données. De l’autre, une approche symbolique qui modélise des espaces sémantiques pensés par des humains pour contraindre les choix de la machine. Là où le connexionnisme produit des modèles impensables par les humains car trop complexes, l’approche symbolique organise cet "abîme réflexif" [@ertzscheid2023] de manière à le rendre plus compréhensible et pilotable par des humains.
 
-[^2]: Voir la cérémonie du changement de note : <https://www.youtube.com/watch?v=_3BBgQPuPI0>
+[^principestheo-2]: Voir la cérémonie du changement de note : <https://www.youtube.com/watch?v=_3BBgQPuPI0>
 
 Au cours de nos expériences professionnelles comme ingénieur informatique puis comme chef de projet et architecte de l'information, nous avons pratiqué l'approche "boulézienne" de modélisation des connaissances en utilisant des bases de données relationnelles [@saleh1992] et des interfaces de gestion orientée vers un travail bureautique. Dans le monde de l'entreprise, il faut contraindre le plus possible les données et leur manipulation pour optimiser les traitements et réduire le plus possible l'amgbiguité de l'information et de la communication. Cette approche trouve sont aboutissement dans les "systèmes experts" piloté par des ontologies et des IA symboliques. J'ai montré dans ma thèse [@szoniecky2012, p. 61-71] les limites formelles de cette approches de modélisation des connaissances notamment parce que :
 
@@ -133,9 +133,9 @@ Donnons un autre exemple de ce premier genre de connaissance en vous invitant à
 
 ![Parties extensives 1](media/10000001000001EB0000002F6C14D0CF44FAB1C7.png){#fig-partExt1 fig-align="center" height="200"}
 
-Sauf si vous connaissez le tamoul, le texte ci-dessous est pour vous comme un choc, vous ne connaissez rien des rapports qui se composent ou se décomposent, vous ne voyez que les parties extensives du texte. Pour être plus précis, vous pouvez tout de même discerner des rapports puisque vous savez que l'image est un texte composé de caractères qui composent des mots séparés par des espaces. Par contre, vous n'avez aucune idée des concepts présents dans le texte, vous avez connaissance des signifiants mais pas des signifiés[^3]. D'une certaine manière vous êtes comme un OCR (optical character recognition) capable de reconnaître des caractères et des mots dans une image. Mais à l'inverse d'une machine numérique qui avant la reconnaissance du texte décompose l'image en une multitude de points ayant chacun leurs coordonnées cartésiennes et leurs propriétés de couleur, vous commencez par reconnaître le texte puis vous le décomposez en mots et en caractères. Cette différence entre la machine et l'humain dans le processus de connaissances est au cœur d'une problématique fondamentale de la gestion mécanique du sens :
+Sauf si vous connaissez le tamoul, le texte ci-dessous est pour vous comme un choc, vous ne connaissez rien des rapports qui se composent ou se décomposent, vous ne voyez que les parties extensives du texte. Pour être plus précis, vous pouvez tout de même discerner des rapports puisque vous savez que l'image est un texte composé de caractères qui composent des mots séparés par des espaces. Par contre, vous n'avez aucune idée des concepts présents dans le texte, vous avez connaissance des signifiants mais pas des signifiés[^principestheo-3]. D'une certaine manière vous êtes comme un OCR (optical character recognition) capable de reconnaître des caractères et des mots dans une image. Mais à l'inverse d'une machine numérique qui avant la reconnaissance du texte décompose l'image en une multitude de points ayant chacun leurs coordonnées cartésiennes et leurs propriétés de couleur, vous commencez par reconnaître le texte puis vous le décomposez en mots et en caractères. Cette différence entre la machine et l'humain dans le processus de connaissances est au cœur d'une problématique fondamentale de la gestion mécanique du sens :
 
-[^3]:  Précisons toutefois que l'humain est particulière efficace pour la paréidolie [@dufort2015], ce qui lui permet de donner du sens à des formes ambiguës et donc de créer des signifiés quelles que soient les parties extensives qu'il discerne.
+[^principestheo-3]:  Précisons toutefois que l'humain est particulière efficace pour la paréidolie [@dufort2015], ce qui lui permet de donner du sens à des formes ambiguës et donc de créer des signifiés quelles que soient les parties extensives qu'il discerne.
 
 > « il y a un conflit entre l'holisme du sens et le mécanisme de la syntaxe. Le sens d'un texte dépend de son contexte, le sens d'un paragraphe dépend aussi du texte dans lequel il s'intègre, le sens d'un mot du paragraphe qui le contient, etc. : le sens va du global au local, de la compréhension globale vers l'analyse. Or, le formalisme opère de manière inverse : le sens d'une formule logique se construit à partir du sens de ses parties, allant du local au global. » [@bachimont2011, § 11]
 
@@ -161,17 +161,17 @@ Il faut sans doute passer par une forme d'expression pour que les impressions da
 
 Dans le domaine des sciences cognitives, les dimensions intérieures ont été pensé par [@gärdenfors2001] comme des « espaces conceptuels » en complémentarité des approches symboliques qui modélisent les systèmes cognitifs avec des machines de Turing et des approches connexionnistes qui modélisent avec des réseaux de neurones artificiels. Cet auteur propose de modéliser les espaces conceptuels à partir d'une représentation topologique des similarités qualitatives. La modélisation des espaces conceptuels par des topologies est sans doute une perspective intéressante pour représenter ces espaces car elle permet de concevoir des espaces métriques à partir de la notion simple de voisinage. On peut considérer les concepts comme des points qui définissent un espace dans leurs rapports de voisinage avec d'autre concepts et calculer des distances entre ces points. Toute la difficulté est de définir les valeurs qui seront utilisées pour calculer la distance entre ces points. Gärdenfors propose d'utiliser des valeurs qualitatives pour calculer les distances par exemple les concepts de couleurs seront représentés dans une topologie dont les distances sont calculées suivants les qualités de nuance, d'intensité et de luminosité. L'avantage de cette proposition est de rendre pratiquement objectif la distance entre les concepts car celles-ci résultent d'une mesure physique. Mais de notre point vue, ces qualités font parties de la dimension matérielle que nous avons présentée plus haut (@sec-espaceMateriels), elles ne peuvent donc pas être utilisées pour modéliser les concepts qui dans notre modèle relève d'une autre dimension existentielle, celle des essences (@sec-modeleOntoEthique). Il est fondamental de préserver la multiplicité des points de vue à l'intérieur de ces espaces conceptuels et de ne pas les réduire à une mesure physique qui est la même pour tous, à tout moment, en tout lieu. Nous pensons que les espaces conceptuels sont propres à chaque individu; leur cartographie ne peut donc pas relever d'une mesure « universelle » liée à une métrologie physique. La distance qui sépare « aimer » de « haïr » n'est pas la même pour vous ou moi, pour hier, aujourd'hui et demain, ou suivant le lieu de mes rapports avec ces concepts. Nous verrons plus loin comment les dimensions existentielles des actants et des rapports nous permettent de cartographier ces fluctuations temporelles et spatiales (@sec-espaceActant) retenons juste pour le moment que les principes de cartographie des espaces conceptuels ne peuvent se baser sur une mesure matérielle car nous ne recherchons pas une mesure objective mais tout au contraire, l'expression d'une subjectivité.
 
-Contrairement à Gärdenfors, le langage IEML propose un « filet topologique » [@lévy2011, p. 257] dont les espaces métriques sont purement conceptuels puisque les rapports de voisinage sont définies suivant six concepts (être, signe, chose, actuel, virtuel, vide) associés à trois positions conceptuelles (substance, attribut, mode) sur six couches. Il en résulte un grille topologique très vaste : (6\*6\*6)^6^ soit 1,015599567×10¹⁴ positions possibles. Une infime partie de ces positions (3418[^4]) ont été interprétées, classifiées et référencées par Pierre Lévy et ses équipes pour donner du sens à cette topologie et fournir un vocabulaire de base utilisable avec un éditeur dédié à ce langage[^5]. Cette solution de cartographie des espaces conceptuels est élégante et très ambitieuse mais elle se confronte à plusieurs difficultés majeures. La première est qu'il n'est pas très facile de comprendre la complexité de ce langage et son utilité par rapport à des outils comme le moteur de recherche Google dont l'usage simplissime demande un effort minimal. IEML s'adresse à un public de spécialistes ayant des besoins très spécifiques et demande un investissement conséquent :
+Contrairement à Gärdenfors, le langage IEML propose un « filet topologique » [@lévy2011, p. 257] dont les espaces métriques sont purement conceptuels puisque les rapports de voisinage sont définies suivant six concepts (être, signe, chose, actuel, virtuel, vide) associés à trois positions conceptuelles (substance, attribut, mode) sur six couches. Il en résulte un grille topologique très vaste : (6\*6\*6)^6^ soit 1,015599567×10¹⁴ positions possibles. Une infime partie de ces positions (3418[^principestheo-4]) ont été interprétées, classifiées et référencées par Pierre Lévy et ses équipes pour donner du sens à cette topologie et fournir un vocabulaire de base utilisable avec un éditeur dédié à ce langage[^principestheo-5]. Cette solution de cartographie des espaces conceptuels est élégante et très ambitieuse mais elle se confronte à plusieurs difficultés majeures. La première est qu'il n'est pas très facile de comprendre la complexité de ce langage et son utilité par rapport à des outils comme le moteur de recherche Google dont l'usage simplissime demande un effort minimal. IEML s'adresse à un public de spécialistes ayant des besoins très spécifiques et demande un investissement conséquent :
 
-[^4]:  Le chiffre correspond au nombre d'adresse définie dans le dictionnaire IEML à la date du 25/01/2023. Ce travail toujours entrain de se faire est consultable ici : https://github.com/plevyieml/ieml-language/
+[^principestheo-4]:  Le chiffre correspond au nombre d'adresse définie dans le dictionnaire IEML à la date du 25/01/2023. Ce travail toujours entrain de se faire est consultable ici : https://github.com/plevyieml/ieml-language/
 
-[^5]:  L'éditeur IEML était accessible (https://dev.intlekt.io/) mais n'est plus accessible
+[^principestheo-5]:  L'éditeur IEML était accessible (https://dev.intlekt.io/) mais n'est plus accessible
 
 > «  IEML \[...\] force à faire un travail d'analyse et de définition des concepts utilisés et fait apparaître de possibles paralogismes dans un raisonnement. » [@vitalirosati2021].
 
-La deuxième difficulté porte sur l'usage de ce langage qui ne correspond pas aux habitudes du public de chercheurs auquel il est destiné. Ceux-ci travaillent généralement des textes dans lesquels la définition et la critique des concepts est une part importante mais le référencement de ces concepts par des thésaurus, des vocabulaires normalisés ou des langages formels est considéré comme un travail à la charge des documentalistes, des bibliothécaires ou des « ingénieurs sémantiques », nouveau métier que Pierre Lévy contribue à faire émerger. Le passage par un tiers en charge de traduire un texte écrit en langage naturel dans un langage sémantique comme IEML occasionne une nouvelle difficulté liée à l'économie du processus éditorial qui est déjà soumis à de forte pressions temporelles, financières et humaines. Une autre difficulté que nous avons expérimentée dans notre usage d'IEML depuis une dizaine d'années, est le manque de pérennité des outils mis à disposition pour gérer ce langage[^6]. Cette difficulté inhérente à un travail de recherche « in progress » mais plus généralement aux langages informatiques qui évoluent au fil de temps rend délicat l'investissement important et constant que nécessite l'utilisation d'IEML Au final, ce magnifique projet mené par Pierre Lévy rejoint sans doute la liste des langues parfaites [@eco1994] et contribue en tout cas à faire avancer l'utopie d'un dialogue plus fécond entre les humains grâce aux machines.
+La deuxième difficulté porte sur l'usage de ce langage qui ne correspond pas aux habitudes du public de chercheurs auquel il est destiné. Ceux-ci travaillent généralement des textes dans lesquels la définition et la critique des concepts est une part importante mais le référencement de ces concepts par des thésaurus, des vocabulaires normalisés ou des langages formels est considéré comme un travail à la charge des documentalistes, des bibliothécaires ou des « ingénieurs sémantiques », nouveau métier que Pierre Lévy contribue à faire émerger. Le passage par un tiers en charge de traduire un texte écrit en langage naturel dans un langage sémantique comme IEML occasionne une nouvelle difficulté liée à l'économie du processus éditorial qui est déjà soumis à de forte pressions temporelles, financières et humaines. Une autre difficulté que nous avons expérimentée dans notre usage d'IEML depuis une dizaine d'années, est le manque de pérennité des outils mis à disposition pour gérer ce langage[^principestheo-6]. Cette difficulté inhérente à un travail de recherche « in progress » mais plus généralement aux langages informatiques qui évoluent au fil de temps rend délicat l'investissement important et constant que nécessite l'utilisation d'IEML Au final, ce magnifique projet mené par Pierre Lévy rejoint sans doute la liste des langues parfaites [@eco1994] et contribue en tout cas à faire avancer l'utopie d'un dialogue plus fécond entre les humains grâce aux machines.
 
-[^6]:  Pour un historique rapide des différentes implémentations : https://intlekt.io/histoire/
+[^principestheo-6]:  Pour un historique rapide des différentes implémentations : https://intlekt.io/histoire/
 
 Face à ces difficultés, nous proposons de concevoir la modélisation des dimensions sémantiques à partir d'outils simples permettant à chacun de construire ses propres représentations conceptuelles et donc de maîtriser le sens de ces représentations. Pour ce faire, nous avons élaboré un outil de cartographie sémantique qui s'appuie sur le principes de la prétopologie [@belmandt1993; @thibault2017; @toumia2018] pour manipuler des concepts et leurs relations @sec-espaceConceptuels.
 
@@ -225,18 +225,18 @@ La complexité d'un écosystème de connaissances est calculée à partir des ex
 
 -   « Afrique », « Amérique du nord », « Amérique du sud », « Antartique », « Artique », « Asie », « Europe » : niveau 2 : 7 éléments =\> complexité = 2 \* 7 = 14
 
-Pour faciliter ces calculs, nous avons développer un algorithme pour Omeka S[^7] qui utilise les informations de la base de données pour calculer la complexité d'une ou de plusieurs existences suivant le principe qu'une ressource Omeka S est une existence. Cette algorithme se compose de deux parties, une première qui calcule pour une ressource le nombre d'élément de chaque dimension et une deuxième qui calcule la complexité à partir de ce dénombrement.
+Pour faciliter ces calculs, nous avons développer un algorithme pour Omeka S[^principestheo-7] qui utilise les informations de la base de données pour calculer la complexité d'une ou de plusieurs existences suivant le principe qu'une ressource Omeka S est une existence. Cette algorithme se compose de deux parties, une première qui calcule pour une ressource le nombre d'élément de chaque dimension et une deuxième qui calcule la complexité à partir de ce dénombrement.
 
-[^7]:
+[^principestheo-7]:
     > Cette algorithme est utilisable directement avec une API pour un petit nombre d'élément ou avec un « Writer » pour le module Bulk Export développé par Daniel Bertherau (https://gitlab.com/Daniel-KM/Omeka-S-module-BulkExport). Le code de l'algorithme est disponible ici : <https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L169>\
     > le writer ici :https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/Writer/AbstractComplexityWriter.php
 
-L'étape du dénombrement calcule pour chaque ressource le nombre d'élément de la dimension existentielle correspondant à la classe[^8] de cette ressource. Puis incrémente le nombre d'actant pour chaque propriétaire (« owner ») de la ressource. Pour chaque propriété qui décrit cette ressource (une propriété est définie par une « rdf:Property » dans un vocabulaire spécifique), l'algorithme incrémente premièrement le nombre de concept  ; deuxièmement le nombre d'élément physique pour chaque valeur de la propriété puisque dans Omeka S, la propriété d'une ressource a une cardinalité 0-n. Dans le cas où une valeur de propriété est une relation vers une autre ressource, le calcul de complexité s'applique récursivement à cette ressource en augmentant le niveau de modélisation dans la limite de n+1 niveau[^9]. Parallèlement au comptage des éléments des dimensions physique, actant et concept, l'algorithme incrémente la dimension des rapports en suivant le modèle logique sujet, objet, prédicat dont nous avons montrer l'intérêt pour un processus de modélisation dans [@szoniecky2020] et que nous détaillons plus loin @sec-modeliserCrible. Avec cet algorithme, les valeurs des sujets, objets et prédicats sont définies avec les règles suivantes :
+L'étape du dénombrement calcule pour chaque ressource le nombre d'élément de la dimension existentielle correspondant à la classe[^principestheo-8] de cette ressource. Puis incrémente le nombre d'actant pour chaque propriétaire (« owner ») de la ressource. Pour chaque propriété qui décrit cette ressource (une propriété est définie par une « rdf:Property » dans un vocabulaire spécifique), l'algorithme incrémente premièrement le nombre de concept  ; deuxièmement le nombre d'élément physique pour chaque valeur de la propriété puisque dans Omeka S, la propriété d'une ressource a une cardinalité 0-n. Dans le cas où une valeur de propriété est une relation vers une autre ressource, le calcul de complexité s'applique récursivement à cette ressource en augmentant le niveau de modélisation dans la limite de n+1 niveau[^principestheo-9]. Parallèlement au comptage des éléments des dimensions physique, actant et concept, l'algorithme incrémente la dimension des rapports en suivant le modèle logique sujet, objet, prédicat dont nous avons montrer l'intérêt pour un processus de modélisation dans [@szoniecky2020] et que nous détaillons plus loin @sec-modeliserCrible. Avec cet algorithme, les valeurs des sujets, objets et prédicats sont définies avec les règles suivantes :
 
-[^8]:
+[^principestheo-8]:
     > La liste des correspondance est disponible ici : https://github.com/samszo/Omeka-S-module-JDC/blob/master/src/View/Helper/JDCViewHelper.php#L39
 
-[^9]: Il est important de noter que le calcul de la complexité d'une existence tel qu'il est aujourd'hui, ne prend pas en compte l'intégralité du réseau informationnel dont fait partie cette existence mais uniquement les éléments qui la constitue. Par exemple, pour le calcul d'une existence A, on ne prend pas en compte les existences B, C ou D dont la valeur d'une de leurs propriétés est A. Nous avons fait ce choix pour minimiser le temps de calcul et parce que nous pensons qu'une existence peut se définir uniquement par les éléments qui la composent sans prendre en compte les existences qu'elle contribue à définir. Ce choix de calcul est bien évidemment discutable et revient à s'interroger sur les rapports entre la transcendance c'est-à-dire la puissance de ce à quoi l'existence participe et l'immanence c'est-à-dire la puissance de ce qui compose une existence. Le débat est ouvert.
+[^principestheo-9]: Il est important de noter que le calcul de la complexité d'une existence tel qu'il est aujourd'hui, ne prend pas en compte l'intégralité du réseau informationnel dont fait partie cette existence mais uniquement les éléments qui la constitue. Par exemple, pour le calcul d'une existence A, on ne prend pas en compte les existences B, C ou D dont la valeur d'une de leurs propriétés est A. Nous avons fait ce choix pour minimiser le temps de calcul et parce que nous pensons qu'une existence peut se définir uniquement par les éléments qui la composent sans prendre en compte les existences qu'elle contribue à définir. Ce choix de calcul est bien évidemment discutable et revient à s'interroger sur les rapports entre la transcendance c'est-à-dire la puissance de ce à quoi l'existence participe et l'immanence c'est-à-dire la puissance de ce qui compose une existence. Le débat est ouvert.
 
 -   Pour chaque ressource :
 
@@ -264,7 +264,7 @@ Suite à cette étape de dénombrement, la deuxième partie de l'algorithme cons
 
     -   date : date du calcul de la complexité
 
-    -   resources[^10] : liste des ressources impliquée dans le calcul avec les informations :
+    -   resources[^principestheo-10] : liste des ressources impliquée dans le calcul avec les informations :
 
         -   type : le type de ressource omeka S = items, item set, media, annotations
         -   id : l'identifiant
@@ -273,7 +273,7 @@ Suite à cette étape de dénombrement, la deuxième partie de l'algorithme cons
         -   complexity : la complexité calculée
         -   d : la dimension existentielle = Physique, Actant, Concept, Rapport
         -   n : les niveaux de modélisation pris en compte pour cette ressource
-        -   details[^11]
+        -   details[^principestheo-11]
 
 -   params : affiche les paramètres passés à l'algorithme
 
@@ -317,10 +317,10 @@ Suite à cette étape de dénombrement, la deuxième partie de l'algorithme cons
     -   nb : le nombre d'élément
     -   c : la complexité
 
-[^10]:
+[^principestheo-10]:
     > Cette information n'est présente que dans les calculs via l'API mais pas avec le module Export
 
-[^11]:
+[^principestheo-11]:
     > Cette information n'est présente que pour les ressource de niveau 1 dans les calculs via l'API mais pas avec le module Export
 
 Les données fournies par l'algorithme sont enregistrées dans la base de données pour permettent :
@@ -333,7 +333,7 @@ Les données fournies par l'algorithme sont enregistrées dans la base de donné
 
     -   naviguer dans les résultats
 
-    -   comparer les évolutions.
+    -   comparer les existencess.
 
 #### Représenter la complexité existentielle
 
@@ -347,11 +347,17 @@ Le dernier calcul de complexité donne un total de 265 qui se décompose ainsi :
 
 ![Détail du calcul de complexité](images/localhost_samszo_omk_admin_item_69442.png){#fig-detailCalculComplexity}
 
-Cette complexité peut se représenter par le diagramme suivant qui reprend le modèle général présenté plus haut @fig-globalMetrique et dont les principes cartographiques seront décrit en détails dans le chapitre suivant @sec-principesCarto:
+Cette complexité peut se représenter par le diagramme suivant qui reprend le modèle général présenté plus haut @fig-globalMetrique et dont les principes cartographiques seront décrit en détails dans le chapitre suivant @sec-principesCarto :
 
 ![Diagramme de complexité d'une citation](images/localhost_samszo_HDR_jdcComplexityCita.png){#fig-ComplexityCita fig-align="center"}
 
 #### Naviguer dans les résultats
+
+L'outil que nous présentons est toujours en cours de conception et de développement, de nombreuses fonctionnalités reste à inventer mais il fourni les bases pour une navigation dans la complexité d'un écosystème d'information. Par exemple, à partir de la représentation d'une existence, il est possible de naviguer dans sa complexité pour retrouver les éléments qui la constituent dans l'onglet "Resource List" @fig-ComplexityListeRessource. En sélectionnant, un élément de la liste, on peut voir la complexité de cette élément et comprendre sa composition.
+
+![Liste des ressources liées à la complexité](images/localhost_samszo_HDR_docs_jdcComplexity.html.png){#fig-ComplexityListeRessource fig-align="center"}
+
+Plus globalement, il est possible de voir l'intégralité des éléments composants l'écosystème pour voir la répartition des existences suivant leur dimension et leur complexité comme nous l'avons montré dans l'analyse de notre écosystème de connaissances @sec-cartoEcoCon
 
 #### Comparer des points de vue interprétatif
 
@@ -361,11 +367,7 @@ le temps,
 
 par rapport à un objectif
 
-### Aux limites de l'exhaustibvité {#sec-illusionExhaustivite}
-
 ### Diagrammes et cribles conceptuels {#sec-diagrammesCribles}
-
-« Très souvent les marques involontaires sont beaucoup plus profondément suggestives que les autres, et c'est à ce moment-là que vous sentez que toute espèce de chose peut arriver. » (Voss, 2019, § 16) Cité dans (Deleuze, 2002, p. 94, note de la p. 87).
 
 "Le diagramme, pour ainsi dire, provoque d'abord le désordre et le chaos, en jetant pêle-mêle un régime significatif déjà existant, un ordre sémantico-syntaxique et une organisation optique, pour en tirer une clarté et une précision nouvelles. Cette clarté et cette précision n'appartiennent toutefois pas à une logique de représentation avec ses catégories d'identité, de ressemblance, d'analogie et d'opposition, mais à une « logique de la sensation »." (Voss, 2019, § 21)
 
