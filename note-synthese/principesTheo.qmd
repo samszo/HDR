@@ -359,9 +359,9 @@ L'outil que nous présentons est toujours en cours de conception et de développ
 
 Plus globalement, il est possible de voir l'intégralité des éléments composants l'écosystème pour voir la répartition des existences suivant leur dimension et leur complexité comme nous l'avons montré dans l'analyse de notre écosystème de connaissances @sec-cartoEcoCon
 
-#### Comparer des points de vue interprétatif
+#### Comparer la complexité des existences
 
-les dimensions existentielle,
+La complexité existentielle obtenue par les calculs que nous venons de présenter est un indicateur très utile pour suivre les évolutions d'un écosytème de connaissances. Par exemple, nous pourrions enrichir nos analyses des personnes participant à notre écosystème @sec-personneEcoCon en prenant la complexité existentielle de celle-ci. ,
 
 le temps,
 
