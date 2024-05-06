@@ -14,3 +14,140 @@ Les avantages d'une telle pratique sont d'avoir à disposition des outils qui r�
 Les inconvénients de ce type d'approche sont nombreux. Tout d'abord, il faut savoir concevoir, développer et tester un environnement numérique de travail. En d'autre termes, il faut savoir et aimer coder, ce qui n'est pas le cas chez beaucoup de collègues. Ensuite, il faut avoir le temps de se consacrer à cette pratique et accepter que les résultats ne sont pas toujours à la hauteurs des ambitions du départ. Enfin, il peut arriver que les outils répondent uniquement à nos propres besoins et pas à ceux d'une communautés plus large.
 
 Quoi qu'il en soit, il est pour nous toujours aussi stimulant d'inventer de nouveaux outils pour répondre à nos besoins de recherche et par la même les renouveler par la confrontation avec des questions que nous n'avions pas prévues. De plus, ces pratiques de la conception, du développement et du test, nous permettent de transmettre aux étudiants des manières de faire efficaces e les confrontant à des problématiques complexes en prise avec l'actualité technique. Il nous semble que l'humanisme numérique passe par cette confrontation avec les arcanes des machines numériques pour mieux comprendre ce qu'elles sont ou pas.
+
+### Mise en pratique d'Omeka S {#sec-pratiquesOmk}
+
+Avant 2016, j'utilisais un modèle de base de données et une trousse à outils php développée spécifiquement pour les besoins de mes recherches (Szoniecky, 2017, p. 141). Cette architecture technique m'a permis de développé plusieurs projets d'humanité numérique que nous avons présenté plus haut ([1.4.4.2Projet de recherche en humanités numériques](#anchor-59) p. [50](#anchor-59)). La découverte de la plasticité d'Omeka S en terme de modélisation des espaces sémantiques et documentaires m'a fait abandonné mes solutions spécifiques pour utilisé des solutions plus génériques et surtout disposant d'une communauté de concepteur et de développeurs. Ce chapitre explique comment j'ai mis en pratique Omeka S pour réaliser mes projets d'humanités numériques.
+
+#### Création d'un corpus dans Omeka S
+
+\- Choix des vocabulaires
+
+\- Modélisation des ressources templates
+
+\- Définition des relations entre objets
+
+\- Importation des données
+
+#### Développement des modules
+
+Dans le cadre de ces projets , nous avons développé plusieurs modules pour ajouter des fonctionnalités supplémentaire à Omeka S et facilité de travail de cartographie :
+
+##### Importation des données de zotero
+
+1.  Limite du plugin
+
+les actants (Callon 2013) ne sont pas pris en compte dans leur singularité mais uniquement comme des chaines de caractères.
+
+Les tags sont eux aussi uniquement considérés comme des chaines de caractères et ne sont pas différenciés par leur auteur qui est soit le propriétaire du zotero, soit un tag automatique (z:AutomaticTag).
+
+1.  Développements spécifiques
+
+importation par création ou mise à jour
+
+importation des actants comme des items .
+
+Importation des tags comme des concept skos et les rapports entre tags, ressource et auteur comme des annotations
+
+##### Nouvelle version du générateur de texte
+
+##### CartoAffect {#sec-cartoAffect}
+
+###### L'architecture des données
+
+###### Les modules JavaScript
+
+####### JDC Physiques {#sec-jdcPhysiques}
+
+####### JDC
+
+
+
+
+### Chaoticum Seminario {#sec-chaoticumSeminario}
+
+<https://github.com/samszo/ChaoticumSeminario>
+
+### GitHub Extractor
+
+Développer spécifiquement pour ce travail d'HDR afin d'extraire les données d'un compte GitHub et les importer dans Omeka S, cet outil cumule les besoins de deux outils existant : githubUserMeta[^54] et githubScraper[^55].
+
+[^54]:
+    > https://tools.digitalmethods.net/beta/githubUserMeta/#
+
+[^55]:
+    > https://tools.digitalmethods.net/beta/github/
+
+### Représentation de l'activité des chercheurs {#sec-datavizActiChercheur}
+
+### Représentation des pulsations existentielles en 3D {#sec-pulsaExi3D}
+
+### La double hélice de la communication dans la spirale conique des pulsations exitentielles
+
+# Réalisations {#sec-realisations}
+
+ Ce dernier module est très pratique pour importer des données à partir de tableurs. Par exemple, nous avons importer les données de notre CV à partir de tableurs[^technoIntello-16] ou automatiquement par exemple avec l'outil que nous avons développée pour extraire les informations des dépôts GitHub[^technoIntello-17] d'un compte :
+
+[^technoIntello-16]:
+    > Tableur d'importation des données du CV dans Omeka s : <https://docs.google.com/spreadsheets/d/1ap0Q6l8bK9Y8wB21xfCAk9qeJ-Gfa6XAjO-cVk2LxdI/edit?usp=sharing>
+
+[^technoIntello-17]:
+    > Tableur d'importation des données GitHub dans Omeka s : <https://docs.google.com/spreadsheets/d/1W92NdhcMurFO96Et82MOYL43fvFrdOB6nLGF-QeCrkY/edit?usp=sharing>
+
+![Outil pour l'extraction des données d'un compte GitHub](media/10000001000005FA000003C6E505BCF012940265.png){#fig-outilsExtractGithub width="17cm" height="10.733cm"}
+
+
+## Modélisation d'une pulsation existentielle
+
+### Les principes du modèle
+
+### Généricité du modèle
+
+Reprendre les différents exemple des principes élémentaire de la pensée de P. Lévy et les traduire sous frme de diagrammes
+
+### Rebondir dans les couches de l'individuation : heterogenetic flow
+
+"While the dynamics of separation of the two planes are largely unknown and typical to each semiotic context, we will speculate on the possibility of a spectral differentiation of the planes, in which the eigenvectors of the assemblage will indicate the independent directions of subspaces E/C. This construction allows the emergence of the semiotic function from the dynamic evolution of the heterogenetic flow without the need of any stabilisation, as opposed to the classical case of structural morphodynamics." p. 3
+
+« To allow the construction of assemblages, two temporal scales or axes are present. The first is the axis of the actualisation of differential constraints. It is the axis of Kronos, which is common to mathematical physics. The second is the axis that Deleuze calls Aion, on which it takes the place the recombination of differential constraints in new assemblages. » p. 6
+
+Sarti, A., Citti, G., Piotrowski, D., 2019. Differential heterogenesis and the emergence of semiotic function. Semiotica.
+
+
+#### Création d'un corpus dans Omeka S
+
+\- Choix des vocabulaires
+
+\- Modélisation des ressources templates
+
+\- Définition des relations entre objets
+
+\- Importation des données
+
+#### Développement des modules
+
+Dans le cadre de ces projets , nous avons développé plusieurs modules pour ajouter des fonctionnalités supplémentaire à Omeka S et facilité de travail de cartographie :
+
+##### Importation des données de diigo {#sec-importDiigo}
+
+##### Importation des données de zotero
+
+1.  Limite du plugin
+
+les actants (Callon 2013) ne sont pas pris en compte dans leur singularité mais uniquement comme des chaines de caractères.
+
+Les tags sont eux aussi uniquement considérés comme des chaines de caractères et ne sont pas différenciés par leur auteur qui est soit le propriétaire du zotero, soit un tag automatique (z:AutomaticTag).
+
+1.  Développements spécifiques
+
+importation par création ou mise à jour
+
+importation des actants comme des items .
+
+Importation des tags comme des concept skos et les rapports entre tags, ressource et auteur comme des annotations
+
+##### Nouvelle version du générateur de texte
+
+
+###### L'architecture des données
+

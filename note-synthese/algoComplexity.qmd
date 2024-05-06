@@ -1,10 +1,9 @@
-
 ```{mermaid}
 %%| echo: false
 %%| label: fig-algoComplexity
 %%| fig-cap: "Calculer les complexités"
 %%| fig-height: 100px
-%%| 
+
 flowchart TD
     cpxExi[Calculer la complexité d'une existence] -->exiExist{Le calcul est déjà fait ?}
     exiExist -->|Oui| cpxFin
@@ -59,3 +58,4 @@ flowchart TD
     cpxRes -->calcCpx[Cumul des complexités]
     calcCpx-->saveCpx[Enregistre la complexité]
     saveCpx-->cpxFin[Fin]
+```

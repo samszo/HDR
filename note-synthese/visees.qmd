@@ -104,3 +104,83 @@ Dewey & Tufts le reconnaissent quand ils insistent sur la nécessité de goûter
 
 ## Axes puissances existentielles
 Calculée à partir des complexité exitentielle.
+
+Diagrammes et cribles conceptuels
+
+"Le diagramme, pour ainsi dire, provoque d'abord le désordre et le chaos, en jetant pêle-mêle un régime significatif déjà existant, un ordre sémantico-syntaxique et une organisation optique, pour en tirer une clarté et une précision nouvelles. Cette clarté et cette précision n'appartiennent toutefois pas à une logique de représentation avec ses catégories d'identité, de ressemblance, d'analogie et d'opposition, mais à une « logique de la sensation »." (Voss, 2019, § 21)
+
+« L'arbre n'est pas seulement un signe, il est le signe des signes, le diagramme des diagrammes, celui qui est le mieux en prise avec le réel et son devenir. Qu'il s'incarne dans des images matérielles, des images mentales ou des images métaphoriques, il affirme sa puissance organisatrice dans tous les domaines depuis les débuts de la pensée moderne jusqu'à l'ère numérique. » (Dahan-Gaida, 2020)§ 37
+
+Les plateaux sont des multiplicités qui s'interconnectent par des ramifications rhizomatiques, qui posent que l'écrit n'est plus un signifié, mais un arpentage et une cartographie. C'est l'objet de la philosophie que de construire des réseaux qui relient les idées et produisent les concepts. De là, l'importance des lieux synaptiques qui sont à la charnière des strates et des couches géologiques, des niveaux et des plans que composent le savoir et le monde. Les surfaces sont toujours entaillées de modifications de reliefs que le rhizome restitue. L'Être n'est plus l'Être en tant qu'Être mais l'Être en tant qu'Être en un lieu. Le topos est le plan d'immanence sur lequel se développe la réflexion sur la philosophie des sciences. L'ontologie se mue en une onto-(po)-logie ou ontologie toposique. p. 156
+
+Jedrzejewski, F., 2007. Diagrammes et Catégories (Philosophie). Université Paris-Diderot - Paris VII, Paris.
+
+Ces cribles auront pour objectif Avant d'utiliser ce crible conceptuel, il faut tout d'abord définir « sur quoi » porte l'analyse qu'elle est sont objet qu'elles sont les « potentialités actuelles dûment répertoriables » . Dans l'étude de (Wolff & al. 2017) la grille d'analyse CPL porte sur des plateformes informatiques mais nous pouvons aussi l'utiliser sur toutes autres données voir même sur CPL.
+
+Pour illustrer notre propos nous prendrons l'exemple des plateformes pour mesurer et préserver la biodiversité. Afin de répondre aux obligations légales des entreprises qui depuis la loi sur les « Nouvelles Régulations économiques » de 2002, doivent informer sur « les mesures prises pour préserver ou développer la biodiversité » (décret n° 2012-557). De nombreuses plateformes sont apparues pour aider les entreprises à respecter la loi, toutefois l'usage de ces outils pose de nombreuses questions notamment concernant :
+
+« d'une part la question des hypothèses sur lesquelles reposent ces outils, qui peuvent être contestables scientifiquement ou socialement du fait du système de valeurs sur lequel ils s'appuient, et d'autre part la question de leur efficacité en termes de modification des représentations de l'environnement et, in fine, d'une meilleure prise en compte des questions environnementales dans les décisions. » (Wolff & al. 2017)
+
+Les problèmes relèvent principalement du « système du valeur » qui sous-tend la conception des plateformes et influent sur la production des données. Pour évaluer ces plateformes (Wolff & al. 2017) ont utilisé un crible conceptuel pour mesurer la qualité des données sur trois aspects : la crédibilité, la pertinence et la légitimité (CPL). Leur étude s'appuie sur une méthode d'évaluation robuste qui révèlent les stratégies des acteurs de l'entreprise face à la préservation de l'environnement. Cette méthode offre un radar conceptuel pour positionner trois exigences fortes, complémentaires et indispensables à la conception d'un outil d'évaluation des impacts environnementaux de l'activité. Plus globalement, il offre un moyen simple permettant à chacun de positionner un point de vue par rapport à une données environnementale.
+
+comme la grille CPL. Le diagramme ci-dessous (Figure 1), illustre comment utiliser ce crible conceptuel dans une carte sémantique où chacun pourra par un simple clic situer son point de vue :
+
+Figure 1. Crible conceptuel CPL
+
+La Figure 1 ci-dessus montre le résultat de plusieurs positionnements. L'application pour téléphone mobile avec laquelle sont fait ces positionnements, enregistre des données sur : quand, où et qui.
+
+Les données de positionnement spatiales et temporelles ne posent pas de problème particulier au niveau de leur objectivité car sauf erreur de la machine ou malveillance, elles font références à des normes de mesure, celles du GPS pour le « où » et celles des horloges mondiales pour le « quand ».
+
+Exemples de cribles conceptuels
+
+Qualification du réel
+
+« 
+
+Le singulier : ce que l'on rencontre est un événement, une rupture par rapport à ce qui existait avant, et est proprement incomparable à tout ce qui l'entoure et ce que nous connaissons. Le singulier est un absolu, il impose à nous sa singularité. Répondre à ce singulier force à innover, à l'intégrer dans notre réalité alors qu'il la déborde. 
+
+Le récurrent : ce que l'on rencontre a déjà eu lieu ; contrairement au singulier, le récurrent passe quasiment inaperçu, il ne fait pas événement mais conditionnement, il est à la source de nos habitudes.
+
+Le typique : le réel se manifeste à travers un objet ou une situation qui incarne selon nous un comportement à adopter. Le typique renvoie au lieu commun : quand on rencontre tel ou tel objet, on ne se pose pas de question, on agit de telle ou telle manière.
+
+Le particulier : le réel se manifeste comme le spécifique d'une règle ou catégorie générale. La réponse adoptée est celle qui est commandée par la catégorie qui le subsume.
+
+Enfin, l'instance est le réel correspondant à un type formel, ce qui se laisse enrôler dans un axiome ou une règle calculatoire ou logique. C'est le niveau des définitions implicites de Hilbert : on ne sait pas ce qu'est un ensemble, c'est ce qui se comporte comme les axiomes de Zermelo -- Fraenkel avec l'axiome du choix (ZFC) ; de même on ne sait pas ce qu'est un nombre entier, mais c'est ce qui se comporte selon les axiomes de Peano. Dans cette optique, traiter ce qui arrive comme un instance revient à lui appliquer les règles ou axiomes régissant son comportement. » https://intelligibilite-numerique.numerev.com/manifeste
+
+Les valeurs selon Gabriel Tarde
+
+Pour être plus précis et en adéquation avec les propositions qu'Yves Citton avancent pour réaliser une cartographie des affects à partir des principes de Spinoza et Tarde (Citton, 2008) nous remplaçons l'unique concept de confiance par un crible conceptuel (1.1.4Espaces conceptuels : connaissances des essences p. 26) qui décompose la valeur en trois registres :
+
+- les « valeurs-utilités » qui définissent l'offre et la demande
+
+- les « valeurs-vérités » qui mesurent les gains en connaissances et plus largement les phénomènes de croyances, de confiance, les attentes
+
+- les « valeurs-beautés » qui définissent le champ esthétique au sens de tout ce qui transforme nos goûts et nos sensibilités.
+
+Interaction par cartographie sémantique
+
+(repris de Szoniecky & Toumia 2019)
+
+C'est à partir de cette traduction analogique que nous proposons une représentation dynamique et interactive du pouvoir d'agir sous forme de cartographie sémantique que nous définissons comme des interfaces dynamiques et interactives composées :
+
+• d'un système de coordonnées conceptuelles pour formaliser une expression interopérable
+
+• d'une projection des concepts dans un vocabulaire graphique pour visualiser des expressions
+
+• de dispositifs d'interactions avec l'utilisateur (click, drag & drop, capture de gestes, etc.) pour manipuler des expressions
+
+Ces cartographies prennent comme vocabulaires graphiques ceux des cartographies géographiques, des plans d'habitations ou toute autre forme graphique comme des étoiles, des icônes, des dessins, des schémas, etc. Ce qui importe c'est la capacité de la cartographie de rendre explicite, affordant, les interactions des utilisateurs avec le vocabulaire graphique et la projection de ces interactions dans quatre systèmes de coordonnées :
+
+• espaces matériels
+
+• espaces conceptuels
+
+• réseaux d'acteurs
+
+• temporalités.
+
+Le passage par ces systèmes de coordonnés permet de formaliser l'expression pour la rendre interopérable avec d'autres expressions. Ainsi l'interprétation passe par le positionnement de l'utilisateur dans ces quatre systèmes de coordonnées. Positions que l'on peut calculer automatiquement par exemple dans l'espace matériel grâce au GPS ou dans la temporalité́ grâce à la synchronisation des horloges mondiales. En revanche, les positionnements dans le réseau des acteurs et dans les espaces conceptuels nécessitent des interactions avec l'utilisateur.
+
+Conception de prototypes pour les humanités numériques
+
+Concevoir des outils est un travail long qui demande de bien comprendre les usages particuliers d'un domaine pour en extraire une généricité opératoire dont l'outil sera la mise en forme. Mais cette capacité à formaliser dans un artefact une solution pour améliorer une activité ne suffit pas à faire un outil, il faut aussi comme la bien montré Leroi Gourhan que cette forme soit adoptée par une communauté d'utilisateur et cela même si la solution proposée n'est pas la plus adéquate :

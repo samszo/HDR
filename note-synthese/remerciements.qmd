@@ -1,13 +1,13 @@
 # Remerciements {#sec-remerciements .unnumbered}
 
-En préambule de cette note de synthèse,je voudrais remercier les personnes sans qui ce travail n'aurait pas pu aboutir.
+En préambule de cette note de synthèse, je voudrais remercier les personnes sans qui ce travail n'aurait pas pu aboutir.
 
 Tout d'abord, merci à la Commission de la recherche de l'Université Paris 8 ainsi qu'aux experts qui ont examiné ce travail. 
 
-Tout mes remerciement vont aussi aux membres du jury dont les analyses critiques m'ont permis d'améliorer grandement ce document et d'affiner mes axes de recherches.
+Tous mes remerciements vont aussi aux membres du jury dont les analyses critiques m'ont permis d'améliorer grandement ce document et d'affiner mes axes de recherches.
 
-Mille mercis à Imad Saleh qui me guide depuis tant d'années avec bienveillance et sourires, ses conseils précieux et son amitié m'accompagnent bien au-delà du cadre universitaires...
+Mille mercis à Imad Saleh qui me guide depuis tant d'années avec bienveillances et sourires, ses conseils précieux et son amitié m'accompagnent bien au-delà des cadres universitaires...
 
-Mercis de tout mon coeur à Marina, Alexandre, Frédérik et Lucie pour leurs patiences, encouragements et soutiens tout au long de ce parcours où je n'étais pas toujours disponibles pour eux...
+Merci de tout mon coeur à Marina, Alexandre, Frédéric et Lucie pour leurs patiences, encouragements et soutiens tout au long de ce parcours où je n'étais pas toujours disponible pour eux...
 
 Enfin, mercis très chaleureux à mes collègues...    

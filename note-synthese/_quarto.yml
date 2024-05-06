@@ -22,10 +22,10 @@ book:
       chapters:
         - principesTheo.qmd
         - principesCarto.qmd
-        - technoIntello.qmd
     - part: perspectives.qmd
       chapters:
         - visees.qmd
+        - technoIntello.qmd
         - analyserOntoEthique.qmd
         - capterGout.qmd
         - developper.qmd
