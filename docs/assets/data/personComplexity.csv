@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 o:id,dcterms:title,jdc:hasRencontre,jdc:complexity,jdc:valeurUtilite
+=======
+﻿o:id,dcterms:title,jdc:hasRencontre,jdc:complexity,jdc:valeurUtilite
+>>>>>>> 4546f25 (ajout personComplexity)
 61225,Samuel Szoniecky,100,7819,100
 61148,Imad Saleh,90,3003,90
 61080,Collectif,,2271,
