@@ -1,16 +1,42 @@
+::: {#exergue-visees1 .exergue}
+« "C'est donc à la condition de l'interprétation,\
+autrement dit du discernement, \[...\]\
+que la guerre, portée par les techniques\
+en tant qu'elles sont toujours des armes,\
+peut se transformer en lutte politique paisible \[...\]\
+dans l'espace d'un droit\
+qui est aussi celui d'un nous. »\
+[@stiegler2004, p. 35]
+:::
+
+::: {#exergue-visees2 .exergue}
+« Il faut prendre acte,\
+de cette entrée du nombre en politique \[...\],\
+relevant d'une mathématisation générale du monde \[...\],\
+mais aussi comme montée de la raison commerçante,\
+vers la raison d'état,\
+et comme descente du politique,\
+vers la sphère domestique »\
+[@berns2009, p. 45]
+:::
+
 # Perspectives scientifiques : échelles d'exploration et axes d'expérimentation {#sec-visees}
 
-Au delà de nos positionnement actuels que nous venons de présenter @sec-posiSIC notre travail de recherche se déploie suivant plusieurs perspectives que nous développeront ici suivant les diffférents niveaux d'échelles que nous explorons et les axes d'expérimentations que nous développons afin de mettre fin à un « amincissement du monde » et une représentation de la pensée en un réseau qui supprime la multiplicité des modes d'existences :
+Suite à la présentation de nos positionnements scientifiques @sec-positionnements et des principes pour la modélisation @sec-principesTheo et la cartographie @sec-principesCarto des connaissances, nous développerons dans ce chapitre nos perspectives de scientifiques et comment elles se déploient dans des projets de recherches spécifiques suivant des niveaux d'échelles et des axes d'expérimentations que nous explorons avec l'objectif principal de lutter contre un « amincissement du monde » et une représentation de la pensée qui supprime la multiplicité des modes d'existences :
 
-\> « Tout se passe comme si la densité des modes d'existence, la pluralité des relations que nous pouvons entretenir avec les êtres qui forment nos milieux et qu'ils entretiennent entre eux, l'hétérogénéité de nos savoirs, cette « surabondance du réel » étaient la cible d'un leitmotiv : une seule logique pour l'hétérogénéité des savoirs, un seul mode d'existence pour la pluralité des êtres, un seul cosmos pour la diversité des mondes. Bref, cette peur d'être dupe a pour effet de réduire les savoirs, les êtres et le monde à une seule et unique couche d'existence. » [@debaise2021, § 6 ]
+« Tout se passe comme si la densité des modes d'existence, la pluralité des relations que nous pouvons entretenir avec les êtres qui forment nos milieux et qu'ils entretiennent entre eux, l'hétérogénéité de nos savoirs, cette « surabondance du réel » étaient la cible d'un leitmotiv : une seule logique pour l'hétérogénéité des savoirs, un seul mode d'existence pour la pluralité des êtres, un seul cosmos pour la diversité des mondes. Bref, cette peur d'être dupe a pour effet de réduire les savoirs, les êtres et le monde à une seule et unique couche d'existence. » [@debaise2021, § 6]
 
-Ce qui nous importe ici c'est de lutter contre une « politique de la méfiance »[@guattari1989], réduisant les environnements à une simple ressource en usant de catégories qui rendent équivalentes ou insignifiantes les manières d'habiter, de s'attacher, de valoriser. Ce « laminage des subjectivités » (*Ibid.*) entraîne la destruction des rapports collectifs par une mise en concurrence généralisée à tous les niveaux des individus entre eux. Voyez donc ici l'expression d'une subjectivité qui donnera lieu j'espère à une politique de la curiosité conduisant au développement d'un collectif de pensé stimulé par la différence.
+Ce qui nous importe ici c'est de combattre une « politique de la méfiance »[@guattari1989], réduisant les environnements à une simple ressource en usant de catégories qui rendent équivalentes ou insignifiantes les manières d'habiter, de s'attacher, de valoriser. Ce « laminage des subjectivités » (*Ibid.*) entraîne la destruction des rapports collectifs par une mise en concurrence généralisée à tous les niveaux des individus entre eux. Voyez donc ici l'expression d'une subjectivité qui donnera lieu j'espère à une politique de la curiosité conduisant au développement d'un collectif de pensé stimulé par la différence.
 
-## Echelles d'exploration## {#sec-echelleExploration}
+« De nouveaux outils analytiques sont nécessaires pour étudier la distribution et les liens entre les instruments, les énoncés, les compétences incorporées et, plus généralement, tous les actants mobilisés. Ce sont à la fois les contenus et les modes de circulation de ce qui est produit qui dépendent de la dynamique de ces interactions. » [@callon2013]
+
+## Echelles d'exploration {#sec-echelleExploration}
+
+Examinons tout d'abord nos perspectives de recherche suivant quatre échelles qui correspondent aux quatre dimensions existentielles qui composent notre modèle d'existence informationnelle @sec-modeleOntoEthique. Nous exprimons ici une nouvelle corrélation qui approfondi les relations entre les dimensions de l'existence et les métriques pour montrer en quoi l'exploration d'une dimension de l'existense conditionne l'échelle avec laquelle les phénomènes sont observés.
 
 ### Echelle locale : produire une expression matérielle cohérente {#sec-echelleLocale}
 
-Concevoir des outils sur des mobiles
+Cette première échelle est en lien avec la première dimension de l'existence celle des matières physiques. Plus spécifiquement, elle concerne la production de cette dimension en se focalisant sur les conditions d'une expression cohérente de ces physicalités, c'est-à-dire la production de faits. Nous nommons cette échelle locale car elle correspond à l'observation la plus en adéquation avec le terrain, à la manière des fouilles archéologiques dont l'objectifs est de décrire des traces pour conjecturer des faits. Cette échelle est aussi celle des enquêtes et des entretiens dont il faut capter les significations et construire les interprétations. A cette échelle d'exploration, nous nous intéressons particulièrement aux moyens de transcrire les traces en préservant le plus possible leurs cohérences avec le contexte de l'expression. Notre objectif est de définir des protocoles simples et efficaces pour récolter ces traces notamment à travers des cartographies sémantiques dont nous avons défini les principes dans les chapitres précédents.
 
 ## Echelle globale : technologies intellectuelles collectives {#sec-echelleGlobale}
 
@@ -103,6 +129,7 @@ Dewey & Tufts le reconnaissent quand ils insistent sur la nécessité de goûter
 « Si l'économie domine la vie --- et si l'ordre économique s'appuie principalement sur le profit comme motif au lieu de faire droit à d'autres motifs comme l'excellence professionnelle, la maîtrise d'un métier, le souci d'une juste rémunération ---, nous courons le danger de voir cette partie de notre vie qui devrait être subordonnée à toutes les autres valeurs et à tous les autres intérêts devenir la finalité ultime de nos existences. Nos vies ne peuvent se réduire à des bilans comptables. Lorsque la richesse est notre objectif principal, pour ne pas dire le seul, tout ce qui fait le sel de la vie --- l'amour, la justice, la connaissance, la beauté --- risque de passer au second plan. \[...\] La vérité est que faire du profit et de la richesse le but ultime de l'existence revient à se méprendre gravement sur ce que doit être le sens d'une vie.» (Dewey & Tufts, 2021b, §. 39)
 
 ## Axes puissances existentielles
+
 Calculée à partir des complexité exitentielle.
 
 Diagrammes et cribles conceptuels
@@ -151,11 +178,11 @@ Les valeurs selon Gabriel Tarde
 
 Pour être plus précis et en adéquation avec les propositions qu'Yves Citton avancent pour réaliser une cartographie des affects à partir des principes de Spinoza et Tarde (Citton, 2008) nous remplaçons l'unique concept de confiance par un crible conceptuel (1.1.4Espaces conceptuels : connaissances des essences p. 26) qui décompose la valeur en trois registres :
 
-- les « valeurs-utilités » qui définissent l'offre et la demande
+-   les « valeurs-utilités » qui définissent l'offre et la demande
 
-- les « valeurs-vérités » qui mesurent les gains en connaissances et plus largement les phénomènes de croyances, de confiance, les attentes
+-   les « valeurs-vérités » qui mesurent les gains en connaissances et plus largement les phénomènes de croyances, de confiance, les attentes
 
-- les « valeurs-beautés » qui définissent le champ esthétique au sens de tout ce qui transforme nos goûts et nos sensibilités.
+-   les « valeurs-beautés » qui définissent le champ esthétique au sens de tout ce qui transforme nos goûts et nos sensibilités.
 
 Interaction par cartographie sémantique
 
