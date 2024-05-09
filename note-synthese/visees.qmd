@@ -65,7 +65,45 @@ L'enjeux très ambitieux est de questionner en quoi une logique pragmatique c'es
 ### Echelle sociale : la communauté des enseignants chercheurs {#sec-echelleSociale}
 
 Corrélée à la dimension des actants, nous observons à l'échelle sociale les groupes d'individus dans leurs manières d'être ensemble ou non, ce qu'ils génèrent dans les autres dimensions existentielles, comment et pourquoi. Plus particulièrement, ce qui nous intéresse d'observer à cette échelle, c'est la communauté des enseignants-checheurs (EC). Pas uniquement, les EC professionels que l'on cotoient à l'université ou dans d'autres centres de recherches mais tout actant qui explore un domaine, raconte ses explorations et transmet les moyens de les faire soi-même. Je pense notamment aux enseignants du primaire et du secondaire mais aussi aux formateurs, aux maîtres d'apprentissage et plus largement aux parents proches et plus lointains que nous croisons et qui nous nourissent de leurs expériences.
-Les recherches que nous souhaitons mener à cette échelle concernent la modélisation de cette communauté dans toute sa diversité afin d'analyser en quoi et comment des manières d'être spécifiques influencent la transmission des connaissances. Nous avons mené avec des collègues de science de l'éducation et de psychologie des travaux qui vont dans ce sens dans le cadre d'un projet Ces travaux es EC est composée d'actants très divers et pas forcément humain comme on l'observe aujourd'hui avec l'explosion des assistants virtuels   
+Les recherches que nous souhaitons mener à cette échelle concernent la modélisation de cette communauté dans toute sa diversité afin d'analyser en quoi et comment des manières d'être spécifiques influencent la transmission des connaissances. Depuis trois ans, nous avons travaillé avec des collègues de science de l'éducation et de psychologie sur un projet qui va dans ce sens.
+Le projet vise à mieux comprendre la manière dont l’utilisation des environnements
+numériques d’apprentissages (ENA) en tant que pratique pédagogique innovante peut jouer un rôle
+dans le développement du sentiment de compétence et de la motivation scolaire. Cet objectif est sousjacent à un questionnement plus large autour des effets des environnements numériques sur les
+apprentissages : Est-ce que ce sont les ENA et le plaisir lié à l’usage d’un écran qui tendent à développer
+la motivation des élèves ? Sont-ce les ENA qui agissent comme une récompense en soi et qui par leurs
+modalités plus ludiques agiraient sur la motivation ? Ou encore est-ce un effet de la ludification par
+interactivité de l’expérience ? Afin de répondre à ces différentes questions, nous mènerons des
+observations et entretiens visant à recueillir les perceptions des élèves quant à l’utilisation d’ENA et
+examinerons dans quelle mesure et par quels moyens les ENA contribuent à déterminer en partie leur
+sentiment de compétence et leur motivation scolaire.
+Dans une étude précédente menée dans le cadre du projet MANEP (Brasselet et al.,
+2019), nous avons étudié l’effet du contexte d’enseignement – avec médiations numérique et humaine
+- sur la motivation scolaire. Dans la modalité d’enseignement avec médiation humaine, l’enseignant
+mène la situation d’apprentissage et dans la modalité d’enseignement avec médiation numérique,
+l’apprentissage est réalisé sous un format numérique sans l’enseignant. L’étude s’est déroulée dans
+les académies de Lille et Versailles. 129 élèves répartis en quatre classes de CM2 ont participé à une
+séquence d’apprentissage en résolution de problèmes composée de quatre séances en mode «
+médiation humaine » et quatre en mode « médiation numérique ». La motivation et le sentiment de
+compétence étaient mesurés après les séances 2, 4, 6 et 8. Les conditions étaient contrebalancées. La
+moitié des classes a commencé par les séances en modalité « médiation humaine » (séances 1 à 4) et
+a fini par les séances en modalité « médiation numérique » (séances 5 à 8) [condition « médiation
+humaine / médiation numérique »], et inversement pour l’autre moitié des classes [condition
+« médiation numérique / médiation humaine]. Les analyses par modèle linéaire mixte indiquent un
+effet d’interaction « séances*ordre des modalités » sur la motivation. On observe une augmentation
+de la motivation suite au passage entre la modalité « médiation humaine » et la modalité « médiation
+numérique » (entre les séances 4 et 6). Dans la condition « médiation numérique / médiation
+humaine », la motivation diminue en séance 6 pour augmenter en dernière séance (séance 8). Dans le
+présent projet et suite aux résultats obtenus dans le projet MANEP, nous cherchons donc à mieux
+comprendre le rôle joué par les ENA dans la motivation. Plus particulièrement, nous souhaitons
+analyser le rôle des feedbacks proposés dans les différentes modalités d’enseignement sur la
+motivation et le sentiment de compétence scolaires. Est-ce que les feedbacks sont proposés et reçus
+différemment en fonction de la modalité d’enseignement ?  
+
+- Le mot numérique est trop vague, je propose d'être plus précis en parlant des environnements numériques d’apprentissage (ENA) ou des environnements informatiques pour l'apprentissage humain (EIAH).
+- Je trouve que l'opposition entre modes numérique et classique n'est pas très adéquate, je parlerais plutôt de médiations numériques et humaines
+- Il me semble que la notion de feedback pourrait tout à fait être remplacée par celle d'intéraction définit comme le cycle réception->objectivation->expression ou discernement->jugement->action. On pourrait par exemple mesurer la fréquence de ces intéractions entre les différents acteurs : enseignant, apprenant, EIAH. Dans le cas apprenant <-> EIAH, les interactions sont continuelles et individuelles. Dans le cas enseignant <-> apprenant, les intéractions sont alternatives et surtout collectives. Ce dernier point n'est pas traité dans le projet mais il me semble très important.
+
+Ces travaux es EC est composée d'actants très divers et pas forcément humain comme on l'observe aujourd'hui avec l'explosion des assistants virtuels   
 
 Détailler l'importance de ce point de vue dans le cadre de l'enseignement où la notion de gestion de l'information n'est pas évidente...
 
