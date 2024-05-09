@@ -22,7 +22,7 @@ vers la sphère domestique »\
 
 # Perspectives scientifiques : échelles d'exploration et axes d'expérimentation {#sec-visees}
 
-Suite à la présentation de nos positionnements scientifiques @sec-positionnements et des principes pour la modélisation @sec-principesTheo et la cartographie @sec-principesCarto des connaissances, nous développerons dans ce chapitre nos perspectives de scientifiques et comment elles se déploient dans des projets de recherches spécifiques suivant des niveaux d'échelles et des axes d'expérimentations que nous explorons avec l'objectif principal de lutter contre un « amincissement du monde » et une représentation de la pensée qui supprime la multiplicité des modes d'existences :
+Suite à la présentation de nos positionnements scientifiques @sec-positionnements et des principes pour la modélisation @sec-principesTheo et la cartographie @sec-principesCarto des connaissances, nous développerons dans ce chapitre nos perspectives scientifiques et comment elles se déploient dans des projets de recherches spécifiques suivant des niveaux d'échelles et des axes d'expérimentations que nous explorons avec l'objectif principal de lutter contre un « amincissement du monde » et une représentation de la pensée qui supprime la multiplicité des modes d'existences :
 
 « Tout se passe comme si la densité des modes d'existence, la pluralité des relations que nous pouvons entretenir avec les êtres qui forment nos milieux et qu'ils entretiennent entre eux, l'hétérogénéité de nos savoirs, cette « surabondance du réel » étaient la cible d'un leitmotiv : une seule logique pour l'hétérogénéité des savoirs, un seul mode d'existence pour la pluralité des êtres, un seul cosmos pour la diversité des mondes. Bref, cette peur d'être dupe a pour effet de réduire les savoirs, les êtres et le monde à une seule et unique couche d'existence. » [@debaise2021, § 6]
 
@@ -32,25 +32,64 @@ Ce qui nous importe ici c'est de combattre une « politique de la méfiance »[@
 
 ## Echelles d'exploration {#sec-echelleExploration}
 
-Examinons tout d'abord nos perspectives de recherche suivant quatre échelles qui correspondent aux quatre dimensions existentielles qui composent notre modèle d'existence informationnelle @sec-modeleOntoEthique. Nous exprimons ici une nouvelle corrélation qui approfondi les relations entre les dimensions de l'existence et les métriques pour montrer en quoi l'exploration d'une dimension de l'existense conditionne l'échelle avec laquelle les phénomènes sont observés.
+Examinons tout d'abord nos perspectives de recherche suivant quatre échelles qui correspondent aux quatre dimensions existentielles qui composent notre modèle d'existence informationnelle @sec-modeleOntoEthique. Nous exprimons ici une nouvelle corrélation qui approfondi les relations entre les dimensions de l'existence et les métriques permettant de les mesurer afin de montrer en quoi l'exploration d'une dimension de l'existense conditionne l'échelle avec laquelle les phénomènes sont observés.
 
 ### Echelle locale : produire une expression matérielle cohérente {#sec-echelleLocale}
 
-Cette première échelle est en lien avec la première dimension de l'existence celle des matières physiques. Plus spécifiquement, elle concerne la production de cette dimension en se focalisant sur les conditions d'une expression cohérente de ces physicalités, c'est-à-dire la production de faits. Nous nommons cette échelle locale car elle correspond à l'observation la plus en adéquation avec le terrain, à la manière des fouilles archéologiques dont l'objectifs est de décrire des traces pour conjecturer des faits. Cette échelle est aussi celle des enquêtes et des entretiens dont il faut capter les significations et construire les interprétations. A cette échelle d'exploration, nous nous intéressons particulièrement aux moyens de transcrire les traces en préservant le plus possible leurs cohérences avec le contexte de l'expression. Notre objectif est de définir des protocoles simples et efficaces pour récolter ces traces notamment à travers des cartographies sémantiques dont nous avons défini les principes dans les chapitres précédents.
+Cette première échelle est en lien avec la première dimension de l'existence celle des matières physiques. Plus spécifiquement, elle concerne la production de cette dimension en se focalisant sur les conditions d'une expression cohérente de ces physicalités, c'est-à-dire la production de faits. Nous nommons cette échelle locale car elle correspond à l'observation la plus en adéquation avec le terrain, à la manière des fouilles archéologiques dont l'objectifs est de décrire des traces pour conjecturer des faits. Cette échelle est aussi celle des enquêtes et des entretiens dont il faut capter les significations et construire les interprétations. A cette échelle d'exploration, nous nous intéressons particulièrement aux moyens de transcrire les traces en préservant le plus possible leurs cohérences avec le contexte de l'expression. Notre objectif est de définir des protocoles simples et efficaces pour récolter ces traces notamment à travers des cartographies sémantiques dont nous avons défini les principes dans les chapitres précédents. Nous avons déjà mis en pratique ce type de recherche [@szoniecky2011; @szoniecky2019; @szoniecky2020]mais souhaitons continuer nos investigations en expérimentant de nouveaux modes d'interactions.
 
-## Echelle globale : technologies intellectuelles collectives {#sec-echelleGlobale}
+Nous proposons de concevoir des « capteurs sémantiques »[@zacklad2010] plus efficaces et précis pour récolter les pouvoirs @sec-pouvoirAgirCartoAffect d'une existence informationnelle et poursuivre ce que nous avons défini dans [@szoniecky2019b] en définissant les cartographies sémantiques comme des interfaces dynamiques et interactives composées :
 
-Rendre interopérables les données produites
+-   d'un système de coordonnées conceptuelles pour formaliser une expression interopérable
 
-## Echelle sociale : la communauté des enseignants chercheurs {#sec-echelleSociale}
+-   d'une projection des concepts dans un vocabulaire graphique pour visualiser des expressions
 
-Pas uniquement à l'université : tout acteur est à la fois chercheur et enseignant = explorateur et conteur.
+-   de dispositifs d'interactions avec l'utilisateur (click, drag & drop, capture de gestes, etc.) pour manipuler des expressions
+
+Ces cartographies prennent comme vocabulaires graphiques ceux des cartographies géographiques, des plans d'habitations ou toute autre forme graphique comme des étoiles, des icônes, des dessins, des schémas, etc. Ce qui importe c'est la capacité de la cartographie de rendre explicite, affordant, les interactions des utilisateurs avec le vocabulaire graphique et la projection de ces interactions dans quatre systèmes de coordonnées :
+
+-   espaces matériels @sec-espaceMateriels
+
+-   espaces conceptuels @sec-espaceConceptuels
+
+-   réseaux d'acteurs @sec-espaceActant
+
+-   temporalités @sec-rapportsInstExis.
+
+Le passage par ces systèmes de coordonnées permet de formaliser l'expression pour la rendre interopérable avec d'autres expressions. Ainsi l'interprétation passe par le positionnement des utilisateurs dans ces quatre systèmes de coordonnées. Positions que l'on peut calculer automatiquement par exemple dans l'espace matériel grâce au GPS ou dans la temporalité́ grâce à la synchronisation des horloges mondiales. En revanche, les positionnements dans le réseau des acteurs et dans les espaces conceptuels nécessitent des interactions avec l'utilisateur.
+
+Par exemple, je souhaite approfondir les questions théoriques autour de la captation du goût à travers un dispositif d'exploration des choix véritables. Entre pouvoirs de discernement et d'agir comment émerge la délibération du goût : j'aime, j'aime pas, c'est bon, c'est mauvais ?
+Peut-on modéliser ce processus ? jusqu'où ?
+L'enjeux très ambitieux est de questionner en quoi une logique pragmatique c'est-à-dire spécifique à l'acteur ici et maintenant permet de penser une logique classique c'est-à-dire absolument générique quelques que soit la multiplicité des acteurs ici et maintenant.
+
+### Echelle sociale : la communauté des enseignants chercheurs {#sec-echelleSociale}
+
+Corrélée à la dimension des actants, nous observons à l'échelle sociale les groupes d'individus dans leurs manières d'être ensemble ou non, ce qu'ils génèrent dans les autres dimensions existentielles, comment et pourquoi. Plus particulièrement, ce qui nous intéresse d'observer à cette échelle, c'est la communauté des enseignants-checheurs (EC). Pas uniquement, les EC professionels que l'on cotoient à l'université ou dans d'autres centres de recherches mais tout actant qui explore un domaine, raconte ses explorations et transmet les moyens de les faire soi-même. Je pense notamment aux enseignants du primaire et du secondaire mais aussi aux formateurs, aux maîtres d'apprentissage et plus largement aux parents proches et plus lointains que nous croisons et qui nous nourissent de leurs expériences.
+Les recherches que nous souhaitons mener à cette échelle concernent la modélisation de cette communauté dans toute sa diversité afin d'analyser en quoi et comment des manières d'être spécifiques influencent la transmission des connaissances. Nous avons mené avec des collègues de science de l'éducation et de psychologie des travaux qui vont dans ce sens dans le cadre d'un projet Ces travaux es EC est composée d'actants très divers et pas forcément humain comme on l'observe aujourd'hui avec l'explosion des assistants virtuels   
 
 Détailler l'importance de ce point de vue dans le cadre de l'enseignement où la notion de gestion de l'information n'est pas évidente...
 
-## Echelle conceptuelle : théoriser la modélisation des connaissances {#sec-echelleConcetuelle}
+### Echelle conceptuelle : théoriser la modélisation des connaissances {#sec-echelleConcetuelle}
 
 Fournir une alternative qualitative à la théorie de l'information de shannon
+
+### Echelle globale : technologies intellectuelles collectives {#sec-echelleGlobale}
+
+L'échelle globale est pour nous, l'échelle de la mise en commun des connaissances à travers un réseaux d'acteurs. Cette échelle, corrélée à la dimension des rapport et par la même aux autres dimensions existentielles, est pour nous le domaine des technologies intellectuelles collectives dont l'objectif principal est de rendre interopérables les connaissances produites par les réseaux d'acteurs avec des outils spécifiques.
+
+A la manière des sciences dures pour lesquelles les chercheurs bricolent les outils nécessaires à leurs travaux, les sciences humaines disposent elles aussi d'outils spécifiques pour leurs pratiques. Comme en témoigne les listes mises en place par l'ENS pour recenser les outils numériques utilisés par les chercheurs[^visees-1]. Toutefois, la particularités de notre approche consiste à développer nos propres outils.
+
+[^visees-1]: Lien vers l'enquête : <https://www.ens.psl.eu/actualites/acteurs-et-activites-en-humanites-numeriques-l-ens>
+
+Les avantages d'une telle pratique sont d'avoir à disposition des outils qui répondent très précisément à nos besoins et surtout de pouvoir décider des orientations à prendre dans leurs développements à partir de spécifications établies en temps réel sur la base de nos connaissances et de nos objectifs. Ce qui n'est pas le cas quand il faut rédiger des spécifications détaillées à priori et négocier ensuite avec les ingénieurs des modifications qui sont parfois impossibles à cause des choix de conception non anticipés. L'implémentation de l'algorithme pour calculer la complexité @sec-complexiteExitentielle est un bon exemple de la multitude de choix nécessaires pour obtenir les résultats attendus. La majorité de ces choix répondent à des questions posées au moment même du développement de l'algorithme mais qui ne se seraient pas posées si nous avions juste évalué les résultats et pas la manière de les obtenir.
+
+Les inconvénients de ce type d'approche sont nombreux. Tout d'abord, il faut savoir concevoir, développer et tester un environnement numérique de travail. En d'autre termes, il faut savoir et aimer coder, ce qui n'est pas le cas chez beaucoup de collègues. Ensuite, il faut avoir le temps de se consacrer à cette pratique et accepter que les résultats ne soient pas toujours à la hauteurs des ambitions du départ. Enfin, il peut arriver que les outils répondent uniquement à nos propres besoins et pas à ceux d'une communautés plus large.
+
+Quoi qu'il en soit, il est pour nous toujours aussi stimulant d'inventer de nouveaux outils pour répondre à nos besoins de recherche et par la même les renouveler par la confrontation avec des questions que nous n'avions pas prévues. De plus, ces pratiques de la conception, du développement et du test, nous permettent de transmettre aux étudiants des manières de faire efficaces e les confrontant à des problématiques complexes en prise avec l'actualité technique. Il nous semble que l'humanisme numérique passe par cette confrontation avec les arcanes des machines numériques pour mieux comprendre ce qu'elles sont ou pas.
+
+Concevoir ces technologies est un travail long qui demande de bien comprendre les usages particuliers d'un terrain pour en extraire une généricité opératoire dont l'outil sera la mise en forme. Mais cette capacité à formaliser dans un artefact une solution pour améliorer une activité ne suffit pas à faire un outil, il faut aussi comme la bien montré [@leroi-gourhan1964] que cette forme soit adoptée par une communauté d'utilisateur et cela même si la solution proposée n'est pas la plus adéquate. Il en résulte que de nombreuses expérimentations et collaborations restent à mener pour parvenir à l'adoption de ces outils. Ce sera l'objet du work package "Cartographier les connaissances des chercheurs" dont je suis responsable dans le projet ANR EPISODIAS (Elaborer et Penser les Indicateurs de la Science Ouverte et de la Découvrabilité IA Scientifique) que nous avons déposé cette année en collaboration avec une quinzaine de collègues et faisant suite au projet SoVisu [@reymond2023].
+
+### 
 
 ## Axe internet des objets {#sec-axeIOT}
 
@@ -173,41 +212,3 @@ Le typique : le réel se manifeste à travers un objet ou une situation qui inc
 Le particulier : le réel se manifeste comme le spécifique d'une règle ou catégorie générale. La réponse adoptée est celle qui est commandée par la catégorie qui le subsume.
 
 Enfin, l'instance est le réel correspondant à un type formel, ce qui se laisse enrôler dans un axiome ou une règle calculatoire ou logique. C'est le niveau des définitions implicites de Hilbert : on ne sait pas ce qu'est un ensemble, c'est ce qui se comporte comme les axiomes de Zermelo -- Fraenkel avec l'axiome du choix (ZFC) ; de même on ne sait pas ce qu'est un nombre entier, mais c'est ce qui se comporte selon les axiomes de Peano. Dans cette optique, traiter ce qui arrive comme un instance revient à lui appliquer les règles ou axiomes régissant son comportement. » https://intelligibilite-numerique.numerev.com/manifeste
-
-Les valeurs selon Gabriel Tarde
-
-Pour être plus précis et en adéquation avec les propositions qu'Yves Citton avancent pour réaliser une cartographie des affects à partir des principes de Spinoza et Tarde (Citton, 2008) nous remplaçons l'unique concept de confiance par un crible conceptuel (1.1.4Espaces conceptuels : connaissances des essences p. 26) qui décompose la valeur en trois registres :
-
--   les « valeurs-utilités » qui définissent l'offre et la demande
-
--   les « valeurs-vérités » qui mesurent les gains en connaissances et plus largement les phénomènes de croyances, de confiance, les attentes
-
--   les « valeurs-beautés » qui définissent le champ esthétique au sens de tout ce qui transforme nos goûts et nos sensibilités.
-
-Interaction par cartographie sémantique
-
-(repris de Szoniecky & Toumia 2019)
-
-C'est à partir de cette traduction analogique que nous proposons une représentation dynamique et interactive du pouvoir d'agir sous forme de cartographie sémantique que nous définissons comme des interfaces dynamiques et interactives composées :
-
-• d'un système de coordonnées conceptuelles pour formaliser une expression interopérable
-
-• d'une projection des concepts dans un vocabulaire graphique pour visualiser des expressions
-
-• de dispositifs d'interactions avec l'utilisateur (click, drag & drop, capture de gestes, etc.) pour manipuler des expressions
-
-Ces cartographies prennent comme vocabulaires graphiques ceux des cartographies géographiques, des plans d'habitations ou toute autre forme graphique comme des étoiles, des icônes, des dessins, des schémas, etc. Ce qui importe c'est la capacité de la cartographie de rendre explicite, affordant, les interactions des utilisateurs avec le vocabulaire graphique et la projection de ces interactions dans quatre systèmes de coordonnées :
-
-• espaces matériels
-
-• espaces conceptuels
-
-• réseaux d'acteurs
-
-• temporalités.
-
-Le passage par ces systèmes de coordonnés permet de formaliser l'expression pour la rendre interopérable avec d'autres expressions. Ainsi l'interprétation passe par le positionnement de l'utilisateur dans ces quatre systèmes de coordonnées. Positions que l'on peut calculer automatiquement par exemple dans l'espace matériel grâce au GPS ou dans la temporalité́ grâce à la synchronisation des horloges mondiales. En revanche, les positionnements dans le réseau des acteurs et dans les espaces conceptuels nécessitent des interactions avec l'utilisateur.
-
-Conception de prototypes pour les humanités numériques
-
-Concevoir des outils est un travail long qui demande de bien comprendre les usages particuliers d'un domaine pour en extraire une généricité opératoire dont l'outil sera la mise en forme. Mais cette capacité à formaliser dans un artefact une solution pour améliorer une activité ne suffit pas à faire un outil, il faut aussi comme la bien montré Leroi Gourhan que cette forme soit adoptée par une communauté d'utilisateur et cela même si la solution proposée n'est pas la plus adéquate :
