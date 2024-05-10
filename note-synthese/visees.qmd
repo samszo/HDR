@@ -58,82 +58,64 @@ Ces cartographies prennent comme vocabulaires graphiques ceux des cartographies 
 
 Le passage par ces systèmes de coordonnées permet de formaliser l'expression pour la rendre interopérable avec d'autres expressions. Ainsi l'interprétation passe par le positionnement des utilisateurs dans ces quatre systèmes de coordonnées. Positions que l'on peut calculer automatiquement par exemple dans l'espace matériel grâce au GPS ou dans la temporalité́ grâce à la synchronisation des horloges mondiales. En revanche, les positionnements dans le réseau des acteurs et dans les espaces conceptuels nécessitent des interactions avec l'utilisateur.
 
-Par exemple, je souhaite approfondir les questions théoriques autour de la captation du goût à travers un dispositif d'exploration des choix véritables. Entre pouvoirs de discernement et d'agir comment émerge la délibération du goût : j'aime, j'aime pas, c'est bon, c'est mauvais ?
-Peut-on modéliser ce processus ? jusqu'où ?
-L'enjeux très ambitieux est de questionner en quoi une logique pragmatique c'est-à-dire spécifique à l'acteur ici et maintenant permet de penser une logique classique c'est-à-dire absolument générique quelques que soit la multiplicité des acteurs ici et maintenant.
+Par exemple, je souhaite approfondir les questions théoriques autour de la modélisation de l'activité en lien avec les collègues ergonomes du laboratoire Paragraphe. Plus particulièrement, je m'intéresse à la captation du goût à travers un dispositif d'exploration des choix. Entre pouvoirs de discernement et d'agir comment émerge la délibération du goût : j'aime, j'aime pas, c'est bon, c'est mauvais ? Peut-on modéliser ce processus ? jusqu'où ? L'enjeux très ambitieux est de questionner en quoi une logique pragmatique c'est-à-dire spécifique à l'acteur ici et maintenant permet de penser une logique classique c'est-à-dire absolument générique quelques que soit la multiplicité des acteurs ici et maintenant.
 
 ### Echelle sociale : la communauté des enseignants chercheurs {#sec-echelleSociale}
 
-Corrélée à la dimension des actants, nous observons à l'échelle sociale les groupes d'individus dans leurs manières d'être ensemble ou non, ce qu'ils génèrent dans les autres dimensions existentielles, comment et pourquoi. Plus particulièrement, ce qui nous intéresse d'observer à cette échelle, c'est la communauté des enseignants-checheurs (EC). Pas uniquement, les EC professionels que l'on cotoient à l'université ou dans d'autres centres de recherches mais tout actant qui explore un domaine, raconte ses explorations et transmet les moyens de les faire soi-même. Je pense notamment aux enseignants du primaire et du secondaire mais aussi aux formateurs, aux maîtres d'apprentissage et plus largement aux parents proches et plus lointains que nous croisons et qui nous nourissent de leurs expériences.
-Les recherches que nous souhaitons mener à cette échelle concernent la modélisation de cette communauté dans toute sa diversité afin d'analyser en quoi et comment des manières d'être spécifiques influencent la transmission des connaissances. Depuis trois ans, nous avons travaillé avec des collègues de science de l'éducation et de psychologie sur un projet qui va dans ce sens.
-Le projet vise à mieux comprendre la manière dont l’utilisation des environnements
-numériques d’apprentissages (ENA) en tant que pratique pédagogique innovante peut jouer un rôle
-dans le développement du sentiment de compétence et de la motivation scolaire. Cet objectif est sousjacent à un questionnement plus large autour des effets des environnements numériques sur les
-apprentissages : Est-ce que ce sont les ENA et le plaisir lié à l’usage d’un écran qui tendent à développer
-la motivation des élèves ? Sont-ce les ENA qui agissent comme une récompense en soi et qui par leurs
-modalités plus ludiques agiraient sur la motivation ? Ou encore est-ce un effet de la ludification par
-interactivité de l’expérience ? Afin de répondre à ces différentes questions, nous mènerons des
-observations et entretiens visant à recueillir les perceptions des élèves quant à l’utilisation d’ENA et
-examinerons dans quelle mesure et par quels moyens les ENA contribuent à déterminer en partie leur
-sentiment de compétence et leur motivation scolaire.
-Dans une étude précédente menée dans le cadre du projet MANEP (Brasselet et al.,
-2019), nous avons étudié l’effet du contexte d’enseignement – avec médiations numérique et humaine
-- sur la motivation scolaire. Dans la modalité d’enseignement avec médiation humaine, l’enseignant
-mène la situation d’apprentissage et dans la modalité d’enseignement avec médiation numérique,
-l’apprentissage est réalisé sous un format numérique sans l’enseignant. L’étude s’est déroulée dans
-les académies de Lille et Versailles. 129 élèves répartis en quatre classes de CM2 ont participé à une
-séquence d’apprentissage en résolution de problèmes composée de quatre séances en mode «
-médiation humaine » et quatre en mode « médiation numérique ». La motivation et le sentiment de
-compétence étaient mesurés après les séances 2, 4, 6 et 8. Les conditions étaient contrebalancées. La
-moitié des classes a commencé par les séances en modalité « médiation humaine » (séances 1 à 4) et
-a fini par les séances en modalité « médiation numérique » (séances 5 à 8) [condition « médiation
-humaine / médiation numérique »], et inversement pour l’autre moitié des classes [condition
-« médiation numérique / médiation humaine]. Les analyses par modèle linéaire mixte indiquent un
-effet d’interaction « séances*ordre des modalités » sur la motivation. On observe une augmentation
-de la motivation suite au passage entre la modalité « médiation humaine » et la modalité « médiation
-numérique » (entre les séances 4 et 6). Dans la condition « médiation numérique / médiation
-humaine », la motivation diminue en séance 6 pour augmenter en dernière séance (séance 8). Dans le
-présent projet et suite aux résultats obtenus dans le projet MANEP, nous cherchons donc à mieux
-comprendre le rôle joué par les ENA dans la motivation. Plus particulièrement, nous souhaitons
-analyser le rôle des feedbacks proposés dans les différentes modalités d’enseignement sur la
-motivation et le sentiment de compétence scolaires. Est-ce que les feedbacks sont proposés et reçus
-différemment en fonction de la modalité d’enseignement ?  
+Corrélée à la dimension des actants, nous observons à l'échelle sociale les groupes d'individus dans leurs manières d'être ensemble ou non, ce qu'ils génèrent dans les autres dimensions existentielles, comment et pourquoi. Plus particulièrement, ce qui nous intéresse d'observer à cette échelle, c'est la communauté des enseignants-chercheurs (EC). Pas uniquement, les EC professionnels que l'on côtoient à l'université ou dans d'autres centres de recherches mais tout actant qui explore un domaine, raconte ses explorations et transmet les moyens de les faire soi-même. Je pense notamment aux enseignants du primaire et du secondaire mais aussi aux formateurs, aux maîtres d'apprentissage et plus largement aux parents proches et plus lointains que nous croisons et qui nous nourrissent de leurs expériences. Je pense aussi aux dispositifs numériques qui eux aussi participent à cette communauté suivant des manières d'être différentes mais qu'il est important de comprendre à l'heure de l'explosion des assistants personnels.
 
-- Le mot numérique est trop vague, je propose d'être plus précis en parlant des environnements numériques d’apprentissage (ENA) ou des environnements informatiques pour l'apprentissage humain (EIAH).
-- Je trouve que l'opposition entre modes numérique et classique n'est pas très adéquate, je parlerais plutôt de médiations numériques et humaines
-- Il me semble que la notion de feedback pourrait tout à fait être remplacée par celle d'intéraction définit comme le cycle réception->objectivation->expression ou discernement->jugement->action. On pourrait par exemple mesurer la fréquence de ces intéractions entre les différents acteurs : enseignant, apprenant, EIAH. Dans le cas apprenant <-> EIAH, les interactions sont continuelles et individuelles. Dans le cas enseignant <-> apprenant, les intéractions sont alternatives et surtout collectives. Ce dernier point n'est pas traité dans le projet mais il me semble très important.
+Les recherches que nous souhaitons mener à cette échelle concernent la modélisation de cette communauté dans toute sa diversité afin d'analyser en quoi et comment des manières d'être spécifiques influencent la transmission des connaissances. Depuis trois ans, nous travaillons avec des collègues de science de l'éducation et de psychologie sur un projet qui va dans ce sens. Le projet MANEP[^visees-1] [@brasselet2022] vise à mieux comprendre la manière dont l’utilisation des environnements numériques d’apprentissages (ENA) en tant que pratique pédagogique innovante, peut jouer un rôle dans le développement du sentiment de compétence et de la motivation scolaire. Cet objectif est sousjacent à un questionnement plus large autour des effets des environnements numériques sur les apprentissages : Est-ce que ce sont les ENA et le plaisir lié à l’usage d’un écran qui tendent à développer la motivation des élèves ? Sont-ce les ENA qui agissent comme une récompense en soi et qui par leurs modalités plus ludiques agiraient sur la motivation ? Ou encore est-ce un effet de la ludification par interactivité de l’expérience ?
 
-Ces travaux es EC est composée d'actants très divers et pas forcément humain comme on l'observe aujourd'hui avec l'explosion des assistants virtuels   
+[^visees-1]: la description suivante reprend le dépôt à l'appel à projet de l'INSPE de l'Académie de Lille en 2023
 
-Détailler l'importance de ce point de vue dans le cadre de l'enseignement où la notion de gestion de l'information n'est pas évidente...
+Afin de répondre à ces différentes questions, nous avons étudié l’effet du contexte d’enseignement – avec médiations numérique et humaine - sur la motivation scolaire. Dans la modalité d’enseignement avec médiation humaine, l’enseignant mène la situation d’apprentissage et dans la modalité d’enseignement avec médiation numérique, l’apprentissage est réalisé sous un format numérique sans l’enseignant. L’étude s’est déroulée dans les académies de Lille et Versailles. 129 élèves répartis en quatre classes de CM2 ont participé à une séquence d’apprentissage en résolution de problèmes composée de quatre séances en mode « médiation humaine » et quatre en mode « médiation numérique ». Nous cherchons donc à mieux comprendre le rôle joué par les ENA dans la motivation. Plus particulièrement, nous souhaitons analyser le rôle des feedbacks proposés dans les différentes modalités d’enseignement sur la motivation et le sentiment de compétence scolaires. Est-ce que les feedbacks sont proposés et reçus différemment en fonction de la modalité d’enseignement ?
+
+Nous pensons que ces travaux menées dans un contexte très spécifiques peuvent d'éboucher sur des préconisation génériques concernant la modélisation des interactions entre les actants définit comme le cycle réception-\>objectivation-\>expression ou discernement-\>raisonnement-\>action. On pourrait par exemple mesurer la fréquence de ces interactions entre les différents acteurs : enseignant, apprenant, ENA. Dans le cas des interactions entre apprenant et ENA, les interactions sont-elles continuelles et individuelles ? Dans le cas des interactions entre enseignants et apprenants, sont-elles alternatives et surtout collectives ?
+
+Il nous semble que notre ambition de passer d'une recherche sur un terrain spécifique à des préconisations génériques doit nécessairement s'apuyer sur théorisation des modèle de connaissances.
 
 ### Echelle conceptuelle : théoriser la modélisation des connaissances {#sec-echelleConcetuelle}
 
-Fournir une alternative qualitative à la théorie de l'information de shannon
+Nous avons détaillé plus avant nos principes de modélisation des connaissances @sec-principesTheo mais nous pensons que ceux-ci doivent être approfondis pour fournir une alternative qualitative à la théorie de l'information de Shannon [@baltz2010]. C'est là l'objectif principal de cette échelle corrélée à la dimension conceptuelle de l'existence. Nous considérons la théorie de l'information comme trop partielle car elle se focalise uniquement sur la dimension matérielle de l'existence sans prendre en compte les dimensions sociales et conceptuelles. Nos propositions tentent de remédier à ce manque en modélisant l'information et la communication par une corrélation entre ontologie et éthique, entre existences et connaissances. Nous avons étayer nos propositions avec des principes scientifiques issues de différentes disciplines des sciences humaines (anthropologie, philosophie, sociologie, géographie, sémiologie, psychologie...) mais il nous reste beaucoup de recherches à mener pour consolider cet édifice théorique et le développer dans les sciences de l'information et de la communication en fournissant des méthodes génériques de modélisation et d'analyse des phénomènes d'information et de communication.
+
+Parmi les points théoriques importants pour la modélisation des connaissances que nous souhaitons questionner dans les prochaines années, il y a par exemple les questions concernant la cohérence des rapports entre les dimensions existentielles. Nous avons établie des contraintes fortes de cohérences des rapports @fig-coherenceRapport pour simplifier nos modèles et faciliter leurs transmissions pédagogiques. Toutefois, il nous semble important d'analyser plus profondément d'autres cohérences et d'expérimenter leur viabilité dans des écosystèmes de connaissances différents. Ce travail nécessite une utilisation plus soutenue des méthodes prétopologiques afin de modéliser plus finement les dimensions conceptuelles de ces écosystèmes expérimentaux. Pour ce faire, nous nous rapprochons de nos collègues mathématiciens afin de bien comprendre les limites de nos approches topologiques. Parallèllement, il nous semble important d'analyser les tentatives similaires de modélisation des sciences humaines comme celles menées par René Thom et Krzysztof Pomian [@petitot1978] pour comprendre en quoi les technologies intellectuelles émergentes pourraient s'inspirer de ces approches.
 
 ### Echelle globale : technologies intellectuelles collectives {#sec-echelleGlobale}
 
-L'échelle globale est pour nous, l'échelle de la mise en commun des connaissances à travers un réseaux d'acteurs. Cette échelle, corrélée à la dimension des rapport et par la même aux autres dimensions existentielles, est pour nous le domaine des technologies intellectuelles collectives dont l'objectif principal est de rendre interopérables les connaissances produites par les réseaux d'acteurs avec des outils spécifiques.
+L'échelle globale est pour nous, l'échelle de la mise en commun des connaissances à travers un réseaux d'acteurs. Cette échelle, corrélée à la dimension des rapports et par la même aux autres dimensions existentielles, est pour nous le domaine des technologies intellectuelles collectives dont l'objectif principal est de rendre interopérables les connaissances produites par les réseaux d'acteurs avec des outils spécifiques.
 
-A la manière des sciences dures pour lesquelles les chercheurs bricolent les outils nécessaires à leurs travaux, les sciences humaines disposent elles aussi d'outils spécifiques pour leurs pratiques. Comme en témoigne les listes mises en place par l'ENS pour recenser les outils numériques utilisés par les chercheurs[^visees-1]. Toutefois, la particularités de notre approche consiste à développer nos propres outils.
+A la manière des sciences dures pour lesquelles les chercheurs bricolent les outils nécessaires à leurs travaux, les sciences humaines disposent elles aussi d'outils spécifiques pour leurs pratiques. Comme en témoigne les listes mises en place par l'ENS pour recenser les outils numériques utilisés par les chercheurs[^visees-2]. Toutefois, la particularités de notre approche consiste à développer nos propres outils.
 
-[^visees-1]: Lien vers l'enquête : <https://www.ens.psl.eu/actualites/acteurs-et-activites-en-humanites-numeriques-l-ens>
+[^visees-2]: Lien vers l'enquête : <https://www.ens.psl.eu/actualites/acteurs-et-activites-en-humanites-numeriques-l-ens>
 
 Les avantages d'une telle pratique sont d'avoir à disposition des outils qui répondent très précisément à nos besoins et surtout de pouvoir décider des orientations à prendre dans leurs développements à partir de spécifications établies en temps réel sur la base de nos connaissances et de nos objectifs. Ce qui n'est pas le cas quand il faut rédiger des spécifications détaillées à priori et négocier ensuite avec les ingénieurs des modifications qui sont parfois impossibles à cause des choix de conception non anticipés. L'implémentation de l'algorithme pour calculer la complexité @sec-complexiteExitentielle est un bon exemple de la multitude de choix nécessaires pour obtenir les résultats attendus. La majorité de ces choix répondent à des questions posées au moment même du développement de l'algorithme mais qui ne se seraient pas posées si nous avions juste évalué les résultats et pas la manière de les obtenir.
 
 Les inconvénients de ce type d'approche sont nombreux. Tout d'abord, il faut savoir concevoir, développer et tester un environnement numérique de travail. En d'autre termes, il faut savoir et aimer coder, ce qui n'est pas le cas chez beaucoup de collègues. Ensuite, il faut avoir le temps de se consacrer à cette pratique et accepter que les résultats ne soient pas toujours à la hauteurs des ambitions du départ. Enfin, il peut arriver que les outils répondent uniquement à nos propres besoins et pas à ceux d'une communautés plus large.
 
-Quoi qu'il en soit, il est pour nous toujours aussi stimulant d'inventer de nouveaux outils pour répondre à nos besoins de recherche et par la même les renouveler par la confrontation avec des questions que nous n'avions pas prévues. De plus, ces pratiques de la conception, du développement et du test, nous permettent de transmettre aux étudiants des manières de faire efficaces e les confrontant à des problématiques complexes en prise avec l'actualité technique. Il nous semble que l'humanisme numérique passe par cette confrontation avec les arcanes des machines numériques pour mieux comprendre ce qu'elles sont ou pas.
+Quoi qu'il en soit, il est pour nous toujours aussi stimulant d'inventer de nouveaux outils pour répondre à nos besoins de recherche et par la même les renouveler par la confrontation avec des questions que nous n'avions pas prévues. De plus, ces pratiques de la conception, du développement et du test, nous permettent de transmettre aux étudiants des manières de faire efficaces en les confrontant à des problématiques complexes en prise avec l'actualité technique. Il nous semble que l'humanisme numérique passe par cette confrontation avec les arcanes des machines numériques pour mieux comprendre ce qu'elles sont ou pas.
 
 Concevoir ces technologies est un travail long qui demande de bien comprendre les usages particuliers d'un terrain pour en extraire une généricité opératoire dont l'outil sera la mise en forme. Mais cette capacité à formaliser dans un artefact une solution pour améliorer une activité ne suffit pas à faire un outil, il faut aussi comme la bien montré [@leroi-gourhan1964] que cette forme soit adoptée par une communauté d'utilisateur et cela même si la solution proposée n'est pas la plus adéquate. Il en résulte que de nombreuses expérimentations et collaborations restent à mener pour parvenir à l'adoption de ces outils. Ce sera l'objet du work package "Cartographier les connaissances des chercheurs" dont je suis responsable dans le projet ANR EPISODIAS (Elaborer et Penser les Indicateurs de la Science Ouverte et de la Découvrabilité IA Scientifique) que nous avons déposé cette année en collaboration avec une quinzaine de collègues et faisant suite au projet SoVisu [@reymond2023].
 
-### 
+## Axes d'expérimentation
 
-## Axe internet des objets {#sec-axeIOT}
+Les axes d'expériementation que nous présentons ici utilisent les échelles d'exploration que nous venons de définir pour étudier un domaine de recherche suivant une perspective spécifique.
 
-Concevoir, développer et analyser les objets connectés dans un Internet omniprésent
+### Axe Internet des objets {#sec-axeIOT}
 
-## Axe écritures génératives {#sec-axeGeneratif}
+Nous collaborons depuis 2016 avec Imad Saleh, Mehdi Ammi et Jean-Max Noyer pour mener à bien des recherches multidisciplinaires sur l'Internet des Objets (Internet of Things - IOT). Ces travaux prennent forme dans des articles[@szoniecky2019c; @szoniecky2020a; @szoniecky2018a], des livres [@saleh2018; @saleh2017], des conférences[^visees-3] et une revue en Open Access[^visees-4]. L'ambition de ces recherches sur cet objet industriel et technologique des objets connectés couvre à la fois des question concernant la gestion de l’entreprise, l’e-administration, mais aussi des problématiques liées à la gestuelle (podomètre, direction du regard, GPS, etc.). Nous nous intéressons aux :
+
+[^visees-3]: Liens vers les sites de ces conférences :\
+    - [https://digitaluses-congress.univ-paris8.fr](https://digitaluses-congress.univ-paris8.fr/E-education-209)\
+    - <https://ido2017.sciencesconf.org/>\
+    - <https://ido2016.sciencesconf.org/>\
+
+[^visees-4]: Lien vers la revue : <https://www.openscience.fr/Internet-des-objets>
+
+"champs nouveaux à explorer pour les sciences de l’information et de la communication pour étudier d’une part les enjeux sociétaux de ces nouveaux bouleversements technologiques et numériques et d’autre part analyser si les objets connectés répondent à des besoins d'usagers de plus en plus exigeants en matière de service, de communication et l'information." [@saleh2017]
+
+Nous souhaitons poursuivre ces investigations en continuant la parution de nouveaux articles dans la revue et en organisant de nouvelles conférences dans le cadre du congrès Digital Tools & Uses. Plus particulièrement, en lien avec nos propres recherches, nous voulons questionner les méthodes de pilotages des objets connectés au niveau globale avec les smart cities et au niveau local avec la domotique familiale. Ce qui nous intéresse c'est d'analyser comment rendre accessible la complexité des flux infocommunicationnels de l'IOT afin de rendre son pilotage plus efficace par exemple pour la lutter contre les déréglements climatiques ou pour préserver la vie privée.
+
+### Axe écritures génératives {#sec-axeGeneratif}
 
 Les exemples de data visualisation ci dessus illustrent ce qui est en jeu
 
@@ -147,7 +129,7 @@ Choix entre spécificité, généricité et réutilisabilité ?
 
 cf. <https://levelup.gitconnected.com/how-to-make-your-code-reusable-891ea5db415c>
 
-## Axe plasticité absolue {#sec-axePlasticite}
+### Axe plasticité absolue {#sec-axePlasticite}
 
 "Contrairement à l'élasticité, la plasticité n'a aucune promesse de retour. Les deux concepts suggèrent un point limite auquel le système se rompt. Cependant, le changement dans chacun est différent, car quelque chose d'élastique revient ou peut reprendre forme après son changement.
 
@@ -155,7 +137,7 @@ Contrairement aux compréhensions du pouvoir, même aux formes subtiles de pouvo
 
 https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGtwMVVsTKtkHmLcCDbcHMMTbbd
 
-## Axe design des connaissances {#sec-axeDesignConnaissances}
+### Axe design des connaissances {#sec-axeDesignConnaissances}
 
 Modélisation des connaissances et conception des outils pour la manipuler dans les environnements d'apprentissage humain
 
@@ -169,13 +151,13 @@ Passage de l'individuel au collectif ?
 
 Modèle sémiologique + anthropologique + onto éthique
 
-## Axe intelligences collectives {#sec-axeIntelCo}
+### Axe intelligences collectives {#sec-axeIntelCo}
 
 Interopérabilité et réflexivité d'une conversation créative
 
 =\> fournir les outils pour une quantification de l'information et la stimulation des communications
 
-## Axes formalisation du consensus {#sec-axeFormaConsensus}
+### Axes formalisation du consensus {#sec-axeFormaConsensus}
 
 Méthodes et outils du web sémantique et du LOD : la puissance de la norme.
 
@@ -205,7 +187,7 @@ Dewey & Tufts le reconnaissent quand ils insistent sur la nécessité de goûter
 
 « Si l'économie domine la vie --- et si l'ordre économique s'appuie principalement sur le profit comme motif au lieu de faire droit à d'autres motifs comme l'excellence professionnelle, la maîtrise d'un métier, le souci d'une juste rémunération ---, nous courons le danger de voir cette partie de notre vie qui devrait être subordonnée à toutes les autres valeurs et à tous les autres intérêts devenir la finalité ultime de nos existences. Nos vies ne peuvent se réduire à des bilans comptables. Lorsque la richesse est notre objectif principal, pour ne pas dire le seul, tout ce qui fait le sel de la vie --- l'amour, la justice, la connaissance, la beauté --- risque de passer au second plan. \[...\] La vérité est que faire du profit et de la richesse le but ultime de l'existence revient à se méprendre gravement sur ce que doit être le sens d'une vie.» (Dewey & Tufts, 2021b, §. 39)
 
-## Axes puissances existentielles
+### Axes puissances existentielles
 
 Calculée à partir des complexité exitentielle.
 
