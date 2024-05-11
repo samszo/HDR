@@ -23,7 +23,7 @@ Depuis une trentaine d'années, je m'intéresse à la modélisation des données
 
 De plus, au même moment, mes recherches sur John Cage m'ont sensibilisée à deux approches opposées de ces relations entre données, représentations et manipulations. À travers les débats qui ont animé les rencontres entre John Cage et Pierre Boulez [@boulez1975], j'ai compris que les approches du hasard pour Boulez et de la chance pour Cage étaient symptomatiques d'un usage opposé des possibilités ouvertes par les ordinateurs et plus particulièrement de comment utiliser les méthodes aléatoires pour choisir des données et créer les conditions pour expérimenter des connaissances.
 
-D'un côté Boulez soutient l'idée de :
+D'un côté Boulez soutient l'idée de : 
 
 > « "hasard dirigé" pour parvenir à une complète négation du hasard qu'il nomme "le hasard absorbé" et qui garantit selon lui "la sur puissance du compositeur" »[@cazenave2006]
 

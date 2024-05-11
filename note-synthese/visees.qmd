@@ -32,7 +32,7 @@ Ce qui nous importe ici c'est de combattre une « politique de la méfiance »[@
 
 ## Echelles d'exploration {#sec-echelleExploration}
 
-Examinons tout d'abord nos perspectives de recherche suivant quatre échelles qui correspondent aux quatre dimensions existentielles qui composent notre modèle d'existence informationnelle @sec-modeleOntoEthique. Nous exprimons ici une nouvelle corrélation qui approfondi les relations entre les dimensions de l'existence et les métriques permettant de les mesurer afin de montrer en quoi l'exploration d'une dimension de l'existense conditionne l'échelle avec laquelle les phénomènes sont observés.
+Examinons tout d'abord nos perspectives de recherche suivant quatre échelles qui correspondent aux quatre dimensions existentielles qui composent notre modèle d'existence informationnelle @sec-modeleOntoEthique. Nous exprimons ici une nouvelle corrélation qui approfondi les relations entre les dimensions de l'existence et les métriques permettant de les mesurer, afin de montrer en quoi l'exploration d'une dimension de l'existense conditionne l'échelle avec laquelle les phénomènes sont observés.
 
 ### Echelle locale : produire une expression matérielle cohérente {#sec-echelleLocale}
 
@@ -98,7 +98,7 @@ Concevoir ces technologies est un travail long qui demande de bien comprendre le
 
 ## Axes d'expérimentation
 
-Les axes d'expériementation que nous présentons ici utilisent les échelles d'exploration que nous venons de définir pour étudier un domaine de recherche suivant une perspective spécifique.
+Les axes d'expériementation que nous présentons ici utilisent les échelles d'exploration que nous venons de définir pour étudier un domaine de recherche suivant une perspective spécifique. Ces axes précisent comment les échelles sont mises en pratiques et comment grâce à ces expérimentations, le modèle générique d'existence informationnelle montre ses pertinences et en quoi il doit évoluer pour répondre aux besoins de modélisation des écosystèmes de connaissances.
 
 ### Axe Internet des objets {#sec-axeIOT}
 
@@ -117,33 +117,31 @@ Nous souhaitons poursuivre ces investigations en continuant la parution de nouve
 
 ### Axe écritures génératives {#sec-axeGeneratif}
 
-Les exemples de data visualisation ci dessus illustrent ce qui est en jeu
+Nous travaillons sur cet axe depuis presque trente ans et nous sommes toujours fasciné par la capacité des dispositifs numériques à générer des informations à partir d'un simple clic. Nous avons retracé cet historique dans la première partie de ce volume @sec-positionnements et présenté des recherches que nous avons consacrées à cet axe avec les projets Litte bot @sec-projetLitteBot et Polemika @sec-projetPolemika . Nous souhaitons continué ces recherches dans les quatre échelles d'exploration en nous focalisant sur les problématiques concernant l'utilisation parallèle des IA connexiste et symbolique @sec-principesTheo. Il nous semble que le lieu idéal pour mener ses investigations est l'atelier transnational sur les écritures numériques[^visees-5] que nous menons en collaboration avec Laura Shackelford professeur au Rochester Institut of Technology (RIT).
 
-Représentation paramétrique de données
+[^visees-5]: Lien vers la présentation de l'atelier sur le site du Center for Engaged Storycraft <https://www.rit.edu/storycraft/projects/transnational-digital-creation-workshop-luniversite-de-paris-8>
 
-Traduction, transformation numérique ?
+Cet atelier[^visees-6] s’inscrit dans le cadre du partenariat international entre ArTeC et le Rochester Institute of Technology (RIT) dont la collaboration relativement à la littérature numérique est déjà ancienne : elle remonte à 2016. Les activités de cet atelier ont débuté avec l’IDEFI CréaTIC et se sont poursuivies dans le cadre d’ArTeC. Ils permettent des échanges hybrides d’étudiants via des mobilités courtes et dans une dynamique collective. Ils sont essentiels à une collaboration effective entre ArTeC et les établissements partenaires. Le modèle de collaboration mis en place par cet atelier est très apprécié au RIT où il est considéré comme un modèle à développer. Laura Shackelford a déjà publié plusieurs articles concernant ce travail dans le journal interne du RIT et un article commun avec Samuel Szoniecky et les étudiants du MIP a été accepteé à la conférence internationale Electronic Literature Organization (https://eliterature.org/elo-history/) et à la conférence internationale Art in the Age of AI (https://3ai-24.sciencesconf.org/). De plus, nous collaborons avec le RIT, L’UQAM (Canada) et l’Université Technologie de Compiègne pour développer de nouveaux partenariats et échanges.
 
-Intelligibilité du modèle ?
+[^visees-6]: Ce descriptif reprend la demande faite à l'EUR ArTec en 2023
 
-Choix entre spécificité, généricité et réutilisabilité ?
+L'atelier se déroule au 2ème semestre et s’appuie sur un cours du Master Mention Humanités Numériques. Il est aussi accessible aux étudiants d’autres Masters comme EC libre. Ce cours aborde les trois dimensions formelles de la textualité numérique : animation / navigation / génération dans une optique de développement Web et traitent, pour chacune, des relations entre le texte et les autres médias visuels. La méthodologie suivie est hybride, une période longue, courant sur tout le semestre, durant laquelle les équipes étudiantes évoluent en distanciel et une semaine de finalisation en présentiel donnant lieu à une mobilité des étudiant du RIT à Paris 8. En début de période, les équipes transnationales sont formées à partir de propositions de projets par les étudiants dans le respect de certaines contraintes techniques et formelles imposées par l’équipe pédagogique. Ces équipes ont vocation à être équilibrées en nombre d’étudiants français / étrangers. Durant le semestre, des vidéoconférences permettent aux étudiants des deux universités de faire connaissance, de définir les équipes et les projets et de faire une présentation de conception avant la semaine intensive. Les étudiants bénéficient de créneaux horaires de suivi et de compléments de cours durant le semestre. Les équipes projet gèrent en interne leur emploi du temps et leur communication, notamment la relation avec les étudiants de l’université partenaire. Un projet GitHub est disponible pour l’atelier où sont mis à disposition les supports de cours et autres matériaux. Les participantes et participants sont incités à communiquer entre eux par mail et par les réseaux sociaux.
 
-cf. <https://levelup.gitconnected.com/how-to-make-your-code-reusable-891ea5db415c>
+L’objectif commun est de maîtriser la gestion d’un projet créatif numérique au sein d’une équipe internationale en mettant en œuvre des méthodologies de communication numérique collaborative synchrones et asynchrones. Cet objectif est le plus important car peu de formations offrent un tel apprentissage alors que la gestion de projet internationale est aujourd’hui courante dès lors qu’on a un niveau de responsabilité auquel peuvent prétendre les titulaires du master ArTeC. Trois objectifs annexes s'ajoute à cet objectif principal :
 
-### Axe plasticité absolue {#sec-axePlasticite}
+-   L’approche d’un point de vue spécifique sur la textualité numérique
 
-"Contrairement à l'élasticité, la plasticité n'a aucune promesse de retour. Les deux concepts suggèrent un point limite auquel le système se rompt. Cependant, le changement dans chacun est différent, car quelque chose d'élastique revient ou peut reprendre forme après son changement.
+-   Une mise en œuvre pluridisciplinaire de la textualité numérique
 
-Contrairement aux compréhensions du pouvoir, même aux formes subtiles de pouvoir disciplinaire, la plasticité à l'échelle de l'individu et de la polis représente la possibilité d'un changement sans sujétion, c'est-à-dire sans résistance. Plutôt que les relations de pouvoir qui font des sujets à l'image foucaldienne, on a la possibilité de concevoir ou de diriger des sujets qui n'ont aucun indice de ce qu'ils étaient avant, de sorte que quelque chose puisse résister." mail Jean Max
+-   Une mise en œuvre expérimentale d’outils et techniques spécifiques de conception, création, utilisation des IA connexionniste et symbolique.
 
-https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGtwMVVsTKtkHmLcCDbcHMMTbbd
+Parallèllement, nous souhaitons mener une réflexion plus théorique concernant la générativité d'une écriture en questionnant les pouvoirs existentielles @sec-pouvoirAgirCartoAffect d'une écriture. L'objectif est de modéliser ces pouvoirs non seulement pour des écritures algorithmiques mais aussi pour des partitions graphiques ([@stransky2014]) pour dans ce cas montrer comment ces écritures génèrent des activités spécifiques comment des concerts, des chorégraphies, des expositions artistiques, des jeux... Les signatures en bas d'un traité, d'un édit ou d'un projet de construction, nous semble aussi des exemples très pertinents pour montrer comment une écriture tout simple, juste une ligne, est porteuse d'énormément de pouvoirs.
 
 ### Axe design des connaissances {#sec-axeDesignConnaissances}
 
-Modélisation des connaissances et conception des outils pour la manipuler dans les environnements d'apprentissage humain
+En lien avec le précédent axe sur les écritures génératives, cet axe a pour ambition d'analyser comment concevoir des outils pour manipuler graphiquement les écosystèmes de connaissances dans des environnements numériques d'apprentissage. Nous souhaitons dans cet axe mettre en situation des potentialités de connaissances afin de nous interroger sur les moyens de concevoir une ergonomie des interfaces cognitives. Plus particulièrement, la problématique du passage d'un usage individuel à un usage collectif, nous semble un point crucial : Dans quelle mesure une représentation graphique conçue par un individu pour transmettre des connaissances sont effectivement perçues par un collectif ?
 
-Mise en situation d'une potentialité de connaissances
-
-Comment concevoir une ergonomie des interfaces cognitives ?
+Outre les problématiques de transposition didactique [@tasra] ce qui nous intéresse ici c'est la capacité des diagrammes [@jedrzejewski2007] et autre représentations graphiques a effectivement transmettre leurs pouvoirs de connaissances. Pour étudier ces phénomènes nous construisons depuis une dizaine d'année une base de connaissances rassemblant les diagrammes utilisés par des doctorants dans leur thèse.
 
 Passage de l'individuel au collectif ?
 
