@@ -89,6 +89,13 @@ export class omk {
             })
         }
 
+        this.getResource = function (id, type, cb=false){
+            let url = me.api+type+'/'+id,
+                rs = syncRequest(url);
+            if(cb)cb(rs);                    
+            return rs;
+        }
+
         this.getItem = function (id, cb=false){
             let url = me.api+'items/'+id,
                 rs = syncRequest(url);
@@ -148,6 +155,21 @@ export class omk {
             return rs;
         }
 
+        this.getMediasPage = function (query, page, nb, cb=false){
+            let url = me.api+'media?per_page='+nb+'&'+query+'&page='+page, rs=[];
+            rs = syncRequest(url);
+            if(cb)cb(rs);                    
+            return rs;
+        }
+
+        //nécessité l'installation du module api info https://gitlab.com/Daniel-KM/Omeka-S-module-ApiInfo
+        this.getApiInfo = function(info, cb=false){
+            let url = me.api+'infos/'+info, rs=[];
+            rs = syncRequest(url);
+            if(cb)cb(rs);                    
+            return rs;
+        }        
+
         this.searchItems = function (query, cb=false){
             let url = me.api+'items?'+query, 
             rs= syncRequest(url);
@@ -173,11 +195,12 @@ export class omk {
 
         }
 
-        this.updateRessource = function (id, data, type='items', fd=null, m='PUT',cb=false){
+        this.updateRessource = function (id, data, type='items', fd=null, m='PUT',cb=false, dataOri=false){
             let oriData, newData, url = me.api+type+'/'+id+'?key_identity='+me.ident+'&key_credential='+me.key;
             if(data){
                 //récupère les données originales
-                oriData = me.getItem(id), newData = me.formatData(data,types[type]);
+                oriData = dataOri ? dataOri : me.getResource(id,type), 
+                newData = me.formatData(data,types[type]);
                 //met à jour les données
                 for (const p in newData) {
                     if(p!='@type'){

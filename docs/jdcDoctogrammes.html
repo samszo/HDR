@@ -42,17 +42,19 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul id="navbarMain" class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <!--
+                                <li class="nav-item mx-2">
+                                    <button id="btnShowMedia" type="button" class="btn btn-info">
+                                        <i class="fa-regular fa-rectangle-list"></i>
+                                    </button>
+                                </li>
                                 <li class="nav-item mx-2">
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">id item</span>
                                         <input id="inptIdItem" value="299344" type="text" class="form-control" placeholder="Id Item" aria-label="Id Item" aria-describedby="basic-addon1">
                                     </div>
                                 </li>
-                                <li class="nav-item mx-2">
-                                    <button id="btnNewMarkdown" type="button" class="btn btn-danger">
-                                        <i class="fa-solid fa-recycle"></i>
-                                    </button>
-                                </li>
+                                -->
                             </ul>
                         </div>
                     </div>
@@ -64,12 +66,39 @@
 
         <main id='mainContent' class="px-3">
 
-            <div class="container-fluid text-center">
-                <div class="row">
-                    <div class="col-12">    
-                        <label for="areaMarkdown" class="form-label">Markdown</label>
-                        <textarea class="form-control" id="areaMarkdown" rows="30"></textarea>
-                    </div>
+            <div class="container-fluid text-center px-3">
+                <nav aria-label="Page navigation">
+                    <ul id="pagi" class="pagination justify-content-center">
+                    <li class="page-item">
+                        <div class="input-group">
+                            <div class="input-group-text">page</div>
+                            <input type="number" class="form-control" min="1" max="100" id="numPage"> 
+                            <button class="btn btn-danger" type="button" id="btnShowPage"><i class="fa-solid fa-eye"></i></button>
+    
+                        </div>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i id="pageRdm" class="fa-solid fa-shuffle"></i></a></li>
+                    <li class="page-item"><a id="pageLast2" class="page-link" href="#">?</a></li>
+                    <li class="page-item"><a id="pageLast1" class="page-link" href="#">?</a></li>
+                    <li class="page-item"><a id="pageLast0" class="page-link" href="#">?</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                    </li>
+                    </ul>
+                </nav>
+
+                <div id="gridCard" class="row row-cols-1 row-cols-md-6 g-4">
+
                 </div>
             </div>
         </main>
@@ -114,9 +143,8 @@
         import {auth} from './modules/auth.js';
 
         let m=new modal({'size':'modal-lg'}), 
-            tc, 
-            hotRes, 
-            areaMD = d3.select('#areaMarkdown'),
+            medias, parPage = 6, nbMedia, nbPage, curPage=3, rdmPage,
+            cptDoctogramme = 543281,
             a = new auth({'navbar':d3.select('#navbarMain'),
                 mail:'cartohexa.api@jdc.com',
                 apiOmk:'../../omk/api/',
@@ -126,30 +154,88 @@
         //log l'utilisateur
         a.getUser(u=>{
             console.log(u);
+            setPagination();            
+            //affiche la première page 
+            showMediaPage();
             hideLoader();
         });
+
         //gestion des event de l'ihm
-        d3.select("#btnNewMarkdown").on('click',e=>{
-            genereMarkdown(document.getElementById('inptIdItem').value);
+        d3.select("#numPage").on("change",e=>{
+            curPage = document.getElementById('numPage').value;
+            showMediaPage();
+        });
+        d3.select("#btnShowPage").on('click',e=>{
+            curPage = document.getElementById('numPage').value;
+            showMediaPage();
         })       
-        
-        function genereMarkdown(id, niv=1){
-            console.log(id+' '+niv);
-            //récupère l'item
-            let item = a.omk.getItem(id),
-            //creation du markdown
-            md = "#".repeat(niv)+' '+item['o:title']+' {#sec-item'+item['o:id']+'}\n';
-            //ajoute les items liées
-            if(item["@reverse"] && item["@reverse"]["dcterms:isPartOf"]){
-                item["@reverse"]["dcterms:isPartOf"].forEach(il=>{
-                    let sp = il["@id"].split('/');
-                    md += genereMarkdown(sp[sp.length-1], niv+1);
-                })
+
+        function setPagination(){
+            //construction de la pagination
+            nbMedia = a.omk.getApiInfo("media?media_types[]=image/png");
+            nbPage = parseInt(nbMedia.total/parPage);
+            rdmPage = d3.randomInt(nbPage);            
+            for (let index = 0; index < 3; index++) {
+                d3.select('#pageLast'+index).text(nbPage-(index));                
             }
-            //ajoute le markdown à la suite
-            if(niv==1)areaMD.text(areaMD.text()+md);
-            return md;
+            d3.select("#numPage").attr('max',nbMedia);
+            d3.selectAll('.page-link').on('click',e=>{
+                let v = e.target.innerText;
+                switch (v) {
+                    case "«":
+                        curPage = curPage==0 ? 0 : curPage-1;
+                        break;                
+                    case "»":
+                        curPage = curPage==nbPage ? nbPage : curPage+1;
+                        break;                
+                    case undefined:                        
+                        curPage = e.target.parentElement.id == 'pageRdm' || e.target.id == 'pageRdm' ? rdmPage() : 0;
+                        break;                
+                    default:
+                        curPage = parseInt(v);
+                        break;
+                }
+                document.getElementById('numPage').value=curPage;
+                showMediaPage();
+            })            
         }
+
+        function showMediaPage(){
+            showLoader();
+            //medias = a.omk.getAllMedias("media_types[]=image/png");
+            medias = a.omk.getMediasPage("media_types[]=image/png",curPage,parPage);
+            showMediaCard(medias)
+            hideLoader();
+        }
+        
+        function showMediaCard(medias){
+
+            let grid = d3.select("#gridCard");
+            grid.selectAll('div').remove();
+            let cards = grid.selectAll('div').data(medias).enter().append("div").attr("class","col").append("div").attr("class","card");
+            cards.append('img').attr("class","card-img-top").attr("src",d=>d["o:thumbnail_urls"].medium);
+            let body = cards.append('div').attr("class","card-body");
+            //body.append('h5').attr("class","card-title").text(d=>d["o:title"]);
+            //body.append('a').attr("class","card-text").attr("href",d=>d["o:item"]["@id"].replace("api/items/","s/fiches/item/"));
+            body.append('button')
+                .attr("id",d=>"btnDoctogramme"+d['o:id'])
+                .attr("class",d=>isDoctogramme(d) ? "btn btn-success" : "btn btn-warning").attr("type","button").text("Doctogramme")
+                .on('click',setDoctogramme)                    
+        }
+
+        function isDoctogramme(d){
+            if(d.isDoctogramme==undefined)
+                d.isDoctogramme = !d['skos:semanticRelation'] ? false : d['skos:semanticRelation'].filter(c => c.value_resource_id==cptDoctogramme).length;
+            return d.isDoctogramme;        
+        }
+
+        function setDoctogramme(e,d){
+            if(d.isDoctogramme)return false;
+            a.omk.updateRessource(d['o:id'],{'skos:semanticRelation':{'rid':cptDoctogramme}},'media',null,'PUT',rs=>{
+                d3.select("#btnDoctogramme"+d['o:id']).attr("class","btn btn-success");
+            },d)
+        }
+
         
     </script>
 
