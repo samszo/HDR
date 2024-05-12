@@ -154,43 +154,33 @@ Au fil de cet axe, nous continuons aussi les travaux du projets Arcanes @sec-pro
 
 [^visees-9]: Lien vers le site : <https://imagestrompeuses.arcanes.ca/s/images-trompeuses/faceted-browse/1>
 
-### Axe intelligences collectives {#sec-axeIntelCo}
+### Axe formalisation du consensus par l'intelligence collective {#sec-axeFormaConsensus}
 
-Interopérabilité et réflexivité d'une conversation créative
+Avec cet axe que nous avons commencé à explorer au cours de notre thèse, nous cherchons à définir les conditions d'interopérabilité et de réflexivité d'une conversation créative. Plus précisément, nous nous intéressons aux moyens de modéliser un point de vue pour les rendre interopérables avec d'autres y compris ceux simuler par des IAs. Ce qui est en jeu avec cet axe, c'est à la fois d'analyser les puissances de la norme déployées par les méthodes et les outils du web sémantique et du Linked Open Data (LOD), mais aussi de construire une éthique de la discussion par une formalisation des échanges ayant pour but l'éducation de l'esprit critique par la stimulation des pouvoirs de discerner, raisonner, agir. Nous questionnons ici les effets du pilotage par les données du métier de chercheur en SHS d'un point de vue éthique. L'enjeu est de stimuler "une formation de la volonté" à travers des règles pratiques d'échanges [@habermas2013, p. 22] afin d'exercer sa "volonté" en tant qu'individu ou qu'institution face à une situation de choix :
 
-=\> fournir les outils pour une quantification de l'information et la stimulation des communications
+"L'éthique classique, comme d'ailleurs les théories modernes, partent de la question qui s'impose à un individu ayant besoin d'orientation lorsque dans une certaine situation, il se trouve, indécis, devant une tâche à maîtriser pratiquement : comment dois-je me comporter, que dois-je faire ?" (ibid. p. 96).
 
-### Axes formalisation du consensus {#sec-axeFormaConsensus}
+Contrairement à une volonté politique, la "volonté éthique" ne s'exerce pas sur les physicalités extérieures en cherchant par exemple à éliminer les biais inhérents à toutes informations nécessairement inadéquates, mais se pratique dans la dimension des idées, celle de "l'intériorité" (ibid.) individuelle ou collective :
 
-Méthodes et outils du web sémantique et du LOD : la puissance de la norme.
+"Tout dans l'existence nous condamnait à n'avoir que des idées inadéquates : nous n'avions ni l'idée de nous même, ni l'idée des corps extérieurs, mais seulement des idées d'affections, indiquant l'effet d'un corps extérieur sur nous. Mais précisément, à partir de cet effet, nous pouvons former l'idée de ce qui est commun à un corps extérieur et au nôtre. Compte tenu des conditions de notre existence, c'est pour nous la seule voie capable de nous mener à une idée adéquate. La première idée adéquate que nous ayons, c'est la notion commune, l'idée de ce "quelque chose de commun". [@deleuze1968, p. 259]
 
-Pour une éthique de la discussion par une formalisation des échanges ayant pour but l'éducation de l'esprit critique par la stimulation des trois pouvoirs de discerner, choisir, agir.
+Pour parvenir à ce "commun", nous avons élaboré une multitude de "jeux de langages" [@wittgenstein1987], de diagrammes [@guattari1989], de dispositifs [@gardies2012]... dont ceux utilisés aujourd'hui par les chercheurs pour produire grâce au numérique une infinité de "physicalités", de documents, de données, de ressources. Ce développement exponentiel des physicalités renvoie les chercheurs à deux questions éthiques fondamentales :
 
-Les deux textes ci-dessus ont été générés par deux IA à partir du titre de la séance du séminaire. Leur pertinence toute relative illustre les effets du pilotage par les données du métier de chercheur en SHS d'un point de vue éthique : stimuler "une formation de la volonté" à travers des règles pratiques d'échanges (Habermas 2013, p. 22).
+-   Comment exercer nos volontés éthiques dans cette noosphère pilotée par des machines ?
 
-L'enjeu de l'éthique est d'exercer sa "volonté" en tant qu'individu ou qu'institution face à une situation de choix : "L'éthique classique, comme d'ailleurs les théories modernes, partent de la question qui s'impose à un individu ayant besoin d'orientation lorsque dans une certaine situation, il se trouve, indécis, devant une tâche à maîtriser pratiquement : comment dois-je me comporter, que dois-je faire ?" (ibid. p. 96). Contrairement à une volonté politique, la "volonté éthique" ne s'exerce pas sur les "physicalités" (Descola 2005) extérieures en cherchant par exemple à éliminer les biais inhérents à toutes informations nécessairement inadéquates, mais se pratique dans la dimension des idées, celle de "l'intériorité" (ibid.) individuelle ou collective :
+-   Peut-on concevoir des documents pilotés par des données dédiés à l'exercice de la volonté éthique ?
 
-"Tout dans l'existence nous condamnait à n'avoir que des idées inadéquates : nous n'avions ni l'idée de nous même, ni l'idée des corps extérieurs, mais seulement des idées d'affections, indiquant l'effet d'un corps extérieur sur nous. Mais précisément, à partir de cet effet, nous pouvons former l'idée de ce qui est commun à un corps extérieur et au nôtre. Compte tenu des conditions de notre existence, c'est pour nous la seule voie capable de nous mener à une idée adéquate. La première idée adéquate que nous ayons, c'est la notion commune, l'idée de ce"quelque chose de commun"." (Deleuze 1968 p. 259)
+Pour mener à bien ses réflexions, il nous semble fondamental de distinguer l'éthique de la morale d'en une optique de formation à l'esprit critique car il est nécessaire de bien connaître la différence entre une démarche éthique qui consiste à connaître ce qu'on est et une démarche morale qui se focalise sur l'acceptabilité sociale de ses actions. Dès lors lorsque Dewey & Tufs confondent moral et éthique en ne distinguant pas le « bon » et le « mauvais » du « bien » et du « mal » ils contribuent à déresponsabilisé l'individu dans son apprentissage de l'esprit critique :
 
-Pour parvenir à ce "commun", nous avons élaboré une multitude de "jeux de langages" (Wittgenstein 1987), de diagrammes (Guattari 1989), de dispositifs (Gardies 2012)... dont ceux utilisés aujourd'hui par les chercheurs pour produire grâce au numérique une infinité de "physicalités", de documents, de données, de ressources. Ce développement exponentiel des physicalités renvoie les chercheurs à deux questions éthiques fondamentales :
+« L'éthique est la science qui traite de la conduite en tant que l'on peut dire de celle-ci qu'elle est bonne ou mauvaise, qu'elle engage un jugement en termes de bien ou de mal. » [@dewey2021, § 1]
 
-Comment exercer nos volontés éthiques dans cette noosphère pilotée exclusivement par des machines ? Peut-on concevoir des documents pilotés par des données (https://d3js.org/) dédiés à l'exercice de la volonté éthique ?
+Cette déresponsabilisation passe aussi par une négation de l'individu et de sa spécificité quand ils excluent le goût comme élément du processus de valorisation :
 
-#### Ethique \<\> morale
+« La différence entre le haut et le bas de cette échelle n'est pas une affaire de goût mais de choix consciemment poursuivi. » [@dewey2021, § 13]
 
-Il est fondamental de distinguer l'éthique de la morale d'en une optique de formation à l'esprit critique car il est nécessaire de bien connaître la différence entre une démarche éthique qui consiste à connaître ce qu'on est et une démarche morale qui se focalise sur l'acceptabilité sociale de ses action. Dès lors lorsque Dewey & Tufs confondent moral et éthique en ne distinguant pas le « bon » et le « mauvais » du « bien » et du « mal » ils contribuent à déresponsabilisé l'individu dans son apprentissage de l'esprit critique :
+Il nous semble au contraire très important de considérer le goût dans la volonté éthique car il conditionne l'expression d'une subjectivité et par la même l'émergence d'une conscience de soi nécessaire aux choix. C'est pourquoi, la formalisation du consensus par l'intelligence collective passe selon nous par une meilleur compréhension de l'éthique comprise comme le choix d'exercer ou non nos pouvoirs.
 
-« L'éthique est la science qui traite de la conduite en tant que l'on peut dire de celle-ci qu'elle est bonne ou mauvaise, qu'elle engage un jugement en termes de bien ou de mal. » (Dewey & Tufts, 2021a, paragr. 1)§ 1
-
-Ce qui se confirme quand ils excluent le goût comme élément du processus de valorisation à l'inverse de Spinoza dans sa lettre à Pliyenberg qui au contraire met l'accent le goût comme moteur d'une manière d'être.
-
-« La différence entre le haut et le bas de cette échelle n'est pas une affaire de goût mais de choix consciemment poursuivi. » (Dewey & Tufts, 2021, § 13)
-
-Dewey & Tufts le reconnaissent quand ils insistent sur la nécessité de goûter la vie autrement que par les mécanismes logico-mathématiques :
-
-« Si l'économie domine la vie --- et si l'ordre économique s'appuie principalement sur le profit comme motif au lieu de faire droit à d'autres motifs comme l'excellence professionnelle, la maîtrise d'un métier, le souci d'une juste rémunération ---, nous courons le danger de voir cette partie de notre vie qui devrait être subordonnée à toutes les autres valeurs et à tous les autres intérêts devenir la finalité ultime de nos existences. Nos vies ne peuvent se réduire à des bilans comptables. Lorsque la richesse est notre objectif principal, pour ne pas dire le seul, tout ce qui fait le sel de la vie --- l'amour, la justice, la connaissance, la beauté --- risque de passer au second plan. \[...\] La vérité est que faire du profit et de la richesse le but ultime de l'existence revient à se méprendre gravement sur ce que doit être le sens d'une vie.» (Dewey & Tufts, 2021b, §. 39)
-
-### Axes puissances existentielles
+### Axe puissances existentielles
 
 Calculée à partir des complexité exitentielle.
 
