@@ -25,10 +25,6 @@ book:
     - part: perspectives.qmd
       chapters:
         - visees.qmd
-        - technoIntello.qmd
-        - analyserOntoEthique.qmd
-        - developper.qmd
-        - diffuser.qmd
     - conclusion.qmd
     - references.qmd
 
