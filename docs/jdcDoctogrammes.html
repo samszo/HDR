@@ -67,9 +67,13 @@
         <main id='mainContent' class="px-3">
 
             <div class="container-fluid text-center px-3">
+                <div class="row">
                 <nav aria-label="Page navigation">
                     <ul id="pagi" class="pagination justify-content-center">
-                    <li class="page-item">
+                        <li class="page-item">
+                            <button class="btn btn-danger" type="button" id="btnCheckAll"><i class="fa-solid fa-list-check"></i></button>
+                        </li>
+                        <li class="page-item">
                         <div class="input-group">
                             <div class="input-group-text">page</div>
                             <input type="number" class="form-control" min="1" max="100" id="numPage"> 
@@ -96,9 +100,10 @@
                     </li>
                     </ul>
                 </nav>
-
-                <div id="gridCard" class="row row-cols-1 row-cols-md-6 g-4">
-
+                </div>
+                <div class="row overflow-y-scroll" style="height:700px;">
+                    <div id="gridCard" class="row row-cols-1 row-cols-md-6 g-4">
+                    </div>
                 </div>
             </div>
         </main>
@@ -143,8 +148,8 @@
         import {auth} from './modules/auth.js';
 
         let m=new modal({'size':'modal-lg'}), 
-            medias, parPage = 6, nbMedia, nbPage, curPage=3, rdmPage,
-            cptDoctogramme = 543281,
+            medias, parPage = 60, nbMedia, nbPage, curPage=3, rdmPage,
+            cptDoctogramme = 543280,
             a = new auth({'navbar':d3.select('#navbarMain'),
                 mail:'cartohexa.api@jdc.com',
                 apiOmk:'../../omk/api/',
@@ -162,14 +167,20 @@
 
         //gestion des event de l'ihm
         d3.select("#numPage").on("change",e=>{
-            curPage = document.getElementById('numPage').value;
+            curPage = parseInt(document.getElementById('numPage').value);
             showMediaPage();
         });
         d3.select("#btnShowPage").on('click',e=>{
-            curPage = document.getElementById('numPage').value;
+            curPage = parseInt(document.getElementById('numPage').value);
             showMediaPage();
         })       
-
+        d3.select("#btnCheckAll").on('click',e=>{
+            showLoader();
+            medias.forEach(m => {
+                setDoctogramme(null,m);                
+            });
+            hideLoader(true);
+        })               
         function setPagination(){
             //construction de la pagination
             nbMedia = a.omk.getApiInfo("media?media_types[]=image/png");
@@ -213,10 +224,15 @@
             let grid = d3.select("#gridCard");
             grid.selectAll('div').remove();
             let cards = grid.selectAll('div').data(medias).enter().append("div").attr("class","col").append("div").attr("class","card");
-            cards.append('img').attr("class","card-img-top").attr("src",d=>d["o:thumbnail_urls"].medium);
+            cards.append('img').attr("class","card-img-top").attr("src",d=>d["o:original_url"]);
             let body = cards.append('div').attr("class","card-body");
-            //body.append('h5').attr("class","card-title").text(d=>d["o:title"]);
-            //body.append('a').attr("class","card-text").attr("href",d=>d["o:item"]["@id"].replace("api/items/","s/fiches/item/"));
+            /*
+            body.append('h5').attr("class","card-title").text(d=>d["o:title"]);
+            */
+            body.append('a').attr("class","card-text")
+                .attr("target","_blank")
+                .attr("href",d=>"../../omk/s/fiches/media/"+d["o:id"])
+                .text(d=>"media/"+d["o:id"]);
             body.append('button')
                 .attr("id",d=>"btnDoctogramme"+d['o:id'])
                 .attr("class",d=>isDoctogramme(d) ? "btn btn-success" : "btn btn-warning").attr("type","button").text("Doctogramme")
@@ -229,10 +245,12 @@
             return d.isDoctogramme;        
         }
 
-        function setDoctogramme(e,d){
+        function setDoctogramme(e,d){            
             if(d.isDoctogramme)return false;
+            showLoader();
             a.omk.updateRessource(d['o:id'],{'skos:semanticRelation':{'rid':cptDoctogramme}},'media',null,'PUT',rs=>{
                 d3.select("#btnDoctogramme"+d['o:id']).attr("class","btn btn-success");
+                hideLoader(true);
             },d)
         }
 
