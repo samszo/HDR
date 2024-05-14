@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -154,7 +154,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"></span></a><span class="quarto-unresolved-ref">?sec-echelleConcetuellesystème</span> de connaissances (<a href="positionnements.html" class="quarto-xref"><span>Chapter 5</span></a>)
+ <span class="menu-text">Introduction générale</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -214,12 +214,23 @@ div.csl-indent {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./final.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conclusions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modéliser la complexité exitentielle d’écosystème de référence</span></span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
@@ -302,7 +313,7 @@ des microcerveaux. »<br>
 <p>Depuis une trentaine d’années, je m’intéresse à la modélisation des données et plus particulièrement à la question de savoir comment cette modélisation est utile pour créer les conditions de l’expérimentation des connaissances. Dès mes travaux en maîtrise d’histoire de l’art (1994), je me suis familiarisé à la création de bases de données qui pour moi à cette époque, prenaient la forme d’un simple tableur. Puis en DEA (1995), j’ai découvert avec le logiciel Hypercard<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> comment transformer mes tableurs en collections de fiches hypertextuelles <span class="citation" data-cites="deuff2019">(<a href="references.html#ref-deuff2019" role="doc-biblioref">Deuff, 2019</a>)</span> et surtout en interfaces dynamiques et interactives. Ce passage à Hypercard m’a fait comprendre les relations intimes entre les données, leurs représentations et leurs manipulations que <span class="citation" data-cites="card1999">(<a href="references.html#ref-card1999" role="doc-biblioref">Card, Mackinlay, &amp; Shneiderman, 1999</a>)</span> a bien schématisé :</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/fluxDataViz.png" class="img-fluid figure-img" style="width:16cm"></p>
+<p><img src="images/fluxDataViz.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:16cm"></p>
 <figcaption>Écosystème de manipulation des informations</figcaption>
 </figure>
 </div>
@@ -1301,24 +1312,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -1353,11 +1346,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

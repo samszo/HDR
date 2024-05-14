@@ -45,7 +45,7 @@ Les serveurs sont des machines qui fournissent des ressources via une requête s
 
 > « En utilisant aujourd'hui un tableur ou une base de données ad hoc pour stocker les données, non seulement on se prive de toute la richesse sémantique des LOD et de leur potentiel de traitement, mais encore on risque de ne pas pouvoir réutiliser l'information collectée. La communauté de recherche va ainsi continuer à parcourir mille fois le premier kilomètre, alors qu'une démarche collaborative de collecte de l'information, soutenue par des plateformes de recherche fondées sur les technologies sémantiques, permet de parcourir ensemble des milliers de kilomètres et de disposer, en très peu de temps et en faisant levier sur une curation collective des données, d'un graphe d'information de grande complexité, qualité et richesse. » [@beretta2023 § 15]
 
-Pour chaque projet de recherche et d'enseignement qui nécessitent de manipuler des données, nous avons développé des environnements Omeka S avec le cas échéant des modules et des thèmes spécifiques @sec-pratiquesOmk. Plus particulièrement, pour ce travail d'HDR, nous avons rassemblé dans un environnement Omeka S les informations concernant notre curriculum vitae et la veille informationnelle que nous menons depuis plus de quinze ans @sec-processusVeille.
+Pour chaque projet de recherche et d'enseignement qui nécessitent de manipuler des données, nous avons développé des environnements Omeka S avec le cas échéant des modules et des thèmes spécifiques. Plus particulièrement, pour ce travail d'HDR, nous avons rassemblé dans un environnement Omeka S les informations concernant notre curriculum vitae et la veille informationnelle que nous menons depuis plus de quinze ans @sec-processusVeille.
 
 Pour ce faire, nous avons créé :
 
@@ -123,7 +123,7 @@ Sur notre Terre, les données spatiales sont définies par trois propriétés : 
 
 [^principescarto-18]: <https://github.com/d3/d3-geo-projection>
 
-Dans notre cas, pour concevoir des cartes géographiques en deux dimensions nous utilisons des librairies JavaScript Open Source comme leaflet.js[^principescarto-19] ou D3.js qui permettent de manipuler des données géographiques modéliser avec le format GeoJSON[^principescarto-20]. Voici par exemple la représentation géographique de mes collaborations dans le monde à partir de mes dépôts dans HAL[^principescarto-21] @sec-datavizActiChercheur :
+Dans notre cas, pour concevoir des cartes géographiques en deux dimensions nous utilisons des librairies JavaScript Open Source comme leaflet.js[^principescarto-19] ou D3.js qui permettent de manipuler des données géographiques modéliser avec le format GeoJSON[^principescarto-20]. Voici par exemple la représentation géographique de mes collaborations dans le monde à partir de mes dépôts dans HAL[^principescarto-21] :
 
 [^principescarto-19]: <https://leafletjs.com/>
 
@@ -167,7 +167,7 @@ Ces compositions et décompositions des corps les plus simples que sont les part
 
 Pour cartographier les espaces matériels en tant qu'ensemble des parties extensives définissables par leurs propriétés physico-chimiques et leurs compositions vers l'infiniment grand et décompositions vers l'infiniment petit, nous optons pour un modèle de diagramme hiérarchique appelé « treemap » et proposé par [@shneiderman1998] qui se compose de rectangles imbriqués représentant un élément et ses sous-parties et dont la taille des rectangles est proportionnelle à la valeur numérique d'une propriété, par exemple le nombre d'éléments que contient la sous-partie .
 
-En utilisant l'objet TreeMap[^principescarto-25] de la librairie D3.js, nous avons implémenté ce modèle de diagramme dans un module JavaScript (@sec-jdcPhysiques) pour le rendre dynamique, interactif, et ainsi représenter les espaces matériels que nous cartographions soit à partir de données existantes soit en les créant au fur et à mesure de l'exploration. Notons que pour faciliter la visualisation des dimensions physiques complexes, nous avons implémenté une navigation directe vers une partie ou une sous-partie et une navigation hiérarchique par zoom dans une partie et dé-zoom vers le parent. Par exemple, nous avons cartographié notre CV en utilisant ce modèle de diagramme avec comme paramètre de taille des rectangles la durée d'un événement :
+En utilisant l'objet TreeMap[^principescarto-25] de la librairie D3.js, nous avons implémenté ce modèle de diagramme dans un module JavaScript pour le rendre dynamique, interactif, et ainsi représenter les espaces matériels que nous cartographions soit à partir de données existantes soit en les créant au fur et à mesure de l'exploration. Notons que pour faciliter la visualisation des dimensions physiques complexes, nous avons implémenté une navigation directe vers une partie ou une sous-partie et une navigation hiérarchique par zoom dans une partie et dé-zoom vers le parent. Par exemple, nous avons cartographié notre CV en utilisant ce modèle de diagramme avec comme paramètre de taille des rectangles la durée d'un événement :
 
 [^principescarto-25]: https://d3js.org/d3-hierarchy/treemap
 
@@ -203,7 +203,7 @@ Pour faciliter la manipulation des dimensions conceptuelles @sec-dimensionConcep
 
 > « L'hexagone permet de "paver" l'espace en un agencement sans fin, qui, potentiellement, permet de dessiner des réseaux infinis. \[...\] Choisir une grille hexagonale réduit le bruit numérique et facilite la lecture. » [@rodighiero2021, p. 76]
 
-Nous nous sommes inspirés des travaux d'Amit Patel[^principescarto-26] pour mettre en place une grille hexagonale et les fonctionnalités nécessaires pour les applications prétopologiques que nous avons codées dans une librairie JavaScript[^principescarto-27] et mises en application dans un module Omeka S (@sec-cartoAffect) afin de gérer les manipulations d'informations dans une base de données.
+Nous nous sommes inspirés des travaux d'Amit Patel[^principescarto-26] pour mettre en place une grille hexagonale et les fonctionnalités nécessaires pour les applications prétopologiques que nous avons codées dans une librairie JavaScript[^principescarto-27] et mises en application dans un module Omeka S  afin de gérer les manipulations d'informations dans une base de données.
 
 [^principescarto-26]: Pour une explication des grilles hexagonales : <https://www.redblobgames.com/grids/hexagons/>
     > Pour une proposition d'implémentation algorithmique : <https://www.redblobgames.com/grids/hexagons/implementation.html>

@@ -25,7 +25,9 @@ book:
     - part: perspectives.qmd
       chapters:
         - visees.qmd
-    - conclusion.qmd
+    - part: final.qmd
+      chapters:
+        - conclusion.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -50,7 +52,6 @@ format:
           - top=30mm
           - left=20mm
           - heightrounded
-    fontfamily: libertinus    
     toc: true
     lof: true
     lot: true
