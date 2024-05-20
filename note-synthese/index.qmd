@@ -1,14 +1,37 @@
+```{=tex}
+\newcommand{\setbackgrounds}{
+  % Background image for the "north west" corner
+  \AddToShipoutPictureBG{
+    \AtPageUpperLeft{%
+      \hspace{-0.35cm}%
+      \raisebox{-6.89cm}{%
+        \includegraphics[width=5.5cm]{Corner.png}%
+      }%
+    }%
+  }
+  % Background image for the "south west" corner
+  \AddToShipoutPictureBG{
+    \AtPageCenter{%
+      \hspace{7.3cm}%
+      \raisebox{-13cm}{%
+        \includegraphics[width=2.5cm]{logo3.png}%
+      }%
+    }%
+  }
+}
+```
+
 Université Vincennes - Saint-Denis Paris 8
 
 # Mémoire de synthèse en vue de l'Habilitation à diriger des recherches {.unnumbered}
 
 ## Samuel Szoniecky {.unnumbered}
 
-# Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication {.unnumbered}
+# Modéliser des écosystèmes de connaissances {.unnumbered}
 
-# Modeling knowledge ecosystems for an ecological management of information and communication {.unnumbered}
+# Modeling knowledge ecosystems {.unnumbered}
 
-Sous le parrainage du professeur XXX
+Sous le parrainage du professeur Imad Saleh
 
 Présenté le XXX devant un jury composé de :
 

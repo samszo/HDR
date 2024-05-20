@@ -1,0 +1,56 @@
+
+```{mermaid}
+%%| echo: false
+%%| label: fig-contraintesRapports
+%%| fig-cap: "Cohérences des rapports"
+%%| fig-height: 100px
+
+graph TD
+    root((rapports
+    possibles)):::classOK
+    
+    subgraph sujet
+    sujetP((Physique)):::classKO
+    sujetA((Actant)):::classOK
+    sujetC((Concept)):::classKO
+    sujetR((Rappport)):::classKO
+    end
+    root-->sujetP
+    root-->sujetA
+    root-->sujetC
+    root-->sujetR
+
+    subgraph objet
+    sujetA-->objetAP((Physique)):::classOK
+    sujetA-->objetAA((Actant)):::classOK
+    sujetA-->objetAC((Concept)):::classOK
+    sujetA-->objetAR((Rappport)):::classOK
+    end
+
+    subgraph prédicat
+    objetAP-->predAPC((Concept)):::classOK
+    objetAA-->predAAC((Concept)):::classOK
+    objetAC-->predACC((Concept)):::classOK
+    objetAR-->predARC((Concept)):::classOK
+    objetAP-->predAPP((Physique)):::classKO
+    objetAP-->predAPA((Actant)):::classKO
+    objetAP-->predAPR((Rappport)):::classKO
+    objetAA-->predAAP((Physique)):::classKO
+    objetAA-->predAAA((Actant)):::classKO
+    objetAA-->predAAR((Rappport)):::classKO
+    objetAC-->predACP((Physique)):::classKO
+    objetAC-->predACA((Actant)):::classKO
+    objetAC-->predACR((Rappport)):::classKO
+    objetAR-->predARP((Actant)):::classKO
+    objetAR-->predARA((Actant)):::classKO
+    objetAR-->predARR((Rappport)):::classKO
+
+    end
+
+
+    classDef classOK fill:green,font-weight:bold,color:white;
+    classDef classKO fill:red,color:black;
+    linkStyle 0,2,3,12,13,14,15,16,17,18,19,20,21,22,23 stroke:red,stroke-width:4px;
+    linkStyle 1,4,5,6,7,8,9,10,11 stroke:green,stroke-width:4px;
+
+```

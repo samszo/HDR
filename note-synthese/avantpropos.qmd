@@ -12,7 +12,7 @@ Le présent document a été réalisé avec l'outil Quarto que nous avons utilis
 
 -   sous la forme d'un site Web : <https://samszo.github.io/HDR/>
 
-En explorant ce milieu de connaissances, je vous propose de formaliser vos propres traces et d'exprimer vos points de vue en les rendant facilement accessibles aux autres chercheurs dans un souci d'ouverture et d'interopérabilité de la science. Pour ce faire, nous vous proposons deux solutions :
+En consultant ces documents, je vous propose de formaliser vos propres traces et d'exprimer vos points de vue en les rendant facilement accessibles aux autres chercheurs dans une ambition d'ouverture et d'interopérabilité de la science. Pour ce faire, nous vous proposons deux solutions :
 
 -   en utilisant l'outil hypothes.is[^avantpropos3] , vous pouvez annoter directement la version Web de ce travail
 

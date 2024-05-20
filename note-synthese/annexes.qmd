@@ -1,0 +1,62 @@
+# Annexes
+
+En complément de ce cette note de synthèse nous mettons à disposition nos principales publications :
+
+Saleh, I., Ammi, M., & Szoniecky, S. (2018). Challenges of the Internet of Things:
+Technique, Use, Ethics. Hoboken, NJ: ISTE Ltd.
+
+Saleh, I., & Szoniecky, S. (2024). Les frontières numériques (pp. 7–17). Paris.
+
+Stransky, L., & Szoniecky, S. (2014). XIXe congrès de la SFSIC, Penser les techniques
+et les technologies. Université du Sud Toulon Var. Retrieved from https://hal-univ-
+paris8.archives-ouvertes.fr/hal-01098436
+
+Szoniecky, S. (2011). Proposition d’une méthode graphique pour le filtrage des flux
+d’information. Bordeaux. Retrieved from http://www.sfsic.org/%C3%A9v%C3%
+A9nements-sfsic/doctorales-2011/doctorales-2011--publication-des-actes
+
+Szoniecky, S. (2012a). Évaluation et conception d’un langage symbolique
+pour l’intelligence collective : Vers un langage allégorique pour le web (PhD thesis).
+Retrieved from http://tel.archives-ouvertes.fr/tel-00764457
+
+Szoniecky, S. (2012b). Les frontières des écosystèmes d’informations numériques. Local
+& global (pp. pp. 65–76). L’Harmattan.
+
+Szoniecky, S. (2017). Écosystème de connaissances : Méthode de modélisation et
+d’analyse de l’information et de la communication. ISTE Editions.
+
+Szoniecky, S. (2018b). Jeux d’interprétations collectives pour cartographier les influences
+sapientielles. Aliento (Editions Universitaires de Lorraine.). Presses universitaires
+de Nancy. Retrieved from http://www.lcdpu.fr/livre/?GCOI=27000100976800&fa=
+
+Szoniecky, S. (2018a). Ecosystems Knowledge: Modeling and Analysis Method for Infor-
+mation and Communication. Wiley-Iste.
+
+Szoniecky, S. (2019). Métamorphoses et hybridations d’une archive numérique pour sa
+valorisation : vers des écosystèmes de connaissances. (S. Leleu-Merviel & K. Zreik,
+Eds.)Journal of Human Mediated Interactions, 20(1), 77–104. Retrieved from http:
+//europia.org/RIHM/V20N1/3-RIHM20V1-samszo.pdf
+
+Szoniecky, S. (2020). Conception d’un crible pour mesurer collectivement les impacts
+écologiques de l’activité. Les Cahiers du numerique, Vol. 16(2), 175–199. Retrieved
+from https://www.cairn.info/revue-les-cahiers-du-numerique-2020-2-page-175.htm
+
+Szoniecky, S. (2024). Stratégies de tromperie et puissances du faux dans les arts
+trompeurs et l’écosystème socionumérique contemporain. Université de Montréal.
+Retrieved from https://crilcq.org/activites/4020/
+
+Szoniecky, S., Balpe, J.-P., & Reyes, E. (n.d.). 2016 - Generative Stein Poems. Retrieved
+from https://www.academia.edu/28638189/2016_-_Generative_Stein_Poems
+
+Szoniecky, S., & Bouhaï, N. (2017). Collective Intelligence and Digital Archives: Towards
+Knowledge Ecosystems (1st ed.). Wiley-ISTE.
+
+Szoniecky, S., Hachour, H., & Bouhai, N. (2012).
+Générateur hypertextuel pour l’interprétation des médias sociaux dans une topologie sémantique. Les Cahiers du
+numérique, Vol. 7, Empreintes de l’hypertexte sous la direction de Caroline Angé(3),
+93–121. Retrieved from http://lcn.revuesonline.com/article.jsp?articleId=17695
+
+Szoniecky, S., & Toumia, A. (2020). Design de connaissances dans l’Internet des Objets :
+Blockchain et réfrigérateur connecté. Communication management, Vol. 17 (1), 39–
+52. Retrieved from https://www.cairn.info/revue-communication-et-management-
+2020-1-page-39.htm

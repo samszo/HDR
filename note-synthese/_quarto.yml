@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 book:
-  title: "Habilitation à Diriger des Recherches : Modélisation des écosystèmes de connaissances pour une écologie de l'information et de la communication"
+  title: "Habilitation à Diriger des Recherches : Explorer les écosystèmes de connaissances"
   subtitle: "Note de Synthèse"
   author:
     - name: Samuel Szoniecky
@@ -28,23 +28,40 @@ book:
     - part: final.qmd
       chapters:
         - conclusion.qmd
+        - annexes.qmd
     - references.qmd
 
 bibliography: references.bib
 csl: apa-5th-edition.csl
 
+crossref:
+  lof-title: Liste des figures
+  lot-title: Liste des tables
+
 format:
   html:
     theme: cosmo
     css: styles.css
+    toc: true
+    lof: true
+    lot: true
+    toc-depth: 4
     comments:
       hypothesis: true
   docx:
     toc: true
+    lof: true
+    lot: true
+    toc-depth: 4
     number-sections: true
     number-depth: 4
     highlight-style: github
   pdf: 
+    toc: true
+    lof: true
+    lot: true
+    toc-title: Table des matières
+    toc-depth: 4
     documentclass: scrreprt
     pdfengine: xelatex
     papersize: A4    
@@ -52,13 +69,13 @@ format:
           - top=30mm
           - left=20mm
           - heightrounded
-    toc: true
-    lof: true
-    lot: true
-    toc-depth: 4
-    toc-title: Table des matières
-    lof-title: Liste des figures
-    lot-title: Liste des tables
-#  include-in-header: before-body.tex   
-
-
+    linestretch: 1.5
+    fontsize: 12pt
+    include-in-header: 
+          text: |
+            \usepackage{fancyhdr}
+            \pagestyle{fancy}
+            \fancyhead[R]{\textbf{page \thepage}} 
+            \fancyhead[L]{\thesection}             
+            \fancyfoot[R]{\leftmark}
+            \fancyfoot[L]{Samuel Szoniecky}

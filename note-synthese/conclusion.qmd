@@ -1,25 +1,106 @@
+::: {#exergue-visees1 .exergue}
+« L'arbre n'est pas seulement un signe,\
+il est le signe des signes, \[...\]\
+le diagramme des diagrammes,\
+celui qui est le mieux en prise\
+avec le réel et son devenir. »\
+[@dahan-gaida2020, § 37]
+:::
 
-« L'arbre n'est pas seulement un signe, il est le signe des signes, le diagramme des diagrammes, celui qui est le mieux en prise avec le réel et son devenir. Qu'il s'incarne dans des images matérielles, des images mentales ou des images métaphoriques, il affirme sa puissance organisatrice dans tous les domaines depuis les débuts de la pensée moderne jusqu'à l'ère numérique. » (Dahan-Gaida, 2020)§ 37
+::: {#exergue1 .exergue}
+« Science sans référence n'est que fiction. »\
+[@callon2013]
+:::
 
+# Conclusions
 
+Dans cette note de synthèse nous avons présenté dans une première partie notre parcours académique depuis nos premières recherches en histoire de l'Art jusqu'aujourd'hui @sec-parcoursinitiaux. Nous avons montré la diversité de nos travaux en science de l'information et de la communication @sec-posiSIC en détaillant cinq publications @sec-posiPubli et quatre projets de recherche @sec-posiProjet. Ce parcours a ensuite était analysé à partir de notre écosystème de connaissances. Nous avons expliqué notre méthode pour le créer @sec-methodeEco, puis décrit les données qui le constitue @sec-dataEcoCon avant de donner un exemple d'analyse en nous focalisant sur les personnes qui sont présente dans celui-ci @sec-personneEcoCon .
 
-Mais comment créer une anthropologie dodécaphonique, comme le suggère Lévi-Strauss, c’est-à-dire capable de décrire un monde dans lequel les “cultures” n’ont pas un fondement absolu sur lequel s’applique le relativisme, mais se définissent les unes par rapport aux autres, y compris, bien sûr, la culture de l’anthropologue ? [@surrallés2024]
+Dans une deuxième partie, nous avons abordé les questions théoriques et pratiques qui se posent pour explorer des écosystèmes de connaissances.
 
-Je produis un accord chaque fois que je peux établir dans un ensemble d'infiniment petits des rapports différentiels qui rendront possible une intégration de l'ensemble, c'est-à-dire une perception claire et distinguée. c'est un filtre, une sélection." p. 179 par un rapport une éthique spécifique, c'est-à-dire une puissance non pas leurs évolutions et reprendre ainsi celles décrites par Spinoza et que Deleuze présente en quatre moments :
+Dans un premier chapitre, nous avons énoncé dans un premier temps les 8 principes fondamentaux que nous avons défini comme socle de nos recherches @sec-principesInfoCom :
 
-> « 1. joie passive qui augmente notre puissance d'agir, d'où découlent des désirs ou des passions, en fonction d'une idée encore inadéquate ; 2. à la faveur de ces passions joyeuses, formation d'une notion commune (idée adéquate) ; 3. joie active, qui suit de cette notion commune et qui s'explique par notre puissance d'agir ; 4. cette joie active s'ajoute à la joie passive, mais remplace les désirs-passions qui naissaient de celle-ci pas des désirs qui appartiennent à la raison, et qui sont de véritables actions. Ainsi se réalise le programme de Spinoza : non pas supprimer toute passion, mais à la faveur de la passion joyeuse, faire que les passions n'occupent plus que la plus petite partie de nous-même et que notre pouvoir d'être affecté soit rempli par un maximum d'affections actives." [@deleuze1968, p. 264]
+-   principe dialogique
 
- En tant qu'il génère nécessairement de la multiplicité le vide présent dans tout ensemble transforme le topos spécifique des idées inadéquates en possibilité d'expérimenter l'essence absolue d'une vérité générique.
-Peut-on modéliser autre chose que les conditions d'expérimentation ? Peut-on s'inspirer des spiritualité du vide pour créer ces conditions ?
+-   principe récursif
 
-Les plateaux sont des multiplicités qui s'interconnectent par des ramifications rhizomatiques, qui posent que l'écrit n'est plus un signifié, mais un arpentage et une cartographie. C'est l'objet de la philosophie que de construire des réseaux qui relient les idées et produisent les concepts. De là, l'importance des lieux synaptiques qui sont à la charnière des strates et des couches géologiques, des niveaux et des plans que composent le savoir et le monde. Les surfaces sont toujours entaillées de modifications de reliefs que le rhizome restitue. L'Être n'est plus l'Être en tant qu'Être mais l'Être en tant qu'Être en un lieu. Le topos est le plan d'immanence sur lequel se développe la réflexion sur la philosophie des sciences. L'ontologie se mue en une onto-(po)-logie ou ontologie toposique. p. 156
+-   principe hologrammatique
 
-Jedrzejewski, F., 2007. Diagrammes et Catégories (Philosophie). Université Paris-Diderot - Paris VII, Paris.
+-   principe du cycle de la sémiose
 
-Ce séminaire à pour vocation de sensibiliser à la pratique FAIR de la science en sensibilisant les chercheurs à la pratique de la modélisation des connaissances. Ouvert aux chercheurs voulant des recherches en humanités numériques existantes, ce séminaire permettra de diffuser les bonnes pratiques et outils efficaces pour les recherches en Humanités numériques.
+-   principe des plis analogiques
 
-## Modéliser la complexité exitentielle d'écosystème de référence {#sec-modeliserEcosystemeReference}
-Ce travail sera mené dans le cadre du séminaire de recherche sur la modélisation des connaissances en sciences humaines et à une autre échelle dans les cours de Master sur le Web sémantique et ceux sur l'éthique des écosystèmes numériques.
-Nous prévoyons notamment de mener une recherche au long cours sur la modélisation existentielle de Wikipédia et ses évolutions de même qu'une analyse comparatives des bibliothèques universitaires de France puis du monde.
+-   principe de la raison trajective
 
-Revue Paragraphe de Paragraphe
+-   principe des degrés de flexibilité
+
+-   principe ontoéthique
+
+Dans ce même temps, nous avons défini les 3 pouvoirs fondamentaux qui sont à l'oeuvre dans les pulsations existentielles qui génèrent nos connaissances :
+
+-   discerner
+
+-   raisonner
+
+-   agir
+
+Dans un deuxième temps, à partir de ces principes nous avons développé un métamodèle @sec-modeleOntoEthique pour à la fois construire une ontologie en modélisant des existences informationnelles et définir une éthique en analysant leurs pouvoirs. Nous avons montrer comment ce métamodèle se base sur quatre dimensions existentielles corrélées à quatre genres de connaissances :
+
+-   première dimension : la matière comme connaissances des chocs @sec-dimensionMateriels
+-   deuxième dimension : les concepts comme connaissances des essences @sec-dimensionConceptuels
+-   troisième dimension : les actants comme connaissances des dynamiques génératives @sec-dimensionActant
+-   quatrième dimension : les rapports comme connaissances des existences potentielles @sec-dimensionRapports
+
+Dans un troisième temps, ce métamodèle nous a servi à définir la complexité d'un écosystème de connaissances et des existences qui la composent @sec-complexiteExitentielle . Nous avons tout d'abord expliqué comment calculer cette complexité @sec-calculerComplex puis comment :
+
+-   représenter la complexité @sec-representerComplex,
+
+-   naviguer dans un écosystème @sec-naviguerComplex,
+
+-   analyser les existences @sec-analyserComplex
+
+-   définir des objectifs existentiels @sec-definirComplex.
+
+Ce chapitre se termine par une réflexion sur la modélisation des pouvoirs existentiels @sec-modeliserPouvoir en s'inspirant notamment des analyses sur le pouvoir d'agir et leur extension pour concevoir une cartographie des affects @sec-pouvoirAgirCartoAffect. Nous détaillons ensuite comment la définition de ces pouvoirs permet de construire une sémiotique générique @sec-semioGenerique dont nous montrons une mise en application dans l'exemple de l'écosystème du spectacle vivant @sec-ecoSpectacle et plus précisément dans le pouvoir d'agir d'un dispositif numériques dans une pièce de théâtre @sec-pouvoirDispositif .
+
+Dans un deuxième chapitre, nous avons présenté nos principes de cartographie des connaissances dans le contexte d'un environnement Web @sec-cartoEnvWeb en expliquant l'importance des représentations spatio-temporelles @sec-repSpatioTempo puis comment cartographier notre métamodèle dans ces différentes dimensions :
+
+-   espaces matériels : représenter des hiérarchies @sec-espaceMateriels
+
+-   espaces conceptuels : représenter des topologies @sec-espaceConceptuels
+
+-   actant : représenter des communautés agissantes @sec-espaceActant
+
+-   rapports : représenter des relations @sec-rapportsInstExis
+
+Dans ce même chapitre, nous avons ensuite présenté notre conception du crible @sec-modeliserCrible comme élément fondamental pour piloter les dimensions existentielles et cartographiques en préservant la subjectivités des utilisateurs et en assurant leur interopérabilité.
+
+Ce deuxième chapitre de la deuxième partie, ce conclue par une réflexion sur la confiance @sec-confianceDonnees que nous pouvons accorder au données et comment la construire à partir d'une cartographie des affects.
+
+La troisième et dernière partie de ce document présente comment nos propositions pour cartographier des écosystèmes de connaissances définissent des perspectives scientifiques en les déclinants suivant quatre échelles d'exploration @sec-echelleExploration qui reprennent les dimensions existentielles de notre métamodèle :
+
+-   Échelle locale : produire une expression matérielle cohérente @sec-echelleLocale
+
+-   Échelle sociale : la communauté des enseignants chercheurs @sec-echelleSociale
+
+-   Échelle conceptuelle : théoriser la modélisation des connaissances @sec-echelleConcetuelle
+
+-   Échelle globale : technologies intellectives @sec-echelleGlobale
+
+Nous proposons ensuite six axes d'expériementations @sec-axeExpe afin de montrer dans quelles directions les échelles peuvent être explorées et comment la diversités des expériences trouvent leur cohérences grâce à un métamodèle commun :
+
+-   Axe Frontières numériques @sec-axeFrontieres
+
+-   Axe Internet des objets @sec-axeIOT
+
+-   Axe écritures génératives @sec-axeGeneratif
+
+-   Axe design des connaissances @sec-axeDesignConnaissances
+
+-   Axe éthique de la discussion pour l’intelligence collective @sec-axeFormaConsensus
+
+-   Axe puissances existentielles @sec-puissanceExistentielle
+
+Bien évidemment, ces axes ne sont pas la liste exhaustive des expérimentations qu'il est possible de mener dans le domaine des écosystèmes de connaissances. De même concernant les échelles d'exploration qui ne se réduisent pas à celle que nous avons présentées. De manière générale, les propositions que nous avançons dans ce document doivent être critiquées, discutées et contredites, elles ont pour vocation principale de faire naître un débat constructif sur les écosystèmes de connaissances. C'est pourquoi, à la suite de ce travail, nous envisageons de créer un séminaire de recherche autour de ces questions afin de sensibiliser les chercheurs à la pratique de l'exploration des connaissances par une modélisation et une cartographie des écosystèmes qu'elles génèrent.
+
+Au terme de ce document, nous avons parcourus plus de vingt ans de questionnement intellectuel et montré comment une pensée prend forme, se déploie et trace des perspectives pour les années à venir. Nous prenons beaucoup de plaisir à cultiver cette matière vivante qui croît dans le partage des expériences communes et des réflexions qui résonnent en nous. Espérons que nos propositions stimulent d'autres pensées et nous encourage à cultiver un écosystème où chacun pourra trouver l'équilibre qui lui correspond.

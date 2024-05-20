@@ -88,7 +88,7 @@ La modélisation des pulsations existentielles sous forme de diagramme onto-éth
 
 #### Interprétation des traces
 
-« Ainsi, la restitution des traces d'activité à l'utilisateur est en mesure de renforcer sa ré exivité à partir des trois types de rétention que nous empruntons à B. Stiegler (2001) : en activant les supports de mémoire comme trace écrite (rétention tertiaire), en activant les souvenirs (rétention secondaire) en activant la conscience générale de l'individu (rétention primaire). » (Hulin, 2020, p. 107)
+« Ainsi, la restitution des traces d'activité à l'utilisateur est en mesure de renforcer sa réflexivité à partir des trois types de rétention que nous empruntons à B. Stiegler (2001) : en activant les supports de mémoire comme trace écrite (rétention tertiaire), en activant les souvenirs (rétention secondaire) en activant la conscience générale de l'individu (rétention primaire). » (Hulin, 2020, p. 107)
 
 (Rodighiero, 2021)
 
@@ -160,3 +160,17 @@ Jedrzejewski, F. (2020). Formes de vie des objets mathématiques. *Rue Descartes
 • There is no methodology to organize the resources produced by different systems in the DE." p. 15
 
 Saleh, M., 2018. Digital ecosystem : towards a system of information systems (phdthesis). Université de Technologie de Compiègne.
+
+## anthropologie dodécaphonique
+
+Mais comment créer une anthropologie dodécaphonique, comme le suggère Lévi-Strauss, c’est-à-dire capable de décrire un monde dans lequel les “cultures” n’ont pas un fondement absolu sur lequel s’applique le relativisme, mais se définissent les unes par rapport aux autres, y compris, bien sûr, la culture de l’anthropologue ? [@surrallés2024]
+
+Je produis un accord chaque fois que je peux établir dans un ensemble d'infiniment petits des rapports différentiels qui rendront possible une intégration de l'ensemble, c'est-à-dire une perception claire et distinguée. c'est un filtre, une sélection." p. 179 par un rapport une éthique spécifique, c'est-à-dire une puissance non pas leurs évolutions et reprendre ainsi celles décrites par Spinoza et que Deleuze présente en quatre moments :
+
+« 1. joie passive qui augmente notre puissance d'agir, d'où découlent des désirs ou des passions, en fonction d'une idée encore inadéquate ; 2. à la faveur de ces passions joyeuses, formation d'une notion commune (idée adéquate) ; 3. joie active, qui suit de cette notion commune et qui s'explique par notre puissance d'agir ; 4. cette joie active s'ajoute à la joie passive, mais remplace les désirs-passions qui naissaient de celle-ci pas des désirs qui appartiennent à la raison, et qui sont de véritables actions. Ainsi se réalise le programme de Spinoza : non pas supprimer toute passion, mais à la faveur de la passion joyeuse, faire que les passions n'occupent plus que la plus petite partie de nous-même et que notre pouvoir d'être affecté soit rempli par un maximum d'affections actives." [@deleuze1968, p. 264]
+
+En tant qu'il génère nécessairement de la multiplicité le vide présent dans tout ensemble transforme le topos spécifique des idées inadéquates en possibilité d'expérimenter l'essence absolue d'une vérité générique. Peut-on modéliser autre chose que les conditions d'expérimentation ? Peut-on s'inspirer des spiritualité du vide pour créer ces conditions ?
+
+Les plateaux sont des multiplicités qui s'interconnectent par des ramifications rhizomatiques, qui posent que l'écrit n'est plus un signifié, mais un arpentage et une cartographie. C'est l'objet de la philosophie que de construire des réseaux qui relient les idées et produisent les concepts. De là, l'importance des lieux synaptiques qui sont à la charnière des strates et des couches géologiques, des niveaux et des plans que composent le savoir et le monde. Les surfaces sont toujours entaillées de modifications de reliefs que le rhizome restitue. L'Être n'est plus l'Être en tant qu'Être mais l'Être en tant qu'Être en un lieu. Le topos est le plan d'immanence sur lequel se développe la réflexion sur la philosophie des sciences. L'ontologie se mue en une onto-(po)-logie ou ontologie toposique. p. 156
+
+Jedrzejewski, F., 2007. Diagrammes et Catégories (Philosophie). Université Paris-Diderot - Paris VII, Paris.
