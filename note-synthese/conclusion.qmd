@@ -44,7 +44,7 @@ Dans ce même temps, nous avons défini les 3 pouvoirs fondamentaux qui sont à 
 
 -   agir
 
-Dans un deuxième temps, à partir de ces principes nous avons développé un métamodèle @sec-modeleOntoEthique pour à la fois construire une ontologie en modélisant des existences informationnelles et définir une éthique en analysant leurs pouvoirs. Nous avons montrer comment ce métamodèle se base sur quatre dimensions existentielles corrélées à quatre genres de connaissances :
+Dans un deuxième temps de cette première partie, nous avons développé à partir de ces principes un métamodèle @sec-modeleOntoEthique pour à la fois construire une ontologie en modélisant des existences informationnelles et définir une éthique en analysant leurs pouvoirs. Nous avons montrer comment ce métamodèle se base sur quatre dimensions existentielles corrélées à quatre genres de connaissances :
 
 -   première dimension : la matière comme connaissances des chocs @sec-dimensionMateriels
 -   deuxième dimension : les concepts comme connaissances des essences @sec-dimensionConceptuels
@@ -73,11 +73,9 @@ Dans un deuxième chapitre, nous avons présenté nos principes de cartographie 
 
 -   rapports : représenter des relations @sec-rapportsInstExis
 
-Dans ce même chapitre, nous avons ensuite présenté notre conception du crible @sec-modeliserCrible comme élément fondamental pour piloter les dimensions existentielles et cartographiques en préservant la subjectivités des utilisateurs et en assurant leur interopérabilité.
+Dans ce même chapitre, nous avons ensuite présenté notre conception du crible @sec-modeliserCrible comme élément fondamental pour piloter les dimensions existentielles avec des cartographies en préservant la subjectivités des utilisateurs et en assurant leur interopérabilité. Nous concluons ce chapitre par une réflexion sur la confiance @sec-confianceDonnees que nous pouvons accorder au données et comment la construire à partir d'une cartographie des affects.
 
-Ce deuxième chapitre de la deuxième partie, ce conclue par une réflexion sur la confiance @sec-confianceDonnees que nous pouvons accorder au données et comment la construire à partir d'une cartographie des affects.
-
-La troisième et dernière partie de ce document présente comment nos propositions pour cartographier des écosystèmes de connaissances définissent des perspectives scientifiques en les déclinants suivant quatre échelles d'exploration @sec-echelleExploration qui reprennent les dimensions existentielles de notre métamodèle :
+La troisième et dernière partie de ce document présente comment nos propositions pour modéliser des écosystèmes de connaissances définissent des perspectives scientifiques en les déclinants suivant quatre échelles d'exploration @sec-echelleExploration qui reprennent les dimensions existentielles de notre métamodèle :
 
 -   Échelle locale : produire une expression matérielle cohérente @sec-echelleLocale
 
@@ -101,6 +99,26 @@ Nous proposons ensuite six axes d'expériementations @sec-axeExpe afin de montre
 
 -   Axe puissances existentielles @sec-puissanceExistentielle
 
-Bien évidemment, ces axes ne sont pas la liste exhaustive des expérimentations qu'il est possible de mener dans le domaine des écosystèmes de connaissances. De même concernant les échelles d'exploration qui ne se réduisent pas à celle que nous avons présentées. De manière générale, les propositions que nous avançons dans ce document doivent être critiquées, discutées et contredites, elles ont pour vocation principale de faire naître un débat constructif sur les écosystèmes de connaissances. C'est pourquoi, à la suite de ce travail, nous envisageons de créer un séminaire de recherche autour de ces questions afin de sensibiliser les chercheurs à la pratique de l'exploration des connaissances par une modélisation et une cartographie des écosystèmes qu'elles génèrent.
+Bien évidemment, ces axes ne sont pas la liste exhaustive des expérimentations qu'il est possible de mener dans le domaine des écosystèmes de connaissances. De même concernant les échelles d'exploration qui ne se réduisent pas à celle que nous avons présentées. De manière générale, les propositions que nous avançons dans ce document doivent être critiquées, discutées et contredites, elles ont pour vocation principale de faire naître un débat constructif sur les écosystèmes de connaissances.
+
+Il va de soit que le métamodèle que nous proposons n'en est qu'un parmi une infinité d'autres mais l'avantage de celui-ci est qu'il est relativement simple à utiliser. En effet, le modèle se manipule uniquement avec quatre dimensions bien distinctes associées à des formes graphiques bien spécifiques :
+
+-   physique - rectangle
+
+-   actant - hexagone
+
+-   concept - cercle
+
+-   rapport - ligne
+
+Autre avantage de ce modèle est qu'il offre aujourd'hui les premières briques informatiques permettant de l'utiliser pour à la fois modéliser, cartographier et analyser un écosystème de connaissances.
+
+Toutefois, même sans aller jusqu'à comprendre toutes les références et principes qui nous ont permis de concevoir ce métamodèle, une médiation est sans doute nécessaire pour comprendre comment l'utiliser au mieux et pourquoi faire tels choix de modélisation pour quelles manipulations et quelles objectifs.
+
+C'est pourquoi, à la suite de ce travail, nous envisageons de créer un séminaire de recherche autour de ces questions afin de sensibiliser les chercheurs à la pratique de l'exploration des connaissances par une modélisation et une cartographie des écosystèmes qu'elles génèrent. Ouvert aux chercheurs de toutes les disciplines, ce séminaire se veut un espace d'expérimentation pratique où les problématiques, les méthodes et les terrains spécifiques à chaque domaine pourront être présentés pour évaluer en quoi le métamodèle que nous proposons aide à l'émergence de nouvelles pratiques d'éditorialisation scientifiques et de partage des connaissances.
+
+En lien avec ce séminaire et plus globalement avec les recherche menées au laboratoire Paragraphe, nous souhaitons en collaboration avec nos collègues, expérimenter ces pratiques d'éditorialisation scientifique dans une revue en libre accès hébergée sur la plateforme Episciences[^conclusion-1] . L'ambition de cette revue est de fournir un espace d'expériementation et de débats pour l'ensemble des acteurs du laboratoire Paragraphe et des leurs partenaires.
+
+[^conclusion-1]: Lien vers le site de la plateforme Episciences : <https://www.episciences.org/fr/accueil/>
 
 Au terme de ce document, nous avons parcourus plus de vingt ans de questionnement intellectuel et montré comment une pensée prend forme, se déploie et trace des perspectives pour les années à venir. Nous prenons beaucoup de plaisir à cultiver cette matière vivante qui croît dans le partage des expériences communes et des réflexions qui résonnent en nous. Espérons que nos propositions stimulent d'autres pensées et nous encourage à cultiver un écosystème où chacun pourra trouver l'équilibre qui lui correspond.
